@@ -1,12 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
-user-guide-description: Esta é uma descrição que será exibida na landing page.
-badgeBeta: label="Versão do Beta" type="informative" tooltip="Documentação da versão do Beta"
-badgeGA: label="Versão limitada do GA" type="neutral" tooltip="Documentação de versão limitada do GA"
-source-git-commit: 765720da2fe4f8ccc668d8defc6a76cf942f7b5d
+user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compras usando a IA gerativa integrada e a automação líder do setor.
+source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '130'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +12,14 @@ ht-degree: 5%
 # Guia do usuário do Journey Optimizer B2B Edition {#user}
 
 + [Documentação do Adobe Journey Optimizer B2B Edition](guide-overview.md)
-+ [Logon e página inicial](home-page.md)
++ Introdução {#get-started}
+   + [Visão geral da Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
+   + [Logon e página inicial](home-page.md)
+   + [Orientação de início rápido](./start/get-started.md)
+   + [Usar o Assistente de IA](./start/ai-assistant.md)
++ Públicos da conta {#account-audiences}
+   + [Visão geral](./audiences/account-audience-overview.md)
+   + [Mapeamento de campo XDM](./data/field-mapping.md)
 + Comprando Grupos {#buying-groups}
    + [Visão geral](./buying-groups/buying-groups-overview.md)
    + [Interesses da solução](./buying-groups/solution-interests.md)
@@ -25,11 +30,21 @@ ht-degree: 5%
    + [Nós de jornada de conta](./journeys/journey-nodes.md)
 + Jornada conteúdo {#journey-content}
    + [Criação de email](./content/email-authoring.md)
+   + [Email de alerta de vendas](./content/sales-alert-email.md)
    + [Assistente de IA para criação de email](./content/ai-assistant-emails.md)
    + [Criação de SMS](./content/sms-authoring.md)
++ Gerenciamento de conteúdo {#content-management}
+   + Assets {#assets}
+      + [Visão geral](./content/assets-overview.md)
+      + [Trabalhar com ativos do Marketo Engage](./content/marketo-engage-design-studio.md)
+      + [Trabalhar com imagens do AEM Assets](./content/aem-assets.md)
+   + [Modelos](./content/email-templates.md)
+   + [Fragmentos](./content/fragments.md)
 + Painéis de insights {#dashboards}
    + [Grupos de compra](./dashboards/buying-groups-dashboard.md)
    + [Visão geral do engajamento](./dashboards/engagement-dashboard.md)
    + [Visão geral da jornada](./dashboards/journeys-dashboard.md)
-+ Integrações {#integrations}
-   + [Adobe Experience Manager Assets](./integrations/experience-manager-assets-integration.md)
++ Administração {#admin}
+   + [Gerenciamento de usuários](./admin/user-management.md)
+   + [Configurar repositórios do AEM Assets](./admin/configure-aem-repositories.md)
+   + [Governança](./admin/governance.md)

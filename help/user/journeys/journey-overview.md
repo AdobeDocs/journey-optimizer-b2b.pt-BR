@@ -3,9 +3,9 @@ title: Jornadas da conta
 description: Saiba mais sobre jornadas de conta e como criá-las e gerenciá-las.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Defina um envolvimento orientado a vendas que inclua email, SMS e muito mais jor
 
 Esta tabela inclui a capacidade de pesquisar por Nome e Criado por. A classificação não está disponível no momento.
 
-Você pode personalizar a tabela exibida clicando no ícone de colunas no canto superior direito e marcando ou desmarcando as caixas de seleção.
+Você pode personalizar a tabela exibida ao clicar no ícone _Colunas_ no canto superior direito e marcar ou desmarcar as caixas de seleção.
 
 ![Escolha as colunas a serem exibidas na lista de jornadas da conta](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Clique no nome (exibido como um link) na lista _[!UICONTROL jornadas da conta]_ 
 
 ![Espaço de trabalho de jornada de conta](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-O cabeçalho do editor de cada jornada inclui:
+O cabeçalho do editor de cada jornada de conta inclui:
 
 * Nome da jornada
 * Capacidade de editar o nome (_ícone Editar_)

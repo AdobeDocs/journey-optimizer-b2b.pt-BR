@@ -3,9 +3,9 @@ title: Comprando modelos de função do grupo
 description: Saiba mais sobre como definir um modelo de função a ser usado como um componente de grupo de compras.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
 1. Adicione uma regra para cada função que você deseja definir para o modelo.
 
-   Na versão atual, há seis funções: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
+* Escolha a **[!UICONTROL Função do grupo de compra]** na lista.
 
-   ![Lista de funções do grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  Na versão atual, há seis funções: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
 
-   * Escolha uma função na lista.
+![Lista de funções do grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * Clique em **[!UICONTROL Adicionar Condição]**.
+* Defina a **[!UICONTROL Ponderação]** da função, que é usada para calcular a pontuação de engajamento.
+
+  O valor de cada opção é convertido em uma porcentagem para o cálculo de pontuação: [!UICONTROL Trivial] = 20, [!UICONTROL Menor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80 e [!UICONTROL Vital] = 100.
+
+  Por exemplo, um modelo de função com funções que usam Vital, Importante e Normal é convertido como 100/240, 80/240, 60/240.
+
+* **[!UICONTROL Adicionar condições para atribuição automática]** - marque esta caixa de seleção para adicionar condições para atribuir automaticamente membros ao grupo de compras que correspondem à condição. Se a caixa de seleção não estiver marcada, a adição de condições NÃO será necessária.
+
+* **[!UICONTROL Obrigatório para pontuação de integridade]** - Marque esta caixa de seleção para a função se desejar que ela seja um requisito para o cálculo de uma pontuação de integridade. —>
+
+* Clique em **[!UICONTROL Adicionar Condição]**.
 
    * Na caixa de diálogo de condição, expanda a lista de **[!UICONTROL atributos de pessoa]** e localize um atributo que você deseja usar para corresponder à função. Arraste-o para a direita e solte-o no espaço de filtro.
 
@@ -77,19 +87,15 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
    * Clique em **[!UICONTROL Concluído]**.
 
-   Para cada função adicional que você deseja incluir no modelo, clique em **[!UICONTROL Adicionar outra função]** e defina uma ou mais condições para corresponder à função.
+Para cada função adicional que você deseja incluir no modelo, clique em **[!UICONTROL Adicionar outra função]** e defina uma ou mais condições para corresponder à função.
 
-   ![Modelo de funções com várias funções definidas](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![Modelo de funções com várias funções definidas](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publish]** no canto superior direito.
 
    A publicação do modelo o define como um status _Live_ e o disponibiliza para associação com um Interesse na Solução. Deve haver pelo menos uma função definida para publicar o modelo de funções.
 
    Suas alterações são salvas automaticamente no status _Rascunho_. Se você não estiver pronto para publicar o modelo de funções, clique na seta para a esquerda (voltar) na parte superior da página e retorne à lista Modelos de funções.
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Editar um modelo de funções de rascunho
 

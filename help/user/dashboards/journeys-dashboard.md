@@ -3,16 +3,16 @@ title: Painel de visão geral da Jornada
 description: Saiba mais sobre as informações fornecidas pelo painel Visão geral do Jornada e como ele pode ajudar você a monitorar e gerenciar sua estratégia de Jornada de conta.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Painel de visão geral da Jornada
 
-Esse painel fornece uma visão abrangente do engajamento e mostra métricas de conta e interações individuais em tempo real por meio de gráficos de rosca de instantâneos e gráficos de linha que revelam tendências ao longo do tempo. Ele ajuda você a monitorar e criar estratégias para seus esforços de engajamento de maneira eficaz.
+Esse painel fornece uma visão geral abrangente de uma jornada de conta selecionada, detalhando o progresso da conta usando gráficos de rosca e de linha que categorizam e quantificam conclusões, atividades em andamento e abortos ao longo do tempo. Ele ajuda os profissionais de marketing a avaliar a eficiência dos canais de email e SMS por meio das principais métricas de entrega e engajamento.
 
 ## Status da Jornada
 
@@ -85,7 +85,3 @@ Clique no botão no canto superior direito para ocultar ou exibir qualquer uma d
 * [!UICONTROL Data de entrada]
 * [!UICONTROL Data de saída]
 * [!UICONTROL Número de Dias na Jornada]
-
-Filtro global:
-
-Filtro de data

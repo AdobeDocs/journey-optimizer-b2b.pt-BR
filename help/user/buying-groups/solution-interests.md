@@ -1,11 +1,11 @@
 ---
 title: Interesses da solução
-description: Saiba mais sobre Interesses de solução e como você pode defini-los para uso em seus Grupos de compra.
+description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos Grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: b0efd6591763af342d18831770f7e328826019c9
+source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Antes de criar Grupos de Compra, você deve saber o que está vendendo e quem deseja direcionar. Sua estratégia de marketing e vendas deve estar alinhada para que você possa adicionar o interesse da solução para os grupos de compra.
 
-## Acessar e procurar interesses de solução
+## Acessar e procurar interesses da solução
 
 1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B Edition.
 
@@ -24,13 +24,21 @@ Antes de criar Grupos de Compra, você deve saber o que está vendendo e quem de
 
    ![Guia Interesse da solução](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   A guia fornece uma lista de inventário de todos os interesses de solução existentes. Ele fornece informações como _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Última atualização em]_, _[!UICONTROL Atualizado por]_, _[!UICONTROL Criado em]_ e _[!UICONTROL Criado por]_ no formato de coluna.
+   A guia fornece uma lista de inventário de todos os interesses existentes da solução. Ele fornece informações como _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Última atualização em]_, _[!UICONTROL Atualizado por]_, _[!UICONTROL Criado em]_ e _[!UICONTROL Criado por]_ no formato de coluna.
 
    A lista é classificada por padrão pela _[!UICONTROL Última atualização em]_. Clique no título da coluna no cabeçalho para alternar a classificação entre decrescente e crescente.
 
+## Exibir e excluir trabalhos de grupo de compras
+
+Na guia _[!UICONTROL Interesse na solução]_, a coluna **[!UICONTROL Trabalhos de criação de grupo de compra]** exibe a contagem de trabalhos criados para cada interesse na solução. O número é um link e, ao clicar nele, uma caixa de diálogo é aberta, exibindo a lista de trabalhos criados para o interesse da solução.
+
+![Comprando trabalhos do grupo para interesse na solução](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
+
+Você pode excluir um trabalho do grupo de compra clicando nas reticências (...) ao lado do nome do trabalho e escolhendo **[!UICONTROL Excluir]**.
+
 ## Criar um interesse de solução
 
-Antes de criar um Solution Interest, você deve ter um modelo de funções online (publicado) que defina as funções que deseja direcionar. Consulte [Modelos de função de grupo de compra](./buying-groups-role-templates.md) para obter mais informações sobre como criar um modelo de funções e publicar um modelo de funções.
+Antes de criar um interesse de solução, você deve ter um modelo de funções online (publicado) que defina as funções que deseja direcionar. Consulte [Modelos de função de grupo de compra](./buying-groups-role-templates.md) para obter mais informações sobre como criar um modelo de funções e publicar um modelo de funções.
 
 1. Na guia _[!UICONTROL Interesse na solução]_, clique em **[!UICONTROL Criar interesse na solução]** no canto superior direito.
 
@@ -46,6 +54,33 @@ Antes de criar um Solution Interest, você deve ter um modelo de funções onlin
 
    O novo interesse da solução é exibido nos Interesses da solução
 
->[!NOTE]
->
->As ações de edição e exclusão de interesse da solução NÃO estão disponíveis para o Beta.
+## Editar um interesse de solução
+
+A qualquer momento, você pode alterar o nome e a descrição de um interesse de solução. O modelo de funções não pode ser alterado devido à dependência de grupos de compra com base no interesse da solução e no emparelhamento do modelo de função. Nesse caso, você deve criar um novo interesse de solução usando outro template de funções.
+
+1. Na guia _[!UICONTROL Interesse da solução]_, use um dos métodos a seguir para abrir as propriedades do interesse da solução que deseja editar:
+
+   * Clique no nome de interesse da solução.
+   * Clique nas reticências (**...**) ao lado dele e escolha **[!UICONTROL Editar]**.
+
+   ![Menu Mais interesses da solução](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+
+1. Se necessário, atualize o nome (obrigatório e exclusivo) e a descrição (opcional).
+
+1. Se necessário, altere a configuração **[!UICONTROL Atualizar grupos de compra existentes]**.
+
+   Quando essa opção está habilitada, todos os grupos de compras existentes combinados com os interesses da solução são atualizados por meio do ciclo de sincronização de 24 horas.
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+## Excluir um interesse de solução
+
+Qualquer interesse de solução que esteja atualmente em uso por qualquer trabalho de grupo de compra ou jornada de conta não pode ser excluído. Além disso, um interesse de solução excluído não pode ser recuperado.
+
+1. Na guia _[!UICONTROL Interesse da solução]_, clique nas reticências (**...**) ao lado do interesse da solução e escolha **[!UICONTROL Excluir]**.
+
+   Essa ação abre uma caixa de diálogo de confirmação.
+
+   Se o interesse da solução estiver sendo usado no momento por uma jornada de conta ou um trabalho de grupo de compras, a ação abrirá uma caixa de diálogo informativa para alertá-lo de que não pode ser excluído. Clique em [!UICONTROL OK], que interrompe a exclusão.
+
+1. Clique em **[!UICONTROL Excluir]** para confirmar a exclusão, ou você pode anular o processo clicando em _[!UICONTROL Cancelar]_.

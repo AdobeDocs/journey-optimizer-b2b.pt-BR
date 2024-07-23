@@ -3,52 +3,22 @@ title: Nós de Jornada de conta
 description: Saiba mais sobre os tipos de nó que você pode usar para criar suas jornadas de conta.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1748'
 ht-degree: 2%
 
 ---
 
 # Nós de Jornada de conta
 
-Depois de [criar uma jornada de conta](journey-overview.md#create-an-account-journey) e [adicionar o público-alvo](journey-overview.md#add-the-account-audience-for-your-journey), compile a jornada usando nós.
+Depois de [criar uma jornada de conta](journey-overview.md#create-an-account-journey) e [adicionar o público-alvo](journey-overview.md#add-the-account-audience-for-your-journey), compile a jornada usando nós. O mapa de jornada fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas.
 
-## Tipos de nó
+Crie sua jornada de conta combinando os diferentes nós de ação, evento e orquestração como um cenário em várias etapas e entre canais. Cada nó de uma jornada representa uma etapa ao longo de um caminho lógico.
 
-| Tipo de nó | Função |
-| --------- | ------- |
-| [Público-alvo da conta](journey-overview.md#add-the-account-audience-for-your-journey) | Insira o público da conta para a jornada. Este nó é sempre o primeiro nó e é criado automaticamente por padrão |
-| [Ação em pessoas](#add-a-people-action) | Enviar email |
-| | Alterar pontuação |
-| | Atribuir Pessoa ao Grupo Comprador |
-| | Remover Pessoa do Grupo Comprador |
-| | Adicionar à campanha do Marketo |
-| | Criar Momento Interessante De Cliente Potencial |
-| [Ação nas contas](#add-an-account-action) | Alterar valor dos dados |
-| | Remover conta da Jornada (atual) |
-| | Adicionar conta ao (outro) Jornada |
-| | Criar conta momento interessante |
-| | Adicionar à lista de contas do Marketo (implícito) |
-| [Eventos para pessoas](#add-a-people-event) | Alterações no valor dos dados |
-| | Alteração de pontuação |
-| | Abre e-mail |
-| | Clica em link no email |
-| | Clica em um link na página da Web |
-| | Atribuído ao Grupo de Compras |
-| | Removido do Grupo de Compras |
-| [Eventos para contas](#add-an-account-event) | Alteração no valor dos dados da conta |
-| | Tem um momento interessante |
-| [Dividir por pessoas](#add-a-split-path-by-people-node) | Atributos do lead |
-| | Valor dos dados alterado (como filtrar no histórico de atividades) |
-| | E-mail aberto |
-| | Clicou em link de e-mail |
-| | Link clicado na página da Web |
-| | Teve um momento interessante |
-| | Membro do Grupo de Compras |
-| [Dividir por contas](#add-a-split-path-by-account-node) | Alteração no valor dos dados da conta (como filtrar no histórico de atividades) |
-| [Aguardar](#wait) | Disponível no nível da conta |
-| [Mesclar caminhos](#merge-paths) | |
+## Nó de público-alvo da conta
+
+O nó [Público-alvo da conta](journey-overview.md#add-the-account-audience-for-your-journey) define o público-alvo da conta de entrada (criado e gerenciado no Adobe Experience Platform) para a jornada. Este nó é sempre o primeiro nó e é criado automaticamente por padrão.
 
 ## Realizar uma ação
 
@@ -57,6 +27,23 @@ Execute uma ação como enviar um email, alterar a pontuação e assim por diant
 **Ação nas contas**: a ação é aplicada a todas as pessoas que fazem parte das contas neste caminho.
 
 **Ação em pessoas**: a ação é aplicada a todas as pessoas neste caminho. Uma ação em pessoas pode ser usada no caminho dividido por pessoas ou no caminho dividido por contas.
+
+| Contexto do nó | Função | Restrições |
+| ------------ | -------- | ----------- |
+| [Pessoas](#add-a-people-action) | Atribuir ao Grupo de Compras | Selecionar interesse de solução<br/>Selecionar função |
+| | Remover do grupo de compra | Selecionar interesse de solução |
+| | Enviar SMS | Criar SMS |
+| | Adicionar à campanha de solicitação do Marketo Engage | Selecionar espaço de trabalho do Marketo Engage<br/>Selecionar campanha de Solicitação |
+| | Alterar Partição de Pessoas no Marketo Engage | Nova partição |
+| | Momento interessante da pessoa | Tipo<br/>Descrição |
+| | Alterar pontuação | Alteração do nome da pontuação<br/> |
+| | Enviar email | Criar novo email<br/>Selecionar email do Marketo Engage |
+| [Contas](#add-an-account-action) | Enviar Alerta de Vendas | Selecionar interesse da solução<br/>Enviar email para |
+| | Adicionar conta ao (outro) Jornada | Selecionar Jornada de conta em tempo real |
+| | Atualizar Status do Grupo de Compras | Interesse da solução<br/>Status (obrigatório, máximo de 50 caracteres) |
+| | Remover conta da Jornada (atual) | Selecionar Jornada de conta em tempo real |
+| | Momento interessante da conta | Tipo (email, marco ou Web)<br/>Descrição (opcional) |
+| | Valor dos dados de alteração da conta | Selecionar atributo<br/>Novo valor |
 
 ### Adicionar uma ação de conta
 
@@ -94,6 +81,20 @@ Mova o público-alvo para a próxima etapa da jornada quando ocorrer um evento.
 **Ouvir eventos em contas**: se pelo menos uma pessoa de uma conta acionar um evento, a conta avançará para a próxima etapa da jornada.
 
 **Ouvir eventos em pessoas**: eventos em pessoas só podem ser aplicados em um caminho de conta; não está disponível para uma divisão por nó de pessoas.
+
+| Contexto do nó | Função | Restrições |
+| ------------ | -------- | ----------- |
+| [Pessoas](#add-a-people-event) | Alterações no valor dos dados | Atributo<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | Clica em link no email | Email<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | Atribuído ao Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | Abre e-mail | Email<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | A pontuação é alterada | Nome da pontuação<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | Removido do Grupo de Compras | Interesse da solução<br/>Data da atividade (opcional)<br/>Tempo limite (opcional) |
+| [Contas](#add-an-account-event) | Alteração no Status do Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | Alteração na pontuação de integridade | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | A conta teve um momento interessante | Tipo<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | Alteração na pontuação de engajamento | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | Alteração no valor dos dados da conta | Atributo<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
 
 ### Adicionar um evento de conta
 
@@ -141,6 +142,10 @@ Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. 
 
 Divida seu público-alvo com base nas condições de filtro.
 
+>[!NOTE]
+>
+>Há suporte para, no máximo, 25 caminhos.
+
 **Dividir caminhos por contas**: os caminhos divididos por contas podem incluir ações e eventos de conta e pessoas, e esses caminhos podem ser divididos ainda mais.
 
 _Como funciona um caminho dividido por nó de contas?_
@@ -162,9 +167,16 @@ _Como funciona um caminho dividido por nó de pessoas?_
 
 ![Nó do Jornada - caminhos divididos por pessoas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
->[!NOTE]
->
->Há suporte para, no máximo, 25 caminhos.
+| Contexto do nó | Condições de caminho | Descrição |
+| ------------ | -------- | ----------- |
+| [Pessoas](#add-a-split-path-by-people-node) | Atributos da pessoa | |
+| | Valor dos dados alterado (como filtrar no histórico de atividades) | |
+| | E-mail aberto | |
+| | Clicou em link de e-mail | |
+| | Link clicado na página da Web | |
+| | Teve um momento interessante | |
+| | Membro do Grupo de Compras | |
+| [Contas](#add-a-split-path-by-account-node) | Alteração no valor dos dados da conta (como filtrar no histórico de atividades) | |
 
 ### Adicionar um caminho dividido pelo nó da conta
 
@@ -228,7 +240,7 @@ Quando você tem condições definidas para cada caminho no nível das pessoas, 
 
 >[!NOTE]
 >
->Ao dividir o público por pessoas, você só pode adicionar ações às pessoas.
+>Ao dividir o público por pessoas, você pode adicionar somente ações de pessoas.
 
 ## Aguardar
 
@@ -267,4 +279,3 @@ Diferentes caminhos na jornada podem ser mesclados e desfeitos usando esse nó.
    Agora você deve ver que os caminhos são mesclados para que as contas dos caminhos selecionados se combinem em um único caminho e possam continuar avançando pela jornada.
 
 1. Se necessário, você pode desfazer a mesclagem de caminhos ao navegar de volta para as propriedades do nó de mesclagem e desmarcar a caixa de seleção de qualquer caminho que deseja remover.
-
