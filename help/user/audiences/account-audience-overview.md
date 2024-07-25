@@ -1,15 +1,15 @@
 ---
-title: Públicos da conta
+title: Públicos-alvo da conta
 description: Saiba mais sobre públicos-alvo de contas e como eles habilitam jornadas baseadas em contas.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
-
-# Públicos da conta
+# Públicos-alvo da conta
 
 Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. O Journey Optimizer B2B Edition usa as funcionalidades de segmentação de conta encontradas nas edições B2B e B2P do Adobe Real-time Customer Data Platform. Com a segmentação de conta, os usuários podem gerar públicos-alvo da conta aproveitando dados de qualquer uma das entidades B2B no sistema. Esses públicos-alvo de conta servem como entradas para jornadas de conta do Journey Optimizer B2B Edition, facilitando a ativação contínua e o recurso de personalização.
 

@@ -1,11 +1,11 @@
 ---
 title: Documentação do Adobe Journey Optimizer B2B Edition
-description: Saiba como usar os recursos do Adobe Journey Optimizer B2B Edition.
+description: Saiba como usar os recursos do Adobe Journey Optimizer B2B Edition para orquestrar jornadas de contas e grupos de compras usando IA gerativa integrada e automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,23 +19,27 @@ Esta é uma amostra dos aprimoramentos mais recentes no produto e na documentaç
 
 >[!BEGINTABS]
 
->[!TAB A versão do Beta está disponível]
+>[!TAB Assistente de IA]
 
-Associe-se ao programa Beta para descobrir os vários recursos incluídos na versão do Adobe Journey Optimizer B2B Edition Beta.
+Rapidamente se familiarize com os conceitos de marketing baseados em conta e conheça os recursos do Journey Optimizer B2B Edition projetados para maximizar as estratégias de sua equipe.
 
-[!BADGE Saiba mais]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Versão do Journey Optimizer B2B Edition Beta"}
+[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Saiba mais sobre o Assistente de IA"}
 
->[!TAB Assistente de IA para conteúdo de email]
-
-Eleve seu conteúdo ao próximo nível com o AI Assistant no Adobe Journey Optimizer B2B Edition, viabilizado pela IA gerativa. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e até imagens especificamente adaptadas para repercutir com seu público-alvo.
+Eleve seu conteúdo ao próximo nível com o AI Assistant para conteúdo de email no Adobe Journey Optimizer B2B Edition, viabilizado pela IA gerativa. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e até imagens especificamente adaptadas para repercutir com seu público-alvo.
 
 [!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Saiba mais sobre o Assistente de IA para email"}
 
+>[!TAB Fragmentos visuais]
+
+Crie componentes reutilizáveis como blocos de conteúdo personalizados para os membros da sua equipe de marketing para usar na montagem de conteúdo de email para um processo de design aprimorado.
+
+[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Saiba mais sobre fragmentos visuais"}
+
 >[!TAB Comprando grupos]
 
-Crie grupos de compras a partir de dados B2B unificados de toda a empresa, alinhe-os às ofertas da empresa e automatize como definir, identificar e direcionar os membros certos para cada função para dimensionar o direcionamento mais preciso para as jornadas do cliente.
+Crie grupos de compras com dados B2B unificados de toda a empresa. Alinhe-os às ofertas da sua empresa e automatize a forma como você define, identifica e direciona os membros certos para cada função para dimensionar o direcionamento mais preciso para as jornadas do seu cliente.
 
-[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Saiba mais sobre Grupos de compras"}
+[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Saiba mais sobre grupos de compras"}
 
 >[!TAB jornadas da conta]
 
@@ -55,7 +59,7 @@ Crie jornadas personalizadas para grupos de compras em contas de destino que aut
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
-    <div><strong>Criar o primeiro Grupo de Compras</strong><br/>Criar o primeiro Grupo de Compras no Journey Optimizer B2B Edition para automatizar o processo de contratação e qualificação de contatos.</div>
+    <div><strong>Criar o primeiro Grupo de Compras</strong><br/>Criar o primeiro grupo de compras no Journey Optimizer B2B Edition para automatizar o processo de contratação e qualificação de contatos.</div>
     </td>
     <td>
     <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
@@ -76,7 +80,7 @@ Crie jornadas personalizadas para grupos de compras em contas de destino que aut
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Logon e página inicial</strong><br/><a href="home-page.md#marketer---new-user">Profissional de marketing - novo usuário</a><br/><a href="home-page.md#marketer---advanced-user">Profissional de marketing - avançado</a> <br/><a href="home-page.md#administrator---new-user">Administrador - novo usuário</a> <br/><a href="home-page.md#administrator---advanced-user">Administrador - avançado</a>
+      <strong>Introdução</strong><br/><a href="home-page.md">Logon e página inicial</a><br/><a href="./start/get-started.md">Orientação de início rápido</a> <br/><a href="./start/ai-assistant.md">Assistente de IA</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Crie jornadas personalizadas para grupos de compras em contas de destino que aut
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">Visão geral</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>Gerenciamento de conteúdo</strong><br/><a href="./content/assets-overview.md">Visão geral do Assets</a><br/><a href="./content/email-templates.md">Modelos de email</a><br/><a href="./content/fragments.md">Fragmentos visuais</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>

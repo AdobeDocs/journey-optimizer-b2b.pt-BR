@@ -1,10 +1,11 @@
 ---
 title: Introdução à Journey Optimizer B2B Edition
 description: Como um novo usuário no Journey Optimizer B2B Edition, saiba mais sobre as áreas principais para começar.
-source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +17,7 @@ Com base em sua organização, os administradores podem definir vários tipos de
 
 >[!BEGINTABS]
 
->[!TAB Início rápido para um administrador]
+>[!TAB Início rápido do administrador]
 
 Antes que sua equipe possa começar a usar os recursos do Adobe Journey Optimizer B2B Edition, várias etapas são necessárias para preparar seu ambiente. Execute essas etapas para que o engenheiro de dados e o profissional de marketing possam começar a trabalhar com o Adobe Journey Optimizer B2B Edition.
 
@@ -36,7 +37,7 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Configure e habilite o uso do Adobe Experience Manager Assets** para equipes que usam o Assets como Cloud Service para o gerenciamento centralizado de ativos digitais. [Saiba mais](../admin/configure-aem-repositories.md)
 
->[!TAB Início rápido para um profissional de marketing]
+>[!TAB Início rápido do profissional de marketing]
 
 Como profissional de marketing ou _profissional de Jornada de contas_, você é responsável por criar jornadas e criar conteúdo. Você pode começar a trabalhar com o Adobe Journey Optimizer B2B Edition depois que o administrador do sistema e o engenheiro de dados prepararem seu ambiente e concederem acesso.
 
