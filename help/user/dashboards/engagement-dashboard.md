@@ -3,10 +3,10 @@ title: Painel de visão geral do engajamento
 description: Saiba como você pode usar o painel Visão geral do engajamento para monitorar seus esforços de engajamento.
 feature: Dashboards, Engagement
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: bb14b15ae41f795f4e9adf0bb564770e152539fd
+source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
@@ -16,13 +16,13 @@ Esse painel fornece uma visão abrangente do engajamento e mostra métricas de c
 
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-## Envolvimento por contas/pessoas
+## Envolvimento por contas / Envolvimento por pessoas
 
 Os gráficos de rosca dividem claramente as contas ou pessoas em categorias engajadas e não engajadas. O número central indica a contagem total em cada categoria, fornecendo uma compreensão rápida do envolvimento geral.
 
 ![Participação por contas e pessoas](assets/engagement-accounts-people.png){width="700" zoomable="yes"}
 
-## Envolvimento por contas/pessoas ao longo do tempo
+## Contas envolvidas ao longo do tempo / Pessoas envolvidas ao longo do tempo
 
 Esses gráficos de linha exibem os níveis de engajamento de contas ou pessoas ao longo do tempo. Com linhas distintas para &quot;Envolvido&quot; e &quot;Não Envolvido&quot;, visualizadas ao lado de um eixo horizontal com carimbo de data e hora, é possível apontar tendências e padrões. Você pode passar o mouse sobre uma linha para revelar métricas precisas para qualquer data.
 
@@ -30,36 +30,31 @@ Esses gráficos de linha exibem os níveis de engajamento de contas ou pessoas a
 
 ## Interações aprimoradas
 
-Interaja mais com os dados usando o ícone de ação ( **...** ) no canto superior direito.
+Interaja mais com os dados usando o ícone de ação ( **...** ) no canto superior direito de cada gráfico.
 
-![Dados do painel de engajamento - menu de ação](assets/engagement-action-menu.png){width="400"}
+![Dados do painel de engajamento - menu de ação](assets/engagement-action-menu.png){width="300"}
 
 ### Exibir mais
 
 **[!UICONTROL Exibir mais]**: para todas as exibições de painéis, um pop-up é exibido com o gráfico e uma tabela mostrando o detalhamento do envolvimento por conta/pessoas.
 
-Botão Baixar CSV no canto superior direito da tabela.
-<!-- 
-### Drill through
+Para copiar os dados estendidos, clique em **[!UICONTROL Baixar CSV]** na parte superior direita.
 
-Choose **[!UICONTROL Drill through]** for an in-depth analysis of individual group statuses.
+### Drill-through
 
-The global filters applied to the dashboard are carried over to this page.
+Escolha **[!UICONTROL Drill-through]** para obter uma análise detalhada dos status de grupos individuais.
 
-The applied filters are displayed, but are not editable on this page. 
-The only available filters that are enabled are _Account Name_ or _Person Name_.
+Os filtros globais aplicados ao painel são transferidos para esta página.
 
-To display or hide available columns, click **[!UICONTROL View more]** at the top-right corner:
+Escolha **[!UICONTROL Exibir mais]** para dados e insights estendidos. Dependendo do gráfico, há dados estendidos para o seguinte:
 
-Click **[!UICONTROL View more]** to open the download dialog.
-
-Button on the top right corner to open a pop-up with the available column list:
-
-* [!UICONTROL Account]
-* [!UICONTROL Account name]
-* [!UICONTROL Account ID]
+* [!UICONTROL Contas]
+* [!UICONTROL Pessoas]
+* [!UICONTROL Data]
 * [!UICONTROL Status]
-* [!UICONTROL People engaged]
+* [!UICONTROL Envolvido]
+* [!UICONTROL Não Envolvido]
+<!-- 
 * [!UICONTROL Engagement activities]
 * [!UICONTROL Last engagement date]
 * [!UICONTROL Region]
@@ -71,17 +66,15 @@ Button on the top right corner to open a pop-up with the available column list:
 * [!UICONTROL Email]
 --->
 
-### Filtro
+### Filtragem de dados
 
-Filtro global: filtro de **[!UICONTROL Data]**, que reflete a data da última alteração de status do Grupo de Compras. A data de início é ajustável. A data final é padronizada para o dia atual.
+* **Filtro de dados** - Use o _[!UICONTROL Filtro de datas]_, que reflete a última data de compromisso. A data de início é ajustável. A data final é padronizada para o dia atual.
 
-Também é possível filtrar a exibição usando qualquer um destes atributos:
+* **Filtro de atributo** - Clique no ícone _Filtro_ na parte superior esquerda para filtrar a exibição de dados usando qualquer um destes atributos:
 
-* Interesse da solução
-* Lista de interesses da solução
-* Tipo de Envolvimento
-* Lista de Tipos de Envolvimento
-* Região da conta
-* Região da conta
-* Setor da conta
-* Setor da conta
+   * Interesse na solução
+   * Tipo de engajamento
+   * Região
+
+   * Setor
+  <!-- * Account's Industry -->

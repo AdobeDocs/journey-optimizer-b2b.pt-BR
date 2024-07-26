@@ -1,7 +1,8 @@
 ---
 title: Visão geral da Adobe Journey Optimizer B2B Edition
 description: Descubra os principais recursos, casos de uso e arquiteturas do Adobe Journey Optimizer B2B Edition.
-source-git-commit: b9fc31ed31cf05370f1370510d966b8151e14695
+exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Ao comparar o Adobe Journey Optimizer B2B Edition com o Marketo Engage e o padr�
 
 O Adobe Journey Optimizer B2B Edition usa _Públicos-alvo da conta_ e _Públicos-alvo_ da conta do Adobe Experience Platform para potencializar uma jornada da conta, que é executada dentro do Marketo Engage. O Experience Platform é sempre a fonte da verdade para esses dados, mas toda a execução e processamento da jornada da conta acontece dentro da infraestrutura de marketing Marketo Engage B2B. A orquestração traz dados de volta ao Experience Platform em tempo quase real pelo conector de origem existente do Marketo Engage - Adobe Real-Time CDP B2B Edition, que transmite as alterações de dados do Marketo Engage para o Experience Platform.
 
-![Arquitetura de dados de alto nível](./assets/high-level-data-architecture.png){width="600" zoomable="yes"}
+![Arquitetura de dados de alto nível](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 ### Modelo de assinatura
 
@@ -41,4 +42,3 @@ Depois que a jornada da conta é criada, ela deve ser publicada. No momento da p
 O Journey Optimizer B2B Edition usa a segmentação de conta do Real-Time CDP para definir e executar segmentos de conta e segmentos de conta de pessoa relacionados exigidos pelo jornada. Conforme uma jornada publicada é executada, dados sobre as pessoas e contas podem mudar, e os dados são coletados nas pessoas que interagem com a jornada. O Journey Optimizer B2B Edition depende do conector de origem de Marketo Engage para o Real-Time CDP B2B Edition para transmitir as alterações de dados de volta para a sandbox de Experience Platform, que é a fonte da verdade.  Esses dados são entregues à AEP em tempo quase real.
 
 Somente os tipos de dados existentes compatíveis com o conector de origem do Marketo Engage (contas, pessoas e oportunidades) fluem de volta para o Real-Time CDP. Isso significa que a compra de dados do grupo não flui para o AEP e, em vez disso, reside na instância de Marketo Engage usada pela assinatura do Journey Optimizer B2B Edition.
-
