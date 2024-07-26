@@ -3,9 +3,9 @@ title: Criação de email
 description: Saiba como criar conteúdo de email personalizado que é usado em Jornadas de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Você pode configurar entregas de email em uma Jornada de conta ao adicionar um 
 1. Para a _[!UICONTROL Ação sobre pessoas]_, escolha **[!UICONTROL Enviar email]**.
 1. Para a _[!UICONTROL origem do email]_, escolha **[!UICONTROL Criar novo email]**.
 
-   Como alternativa, você também pode selecionar a opção `Select email from Adobe Marketo Engage` para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da Jornada da conta.
+   Como alternativa, você também pode selecionar a opção _[!UICONTROL Selecionar email do Adobe Marketo Engage]_ para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da Jornada de Conta.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 
 1. Selecione a guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que são rastreadas.
 
-   Você pode modificar o Tipo de rastreamento ou o Rótulo e adicionar tags, se necessário.
+   Você pode modificar o _Tipo de Rastreamento_ ou o _Rótulo_ e adicionar marcas, se necessário.
 
 Se necessário, você pode personalizar seu email clicando em **[!UICONTROL Alternar para o editor de código]** no menu avançado. O editor de código permite editar o código fonte do email, como adicionar tags de rastreamento ou HTML personalizadas.
 

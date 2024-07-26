@@ -2,7 +2,8 @@
 title: Trabalhar com ativos do Marketo Engage
 description: Saiba mais sobre como usar a integração de gerenciamento de ativos do Marketo Engage Design Studio no Journey Optimizer B2B Edition.
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Se o ativo estiver em uso no momento, a ação abrirá uma caixa de diálogo inf
 
 Na caixa de diálogo _[!UICONTROL Substituir ativo]_, arraste e solte o arquivo de substituição do seu sistema na caixa de arquivo. Você também pode clicar no link _[!UICONTROL Selecionar um arquivo do seu computador]_ para usar o sistema de arquivos local para selecionar um arquivo. (Se você selecionar vários arquivos no sistema local, o primeiro arquivo selecionado será usado para a substituição.)
 
-![Caixa de diálogo Substituir ativo](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![Caixa de diálogo Substituir ativo](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 Para continuar, clique em **[!UICONTROL Substituir]**. Você pode anular o processo clicando em **[!UICONTROL Cancelar]**.
 

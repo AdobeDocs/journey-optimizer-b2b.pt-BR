@@ -3,9 +3,9 @@ title: Painel de Visão Geral de Grupos de Compras
 description: Saiba mais sobre o painel Visão geral dos grupos de compra e como ele permite a transferência de vendas da equipe de marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Obtenha insights sobre a progressão dos grupos de compra com a visualização S
 
 Para se envolver com os dados, use o menu de ações no canto superior direito.
 
-![Clique no ícone para acessar o menu de ações](./assets/buying-group-more-menu.png){width="400"}
+![Clique no ícone para acessar o menu de ações](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Drill-through]
 
@@ -58,7 +58,7 @@ Escolha **[!UICONTROL Drill-through]** para obter uma análise detalhada dos sta
 
 ![O drill-through para os dados de gráfico](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-Os filtros globais aplicados ao painel são transferidos e não podem ser alterados nesta página.
+Os filtros globais aplicados ao painel são transferidos.
 
 Clique no ícone do menu de ações na parte superior direita e escolha **[!UICONTROL Exibir mais]** para [exibir dados e insights estendidos](#view-more).
 
@@ -86,4 +86,4 @@ Escolha **[!UICONTROL Exibir mais]** para dados e insights estendidos. O pop-up 
 
 ![Exibir dados estendidos](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Para baixar os dados, clique em **[!UICONTROL Baixar CSV]** no canto superior direito.
+Para baixar os dados, clique em **[!UICONTROL Baixar CSV]** na parte superior direita.

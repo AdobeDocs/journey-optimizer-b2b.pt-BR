@@ -3,10 +3,11 @@ title: Gerenciamento de usuários
 description: Saiba como atribuir membros da equipe aos perfis de produto do Journey Optimizer B2B Edition.
 feature: Setup
 roles: Admin
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+source-git-commit: f8ae6e51e76ded14316273c8e746ed814e7eb68b
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 1%
+source-wordcount: '1055'
+ht-degree: 3%
 
 ---
 
@@ -35,13 +36,15 @@ Antes de usar o Admin Console para administrar os usuários da sua equipe, é ne
 
 1. Faça logon usando sua Adobe ID.
 
-   Depois de fazer logon, você verá a página Visão geral da Adobe Admin Console.
+   Depois de fazer logon, você verá a página _Visão geral_ da Adobe Admin Console.
 
 1. Se você tiver acesso a várias organizações, verifique se fez logon na organização correta.
 
    Para alterar a organização, clique no nome dela no canto superior direito e escolha a organização que você precisa acessar.
 
-1. Selecione Administradores no cartão Usuários para verificar se você é um administrador do sistema.
+1. Selecione **[!UICONTROL Administradores]** no cartão _[!UICONTROL Usuários]_ para verificar se você é um administrador do sistema.
+
+   ![visão geral do Admin Console - clique em Administradores](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
 1. Pesquise inserindo seu email, nome de usuário, nome ou sobrenome do Adobe ID.
 
@@ -53,41 +56,56 @@ Antes de usar o Admin Console para administrar os usuários da sua equipe, é ne
 
 Ao conceder aos usuários acesso a uma solução Adobe, você não deseja necessariamente conceder acesso total a eles. Os perfis de produto permitem que cada solução tenha seu próprio conjunto de permissões do usuário. Use o Admin Console para atribuir perfis de produto.
 
+Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [Gerenciar perfis de produto para usuários corporativos](https://helpx.adobe.com/br/enterprise/using/manage-product-profiles.html) na documentação do Admin Console.
+
 >[!NOTE]
 >
->Estas etapas só podem ser executadas por um administrador de sistema do Admin Console ou por um administrador de produto do Marketo Engage.
+>Um administrador de sistema Admin Console ou administrador de produto Marketo Engage pode executar essas etapas.
 
 1. Faça logon em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Escolha Produtos > Marketo Engage.
+1. Selecione a guia **[!UICONTROL Produtos]**.
 
-1. Clique em Novo perfil e digite um nome de perfil de produto, como _Usuário Padrão_.
+1. Abra a instância do Market Engage onde deseja adicionar o perfil e clique em Novo perfil.
 
-1. Clique em Avançar > Salvar
+   ![Admin Console - Instância Marketo Engage - Novo perfil](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+
+1. Insira um nome de perfil de produto, como _Usuário Padrão_.
+
+1. Clique em **Avançar** e depois em **Salvar**.
 
 ## Criar um grupo de usuários {#create-user-group}
 
 Um grupo de usuários é uma coleção de usuários aos quais é concedido um conjunto compartilhado de permissões. Você pode adicionar ou remover usuários em seu grupo de usuários. As permissões do grupo permanecem as mesmas enquanto os usuários no grupo são alterados.
 
+Para obter mais informações sobre como os grupos de usuários são usados para gerenciar permissões, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/enterprise/using/user-groups.html) na documentação do Admin Console.
+
 >[!NOTE]
 >
->Essas etapas só podem ser executadas por um administrador de sistema Admin Console.
+>Um administrador de sistema Admin Console pode executar essas etapas.
 
 1. Faça logon em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Escolha **[!UICONTROL Usuários]** > **[!UICONTROL Grupos de Usuários]** > **[!UICONTROL Novo grupo de usuários]**.
+1. Selecione a guia **[!UICONTROL Usuários]**.
+
+1. Escolha **[!UICONTROL Grupos de Usuários]** na navegação à esquerda.
+
+1. Clique em **[!UICONTROL Novo grupo de usuários]** na parte superior direita.
 
 1. Insira um nome para o grupo de usuários, como _Usuários padrão_ e clique em **[!UICONTROL Salvar]**.
 
 1. Clique no grupo de usuários que acabou de criar.
 
-1. Clique em **[!UICONTROL Perfis de produto atribuídos]** > **[!UICONTROL Atribuir perfil]**.
+1. Selecione a guia **[!UICONTROL Perfis de produto atribuídos]** e clique em **[!UICONTROL Atribuir perfil]**.
 
-1. Selecione os seguintes produtos:
-   * [!UICONTROL Marketo Engage - Usuário Padrão]
+1. Clique em **+** e adicione cada instância dos seguintes produtos:
+
+   * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Padrão-Todos-Usuários]
-   * [!UICONTROL Coleta de dados do Adobe Experience Platform - Padrão]
+   * [!UICONTROL Coleta de dados do Adobe Experience Platform]
    * [!UICONTROL Acesso integral à Coleção de Dados]
+
+   ![Admin Console - grupo de usuários - adicionar produtos](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -95,7 +113,9 @@ Um grupo de usuários é uma coleção de usuários aos quais é concedido um co
 
 As permissões são direitos unitários que permitem definir as autorizações atribuídas a um perfil de produto. Cada permissão é coletada em um recurso, como jornadas ou grupos de compras, que representa as diferentes funcionalidades ou objetos no Journey Optimizer B2B Edition.
 
-_Permissões_ é a área do Adobe Experience Platform em que os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar rótulos, sandboxes e usuários associados a uma função específica.
+A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar rótulos, sandboxes e usuários associados a uma função específica.
+
+Para obter mais informações, consulte [Gerenciar permissões para uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) na documentação do Experience Platform.
 
 >[!NOTE]
 >
@@ -103,19 +123,23 @@ _Permissões_ é a área do Adobe Experience Platform em que os administradores 
 
 1. Vá para [experience.adobe.com](https://experience.adobe.com/).
 
-1. Selecione **[!UICONTROL Permissões]**.
+1. No painel _[!UICONTROL Acesso rápido]_, selecione **[!UICONTROL Permissões]**.
 
    >[!NOTE]
    >
-   >Se você não vir as Permissões, talvez seja necessário clicar em Exibir tudo e selecioná-las nos aplicativos disponíveis.
+   >Se você não vir _[!UICONTROL Permissões]_, talvez precise clicar em **[!UICONTROL Exibir tudo]** e selecioná-lo nos aplicativos disponíveis.
+
+   ![Experience Platform - Permissões de acesso](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. Selecione **[!UICONTROL Funções]** na navegação à esquerda e selecione **[!UICONTROL Criar função]**.
 
-1. Na caixa de diálogo _[!UICONTROL Criar nova função]_, digite um nome para a função, como _Usuário Padrão_, e uma descrição (opcional).
+1. Na caixa de diálogo _[!UICONTROL Criar nova função]_, digite um nome para a função, como _AJO B2B_, e uma descrição (opcional).
 
 1. Clique em **[!UICONTROL Confirmar]**.
 
 1. Selecione suas sandboxes.
+
+   ![Experience Platform - adicionar sandboxes para a nova função](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
 1. Adicione as permissões de perfil:
 
@@ -129,30 +153,42 @@ _Permissões_ é a área do Adobe Experience Platform em que os administradores 
       * [!UICONTROL Exibir perfil B2B]
       * [!UICONTROL Gerenciar perfil B2B]
 
+   ![Experience Platform - adicionar perfis para a nova função](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+
 1. Clique em **[!UICONTROL Salvar]** na parte superior direita.
 
-1. Escolha **[!UICONTROL Grupos de usuários]** > **[!UICONTROL Adicionar grupos]**.
+1. Vá para os detalhes da função e selecione a guia **[!UICONTROL Grupos de usuários]**.
+
+1. Clique em **[!UICONTROL Adicionar grupos]**.
+
+   ![Experience Platform - adicionar perfis para a nova função](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. Marque a caixa de seleção ao lado do grupo de usuários criado anteriormente no Admin Console.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Adicionar usuários no Admin Console
+## Adicionar usuários ao grupo no Admin Console
 
 >[!NOTE]
 >
->Essas etapas só podem ser executadas por um administrador de sistema do Admin Console ou por um administrador de produto.
+>Um administrador de sistema Admin Console ou um administrador de produto pode executar essas etapas.
+
+Para obter informações sobre o gerenciamento de usuários, consulte [Admin Console usuários](https://helpx.adobe.com/br/enterprise/using/user-groups.html) na documentação do Admin Console.
 
 1. Ir para [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Clique em **[!UICONTROL Adicionar usuários]**.
+1. Em _[!UICONTROL Links rápidos]_, clique em **[!UICONTROL Adicionar usuários]**.
 
 1. Adicionar cada usuário:
 
    * Insira o endereço de email, o nome e o sobrenome do usuário.
-   * Clique em [!UICONTROL Grupos de usuários].
+
+     ![Experience Platform - adicionar perfis para a nova função](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
+
+   * Para **[!UICONTROL Grupos de usuários]**, clique em **+**.
+
    * Selecione o grupo de usuários criado anteriormente.
 
-1. Clique em **[!UICONTROL Aplicar]**.
+   * Clique em **[!UICONTROL Aplicar]**.
 
 1. Clique em **[!UICONTROL Salvar]**.
