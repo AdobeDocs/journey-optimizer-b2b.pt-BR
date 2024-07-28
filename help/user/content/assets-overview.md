@@ -3,9 +3,9 @@ title: Ativos
 description: Saiba mais sobre o gerenciamento de ativos no Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Use ativos ao criar emails, modelos de email e fragmentos visuais. A interface d
 
 Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service junto com o Adobe Marketo Engage Design Studio padrão, poderá escolher ativos de imagem de qualquer uma das origens. Para fazer isso, você deve selecionar a fonte de imagem no momento da criação para um novo email, modelo de email ou fragmento visual. Ou selecione a fonte de imagem ao editar o conteúdo. A seleção se aplica somente à experiência de edição e você pode alterar a fonte de imagem para acessar ativos de outra biblioteca quando necessário.
 
-Criação de um email
+_**Criando um recurso de conteúdo**_ - Para escolher uma fonte de imagem ao criar um email, modelo de email ou fragmento, defina a **[!UICONTROL fonte de imagem]** na caixa de diálogo ao criá-la.
 
-Editar um email - Para escolher uma origem de ativo de imagem no editor visual, use o seletor **[!UICONTROL Selecionar origem da imagem]** na parte superior da tela.
+_**Editando um recurso de conteúdo**_ - Para escolher uma origem de ativo de imagem no editor visual, use o seletor **[!UICONTROL Selecionar origem da imagem]** na parte superior da tela.
 
 ### Adicionar ativos ao seu conteúdo
 
