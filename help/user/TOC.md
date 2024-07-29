@@ -4,7 +4,7 @@ user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e
 source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 9%
    + [Email de alerta de vendas](./content/sales-alert-email.md)
    + [Assistente de IA para criação de email](./content/ai-assistant-emails.md)
    + [Criação de SMS](./content/sms-authoring.md)
-+ Gerenciamento de conteúdo {#content-management}
-   + Assets {#assets}
++ Gestão de conteúdo {#content-management}
+   + Ativos {#assets}
       + [Visão geral](./content/assets-overview.md)
       + [Trabalhar com ativos do Marketo Engage](./content/marketo-engage-design-studio.md)
       + [Trabalhar com imagens do AEM Assets](./content/aem-assets.md)
