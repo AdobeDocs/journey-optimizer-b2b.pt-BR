@@ -3,9 +3,9 @@ title: Criação de email
 description: Saiba como criar conteúdo de email personalizado que é usado em Jornadas de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -88,8 +88,8 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 
 1. Insira campos de personalização para personalizar seu conteúdo de atributos de perfis, associações de público-alvo, atributos contextuais e muito mais.
 
-1. Clique em **[!UICONTROL Habilitar conteúdo de condição]** para adicionar conteúdo dinâmico e adaptar o conteúdo aos perfis direcionados com base em regras condicionais.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. Selecione a guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que são rastreadas.
 
    Você pode modificar o _Tipo de Rastreamento_ ou o _Rótulo_ e adicionar marcas, se necessário.
