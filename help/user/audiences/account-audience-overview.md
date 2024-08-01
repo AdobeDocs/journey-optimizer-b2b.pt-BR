@@ -1,8 +1,8 @@
 ---
-title: Públicos-alvo da conta
+title: Públicos da conta
 description: Saiba mais sobre públicos-alvo de contas e como eles habilitam jornadas baseadas em contas.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

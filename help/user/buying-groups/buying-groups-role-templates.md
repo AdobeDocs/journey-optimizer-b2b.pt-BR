@@ -1,9 +1,9 @@
 ---
-title: Comprando modelos de função do grupo
+title: Comprando modelos de função de grupo
 description: Saiba mais sobre como definir um modelo de função a ser usado como um componente de grupo de compras.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%

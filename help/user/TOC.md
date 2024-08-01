@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compras usando a IA gerativa integrada e a automação líder do setor.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 13%
+source-wordcount: '128'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
    + [Visão geral da Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
    + [Logon e página inicial](home-page.md)
    + [Orientação de início rápido](./start/get-started.md)
-   + [Usar o Assistente de IA](./start/ai-assistant.md)
+   + [Usar o assistente de IA](./start/ai-assistant.md)
 + Públicos da conta {#account-audiences}
    + [Visão geral](./audiences/account-audience-overview.md)
    + [Mapeamento de campo XDM](./data/field-mapping.md)
@@ -26,12 +26,12 @@ ht-degree: 13%
    + [Modelos de função](./buying-groups/buying-groups-role-templates.md)
    + [Criar grupos de compra](./buying-groups/buying-groups-create.md)
 + Jornadas da conta {#account-journeys}
-   + [Visão geral do Jornada](./journeys/journey-overview.md)
+   + [Visão geral](./journeys/journey-overview.md)
    + [Nós de jornada de conta](./journeys/journey-nodes.md)
 + Jornada conteúdo {#journey-content}
    + [Criação de email](./content/email-authoring.md)
-   + [Email de alerta de vendas](./content/sales-alert-email.md)
    + [Assistente de IA para criação de email](./content/ai-assistant-emails.md)
+   + [Email de alerta de vendas](./content/sales-alert-email.md)
    + [Criação de SMS](./content/sms-authoring.md)
 + Gestão de conteúdo {#content-management}
    + Ativos {#assets}

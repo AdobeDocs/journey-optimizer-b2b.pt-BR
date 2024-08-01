@@ -3,7 +3,7 @@ title: Criação de SMS
 description: Saiba como enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis e personalizar e visualizar mensagens no formato de texto pelo editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Criação de SMS
 
-Use o Adobe Journey Optimizer B2B Edition para enviar mensagens de texto (SMS) aos clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens no formato de texto do editor de SMS.
+Use o Adobe Journey Optimizer B2B Edition para enviar mensagens de texto (SMS) aos clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
 
 ## Configurações de SMS
 

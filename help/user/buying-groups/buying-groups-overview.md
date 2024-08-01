@@ -1,12 +1,12 @@
 ---
-title: Grupos de compras
+title: Grupos de compra
 description: Saiba mais sobre grupos de compras e seus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -58,7 +58,7 @@ Na navegação à esquerda, expanda **[!UICONTROL Contas]** e clique em **[!UICO
 
 A página _[!UICONTROL Grupos de compras]_ é organizada como guias:
 
-| Guia | Descrição |
+| Tabulação | Descrição |
 | --- | ----------- |
 | [!UICONTROL Visão geral] | Esta guia é a padrão e exibe o [Painel de grupos de compra](../dashboards/buying-groups-dashboard.md). |
 | [!UICONTROL Procurar] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compras. </li><li>Filtrar por interesse da solução. </li><li>Detalhar detalhes do grupo de compras. </li><li>Criar um grupo de compras. Excluir um grupo de compras.</li></ul> |

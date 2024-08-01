@@ -3,7 +3,7 @@ title: Assistente de IA para criação de email
 description: Saiba como usar o Assistente de IA para otimizar o conteúdo de email usado nas Jornadas de conta.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
