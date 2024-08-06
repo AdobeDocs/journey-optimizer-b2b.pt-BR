@@ -3,10 +3,10 @@ title: Grupos de compra
 description: Saiba mais sobre grupos de compras e seus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 7%
+source-wordcount: '1186'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Para atividades de vendas e marketing B2B, as contas são fundamentais para qual
 
 ![Diagrama de funções da conta](assets/account-roles-diagram.png){width="800"}
 
-Dentro da conta, pode haver um subconjunto de pessoas que compõem o _grupo de compras_. Essas pessoas são as que tomam a decisão de comprar, portanto, precisam de atenção especial do profissional de marketing e podem precisar de informações diferentes fornecidas para elas do que as outras pessoas associadas à conta. Os grupos de compras podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente exige um CIO ou CIO e um representante do departamento jurídico para aprovar uma compra, mas um produto de rastreamento de bugs normalmente tem um vice-presidente de engenharia e um Director de TI como membros do grupo de compras.
+Dentro da conta, pode haver um subconjunto de pessoas que compõem o _grupo de compras_. Essas são as pessoas que tomam a decisão de comprar, portanto, precisam de atenção especial do profissional de marketing e podem precisar de informações diferentes fornecidas a elas do que as outras pessoas associadas à conta. Os grupos de compras podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente exige um CIO ou CIO e um representante do departamento jurídico para aprovar uma compra, mas um produto de rastreamento de bugs normalmente tem um vice-presidente de engenharia e um Director de TI como membros do grupo de compras.
 
 ## Componentes principais
 
@@ -52,7 +52,7 @@ Você pode aumentar a eficácia do marketing estabelecendo grupos de compra no J
 
 1. Use em uma jornada de conta por meio dos interesses de solução associados.
 
-## Acessar grupos de compras e componentes
+## Exibir grupos de compras e componentes
 
 Na navegação à esquerda, expanda **[!UICONTROL Contas]** e clique em **[!UICONTROL Comprando grupos]**.
 
@@ -87,28 +87,68 @@ A pontuação de integridade do grupo de compras é recalculada toda vez que um 
 
 ### Pontuação de engajamento do grupo de compra
 
-A pontuação de engajamento é usada para avaliar a eficácia de seus programas de marketing com base nas atividades comportamentais de grupo de compra rastreadas nas jornadas. Essa pontuação é derivada da atividade nos últimos 30 dias. Qualquer alteração de função em um modelo requer o recálculo da pontuação de engajamento para todos os grupos de compra criados usando esse modelo. Somente atividades de entrada são avaliadas no cálculo de uma pontuação de envolvimento.
+A pontuação de engajamento do grupo de compra é um número para determinar o engajamento dos membros de um grupo de compra com base nas atividades que eles realizam. Qualquer atividade de entrada executada pelos membros do grupo de compra nos últimos 30 dias é usada para calcular a pontuação.
 
-A pontuação exibida é arredondada (por exemplo, uma pontuação de 75,89999 é exibida como 76), não há limite superior para a pontuação para GA e há um limite de frequência diário de 20.
+Há um limite de frequência diário de 20 para cada atividade. Se um membro de um grupo de compras executar a mesma atividade mais de 20 vezes por dia, a contagem da atividade será limitada a 20 e não um número maior.
 
-Os exemplos a seguir ilustram o cálculo da pontuação de engajamento:
+A pontuação exibida é arredondada. Por exemplo, uma pontuação de 75,89999 é exibida como 76.
 
-**Grupo de compras 1** - pontuação de engajamento = 22,15
+#### Ponderação
 
-| Usuário | Função | Peso da função | Ação | Hoje | Ontem | Peso da ação | Pontuação |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Tomador de decisão | 80% | Site Visitado | 1000 | 2 | 1 | 22 |
-| | | | E-mail clicado | 1 | 0 | 1 | 1 |
-| | | | Pub baixado | 1 | 3 | 1 | 4 |
-| Bob | Influenciador | 15% | Site Visitado | 1 | 2 | 1 | 3 |
-| Calvin | Profissional | 5% | Site Visitado | 1 | 1 | 1 | 2 |
+Os usuários podem atribuir _ponderação_ a cada função no modelo de funções para alocar pesos diferentes para uma função para calcular a pontuação de engajamento.
 
-**Grupo de compras 2** - pontuação de engajamento = 8,55
+![Definir ponderação para cada função no modelo de funções](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-| Usuário | Função | Peso da função | Ação | Hoje | Ontem | Peso da ação | Pontuação |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Tomador de decisão | 80% | Site Visitado | 3 | 2 | 1 | 5 |
-| | | | E-mail clicado | 1 | 0 | 1 | 1 |
-| | | | Pub baixado | 1 | 3 | 1 | 4 |
-| Bret | Influenciador | 15% | Site Visitado | 1 | 2 | 1 | 3 |
-| Cam | Profissional | 5% | Site Visitado | 1 | 1 | 1 | 2 |
+Cada nível de ponderação converte em um valor, que é usado para calcular a pontuação de envolvimento:
+
+* [!UICONTROL Trivial] = 20
+* [!UICONTROL Menor] = 40
+* [!UICONTROL Normal] = 60
+* [!UICONTROL Importante] = 80
+* [!UICONTROL Vital] = 100
+
+Um modelo de funções com três funções com peso de _[!UICONTROL Vital]_, _[!UICONTROL Important]_ e _[!UICONTROL Normal]_ é convertido nas seguintes porcentagens ponderadas:
+
+| Função | Ponderação | Valor de back-end | Cálculo de valor | Porcentagem |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+| Tomador de decisão | Vital | 100 | 100/240 | 41,67% |
+| Influenciador | Importante | 80 | 80/240 | 33,33% |
+| Profissional | Normal | 60 | 240/60 | 25% |
+|               | Total | 240 |                   |           |
+
+#### Exemplo de cálculo
+
+O exemplo a seguir ilustra o cálculo da pontuação de engajamento usando a porcentagem de peso da função descrita, a contagem de atividades de entrada para cada membro do grupo de compras e um limite diário de 20 contagens para cada evento (se tiver ocorrido várias vezes).
+
+| Função | Membro | Tipo de atividade | Contagem de ontem | Contagem de hoje | Cálculo | Pontuação total |
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+| Tomador de decisão | Adam | Site visitado | 37 | 15 | 20 + 15 | 35 |
+|               |          | Email clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Marcar | Site visitado | 5 | 3 | 5 + 3 | 8 |
+|               |          | Email clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          | Pub baixado | 3 | 2 | 3 + 2 | 5 |
+| **Pontuação total dos tomadores de decisão** |         |             |                 |             |      | **52** |
+|               |          |             |                 |             |      |           |
+| Influenciador | John | Site visitado | 19 | 9 | 19 + 9 | 28 |
+| **Pontuação total de influenciadores** |         |             |                 |             |      | **28** |
+|               |          |             |                 |             |      |           |
+| Profissional | Bob | Email clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Paul | Email clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Calvin | Email clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          | Site visitado | 1 | 7 | 1 + 7 | 8 |
+|               |          | Pub baixado | 1 | 2 | 1 + 2 | 3 |
+| **Pontuação total de profissionais** |         |             |                 |             |      | **17** |
+
+A pontuação final de engajamento é calculada aplicando a ponderação de cada uma das pontuações de função:
+
+| Função | Pontuação total da função | % de peso da função | Pontuação X de peso % |
+|-------------- |---------------- |------------- |---------------- |
+| Tomadores de decisão | 52 | 41,67% | 21,67 |
+| Influenciadores | 28 | 33,33% | 9,33 |
+| Profissionais | 17 | 25% | 4,25 |
+| **Pontuação final de engajamento** |                |             | **35.25** |
