@@ -1,11 +1,11 @@
 ---
 title: Introdução à Journey Optimizer B2B Edition
-description: Como um novo usuário no Journey Optimizer B2B Edition, saiba mais sobre as áreas principais para começar.
+description: Como novo usuário no Journey Optimizer edição B2B, saiba mais sobre as áreas principais para começar.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
