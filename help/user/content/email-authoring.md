@@ -3,10 +3,10 @@ title: Criação de email
 description: Saiba como criar conteúdo de email personalizado que é usado em Jornadas de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 2%
+source-wordcount: '1468'
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,37 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 >
 >Use o Assistente de IA no Adobe Journey Optimizer B2B Edition, alimentado por IA gerativa para elevar seu conteúdo ao próximo nível. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
 
-### Projetar o email do zero
+### Projetar o email do zero {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Adicionar componentes da estrutura"
+>abstract="Os componentes de estrutura definem o layout do email. Arraste e solte um componente de **Estrutura** na tela para iniciar a criação do conteúdo de email."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="Adicionar componentes da estrutura"
+>abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo da página de destino."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Adicionar componentes da estrutura"
+>abstract="Os componentes de estrutura definem o layout do fragmento. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo do fragmento."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="Sobre os componentes de conteúdo"
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="Sobre os componentes de conteúdo"
+>abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um fragmento."
 
 1. Na página inicial do Designer, selecione a opção **[!UICONTROL Design do zero]**.
 
@@ -182,7 +212,7 @@ Dois tipos de alertas podem ser detectados:
 ## Verificar e testar o email {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="Verifique como o conteúdo está sendo renderizado"
 >abstract="Quando o conteúdo for definido, você poderá pré-visualizá-lo e verificar se a renderização está correta para o canal que está usando."
 

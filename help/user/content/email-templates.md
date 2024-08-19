@@ -3,10 +3,10 @@ title: Modelos de e-mail
 description: Saiba como criar e editar modelos de email que podem ser usados para criar emails de jornada de conta de forma fácil e eficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 0%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,17 @@ A página _[!UICONTROL Criar seu modelo]_ é aberta e fornece várias opções p
 
 ![Escolha como deseja começar com o design do seu modelo de email](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Criar do zero
+### Criar do zero {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Adicionar componentes da estrutura"
+>abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo do modelo."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
 
 Use o designer de email para definir a estrutura do seu conteúdo de email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
 
