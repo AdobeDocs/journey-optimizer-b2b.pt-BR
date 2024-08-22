@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
 source-wordcount: '1908'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -204,8 +204,8 @@ Você pode configurar entregas de mensagens de texto em uma Jornada de conta ao 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
->title="Verifique como o conteúdo está sendo renderizado"
->abstract="Quando o conteúdo for definido, você poderá pré-visualizá-lo e verificar se a renderização está correta para o canal que está usando."
+>title="Verificar como o conteúdo está sendo renderizado"
+>abstract="Após o conteúdo ser definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
 Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para simular (pré-visualizar) o conteúdo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem usando os dados do perfil de teste.
 

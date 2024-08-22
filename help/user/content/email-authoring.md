@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 >
 >Use o Assistente de IA no Adobe Journey Optimizer B2B Edition, alimentado por IA gerativa para elevar seu conteúdo ao próximo nível. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
 
-### Projetar o email do zero {#design-from-scratch}
+### Criar email do zero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -213,8 +213,8 @@ Dois tipos de alertas podem ser detectados:
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
->title="Verifique como o conteúdo está sendo renderizado"
->abstract="Quando o conteúdo for definido, você poderá pré-visualizá-lo e verificar se a renderização está correta para o canal que está usando."
+>title="Verificar como o conteúdo está sendo renderizado"
+>abstract="Após o conteúdo ser definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
 Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para pré-visualizá-la, enviar provas e controlar sua renderização em clientes populares de desktop, móveis e baseados na Web. Se você inseriu conteúdo personalizado, é possível visualizar como esse conteúdo é exibido na mensagem usando os dados do perfil de teste.
 

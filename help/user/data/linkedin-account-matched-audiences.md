@@ -6,7 +6,7 @@ hide: true
 source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ Antes de iniciar um fluxo de dados do Journey Optimizer B2B Edition, você deve 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="A configuração de destino do linkedIn é obrigatória"
+>title="A configuração de destino do LinkedIn é obrigatória"
 >abstract="Envie contas filtradas por grupos de compra para um destino do Linkedin para interagir com membros potenciais do grupo de compra. Você pode criar até 10 fluxos de dados para 10 grupos diferentes de contas filtradas. Para começar a usar esse recurso, adicione primeiro um destino do Linkedin."
 
 1. No Experience Platform, vá para **[!UICONTROL Conexões]** > **[!UICONTROL Destinos]** na navegação à esquerda e selecione a guia **[!UICONTROL Catálogo]**.
