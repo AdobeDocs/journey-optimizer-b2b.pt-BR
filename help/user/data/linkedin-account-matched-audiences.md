@@ -1,11 +1,9 @@
 ---
 title: Públicos-alvo correspondentes da conta do linkedIn
 description: Saiba como conectar uma conta do LinkedIn e ativar um fluxo de dados para grupos de compra.
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '682'
 ht-degree: 8%
 
 ---
@@ -25,15 +23,29 @@ Antes de iniciar um fluxo de dados do Journey Optimizer B2B Edition, você deve 
 
 1. No Experience Platform, vá para **[!UICONTROL Conexões]** > **[!UICONTROL Destinos]** na navegação à esquerda e selecione a guia **[!UICONTROL Catálogo]**.
 
-1. No catálogo, localize o conector **[!UICONTROL (Empresas) LinkedIn Matched Audience]** e clique em **[!UICONTROL Configurar]**.
+1. No catálogo, localize o conector **[!UICONTROL (Empresas) LinkedIn Matched Audience]**.
+
+   >[!TIP]
+   >
+   >Você pode encontrar rapidamente o conector digitando `LinkedIn` na caixa de pesquisa.
+
+1. No cartão do conector, clique no ícone _Mais_ (**...**) e escolha **[!UICONTROL Configurar novo destino]**.
 
    ![Acessar o conector de Público-alvo Correspondente do LinkedIn (Empresas)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. Selecione **[!UICONTROL Nova Conta]** > **[!UICONTROL Conectar ao LinkedIn]**.
+1. Selecione **[!UICONTROL Nova conta]** e clique em **[!UICONTROL Conectar ao destino]**.
+
+   ![Conectar uma nova conta do LinkedIn](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Forneça suas credenciais da LinkedIn e faça logon.
 
-   A conta do LinkedIn está conectada como um destino.
+   Após a autenticação, a conta do LinkedIn é conectada como um destino no Experience Platform.
+
+   ![Confirmação de conexão da conta exibida](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >Neste ponto, **não** insira os _[!UICONTROL detalhes do Destino]_. Somente a conexão é necessária.
 
 ## Atualizar os detalhes da conta
 

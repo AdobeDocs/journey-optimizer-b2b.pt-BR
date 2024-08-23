@@ -3,7 +3,7 @@ title: Grupos de compra
 description: Saiba mais sobre grupos de compras e seus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 6%
@@ -11,7 +11,7 @@ ht-degree: 6%
 ---
 
 
-# Grupos de compras
+# Grupos de compra
 
 Para atividades de vendas e marketing B2B, as contas são fundamentais para qualquer estratégia. Cada conta tem um grupo de pessoas associadas a ela, e essas pessoas podem ser funcionários da conta ou contratados que trabalham com a conta. As contas são hierárquicas e produtos diferentes podem ser vendidos em diferentes níveis na hierarquia. Por exemplo, o Adobe Experience Platform pode ser vendido no nível corporativo para uma conta de nível superior, enquanto o Adobe Photoshop pode ser vendido para uma conta que representa uma divisão ou departamento dentro de uma organização, como um departamento de design dentro de uma corporação maior.
 
@@ -109,7 +109,7 @@ Cada nível de ponderação converte em um valor, que é usado para calcular a p
 
 Um modelo de funções com três funções com peso de _[!UICONTROL Vital]_, _[!UICONTROL Important]_ e _[!UICONTROL Normal]_ é convertido nas seguintes porcentagens ponderadas:
 
-| Função | Ponderação | Valor de back-end | Cálculo de valor | Porcentagem |
+| Função | Ponderação | Valor do sistema | Cálculo de valor | Porcentagem |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Tomador de decisão | Vital | 100 | 100/240 | 41,67% |
