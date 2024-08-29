@@ -2,9 +2,9 @@
 title: Documentação do Adobe Journey Optimizer B2B Edition
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B Edition para orquestrar jornadas de contas e grupos de compras usando IA gerativa integrada e automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+source-git-commit: b0622b8224f581c76c43966537d1f576316d4068
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,12 +18,13 @@ Esta é uma amostra dos aprimoramentos mais recentes no produto e na documentaç
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
-<!-- 
->[!TAB LinkedIn Account Matched Audiences]
 
-Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
+>[!TAB Públicos-alvo correspondentes da conta do LinkedIn]
 
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"} -->
+Gere públicos-alvo de anúncio do LinkedIn por meio de Públicos-alvo correspondentes da conta para ajudar você a preencher funções vazias em seus grupos de compra. Definindo um conjunto de filtros de grupo de compras, você pode manter um Público-alvo correspondente do LinkedIn para direcionar prospetos que correspondem aos parâmetros do grupo de compras. Esse recurso aproveita o Experience Platform Destinations para gerenciar alguns aspectos da integração.
+
+[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Saiba mais sobre os públicos-alvo correspondentes da conta do LinkedIn"}
+
 >[!TAB Assistente de IA]
 
 Rapidamente se familiarize com os conceitos de marketing baseados em conta e conheça os recursos do Journey Optimizer B2B Edition projetados para maximizar as estratégias de sua equipe.
