@@ -1,12 +1,12 @@
 ---
 title: Criação de email
-description: Saiba como criar conteúdo de email personalizado que é usado em Jornadas de conta.
+description: Saiba como criar conteúdo de email personalizado que é usado em uma Jornada de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 14%
+source-wordcount: '1221'
+ht-degree: 13%
 
 ---
 
@@ -65,121 +65,116 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 ### Criar email do zero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do email. Arraste e solte um componente de **Estrutura** na tela para iniciar a criação do conteúdo de email."
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="Adicionar componentes da estrutura"
 >abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo da página de destino."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do fragmento. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo do fragmento."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Sobre os componentes de conteúdo"
->abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Sobre os componentes de conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Sobre os componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um fragmento."
+Use o editor de conteúdo visual para definir a estrutura do conteúdo de email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
 
-1. Na página inicial do Designer, selecione a opção **[!UICONTROL Design do zero]**.
+1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
 
-1. Para iniciar o design do conteúdo, arraste um item das **[!UICONTROL Estruturas]** e solte-o na tela.
+1. [Adicionar estrutura e conteúdo](#add-structure-and-content) à mensagem de email.
+1. [Adicionar ativos de imagem](#add-assets) à mensagem de email.
+1. [Personalizar o conteúdo do email](#personalize-content).
+1. [Examinar e atualizar links](#preview-and-edit-linked-urls).
 
-   Repita essa etapa para cada componente de estrutura para construir o layout do seu email.
-
-1. Adicione quantos itens de _Estruturas_ forem necessários e edite as configurações para cada um no painel à direita.
-
-   Selecione o componente de coluna n:n para definir o número de colunas de sua escolha (entre três e 10). Você também pode definir a largura de cada coluna movendo as setas abaixo dela.
-
-   Cada tamanho de coluna não pode ser menor que 10% da largura total do componente de estrutura. Somente colunas vazias podem ser removidas.
-
-1. Expanda a seção **[!UICONTROL Conteúdo]** e adicione quantos elementos forem necessários em um ou mais componentes da estrutura.
-
-1. Se necessário, você pode fazer personalizações adicionais para cada componente nas guias _[!UICONTROL Configurações]_ ou _[!UICONTROL Estilo]_.
-
-   Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente.
-
-1. No Seletor de ativos, é possível selecionar diretamente os ativos armazenados na biblioteca do Assets.
-
-   Clique duas vezes na pasta que contém seus ativos. Arraste e solte os itens em um componente de estrutura.
-
-1. Insira campos de personalização para personalizar seu conteúdo de atributos de perfis, associações de público-alvo, atributos contextuais e muito mais.
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. Selecione a guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que são rastreadas.
-
-   Você pode modificar o _Tipo de Rastreamento_ ou o _Rótulo_ e adicionar marcas, se necessário.
-
-Se necessário, você pode personalizar seu email clicando em **[!UICONTROL Alternar para o editor de código]** no menu avançado. O editor de código permite editar o código fonte do email, como adicionar tags de rastreamento ou HTML personalizadas.
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->Você não pode reverter para o designer visual neste email depois de alternar para o editor de código.
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 Quando o conteúdo estiver concluído, clique em **[!UICONTROL Simular conteúdo]** na parte superior para verificar a renderização. Você pode escolher a visualização de desktop ou móvel.
 
-Quando estiver pronto, clique em Salvar.
+Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
 ### Importar conteúdo de HTML existente
 
-O conteúdo importado pode ser:
+{{$include /help/_includes/content-design-import.md}}
 
-* Um arquivo HTML com uma folha de estilos incorporada
-* Uma pasta .zip que inclui um arquivo HTML, a folha de estilos (.css) e os arquivos de imagem
+![importar conteúdo html em um arquivo zip](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->Não há restrições na estrutura do arquivo .zip. No entanto, as referências devem ser relativas e se encaixar na estrutura de árvore da pasta .zip.
+>Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-_Para importar um arquivo com conteúdo HTML:_
-
-1. Na página inicial do Designer de email, selecione **[!UICONTROL Importar HTML]**.
-
-1. Arraste e solte o arquivo HTML ou .zip que contém o conteúdo HTML e clique em [!UICONTROL Importar].
-
-   Quando o carregamento do conteúdo do HTML for concluído, seu conteúdo estará no _Modo de compatibilidade_. Nesse modo, você só pode personalizar seu texto, adicionar links ou incluir ativos ao seu conteúdo.
+Você pode personalizar o conteúdo importado conforme necessário com as ferramentas do editor visual de email.
 
 ### Selecione um modelo
 
-Você pode escolher entre:
+{{$include /help/_includes/content-design-select-template.md}}
 
-* Modelos de exemplo. A interface do Journey Optimizer oferece 20 modelos de email prontos para uso que você pode escolher.
+## Adicionar estrutura e conteúdo {#structure-content}
 
-* Modelos salvos.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Adicionar componentes da estrutura"
+>abstract="Os componentes de estrutura definem o layout do email. Arraste e solte um componente de **Estrutura** na tela para iniciar a criação do conteúdo de email."
 
-* Um modelo personalizado que você criou do zero usando o menu _Modelos_ ou salvou de um email em uma jornada usando a opção _[!UICONTROL Salvar como modelo de conteúdo]_.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
-_Para começar a criar seu conteúdo com um dos modelos de exemplo ou salvos:_
+{{$include /help/_includes/content-design-components.md}}
 
-1. Acesse o _Designer de email_ do espaço de trabalho de edição de conteúdo de email.
+### Adicionar fragmentos
 
-   Na página _[!UICONTROL Criar email]_, a guia **[!UICONTROL Modelos de amostra]** é selecionada por padrão.
+No editor de conteúdo visual, o ícone _Fragmentos_ é exibido à esquerda. O exemplo a seguir descreve as etapas para adicionar fragmentos ao conteúdo do modelo.
 
-1. Para usar um modelo personalizado, selecione a guia **[!UICONTROL Modelos salvos]**.
+1. Para abrir a lista de fragmentos, clique no ícone _Fragmentos_.
 
-   A lista de todos os modelos de conteúdo criados na sandbox atual é exibida. Você pode classificá-los por nome, Última modificação ou Última criação.
+   É possível:
 
-1. Selecione o template de sua escolha na lista.
+   * Classifique a listagem.
+   * Procurar, Pesquisar ou Filtrar a listagem.
+   * Alternar entre as visualizações em Miniatura e em Lista.
+   * Atualize a lista para refletir qualquer um dos fragmentos criados recentemente.
 
-1. Depois de selecionar uma categoria, você pode navegar entre todos os modelos dessa categoria (amostra ou salvo, dependendo da seleção) usando as setas para a direita e para a esquerda.
+   ![Selecione um fragmento da lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Usar este modelo]** na parte superior direita da página.
+1. Arraste e solte qualquer um dos fragmentos no espaço reservado do componente estrutural.
 
-1. Edite o conteúdo conforme necessário na _Designer de email_.
+   O editor renderiza o fragmento na seção/elemento da estrutura de email.
+
+O conteúdo do fragmento é atualizado dinamicamente na estrutura para mostrar como o conteúdo aparece no email.
+
+>[!TIP]
+>
+>Se quiser adicionar o fragmento para que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e, em seguida, arraste e solte o fragmento nele.
+
+Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo. Os fragmentos adicionados a um modelo de email não são editáveis no modelo — o conteúdo é definido pelo fragmento de origem.
+
+### Adicionar ativos
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### Navegar pelas camadas, configurações e estilos
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### Personalizar conteúdo
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### Editar rastreamento de URL vinculado
+
+{{$include /help/_includes/content-design-links.md}}
+
+### Exibir opções
+
+Aproveite as opções de exibição e validação de conteúdo disponíveis no editor visual de email.
+
+* Aumentar/diminuir o zoom do conteúdo nas opções de zoom predefinidas.
+
+* Alternar a exibição do conteúdo na área de trabalho, dispositivo móvel ou somente texto/texto sem formatação.
+   * Clique no ícone _Olho_ para visualizar o conteúdo entre dispositivos.
+   * Selecione um dos dispositivos prontos para uso ou insira dimensões personalizadas para visualizar o conteúdo.
 
 ## Verificar alertas
 

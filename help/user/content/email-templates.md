@@ -3,9 +3,9 @@ title: Modelos de e-mail
 description: Saiba como criar e editar modelos de email que podem ser usados para criar emails de jornada de conta de forma fácil e eficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '1817'
 ht-degree: 2%
 
 ---
@@ -48,46 +48,25 @@ A página _[!UICONTROL Criar seu modelo]_ é aberta e fornece várias opções p
 
 ![Escolha como deseja começar com o design do seu modelo de email](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Criar do zero {#design-from-scratch}
+### Criar do zero
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo do modelo."
+Use o editor de conteúdo visual para definir a estrutura do conteúdo de email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Sobre os componentes de conteúdo"
->abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
-
-Use o designer de email para definir a estrutura do seu conteúdo de email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
+>[!NOTE]
+>
+>As ferramentas de design disponíveis são equivalentes às ferramentas usadas para [criação de email](./email-authoring.md). A diferença é que esse conteúdo é salvo como um modelo que pode ser reutilizado em vários nós de email de envio nas jornadas da conta.
 
 1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
 
-1. Comece a projetar seu conteúdo arrastando e soltando componentes na tela para definir o layout estrutural do email.
-
-   As ferramentas de design disponíveis são equivalentes às ferramentas usadas para [criação de email](./email-authoring.md). A diferença é que esse conteúdo é salvo como um modelo que pode ser reutilizado em vários nós de email de envio nas jornadas da conta.
+1. [Adicionar estrutura e conteúdo](#add-structure-and-content) ao modelo.
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B Edition permite importar conteúdo de HTML existente para criar seus modelos de email. Esse conteúdo pode ser:
+O Adobe Journey Optimizer B2B Edition permite importar conteúdo de HTML existente para criar seus modelos de email.
 
-* Um arquivo HTML com uma folha de estilos incorporada.
-* Um arquivo .zip que inclui um arquivo HTML, a folha de estilos (.css) e imagens
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >Não há restrições na estrutura do arquivo .zip. No entanto, as referências devem ser relativas e se encaixar na estrutura de árvore da pasta .zip.
-
-_Para importar um arquivo com conteúdo HTML:_
-
-1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Importar HTML]**.
-
-1. Arraste e solte o arquivo HTML ou .zip que contém o conteúdo HTML e clique em **[!UICONTROL Importar]**.
-
-   Depois que o conteúdo do HTML for carregado, seu conteúdo estará no _Modo de compatibilidade_. Nesse modo, você só pode personalizar seu texto, adicionar links ou incluir ativos ao seu conteúdo.
-
-1. Para usar os componentes de conteúdo do designer de email, clique na guia **[!UICONTROL conversor de HTML]** e clique em **[!UICONTROL Converter]**.
+![importar conteúdo html em um arquivo zip](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 
 ### Selecionar um modelo de design
 
-Na página inicial _[!UICONTROL Criar seu modelo]_, use a seção Selecionar modelo de design para começar a criar o conteúdo a partir de um modelo. Você pode usar um modelo de amostra ou um modelo de email salvo da instância do Journey Optimizer B2B Edition.
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## Adicionar estrutura e conteúdo {#structure-content}
 
->[!TAB Modelos salvos]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Adicionar componentes da estrutura"
+>abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte um componente **Estrutura** na tela para começar a projetar o conteúdo para o seu modelo."
 
-Na página inicial _Criar seu modelo_, a guia _Modelos de amostra_ é selecionada por padrão. Para usar um modelo personalizado, selecione a guia **[!UICONTROL Modelos salvos]**.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Sobre os componentes de conteúdo"
+>abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
 
-A lista de todos os modelos de email criados na sandbox atual é exibida. Você pode classificá-los por _[!UICONTROL Nome]_, _[!UICONTROL Última modificação]_ e _[!UICONTROL Última criação]_.
-
-![Escolher um modelo salvo](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-Selecione o template desejado na lista.
-
-Após a seleção, é exibida uma pré-visualização do modelo. No modo de visualização, você pode navegar entre todos os modelos de uma categoria (amostra ou salva, dependendo da seleção) usando as setas para a direita e para a esquerda.
-
-![Visualizar o modelo salvo](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-Quando a exibição corresponder ao que você deseja usar, clique em **[!UICONTROL Usar este modelo]** na parte superior direita da janela de visualização.
-
-Essa ação copia o conteúdo no designer de conteúdo visual, onde você pode editar o conteúdo conforme necessário.
-
->[!TAB Modelo de amostra]
-
-O Adobe Journey Optimizer B2B Edition oferece uma seleção de modelos de email oferecidos _prontos para uso_, que podem ser usados para criar emails e modelos de email.
-
-![Escolha um modelo fornecido pelo Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
-
->[!ENDTABS]
-
-## Adicionar estrutura e conteúdo
-
-Comece a criar o seu conteúdo arrastando e soltando estruturas do menu **[!UICONTROL Componentes]** na tela para definir o layout do seu email.
-
-Adicione quantas estruturas forem necessárias e edite suas configurações nas propriedades do elemento à direita.
-
-Selecione o componente _[!UICONTROL n:n coluna]_ para definir o número de colunas de sua escolha (entre três e 10). Defina a largura de cada coluna movendo as setas na parte inferior.
-
->[!NOTE]
->
->Cada tamanho de coluna não pode estar abaixo de 10% da largura total do componente de estrutura. Você pode remover apenas colunas vazias.
-
-Expanda a seção **[!UICONTROL Conteúdo]** e adicione quantos elementos forem necessários em um ou mais componentes da estrutura.
-
-
-
-Cada componente pode ser personalizado ainda mais com as guias _[!UICONTROL Configurações]_ ou _[!UICONTROL Estilo]_ no painel direito. Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente.
-
-### Navegar pelas camadas, configurações e estilos
-
-O exemplo a seguir descreve as etapas para ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto por três colunas.
-
-1. Selecione o componente de estrutura diretamente no email ou usando a Árvore de navegação disponível no menu esquerdo.
-
-1. Na barra de ferramentas, clique em **[!UICONTROL Selecionar uma coluna]** e escolha a que deseja editar.
-
-   Componente de coluna ![n:n exibido na tela](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   Também é possível selecioná-la na árvore de estrutura. Os parâmetros editáveis para essa coluna são exibidos na guia _[!UICONTROL Estilos]_.
-
-1. Em **[!UICONTROL Alinhamento]**, selecione o ícone _Superior_, _Meio_ ou _Inferior_.
-
-1. Em **[!UICONTROL Preenchimento]**, defina o preenchimento para todos os lados.
-
-   Selecione **[!UICONTROL Preenchimento diferente para cada lado]** se desejar ajustar o preenchimento. Clique no ícone de bloqueio para interromper a sincronização.
-
-1. Se necessário, ajuste o alinhamento e o preenchimento das outras colunas.
-
-1. Salve as alterações.
-
-### Personalizar conteúdo
-
-O exemplo a seguir descreve as etapas para personalizar o conteúdo do modelo usando atributos de cliente potencial/conta e tokens do sistema.
-
-1. Selecione o componente de texto e clique no ícone _Adicionar personalização_ na barra de ferramentas.
-
-   ![Clique no ícone Personalizar](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   Esta ação abre a caixa de diálogo _Editar Personalization_.
-
-1. Clique em **+** ou **...** para adicionar um token ao espaço em branco.
-
-   ![Construir texto personalizado usando tokens](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. Clique em **[!UICONTROL Salvar]**.
+{{$include /help/_includes/content-design-components.md}}
 
 ### Adicionar fragmentos
 
@@ -198,43 +107,33 @@ No editor de conteúdo visual, o ícone _Fragmentos_ é exibido à esquerda. O e
 
    ![Selecione um fragmento da lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Arraste e solte qualquer um dos fragmentos no espaço reservado do componente de estrutura.
+1. Arraste e solte qualquer um dos fragmentos no espaço reservado do componente estrutural.
 
    O editor renderiza o fragmento na seção/elemento da estrutura de email.
 
-O conteúdo do fragmento é atualizado dinamicamente na estrutura para renderizar um visual de como o conteúdo aparece no email.
+O conteúdo do fragmento é atualizado dinamicamente na estrutura para mostrar como o conteúdo aparece no email.
 
-Se quiser adicionar o fragmento para que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e, em seguida, arraste e solte o fragmento nele.
+>[!TIP]
+>
+>Se quiser adicionar o fragmento para que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e, em seguida, arraste e solte o fragmento nele.
 
 Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo. Os fragmentos adicionados a um modelo de email não são editáveis no modelo — o conteúdo é definido pelo fragmento de origem.
 
 ### Adicionar ativos
 
-No editor de conteúdo visual, selecione o ícone _Assets_ que é exibido à esquerda.
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service com o Adobe Marketo Engage Design Studio padrão, poderá escolher ativos de imagem da origem selecionada na página de detalhes do modelo.
+### Navegar pelas camadas, configurações e estilos
 
-O exemplo a seguir descreve as etapas para adicionar ativos ao conteúdo do modelo:
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. Para abrir a biblioteca de ativos, clique no ícone _Assets_.
+### Personalizar conteúdo
 
-   No seletor de ativos, você pode selecionar ativos diretamente armazenados na biblioteca de origem.
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. Adicione um novo ativo arrastando e soltando o ativo de imagem em um componente de estrutura.
+### Editar rastreamento de URL vinculado
 
-1. Substitua um ativo de imagem selecionando-o na tela e clique em **[!UICONTROL Selecionar um ativo]** nas ferramentas de origem de imagem.
-
-   ![Selecione um ativo da biblioteca de origem](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### Visualizar e editar URLs
-
-1. Clique no ícone _[!UICONTROL Links]_ à esquerda para exibir todas as URLs do seu conteúdo a ser rastreado.
-
-1. Se necessário, clique no ícone _Editar_ (lápis) e modifique o _Tipo de Rastreamento_ ou o _Rótulo_ e adicione _Marcas_ para um link.
-
-![Clique em Mais para acessar as ações do modelo](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### Exibir opções
 
