@@ -3,9 +3,9 @@ title: Grupos de compra
 description: Saiba mais sobre grupos de compras e seus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,8 @@ Para atividades de vendas e marketing B2B, as contas são fundamentais para qual
 ![Diagrama de funções da conta](assets/account-roles-diagram.png){width="800"}
 
 Dentro da conta, pode haver um subconjunto de pessoas que compõem o _grupo de compras_. Essas são as pessoas que tomam a decisão de comprar, portanto, precisam de atenção especial do profissional de marketing e podem precisar de informações diferentes fornecidas a elas do que as outras pessoas associadas à conta. Os grupos de compras podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente exige um CIO ou CIO e um representante do departamento jurídico para aprovar uma compra, mas um produto de rastreamento de bugs normalmente tem um vice-presidente de engenharia e um Director de TI como membros do grupo de compras.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](#overview-video)
 
 ## Componentes principais
 
@@ -152,3 +154,7 @@ A pontuação final de engajamento é calculada aplicando a ponderação de cada
 | Influenciadores | 28 | 33,33% | 9,33 |
 | Profissionais | 17 | 25% | 4,25 |
 | **Pontuação final de engajamento** |                |             | **35.25** |
+
+## Vídeo de visão geral
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

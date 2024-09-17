@@ -3,9 +3,9 @@ title: Comprando modelos de função de grupo
 description: Saiba mais sobre como definir um modelo de função a ser usado como um componente de grupo de compras.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Comprando modelos de função do grupo
 
 Em um mercado B2B, as decisões de compra geralmente são tomadas por vários indivíduos. Essas pessoas participam do processo de tomada de decisões de acordo com sua função na organização. Crie modelos de função do Grupo de compras que contenham essas definições de função de acordo com cada tipo de oferta de produto ou caso de uso de conta.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Acessar e procurar modelos de função
 
@@ -130,3 +132,7 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
    ![Alterar prioridade de função](./assets/roles-template-delete.png){width="700"}
 
 1. Na caixa de diálogo, clique em **[!UICONTROL Excluir]** para confirmar.
+
+## Vídeo de visão geral
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
