@@ -2,9 +2,9 @@
 title: Recursos de governança
 description: Saiba mais sobre os recursos de governança disponíveis atualmente no Journey Optimizer B2B Edition.
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8c191cd86a9aa9e7094b7d3464b3179cfdb4789e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Com o Journey Optimizer B2B Edition, você pode criar e gerenciar casos de uso d
 
 ## Ainda não disponível
 
-Os seguintes recursos de governança ainda não estão disponíveis, mas estão incluídos no roteiro do produto:
+Os seguintes recursos de governança ainda não estão disponíveis:
 
 * Aplicação de rótulo de uso de dados (DULE) / políticas de uso
 * Higiene de dados
