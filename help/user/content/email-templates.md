@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -83,7 +83,7 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte um componente **Estrutura** na tela para começar a projetar o conteúdo para o seu modelo."
+>abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte um componente de **Estrutura** na tela para começar a criar o conteúdo do modelo."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
