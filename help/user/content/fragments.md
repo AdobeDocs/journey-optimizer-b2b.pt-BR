@@ -3,9 +3,9 @@ title: Fragmentos
 description: Saiba como criar e usar fragmentos de conteúdo visual como componentes reutilizáveis para emails e modelos de email no Adobe Journey Optimizer B2B Edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '2687'
 ht-degree: 3%
 
 ---
@@ -31,11 +31,35 @@ Para acessar fragmentos visuais no Adobe Journey Optimizer B2B Edition, vá para
 
 A tabela é classificada pela coluna _[!UICONTROL Modificado]_, com os fragmentos atualizados mais recentemente na parte superior por padrão. Clique no título da coluna para alterar entre crescente e decrescente.
 
-Para pesquisar um fragmento por nome, insira uma string de texto na barra de pesquisa para uma correspondência. Clique no ícone _Filtro_ para filtrar os itens exibidos de acordo com seus critérios especificados.
+### Status do fragmento e ciclo de vida
+
+O status do fragmento determina sua disponibilidade para uso em um email ou modelo de email e as alterações que você pode fazer nele.
+
+| Status | Descrição |
+| -------------------- | ----------- |
+| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o conteúdo visual, até que você o publique para uso em um modelo de email ou de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no designer visual<li>Publicar<li>Duplicar<li>Excluir |
+| Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. Um conteúdo de fragmento publicado não pode ser modificado no designer visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
+| Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no designer visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no visual designer<li>Versão de rascunho do Publish<li>Duplicar<li>Excluir (se não estiver em uso) |
+
+![Ciclo de vida do status do fragmento](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>O status do fragmento foi introduzido na versão de agosto do Journey Optimizer B2B Edition. Todos os fragmentos criados antes desta versão têm o status _Rascunho_, mesmo se forem usados em um email ou modelo. Se você fizer qualquer alteração nesses fragmentos, deverá publicar o fragmento para propagar as alterações.
+
+### Filtrar a lista de fragmentos
+
+Para pesquisar um fragmento por nome, insira uma string de texto na barra de pesquisa para uma correspondência. Clique no ícone _Filtro_ ( ![Ícone Mostrar ou ocultar filtros](../assets/do-not-localize/icon-filter.svg) ) para mostrar as opções de filtro disponíveis e alterar as configurações para filtrar os itens exibidos de acordo com seus critérios especificados.
 
 ![Filtrar os fragmentos exibidos](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-Personalize as colunas que deseja exibir na tabela clicando no ícone _Personalizar tabela_ na parte superior direita. Selecione as colunas a serem exibidas e clique em **[!UICONTROL Aplicar]**.
+### Personalizar a exibição da coluna
+
+Personalize as colunas que deseja exibir na tabela clicando no ícone _Personalizar tabela_ ( ![Ícone Personalizar tabela](../assets/do-not-localize/icon-column-settings.svg) ) na parte superior direita.
+
+Na caixa de diálogo, selecione as colunas a serem exibidas e clique em **[!UICONTROL Aplicar]**.
+
+![Selecione as colunas que deseja exibir](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## Criar fragmentos
 
@@ -57,16 +81,19 @@ Você pode criar novos fragmentos visuais no Journey Optimizer B2B Edition clica
 
 1. Clique em **[!UICONTROL Criar]**.
 
-   O editor de conteúdo visual é aberto com uma tela vazia.
+   O designer visual é aberto com uma tela vazia.
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. Use as ferramentas de design de conteúdo para criar o conteúdo visual do fragmento:
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
+   * [Adicionar o Assets](#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](#personalize-content)
+   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+
+1. Clique em **[!UICONTROL Salvar]** a qualquer momento para salvar o fragmento de rascunho.
+
+1. Quando estiver pronto para disponibilizar o fragmento para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
 
 ### Adicionar estrutura e conteúdo {#design-fragment}
 
@@ -145,12 +172,97 @@ Se o fragmento estiver em uso no momento, a ação abrirá uma caixa de diálogo
 
 ## Editar fragmentos
 
-É possível editar um fragmento usando um dos seguintes métodos:
+As edições em um fragmento dependem do status atual:
 
-* Nos detalhes do fragmento à direita, clique em **[!UICONTROL Editar]**.
-* Na página de listagem _[!UICONTROL Fragmentos]_, clique nas reticências ao lado do fragmento e escolha **[!UICONTROL Editar]**.
+* Quando um fragmento está no status _Rascunho_, é possível editar qualquer um de seus detalhes e o conteúdo visual.
+* Quando um fragmento está no status _Publicado_, é possível editar a descrição do fragmento, mas não o nome. Não é possível editar o conteúdo visual.
+* Quando um fragmento está no status _Publicado com rascunho_, a edição de detalhes fica limitada à descrição. Também é possível editar o conteúdo visual da versão de rascunho.
 
-Esta ação abre o fragmento em um editor de conteúdo visual, no qual você pode editar o fragmento usando qualquer um dos recursos para [criar um fragmento](#create-fragments).
+>[!BEGINTABS]
+
+>[!TAB Rascunho]
+
+1. Na página de listagem _[!UICONTROL Fragmentos]_, clique no nome do fragmento para abri-lo.
+
+   Uma visualização do conteúdo visual é exibida, com os detalhes do fragmento à direita.
+
+1. Modifique quaisquer detalhes, como nome e descrição.
+
+   ![Detalhes do fragmento com status de Rascunho](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. Para fazer alterações no conteúdo no designer visual, clique em **[!UICONTROL Editar fragmento]**.
+
+   Use as ferramentas do designer visual conforme necessário:
+
+   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
+   * [Adicionar o Assets](#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](#personalize-content)
+   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+
+   Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do fragmento.
+
+1. Quando o fragmento atender aos seus critérios e você quiser disponibilizá-lo para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
+
+>[!TAB Publicado]
+
+1. Na página de listagem _[!UICONTROL Fragmentos]_, clique no nome do fragmento para abri-lo.
+
+   Uma visualização do conteúdo visual é exibida, com os detalhes do fragmento à direita.
+
+1. Modifique a descrição, se necessário.
+
+   Para um fragmento publicado, todos os outros detalhes não podem ser alterados.
+
+1. Para atualizar o conteúdo, clique em **[!UICONTROL Criar versão de rascunho]** na parte superior direita.
+
+   Clique em **[!UICONTROL OK]** na caixa de diálogo para abrir a versão de rascunho no designer visual. Você pode alterar a [origem da imagem](./assets-overview.md#choose-an-asset-source), se necessário.
+
+   ![Criar caixa de diálogo de versão de rascunho](./assets/fragments-create-draft-version.png){width="300"}
+
+   Use as ferramentas do designer visual conforme necessário:
+
+   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
+   * [Adicionar o Assets](#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](#personalize-content)
+   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+
+   Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do fragmento.
+
+1. Quando o fragmento de rascunho atender aos seus critérios e você quiser disponibilizar as alterações para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
+
+   Ao publicar a versão de rascunho, ela substitui a versão publicada atual e o conteúdo é atualizado nos emails e templates de email em que já está em uso.
+
+>[!TAB Publicado com rascunho]
+
+Há duas maneiras de abrir a versão de rascunho para edição na página de listagem _[!UICONTROL Fragmentos]_:
+
+* Clique no ícone _Mais_ (**...**) ao lado do nome do fragmento e escolha **[!UICONTROL Abrir versão de rascunho]**.
+
+  ![Abrir versão de rascunho](./assets/fragments-create-draft-version.png){width="300"}
+
+* Clique no nome do fragmento para abri-lo. Em seguida, clique em **[!UICONTROL Abrir versão de rascunho]** na parte superior direita.
+
+  Uma visualização do conteúdo visual da versão de rascunho é exibida, com os detalhes do fragmento à direita.
+
+Para atualizar o conteúdo:
+
+1. Clique em **[!UICONTROL Editar fragmento]** na parte superior direita. Use as ferramentas do designer visual conforme necessário:
+
+   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
+   * [Adicionar o Assets](#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](#personalize-content)
+   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+
+   Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do fragmento.
+
+1. Quando o fragmento de rascunho atender aos seus critérios e você quiser disponibilizar as alterações para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
+
+   Ao publicar a versão de rascunho, ela substitui a versão publicada atual e o conteúdo é atualizado nos emails e templates de email em que já está em uso.
+
+>[!ENDTABS]
 
 ## Duplicar fragmentos
 
@@ -167,7 +279,7 @@ Na caixa de diálogo do, digite um nome útil (exclusivo) e uma descrição. Cli
 
 O fragmento duplicado (novo) aparece na listagem _Fragmentos_.
 
-## Salvar um fragmento do conteúdo do email ou do modelo
+## Salvar um novo fragmento do conteúdo do email ou do modelo
 
 Ao criar/editar um modelo de email ou de email no editor de conteúdo visual, você pode optar por salvar todo o conteúdo ou partes dele como um fragmento para que ele fique disponível para reutilização.
 
