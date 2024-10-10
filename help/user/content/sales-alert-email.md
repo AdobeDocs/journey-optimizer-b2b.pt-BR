@@ -3,7 +3,7 @@ title: Email de alerta de vendas
 description: Saiba como incluir um email de alerta de vendas automatizado nas jornadas da conta.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
+source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 3%
@@ -60,4 +60,4 @@ Você pode configurar entregas de email de alerta de vendas em uma jornada de co
 
    ![Caixa de diálogo Criar novo email](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Depois que a jornada da conta é publicada, o Alerta de vendas é entregue de acordo com esses parâmetros.
+   Depois que a jornada da conta for publicada, o alerta de vendas será entregue de acordo com esses parâmetros.
