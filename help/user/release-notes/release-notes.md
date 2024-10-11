@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão mais recentes do Adobe Journey Optimizer edição B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
+source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 15%
+source-wordcount: '402'
+ht-degree: 9%
 
 ---
 
@@ -16,6 +16,42 @@ O Adobe Journey Optimizer B2B Edition oferece continuamente novos recursos, melh
 O Journey Optimizer B2B Edition é construído nativamente no [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Revise a [descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, medidas de proteção de desempenho e limitações.
+
+## Notas de versão de setembro de 2024 {#Sept-2024}
+
+**Data de lançamento**: 7 de outubro de 2024
+
+Esta versão inclui os seguintes novos recursos e melhorias:
+
+<table>
+<thead>
+<tr>
+<th><strong>Biblioteca aprimorada de ativos centrais</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A _biblioteca central de ativos aprimorada_ permite usar todos os ativos de imagem na instância do Marketo Engage, nos espaços de trabalho do Design Studio. Existem medidas de proteção integradas que impedem edições nos ativos Marketo Engage do Journey Optimizer B2B edition, bem como operações de exclusão e movimentação. Essas proteções garantem que os ativos de origem (Marketo Engage Design Studio) sejam mantidos e, ao mesmo tempo, permitem leitura e reutilização perfeitas no Journey Optimizer B2B edition. <a href="../content/marketo-engage-design-studio.md">Saiba mais</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ativos acessados recentemente</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A página inicial no aplicativo Journey Optimizer B2B edition agora inclui a seção _[!UICONTROL Acessado recentemente]_, que fornece uma lista dos ativos acessados mais recentemente para o profissional de marketing ou administrador. Você pode usar essa lista para ir diretamente para o ativo no qual você trabalhou recentemente sem navegar por uma série de páginas de ativos e pesquisas. Ela fornece informações adicionais sobre a modificação para que você possa tomar a decisão sobre qual dos ativos precisa de mais modificações da última sessão. Para ativos de email, ele exibe a jornada da conta onde o ativo de email é usado. <a href="../home-page.md">Saiba mais</a>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de versão de agosto de 2024 {#Aug-2024}
 
@@ -47,7 +83,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 <tbody>
 <tr>
 <td>
-<p>Os fragmentos visuais são gerenciados usando um ciclo de vida de status, em que o status do fragmento determina a disponibilidade para uso em um email ou modelo de email e as alterações que você pode fazer nele. Isso facilita o gerenciamento de conteúdo reutilizado de acordo com seu calendário promocional e de comunicações. <a href="../content/fragments.md#fragment-status-and-lifecycle">Saiba mais</a>
+<p>Os fragmentos visuais agora são gerenciados usando um ciclo de vida de status. O status do fragmento determina sua disponibilidade para uso em um email ou modelo de email e as alterações que você pode fazer nele. Esse fluxo de trabalho facilita o gerenciamento de conteúdo reutilizado de acordo com seu calendário promocional e de comunicações. <a href="../content/fragments.md#fragment-status-and-lifecycle">Saiba mais</a>
 </td>
 </tr>
 </tbody>
