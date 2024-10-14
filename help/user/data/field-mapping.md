@@ -1,19 +1,23 @@
 ---
 title: Campos XDM
-description: Revise os campos de atributo padrão que são sincronizados entre o Adobe Experience Platform e o Journey Optimizer B2B Edition.
+description: Revise os campos de atributo padrão que são sincronizados entre o Adobe Experience Platform e o Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 16%
+source-wordcount: '965'
+ht-degree: 15%
 
 ---
 
 # Campos XDM
 
-Os dados de público-alvo da conta são armazenados como atributos nas classes Conta de negócios XDM e Pessoa de negócios XDM. Os dados são sincronizados periodicamente entre o Adobe Experience Platform e o Journey Optimizer B2B Edition. As seções a seguir listam os conjuntos padrão de atributos.
+Os dados de público-alvo da conta são armazenados como atributos nas classes Conta de negócios XDM e Pessoa de negócios XDM. Os dados são sincronizados periodicamente entre o Adobe Experience Platform e o Journey Optimizer B2B edition. As seções a seguir listam os conjuntos padrão de atributos.
 
 ## Atributos de pessoa de negócios XDM
+
+>[!IMPORTANT]
+>
+>O atributo `workEmail.Address` é obrigatório. Se estiver vazio para um membro do público-alvo da conta, essa pessoa não será assimilada e será omitida das jornadas de conta e dos grupos de compra que fazem referência ao público-alvo.
 
 | [Propriedade](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nome de exibição | Nome para exibição do Journey Optimizer B2B | Tipo de dados | Descrição |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 | `workAddress.postalCode` | Código postal | Código postal | String | O código postal da localização. Os códigos postais não estão disponíveis para todos os países. Em alguns países, contém apenas parte do código postal. |
 | `workAddress.state` | Estado | Estado | String | O nome do estado do endereço. É um campo de forma livre. |
 | `workAddress.street1` | Folha 1 | Endereço | String | Informações no nível da rua principal, número do apartamento, número da rua e nome da rua. |
-| `workEmail.address` | Endereço | Endereço de e-mail | String | O endereço técnico, por exemplo, `<name@domain.com>`, conforme comumente definido em RFC2822 e padrões subsequentes. |
+| `workEmail.address` | Endereço | Endereço de e-mail | String | **Campo obrigatório** <br/>O endereço técnico, por exemplo, `<name@domain.com>`, conforme definido normalmente em RFC2822 e padrões subsequentes. |
 | `workEmail.status` | Status | E-mail suspenso | String | Uma indicação quanto à capacidade de usar o endereço de email. |
 | `workPhone.number` | Número | Número de telefone | String | Número de telefone comercial. |
 
 ## Atributos da conta de negócios XDM
+
+>[!IMPORTANT]
+>
+>O atributo `accountName` é obrigatório. Se estiver vazio para uma conta em um público-alvo de conta, essa conta não será assimilada e será omitida das jornadas de conta e dos grupos de compra que fazem referência ao público-alvo.
 
 | [Propriedade](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Nome de exibição | Nome para exibição do Journey Optimizer B2B | Tipo de dados | Descrição |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,7 +59,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 | `accountBillingAddress.region` | Região  | Região do endereço | String | A parte da região, cidade ou distrito do endereço para cobrança. |
 | `accountBillingAddress.state` | Estado | Estado | String | O nome do estado do endereço para cobrança. É um campo de forma livre. |
 | `accountBillingAddress.street1` | Folha 1 | Folha 1 | String | Informações no nível da rua principal do endereço de cobrança, que normalmente incluem o número do apartamento, o número da rua e o nome da rua. |
-| `accountName` | Nome | Nome | String | Nome da empresa. São permitidos até 255 caracteres neste campo. |
+| `accountName` | Nome | Nome | **Campo obrigatório** <br/>Cadeia de caracteres | Nome da empresa. São permitidos até 255 caracteres neste campo. |
 | `accountOrganization.annualRevenue.amount` | Receita anual | Receita anual | Número | Quantidade estimada de receita anual da organização. |
 | `accountOrganization.industry` | Setor | Setor | String | O setor atribuído à organização. É um campo de forma livre, e é aconselhável usar um valor estruturado para consultas ou usar a propriedade `xdm:classifier`. |
 | `accountOrganization.logoUrl` | URL do logotipo | URL do logotipo | String | Caminho a ser combinado com a URL de uma instância do Salesforce (por exemplo, `https://yourInstance.salesforce.com/`) para gerar uma URL para solicitar a imagem do perfil da rede social associada à conta. O URL gerado retorna um redirecionamento HTTP (código 302) para a imagem de perfil da rede social da conta. |
