@@ -2,7 +2,7 @@
 title: Campos XDM
 description: Revise os campos de atributo padrão que são sincronizados entre o Adobe Experience Platform e o Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 15%
@@ -59,7 +59,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 | `accountBillingAddress.region` | Região  | Região do endereço | String | A parte da região, cidade ou distrito do endereço para cobrança. |
 | `accountBillingAddress.state` | Estado | Estado | String | O nome do estado do endereço para cobrança. É um campo de forma livre. |
 | `accountBillingAddress.street1` | Folha 1 | Folha 1 | String | Informações no nível da rua principal do endereço de cobrança, que normalmente incluem o número do apartamento, o número da rua e o nome da rua. |
-| `accountName` | Nome | Nome | **Campo obrigatório** <br/>Cadeia de caracteres | Nome da empresa. São permitidos até 255 caracteres neste campo. |
+| `accountName` | Nome | Nome | String | **Campo obrigatório** <br/>Nome da empresa. São permitidos até 255 caracteres neste campo. |
 | `accountOrganization.annualRevenue.amount` | Receita anual | Receita anual | Número | Quantidade estimada de receita anual da organização. |
 | `accountOrganization.industry` | Setor | Setor | String | O setor atribuído à organização. É um campo de forma livre, e é aconselhável usar um valor estruturado para consultas ou usar a propriedade `xdm:classifier`. |
 | `accountOrganization.logoUrl` | URL do logotipo | URL do logotipo | String | Caminho a ser combinado com a URL de uma instância do Salesforce (por exemplo, `https://yourInstance.salesforce.com/`) para gerar uma URL para solicitar a imagem do perfil da rede social associada à conta. O URL gerado retorna um redirecionamento HTTP (código 302) para a imagem de perfil da rede social da conta. |
