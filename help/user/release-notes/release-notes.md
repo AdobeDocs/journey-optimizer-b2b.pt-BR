@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão mais recentes do Adobe Journey Optimizer edição B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '420'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,8 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 <tbody>
 <tr>
 <td>
-<p>A _biblioteca central de ativos aprimorada_ permite usar todos os ativos de imagem na instância do Marketo Engage, nos espaços de trabalho do Design Studio. Existem medidas de proteção integradas que impedem edições nos ativos Marketo Engage do Journey Optimizer B2B edition, bem como operações de exclusão e movimentação. Essas proteções garantem que os ativos de origem (Marketo Engage Design Studio) sejam mantidos e, ao mesmo tempo, permitem leitura e reutilização perfeitas no Journey Optimizer B2B edition. <a href="../content/marketo-engage-design-studio.md">Saiba mais</a>
+<p>A <i>biblioteca central de ativos</i> aprimorada permite usar todos os ativos de imagem na sua instância do Marketo Engage, em todos os espaços de trabalho do Design Studio. Existem medidas de proteção integradas que impedem edições nos ativos Marketo Engage do Journey Optimizer B2B edition, bem como operações de exclusão e movimentação. Essas proteções garantem que os ativos de origem (Marketo Engage Design Studio) sejam mantidos e, ao mesmo tempo, permitem leitura e reutilização perfeitas no Journey Optimizer B2B edition. </p>
+<p>Para ativos exclusivos para uso no Journey Optimizer B2B edition, um espaço de trabalho específico fornece funções completas de gerenciamento de ativos. <a href="../content/marketo-engage-design-studio.md">Saiba mais</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 <tbody>
 <tr>
 <td>
-<p>A página inicial no aplicativo Journey Optimizer B2B edition agora inclui a seção _[!UICONTROL Acessado recentemente]_, que fornece uma lista dos ativos acessados mais recentemente para o profissional de marketing ou administrador. Você pode usar essa lista para ir diretamente para o ativo no qual você trabalhou recentemente sem navegar por uma série de páginas de ativos e pesquisas. Ela fornece informações adicionais sobre a modificação para que você possa tomar a decisão sobre qual dos ativos precisa de mais modificações da última sessão. Para ativos de email, ele exibe a jornada da conta onde o ativo de email é usado. <a href="../home-page.md">Saiba mais</a>
+<p>A página inicial no aplicativo Journey Optimizer B2B edition agora inclui a seção <i>[!UICONTROL Acessado recentemente]</i>, que fornece uma lista dos ativos acessados mais recentemente para o profissional de marketing ou administrador. Você pode usar essa lista para ir diretamente para o ativo no qual você trabalhou recentemente sem navegar por uma série de páginas de ativos e pesquisas. Ela fornece informações adicionais sobre a modificação para que você possa tomar a decisão sobre qual dos ativos precisa de mais modificações da última sessão. Para ativos de email, ele exibe a jornada da conta onde o ativo de email é usado. <a href="../home-page.md">Saiba mais</a>
 </td>
 </tr>
 </tbody>

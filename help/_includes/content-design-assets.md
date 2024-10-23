@@ -1,7 +1,7 @@
 ---
 title: Criação de conteúdo - Ativos
 description: Seção reutilizada sobre o uso de ativos para criação de conteúdo
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # Criação de conteúdo - Ativos
 
-No editor de conteúdo visual, selecione o ícone _Assets_ que é exibido à esquerda.
+No editor de conteúdo visual, selecione o ícone do _Assets_ ( ![Mostrar Assets](../user/assets/do-not-localize/icon-assets-design.svg) ) que é exibido à esquerda.
 
 >[!NOTE]
 >
->Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service, juntamente com o Adobe Marketo Engage Design Studio padrão, deverá escolher a [fonte de imagem](../user/content/assets-overview.md#choose-an-asset-source) no momento da criação para um email, modelo de email ou fragmento visual. No entanto, também é possível selecionar a fonte da imagem antes de abrir o designer de conteúdo para edição.
+>Se você tiver uma assinatura do Experience Manager Assets, as a Cloud Service com o Adobe Marketo Engage Design Studio padrão, escolha a [fonte de imagem](../user/content/assets-overview.md#choose-an-asset-source) no momento da criação para um email, modelo de email ou fragmento visual. Você também pode selecionar a origem da imagem antes de abrir o designer visual para edição.
 
 O exemplo a seguir descreve as etapas para adicionar ativos ao conteúdo do modelo:
 
@@ -30,4 +30,4 @@ O exemplo a seguir descreve as etapas para adicionar ativos ao conteúdo do mode
 
 1. Substitua um ativo de imagem existente selecionando-o na tela e clique em **[!UICONTROL Selecionar um ativo]** nas ferramentas de origem de imagem.
 
-   ![Selecione um ativo da biblioteca de origem](../assets/content-design-shared/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
+   ![Selecione um ativo da biblioteca de origem](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}

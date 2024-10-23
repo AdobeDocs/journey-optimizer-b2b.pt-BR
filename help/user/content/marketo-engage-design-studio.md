@@ -1,32 +1,46 @@
 ---
 title: Trabalhar com o Marketo Engage Assets
-description: Saiba mais sobre como usar a integração de gerenciamento de ativos do Marketo Engage Design Studio no Journey Optimizer B2B Edition.
+description: Saiba mais sobre como usar a integração de gerenciamento de ativos do Marketo Engage Design Studio no Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
 
 # Trabalhar com ativos do Marketo Engage
 
-O Marketo Engage Design Studio é a fonte de ativos padrão do Journey Optimizer B2B Edition e você pode gerenciar e usar facilmente os ativos disponíveis no conteúdo para suas jornadas de conta.
+O Marketo Engage Design Studio é a fonte de ativos padrão do Journey Optimizer B2B edition e você pode gerenciar e usar facilmente os ativos disponíveis no conteúdo para as jornadas da sua conta.
+
+No Marketo Engage, as organizações de marketing usam espaços de trabalho para organizar seus ativos de conteúdo e ajudar as equipes a acessar o ativo correto. Espaços de trabalho bem definidos são especialmente úteis para grandes empresas que têm um grande portfólio de ofertas de produtos ou operam globalmente com diferentes requisitos de marketing para diferentes regiões.
+
+## Gerenciamento de ativos central
+
+Por padrão, há um espaço de trabalho do **_[!UICONTROL Journey Optimizer B2B edition]_** que você pode usar especificamente para o conteúdo de jornada da sua conta. Os ativos adicionados a este espaço de trabalho não estão visíveis ou disponíveis para uso no Marketo Engage. Para ativos que residem nesse espaço de trabalho, você tem a gama completa de funções de gerenciamento de ativos no Journey Optimizer B2B edition. Essas funções incluem:
+
+* Substituir
+* Excluir
+* Mover
+
+Os Assets residentes nos espaços de trabalho do Marketo Engage são limitados ao acesso somente leitura para uso em emails, modelos de email e fragmentos. Você pode adicionar novos ativos a esses espaços de trabalho e baixar uma cópia de um ativo.
 
 ## Procurar e acessar ativos
 
-Para acessar os ativos do Adobe Marketo Engage Design Studio no Journey Optimizer B2B Edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Assets]**. Essa ação abre uma página de listagem com todos os ativos listados.
+Para acessar os ativos do Adobe Marketo Engage no Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Assets]**. Essa ação abre uma página de listagem com todos os ativos listados.
 
-![Procurar ativos Marketo Engage](assets/assets-list-page.png){width="600" zoomable="yes"}
+![Procurar ativos Marketo Engage](assets/assets-list-page.png){width="800" zoomable="yes"}
 
-* Para exibir os ativos por pasta, abra a estrutura de pastas clicando no ícone _Mostrar pastas_ na parte superior esquerda.
+O espaço de trabalho do Journey Optimizer B2B edition é selecionado por padrão. Os outros espaços de trabalho estão listados abaixo.
 
-* Para classificar a tabela por qualquer uma das colunas, clique no título da coluna.
+* Para exibir os ativos por espaço de trabalho e pasta, abra a estrutura clicando no ícone _Mostrar pastas_ na parte superior esquerda.
 
-* Para pesquisar um ativo de imagem na pasta selecionada, digite uma sequência de texto na barra de pesquisa.
+* Para classificar a tabela por qualquer uma das colunas, clique no título da coluna. A seta na linha de título indica a coluna e a ordem de classificação atuais.
 
-* Para personalizar as colunas exibidas na tabela, clique no ícone _Personalizar tabela_ na parte superior direita.
+* Para pesquisar um ativo de imagem no espaço de trabalho ou pasta selecionada, digite uma cadeia de texto na barra de pesquisa.
+
+* Para personalizar as colunas exibidas na tabela, clique no ícone _Personalizar tabela_ ( ![Personalizar tabela](../assets/do-not-localize/icon-column-settings.svg) ) na parte superior direita.
 
   Selecione as colunas que deseja exibir na lista e clique em **[!UICONTROL Aplicar]**.
 
@@ -34,27 +48,31 @@ Para acessar os ativos do Adobe Marketo Engage Design Studio no Journey Optimize
 
 Clique no nome de qualquer ativo para abrir a página de detalhes do ativo.
 
+![Acessar detalhes do ativo](assets/assets-details.png){width="700" zoomable="yes"}
+
 ## Exibir ativos usados por referências
 
-Na página de detalhes do ativo, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o ativo é usado atualmente no Journey Optimizer B2B Edition, em emails, modelos de email e fragmentos.
+Na página de detalhes do ativo, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o ativo é usado atualmente no Journey Optimizer B2B edition, em emails, modelos de email e fragmentos.
 
 >[!IMPORTANT]
 >
 >Qualquer ativo que esteja atualmente _EM USO_ em qualquer um dos emails, modelos de email ou fragmentos **não pode** ser excluído.
 
-As referências são exibidas por categoria: _Email_, _Modelo de email_ ou _Fragmento_. Os emails no Journey Optimizer B2B Edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o ativo é exibida nas referências.
+O painel exibe as referências por categoria: _Email_, _Modelo de email_ ou _Fragmento_. Os emails no Journey Optimizer B2B edition são incorporados e criados no jornada, de modo que a jornada principal do email que usa o ativo é exibida nas referências.
 
 Clicar no link direciona você para o email, modelo de email ou fragmento correspondente em que o ativo é usado.
 
+![Exibir os itens de conteúdo que usam o ativo](assets/assets-used-by.png){width="700" zoomable="yes"}
+
 ## Adicionar ativos
 
-Na página da lista do Assets, é possível adicionar ativos de imagem ao Adobe Marketo Engage Design Studio.
+Na página Lista do Assets, você pode adicionar ativos de imagem ao espaço de trabalho do Journey Optimizer B2B edition ou a um espaço de trabalho do Marketo Engage.
 
 1. Clique em **[!UICONTROL Adicionar Assets]** na parte superior direita.
 
 1. Na caixa de diálogo _[!UICONTROL Adicionar ativos]_, arraste e solte um ou mais arquivos do sistema na caixa de arquivo.
 
-   ![Adicionar ativos ao Marketo Engage Design Studio](./assets/assets-add-dialog.png){width="500" zoomable="yes"}
+   ![Adicionar ativos a um espaço de trabalho](./assets/assets-add-dialog.png){width="500"}
 
    Você também pode clicar no link _[!UICONTROL Selecionar um arquivo do seu computador]_ para usar o sistema de arquivos local para localizar e selecionar arquivos.
 
@@ -62,7 +80,11 @@ Na página da lista do Assets, é possível adicionar ativos de imagem ao Adobe 
 
    Os nomes de arquivo das imagens selecionadas são exibidos na caixa de diálogo. Os nomes dos arquivos do ativo devem ser exclusivos (em várias pastas). Se um arquivo com o nome já existir, uma mensagem será exibida. Os nomes podem ter no máximo 100 caracteres e não podem conter caracteres especiais (como `;`, `:`, `\` e `|`).
 
-1. Selecione a pasta de destino para armazenar os ativos usando o seletor de pastas.
+1. Selecione o espaço de trabalho ou a pasta de destino para armazenar os ativos.
+
+   >[!NOTE]
+   >
+   >Se você selecionar um local no espaço de trabalho _[!UICONTROL Journey Optimizer B2B edition]_, será possível gerenciar o ativo no aplicativo. Se você adicionar o ativo a um espaço de trabalho de Marketo Engage, as funções de gerenciamento de ativos estarão disponíveis somente no Marketo Engage Design Studio.
 
 1. Para substituir arquivos ao carregar um ou mais arquivos com um nome de arquivo existente, marque a caixa de seleção **[!UICONTROL Substituir arquivos existentes]**.
 
@@ -72,31 +94,35 @@ Na página da lista do Assets, é possível adicionar ativos de imagem ao Adobe 
 
 Não é possível excluir nenhum ativo que esteja sendo usado em nenhum dos emails, modelos de email ou fragmentos. Verifique as referências usadas por antes de iniciar a remoção de um ativo. Além disso, uma ação de exclusão não pode ser desfeita, portanto, verifique antes de iniciar uma ação de remoção.
 
-É possível excluir um ativo usando um dos seguintes métodos:
+Use um dos métodos a seguir para excluir um ativo que reside no espaço de trabalho _[!UICONTROL Journey Optimizer B2B edition]_:
 
 * Vá para os detalhes do ativo, clique em **[!UICONTROL ... Mais]** no canto superior direito e escolha **[!UICONTROL Excluir]** nas opções.
 
-  ![Acessar ações do ativo](./assets/assets-details-more-menu.png){width="500" zoomable="yes"}
+  ![Acessar ações do ativo](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* Na página de listagem _[!UICONTROL Assets]_, clique nas _Reticências_ (**[!UICONTROL ...]**) ao lado do item de ativo e escolha **[!UICONTROL Excluir]** nas opções.
+* Na página de listagem _[!UICONTROL Assets]_, clique no ícone _Mais_ (**[!UICONTROL ...]**) ao lado do item de ativo e escolha **[!UICONTROL Excluir]** nas opções.
 
-  ![Acessar ações do ativo](./assets/assets-list-file-more-menu.png){width="500" zoomable="yes"}
+  ![Acessar ações do ativo](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+
+  >[!NOTE]
+  >
+  >Somente os ativos que residem no espaço de trabalho _[!UICONTROL Journey Optimizer B2B edition]_ têm funções de gerenciamento de ativos disponíveis no menu _Mais_.
 
 Essa ação abre uma caixa de diálogo de confirmação. Você pode anular o processo clicando em **[!UICONTROL Cancelar]** ou em **[!UICONTROL Excluir]** para confirmar a exclusão.
 
-Se o ativo estiver em uso no momento, a ação abrirá uma caixa de diálogo informativa que o alerta de que não pode ser excluído. Clique em **[!UICONTROL OK]**, que interrompe a exclusão.
+Se o ativo estiver em uso no momento, a ação abrirá uma caixa de diálogo informativa que o alerta de que não pode ser excluído. Clique em **[!UICONTROL OK]**, que interrompe a remoção.
 
 ## Substituir ativos
 
-É possível substituir um ativo usando um dos seguintes métodos:
+Use um dos métodos a seguir para substituir um ativo que reside no espaço de trabalho _[!UICONTROL Journey Optimizer B2B edition]_:
 
 * Vá para os detalhes do ativo, clique em **[!UICONTROL ... Mais]** no canto superior direito e escolha **[!UICONTROL Substituir]** nas opções.
 
-* Na página de listagem _[!UICONTROL Assets]_, clique nas _Reticências_ (**[!UICONTROL ...]**) ao lado do item de ativo e escolha **[!UICONTROL Substituir]** nas opções.
+* Na página de listagem _[!UICONTROL Assets]_, clique no ícone _Mais_ (**[!UICONTROL ...]**) ao lado do item de ativo e escolha **[!UICONTROL Substituir]** nas opções.
 
 Na caixa de diálogo _[!UICONTROL Substituir ativo]_, arraste e solte o arquivo de substituição do seu sistema na caixa de arquivo. Você também pode clicar no link _[!UICONTROL Selecionar um arquivo do seu computador]_ para usar o sistema de arquivos local para selecionar um arquivo. (Se você selecionar vários arquivos no sistema local, o primeiro arquivo selecionado será usado para a substituição.)
 
-![Caixa de diálogo Substituir ativo](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
+![Caixa de diálogo Substituir ativo](./assets/assets-replace-dialog.png){width="500"}
 
 Para continuar, clique em **[!UICONTROL Substituir]**. Você pode anular o processo clicando em **[!UICONTROL Cancelar]**.
 
@@ -118,11 +144,11 @@ Na página de listagem (_[!UICONTROL Gerenciamento de Conteúdo]_ > _[!UICONTROL
 
 ![Ativos selecionados](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Você pode realizar as seguintes ações em massa:
+Você pode realizar as seguintes ações em massa para os ativos selecionados que residem no espaço de trabalho _[!UICONTROL Journey Optimizer B2B edition]_:
 
 +++Mover ativos
 
-1. No banner de seleção, clique em **Mover**.
+1. No banner de seleção, clique em **[!UICONTROL Mover]**.
 
    Esta ação abre a caixa de diálogo _[!UICONTROL Mover Assets]_, que lista os nomes dos ativos selecionados e permite selecionar a pasta _destino_ para onde você deseja mover esses ativos.
 
@@ -162,9 +188,9 @@ Você pode realizar as seguintes ações em massa:
 
 ## Aplicar ações no nível da pasta
 
-É possível aplicar ações a uma pasta ou a ativos dentro dela. Clique no ícone de reticências (**...**) da pasta para revelar as opções de ações nela.
+No espaço de trabalho do _[!UICONTROL Journey Optimizer B2B edition]_, você pode aplicar ações a uma pasta ou a ativos dentro dela. Clique no ícone _Mais_ (**...**) ao lado da pasta para revelar as ações que você pode aplicar a ela.
 
-![Aplicar ações a uma pasta ou a ativos dentro dela](./assets/assets-folder-menu-options.png){width="500"}
+![Aplicar ações a uma pasta ou a ativos dentro dela](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 Você pode executar as seguintes ações no nível da pasta:
 
@@ -238,15 +264,17 @@ O arquivamento de uma pasta torna os arquivos dentro dela não pesquisáveis. Us
 
 +++
 
-## Usar ativos no conteúdo de email
+## Usar ativos no seu conteúdo
 
 O Assets pode ser usado no email da sua equipe, no modelo de email ou na criação de fragmentos visuais no editor de conteúdo visual.
 
-Na interface do editor visual, selecione o ícone _Seletor de ativos_ na barra lateral esquerda.
+Na interface do usuário do designer visual, selecione o ícone _Seletor de ativos_ ( ![Seleção de Assets](../assets/do-not-localize/icon-assets-design.svg) ) na barra lateral esquerda.
 
-![Ativos selecionados](./assets/content-assets-selector-icon.png){width="700" zoomable="yes"}
+Essa ação altera o painel Ferramentas que exibe uma lista estruturada dos ativos disponíveis no espaço de trabalho selecionado. Selecione o espaço de trabalho que deseja exibir para escolher um ativo.
 
-Essa ação altera o painel de ferramentas que exibe uma lista dos ativos disponíveis. Há vários métodos para adicionar um ativo de imagem à tela visual:
+![Ativos selecionados](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
+
+Há vários métodos para adicionar um ativo de imagem à tela visual:
 
 * Arraste e solte uma miniatura de imagem da navegação à esquerda.
 
@@ -262,4 +290,4 @@ Essa ação altera o painel de ferramentas que exibe uma lista dos ativos dispon
 
    * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
 
-  ![Use os filtros e o campo de pesquisa para localizar o ativo necessário](./assets/assets-select-dialog-marketo-filtered.png){width="600" zoomable="yes"}
+  ![Use os filtros e o campo de pesquisa para localizar o ativo necessário](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
