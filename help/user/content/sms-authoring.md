@@ -3,10 +3,10 @@ title: Criação de SMS
 description: Saiba como enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis e personalizar e visualizar mensagens no formato de texto pelo editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
+source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 3%
 
 ---
 
@@ -14,111 +14,7 @@ ht-degree: 2%
 
 Use o Adobe Journey Optimizer B2B edition para enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
 
-## Configurações de SMS
-
-O Adobe Journey Optimizer B2B Edition envia mensagens de texto por meio de provedores de serviços SMS (ou provedores de gateway SMS). Antes de criar a mensagem SMS, configure o provedor de serviços nas configurações do _Administrador_.
-
-### Provedores de serviços de gateway de SMS
-
-Atualmente, o Adobe Journey Optimizer B2B edition está integrado a provedores de terceiros que oferecem serviços de mensagens de texto de forma independente. Os provedores de mensagens de texto compatíveis são Sinch, Twilio e Infobip.
-
-Antes de configurar um canal SMS no Adobe Journey Optimizer B2B edition, você deve criar uma conta com um desses provedores para obter o token da API e a ID do serviço. Essas credenciais são necessárias para configurar a conexão entre o Adobe Journey Optimizer B2B Edition e o provedor aplicável.
-
->[!IMPORTANT]
->
->O uso dos serviços de mensagens de texto está sujeito a termos e condições adicionais do provedor aplicável. Como soluções de terceiros, o Sinch, o Twilio e o Infobip estão disponíveis para usuários do Adobe Journey Optimizer B2B Edition por meio de uma integração. A Adobe não controla e não é responsável por produtos de terceiros. Em caso de problemas ou solicitações de assistência relacionados aos serviços de mensagens de texto (SMS), entre em contato com seu provedor.
-
-### Verificar uma configuração de API de SMS existente
-
->[!NOTE]
->
->As configurações descritas podem ser acessadas somente pelos usuários com privilégios de administrador de SMS.
-
-1. Na navegação à esquerda, expanda a seção **[!UICONTROL Administrador]** e clique em **[!UICONTROL Canais]**.
-
-   ![Acessar a configuração de credenciais de API de SMS](./assets/config-sms-api.png){width="800" zoomable="yes"}
-
-1. No painel de navegação, selecione **[!UICONTROL Credenciais da API]**.
-
-   A página lista as configurações de API disponíveis para sua instância.
-
-1. Se necessário, clique no ícone _Filtro_ ( ![Ícone Mostrar ou ocultar filtros](../assets/do-not-localize/icon-filter.svg) ) e selecione opções para exibir a lista de credenciais de API configuradas pelo provedor de serviços SMS ou criador.
-
-   ![Clique no ícone Filtro para refinar a lista de credenciais de API](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
-
-### Criar novas credenciais de API para um provedor de serviços SMS
-
->[!BEGINTABS]
-
->[!TAB Sinch]
-
-_Para configurar o Sinch como seu provedor de SMS com o Adobe Journey Optimizer B2B edition:_
-
-1. Na navegação à esquerda, expanda a seção **[!UICONTROL Administrador]** e clique em **[!UICONTROL Configuração]**.
-
-1. Clique em **[!UICONTROL Criar novas credenciais de API]** na parte superior direita da lista _[!UICONTROL Credenciais de API]_.
-
-1. Configurar suas credenciais da API de SMS:
-
-   ![Configurar as credenciais da API de SMS do Sinch](./assets/config-sms-api-sinch.png){width="500"}
-
-   * **[!UICONTROL Fornecedor de SMS]** - Escolha `Sinch` como o provedor de SMS.
-
-   * **[!UICONTROL Nome]** - Digite um nome para a credencial da API.
-
-   * **[!UICONTROL ID de Serviço]** e **[!UICONTROL Token de API]** - Acesse a página de APIs da sua conta Sinch (você pode encontrar suas credenciais na guia SMS).
-
-   Para obter mais informações sobre como encontrar essas informações para sua conta Sinch, consulte a [documentação do desenvolvedor da Sinch](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
-
-1. Clique em **[!UICONTROL Enviar]** quando os detalhes de configuração das suas credenciais de API estiverem concluídos.
-
->[!TAB Twilio]
-
-_Para configurar o Twilio como seu provedor de SMS com o Adobe Journey Optimizer B2B Edition:_
-
-1. Na navegação à esquerda, expanda a seção **[!UICONTROL Administrador]** e clique em **[!UICONTROL Configuração]**.
-
-1. Clique em **[!UICONTROL Criar novas credenciais de API]** na parte superior direita da lista _[!UICONTROL Credenciais de API]_.
-
-1. Configurar suas credenciais da API de SMS:
-
-   ![Configurar as credenciais da API de SMS do Twilio](./assets/config-sms-api-twilio.png){width="500"}
-
-   * **[!UICONTROL Fornecedor de SMS]** - Escolha `Twilio` como o provedor de SMS.
-
-   * **[!UICONTROL Nome]** - Digite um nome para a definição de credencial de API.
-
-   * **[!UICONTROL SID da Conta]** e **[!UICONTROL Token de Autenticação]** - Acesse o painel _Informações da Conta_ da página Painel do Console do Twilio para encontrar suas credenciais.
-
-   Para obter mais informações sobre como encontrar essas informações para sua conta do Twilio, consulte a [Central de Ajuda do Twilio](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-).
-
-1. Clique em **[!UICONTROL Enviar]** no canto superior direito da página quando os detalhes de configuração das suas credenciais de API forem concluídos.
-
->[!TAB Infobip]
-
-_Para configurar o Infobip como seu provedor de SMS com o Adobe Journey Optimizer B2B edition:_
-
-1. Na navegação à esquerda, expanda a seção **[!UICONTROL Administrador]** e clique em **[!UICONTROL Configuração]**.
-
-1. Clique em **[!UICONTROL Criar novas credenciais de API]** na parte superior direita da lista _[!UICONTROL Credenciais de API]_.
-
-1. Configurar suas credenciais da API de SMS:
-
-   ![Configurar as credenciais da API de SMS do Infobip](./assets/config-sms-api-infobip.png){width="500"}
-
-   * **[!UICONTROL Fornecedor de SMS]** - Escolha `Infobip` como o provedor de SMS.
-
-   * **[!UICONTROL Nome]** - Digite um nome para a definição de credencial de API.
-
-   * **[!UICONTROL URL de base de API]** e **[!UICONTROL chave de API]** - Acesse a página inicial da interface da Web ou a página de gerenciamento de chaves de API da sua conta Infobip para encontrar suas credenciais.
-
-   Para obter mais informações sobre como encontrar essas informações para sua conta Infobip, consulte a [documentação do Infobip](https://www.infobip.com/docs/api/_blank).
-
-1. Clique em **[!UICONTROL Enviar]** no canto superior direito da página quando os detalhes de configuração das suas credenciais de API forem concluídos.
-
->[!ENDTABS]
-
-Ao clicar em _[!UICONTROL Enviar]_, as credenciais são imediatamente validadas e salvas, redirecionando você para a página de listagem _[!UICONTROL credenciais de API]_. Se as credenciais enviadas forem inválidas, o sistema exibirá uma mensagem de erro na página de listagem. Nesse caso, você pode optar por cancelar a configuração ou atualizá-la e enviar novamente.
+Antes de criar mensagens SMS para jornadas de conta, verifique se o [provedor de serviços SMS está configurado](../admin/configure-channels-sms.md) nas configurações do _[!UICONTROL Administrador]_.
 
 ## Adicionar uma ação de SMS em uma jornada de conta
 
@@ -265,7 +161,7 @@ Oferecer aos recipients a capacidade de cancelar a inscrição para receber comu
 
 Quando você fornece essa opção, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas, bem como todas as palavras-chave personalizadas configuradas no provedor de serviços SMS. Quando a assinatura é cancelada, os perfis são removidos automaticamente do público-alvo de futuras mensagens de marketing.
 
-O Journey Optimizer B2B Edition fornece a capacidade de gerenciar a opção de não participação em mensagens SMS usando a seguinte lógica:
+O Journey Optimizer B2B edition fornece a capacidade de gerenciar a opção de não participação em mensagens SMS usando a seguinte lógica:
 
 * Por padrão, se um cliente potencial optar por não receber comunicações de você, o perfil correspondente será excluído dos deliveries de SMS subsequentes
 

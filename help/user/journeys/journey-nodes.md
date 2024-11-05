@@ -1,12 +1,12 @@
 ---
 title: Nós de Jornada de conta
-description: Saiba mais sobre os tipos de nó que você pode usar para criar suas jornadas de conta.
+description: Saiba mais sobre os tipos de nó que você pode usar para criar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 2%
+source-wordcount: '2142'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,14 @@ ht-degree: 2%
 
 Depois de [criar uma jornada de conta](journey-overview.md#create-an-account-journey) e [adicionar o público-alvo](journey-overview.md#add-the-account-audience-for-your-journey), compile a jornada usando nós. O mapa de jornada fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas.
 
-Crie sua jornada de conta combinando os diferentes nós de ação, evento e orquestração como um cenário em várias etapas e entre canais. Cada nó de uma jornada representa uma etapa ao longo de um caminho lógico.
+Crie sua jornada de conta combinando os diferentes nós de ação, evento e orquestração como um cenário em várias etapas e entre canais. Cada nó de uma jornada representa uma etapa ao longo de um caminho lógico. Use os seguintes tipos de nó para criar uma jornada de conta:
+
+* [Público-alvo de conta](#account-audience-node)
+* [Realizar uma ação](#take-an-action)
+* [Ouvir um evento](#listen-for-an-event)
+* [Dividir caminhos](#split-paths)
+* [Aguardar](#wait)
+* [Caminhos de mesclagem](#merge-paths)
 
 ## Nó de público-alvo da conta
 
@@ -22,28 +29,32 @@ O nó [Público-alvo da conta](journey-overview.md#add-the-account-audience-for-
 
 ## Realizar uma ação
 
-Execute uma ação como enviar um email, alterar a pontuação e assim por diante.
+Execute uma ação como enviar um email, alterar uma pontuação, atribuir a um grupo de compra e assim por diante.
 
 **Ação nas contas**: a ação é aplicada a todas as pessoas que fazem parte das contas neste caminho.
 
 **Ação em pessoas**: a ação é aplicada a todas as pessoas neste caminho. Uma ação em pessoas pode ser usada no caminho dividido por pessoas ou no caminho dividido por contas.
 
-| Contexto do nó | Função | Restrições |
-| ------------ | -------- | ----------- |
-| [Pessoas](#add-a-people-action) | Atribuir ao Grupo de Compras | Selecionar interesse de solução<br/>Selecionar função |
-| | Remover do grupo de compra | Selecionar interesse de solução |
-| | Enviar SMS | Criar SMS |
+### Ações e restrições {#action-nodes}
+
+| Contexto do nó | Ação | Restrições |
+| ------------ | ------ | ----------- |
+| [Pessoas](#add-a-people-action) | Adicionar à lista | Selecione o nome da lista do espaço de trabalho do Marketo Engage <br/> |
 | | Adicionar à campanha de solicitação do Marketo Engage | Selecionar espaço de trabalho do Marketo Engage<br/>Selecionar campanha de Solicitação |
+| | Atribuir ao Grupo de Compras | Selecionar interesse de solução<br/>Selecionar função |
 | | Alterar Partição de Pessoas no Marketo Engage | Nova partição |
-| | Momento interessante da pessoa | Tipo<br/>Descrição |
 | | Alterar pontuação | Alteração do nome da pontuação<br/> |
+| | Momento interessante da pessoa | Tipo<br/>Descrição |
+| | Remover do grupo de compra | Selecionar interesse de solução |
+| | Remover da lista | Selecione o nome da lista do espaço de trabalho do Marketo Engage <br/> |
 | | Enviar email | Criar novo email<br/>Selecionar email do Marketo Engage |
-| [Contas](#add-an-account-action) | Enviar Alerta de Vendas | Selecionar interesse da solução<br/>Enviar email para |
+| | Enviar SMS | Criar SMS |
+| [Contas](#add-an-account-action) | Valor dos dados de alteração da conta | Selecionar atributo<br/>Novo valor |
+| | Momento interessante da conta | Tipo (Email, Marco ou Web)<br/>Descrição (opcional) |
 | | Adicionar conta ao (outro) Jornada | Selecionar Jornada de conta em tempo real |
-| | Atualizar Status do Grupo de Compras | Interesse da solução<br/>Status (obrigatório, máximo de 50 caracteres) |
-| | Remover conta da Jornada (atual) | Selecionar Jornada de conta em tempo real |
-| | Momento interessante da conta | Tipo (email, marco ou Web)<br/>Descrição (opcional) |
-| | Valor dos dados de alteração da conta | Selecionar atributo<br/>Novo valor |
+| | Remover conta do Jornada | Selecionar Jornada de conta em tempo real |
+| | Enviar Alerta de Vendas | Selecionar interesse da solução<br/>Enviar email para |
+| | Atualizar Status do Grupo de Compras | Selecionar status de interesse da solução<br/>(obrigatório, máximo de 50 caracteres) |
 
 ### Adicionar uma ação de conta
 
@@ -82,19 +93,23 @@ Mova o público-alvo para a próxima etapa da jornada quando ocorrer um evento.
 
 **Ouvir eventos em pessoas**: eventos em pessoas só podem ser aplicados em um caminho de conta; não está disponível para uma divisão por nó de pessoas.
 
-| Contexto do nó | Função | Restrições |
-| ------------ | -------- | ----------- |
-| [Pessoas](#add-a-people-event) | Alterações no valor dos dados | Atributo<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | Clica em link no email | Email<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | Atribuído ao Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | Abre e-mail | Email<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | A pontuação é alterada | Nome da pontuação<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+### Eventos e restrições {#event-nodes}
+
+| Contexto do nó | Evento | Restrições |
+| ------------ | ----- | ----------- |
+| [Pessoas](#add-a-people-event) | Atribuído ao Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional): <ul><li>Função</li><li>Data da atividade</li></ul><br/>Tempo limite (opcional) |
+| | Clica em link no email | Email<br/>Restrições adicionais (opcional): <ul><li>Link</li><li>ID do link</li><li>É um dispositivo móvel</li><li>Dispositivo</li><li>Plataforma</li><li>Navegador</li><li>É conteúdo preditivo</li><li>É atividade de bot</li><li>Padrão de atividade do bot</li><li>Navegador</li><li>Data da atividade</li><li>Número número de vezes</li></ul><br/>Tempo limite (opcional) |
+| | Cliques no link do SMS | Email<br/>Restrições adicionais (opcional):<ul><li>Link</li><li>Dispositivo</li><li>Plataforma</li><li>Data da atividade</li><li>Número número de vezes</li></ul><br/>Tempo limite (opcional) |
+| | Alterações no valor de dados | Atributo de pessoa<br/>Restrições adicionais (opcional):<ul><li>Novo valor</li><li>Valor anterior</li><li>Motivo</li><li>Origem</li><li>Data da atividade</li><li>Número número de vezes</li></ul><br/>Tempo limite (opcional) |
+| | Abre o email | Email<br/>Restrições adicionais (opcional): <ul><li>Link</li><li>ID do link</li><li>É um dispositivo móvel</li><li>Dispositivo</li><li>Plataforma</li><li>Navegador</li><li>É conteúdo preditivo</li><li>É atividade de bot</li><li>Padrão de atividade do bot</li><li>Navegador</li><li>Data da atividade</li><li>Número número de vezes</li></ul><br/>Tempo limite (opcional) |
 | | Removido do Grupo de Compras | Interesse da solução<br/>Data da atividade (opcional)<br/>Tempo limite (opcional) |
-| [Contas](#add-an-account-event) | Alteração no Status do Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | Alteração na pontuação de integridade | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | A conta teve um momento interessante | Tipo<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | Alteração na pontuação de engajamento | Interesse da solução<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
-| | Alteração no valor dos dados da conta | Atributo<br/>Restrições adicionais (opcional)<br/>Tempo limite (opcional) |
+| | A pontuação é alterada | Nome da pontuação<br/>Restrições adicionais (opcional):<ul><li>Alterar</li><li>Nova pontuação</li><li>Urgência</li><li>Prioridade</li><li>Pontuação relativa</li><li>Urgência relativa</li><li>Data da atividade</li><li>Número número de vezes</li></ul><br/>Tempo limite (opcional) |
+| | Rejeições de SMS | Mensagem SMS<br/>Restrições adicionais (opcional):<ul><li>Data da atividade</li><li>Número mínimo de vezes</li></ul><br/>Tempo limite (opcional) |
+| [Contas](#add-an-account-event) | A conta teve um momento interessante | Tipo (Email, Marco ou Web)<br/>Restrições adicionais (opcional):<ul><li>Descrição</li><li>Origem</li><li>Data da atividade</li></ul> <br/>Tempo limite (opcional) |
+| | Alteração no valor dos dados da conta | Atributo<br/>Restrições adicionais (opcional):<ul><li>Novo valor</li><li>Valor anterior</li><li>Data da atividade</li></ul> <br/>Tempo limite (opcional) |
+| | Alteração no Status do Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional):<ul><li>Novo status</li><li>Status anterior</li><li>Data da atividade</li></ul>Tempo limite de <br/> (opcional) |
+| | Alteração na pontuação de integridade | Interesse da solução<br/>Restrições adicionais (opcional):<ul><li>Nova pontuação</li><li>Pontuação anterior</li><li>Data da atividade</li></ul>Tempo limite de <br/> (opcional) |
+| | Alteração na pontuação de engajamento | Interesse da solução<br/>Restrições adicionais (opcional):<ul><li>Nova pontuação</li><li>Pontuação anterior</li><li>Data da atividade</li></ul>Tempo limite de <br/> (opcional) |
 
 ### Adicionar um evento de conta
 
@@ -126,7 +141,7 @@ Mova o público-alvo para a próxima etapa da jornada quando ocorrer um evento.
 
 ### Adicionar um tempo limite a um nó de evento
 
-Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. A jornada termina após o tempo limite.
+Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. A jornada termina após um tempo limite.
 
 1. Ative a opção de tempo limite.
 
@@ -146,18 +161,18 @@ Divida seu público-alvo com base nas condições de filtro.
 >
 >Há suporte para, no máximo, 25 caminhos.
 
-**Dividir caminhos por contas**: os caminhos divididos por contas podem incluir ações e eventos de conta e pessoas, e esses caminhos podem ser divididos ainda mais.
+**Dividir caminhos por contas**: os caminhos divididos por contas podem incluir ações e eventos de contas e pessoas. Esses caminhos podem ser divididos ainda mais.
 
 _Como funciona um caminho dividido por nó de contas?_
 
 * Quando você adiciona um nó de caminho dividido e escolhe _Conta_, cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
 * É possível dividir o caminho por Contas repetidamente, por exemplo, de maneira aninhada. Um caminho dividido inclui uma opção para não adicionar o caminho padrão.
-* Contas/pessoas que não se qualificam para um dos caminhos de divisão não avançam na jornada.
+* Se uma conta/pessoa não se qualificar para um dos caminhos de divisão, ela não avançará na jornada.
 * Esses caminhos podem ser combinados usando um nó de mesclagem.
 
 Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-**Dividir caminhos por pessoas**: caminhos divididos por pessoas e podem incluir somente ações de pessoas, e esses caminhos não podem ser divididos novamente. Os caminhos se associam automaticamente.
+**Dividir caminhos por pessoas**: caminhos divididos por pessoas e podem incluir somente ações de pessoas. Esses caminhos não podem ser divididos novamente e se unem automaticamente.
 
 _Como funciona um caminho dividido por nó de pessoas?_
 
@@ -167,16 +182,17 @@ _Como funciona um caminho dividido por nó de pessoas?_
 
 ![Nó do Jornada - caminhos divididos por pessoas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
+### Condições de caminho {#path-conditions}
+
 | Contexto do nó | Condições de caminho | Descrição |
-| ------------ | -------- | ----------- |
-| [Pessoas](#add-a-split-path-by-people-node) | Atributos da pessoa | |
-| | Valor dos dados alterado (como filtrar no histórico de atividades) | |
-| | E-mail aberto | |
-| | Clicou em link de e-mail | |
-| | Link clicado na página da Web | |
-| | Teve um momento interessante | |
-| | Membro do Grupo de Compras | |
-| [Contas](#add-a-split-path-by-account-node) | Alteração no valor dos dados da conta (como filtrar no histórico de atividades) | |
+| ------------ | --------------- | ----------- |
+| [Pessoas](#add-a-split-path-by-people-node) | [!UICONTROL Atributos da pessoa] | Atributos do perfil de pessoa, incluindo: <ul><li>Cidade</li><li>País</li><li>Data de nascimento</li><li>Endereço de email</li><li>Email inválido</li><li>Email suspenso</li><li>Nome</li><li>Região inferida</li><li>Nome do cargo</li><li>Sobrenome</li><li>Número do celular</li><li>Número de telefone</li><li>Código postal</li><li>Estado</li><li>Inscrição cancelada</li><li>Motivo do cancelamento de inscrição</li></ul> |
+| | [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email associadas à jornada: <ul><li>[!UICONTROL Link clicado no email]</li><li>E-mail aberto</li><li>O email foi entregue</li><li>O email foi enviado</li></ul> Essas condições são avaliadas usando uma mensagem de email selecionada anteriormente na jornada. |
+| | [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <ul><li>Novo valor</li><li>Valor anterior</li><li>Motivo</li><li>Origem</li><li>Data da atividade</li><li>Número número de vezes</li></ul> |
+| | [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância de Marketo Engage associada. As restrições incluem: ul><li>Data importante</li><li>Email</li><li>Web</li></ul> |
+| | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <ul><li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de envolvimento</li><li>Função</li></ul> |
+| [Contas](#add-a-split-path-by-account-node) | Atributos de contas | Atributos do perfil da conta, incluindo: <ul><li>Receita anual</li><li>Cidade</li><li>País</li><li>Tamanho do funcionário</li><li>Setor</li><li>Nome</li><li>Código SIC</li><li>Estado</li></ul> |
+| | [!UICONTROL Filtros especiais] > [!UICONTROL Tem Grupo de Compras] | A conta tem ou não membros de grupos de compras avaliados em relação a um ou mais dos seguintes critérios: <ul><li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de envolvimento</li></ul> |
 
 ### Adicionar um caminho dividido pelo nó da conta
 
@@ -236,7 +252,7 @@ _Como funciona um caminho dividido por nó de pessoas?_
 
 1. Por fim, você pode adicionar um caminho padrão para as pessoas não qualificadas para os caminhos acima. Caso contrário, a jornada terminará para essas pessoas
 
-Quando você tem condições definidas para cada caminho no nível das pessoas, pode adicionar ações que deseja realizar nas pessoas.
+Quando você tem condições definidas para cada caminho para dividir o público no nível das pessoas, é possível adicionar ações que deseja realizar nas pessoas.
 
 >[!NOTE]
 >
@@ -276,6 +292,6 @@ Diferentes caminhos na jornada podem ser mesclados e desfeitos usando esse nó.
 
    ![Nó do Jornada - caminhos de mesclagem](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   Agora você deve ver que os caminhos são mesclados para que as contas dos caminhos selecionados se combinem em um único caminho e possam continuar avançando pela jornada.
+   Nesse ponto, os caminhos são mesclados para que as contas dos caminhos selecionados sejam combinadas em um único caminho que possa continuar avançando pela jornada.
 
 1. Se necessário, você pode desfazer a mesclagem de caminhos ao navegar de volta para as propriedades do nó de mesclagem e desmarcar a caixa de seleção de qualquer caminho que deseja remover.

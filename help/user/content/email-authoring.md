@@ -3,16 +3,16 @@ title: Criação de email
 description: Saiba como criar conteúdo de email personalizado que é usado em uma Jornada de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 13%
+source-wordcount: '1428'
+ht-degree: 10%
 
 ---
 
 # Criação de email
 
-Use o Adobe Journey Optimizer B2B Edition para enviar mensagens de email aos seus clientes. Você pode criar, personalizar e visualizar mensagens no Designer de email.
+Use o Adobe Journey Optimizer B2B edition para enviar mensagens de email aos seus clientes. Você pode criar, personalizar e visualizar mensagens no designer visual.
 
 ## Adicionar uma ação de email em uma jornada de conta
 
@@ -60,7 +60,7 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 
 >[!TIP]
 >
->Use o Assistente de IA no Adobe Journey Optimizer B2B Edition, alimentado por IA gerativa para elevar seu conteúdo ao próximo nível. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
+>Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa, para elevar seu conteúdo ao próximo nível. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
 
 ### Criar email do zero {#design-from-scratch}
 
@@ -109,6 +109,10 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> Os modelos salvos podem ter configurações de governança (bloqueio de conteúdo) aplicadas a um ou mais componentes. O designer visual fornece diretrizes sobre componentes bloqueados quando você [cria um email a partir de um modelo controlado](./email-authoring-governance.md).
+
 ## Adicionar estrutura e conteúdo {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -146,9 +150,9 @@ O conteúdo do fragmento é atualizado dinamicamente na estrutura para mostrar c
 
 >[!TIP]
 >
->Se quiser adicionar o fragmento para que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e, em seguida, arraste e solte o fragmento nele.
+>Para adicionar o fragmento de forma que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e arraste e solte o fragmento nele.
 
-Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo. Os fragmentos adicionados a um modelo de email não são editáveis no modelo — o conteúdo é definido pelo fragmento de origem.
+Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo. Os fragmentos adicionados a um modelo de email não são editáveis no modelo — o fragmento de origem define o conteúdo.
 
 ### Adicionar ativos
 
@@ -173,8 +177,20 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
 * Aumentar/diminuir o zoom do conteúdo nas opções de zoom predefinidas.
 
 * Alternar a exibição do conteúdo na área de trabalho, dispositivo móvel ou somente texto/texto sem formatação.
-   * Clique no ícone _Olho_ para visualizar o conteúdo entre dispositivos.
+   * Clique no ícone _Exibir_ para visualizar o conteúdo entre dispositivos.
    * Selecione um dos dispositivos prontos para uso ou insira dimensões personalizadas para visualizar o conteúdo.
+
+### Mais opções
+
+No menu _[!UICONTROL Mais...]_, na parte superior do designer de email, você pode realizar as seguintes ações:
+
+![Clique em Mais para acessar as ações do modelo](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL Redefinir email]** - Clique nesta opção para limpar a tela do designer de email visual em branco e reiniciar a criação do conteúdo.
+* **[!UICONTROL Salvar como fragmento]** - Salve todo o email ou partes dele como um fragmento a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o fragmento e salve-o na lista de fragmentos disponíveis.
+* **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu email_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design ou optar por projetar o conteúdo do zero em uma tela preta.\
+* **[!UICONTROL Salvar como modelo de conteúdo]** - Salve o corpo do email como um modelo de email a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o modelo e salve-o na lista de modelos de email salvos.
+* **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
 
 ## Verificar alertas
 

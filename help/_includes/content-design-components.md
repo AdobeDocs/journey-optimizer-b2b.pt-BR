@@ -1,9 +1,9 @@
 ---
 title: Criação de conteúdo - Componentes
 description: Seção reutilizada sobre o uso de componentes e elementos de conteúdo para a criação de conteúdo
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,12 @@ ht-degree: 0%
 
    ![Arraste um elemento de conteúdo para a tela e ajuste as configurações](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. Se necessário, você pode fazer personalizações adicionais para cada componente nas guias _[!UICONTROL Configurações]_ ou _[!UICONTROL Estilo]_.
 
    Por exemplo, é possível alterar o estilo do texto, o preenchimento ou a margem de cada componente.
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. Para adicionar conteúdo condicional e adaptar o conteúdo aos perfis direcionados com base em regras condicionais, selecione um componente de conteúdo e clique no ícone **[!UICONTROL Habilitar conteúdo condicional]** na barra de ferramentas do componente.
+
+   Para obter mais informações, consulte [_Conteúdo condicional_](../user/content/conditional-content.md).

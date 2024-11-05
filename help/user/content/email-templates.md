@@ -1,22 +1,22 @@
 ---
 title: Modelos de e-mail
-description: Saiba como criar e editar modelos de email que podem ser usados para criar emails de jornada de conta de forma fácil e eficiente.
+description: Saiba como gerenciar e criar modelos de email que podem ser usados para criar emails de jornada de conta de forma fácil e eficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 3%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
 # Modelos de e-mail
 
-Para um processo de design acelerado e aprimorado, você pode criar modelos de email independentes para reutilizar conteúdo personalizado nas jornadas de conta do Adobe Journey Optimizer B2B Edition. Por meio de modelos, os membros da equipe orientados a conteúdo podem trabalhar no conteúdo de email fora do jornada. Os estrategistas de marketing podem então reutilizar e adaptar esses modelos independentes dentro de suas jornadas de conta. Por exemplo, um membro da equipe é responsável apenas pelo conteúdo, sem acesso às jornadas da conta. No entanto, eles podem criar um template de email que os profissionais de marketing podem selecionar como ponto de partida para comunicações por email e personalizá-lo de acordo com os requisitos da jornada.
+Para um processo de design acelerado e aprimorado, é possível criar modelos de email independentes para reutilizar conteúdo personalizado nas jornadas de conta do Adobe Journey Optimizer B2B edition. Por meio de modelos, os membros da equipe orientados a conteúdo podem trabalhar no conteúdo de email fora do jornada. Os estrategistas de marketing podem então reutilizar e adaptar esses modelos independentes dentro de suas jornadas de conta. Por exemplo, um membro da equipe é responsável apenas pelo conteúdo, sem acesso às jornadas da conta. No entanto, eles podem criar um template de email que os profissionais de marketing podem selecionar como ponto de partida para comunicações por email e personalizá-lo de acordo com os requisitos da jornada.
 
 ## Acessar e gerenciar modelos de email
 
-Para acessar modelos de email na edição B2B do Adobe Journey Optimizer, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos]**. Essa ação abre uma página de listagem com todos os templates de email criados na instância listada em uma tabela.
+Para acessar modelos de email no Adobe Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos]**. Essa ação abre uma página de listagem com todos os templates de email criados na instância listada em uma tabela.
 
 A tabela é classificada pela coluna _[!UICONTROL Modificado]_, com os modelos atualizados mais recentemente no topo da lista por padrão. Clique no título da coluna para alterar entre crescente e decrescente.
 
@@ -28,9 +28,9 @@ Personalize as colunas que deseja exibir na tabela clicando no ícone _Personali
 
 Na página de listagem, você pode realizar as ações descritas nas seções a seguir.
 
-## Criar modelos de email
+## Criar um modelo de email
 
-Você pode criar um novo modelo de email na página de listagem de modelos de email clicando em **[!UICONTROL Criar modelo]** na parte superior direita.
+Você pode criar um modelo de email na página de listagem de modelos de email clicando em **[!UICONTROL Criar modelo]** na parte superior direita.
 
 1. Na caixa de diálogo, insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** úteis (opcional).
 
@@ -48,21 +48,23 @@ A página _[!UICONTROL Criar seu modelo]_ é aberta e fornece várias opções p
 
 ![Escolha como deseja começar com o design do seu modelo de email](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+Após selecionar o método que deseja usar para iniciar o design do modelo de email, use o designer visual para [criar o conteúdo do seu modelo de email](./email-template-authoring.md).
+
 ### Criar do zero
 
 Use o editor de conteúdo visual para definir a estrutura do conteúdo de email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
 
 >[!NOTE]
 >
->As ferramentas de design disponíveis são equivalentes às ferramentas usadas para [criação de email](./email-authoring.md). A diferença é que esse conteúdo é salvo como um modelo que pode ser reutilizado em vários nós de email de envio nas jornadas da conta.
+>As ferramentas de design disponíveis são equivalentes às ferramentas usadas para [criação de email](./email-authoring.md). A diferença é que esse conteúdo é então salvo como um modelo que pode ser reutilizado em vários nós _enviar email_ nas jornadas da conta.
 
 1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
 
-1. [Adicionar estrutura e conteúdo](#add-structure-and-content) ao modelo.
+1. [Adicionar estrutura e conteúdo](./email-authoring.md#add-structure-and-content) ao modelo.
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B Edition permite importar conteúdo de HTML existente para criar seus modelos de email.
+O Adobe Journey Optimizer B2B edition permite importar conteúdo de HTML existente para criar seus modelos de email.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ O Adobe Journey Optimizer B2B Edition permite importar conteúdo de HTML existen
 >
 >Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-Você pode personalizar o conteúdo importado conforme necessário com as ferramentas do editor visual de email.
+Você pode personalizar o conteúdo importado conforme necessário com o designer visual.
 
 ### Selecionar um modelo de design
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## Adicionar estrutura e conteúdo {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do modelo. Arraste e solte um componente de **Estrutura** na tela para começar a criar o conteúdo do modelo."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Sobre os componentes de conteúdo"
->abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Adicionar fragmentos
-
-No editor de conteúdo visual, o ícone _Fragmentos_ é exibido à esquerda. O exemplo a seguir descreve as etapas para adicionar fragmentos ao conteúdo do modelo.
-
-1. Para abrir a lista de fragmentos, clique no ícone _Fragmentos_.
-
-   É possível:
-
-   * Classifique a listagem.
-   * Procurar, Pesquisar ou Filtrar a listagem.
-   * Alternar entre as visualizações em Miniatura e em Lista.
-   * Atualize a lista para refletir qualquer um dos fragmentos criados recentemente.
-
-   ![Selecione um fragmento da lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Arraste e solte qualquer um dos fragmentos no espaço reservado do componente estrutural.
-
-   O editor renderiza o fragmento na seção/elemento da estrutura de email.
-
-O conteúdo do fragmento é atualizado dinamicamente na estrutura para mostrar como o conteúdo aparece no email.
-
->[!TIP]
->
->Se quiser adicionar o fragmento para que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e, em seguida, arraste e solte o fragmento nele.
-
-Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo. Os fragmentos adicionados a um modelo de email não são editáveis no modelo — o conteúdo é definido pelo fragmento de origem.
-
-### Adicionar ativos
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navegar pelas camadas, configurações e estilos
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Personalizar conteúdo
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Editar rastreamento de URL vinculado
-
-{{$include /help/_includes/content-design-links.md}}
-
-### Exibir opções
-
-Aproveite as opções de exibição e validação de conteúdo disponíveis no editor visual de email.
-
-* Aumentar/diminuir o zoom do conteúdo nas opções de zoom predefinidas.
-
-* Alternar a exibição do conteúdo na área de trabalho, dispositivo móvel ou somente texto/texto sem formatação.
-   * Clique no ícone _Olho_ para visualizar o conteúdo entre dispositivos.
-   * Selecione um dos dispositivos prontos para uso ou insira dimensões personalizadas para visualizar o conteúdo.
-
-### Mais opções
-
-No seletor _Mais opções_, no editor de conteúdo visual, você pode realizar as seguintes ações:
-
-![Clique em Mais para acessar as ações do modelo](./assets/visual-designer-more-menu.png){width="500"}
-
-* **Redefinir modelo** - Clique nesta opção para limpar a tela do designer de email visual em branco e reiniciar a criação de conteúdo.
-* **Salvar como fragmento** - Salva tudo ou partes dele como um fragmento a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para os fragmentos e adicione-os à lista de fragmentos disponíveis.
-* **Alterar seu design** - Retorne à página _Criar seu modelo_. Aqui, você pode realizar qualquer ação conforme descrito na seção &quot;Criar modelos de email&quot;.
-* **Exportar HTML** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
 
 ## Exibir detalhes do modelo de email
 
@@ -178,7 +102,7 @@ Na página de detalhes dos modelos de email, clique na guia **[!UICONTROL Usado 
 
 ![Clique na guia Usado por para verificar o uso do modelo](./assets/template-details-used-by.png){width="400"}
 
-Os emails no Journey Optimizer B2B Edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
+Os emails no Journey Optimizer B2B edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
 
 * Ao clicar no link, você é direcionado ao email de jornada correspondente onde o template de email é usado.
 

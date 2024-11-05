@@ -2,10 +2,10 @@
 title: Documentação do Adobe Journey Optimizer edição B2B
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B edition para orquestrar jornadas de contas e grupos de compras usando IA gerativa integrada e a automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,21 @@ Este é um exemplo dos últimos aprimoramentos feitos no produto e na documenta�
 
 >[!BEGINTABS]
 
+>[!TAB Conteúdo condicional]
+
+Use conteúdo condicional para adaptar seu conteúdo de email com base em regras condicionais. Defina as regras usando atributos de perfil ou eventos contextuais. Você pode criar regras condicionais no construtor de regras e armazená-las para reutilização nas jornadas da conta.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Saiba mais sobre conteúdo condicional"}
+
+>[!TAB Ação de pessoas - Adicionar/remover da lista]
+
+Em uma jornada de conta, use o nó de ação _Adicionar à lista_ para adicionar pessoas a uma lista estática de Marketo Engage. Essas listas oferecem total flexibilidade para redefinição de objetivos e direcionamento de públicos específicos. Você pode criar uma lista e depois criar uma campanha ao redor dela ou adicionar uma pessoa diretamente a uma campanha existente. Além disso, use a ação de pessoas _Remover da lista_ para refinar e alterar seu direcionamento no Marketo Engage com base na progressão da jornada da conta.
+
+[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Saiba mais sobre como adicionar e remover da lista"}
+
 >[!TAB Biblioteca central de ativos]
 
-Use todos os ativos de imagem na sua instância do Marketo Engage, em todos os espaços de trabalho do Design Studio. As medidas de proteção integradas impedem edições nos ativos Marketo Engage do Journey Optimizer B2B edition. Essas proteções garantem que os ativos de origem do Marketo Engage sejam mantidos e, ao mesmo tempo, permitem leitura e reutilização perfeitas no Journey Optimizer B2B edition. Para ativos exclusivos para uso no Journey Optimizer B2B edition, um espaço de trabalho específico fornece funções completas de gerenciamento de ativos.
+Use os ativos de imagem na sua instância do Marketo Engage, em todos os espaços de trabalho do Design Studio. As medidas de proteção integradas impedem edições nos ativos Marketo Engage do Journey Optimizer B2B edition. Essas proteções garantem que os ativos de origem do Marketo Engage sejam mantidos e, ao mesmo tempo, permitem leitura e reutilização perfeitas no Journey Optimizer B2B edition. Para ativos exclusivos para uso no Journey Optimizer B2B edition, um espaço de trabalho específico fornece funções completas de gerenciamento de ativos.
 
 [!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Saiba mais sobre o gerenciamento de ativos central"}
 
@@ -39,12 +51,6 @@ Eleve seu conteúdo ao próximo nível com o Assistente de IA para conteúdo de 
 
 [!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Saiba mais sobre o Assistente de IA para email"}
 
->[!TAB Fragmentos visuais]
-
-Crie componentes reutilizáveis como blocos de conteúdo personalizados para os membros da sua equipe de marketing para usar na montagem de conteúdo de email para um processo de design aprimorado.
-
-[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Saiba mais sobre fragmentos visuais"}
-
 >[!ENDTABS]
 
 Para obter uma lista completa de novos recursos e melhorias, consulte as [notas de versão](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
@@ -59,7 +65,7 @@ Para obter uma lista completa de novos recursos e melhorias, consulte as [notas 
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Grupos de compra"></a>
-    <div><strong>Criar o primeiro Grupo de Compras</strong><br/>Criar o primeiro grupo de compras no Journey Optimizer B2B Edition para automatizar o processo de contratação e qualificação de contatos.</div>
+    <div><strong>Criar o primeiro Grupo de Compras</strong><br/>Criar o primeiro grupo de compras no Journey Optimizer B2B edition para automatizar o processo de participação e qualificação de contatos.</div>
     </td>
     <td>
     <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Jornadas da conta"></a>
@@ -104,12 +110,12 @@ Descubra os componentes de um grupo de compras e entenda as noções básicas pa
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Criação de conteúdo"><br/>
-      <strong>Jornada conteúdo</strong><br/><a href="./content/email-authoring.md">Criação de email</a><br/><a href="./content/ai-assistant-emails.md">Assistente de IA para email</a><br/><a href="./content/sms-authoring.md">criação de SMS</a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Jornada conteúdo"><br/>
+      <strong>Jornada conteúdo</strong><br/><a href="./content/email-authoring.md">Criação de email</a><br/><a href="./content/ai-assistant-emails.md">Assistente de IA para email</a><br/><a href="./content/sales-alert-email.md">Email de alerta de vendas</a><br/><a href="./content/sms-authoring.md">Criação de SMS</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Ativos de conteúdo"><br/>
-      <strong>Gerenciamento de conteúdo</strong><br/><a href="./content/assets-overview.md">Visão geral do Assets</a><br/><a href="./content/email-templates.md">Modelos de email</a><br/><a href="./content/fragments.md">Fragmentos visuais</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gestão de conteúdo"><br/>
+      <strong>Gerenciamento de conteúdo</strong><br/><a href="./content/assets-overview.md">Visão geral do Assets</a><br/><a href="./content/email-templates.md">Modelos de email</a><br/><a href="./content/fragments.md">Fragmentos visuais</a><br/><a href="./content/conditional-content.md">Conteúdo condicional</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights e painéis"><br/>
@@ -126,7 +132,7 @@ Descubra os componentes de um grupo de compras e entenda as noções básicas pa
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=pt-BR" target="_blank">Documentação</a> - <a href="https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos do desenvolvedor</a>
 </td></tr>
 <tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
