@@ -3,9 +3,9 @@ title: Email de alerta de vendas
 description: Saiba como incluir um email de alerta de vendas automatizado nas jornadas da conta.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 Um _email de alerta de vendas_ sinaliza a entrega de grupos de compras para Vendas. O email contém um resumo do grupo de compra e informações sobre os membros do grupo de compra e suas atividades.
 
 Como profissional de marketing, você pode configurar um nó de email de alerta de vendas nas jornadas da conta para alertar sua equipe de vendas sobre a conclusão da jornada para grupos de compra específicos. No nó, é possível especificar os endereços de email da equipe de vendas ou um alias de distribuição que atinge um conjunto de contas.
+
+>[!IMPORTANT]
+>
+>Verifique se o incluo na lista de permissões de pesquisa da sua organização é atualizado para que um email de alerta de vendas possa ser entregue. Para obter mais informações, consulte [Protocolos de rastreamento e entrega de email](../start/email-protocols.md).
 
 ## Conteúdo de email
 

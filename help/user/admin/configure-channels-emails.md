@@ -2,16 +2,17 @@
 title: Configurações de email
 description: Saiba como acessar e revisar as configurações de email definidas no Marketo Engage.
 feature: Setup
-source-git-commit: f097f535237fe6b27322e2c325e59daa8a54ee2f
+exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
 
 # Configurações de email
 
-O Adobe Journey Optimizer B2B edition aproveita as funções de canal e o rastreamento de eventos no Market Engage. Os administradores devem garantir que as configurações de entrega e rastreamento estejam em vigor para habilitar a entrega por canal para profissionais de marketing.
+O Adobe Journey Optimizer B2B edition aproveita as funções de canal e o rastreamento de eventos no Market Engage. Os administradores devem garantir que as configurações de entrega e rastreamento estejam em vigor para habilitar a entrega por canal para profissionais de marketing. Para obter informações sobre os protocolos necessários para entrega e rastreamento de email por Marketo Engage, consulte [Protocolos para rastreamento e entrega de email](../start/email-protocols.md).
 
 ## Configurações de entrega
 
@@ -54,7 +55,6 @@ Essa configuração define seu domínio primário para um ou mais espaços de tr
 >[!NOTE]
 >
 >Se você estiver comercializando várias marcas no Journey Optimizer B2B edition e na instância de Marketo Engage conectada e quiser que cada uma tenha seus próprios links de rastreamento de marca, poderá adicionar um domínio de marca adicional. Para obter mais informações, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
-
 
 ### [!UICONTROL Opções de cabeçalho personalizado] {#custom-header-options}
 
@@ -146,4 +146,3 @@ As configurações são somente leitura no Journey Optimizer B2B edition. Clique
 >Para acessar e editar essas configurações no Adobe Marketo Engage, é necessário ter permissões de administrador do produto.
 
 Para obter mais informações sobre como configurar as opções de atividade de bot, consulte a [documentação sobre Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
-
