@@ -3,9 +3,9 @@ title: Interesses da solução
 description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos Grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Antes de criar Grupos de Compra, você deve saber o que está vendendo e quem de
 
 ## Acessar e procurar interesses da solução
 
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B Edition.
+1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B edition.
 
 1. Na navegação à esquerda, clique em **[!UICONTROL Comprando grupos]**.
 
@@ -48,13 +48,21 @@ Antes de criar um interesse de solução, você deve ter um modelo de funções 
 
 1. Escolha um **[!UICONTROL Modelo de Funções]** (obrigatório).
 
-   Clique no seletor e escolha um modelo de funções online na lista exibida. Você pode associar apenas um modelo de funções online a um interesse de solução.
+   Clique em **[!UICONTROL Selecionar modelo de funções]** e escolha um modelo de funções online na lista da caixa de diálogo. Você pode associar apenas um modelo de funções online a um interesse de solução. Clique em **[!UICONTROL Salvar]** para retornar à página _[!UICONTROL Criar interesse da solução]_, onde o modelo de funções selecionado é exibido.
 
-   ![Guia Interesse da solução](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![Adicionar um modelo de funções ao interesse de solução](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. Selecione o **[!UICONTROL Modelo de estágio de grupo de compras]** para usar a progressão de estágio de grupo de compras (opcional).
+
+   Para obter mais informações sobre como usar estágios de grupo de compras para rastrear a progressão da conta, consulte [Estágios de grupo de compras](./buying-group-stages.md).
+
+1. Habilitar a configuração **[!UICONTROL Atualizar grupos de compra existentes]** (opcional).
+
+   Quando essa opção está habilitada, todos os grupos de compras existentes combinados com os interesses da solução são atualizados por meio do ciclo de sincronização de 24 horas.
 
 1. Clique em **[!UICONTROL Criar]** no canto superior direito.
 
-   O novo interesse da solução é exibido nos Interesses da solução
+   O novo interesse da solução é exibido na lista _[!UICONTROL Interesses da Solução]_.
 
 ## Editar um interesse de solução
 
@@ -68,6 +76,10 @@ A qualquer momento, você pode alterar o nome e a descrição de um interesse de
    ![Menu Mais interesses da solução](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Se necessário, atualize o nome (obrigatório e exclusivo) e a descrição (opcional).
+
+1. Se necessário, selecione o **[!UICONTROL Modelo de estágio de grupo de compras]** para rastrear a progressão do estágio de grupo de compras.
+
+   Para obter mais informações sobre como usar estágios de grupo de compras para rastrear a progressão da jornada em relação às vendas, consulte [Estágios de grupo de compras](./buying-group-stages.md).
 
 1. Se necessário, altere a configuração **[!UICONTROL Atualizar grupos de compra existentes]**.
 

@@ -3,9 +3,9 @@ title: Grupos de compra
 description: Saiba como os grupos de compras no Journey Optimizer B2B edition podem aumentar a eficácia do marketing ao identificar e direcionar membros para suas listas de contas.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1257'
 ht-degree: 6%
 
 ---
@@ -23,13 +23,14 @@ Dentro da conta, pode haver um subconjunto de pessoas que compõem o _grupo de c
 
 ## Componentes principais
 
-Você pode aumentar a eficácia do marketing estabelecendo grupos de compra no Journey Optimizer B2B Edition que identificam membros ausentes para suas listas de contas de destino com base nas soluções pelas quais suas equipes de vendas são responsáveis pelas vendas. Antes de você e sua equipe de marketing começarem a criar seus grupos de compra, verifique se você tem os componentes principais definidos. Esses componentes são essenciais para atingir suas metas e objetivos de negócios.
+Você pode aumentar a eficácia do marketing estabelecendo grupos de compra no Journey Optimizer B2B edition que identificam membros ausentes para suas listas de contas de destino com base nas soluções pelas quais suas equipes de vendas são responsáveis. Antes de você e sua equipe de marketing começarem a criar seus grupos de compra, verifique se você tem os componentes principais definidos. Esses componentes são essenciais para atingir suas metas e objetivos de negócios.
 
 | Componente | Finalidade |
 | --------- | ------- |
 | Interesse na solução | Esse componente fornece a resposta para: <ul><li>Como organização de marketing, o que você está vendendo?</li><li>Que produto ou coleção de produtos você pretende vender?</li></ul>  **_Exemplo:_** venda cruzada do novo Produto X para clientes existentes |
 | Público-alvo de conta | Esse componente fornece a resposta para: <ul><li>Para quem você está vendendo?</li><li>Qual é a lista de contas que você está direcionando?</li></ul> **_Exemplo:_** Segmento de conta definido por contas com o Produto Y com receita superior a 1 milhão |
 | Comprando modelos de função do grupo | Esse componente fornece a resposta para: <ul><li>Quais funções você está direcionando?</li><li>Qual conjunto de regras é usado para determinar quem está atribuído às funções de grupo de compra?</li></ul>  **_Exemplo:_** Atribua uma pessoa com título de CMO à função de Tomador de Decisão |
+| Estágios do grupo de compra | (Opcional) Este componente fornece a resposta para: como o grupo de compras está rastreando o sucesso ou a falha? |
 
 ## Fluxo de trabalho do grupo de compra
 
@@ -66,6 +67,7 @@ A página _[!UICONTROL Grupos de compras]_ é organizada como guias:
 | [!UICONTROL Procurar] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compras. </li><li>Filtrar por interesse da solução. </li><li>Detalhar detalhes do grupo de compras. </li><li>Criar um grupo de compras. Excluir um grupo de compras.</li></ul> |
 | [!UICONTROL Interesses da solução] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compras. </li><li>Acesse e edite as propriedades de interesse da solução. </li><li>Criar um interesse de solução. </li><li>Excluir um interesse de solução. </li><li>Exibir e excluir ordens de produção do grupo de compras. </li></ul> |
 | [!UICONTROL Modelos de Funções] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de modelos de funções existentes. </li><li>Pesquisar por nome do modelo de funções. </li><li>Acesse e edite as propriedades e condições do modelo de funções. </li><li>Crie um modelo de funções. </li><li>Excluir um modelo de funções. </li></ul> |
+| [!UICONTROL Estágios] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir o modelo de estágios existentes de grupos de compras. </li><li>Acesse e edite o modelo de estágios de grupo de compra de rascunho. </li><li>Criar o modelo de estágios de grupo de compras. </li></ul> |
 
 ## Pesquisa e filtro do grupo de compras
 

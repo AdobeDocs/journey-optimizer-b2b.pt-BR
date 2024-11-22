@@ -3,9 +3,9 @@ title: Comprando modelos de função de grupo
 description: Saiba mais sobre como definir um modelo de função a ser usado como um componente de grupo de compras.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
 ## Acessar e procurar modelos de função
 
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B Edition.
+1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B edition.
 
 1. Na navegação à esquerda, clique em **[!UICONTROL Grupos de compra]**.
 
@@ -55,7 +55,13 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
    ![Caixa de diálogo Criar Modelo de Funções](assets/roles-template-create-dialog.png){width="400"}
 
-1. Adicione uma regra para cada função que você deseja definir para o modelo.
+1. Clique em **[!UICONTROL Criar]**.
+
+### Adicionar as funções de modelo
+
+Após criar o modelo, ele será aberto no espaço de trabalho e você será solicitado a definir as funções. O primeiro cartão de função é exibido por padrão.
+
+1. Para o primeiro cartão de função, defina as propriedades da função.
 
    * Escolha a **[!UICONTROL Função do grupo de compra]** na lista.
 
@@ -73,31 +79,37 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
    * **[!UICONTROL Obrigatório para pontuação de integridade]** - Marque esta caixa de seleção para a função se desejar que ela seja um requisito para o cálculo de uma pontuação de integridade.
 
-   * Clique em **[!UICONTROL Adicionar Condição]**.
+1. Clique em **[!UICONTROL Adicionar Condição]** e defina a regra condicional para a função.
 
-      * Na caixa de diálogo de condição, expanda a lista de **[!UICONTROL atributos de pessoa]** e localize um atributo que você deseja usar para corresponder à função. Arraste-o para a direita e solte-o no espaço de filtro.
+   * Na caixa de diálogo _[!UICONTROL Condição]_, expanda a lista de **[!UICONTROL Atributos de pessoa]** e localize um atributo que você deseja usar para corresponder à função. Arraste-o para a direita e solte-o no espaço de filtro.
 
-        ![Atributo de arrastar condição de adição de modelo de funções](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![Atributo de arrastar condição de adição de modelo de funções](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-      * Use o atributo para criar um filtro correspondente usando um ou mais valores.
+     >[!NOTE]
+     >
+     >Se você tiver campos de pessoa personalizados definidos no esquema de público-alvo da conta no Experience Platform, esses campos também estarão disponíveis para uso como atributos de pessoa em condições.
 
-        No exemplo a seguir, o atributo Cargo é usado para identificar uma correspondência do Tomador de decisão. Qualquer valor de título que comece com `Director` ou `Sr Director` é avaliado como verdadeiro para a condição.
+   * Use o atributo para criar um filtro correspondente usando um ou mais valores.
 
-        ![Exemplo de condição de modelo de funções usando o título do trabalho](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+     No exemplo a seguir, o atributo Cargo é usado para identificar uma correspondência do Tomador de decisão. Qualquer valor de título que comece com `Director` ou `Sr Director` é avaliado como verdadeiro para a condição.
 
-      * Se necessário, adicione outro atributo e condição que refine ainda mais os critérios para uma correspondência à função.
+     ![Exemplo de condição de modelo de funções usando o título do trabalho](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-      * Clique em **[!UICONTROL Concluído]**.
+   * Se necessário, adicione outro atributo e condição que refine ainda mais os critérios para uma correspondência à função.
 
-   Para cada função adicional que você deseja incluir no modelo, clique em **[!UICONTROL Adicionar outra função]** e defina uma ou mais condições para corresponder à função.
+   * Clique em **[!UICONTROL Concluído]**.
+
+1. Para cada função adicional que você deseja incluir no modelo, clique em **[!UICONTROL Adicionar outra função]** e repita as etapas 1 e 2 para definir a função.
 
    ![Modelo de funções com várias funções definidas](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
-1. Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publish]** no canto superior direito.
+Suas alterações são salvas automaticamente no status _Rascunho_. Se você não estiver pronto para publicar o modelo de funções, clique na seta para a esquerda (para trás) na parte superior da página e retorne à lista _[!UICONTROL Modelos de funções]_.
 
-   A publicação do modelo o define como um status _Live_ e o disponibiliza para associação com um Interesse na Solução. Deve haver pelo menos uma função definida para publicar o modelo de funções.
+### Publish o modelo de funções
 
-   Suas alterações são salvas automaticamente no status _Rascunho_. Se você não estiver pronto para publicar o modelo de funções, clique na seta para a esquerda (voltar) na parte superior da página e retorne à lista Modelos de funções.
+Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publish]** no canto superior direito.
+
+A publicação do modelo define o status como _Ativo_ e o disponibiliza para associação com um interesse de solução. Deve haver pelo menos uma função definida para publicar o modelo de funções.
 
 ## Editar um modelo de funções de rascunho
 
@@ -107,13 +119,13 @@ Altere qualquer uma das configurações no cabeçalho do cartão de função, in
 
 ![Alterar propriedades de função de grupo de compra](./assets/roles-template-role-properties.png){width="600"}
 
-### Modificar os filtros de uma função
+### Modificar as condições para uma função
 
-Para alterar a lógica de filtragem de qualquer uma das funções, clique no ícone _Editar_ (lápis) na parte superior direita do cartão de funções. Esta ação abre o espaço de trabalho _[!UICONTROL Condições]_, no qual você pode modificar um filtro existente, adicionar outro filtro, remover um filtro ou alterar a lógica do filtro.
+Para alterar a condição/lógica de filtragem de qualquer uma das funções, clique no ícone _Editar_ ( ![Editar ícone](../assets/do-not-localize/icon-edit.svg) ) na parte superior direita do cartão de função. Esta ação abre o espaço de trabalho _[!UICONTROL Condições]_, no qual você pode modificar um filtro existente, adicionar ou remover um filtro ou alterar a lógica do filtro.
 
 ### Excluir um cartão de função
 
-Se quiser remover uma função do modelo, clique no ícone _Excluir_ (lixeira) no cartão de função.
+Para remover uma função do modelo, clique no ícone _Excluir_ ( ![Excluir ícone](../assets/do-not-localize/icon-delete.svg) ) no cartão de função.
 
 ### Definir a prioridade de funções
 
