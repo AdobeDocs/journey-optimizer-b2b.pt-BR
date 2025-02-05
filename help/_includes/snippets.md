@@ -1,9 +1,9 @@
 ---
 title: Bl. conteúdo
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # Bl. conteúdo
 
 <!-- Content authoring steps for reuse -->
+
+## Configuração de dados de intenção {#intent-data-note}
+
+>[!NOTE]
+>Os dados de intenção também podem ser incluídos na página quando configurada para sua instância do Journey Optimizer B2B edition. Para obter mais informações sobre o modelo de detecção de intenção e como enviar palavras-chave, consulte [Dados de intenção](../user/admin/intent-data.md).
+>
+
+## Nota de licenciamento de ativos AEM {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>As licenças da AEM Assets as a Cloud Service e da Dynamic Media são pré-requisitos para a integração. Você deve garantir que a [API do Dynamic Media withOpen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esteja habilitada.<br/>
+>Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition ao projetar conteúdo visual.
 
 ## Criação de conteúdo - Componentes - etapa de estruturas {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    Clique duas vezes na pasta que contém seus ativos. Arraste e solte os itens em um componente de estrutura.
 
-   >[!NOTE]
-   >
-   >Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service, juntamente com o Adobe Marketo Engage Design Studio padrão, deverá escolher a [fonte de imagem](../user/content/assets-overview.md#choose-an-asset-source) no momento da criação para um email, modelo de email ou fragmento visual. No entanto, também é possível selecionar a fonte da imagem antes de abrir o designer de conteúdo para edição.
-
-   Para obter mais informações sobre como usar os ativos do seu tipo de origem, consulte [Adicionar ativos ao seu conteúdo](../user/content/assets-overview.md#add-assets-to-your-content).
+   Para obter mais informações sobre como usar os ativos do seu tipo de origem, consulte [Adicionar ativos ao seu conteúdo](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Arraste um ativo de Marketo Engage para a tela e ajuste as configurações](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -64,6 +73,6 @@ ht-degree: 0%
 
 ## Criação de conteúdo - etapa de rastreamento de links {#links-tracking-step}
 
-1. Selecione a guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que são rastreadas.
+1. Selecione a guia **[!UICONTROL Links]** no painel esquerdo para exibir todas as URLs do seu conteúdo que é rastreado.
 
    Você pode modificar o _Tipo de Rastreamento_ ou o _Rótulo_ e adicionar marcas, se necessário.

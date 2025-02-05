@@ -2,7 +2,7 @@
 title: Documentação do Adobe Journey Optimizer edição B2B
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B edition para orquestrar jornadas de contas e grupos de compras usando IA gerativa integrada e a automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 7%
@@ -27,7 +27,7 @@ Use conteúdo condicional para adaptar seu conteúdo de email com base em regras
 
 Em uma jornada de conta, use o nó de ação _Adicionar à lista_ para adicionar pessoas a uma lista estática de Marketo Engage. Essas listas oferecem total flexibilidade para redefinição de objetivos e direcionamento de públicos específicos. Você pode criar uma lista e depois criar uma campanha ao redor dela ou adicionar uma pessoa diretamente a uma campanha existente. Além disso, use a ação de pessoas _Remover da lista_ para refinar e alterar seu direcionamento no Marketo Engage com base na progressão da jornada da conta.
 
-[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Saiba mais sobre como adicionar e remover da lista"}
+[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Saiba mais sobre como adicionar e remover da lista"}
 
 >[!TAB Biblioteca central de ativos]
 

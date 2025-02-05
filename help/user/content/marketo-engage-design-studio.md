@@ -3,16 +3,16 @@ title: Trabalhar com o Marketo Engage Assets
 description: Saiba mais sobre como usar a integração de gerenciamento de ativos do Marketo Engage Design Studio no Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
+source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
 
 # Trabalhar com ativos do Marketo Engage
 
-O Marketo Engage Design Studio é a fonte de ativos padrão do Journey Optimizer B2B edition e você pode gerenciar e usar facilmente os ativos disponíveis no conteúdo para as jornadas da sua conta.
+O Marketo Engage Design Studio é a fonte de ativos padrão do Journey Optimizer B2B edition e você pode gerenciar e usar facilmente os ativos disponíveis para criar conteúdo que ofereça suporte às jornadas da sua conta.
 
 No Marketo Engage, as organizações de marketing usam espaços de trabalho para organizar seus ativos de conteúdo e ajudar as equipes a acessar o ativo correto. Espaços de trabalho bem definidos são especialmente úteis para grandes empresas que têm um grande portfólio de ofertas de produtos ou operam globalmente com diferentes requisitos de marketing para diferentes regiões.
 
@@ -20,9 +20,10 @@ No Marketo Engage, as organizações de marketing usam espaços de trabalho para
 
 Por padrão, há um espaço de trabalho do **_[!UICONTROL Journey Optimizer B2B edition]_** que você pode usar especificamente para o conteúdo de jornada da sua conta. Os ativos adicionados a este espaço de trabalho não estão visíveis ou disponíveis para uso no Marketo Engage. Para ativos que residem nesse espaço de trabalho, você tem a gama completa de funções de gerenciamento de ativos no Journey Optimizer B2B edition. Essas funções incluem:
 
-* Substituir
-* Excluir
-* Mover
+* [Substituir](#replace-assets)
+* [Excluir](#delete-assets)
+* [Mover](#create-a-folder)
+* [Editar com Adobe Express](./image-edit-adobe-express.md)
 
 Os Assets residentes nos espaços de trabalho do Marketo Engage são limitados ao acesso somente leitura para uso em emails, modelos de email e fragmentos. Você pode adicionar novos ativos a esses espaços de trabalho e baixar uma cópia de um ativo.
 
@@ -66,7 +67,7 @@ Clicar no link direciona você para o email, modelo de email ou fragmento corres
 
 ## Adicionar ativos
 
-Na página Lista do Assets, você pode adicionar ativos de imagem ao espaço de trabalho do Journey Optimizer B2B edition ou a um espaço de trabalho do Marketo Engage.
+Na página de lista _Assets_, você pode adicionar ativos de imagem ao espaço de trabalho do Journey Optimizer B2B edition ou a um espaço de trabalho do Marketo Engage.
 
 1. Clique em **[!UICONTROL Adicionar Assets]** na parte superior direita.
 
@@ -126,7 +127,7 @@ Na caixa de diálogo _[!UICONTROL Substituir ativo]_, arraste e solte o arquivo 
 
 Para continuar, clique em **[!UICONTROL Substituir]**. Você pode anular o processo clicando em **[!UICONTROL Cancelar]**.
 
-Se o arquivo a ser substituído estiver em uso no momento, uma caixa de diálogo informativa alertará que o novo arquivo de imagem substitui a imagem em todos os locais em que é usada (emails, modelos de email e fragmentos).
+Se o arquivo a ser substituído estiver em uso, uma caixa de diálogo informativa o alertará de que o novo arquivo de imagem substitui a imagem em todos os locais em que é usada (emails, modelos e fragmentos de email).
 
 ## Baixar ativos
 
@@ -154,7 +155,7 @@ Você pode realizar as seguintes ações em massa para os ativos selecionados qu
 
 1. Selecione uma pasta.
 
-   As atualizações de caminho ao lado de _[!UICONTROL Ativos selecionados serão movidas para:]_.
+   O caminho ao lado de _[!UICONTROL Ativos selecionados será movido para:]_ reflete a alteração.
 
 1. Clique em **[!UICONTROL Mover]**.
 
@@ -268,7 +269,7 @@ O arquivamento de uma pasta torna os arquivos dentro dela não pesquisáveis. Us
 
 O Assets pode ser usado no email da sua equipe, no modelo de email ou na criação de fragmentos visuais no editor de conteúdo visual.
 
-Na interface do usuário do designer visual, selecione o ícone _Seletor de ativos_ ( ![Seleção de Assets](../assets/do-not-localize/icon-assets-design.svg) ) na barra lateral esquerda.
+Na interface do designer visual, selecione o ícone _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) na barra lateral esquerda.
 
 Essa ação altera o painel Ferramentas que exibe uma lista estruturada dos ativos disponíveis no espaço de trabalho selecionado. Selecione o espaço de trabalho que deseja exibir para escolher um ativo.
 

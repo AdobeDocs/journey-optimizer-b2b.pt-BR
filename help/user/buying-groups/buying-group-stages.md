@@ -2,9 +2,10 @@
 title: Estágios de Grupo de Compras
 description: Saiba mais sobre estágios de grupo de compras e como defini-los para rastrear a progressão da jornada em relação às metas de vendas.
 feature: Buying Groups, Account Journeys
-source-git-commit: 42d73cd2c1ead771205e5fdf188088fce7ca6f21
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2250'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Os estágios de grupo de compra são projetados para rastrear a progressão dos grupos de compra na conversão de oportunidades em clientes. Use este recurso para rastrear a progressão do grupo de compras e identificar as próximas melhores ações para membros do grupo de compras.
 
-Defina os estágios em um único modelo de preparo, definindo vários estágios e o fluxo de transição entre eles. Um ou mais estágios são designados para entrada no ciclo de vida. O modelo também permite a progressão não linear, onde você pode especificar transições de um estágio para outro, como do estágio A para os estágios B, C ou D. É necessário que um estágio seja designado como o estágio de sucesso, como uma compra ou contrato assinado. É opcional que outro estágio seja designado como um estágio de falha, como um contrato rejeitado ou a compra de uma solução concorrente de outro fornecedor.<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+Defina os estágios em um único modelo de preparo, definindo vários estágios e o fluxo de transição entre eles. Um ou mais estágios são designados para entrada no ciclo de vida. O modelo também permite a progressão não linear, onde você pode especificar transições de um estágio para outro, como do estágio A para os estágios B, C ou D. É necessário que um estágio seja designado como o estágio de sucesso, como uma compra ou contrato assinado. É opcional que outro estágio seja designado como um estágio de falha, como um contrato rejeitado ou a compra de uma solução concorrente de outro fornecedor. Isso é feito por meio de [painéis inteligentes](../dashboards/intelligent-dashboard.md) que mostram como os grupos de compras estão progredindo em termos de conclusão de uma oportunidade de venda ou de conversão de uma oportunidade em um cliente.
 
 ![Exemplo de estágios de grupo de compras](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 

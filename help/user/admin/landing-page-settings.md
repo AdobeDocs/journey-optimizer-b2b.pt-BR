@@ -4,11 +4,12 @@ description: Saiba como acessar e definir as configurações da landing page par
 feature: Setup, Content
 hide: true
 hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: a04e069d12f1599eb3d53840704d01ced05ba4fb
+source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 49%
+source-wordcount: '249'
+ht-degree: 47%
 
 ---
 

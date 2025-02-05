@@ -1,11 +1,11 @@
 ---
 title: Modelos de e-mail
-description: Saiba como gerenciar e criar modelos de email que podem ser usados para criar emails de jornada de conta de forma fácil e eficiente.
+description: Saiba como gerenciar e criar modelos de email usados para criar emails de jornada de conta de forma fácil e eficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
+source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para um processo de design acelerado e aprimorado, é possível criar modelos de
 
 Para acessar modelos de email no Adobe Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos]**. Essa ação abre uma página de listagem com todos os templates de email criados na instância listada em uma tabela.
 
-A tabela é classificada pela coluna _[!UICONTROL Modificado]_, com os modelos atualizados mais recentemente no topo da lista por padrão. Clique no título da coluna para alterar entre crescente e decrescente.
+A tabela é classificada pela coluna _[!UICONTROL Modificado]_ por padrão, com os modelos atualizados mais recentes na parte superior. Clique no título da coluna para alterar entre crescente e decrescente.
 
 Para pesquisar um modelo por nome, digite uma string de texto na barra de pesquisa. Clique no ícone _Filtro_ na parte superior esquerda para filtrar a lista de acordo com as datas de criação ou modificação e os modelos que você criou ou modificou.
 
@@ -26,7 +26,7 @@ Para pesquisar um modelo por nome, digite uma string de texto na barra de pesqui
 
 Personalize as colunas que deseja exibir na tabela clicando no ícone _Personalizar tabela_ na parte superior direita. Selecione as colunas a serem exibidas e clique em **[!UICONTROL Aplicar]**.
 
-Na página de listagem, você pode realizar as ações descritas nas seções a seguir.
+Na lista exibida de modelos, é possível realizar as ações descritas nas seções a seguir.
 
 ## Criar um modelo de email
 
@@ -35,12 +35,6 @@ Você pode criar um modelo de email na página de listagem de modelos de email c
 1. Na caixa de diálogo, insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** úteis (opcional).
 
    ![Inserir propriedades iniciais para o novo modelo de email](./assets/templates-create-dialog.png){width="400"}
-
-1. Defina a **[!UICONTROL origem da imagem]** inicial.
-
-   Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service junto com o Adobe Marketo Engage Design Studio padrão, poderá escolher ativos de imagem de qualquer uma das origens. Para fazer isso, você deve selecionar a fonte de imagem no momento da criação de um modelo de email ou fragmento visual. No entanto, também é possível selecionar a fonte da imagem ao editar o conteúdo.
-
-   Para obter mais informações sobre fontes de imagem, consulte [Assets](./assets-overview.md).
 
 1. Clique em **[!UICONTROL Criar]**.
 
@@ -94,7 +88,7 @@ Na página da listagem de modelos, clique no nome de um modelo de email para abr
 
 * Se houver alertas ativos (erros e avisos para o modelo de email), clique em **[!UICONTROL Alertas]** na parte superior direita para exibir as informações.
 
-  Embora esses alertas não proíbam o uso do modelo de email para criação de email, essas informações fornecem visibilidade aos profissionais de marketing em sua equipe sobre o que pode não funcionar e as atualizações necessárias antes que possam ser usadas para a entrega.
+  Esses alertas não proíbem o uso do modelo de email para criação de email. As informações fornecem visibilidade aos profissionais de marketing da sua equipe sobre o que pode não funcionar e as atualizações necessárias antes que possam ser usadas para o delivery.
 
 ## Exibir modelo de email usado por referências
 
@@ -115,7 +109,7 @@ Esta ação pode ser tomada a partir de:
 * A página de detalhes - Clique em **[!UICONTROL Editar modelo de email]**.
 * A página de listagem - Clique nas reticências (**...**) ao lado de um modelo de email e escolha **[!UICONTROL Editar]**.
 
-Esta ação direciona você à página _Criar modelo_ ou à página do editor de conteúdo visual com base no último status salvo do modelo de email. Aqui, você pode editar o conteúdo do seu modelo de email conforme necessário. Consulte [Criar modelos de email](#create-email-templates) para obter informações sobre as opções de edição.
+Esta ação direciona você à página _Criar modelo_ ou à página do editor de conteúdo visual (com base no último status salvo do modelo de email). Aqui, você pode editar o conteúdo do seu modelo de email conforme necessário. Consulte [Criar modelos de email](#create-email-templates) para obter informações sobre as opções de edição.
 
 ## Modelos de email duplicados
 
@@ -150,7 +144,7 @@ Na página de listagem de modelos de email, selecione vários modelos de cada ve
 
 **[!UICONTROL Excluir]** — É possível excluir até 20 modelos de uma vez. Uma caixa de diálogo de confirmação permite suspender a ação ou confirmar a remoção dos modelos.
 
-## Criação de um email a partir de um modelo salvo
+## Criar um email a partir de um modelo salvo
 
 Na tela _Criar seu email_, use a seção _Selecionar modelo de design_ para começar a criar o conteúdo a partir de um modelo.
 

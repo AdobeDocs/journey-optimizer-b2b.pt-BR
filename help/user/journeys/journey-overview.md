@@ -3,21 +3,23 @@ title: Jornadas da conta
 description: Saiba mais sobre jornadas de conta e como criá-las e gerenciá-las.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 1%
+source-wordcount: '1141'
+ht-degree: 2%
 
 ---
 
 
 # Jornadas da conta
 
+Crie e execute jornadas personalizadas para cada grupo de compra e membro do grupo de compra usando o envolvimento automatizado por email, SMS, eventos e muito mais. Com as jornadas de conta, você pode dinamizar a geração de demanda e a qualificação do grupo de compras, além de impulsionar a demanda mais qualificada para seus programas de aquisição, venda adicional/venda cruzada e retenção.
+
 Defina um envolvimento orientado a vendas que inclua email, SMS e muito mais jornadas de conta interna para coordenar o marketing de entrada com atividades de vendas de saída para cada membro do grupo de compras.
 
 ## Acessar e procurar jornadas da conta
 
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B Edition.
+1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B edition.
 
 1. Na navegação à esquerda, clique em **[!UICONTROL jornadas da conta]**.
 
@@ -54,7 +56,7 @@ O cabeçalho do editor de cada jornada de conta inclui:
 
 As seguintes ações estão disponíveis no cabeçalho:
 
-* **Publish** - Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, um status de Jornada é alterado para _Live_. Se a jornada tiver erros, o botão ficará esmaecido com informações de conteúdo: `Resolve errors before publishing`.
+* **Publish** - Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Live_. Se a jornada tiver erros, o botão ficará esmaecido com informações de conteúdo: `Resolve errors before publishing`.
 * **Duplicar** - Esta ação é semelhante a uma função de clone, mas a jornada duplicada não inclui nenhum ativo.
 * **Fechar para novas entradas** - Se você fechar uma jornada, as contas que estão atualmente na jornada continuarão seu caminho na jornada e não poderá ocorrer mais nenhuma entrada na jornada. Uma jornada fechada não pode ser reiniciada. É possível duplicar uma jornada fechada.
 * **Abortar** - Se você parar uma jornada, as contas na jornada pararão imediatamente seu progresso e não poderá ocorrer mais nenhuma entrada na jornada. Uma jornada interrompida não pode ser reiniciada. Se você bloquear novas entradas sem interromper o progresso das pessoas, considere fechar a jornada.
@@ -86,35 +88,19 @@ Para começar a usar uma jornada de conta, crie a jornada e construa os nós e o
 
 1. Clique em **[!UICONTROL Criar]**.
 
-### Adicionar o público-alvo da conta para a sua jornada
-
-Uma jornada de conta sempre começa com o Público-alvo da conta, onde é possível adicionar entradas à jornada.
-
-1. Clique no nó **[!UICONTROL Account audience]** para exibir as propriedades do nó à direita.
-
-   ![Nó de público-alvo da conta](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. Clique em **[!UICONTROL Adicionar público da conta]**.
-
-   Você pode selecionar um segmento de público selecionado anteriormente clicando em _[!UICONTROL Adicionar públicos-alvo]_.
-
-1. Para criar um novo segmento de público, selecione **[!UICONTROL Públicos-alvo da conta]** na navegação à esquerda.
-
-1. Clique em **[!UICONTROL Criar público-alvo]** e siga as etapas descritas no [guia do Serviço de Segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
-
 ### Blocos de construção de uma jornada
 
-A _tela de jornada_ é a zona central no designer de jornada. É nessa zona que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir o painel de propriedades à direita da tela e defina-o de acordo com seu design.
+O _mapa de jornadas_ é a zona central no designer de jornadas. É nessa zona que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir o painel de propriedades à direita da tela e defina-o de acordo com seu design. Uma jornada de conta sempre começa com um [nó de Público-alvo de Conta](./account-audience-nodes.md), onde é possível adicionar entrada à jornada.
 
-Você pode criar a jornada usando qualquer um destes tipos de nó:
+Depois de criar uma jornada de conta e adicionar o público-alvo, crie a jornada usando nós. O mapa de jornadas fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar uma jornada de conta:
 
-* [Ouvir um evento](journey-nodes.md#listen-for-an-event)
-* [Realizar uma ação](journey-nodes.md#take-an-action)
-* [Dividir caminhos](journey-nodes.md#split-paths)
-* [Aguardar](journey-nodes.md#wait)
-* [Caminhos de mesclagem](journey-nodes.md#merge-paths)
+* [Realizar uma ação](./action-nodes.md)
+* [Ouvir um evento](./listen-for-event-nodes.md)
+* [Dividir caminhos](./split-merge-paths-nodes.md)
+* [Aguardar](./wait-nodes.md)
+* [Caminhos de mesclagem](./split-merge-paths-nodes.md)
 
-### Trilhos de proteção
+### Medidas de proteção
 
 Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis de proteção estão em vigor:
 
@@ -134,7 +120,7 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
 1. Navegue até o editor de jornadas.
 
-1. Nas propriedades do nó à direita, clique no ícone _Excluir_ (lixeira).
+1. Nas propriedades do nó à direita, clique no ícone _Excluir_ ( ![Ícone Excluir](../assets/do-not-localize/icon-delete.svg) ).
 
 1. Na caixa de diálogo de conformação, clique em **[!UICONTROL Excluir]**.
 
@@ -142,7 +128,7 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
 1. Navegue até o editor de jornadas.
 
-1. Clique no ícone de adição ( **+** ) no caminho e adicione o nó do caminho dividido.
+1. Clique no ícone de adição ( **+** ) no caminho e adicione o [nó do caminho dividido](./split-merge-paths-nodes.md#split-paths).
 
 1. Nas propriedades do nó à direita, selecione **[!UICONTROL Conta]**.
 
@@ -150,11 +136,11 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
    A cada caminho criado na jornada, um novo cartão de caminho é exibido nas propriedades.
 
-1. Navegue até um dos caminhos na jornada e adicione os nós de ação ou evento a esse caminho usando o ícone de adição.
+1. Navegue até um dos caminhos na jornada e adicione os nós [ação](./action-nodes.md) ou [evento](./listen-for-event-nodes.md) a esse caminho usando o ícone de adição.
 
-1. Selecione o nó do caminho dividido para abrir as propriedades à direita.
+1. Selecione o nó [caminho dividido](./split-merge-paths-nodes.md) para abrir as propriedades à direita.
 
-   Observe que os caminhos que têm nós não podem ser excluídos.
+   Os caminhos que contêm nós não podem ser excluídos.
 
 1. Para excluir esses caminhos, primeiro você deve excluir todos os nós nesse caminho.
 
@@ -181,3 +167,7 @@ Ao publicar uma jornada, ela pode começar imediatamente ou em uma data futura p
 1. Clique em **[!UICONTROL Salvar]**.
 
    Quando estiver pronto para publicar sua jornada, você poderá rever essas configurações quando clicar em _[!UICONTROL Publish]_.
+
+### Publish e jornada de conta
+
+

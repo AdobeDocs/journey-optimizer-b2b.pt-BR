@@ -1,18 +1,18 @@
 ---
 title: Fragmentos
-description: Saiba como criar e usar fragmentos de conteúdo visual como componentes reutilizáveis para emails e modelos de email no Adobe Journey Optimizer B2B Edition.
+description: Saiba como criar e usar fragmentos de conteúdo visual como componentes reutilizáveis para emails e modelos de email no Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2679'
 ht-degree: 3%
 
 ---
 
 # Fragmentos
 
-Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails e modelos de email no Adobe Journey Optimizer B2B Edition. Geralmente, é um bloco de conteúdo (texto, imagem ou ambos) que pode ser pré-criado e inserido rapidamente em um email ou modelo de email. Com essa funcionalidade, você pode pré-criar vários blocos de conteúdo personalizados para serem usados pelos membros da equipe de marketing para montar conteúdo de email a fim de oferecer um processo de design aprimorado. Casos de uso comuns incluem blocos de conteúdo de cabeçalho/rodapé para email, banners para convites de eventos e saudações sazonais.
+Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails e modelos de email no Adobe Journey Optimizer B2B edition. Geralmente, é um bloco de conteúdo (texto, imagem ou ambos) que pode ser pré-criado e inserido rapidamente em um email ou modelo de email. Com essa funcionalidade, você pode pré-criar vários blocos de conteúdo personalizados para serem usados pelos membros da equipe de marketing para montar conteúdo de email a fim de oferecer um processo de design aprimorado. Casos de uso comuns incluem blocos de conteúdo de cabeçalho/rodapé para email, banners para convites de eventos e saudações sazonais.
 
 Para aproveitar ao máximo os fragmentos em seus workflows:
 
@@ -21,11 +21,11 @@ Para aproveitar ao máximo os fragmentos em seus workflows:
 
 ## Fragmentos visuais
 
-Fragmentos visuais são blocos visuais predefinidos criados usando o editor de conteúdo visual, que podem ser reutilizados em vários emails ou modelos de email. O escopo atual do Journey Optimizer B2B Edition e esta documentação são somente os fragmentos visuais. Fragmentos baseados em expressão ainda não são compatíveis com o Journey Optimizer B2B Edition.
+Fragmentos visuais são blocos visuais predefinidos criados usando o editor de conteúdo visual, que podem ser reutilizados em vários emails ou modelos de email. O escopo atual do Journey Optimizer B2B edition e desta documentação é apenas o de fragmentos visuais. Fragmentos baseados em expressão ainda não são compatíveis com o Journey Optimizer B2B edition.
 
 ## Acessar e gerenciar fragmentos
 
-Para acessar fragmentos visuais no Adobe Journey Optimizer B2B Edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Fragmentos]**. Essa ação abre uma página de listagem com todos os fragmentos criados na instância listada em uma tabela.
+Para acessar fragmentos visuais no Adobe Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Fragmentos]**. Essa ação abre uma página de listagem com todos os fragmentos criados na instância listada em uma tabela.
 
 ![Acessar a biblioteca de fragmentos](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ O status do fragmento determina sua disponibilidade para uso em um email ou mode
 
 >[!IMPORTANT]
 >
->O status do fragmento foi introduzido na versão de agosto do Journey Optimizer B2B Edition. Todos os fragmentos criados antes desta versão têm o status _Rascunho_, mesmo se forem usados em um email ou modelo. Se você fizer qualquer alteração nesses fragmentos, deverá publicar o fragmento para propagar as alterações.
+>O status do fragmento foi introduzido na versão de agosto do Journey Optimizer B2B edition. Todos os fragmentos criados antes desta versão têm o status _Rascunho_, mesmo se forem usados em um email ou modelo. Se você fizer qualquer alteração nesses fragmentos, deverá publicar o fragmento para propagar as alterações.
 
 ### Filtrar a lista de fragmentos
 
@@ -63,7 +63,7 @@ Na caixa de diálogo, selecione as colunas a serem exibidas e clique em **[!UICO
 
 ## Criar fragmentos
 
-Você pode criar novos fragmentos visuais no Journey Optimizer B2B Edition clicando em **[!UICONTROL Criar fragmento]** na parte superior direita.
+Você pode criar novos fragmentos visuais no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar fragmento]** na parte superior direita.
 
 1. Na caixa de diálogo _[!UICONTROL Criar fragmento]_, insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** úteis (opcional).
 
@@ -141,13 +141,13 @@ Saia da exibição a qualquer momento clicando na seta _Voltar_ na parte superio
 
 ## Exibir fragmento usado por referências
 
-Na página de detalhes do fragmento, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o fragmento é usado atualmente no Journey Optimizer B2B Edition, em emails, modelos de email e fragmentos.
+Na página de detalhes do fragmento, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o fragmento é usado atualmente no Journey Optimizer B2B edition, em emails, modelos de email e fragmentos.
 
 >[!IMPORTANT]
 >
 >Qualquer fragmento que esteja sendo usado atualmente por qualquer email ou modelo de email não pode ser excluído.
 
-As referências são exibidas de acordo com a categoria: _Email_ ou _Modelo de email_. Os emails no Journey Optimizer B2B Edition são incorporados e criados nas jornadas de conta, de modo que a jornada principal do email que usa o fragmento é exibida nas referências.
+As referências são exibidas de acordo com a categoria: _Email_ ou _Modelo de email_. Os emails no Journey Optimizer B2B edition são incorporados e criados nas jornadas da conta, de modo que a jornada principal do email que usa o fragmento é exibida nas referências.
 
 ![Usado pelas referências para o fragmento](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -216,7 +216,7 @@ As edições em um fragmento dependem do status atual:
 
 1. Para atualizar o conteúdo, clique em **[!UICONTROL Criar versão de rascunho]** na parte superior direita.
 
-   Clique em **[!UICONTROL OK]** na caixa de diálogo para abrir a versão de rascunho no designer visual. Você pode alterar a [origem da imagem](./assets-overview.md#choose-an-asset-source), se necessário.
+   Clique em **[!UICONTROL OK]** na caixa de diálogo para abrir a versão de rascunho no designer visual.
 
    ![Criar caixa de diálogo de versão de rascunho](./assets/fragments-create-draft-version.png){width="300"}
 
