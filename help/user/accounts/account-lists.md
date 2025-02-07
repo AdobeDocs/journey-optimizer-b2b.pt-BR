@@ -1,7 +1,10 @@
 ---
 title: Listas de contas
 description: Saiba mais sobre listas de contas e como os profissionais de marketing podem usá-las para direcionar contas por meio de jornadas de conta.
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -232,4 +235,3 @@ Por exemplo, você pode ter um caminho de jornada para enviar um email e uma con
 1. Para **[!UICONTROL Selecionar lista de contas estáticas em tempo real]**, escolha a lista de contas para a qual deseja remover as contas.
 
    ![Selecione Adicionar à lista de contas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
