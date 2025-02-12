@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer edição B2B
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer edição B2B e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compra usando a IA gerativa integrada e a automação líder do setor.
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 38%
+source-wordcount: '221'
+ht-degree: 37%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 38%
    + [Usar o assistente de IA](./start/ai-assistant.md)
 + Jornadas da conta {#account-journeys}
    + [Visão geral](./journeys/journey-overview.md)
+   + [Detalhes da jornada](./journeys/journey-details.md)
    + [Jornada nó](./journeys/journey-nodes.md)
    + Jornada nós {#journey-nodes}
       + [Público-alvo de conta](./journeys/account-audience-nodes.md)
@@ -45,17 +46,18 @@ ht-degree: 38%
       + [Detalhes do grupo de compras](./buying-groups/buying-group-details.md)
       + [Criar grupos de compra](./buying-groups/buying-groups-create.md)
       + [Exportar lista de contas](./audiences/account-list-export.md)
-      + [Públicos-alvo correspondentes da conta do linkedIn](./data/linkedin-account-matched-audiences.md)
+      + [Públicos correspondentes da conta do LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtros de grupo de compras no Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [Listas de contas](./accounts/account-lists.md)
+   + [Detalhes da conta](./accounts/account-details.md)
    + [Campos XDM](./data/field-mapping.md)
 + Gestão de conteúdo {#content-management}
    + Ativos {#assets}
       + [Visão geral](./content/assets-overview.md)
-      + Ativos Marketo Engage {#marketo-engage-dam}
-         + [Trabalhar com ativos do Marketo Engage](./content/marketo-engage-design-studio.md)
+      + Ativos do Marketo Engage {#marketo-engage-dam}
+         + [Trabalhar com ativos da Marketo Engage](./content/marketo-engage-design-studio.md)
          + [Editar imagens com o Adobe Express](./content/image-edit-adobe-express.md)
-      + [ativos de imagem do Experience Manager](./content/aem-assets.md)
+      + [Ativos de imagem do Experience Manager](./content/aem-assets.md)
    + Modelos {#templates}
       + [Governança de conteúdo](./content/template-content-governance.md)
       + Modelos de email {#email-templates}
@@ -70,10 +72,9 @@ ht-degree: 38%
    + [Conteúdo condicional](./content/conditional-content.md)
 + Painéis de insights {#dashboards}
    + [Painel inteligente](./dashboards/intelligent-dashboard.md)
-   + [Detalhes da conta](./accounts/account-details.md)
-   + [Visão Geral dos Grupos de Compras](./dashboards/buying-groups-dashboard.md)
    + [Visão geral do engajamento](./dashboards/engagement-dashboard.md)
-   + [Visão geral da jornada](./dashboards/journeys-dashboard.md)
+   + [Visão Geral dos Grupos de Compras](./dashboards/buying-groups-dashboard.md)
+   + [Visão geral das Jornadas da conta](./dashboards/journeys-dashboard.md)
 + Administração {#admin}
    + [Gerenciamento de usuários](./admin/user-management.md)
    + [Dados de intenção](./admin/intent-data.md)

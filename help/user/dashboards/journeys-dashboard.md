@@ -1,75 +1,57 @@
 ---
-title: Painel de visão geral do Jornada
+title: Painel de Visão Geral das Jornadas da Conta
 description: Saiba mais sobre as informações fornecidas pelo painel Visão geral do Jornada e como ele pode ajudar você a monitorar e gerenciar sua estratégia de jornada de conta.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8df1e44d5d978249ffc6e95b3a383644358d1d66
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 2%
 
 ---
 
-# Painel de visão geral da Jornada
+# Painel de visão geral das Jornadas da conta
 
-Esse painel fornece uma visão geral abrangente de uma jornada de conta selecionada, detalhando o progresso da conta usando gráficos de rosca e de linha que categorizam e quantificam conclusões, atividades em andamento e abortos ao longo do tempo. Ele ajuda os profissionais de marketing a avaliar a eficiência dos canais de email e SMS por meio das principais métricas de entrega e engajamento.
+Esse painel fornece uma visão geral abrangente das jornadas de conta ativas, detalhando o progresso da conta usando gráficos de círculo e de barra que categorizam e quantificam conclusões e atividades de envolvimento. Ele ajuda os profissionais de marketing a avaliar a eficiência dos canais de email e SMS por meio das principais métricas de entrega e engajamento.
 
 Essa visão geral está disponível para jornadas de conta publicadas e leva aproximadamente quatro horas para que os dados comecem a preencher os gráficos e as tabelas.
 
 ![visão geral da Jornada](./assets/journey-overview.png){width="700" zoomable="yes"}
 
-## Status da jornada
+## Distribuição da taxa de conclusão da jornada
 
-Este gráfico de rosca oferece um detalhamento dos status de jornada, categorizando as contas em `Completed`, `In Progress` e `Aborted`. Cada segmento é claramente rotulado com as porcentagens e os números de conta correspondentes na borda externa do gráfico.
+Este gráfico ilustra a distribuição de jornadas com base em sua taxa de conclusão e é categorizado em quatro faixas de pontuação distintas. O número central representa o número total de jornadas e fornece um rápido resumo do progresso geral. As cores segmentadas indicam a proporção de jornadas em cada intervalo de pontuação, o que permite avaliar as tendências de conclusão rapidamente.
 
-## Conclusão da jornada ao longo do tempo
+Para exibir informações mais detalhadas, clique no ícone de menu **...** na parte superior direita.
 
-Este gráfico de linha rastreia o número de contas que concluíram sua jornada ao longo do tempo. O eixo horizontal mapeia a linha do tempo enquanto o eixo vertical quantifica as contas, fornecendo uma visualização simples das tendências de conclusão.
+![Distribuição da taxa de conclusão da Jornada](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## Jornada widgets de desempenho
+## Jornadas por tipo de engajamento
 
-Esta seção apresenta duas métricas vitais:
+Este gráfico de barras exibe a distribuição de jornadas com base no tipo de envolvimento e ajuda a identificar quais envolvimentos foram mais usados nas jornadas. Cada barra representa um tipo de envolvimento específico, com seu comprimento indicando o número de jornadas com atividades desse tipo. Essa visualização fornece uma compreensão clara e imediata das tendências de engajamento nas jornadas da conta.
 
-* **[!UICONTROL Taxa de conclusão da Jornada]** - A porcentagem de contas que concluíram com êxito sua jornada.
-* **[!UICONTROL Duração da Jornada]** - O tempo médio necessário para que as contas concluam a jornada.
+Para exibir informações mais detalhadas, clique no ícone de menu **...** na parte superior direita.
 
-## Tabelas de desempenho de email e SMS
+![Distribuição da taxa de conclusão da Jornada](./assets/journeys-by-engagement-type.png){width="500"}
 
-As tabelas de desempenho fornecem uma visão detalhada da eficácia dos canais de email e SMS. Cada tabela mostra métricas, como taxas de delivery e taxas de click-through, para avaliar o impacto de cada ponto de contato de comunicação.
+## Interagir com os dados
 
-Colunas da tabela de **[!UICONTROL Desempenho do email]**:
+Para se envolver com os dados, use o menu **...** na parte superior direita de cada gráfico.
 
-* _[!UICONTROL Nome do ativo]_ - nome do ativo
-* _[!UICONTROL Enviado]_ - número de emails enviados
-* _[!UICONTROL Taxa de entrega]_ - número de emails entregues dividido pelo número enviado
-* _[!UICONTROL Taxa de Abertura]_ - número de emails abertos dividido pelo número entregue
-* _[!UICONTROL Taxa de click-through]_ - número de emails clicados dividido pelo número entregue
+### [!UICONTROL Drill-through]
 
-**[!UICONTROL Colunas da tabela de desempenho de SMS]**:
+Para o gráfico circular, escolha **[!UICONTROL Drill-through]** para uma análise detalhada dos dados.
 
-* _[!UICONTROL Nome do ativo]_ - nome do ativo
-* _[!UICONTROL Enviado]_ - número de mensagens SMS enviadas
-* _[!UICONTROL Taxa de entrega]_ - número de mensagens SMS entregues dividido pelo número enviado
-* _[!UICONTROL Taxa de click-through]_ - número de mensagens SMS clicadas dividido pelo número entregue
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+![Faça drill-through para acessar os dados do gráfico](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-## Melhor interação
+Você pode clicar no menu _Mais_ (**...**) no canto superior direito e escolher **[!UICONTROL Exibir mais]** para [exibir dados estendidos](#view-more).
 
-Interaja mais com os dados usando o ícone de ação (**...**) na parte superior direita de cada gráfico ou tabela.
+### [!UICONTROL Exibir mais]
 
-### Drill-Through
+Escolha **[!UICONTROL Exibir mais]** para exibir dados e insights estendidos.
 
-Para o gráfico _[!UICONTROL status da Jornada]_, escolha **[!UICONTROL Drill-through]** para obter uma análise detalhada dos status de contas individuais.
+![Exibir dados estendidos](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
-![O drill-through para os dados de gráfico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
-<!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+O pop-up exibido inclui um gráfico e uma tabela que mostram o detalhamento dos dados da jornada.
 
-### Exibir mais
-
-Escolha **[!UICONTROL Exibir mais]** para acessar dados e insights estendidos. O pop-up exibido fornece um detalhamento dos dados.
-
-Para baixar os dados, clique em **[!UICONTROL Baixar CSV]** na parte superior direita.
-
-![Exibir dados estendidos](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
+Para baixar os dados, clique em **[!UICONTROL Baixar CSV]** na parte superior direita da tabela de dados. Para retornar ao painel _Visão geral_, clique em **[!UICONTROL Fechar]**.

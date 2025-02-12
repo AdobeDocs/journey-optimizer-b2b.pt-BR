@@ -3,87 +3,95 @@ title: Painel de Visão Geral de Grupos de Compras
 description: Saiba mais sobre o painel Visão geral dos grupos de compra e como ele permite a transferência de vendas da equipe de marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
 # Painel de Visão Geral de Grupos de Compras
 
-O painel Visão geral do Grupo de compras foi projetado para o processo de Transferência de Vendas B2B. Ela permite que a equipe de marketing compartilhe grupos de compras _prontos_ e seus membros, juntamente com dados essenciais, com a equipe de vendas para execução. Esse processo garante uma transição simplificada do marketing para as vendas.
+O painel Visão geral para grupos de compras foi projetado para o processo de entrega de vendas B2B. Ela permite que a equipe de marketing compartilhe grupos de compras _prontos_ e seus membros, juntamente com dados essenciais, com a equipe de vendas para execução. Esse processo garante uma transição simplificada do marketing para as vendas.
 
-A Transferência de vendas inclui:
+A entrega de vendas inclui:
 
-* **Transferência de Dados**: o marketing identifica os dados de destino _prontos_ e os torna acessíveis para o setor de Vendas no formato CSV. 
-* **Aceitação de Vendas**: as vendas revisam manualmente e incorporam destinos _prontos_ em seus pipelines.
+* **Transferência de dados**: o marketing identifica os dados de destino _prontos_ e os torna acessíveis para o setor de Vendas no formato CSV. 
+* **Aceitação de vendas**: as vendas revisam manualmente e incorporam destinos _prontos_ em seus pipelines.
 
-## Status do grupo de compras
-
-Obtenha insights sobre a progressão dos grupos de compra com a visualização Status do grupo de compra. Esta visualização mostra a distribuição dos seus grupos de compra categorizados por sua atualização de status mais recente em um intervalo de tempo especificado.
+Para acessar este painel, expanda **[!UICONTROL Contas]** na navegação à esquerda e selecione **[!UICONTROL Grupos de compras]**. Selecione a guia **[!UICONTROL Visão geral]** se ela não for exibida por padrão.
 
 ![Visão geral dos Grupos de Compras](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+<!--
+## Buying Group Status
 
-**[!UICONTROL Status]** (eixo y): controle a jornada de grupos de compra em vários estágios.
-**[!UICONTROL Número de Grupos de Compras]** (eixo x): quantifique o número de grupos de compras em cada status, fornecendo uma métrica clara da integridade e da atividade do funil.
-<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
+Gain insights into your buying groups' progression with the Buying Group Status view. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
 
-### Filtragem de dados
+![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 
-* **Filtro de dados** - Use o _[!UICONTROL Filtro de datas]_, que reflete a data da última alteração de status do Grupo de Compras. A data de início é ajustável. A data final é padronizada para o dia atual.
+**[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
+**[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
-  ![Filtrando os dados de status do grupo de compras por intervalo de datas](./assets//buying-group-status-filter-date.png){width="400"}
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-* **Filtro de atributo** - Clique no ícone _Filtro_ na parte superior esquerda para filtrar a exibição de dados usando qualquer um destes atributos:
+## Pontuação de conclusão do grupo de compra
 
-   * Interesse da solução
-   * Status
-   * Status do Grupo de Compras
-   * Região da conta
-   * Setor da conta
-  <!-- * Account's Industry -->
+Esta visualização ilustra a distribuição de grupos de compra com base nas pontuações de conclusão e é categorizada em quatro faixas de pontuação distintas. O número central representa o número total de grupos de compra e fornece um instantâneo rápido do progresso geral. As cores segmentadas indicam a proporção de grupos de compras em cada intervalo de pontuação, o que permite avaliar as tendências de conclusão rapidamente.
 
-  ![Filtrando os dados de status do grupo de compras por atributo](./assets/buying-group-status-drill-through-filters.png){width="500"}
+Para exibir informações mais detalhadas, clique no ícone de menu **...** na parte superior direita.
+
+![Visualização da pontuação de conclusão do grupo de compra](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## Distribuição da pontuação de engajamento do grupo de compra
+
+Esta visualização ilustra a distribuição de grupos de compra com base em suas pontuações de engajamento e é categorizada em quatro faixas de pontuação distintas. O número central representa o número total de grupos de compra e fornece um instantâneo rápido do progresso geral. As cores segmentadas indicam a proporção de grupos de compras em cada intervalo de pontuação, o que permite avaliar as tendências de conclusão rapidamente.
+
+Para exibir informações mais detalhadas, clique no ícone de menu **...** na parte superior direita.
+
+![Visualização da pontuação do engajamento do grupo de compra](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## Grupos de compra por interesse na solução
+
+Esta visualização ilustra a distribuição de grupos de compras por interesse de solução e ajuda a identificar quais soluções geram mais interesse. Cada barra representa uma solução específica, com seu comprimento indicando o número de grupos de compra associados a esse interesse. Este gráfico de barras fornece uma compreensão clara e imediata das tendências de demanda da solução.
+
+Para exibir informações mais detalhadas, clique no ícone de menu **...** na parte superior direita. Escolha **Fazer Drill-through** ou **Exibir Mais**.
+
+![Visualização da pontuação do engajamento do grupo de compra](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+
+## Filtrar os dados
+
+Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar os dados exibidos usando qualquer um destes atributos:
+
+* Estágio atual
+* Setor
+* Região
+
+* Interesse na solução
+
+![Filtrar os dados exibidos por atributos](./assets/buying-group-overview-filters.png){width="500"}
+
+Selecione quantos valores para cada atributo que deseja usar para filtrar os dados e clique em **[!UICONTROL Aplicar]**.
 
 ## Interagir com os dados
 
-Para se envolver com os dados, use o menu de ações no canto superior direito.
-
-![Clique no ícone para acessar o menu de ações](./assets/buying-group-more-menu.png){width="300"}
+Para se envolver com os dados, use o menu _Mais_ (**...**) na parte superior direita de cada gráfico.
 
 ### [!UICONTROL Drill-through]
 
-Escolha **[!UICONTROL Drill-through]** para obter uma análise detalhada dos status de grupos individuais.
+Escolha **[!UICONTROL Drill-through]** para obter uma análise detalhada de pontuações ou distribuições de grupos individuais.
 
-![O drill-through para os dados de gráfico](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
+![Faça drill-through para acessar os dados do gráfico](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-Os filtros globais aplicados ao painel são transferidos.
+Os filtros globais aplicados ao painel são transferidos. Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para [alterar os filtros de atributo](#filter-the-data) para a exibição de drill-through.
 
-Clique no ícone do menu de ações na parte superior direita e escolha **[!UICONTROL Exibir mais]** para [exibir dados e insights estendidos](#view-more).
+Você pode clicar no menu _Mais_ (**...**) no canto superior direito e escolher **[!UICONTROL Exibir mais]** para [exibir dados estendidos](#view-more).
 
 ### [!UICONTROL Exibir mais]
 
-Escolha **[!UICONTROL Exibir mais]** para dados e insights estendidos. O pop-up exibido inclui um gráfico e uma tabela que mostram o detalhamento dos status do grupo de compras:
+Escolha **[!UICONTROL Exibir mais]** para exibir dados e insights estendidos.
 
-* [!UICONTROL ID da conta ]
-* [!UICONTROL Nome da Conta]
-* [!UICONTROL Região da Conta]
-* [!UICONTROL Setor de Contas]
-* [!UICONTROL Nome do Grupo de Compras]
-* [!UICONTROL Interesse na solução]
-* [!UICONTROL Status]
-* [!UICONTROL Pontuação de engajamento]
-* [!UICONTROL Pontuação de integridade]
-* [!UICONTROL Função de membro]
-* [!UICONTROL Data de Inscrição/Criação do Membro]
-* [!UICONTROL ID da pessoa]
-* [!UICONTROL Nome]
-* [!UICONTROL Email]
-* [!UICONTROL Title]
-* [!UICONTROL Número de Atividades de Envolvimento de Entrada]
-* [!UICONTROL Última data de compromisso]
+![Exibir dados estendidos](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
 
-![Exibir dados estendidos](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
+O pop-up exibido inclui um gráfico e uma tabela que mostram o detalhamento da distribuição do grupo de compras.
 
-Para baixar os dados, clique em **[!UICONTROL Baixar CSV]** na parte superior direita.
+Para baixar os dados, clique em **[!UICONTROL Baixar CSV]** na parte superior direita da tabela de dados. Para retornar ao painel Visão Geral, clique em **[!UICONTROL Fechar]**.
