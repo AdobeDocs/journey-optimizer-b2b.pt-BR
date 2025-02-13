@@ -2,9 +2,10 @@
 title: Dividir e mesclar caminhos
 description: Saiba mais sobre os caminhos divididos e os tipos de nó dos caminhos de mesclagem que você pode usar para orquestrar as jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1519'
 ht-degree: 4%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 4%
 # Dividir e mesclar caminhos
 
 Use os nós de caminho dividido e mesclado na jornada da conta para orquestrar as jornadas da conta. Você pode segmentar o público de acordo com as condições definidas e combinar os segmentos para continuar.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Dividir caminhos
 
@@ -52,9 +55,9 @@ _Como funciona um caminho dividido por nó de pessoas?_
 | [Pessoas](#add-a-split-path-by-people-node) > [!UICONTROL Somente atributos de pessoas] | [!UICONTROL Atributos da pessoa] | Atributos do perfil de pessoa, incluindo: <li>Cidade</li><li>País</li><li>Data de nascimento</li><li>Endereço de email</li><li>Email inválido</li><li>Email suspenso</li><li>Nome</li><li>Região inferida</li><li>Nome do cargo</li><li>Sobrenome</li><li>Número do celular</li><li>Número de telefone</li><li>Código postal</li><li>Estado</li><li>Inscrição cancelada</li><li>Motivo do cancelamento de inscrição</li> |
 | | [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email associadas à jornada: <li>[!UICONTROL Link clicado no email]</li><li>E-mail aberto</li><li>O email foi entregue</li><li>O email foi enviado</li> Essas condições são avaliadas usando uma mensagem de email selecionada anteriormente na jornada. |
 | | [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor</li><li>Valor anterior</li><li>Motivo</li><li>Origem</li><li>Data da atividade</li><li>Número número de vezes</li> |
-| | [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância de Marketo Engage associada. As restrições incluem: <li>Data importante</li><li>Email</li><li>Web</li> |
+| | [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância associada do Marketo Engage. As restrições incluem: <li>Data importante</li><li>Email</li><li>Web</li> |
 | | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de envolvimento</li><li>Função</li> |
-| | [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | A pessoa é ou não membro de uma ou mais listas Marketo Engage. |
+| | [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | A pessoa é ou não membro de uma ou mais listas do Marketo Engage. |
 | [Pessoas](#add-a-split-path-by-people-node) > [!UICONTROL Somente atributos Account-person] | Função nos atributos da conta | Uma função na conta é atribuída ou não à pessoa. Restrições opcionais: <li>Insira um nome de função</li> |
 
 ### Adicionar um caminho dividido pelo nó da conta
@@ -144,13 +147,13 @@ _Como funciona um caminho dividido por nó de pessoas?_
 
 1. Habilite a opção **[!UICONTROL Outras pessoas]** para adicionar um caminho padrão para pessoas que não correspondam aos caminhos definidos. Se não, a jornada acaba para essas pessoas.
 
->[!BEGINSHADEBOX &quot;associação à lista de Marketo Engage&quot;]
+>[!BEGINSHADEBOX &quot;associação à lista do Marketo Engage&quot;]
 
-No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista de Marketo Engage como uma condição para o caminho dividido por pessoas para ajudar a eliminar a duplicação em atividades de jornada.
+No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista do Marketo Engage como uma condição para o caminho dividido por pessoas para ajudar a eliminar a duplicação em atividades de jornada.
 
-Para fazer isso, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro e conclua a definição do filtro para avaliar a associação em uma ou mais listas de Marketo Engage.
+Para fazer isso, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro e conclua a definição do filtro para avaliar a associação em uma ou mais listas do Marketo Engage.
 
-![Dividir caminho pela condição de pessoas para associação à lista de Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Dividir caminho por condição de pessoas para associação à lista de Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -185,3 +188,7 @@ Adicione um nó _Merge paths_ para combinar diferentes caminhos divididos por co
    Nesse ponto, os caminhos são mesclados para que as contas dos caminhos selecionados sejam combinadas em um único caminho que possa continuar avançando pela jornada.
 
 1. Se necessário, você pode desfazer a mesclagem de caminhos navegando de volta para as propriedades do nó dos caminhos de mesclagem e desmarcando a caixa de seleção de todos os caminhos que deseja remover.
+
+## Vídeo de visão geral
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

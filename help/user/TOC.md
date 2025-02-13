@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer edição B2B
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer edição B2B e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compra usando a IA gerativa integrada e a automação líder do setor.
-source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 37%
+source-wordcount: '226'
+ht-degree: 36%
 
 ---
 
@@ -21,14 +21,15 @@ ht-degree: 37%
    + [Usar o assistente de IA](./start/ai-assistant.md)
 + Jornadas da conta {#account-journeys}
    + [Visão geral](./journeys/journey-overview.md)
-   + [Detalhes da jornada](./journeys/journey-details.md)
-   + [Jornada nó](./journeys/journey-nodes.md)
+   + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)
+   + [Jornada nós](./journeys/journey-nodes.md)
    + Jornada nós {#journey-nodes}
       + [Público-alvo de conta](./journeys/account-audience-nodes.md)
       + [Realizar uma ação](./journeys/action-nodes.md)
       + [Ouvir um evento](./journeys/listen-for-event-nodes.md)
       + [Dividir e mesclar caminhos](./journeys/split-merge-paths-nodes.md)
       + [Aguardar](./journeys/wait-nodes.md)
+   + [Detalhes da jornada](./journeys/journey-details.md)
 + Jornada conteúdo {#journey-content}
    + Canal de email {#email-channel}
       + [Criação de email](./content/email-authoring.md)
