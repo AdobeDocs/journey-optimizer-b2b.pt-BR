@@ -1,9 +1,9 @@
 ---
 title: Bl. conteúdo
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 ## Configuração de dados de intenção {#intent-data-note}
 
 >[!NOTE]
->Os dados de intenção também podem ser incluídos na página quando configurada para sua instância do Journey Optimizer B2B edition. Para obter mais informações sobre o modelo de detecção de intenção e como enviar palavras-chave, consulte [Dados de intenção](../user/admin/intent-data.md).
 >
+>Os dados de intenção são incluídos na página quando configurada para sua instância do Journey Optimizer B2B edition. Para obter mais informações sobre o modelo de Detecção de Intenção e como enviar palavras-chave, produtos e categorias, consulte [Dados de Intenção](../user/admin/intent-data.md).
 
-## Nota de licenciamento de ativos AEM {#aem-assets-licensing-note}
+## Nota de licenciamento de ativos da AEM {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->As licenças da AEM Assets as a Cloud Service e da Dynamic Media são pré-requisitos para a integração. Você deve garantir que a [API do Dynamic Media withOpen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esteja habilitada.<br/>
+>As licenças do AEM Assets as a Cloud Service e do Dynamic Media são pré-requisitos para a integração. Você deve garantir que o [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esteja habilitado.<br/>
 >Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition ao projetar conteúdo visual.
 
 ## Criação de conteúdo - Componentes - etapa de estruturas {#structures-step}
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    Para obter mais informações sobre como usar os ativos do seu tipo de origem, consulte [Adicionar ativos ao seu conteúdo](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
-   ![Arraste um ativo de Marketo Engage para a tela e ajuste as configurações](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
+   ![Arraste um ativo do Marketo Engage para a tela e ajuste as configurações](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
 ## Criação de conteúdo - etapa de personalização {#personalization-step}
 
