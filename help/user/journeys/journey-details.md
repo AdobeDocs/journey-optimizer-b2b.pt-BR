@@ -2,9 +2,10 @@
 title: Detalhes do Jornada
 description: Saiba mais sobre as informações fornecidas pela página de detalhes da jornada e como ela pode ajudar você a monitorar e gerenciar a jornada de conta publicada.
 feature: Dashboards, Account Journeys
-source-git-commit: cbacc678d01850e3eb3901c44994ddf849a63d7c
+exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -25,6 +26,13 @@ Esta seção apresenta duas métricas de conclusão:
 
 * **[!UICONTROL Status da Jornada]** - Este gráfico de círculo oferece um detalhamento dos status de jornada categorizando as contas em _Concluídas_, _Em Andamento_ e _Anuladas_. Cada segmento é rotulado com as porcentagens e os números de conta correspondentes na borda externa do gráfico.
 * **[!UICONTROL Conclusão de Jornada ao longo do tempo]** - Este gráfico de linha controla o número de contas que concluíram sua jornada ao longo do tempo. O eixo horizontal mapeia a linha do tempo enquanto o eixo vertical quantifica as contas, fornecendo uma visualização simples das tendências de conclusão.
+
+## Jornada envolvimento
+
+Esta seção apresenta duas métricas de conclusão:
+
+* **[!UICONTROL Envolvimento por contas]** - Este gráfico de círculo segmenta as contas em uma jornada em _Envolvido_ e _Não envolvido_ categorias. A figura central exibe a contagem total. Essa visualização fornece uma compreensão rápida do envolvimento geral com a conta.
+* **Participação de pessoas** - Esta visualização exibe o número total de pessoas qualificadas como _envolvidas_ em uma jornada.
 
 ## Desempenho da jornada
 
