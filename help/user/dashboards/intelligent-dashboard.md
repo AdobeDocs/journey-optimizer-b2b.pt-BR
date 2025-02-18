@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ O Painel inteligente também fornece acesso às páginas de detalhes do grupo de
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Estágios do grupo de compra"
->abstract="Este gráfico fornece uma visão geral da progressão do grupo de compras em diferentes estágios com base nas regras de transição configuradas. A primeira barra indica o número de grupos de compras em um estágio específico na primeira data do período selecionado em comparação à última data do período selecionado."
+>abstract="Este gráfico fornece uma visão geral da progressão do grupo de compra em diferentes estágios com base nas regras de transição configuradas. A primeira barra indica o número de grupos de compras em um estágio específico na primeira data do período selecionado em comparação à última data do período selecionado."
 
 O gráfico _[!UICONTROL Estágios de Grupo de Compra]_ fornece uma visão geral da progressão de grupo de compra em diferentes estágios ([com base nas regras de transição configuradas por um administrador](../buying-groups/buying-group-stages.md)).
 
@@ -68,7 +68,7 @@ Clique no ícone _Filtro_ ( ![Editar ícone](../assets/do-not-localize/icon-filt
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## Destaques do grupo de compras {#buying-group-highlights}
+## Destaques do grupo de compra {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -128,7 +128,7 @@ Use o filtro de datas na parte superior direita para alterar o intervalo de data
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
-## Contas com aumento {#account-surge}
+## Aumento de contas {#account-surge}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_surge"
@@ -172,7 +172,7 @@ Use o filtro de datas na parte superior direita para alterar o intervalo de data
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
->title="Contas com aumento"
+>title="Aumento de contas"
 >abstract="Contas com aumento significativo na dinâmica de engajamento no intervalo de tempo selecionado "
 
 >[!CONTEXTUALHELP]
@@ -259,7 +259,7 @@ Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filt
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="Sobreposição de contato"
->abstract="Lista de contatos que fazem parte de mais de um grupo de compras como resultado de estarem associados a vários interesses de solução."
+>abstract="Lista de contatos que fazem parte de mais de um grupo de compra por estarem associados a vários interesses em soluções."
 
 A seção _[!UICONTROL Sobreposição de contatos]_ exibe uma lista de contatos que fazem parte de mais de um grupo de compras como resultado de estarem associados a vários interesses de solução.
 

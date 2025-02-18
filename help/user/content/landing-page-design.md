@@ -5,10 +5,11 @@ feature: Content
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -20,12 +21,12 @@ Depois de [criar uma página de aterrissagem](./landing-pages.md#create-a-landin
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
->title="Adicionar componentes de estrutura à página de aterrissagem"
->abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente **Estrutura** na tela para começar a projetar o conteúdo para a sua página."
+>title="Adicionar componentes de estrutura à página de destino"
+>abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente de **estrutura** na tela para começar a criar o conteúdo da sua página."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
->title="Sobre os componentes de conteúdo para páginas de aterrissagem"
+>title="Sobre os componentes de conteúdo para páginas de destino"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
 {{$include /help/_includes/content-design-components.md}}
