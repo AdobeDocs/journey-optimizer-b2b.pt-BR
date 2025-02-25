@@ -3,7 +3,7 @@ title: Interesses da solução
 description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos Grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -83,7 +83,7 @@ A qualquer momento, você pode alterar o nome e a descrição de um interesse de
 
 1. Se necessário, altere a configuração **[!UICONTROL Atualizar grupos de compra existentes]**.
 
-   Quando essa opção está habilitada, todos os grupos de compras existentes combinados com os interesses da solução são atualizados por meio do ciclo de sincronização de 24 horas.
+   Quando essa opção estiver habilitada, todos os grupos de compras existentes emparelhados com os interesses da solução serão atualizados por meio do ciclo de sincronização de 7 dias.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
