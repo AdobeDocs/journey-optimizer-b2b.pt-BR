@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ O Painel inteligente também fornece acesso às páginas de detalhes do grupo de
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Estágios do grupo de compra"
->abstract="Este gráfico fornece uma visão geral da progressão do grupo de compra em diferentes estágios com base nas regras de transição configuradas. A primeira barra indica o número de grupos de compras em um estágio específico na primeira data do período selecionado em comparação à última data do período selecionado."
+>abstract="Este gráfico fornece uma visão geral da progressão do grupo de compra em diferentes estágios com base nas regras de transição configuradas. A primeira barra indica o número de grupos de compra em um estágio específico da primeira data do intervalo de tempo selecionado em comparação à última data deste intervalo."
 
 O gráfico _[!UICONTROL Estágios de Grupo de Compra]_ fornece uma visão geral da progressão de grupo de compra em diferentes estágios ([com base nas regras de transição configuradas por um administrador](../buying-groups/buying-group-stages.md)).
 
