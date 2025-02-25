@@ -1,18 +1,18 @@
 ---
 title: Interesses da solução
-description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos Grupos de compra.
+description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
+source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Interesses da solução
 
-Antes de criar Grupos de Compra, você deve saber o que está vendendo e quem deseja direcionar. Sua estratégia de marketing e vendas deve estar alinhada para que você possa adicionar o interesse da solução para os grupos de compra.
+Antes de criar grupos de compra, você deve saber o que está vendendo e quem deseja direcionar. Sua estratégia de marketing e vendas deve estar alinhada para que você possa adicionar o interesse da solução para os grupos de compras.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -22,17 +22,17 @@ Antes de criar Grupos de Compra, você deve saber o que está vendendo e quem de
 
 1. Na navegação à esquerda, clique em **[!UICONTROL Comprando grupos]**.
 
-1. Na página Grupos de compra, selecione a guia **[!UICONTROL Solution interest]**.
+1. Na página _[!UICONTROL Grupos de Compras]_, selecione a guia **[!UICONTROL Interesse da solução]**.
 
    ![Guia Interesse da solução](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   A guia fornece uma lista de inventário de todos os interesses existentes da solução. Ele fornece informações como _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Última atualização em]_, _[!UICONTROL Atualizado por]_, _[!UICONTROL Criado em]_ e _[!UICONTROL Criado por]_ no formato de coluna.
+   A guia fornece uma lista de inventário de todos os interesses existentes da solução. Ele fornece as seguintes informações no formato de coluna: _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Última atualização em]_, _[!UICONTROL Atualizado por]_, _[!UICONTROL Criado em]_ e _[!UICONTROL Criado por]_
 
    A lista é classificada por padrão pela _[!UICONTROL Última atualização em]_. Clique no título da coluna no cabeçalho para alternar a classificação entre decrescente e crescente.
 
 ## Exibir e excluir trabalhos de grupo de compras
 
-Na guia _[!UICONTROL Interesse na solução]_, a coluna **[!UICONTROL Trabalhos de criação de grupo de compra]** exibe a contagem de trabalhos criados para cada interesse na solução. O número é um link e, ao clicar nele, uma caixa de diálogo é aberta, exibindo a lista de trabalhos criados para o interesse da solução.
+Na guia _[!UICONTROL Interesse na solução]_, a coluna **[!UICONTROL Trabalhos de criação de grupo de compra]** exibe a contagem de trabalhos criados para cada interesse na solução. Clique no número para abrir uma caixa de diálogo que exibe a lista de trabalhos criados para o interesse da solução.
 
 ![Comprando trabalhos do grupo para interesse na solução](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -75,15 +75,17 @@ A qualquer momento, você pode alterar o nome e a descrição de um interesse de
 
    ![Menu Mais interesses da solução](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. Se necessário, atualize o nome (obrigatório e exclusivo) e a descrição (opcional).
+1. Faça as atualizações necessárias nas configurações de interesse da solução:
 
-1. Se necessário, selecione o **[!UICONTROL Modelo de estágio de grupo de compras]** para rastrear a progressão do estágio de grupo de compras.
+   * Atualize o **[!UICONTROL Nome]** e a **[!UICONTROL Descrição]**.
 
-   Para obter mais informações sobre como usar estágios de grupo de compras para rastrear a progressão da jornada em relação às vendas, consulte [Estágios de grupo de compras](./buying-group-stages.md).
+   * Selecione o **[!UICONTROL Modelo de estágio de grupo de compra]** usado para rastrear a progressão do estágio de grupo de compra.
 
-1. Se necessário, altere a configuração **[!UICONTROL Atualizar grupos de compra existentes]**.
+     Para obter mais informações sobre como usar estágios de grupo de compras para rastrear a progressão da jornada em relação às vendas, consulte [Estágios de grupo de compras](./buying-group-stages.md).
 
-   Quando essa opção estiver habilitada, todos os grupos de compras existentes emparelhados com os interesses da solução serão atualizados por meio do ciclo de sincronização de 7 dias.
+   * Altere a configuração **[!UICONTROL Atualizar grupos de compra existentes]**.
+
+     Quando essa opção estiver habilitada, todos os grupos de compras existentes emparelhados com os interesses da solução serão atualizados por meio do ciclo de sincronização de 7 dias.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -95,7 +97,7 @@ Qualquer interesse de solução que esteja atualmente em uso por qualquer trabal
 
    Essa ação abre uma caixa de diálogo de confirmação.
 
-   Se o interesse da solução estiver sendo usado no momento por uma jornada de conta ou um trabalho de grupo de compras, a ação abrirá uma caixa de diálogo informativa para alertá-lo de que não pode ser excluído. Clique em [!UICONTROL OK], que interrompe a exclusão.
+   Se o interesse da solução estiver sendo usado no momento por uma jornada de conta ou um trabalho de grupo de compras, a ação resultará em um alerta de que não pode ser excluído. Clique em **[!UICONTROL OK]**, que interrompe a exclusão.
 
 1. Clique em **[!UICONTROL Excluir]** para confirmar a exclusão, ou você pode anular o processo clicando em _[!UICONTROL Cancelar]_.
 
