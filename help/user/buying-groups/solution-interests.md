@@ -3,7 +3,7 @@ title: Interesses da solução
 description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Antes de criar grupos de compra, você deve saber o que está vendendo e quem de
 
    ![Guia Interesse da solução](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   A guia fornece uma lista de inventário de todos os interesses existentes da solução. Ele fornece as seguintes informações no formato de coluna: _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Última atualização em]_, _[!UICONTROL Atualizado por]_, _[!UICONTROL Criado em]_ e _[!UICONTROL Criado por]_
+   A guia fornece uma lista de inventário de todos os interesses existentes da solução. Ele exibe as seguintes informações no formato da coluna: _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Última atualização em]_, _[!UICONTROL Atualizado por]_, _[!UICONTROL Criado em]_ e _[!UICONTROL Criado por]_
 
    A lista é classificada por padrão pela _[!UICONTROL Última atualização em]_. Clique no título da coluna no cabeçalho para alternar a classificação entre decrescente e crescente.
 
@@ -58,7 +58,7 @@ Antes de criar um interesse de solução, você deve ter um modelo de funções 
 
 1. Habilitar a configuração **[!UICONTROL Atualizar grupos de compra existentes]** (opcional).
 
-   Quando essa opção está habilitada, todos os grupos de compras existentes combinados com os interesses da solução são atualizados por meio do ciclo de sincronização de 24 horas.
+   Quando essa opção estiver habilitada, todos os grupos de compras existentes emparelhados com os interesses da solução serão atualizados por meio do ciclo de sincronização de 7 dias.
 
 1. Clique em **[!UICONTROL Criar]** no canto superior direito.
 
