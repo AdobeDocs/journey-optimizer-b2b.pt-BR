@@ -3,10 +3,10 @@ title: Painel inteligente
 description: Saiba mais sobre o Painel inteligente, que fornece uma visualização abrangente das métricas do grupo de compras e da conta
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 16%
+source-wordcount: '1688'
+ht-degree: 15%
 
 ---
 
@@ -24,6 +24,19 @@ O Painel inteligente também fornece acesso às páginas de detalhes do grupo de
 * Detecção de intenção para pessoa, grupo de compras e conta
 
 {{intent-data-note}}
+
+Para usar as informações e os insights fornecidos pelo Painel inteligente, a instância do Journey Optimizer B2B edition deve ter os itens necessários em vigor:
+
+| Tipo | Requisito |
+| ---- | ----------- |
+| [Estágios de grupo de compras](#buying-group-stages) | Configure os estágios de grupo de compras **e** adicione aos grupos de compras criados. |
+| [Destaques do grupo de compras](#buying-group-highlights) | Configure os estágios de grupo de compras **e** adicione aos grupos de compras criados. |
+| [Surto na conta](#surging-accounts) | Uma ou mais jornadas publicadas **ou** criaram grupos de compras. |
+| [Destaques da conta](#account-highlights) | Uma ou mais jornadas publicadas **ou** criaram grupos de compras. |
+| [Cobertura do contato](#contact-coverage) | Um ou mais grupos de compra criados (estágios não necessários). |
+| [Sobreposição de contatos](#contact-overlap) | Um ou mais grupos de compra criados (estágios não necessários). |
+| [Página de detalhes da conta](../accounts/account-details.md) | Uma ou mais jornadas publicadas. |
+| [Página de detalhes do grupo de compras](../buying-groups/buying-group-details.md) | Um ou mais grupos de compra criados (estágios não necessários). |
 
 ## Estágios do grupo de compra {#buying-group-stages}
 
@@ -139,7 +152,7 @@ A seção _[!UICONTROL Contas de limpeza]_ exibe uma visualização das contas c
 
 >[!NOTE]
 >
->Os dados de sobrecarga da conta são limitados às contas que foram assimiladas pela Journey Optimizer B2B edition em um público-alvo de conta por meio de jornadas de conta ou grupos de compra.
+>Os dados de sobrecarga da conta são limitados às contas assimiladas pelo Journey Optimizer B2B edition em um público-alvo de conta por meio de jornadas de conta ou grupos de compra.
 
 ![Visualização de dados de sobreposição de conta](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -180,11 +193,11 @@ Use o filtro de datas na parte superior direita para alterar o intervalo de data
 >title="Contas em risco"
 >abstract="Contas com diminuição significativa na dinâmica de engajamento no intervalo de tempo selecionado."
 
-A seção _[!UICONTROL Destaques do grupo de compras]_ está organizada em duas linhas para exibir informações sobre as contas de interesse da sua organização.
+A seção _[!UICONTROL Destaques da conta]_ está organizada em duas linhas para exibir informações sobre as contas de interesse da sua organização.
 
 >[!NOTE]
 >
->Os dados de destaque da conta são limitados às contas que foram assimiladas pelo Journey Optimizer B2B edition em um público-alvo de conta por meio de jornadas de conta ou grupos de compra.
+>Os dados de destaque da conta são limitados às contas assimiladas pelo Journey Optimizer B2B edition em um público-alvo de conta por meio de jornadas de conta ou grupos de compra.
 
 ![Destaques da conta](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

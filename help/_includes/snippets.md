@@ -1,9 +1,9 @@
 ---
 title: Bl. conteúdo
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Os dados de intenção são incluídos na página quando configurada para sua instância do Journey Optimizer B2B edition. Para obter mais informações sobre o modelo de Detecção de Intenção e como enviar palavras-chave, produtos e categorias, consulte [Dados de Intenção](../user/admin/intent-data.md).
+>Os dados de intenção são incluídos quando configurados para sua instância do Journey Optimizer B2B edition. Também é necessário que uma ou mais jornadas publicadas **ou** tenham criado grupos de compras. Para obter mais informações sobre o modelo de Detecção de Intenção e como enviar palavras-chave, produtos e categorias, consulte [Dados de Intenção](../user/admin/intent-data.md).
 
 ## Nota de licenciamento de ativos da AEM {#aem-assets-licensing-note}
 
