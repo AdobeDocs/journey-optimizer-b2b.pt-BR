@@ -3,10 +3,10 @@ title: Grupos de compra
 description: Saiba como os grupos de compra no Journey Optimizer B2B edition podem aumentar a eficácia do marketing ao identificar e direcionar membros para suas listas de conta.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
+source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 6%
+source-wordcount: '1788'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ Para atividades de vendas e marketing B2B, as contas são fundamentais para qual
 
 ![Diagrama de funções da conta](assets/account-roles-diagram.png){width="800"}
 
-Dentro da conta, pode haver um subconjunto de pessoas que compõem o _grupo de compras_. Essas são as pessoas que tomam a decisão de comprar, portanto, precisam de atenção especial do profissional de marketing e podem precisar de informações diferentes fornecidas a elas do que as outras pessoas associadas à conta. Os grupos de compras podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente exige um CIO ou CIO e um representante do departamento jurídico para aprovar uma compra, mas um produto de rastreamento de bugs normalmente tem um vice-presidente de engenharia e um Director de TI como membros do grupo de compras.
+Dentro da conta, pode haver um subconjunto de pessoas que compõem o _grupo de compras_. Essas são as pessoas que tomam a decisão de comprar, portanto, precisam de atenção especial do profissional de marketing e podem precisar de informações diferentes fornecidas a elas do que as outras pessoas associadas à conta. Os grupos de compras podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente exige um CIO ou CIO e um representante do departamento jurídico para aprovar uma compra, mas um produto de rastreamento de bugs normalmente tem um vice-presidente de engenharia e um diretor de TI como membros do grupo de compras.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](#overview-video)
 
@@ -91,11 +91,58 @@ A pontuação de integridade do grupo de compras é recalculada toda vez que um 
 
 ### Pontuação de engajamento do grupo de compra
 
-A pontuação de engajamento do grupo de compra é um número para determinar o engajamento dos membros de um grupo de compra com base nas atividades que eles realizam. Qualquer atividade de entrada executada pelos membros do grupo de compra nos últimos 30 dias é usada para calcular a pontuação.
+A pontuação de engajamento do grupo de compra é um número para determinar o engajamento dos membros de um grupo de compra com base nas atividades que eles realizam.
 
-Há um limite de frequência diário de 20 para cada atividade. Se um membro de um grupo de compras executar a mesma atividade mais de 20 vezes por dia, a contagem da atividade será limitada a 20 e não um número maior.
+* O cálculo da pontuação de engajamento é iniciado assim que o grupo de compras é gerado.
+* Qualquer atividade de entrada executada pelos membros do grupo de compra nos últimos 30 dias é usada para calcular a pontuação.
+* Com a janela de 30 dias e conforme as atividades expiram, a pontuação pode diminuir.
+* Há um limite de frequência diário de 20 para cada atividade. Se um membro de um grupo de compras executar a mesma atividade mais de 20 vezes por dia, a contagem da atividade será limitada a 20 e não um número maior.
+* A pontuação exibida é arredondada. Por exemplo, uma pontuação de 75,89999 é exibida como 76.
 
-A pontuação exibida é arredondada. Por exemplo, uma pontuação de 75,89999 é exibida como 76.
++++Atividades usadas para pontuação
+
+| Nome da atividade | Descrição | Tipo de engajamento | Contagem máxima de frequência diária | Peso da atividade |
+| --- | --- | --- | --- | --- |
+| Registrar-se para evento | Inscreve-se em um evento associado a uma campanha | Evento | 20 | 60 |
+| Participar de evento | Participa de um evento de campanha | Evento | 20 | 90 |
+| Abertura de email | Abre um email | Email | 20 | 30 |
+| Cliques em email | Clica em um link em um email | Email | 20 | 30 |
+| Abrir e-mail de vendas | Abre um email de vendas | Email | 20 | 30 |
+| Clicar em e-mail de vendas | Cliques em um link em um email de vendas | Email | 20 | 30 |
+| Momento interessante | Tem um momento interessante | Com curadoria | 20 | 60 |
+| Tocar em notificação por push | Recebe uma notificação por push | Dispositivos móveis | 20 | 30 |
+| Atividade em aplicativo móvel | Executa uma atividade em um aplicativo móvel | Dispositivos móveis | 20 | 30 |
+| Sessão em aplicativo móvel | Está ativo na sessão de aplicativo móvel | Dispositivos móveis | 20 | 30 |
+| Preencher formulário de anúncios de leads do Facebook | Preenche e envia um formulário de anúncios de cliente potencial em uma página do Facebook | Redes sociais | 20 | 30 |
+| Clicar no chamado à ação de RTP | Clica em um call to action personalizado | Web | 20 | 60 |
+| Exibir mensagem interna do aplicativo | Visualiza uma mensagem no aplicativo | Dispositivos móveis | 20 | 30 |
+| Tocar em mensagem interna do aplicativo | Toque em uma mensagem no aplicativo | Dispositivos móveis | 20 | 30 |
+| Fazer inscrição no SMS | Assina comunicações por SMS | SMS | 20 | 90 |
+| Responder email de vendas | Respostas a um email de vendas | Email | 20 | 30 |
+| Interagiu com um diálogo | Interage com uma caixa de diálogo do Dynamic Chat | Chat | 20 | 90 |
+| Interagiu com o documento no diálogo | Interage com um documento em uma caixa de diálogo do Dynamic Chat | Chat | 20 | 90 |
+| Agendou reunião no diálogo | Agenda um compromisso em uma caixa de diálogo do Dynamic Chat | Chat | 20 | 90 |
+| Atingiu a meta do Dialogue | Atinge uma meta em uma caixa de diálogo do Dynamic Chat |  | 20 | 90 |
+| Respondeu a uma enquete no webinário | Responde a uma enquete em um evento de webinário | Chat | 20 | 90 |
+| Chamada para ação clicada no webinário | Clica em um link de chamada para ação em um evento de webinário | Chamada | 20 | 30 |
+| Downloads de ativos no webinário | Baixa um arquivo/ativo em um evento de webinário | Evento | 20 | 60 |
+| Faz perguntas no webinário | Faz perguntas em um evento de webinário | Evento | 20 | 60 |
+| Participou do evento | Participou de um evento | Evento | 20 | 60 |
+| Interagiu com um agente no diálogo | Interage com um agente em uma caixa de diálogo Dynamic Chat | Chat | 20 | 90 |
+| Clicou no link no chat no diálogo | Clica em um link em uma caixa de diálogo do Dynamic Chat | Chat | 20 | 90 |
+| Interagiu com um fluxo de conversação | Interage com um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
+| Reunião agendada no fluxo de conversação | Agenda um compromisso em um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
+| Meta do fluxo de conversação alcançada | Atinge uma meta em um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
+| Interagiu com o documento no fluxo de conversação | Interage com um documento em um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
+| Interagiu com um agente no fluxo de conversação | Interage com um agente em um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
+| Clicou no link no chat no fluxo de conversação | Clica em um link em um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
+| Clique em Link no SMS V2 | Clica em um link em uma mensagem SMS | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>As atividades de pontuação de engajamento são registradas no log de atividades [do Marketo Engage para uma pessoa](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+
++++
 
 #### Ponderação
 
