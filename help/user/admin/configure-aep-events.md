@@ -1,23 +1,24 @@
 ---
-title: Configurar eventos de Experience Platform
+title: Configurar eventos do Experience Platform
 description: Saiba mais sobre o tipo de nó Aguardar que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
-# Configurar definições de evento Experience Platform
+# Configurar definições de evento do Experience Platform
 
-Os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência da AEP em jornadas de conta é um processo de duas etapas:
+Os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
 
-1. Crie e publique uma definição de evento da AEP.
+1. Crie e publique uma definição de evento do AEP.
 
-2. Em uma jornada de conta, adicione um nó _Ouvir um evento_ e [selecione uma definição de evento da AEP como um evento de pessoas](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. Em uma jornada de conta, adicione um nó _Ouvir um evento_ e [selecione uma definição de evento do AEP como um evento de pessoas](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Cada definição de evento requer a seguinte entrada de Experience Platform:
+Cada definição de evento exige a seguinte entrada do Experience Platform:
 
 * **_Esquema_** - esquema XDM que define a estrutura de dados do Evento de Experiência. Ele deve ser baseado em um Evento de experiência e deve ser habilitado para perfil.
 
@@ -39,11 +40,13 @@ Ao criar e gerenciar as definições de evento para atingir as metas organizacio
 
 * O Journey Optimizer B2B edition oferece suporte a no máximo 50 definições de eventos.
 
-* Somente uma definição de evento da AEP pode usar um esquema combinado e um conjunto de tipos de evento. Ao criar uma definição de evento usando um esquema (por exemplo, `My Schema`) e um tipo de evento (por exemplo, `Web Webpagedetails Page Views`), nenhuma outra definição de evento pode usar a combinação de `My Schema` e `Web Webpagedetails Page Views`.
+* As jornadas de conta podem ouvir os eventos da AEP Experience que são assimilados usando os recursos de transmissão do AEP, como o Web SDK ou a API HTTP.
+
+* Somente uma definição de evento do AEP pode usar um esquema combinado e um conjunto de tipos de evento. Ao criar uma definição de evento usando um esquema (por exemplo, `My Schema`) e um tipo de evento (por exemplo, `Web Webpagedetails Page Views`), nenhuma outra definição de evento pode usar a combinação de `My Schema` e `Web Webpagedetails Page Views`.
 
 * Uma definição de evento pode ser usada em mais de uma jornada de conta.
 
-* Os Eventos de experiência da AEP podem ser usados para fins de decisão em uma jornada de conta, mas não são retidos. Portanto, nenhum registro histórico de Eventos de experiência da AEP pode ser aproveitado no Journey Optimizer B2B edition.
+* Os Eventos de experiência do AEP podem ser usados para fins de decisão em uma jornada de conta, mas não são retidos. Portanto, nenhum registro histórico de eventos de experiência do AEP pode ser aproveitado no Journey Optimizer B2B edition.
 
 * As restrições para _data de atividade_ e _número mínimo de vezes_ não são suportadas.
 
@@ -71,9 +74,9 @@ Na lista _[!UICONTROL Definições de evento]_, a coluna **[!UICONTROL Status]**
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Ao criar uma definição de evento, ela estará no status de rascunho. Ele permanece nesse status até que você o publique para uso nas jornadas da conta. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Publicar<li>Excluir |
+| Rascunho | Ao criar uma definição de evento, ela estará no status de rascunho. Ele permanece nesse status até que você o publique para uso nas jornadas da conta. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Publicação<li>Excluir |
 | Publicado | Ao publicar uma definição de evento, ela fica disponível para uso nas jornadas da conta. Os detalhes não podem ser modificados. Ações disponíveis:<br/><ul><li>Disponível para _Ouvir um nó de jornada do evento_<li>Criar versão de rascunho<li>Excluir (se não estiver em uso) |
-| Publicado (com rascunho) | Ao criar um rascunho a partir de uma definição de evento publicada, a versão publicada permanece disponível para uso nas jornadas da conta e a versão rascunho pode ser modificada. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e a definição do evento será atualizada para as jornadas da conta em que ainda não foi executada. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Versão de rascunho do Publish<li>Descartar versão de rascunho<li>Excluir (se não estiver em uso) |
+| Publicado (com rascunho) | Ao criar um rascunho a partir de uma definição de evento publicada, a versão publicada permanece disponível para uso nas jornadas da conta e a versão rascunho pode ser modificada. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e a definição do evento será atualizada para as jornadas da conta em que ainda não foi executada. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Publicar versão de rascunho<li>Descartar versão de rascunho<li>Excluir (se não estiver em uso) |
 
 ![Ciclo de vida do status do fragmento](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ Para procurar uma definição de evento por nome, digite uma string de texto na 
 
    ![A nova definição de evento de rascunho está listada na página](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish e definição de evento
+## Publicar uma definição de evento
 
 Quando estiver satisfeito com a definição completa e correta do evento de rascunho para suas necessidades, você poderá publicá-la para disponibilizá-la para uso nas jornadas da conta. Depois que a definição do evento for publicada, você poderá criar uma versão de rascunho se precisar fazer alterações nela. No entanto, não é possível alterar o esquema e você só pode adicionar tipos de evento e campos (não é possível excluí-los).
 
@@ -149,11 +152,11 @@ Quando estiver satisfeito com a definição completa e correta do evento de rasc
 
    Se necessário, revise as configurações antes de publicar. Você pode [editar o rascunho](#edit-an-event-definition) se ele não atender aos seus requisitos.
 
-1. Clique em **[!UICONTROL Publish]** na parte superior direita.
+1. Clique em **[!UICONTROL Publicar]** na parte superior direita.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Publish]**.
+1. No diálogo de confirmação, clique em **[!UICONTROL Publicar]**.
 
-   ![caixa de diálogo de evento do Publish](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![Caixa de diálogo Publicar evento](./assets/configuration-events-publish-dialog.png){width="300"}
 
    O status da definição de evento é alterado para _Publicado_ e agora está [disponível para uso nas jornadas da conta](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -189,9 +192,9 @@ Siga as etapas de acordo com o status:
 
    As alterações são salvas automaticamente no rascunho.
 
-1. Quando a definição do evento atender aos seus critérios e você desejar disponibilizá-la para jornadas da conta de usuário, clique em **[!UICONTROL Publish]**.
+1. Quando a definição de evento atender aos seus critérios e você desejar disponibilizá-la para jornadas de conta de usuário, clique em **[!UICONTROL Publicar]**.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Publish]**.
+1. No diálogo de confirmação, clique em **[!UICONTROL Publicar]**.
 
    O status da definição de evento muda para _Publicado_ e agora está disponível para uso em jornadas de conta.
 
@@ -221,11 +224,11 @@ Siga as etapas de acordo com o status:
 
    As alterações são salvas automaticamente no rascunho.
 
-1. Quando a definição do evento de rascunho atender aos seus critérios e você quiser substituir a versão publicada atual para uso nas jornadas da conta, clique em **[!UICONTROL Rascunho do Publish]**.
+1. Quando a definição do evento de rascunho atender aos seus critérios e você quiser substituir a versão publicada atual para uso nas jornadas da conta, clique em **[!UICONTROL Publicar rascunho]**.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Publish]**.
+1. No diálogo de confirmação, clique em **[!UICONTROL Publicar]**.
 
-   ![Caixa de diálogo de rascunho do Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Caixa de diálogo Publicar rascunho](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Ao publicar a versão de rascunho, ela substitui a versão publicada atual e a definição do evento é atualizada para jornadas da conta em que já está em uso, mas ainda não é executada.
 
@@ -243,11 +246,11 @@ Ao abrir uma definição de evento _Publicado (com rascunho)_, a guia de versão
 
    As alterações são salvas automaticamente no rascunho.
 
-1. Quando a definição do evento de rascunho atender aos seus critérios e você quiser substituir a versão publicada atual para uso nas jornadas da conta, clique em **[!UICONTROL Rascunho do Publish]**.
+1. Quando a definição do evento de rascunho atender aos seus critérios e você quiser substituir a versão publicada atual para uso nas jornadas da conta, clique em **[!UICONTROL Publicar rascunho]**.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Publish]**.
+1. No diálogo de confirmação, clique em **[!UICONTROL Publicar]**.
 
-   ![Caixa de diálogo de rascunho do Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Caixa de diálogo Publicar rascunho](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Ao publicar a versão de rascunho, ela substitui a versão publicada atual e a definição do evento é atualizada para jornadas da conta em que já está em uso, mas ainda não é executada.
 
