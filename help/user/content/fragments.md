@@ -3,10 +3,10 @@ title: Fragmentos
 description: Saiba como criar e usar fragmentos de conteúdo visual como componentes reutilizáveis para emails e modelos de email no Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 3%
+source-wordcount: '2624'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,18 @@ ht-degree: 3%
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails e modelos de email no Adobe Journey Optimizer B2B edition. Geralmente, é um bloco de conteúdo (texto, imagem ou ambos) que pode ser pré-criado e inserido rapidamente em um email ou modelo de email. Com essa funcionalidade, você pode pré-criar vários blocos de conteúdo personalizados para serem usados pelos membros da equipe de marketing para montar conteúdo de email a fim de oferecer um processo de design aprimorado. Casos de uso comuns incluem blocos de conteúdo de cabeçalho/rodapé para email, banners para convites de eventos e saudações sazonais.
 
+>[!BEGINSHADEBOX]
+
+**Fragmentos visuais**
+
+Fragmentos visuais são blocos visuais predefinidos criados com o designer de conteúdo visual que podem ser reutilizados em vários emails ou modelos de email. O escopo atual do Journey Optimizer B2B edition e desta documentação é apenas o de fragmentos visuais. Fragmentos baseados em expressão ainda não são compatíveis com o Journey Optimizer B2B edition.
+
+>[!ENDSHADEBOX]
+
 Para aproveitar ao máximo os fragmentos em seus workflows:
 
 * _Criar seus próprios fragmentos_ - Crie fragmentos visuais, do zero ou salvando o conteúdo como um fragmento do editor de conteúdo visual.
 * _Reutilizar fragmentos_ - Use-os quantas vezes forem necessárias em seu conteúdo.
-
-## Fragmentos visuais
-
-Fragmentos visuais são blocos visuais predefinidos criados usando o editor de conteúdo visual, que podem ser reutilizados em vários emails ou modelos de email. O escopo atual do Journey Optimizer B2B edition e desta documentação é apenas o de fragmentos visuais. Fragmentos baseados em expressão ainda não são compatíveis com o Journey Optimizer B2B edition.
 
 ## Acessar e gerenciar fragmentos
 
@@ -37,11 +41,11 @@ O status do fragmento determina sua disponibilidade para uso em um email ou mode
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o conteúdo visual, até que você o publique para uso em um modelo de email ou de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no designer visual<li>Publicar<li>Duplicar<li>Excluir |
-| Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. Um conteúdo de fragmento publicado não pode ser modificado no designer visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
-| Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no designer visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no visual designer<li>Versão de rascunho do Publish<li>Duplicar<li>Excluir (se não estiver em uso) |
+| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o conteúdo visual, até que você o publique para uso em um modelo de email ou de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no designer visual<li>Publicação<li>Duplicar<li>Excluir |
+| Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. O conteúdo do fragmento publicado não pode ser modificado no designer visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
+| Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no designer visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no visual designer<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
 
-![Ciclo de vida do status do fragmento](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![Ciclo de vida do status do fragmento](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -73,7 +77,7 @@ Você pode criar novos fragmentos visuais no Journey Optimizer B2B edition clica
 
    * Descrição - Máximo de 300 caracteres
 
-   * Alpha, caracteres numéricos e especiais são permitidos
+   * São permitidos caracteres Alpha, numéricos e especiais
 
    * Os caracteres reservados **_não são permitidos_**: `\ / : * ? " < > |`
 
@@ -85,45 +89,16 @@ Você pode criar novos fragmentos visuais no Journey Optimizer B2B edition clica
 
 1. Use as ferramentas de design de conteúdo para criar o conteúdo visual do fragmento:
 
-   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
-   * [Adicionar o Assets](#add-assets)
-   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
-   * [Personalizar conteúdo](#personalize-content)
-   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar o Assets](./fragment-authoring.md#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
+   * [Editar rastreamento de URL vinculado](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Clique em **[!UICONTROL Salvar]** a qualquer momento para salvar o fragmento de rascunho.
 
-1. Quando estiver pronto para disponibilizar o fragmento para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
-
-### Adicionar estrutura e conteúdo {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do fragmento. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo do fragmento."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Sobre os componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um fragmento."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Adicionar ativos
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navegar pelas camadas, configurações e estilos
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Personalizar conteúdo
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Editar rastreamento de URL vinculado
-
-{{$include /help/_includes/content-design-links.md}}
+1. Quando estiver pronto para disponibilizar o fragmento para uso em um modelo de email ou email, clique em **[!UICONTROL Publicar]**.
 
 ## Exibir detalhes do fragmento
 
@@ -194,15 +169,16 @@ As edições em um fragmento dependem do status atual:
 
    Use as ferramentas do designer visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
-   * [Adicionar o Assets](#add-assets)
-   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
-   * [Personalizar conteúdo](#personalize-content)
-   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar o Assets](./fragment-authoring.md#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
+   * [Editar rastreamento de URL vinculado](./fragment-authoring.md#edit-linked-url-tracking)
 
    Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do fragmento.
 
-1. Quando o fragmento atender aos seus critérios e você quiser disponibilizá-lo para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
+1. Quando o fragmento atender aos seus critérios e você quiser disponibilizá-lo para uso em um modelo de email ou email, clique em **[!UICONTROL Publicar]**.
 
 >[!TAB Publicado]
 
@@ -222,15 +198,16 @@ As edições em um fragmento dependem do status atual:
 
    Use as ferramentas do designer visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
-   * [Adicionar o Assets](#add-assets)
-   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
-   * [Personalizar conteúdo](#personalize-content)
-   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar o Assets](./fragment-authoring.md#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
+   * [Editar rastreamento de URL vinculado](./fragment-authoring.md#edit-linked-url-tracking)
 
    Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do fragmento.
 
-1. Quando o fragmento de rascunho atender aos seus critérios e você quiser disponibilizar as alterações para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
+1. Quando o fragmento de rascunho atender aos seus critérios e você quiser disponibilizar as alterações para uso em um modelo de email ou email, clique em **[!UICONTROL Publicar]**.
 
    Ao publicar a versão de rascunho, ela substitui a versão publicada atual e o conteúdo é atualizado nos emails e templates de email em que já está em uso.
 
@@ -250,15 +227,16 @@ Para atualizar o conteúdo:
 
 1. Clique em **[!UICONTROL Editar fragmento]** na parte superior direita. Use as ferramentas do designer visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](#add-structure-and-content)
-   * [Adicionar o Assets](#add-assets)
-   * [Navegar pelas camadas, configurações e estilos](#navigate-the-layers-settings-and-styles)
-   * [Personalizar conteúdo](#personalize-content)
-   * [Editar rastreamento de URL vinculado](#edit-linked-url-tracking)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar o Assets](./fragment-authoring.md#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
+   * [Editar rastreamento de URL vinculado](./fragment-authoring.md#edit-linked-url-tracking)
 
    Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do fragmento.
 
-1. Quando o fragmento de rascunho atender aos seus critérios e você quiser disponibilizar as alterações para uso em um modelo de email ou email, clique em **[!UICONTROL Publish]**.
+1. Quando o fragmento de rascunho atender aos seus critérios e você quiser disponibilizar as alterações para uso em um modelo de email ou email, clique em **[!UICONTROL Publicar]**.
 
    Ao publicar a versão de rascunho, ela substitui a versão publicada atual e o conteúdo é atualizado nos emails e templates de email em que já está em uso.
 

@@ -2,10 +2,11 @@
 title: Criação de modelo de email
 description: Saiba como criar modelos de email de conteúdo que podem ser usados para emails de jornada de conta para reutilizar seus designs de forma fácil e eficiente.
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 16%
 
 ---
 
@@ -29,30 +30,9 @@ Depois de [criar um modelo de email](./email-templates.md#create-an-email-templa
 
 ### Adicionar fragmentos
 
-No editor de conteúdo visual, o ícone _Fragmentos_ é exibido à esquerda. O exemplo a seguir descreve as etapas para adicionar fragmentos ao conteúdo do modelo.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Para abrir a lista de fragmentos, selecione o ícone _Fragmentos_ ( ![ícone Fragmentos](../assets/do-not-localize/icon-fragments.svg) ).
-
-   É possível:
-
-   * Classifique a listagem.
-   * Procurar, Pesquisar ou Filtrar a listagem.
-   * Alternar entre as visualizações em Miniatura e em Lista.
-   * Atualize a lista para refletir qualquer um dos fragmentos criados recentemente.
-
-   ![Selecione um fragmento da lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Arraste e solte qualquer um dos fragmentos no espaço reservado do componente estrutural.
-
-   O editor renderiza o fragmento na seção/elemento da estrutura de email.
-
-O conteúdo do fragmento é atualizado dinamicamente na estrutura para mostrar como o conteúdo aparece no email.
-
->[!TIP]
->
->Se quiser que o fragmento ocupe todo o layout horizontal no email, adicione uma estrutura de coluna 1:1 e, em seguida, arraste e solte o fragmento nele.
-
-Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo. Os fragmentos adicionados a um modelo de email não são editáveis no modelo — o fragmento de origem define o conteúdo.
+Depois que o modelo é salvo, ele aparece na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo.
 
 ### Adicionar ativos
 

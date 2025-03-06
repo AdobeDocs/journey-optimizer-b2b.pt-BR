@@ -3,10 +3,10 @@ title: Criação de email
 description: Saiba como criar conteúdo de email personalizado que é usado em uma Jornada de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 10%
+source-wordcount: '1268'
+ht-degree: 12%
 
 ---
 
@@ -50,11 +50,11 @@ Essa ação inicia o Designer de email, onde você pode escolher como deseja cri
 
 * [Crie o email do zero](#design-your-email-from-scratch) usando a interface Designer de email.
 
-* [Importar conteúdo de HTML existente](#import-existing-html-content) de um arquivo ou de uma pasta .zip.
+* [Importe conteúdo existente do HTML](#import-existing-html-content) de um arquivo ou de uma pasta .zip.
 
 * [Selecione um modelo existente](#select-a-template) em uma lista de modelos de email predefinidos ou personalizados.
 
-Para configurar e personalizar a linha de assunto com o editor de expressão, clique no ícone _Personalization_ e adicione qualquer um dos tokens Marketo Engage.
+Para configurar e personalizar a linha de assunto com o editor de expressão, clique no ícone _Personalization_ e adicione qualquer um dos tokens do Marketo Engage.
 
 Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo para validação ou para uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar o conteúdo como um arquivo .zip que inclui seu HTML e seus ativos.
 
@@ -93,7 +93,7 @@ Quando o conteúdo estiver concluído, clique em **[!UICONTROL Simular conteúdo
 
 Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
-### Importar conteúdo de HTML existente
+### Importar conteúdo existente do HTML
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -101,7 +101,7 @@ Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
 >[!NOTE]
 >
->Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
+>Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
 Você pode personalizar o conteúdo importado conforme necessário com as ferramentas do editor visual de email.
 
@@ -129,30 +129,9 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 
 ### Adicionar fragmentos
 
-No editor de conteúdo visual, o ícone _Fragmentos_ é exibido à esquerda. O exemplo a seguir descreve as etapas para adicionar fragmentos ao conteúdo do modelo.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Para abrir a lista de fragmentos, clique no ícone _Fragmentos_.
-
-   É possível:
-
-   * Classifique a listagem.
-   * Procurar, Pesquisar ou Filtrar a listagem.
-   * Alternar entre as visualizações em Miniatura e em Lista.
-   * Atualize a lista para refletir qualquer um dos fragmentos criados recentemente.
-
-   ![Selecione um fragmento da lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Arraste e solte qualquer um dos fragmentos no espaço reservado do componente estrutural.
-
-   O editor renderiza o fragmento na seção/elemento da estrutura de email.
-
-O conteúdo do fragmento é atualizado dinamicamente na estrutura para mostrar como o conteúdo aparece no email.
-
->[!TIP]
->
->Para adicionar o fragmento de forma que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e arraste e solte o fragmento nele.
-
-Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo. Os fragmentos adicionados a um modelo de email não são editáveis no modelo — o fragmento de origem define o conteúdo.
+Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo.
 
 ### Adicionar ativos
 
