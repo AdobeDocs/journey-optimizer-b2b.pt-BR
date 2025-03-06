@@ -3,9 +3,9 @@ title: Dividir e mesclar caminhos
 description: Saiba mais sobre os caminhos divididos e os tipos de nó dos caminhos de mesclagem que você pode usar para orquestrar as jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1584'
 ht-degree: 4%
 
 ---
@@ -28,10 +28,11 @@ Adicione um nó _Split paths_ para definir um ou mais caminhos segmentados com b
 
 _Como funciona um caminho dividido por nó de contas?_
 
-* Quando você adiciona um nó de caminho dividido e escolhe _Conta_, cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
-* É possível dividir o caminho por Contas repetidamente, por exemplo, de maneira aninhada. Um caminho dividido inclui uma opção para não adicionar o caminho padrão.
-* Se uma conta/pessoa não se qualificar para um dos caminhos de divisão, ela não avançará na jornada.
-* Esses caminhos podem ser combinados usando um nó de mesclagem.
+* Cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
+* Dividir por nós de conta pode ser aninhado — você pode dividir o caminho por contas repetidamente.
+* Avalia os caminhos de cima para baixo. Se uma conta corresponder ao primeiro e ao segundo caminhos, ela continuará somente pelo primeiro caminho.
+* Dois ou mais caminhos podem ser combinados usando um nó de mesclagem.
+* Suporta a definição de um caminho _[!UICONTROL Outras contas]_, onde você pode adicionar ações ou eventos para contas que não correspondam a um dos segmentos/caminhos definidos.
 
 Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -39,10 +40,11 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
 _Como funciona um caminho dividido por nó de pessoas?_
 
-* _Dividir caminho por pessoas_ nós são nós agrupados. Os caminhos se mesclam automaticamente para que todas as pessoas no público-alvo possam avançar para a próxima etapa sem perder o contexto da conta.
-* Os nós _Dividir caminho por pessoas_ não podem ser aninhados. Não é possível adicionar um caminho dividido para pessoas em um caminho que esteja nesse nó agrupado.
-* Os nós de caminho dividido incluem uma opção para omitir um caminho padrão, de modo que as contas/pessoas sem um caminho correspondente não avancem na jornada.
-* Os nós _Dividir caminho por pessoas_ oferecem suporte ao uso de _relações conta-pessoa_, que permitem filtrar pessoas com base em sua função (como contratante ou funcionário em tempo integral), conforme definido nos modelos de funções.
+* Funções em uma combinação de divisão-mesclagem de _nó agrupado_. Os caminhos divididos se mesclam automaticamente para que todas as pessoas no público-alvo possam avançar para a próxima etapa sem perder o contexto da conta.
+* Os nós Dividir por pessoas não podem ser aninhados — não é possível adicionar um caminho dividido para pessoas em um caminho que esteja nesse nó agrupado.
+* Avalia os caminhos de cima para baixo. Se uma pessoa corresponder ao primeiro e ao segundo caminhos, ela continuará somente pelo primeiro caminho.
+* Suporta o uso de _relações conta-pessoa_, que permitem filtrar pessoas com base em sua função (como contratante ou funcionário em tempo integral), conforme definido nos modelos de funções.
+* Suporta a definição de um caminho _[!UICONTROL Outras pessoas]_, onde você pode adicionar ações ou eventos para pessoas que não correspondam a um dos segmentos/caminhos definidos.
 
 ![Nó do Jornada - caminhos divididos por pessoas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -96,7 +98,9 @@ _Como funciona um caminho dividido por nó de pessoas?_
 
    ![Nó de caminho dividido - reordenar caminhos](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Outras contas]** para adicionar um caminho padrão para contas que não correspondam aos caminhos definidos. Se não, a jornada acaba para essas pessoas.
+1. Habilite a opção **[!UICONTROL Outras contas]** para definir o caminho padrão para contas que não correspondem aos segmentos/caminhos definidos.
+
+   Quando essa opção não está ativada, a jornada termina para contas que não correspondem a um segmento/caminho definido na divisão.
 
 ### Adicionar um caminho dividido pelo nó de pessoas
 
@@ -145,13 +149,15 @@ _Como funciona um caminho dividido por nó de pessoas?_
 
    ![Nó de caminho dividido - reordenar caminhos](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Habilite a opção **[!UICONTROL Outras pessoas]** para adicionar um caminho padrão para pessoas que não correspondam aos caminhos definidos. Se não, a jornada acaba para essas pessoas.
+1. Habilite a opção **[!UICONTROL Outras pessoas]** para adicionar um caminho padrão para pessoas que não correspondam aos caminhos definidos.
+
+   Quando essa opção não está ativada, as pessoas que não correspondem a um segmento/caminho definido passam pela divisão e avançam para a próxima etapa da jornada.
 
 >[!BEGINSHADEBOX &quot;associação à lista do Marketo Engage&quot;]
 
 No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista do Marketo Engage como uma condição para o caminho dividido por pessoas para ajudar a eliminar a duplicação em atividades de jornada.
 
-Para fazer isso, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro e conclua a definição do filtro para avaliar a associação em uma ou mais listas do Marketo Engage.
+Para usar a associação de lista em uma condição de divisão, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Conclua a definição do filtro para avaliar a associação em uma ou mais listas do Marketo Engage.
 
 ![Dividir caminho por condição de pessoas para associação à lista de Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
