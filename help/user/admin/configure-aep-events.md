@@ -2,17 +2,22 @@
 title: Configurar eventos do Experience Platform
 description: Saiba mais sobre o tipo de nó Aguardar que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # Configurar definições de evento do Experience Platform
 
-Os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
+Os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent).
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](#overview-video)
+
+O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
 
 1. Crie e publique uma definição de evento do AEP.
 
@@ -273,3 +278,7 @@ Ao abrir uma definição de evento _Publicado (com rascunho)_, a guia de versão
 1. No diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 
    ![Confirmar exclusão da definição de evento](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## Vídeo de visão geral
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

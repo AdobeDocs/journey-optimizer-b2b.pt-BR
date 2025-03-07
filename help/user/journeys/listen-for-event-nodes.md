@@ -3,9 +3,9 @@ title: Ouvir um evento
 description: Saiba mais sobre o tipo de nó Ouvir um evento que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1373'
 ht-degree: 13%
 
 ---
@@ -118,11 +118,13 @@ Se você tiver páginas da Web criadas na instância conectada do Marketo Engage
 
 ### Analise um evento de experiência
 
-Os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência da AEP em jornadas de conta é um processo de duas etapas:
+Os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
 
-1. [Criar e publicar uma definição de evento da AEP](../admin/configure-aep-events.md).
+1. [Criar e publicar uma definição de evento do AEP](../admin/configure-aep-events.md).
 
 2. Em uma jornada de conta, adicione um nó _Ouvir um evento_ e selecione uma definição de evento do Experience Platform para um evento com base em pessoas.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](../admin/configure-aep-events.md#overview-video)
 
 _Para incluir um Evento de Experiência na jornada:_
 
@@ -162,7 +164,7 @@ _Para incluir um Evento de Experiência na jornada:_
 
 1. Conclua os nós restantes para sua jornada e [publique-a](./journey-overview.md).
 
-   Quando a jornada está ativa (publicada) e atinge o nó _Ouvir um evento_, ela começa a ouvir eventos de experiência da AEP.
+   Quando a jornada está ativa (publicada) e atinge o nó _Ouvir um evento_, ela começa a ouvir os Eventos de experiência do AEP.
 
 ## Adicionar um tempo limite a um nó de evento
 

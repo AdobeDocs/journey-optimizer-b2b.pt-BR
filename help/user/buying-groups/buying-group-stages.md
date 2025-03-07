@@ -3,9 +3,9 @@ title: Estágios de Grupo de Compras
 description: Saiba mais sobre estágios de grupo de compras e como defini-los para rastrear a progressão da jornada em relação às metas de vendas.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Os estágios de grupo de compra são projetados para rastrear a progressão dos 
 Defina os estágios em um único modelo de preparo, definindo vários estágios e o fluxo de transição entre eles. Um ou mais estágios são designados para entrada no ciclo de vida. O modelo também permite a progressão não linear, onde você pode especificar transições de um estágio para outro, como do estágio A para os estágios B, C ou D. É necessário que um estágio seja designado como o estágio de sucesso, como uma compra ou contrato assinado. É opcional que outro estágio seja designado como um estágio de falha, como um contrato rejeitado ou a compra de uma solução concorrente de outro fornecedor. Isso é feito por meio de [painéis inteligentes](../dashboards/intelligent-dashboard.md) que mostram como os grupos de compras estão progredindo em termos de conclusão de uma oportunidade de venda ou de conversão de uma oportunidade em um cliente.
 
 ![Exemplo de estágios de grupo de compras](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](#overview-video)
 
 ## Definir seu modelo de estágios de grupo de compras
 
@@ -159,7 +161,7 @@ Para exibir o modelo preliminar:
 
    Você também pode clicar em _[!UICONTROL Cancelar]_ para fechar a caixa de diálogo e retornar à página de detalhes do modelo sem alterações.
 
-## Publish o modelo de estágios de grupo de compras
+## Publicar o modelo de estágios de grupo de compras
 
 Se não houver erros de validação, o modelo poderá ser publicado. Quando publicado, ele muda para um estado _Live_ e pode ser usado para continuar comprando estágios de grupo nas jornadas da conta.
 
@@ -171,9 +173,9 @@ Se não houver erros de validação, o modelo poderá ser publicado. Quando publ
 
    Se forem necessárias revisões, edite os estágios de modelo.
 
-1. Clique em **[!UICONTROL Publish]**.
+1. Clique em **[!UICONTROL Publicar]**.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Publish]**.
+1. No diálogo de confirmação, clique em **[!UICONTROL Publicar]**.
 
    Com o retorno à página de detalhes do modelo, o modelo é designado como _[!UICONTROL Live]_. Clique na seta _Voltar_ na parte superior esquerda para retornar à página de guia _[!UICONTROL Estágios]_.
 
@@ -345,3 +347,7 @@ Use a ocorrência de uma alteração de estágio de grupo de compra para mover a
    ![Nó de Jornada - escutar eventos na conta](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Continue a fazer outras alterações e salvar a jornada.
+
+## Vídeo de visão geral
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
