@@ -3,7 +3,7 @@ title: Realizar uma ação
 description: Saiba mais sobre o tipo de nó Realizar uma ação que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -25,10 +25,10 @@ Use uma ação nas contas quando quiser aplicar uma alteração a todas as pesso
 | Ação | Restrições |
 | ------ | ----------- |
 | [!UICONTROL Valor de Dados de Alteração de Conta] | Selecionar atributo<br/>Novo valor |
-| [!UICONTROL Momento Interessante na Conta] | Tipo (Email, Marco ou Web)<br/>Descrição (opcional) |
-| [!UICONTROL Adicionar conta à (outra) Jornada] | Selecionar Jornada de conta em tempo real |
-| [!UICONTROL Adicionar à lista de contas] | Selecionar uma lista de contas estáticas em tempo real |
-| [!UICONTROL Remover Conta da Jornada] | Selecionar Jornada de conta em tempo real |
+| [!UICONTROL Momento Interessante na Conta] | Tipo (email, marco ou Web)<br/>Descrição (opcional) |
+| [!UICONTROL Adicionar conta à (outra) Jornada] | Selecionar jornada de conta em tempo real |
+| [!UICONTROL Adicionar à lista de contas] | Selecionar lista de contas estáticas ativas |
+| [!UICONTROL Remover Conta da Jornada] | Selecionar jornada de conta em tempo real |
 | [!UICONTROL Remover da lista de contas] | Selecionar uma lista de contas estáticas em tempo real |
 | [!UICONTROL Enviar Alerta de Vendas] | Selecionar interesse da solução<br/>Enviar email para |
 | [!UICONTROL Atualizar Estágio do Grupo de Compras] | Selecionar interesse de solução<br/>Selecionar estágio de grupo de compras |
@@ -183,7 +183,7 @@ Use esta ação para enviar uma mensagem SMS. Você pode criar, personalizar e v
 
 ### Ações do Marketo Engage
 
-Os recursos com base em pessoas do Marketo Engage foram projetados para coordenar sua orquestração de marketing com base em contas no Journey Optimizer B2B edition com seus esforços de marketing com base em clientes potenciais no Marketo Engage. Use essas ações para orquestrar a associação de listas, partições de pessoas e solicitar campanhas.
+As ações com base em pessoas do Marketo Engage foram projetadas para coordenar sua orquestração de marketing com base em contas no Journey Optimizer B2B edition com seus esforços de marketing com base em clientes potenciais no Marketo Engage. Use essas ações para orquestrar a associação de listas, partições de pessoas e solicitar campanhas.
 
 +++[!UICONTROL Adicionar à lista]
 

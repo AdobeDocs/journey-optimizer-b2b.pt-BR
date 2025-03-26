@@ -1,12 +1,13 @@
 ---
 title: Listas de contas
 description: Saiba mais sobre listas de contas e como os profissionais de marketing podem usá-las para direcionar contas por meio de jornadas de conta.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 Uma lista de contas é uma coleção de contas nomeadas que os profissionais de marketing podem usar para a orquestração de jornadas direcionada. Uma lista de contas pode direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. Há dois tipos de listas de contas:
 
 * **Estático** - Com uma lista de contas estáticas, a lista só é alterada quando você adiciona as contas. Você pode adicionar contas manualmente aplicando um conjunto de filtros para preencher a lista com base nos dados atuais da conta, ou adicionar e remover contas por meio de uma jornada de conta.
-* **Dinâmico** - Com uma lista de contas dinâmica, você define um conjunto de filtros para preparar automaticamente a lista. O sistema usa esse conjunto de filtros para adicionar e remover contas de acordo com as alterações nas informações da conta. Este gerenciamento de lista é semelhante à [segmentação de público no Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
+* **Dinâmico** - Com uma lista de contas dinâmica, você define um conjunto de filtros para preparar automaticamente a lista. O sistema usa esse conjunto de filtros para adicionar e remover contas de acordo com as alterações nas informações da conta. Este gerenciamento de lista é semelhante à [segmentação de público na Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
 Quando uma lista de contas está em um estado _Live_ (publicada), ela está disponível para uso nas jornadas de conta.
 
@@ -140,7 +141,7 @@ Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usa
 
 >[!ENDTABS]
 
-## Publish e lista de contas
+## Publicar uma lista de contas
 
 Você pode continuar a publicar uma lista de contas assim que o conjunto de filtros estiver concluído.
 
@@ -148,11 +149,11 @@ Você pode continuar a publicar uma lista de contas assim que o conjunto de filt
 
 >[!TAB Lista de contas estáticas]
 
-1. Clique em **[!UICONTROL Publish]** na parte superior direita.
+1. Clique em **[!UICONTROL Publicar]** na parte superior direita.
 
-   ![Clique em Publish na parte superior direita](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![Clique em Publicar na parte superior direita](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. Na caixa de diálogo _[!UICONTROL lista de contas estáticas do Publish]_, clique em **[!UICONTROL Publish]** para confirmar.
+1. Na caixa de diálogo _[!UICONTROL Publicar lista de contas estáticas]_, clique em **[!UICONTROL Publicar]** para confirmar.
 
    ![Confirmar publicação para uma lista de contas estáticas](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ O status da lista de contas estáticas é alterado para _[!UICONTROL Live]_ e es
 
 Você pode continuar a publicar uma lista de contas dinâmicas assim que o conjunto de filtros estiver concluído. Depois que a lista de contas está com o status Ativo, ela fica disponível para seleção em um nó de jornada de público-alvo de conta.
 
-1. Clique em **[!UICONTROL Publish]** na parte superior direita.
+1. Clique em **[!UICONTROL Publicar]** na parte superior direita.
 
-   ![Clique em Publish na parte superior direita](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![Clique em Publicar na parte superior direita](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. Na caixa de diálogo _[!UICONTROL lista de contas dinâmicas do Publish]_, clique em **[!UICONTROL Publish]** para confirmar.
+1. Na caixa de diálogo _[!UICONTROL Publicar lista de contas dinâmicas]_, clique em **[!UICONTROL Publicar]** para confirmar.
 
    ![Confirmar publicação para uma lista de contas dinâmicas](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 

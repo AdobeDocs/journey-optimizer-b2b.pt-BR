@@ -1,17 +1,23 @@
 ---
 title: Nós de público-alvo da conta
-description: Saiba mais sobre o tipo de nó de público-alvo da conta que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
+description: Saiba mais sobre o tipo de nó de público-alvo da conta que você pode usar para definir a entrada das suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # Nós de jornada de público-alvo da conta
 
-O nó Público-alvo da conta define o público-alvo da conta de entrada (criado e gerenciado no Adobe Experience Platform) para a jornada. Quando você [cria uma jornada de conta](./journey-overview.md#create-an-account-journey), ela sempre começa com um nó _Público-alvo de Conta_, no qual é possível adicionar entradas à jornada.
+O nó Account audience define o público-alvo da conta de entrada (criado e gerenciado no Adobe Experience Platform) para a jornada. Quando você [cria uma jornada de conta](./journey-overview.md#create-an-account-journey), ela sempre começa com um nó _Público-alvo de conta_ que define a entrada para a jornada.
+
+Há dois tipos de entrada que você pode usar para esse nó:
+
+* **[Público-alvo da conta](../audiences/account-audience-overview.md)** - É o público-alvo básico que é sincronizado do Serviço de Segmentação da Experience Platform.
+* **[Lista de contas](../accounts/account-lists.md)** - esta é uma coleção de contas nomeadas que você pode usar para a orquestração de jornadas direcionadas. Uma lista de contas é direcionada a contas nomeadas de acordo com os critérios definidos, como setor, local ou tamanho da empresa.
 
 _Para definir a audiência do nó:_
 
@@ -19,11 +25,25 @@ _Para definir a audiência do nó:_
 
    ![Nó de público-alvo da conta](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Adicionar público da conta]**.
+1. Escolha o tipo de entrada para as contas a serem informadas na jornada:
 
-1. Na caixa de diálogo _[!UICONTROL Adicionar público-alvo]_, selecione um segmento de público-alvo criado anteriormente e clique em **[!UICONTROL Adicionar público-alvo]**.
+   * **[!UICONTROL Público-alvo da conta]**
 
-   ![Nó de público-alvo da conta](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     Escolha esse tipo e clique em **[!UICONTROL Adicionar público-alvo da conta]**.
+
+     Na caixa de diálogo _[!UICONTROL Adicionar público-alvo]_, selecione um segmento de público-alvo criado anteriormente e clique em **[!UICONTROL Adicionar público-alvo]**.
+
+     ![Selecione um segmento de público-alvo para o nó](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+
+   * **[!UICONTROL Lista de contas]**
+
+     Escolha este tipo e clique em **[!UICONTROL Adicionar lista de contas]**.
+
+     Na caixa de diálogo _[!UICONTROL Selecionar lista de contas ativas]_, selecione uma lista de contas publicada anteriormente e clique em **[!UICONTROL Salvar]**.
+
+     ![Selecione uma lista de contas ativas para o nó](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+
+     Vá para [Listas de Contas](../accounts/account-lists.md) para obter informações detalhadas sobre como criar e publicar listas de contas.
 
 _Para criar um segmento de público-alvo:_
 

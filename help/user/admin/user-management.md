@@ -4,9 +4,9 @@ description: Saiba como atribuir membros da equipe aos perfis de produto do Jour
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
+source-git-commit: 49df3035b3bafc608a5fb16be77d39c5055bf92e
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1878'
 ht-degree: 1%
 
 ---
@@ -144,81 +144,81 @@ As permissões são direitos unitários que permitem definir as autorizações a
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
 Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
-<!-- 
-### B2B product permissions
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+### Permissões de produto B2B
 
-| Category | Description | Permissions |
+As seguintes permissões controlam o acesso aos recursos do Journey Optimizer B2B edition:
+
+| Categoria | Descrição | Permissões |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
-| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
+| Listas de contas B2B | Configure, gerencie, visualize e publique permissões para listas de contas B2B. Essas permissões incluem ações como adicionar, remover, importar e excluir contas de listas de contas. | <li>Gerenciar listas de contas B2B |
+| Configurações do administrador B2B | Configure, gerencie e visualize permissões para configurações administrativas B2B. Essas permissões incluem conexões de gerenciamento de ativos digitais, repositórios de ativos e eventos. | <li>Gerenciar configurações de administrador B2B |
+| Assets B2B | Configure, gerencie e visualize permissões para ativos B2B. Essas permissões incluem emails, SMS, landing pages, fragmentos, modelos e imagens. | <li>Gerenciar Assets B2B <li>Gerenciar modelos B2B <li>Gerenciar fragmentos B2B |
+| Grupos de compra B2B | Configure, gerencie e visualize permissões para grupos de compra B2B. Essas permissões incluem interesses de solução, modelos de funções e status do grupo de compras. | <li>Gerenciar grupos de compra B2B |
+| Configurações do canal B2B | Configure, gerencie e visualize permissões para configurações de canal B2B. Essas permissões incluem configurações para limites de comunicação, credenciais de API e configurações de segurança. | <li>Gerenciar configurações de canais B2B |
+| Painéis B2B | Configure e visualize permissões para painéis B2B. Essas permissões incluem envolvimento de conta, estágios de grupo de compras, contas de surging e cobertura de contato. | <li>Gerenciar painéis B2B |
+| Jornadas B2B | Configure permissões de gerenciamento, visualização e publicação para jornadas B2B. Essas permissões incluem ações de conta e pessoa, ouvintes de eventos e caminhos divididos | <li>Gerenciar Jornadas B2B |
 
-### B2B built-in roles
+### Funções integradas B2B
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+Quando sua organização tem o produto Journey Optimizer B2B edition provisionado, o Experience Platform inclui um conjunto de funções integradas (padrão) que você pode usar para gerenciar o acesso aos recursos do produto:
 
-| Role | Permissions |
+| Função | Permissões |
 | ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Intelligent Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-| B2B Sales User | <li>View Intelligent Dashboard |
+| Gerenciador de Jornada B2B | <li>Gerenciar Jornadas B2B <li>Gerenciar grupos de compra B2B <li>Gerenciar listas de contas B2B <li>Exibir painel inteligente B2B <li>Exibir painel de insights B2B |
+| Gerenciador de canal B2B | <li>Gerenciar Assets B2B <li>Gerenciar modelos B2B <li>Gerenciar fragmentos B2B |
+| Administrador de sistema B2B | <li>Gerenciar configurações de canais B2B <li>Gerenciar configurações de administrador B2B |
+| Usuário de vendas B2B | <li>Exibir painel inteligente |
 
-### Edit role permissions
+### Editar permissões de função
 
-For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
+Para funções integradas ou personalizadas, é possível decidir adicionar ou excluir permissões a qualquer momento. Se você modificar uma função padrão ou personalizada, isso afetará cada usuário atribuído à função.
 
-In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
+No exemplo a seguir, você deseja adicionar permissões relacionadas ao recurso Jornada B2B para usuários atribuídos à função Gerenciador de canal B2B. Essa alteração permite que os usuários dessa função também gerenciem jornadas de conta.
 
 >[!NOTE]
 >
->An Admin Console system administrator can perform these steps.
+>Um administrador de sistema do Admin Console pode executar essas etapas.
 
-_To change the permissions for a role:_
+_Para alterar as permissões de uma função:_
 
-1. Go to [experience.adobe.com](https://experience.adobe.com/).
+1. Vá para [experience.adobe.com](https://experience.adobe.com/).
 
-1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
+1. No painel _[!UICONTROL Acesso rápido]_, selecione **[!UICONTROL Permissões]**.
 
    >[!NOTE]
    >
-   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
+   >Se você não vir _[!UICONTROL Permissões]_, talvez precise clicar em **[!UICONTROL Exibir tudo]** e selecioná-lo nos aplicativos disponíveis.
 
-   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - Permissões de acesso](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. Select **[!UICONTROL Roles]** in the left navigation.
+1. Selecione **[!UICONTROL Funções]** na navegação à esquerda.
 
-1. Click the **_B2B Channel Manager_** role name.
+1. Clique no nome da função **_Gerenciador de canal B2B_**.
 
-1. In the details page, click **[!UICONTROL Edit]** at the top right.
+1. Na página de detalhes, clique em **[!UICONTROL Editar]** na parte superior direita.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - edite a função](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
+   No editor de funções, o menu _[!UICONTROL Recursos]_ exibe a lista de recursos que se aplicam aos produtos de aplicativos habilitados pela Experience Cloud - Platform.
 
-   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
-   
-1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
+   Você pode digitar _B2B_ na ferramenta de pesquisa para filtrar a lista de permissões de produtos B2B.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+1. Clique no ícone _Adicionar_ (**+**) para o recurso B2B do Jornada.
 
-1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
+   ![Experience Platform - edite a função](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]**.
+1. No cartão de permissões _[!UICONTROL Jornada B2B]_, selecione **[!UICONTROL Gerenciar Jornadas de Conta B2B]**.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+1. Clique em **[!UICONTROL Salvar]**.
 
-1. Click **[!UICONTROL Close]** to return to the details page. -->
+   ![Experience Platform - edite a função](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+
+1. Clique em **[!UICONTROL Fechar]** para retornar à página de detalhes.
 
 ### Adicionar usuários a uma função
 
-![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto da AEP pode executar as seguintes etapas.
+![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto do AEP pode executar as seguintes etapas.
 
 1. Abra os detalhes da função e selecione a guia **[!UICONTROL Usuários]**.
 
@@ -242,7 +242,7 @@ _To change the permissions for a role:_
 
 Para obter informações sobre o gerenciamento de usuários, consulte [usuários do Admin Console](https://helpx.adobe.com/br/enterprise/using/user-groups.html) na documentação do Admin Console.
 
-![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto da AEP pode executar as seguintes etapas.
+![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto do AEP pode executar as seguintes etapas.
 
 1. Abra os detalhes da função e selecione a guia **[!UICONTROL Grupos de usuários]**.
 
@@ -264,7 +264,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [usuários
 
 ## Criar uma função personalizada
 
-![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto da AEP pode executar as seguintes etapas.
+![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto do AEP pode executar as seguintes etapas.
 
 1. Selecione **[!UICONTROL Funções]** na navegação à esquerda e selecione **[!UICONTROL Criar função]**.
 

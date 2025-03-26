@@ -2,10 +2,10 @@
 title: Campos XDM
 description: Revise os campos de atributo padrão que são sincronizados entre o Adobe Experience Platform e o Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
+source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 15%
+source-wordcount: '1372'
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 >[!TIP]
 >
->Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do XDM sobre Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+>Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 ## Atributos de relação pessoal da conta comercial XDM
 
@@ -79,26 +79,27 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 | `accountPhone.number` | N/D | Número de telefone da conta | String | O número de telefone associado à conta. |
 | `accountSourceType` | N/D | Tipo de fonte | String | Tipo de Source da conta. |
 
-<!-- ## XDM Opportunity attributes
+## Atributos de oportunidade de negócios XDM
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+Além disso, os dados da oportunidade são armazenados como atributos na classe de Oportunidade Comercial XDM, que pode ser associada à classe de Conta Comercial XDM por meio de uma relação muitos para um, conforme descrito [aqui](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
+
+| [Propriedade](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | Nome de exibição | Nome para exibição do Journey Optimizer B2B | Tipo de dados | Descrição |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
-|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
-|`opportunityType` | Opportunity Type   | ?   | String | ?   |
-|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
-|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
-|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
-|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
-|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
-|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
-|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
-|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
-|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
-|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
-|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
-|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
-|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
-|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
-|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
--->
+| `expectedCloseDate` | Data de fechamento prevista | Data de fechamento esperada da oportunidade | String | Data prevista de fechamento da oportunidade. |
+| `expectedRevenue.amount` | Receita esperada | Receita total esperada da oportunidade | String | Receita calculada com base no valor e na probabilidade. |
+| `fiscalQuarter` | Trimestre fiscal | Trimestre fiscal da oportunidade | String | O trimestre fiscal direcionado para a oportunidade. |
+| `fiscalYear` | Ano fiscal | Ano fiscal da oportunidade | String | O ano fiscal de destino da oportunidade. |
+| `forecastCategory` | Categoria de previsão | Categoria de Previsão de Oportunidades | String | Categoria de Previsão determinada pelo valor do Estágio da oportunidade. |
+| `forecastCategoryName` | Nome da categoria de previsão | Nome da categoria de previsão de oportunidade | String | Nome da categoria de previsão que é exibido nos relatórios para uma determinada categoria de previsão. |
+| `isClosed` | Sinalizador fechado | Oportunidade fechada | String | Sinalizador que indica se a oportunidade está fechada. |
+| `isWon` | Sinalizador conquistado | Oportunidade ganha | String | Sinalizador que indica se a oportunidade foi conquistada. |
+| `lastActivityDate` | Data da última atividade | Data da última atividade | String | Data da última atividade para a oportunidade. |
+| `leadSource` | Fonte do lead | Fonte do lead | String | Source da oportunidade, como Anúncio, Parceiro ou Web. |
+| `nextStep` | Próxima etapa | Próxima etapa da oportunidade | String | Descrição da próxima tarefa para fechar a oportunidade. |
+| `opportunityAmount.amount` | Valor da oportunidade | Valor total da oportunidade | String | Valor total estimado da venda da oportunidade. |
+| `opportunityDescription` | Descrição da oportunidade | Descrição da oportunidade | String | Informações adicionais para descrever a oportunidade, como possíveis produtos para vender ou compras anteriores do cliente. |
+| `opportunityName` | Nome da oportunidade | Nome da oportunidade | String | Assunto ou nome descritivo, como o pedido esperado ou o nome da empresa, para a oportunidade. |
+| `opportunityQuantity` | Quantidade da oportunidade | Quantidade da oportunidade | String | Total de todos os valores do campo de quantidade para todos os produtos na lista de Produtos relacionada para a oportunidade. |
+| `opportunityStage` | Estágio da oportunidade | Estágio da oportunidade | String | Estágio de vendas da oportunidade para ajudar a equipe de vendas em seus esforços para ganhá-la. |
+| `opportunityType` | Tipo de oportunidade | Tipo de oportunidade | String | Tipo atribuído à oportunidade, como _Negócios Existentes _ ou _Novos Negócios_ |
+| `probabilityPercentage` | Porcentagem de probabilidade | Porcentagem de probabilidade da oportunidade | String | Probabilidade de fechamento da oportunidade, expressa em porcentagem. |
