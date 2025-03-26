@@ -2,9 +2,9 @@
 title: Documentação do Adobe Journey Optimizer edição B2B
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B edition para orquestrar jornadas de contas e grupos de compras usando IA gerativa integrada e a automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -31,11 +31,17 @@ Com o licenciamento Adobe Express Enterprise, você pode aproveitar um conjunto 
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Saiba mais sobre a edição de imagens com o Adobe Express"}
 
->[!TAB Encaminhamento de eventos da AEP]
+>[!TAB Campos personalizáveis de fragmento]
 
-Agora, os administradores podem configurar as definições de evento com base no Adobe Experience Platform (AEP). Essas configurações permitem que os profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência da AEP.
+Como designer de conteúdo, você pode designar um parâmetro para um componente no fragmento como editável. Isso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão.
 
-[!BADGE Saiba mais]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Saiba mais sobre as definições de evento da AEP usadas para a orquestração de jornadas"}
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Saiba mais sobre campos personalizados para fragmentos de conteúdo"}
+
+>[!TAB encaminhamento de eventos do AEP]
+
+Agora, os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP). Essas configurações permitem que os profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência do AEP.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Saiba mais sobre as definições de evento do AEP usadas para a orquestração de jornadas"}
 
 >[!TAB Filtros de grupo de compra para listas inteligentes]
 

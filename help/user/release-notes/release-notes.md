@@ -2,10 +2,10 @@
 title: Notas de versão
 description: Notas de versão mais recentes do Adobe Journey Optimizer edição B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 10%
+source-wordcount: '1601'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,21 @@ O Journey Optimizer B2B edition é construído nativamente no [!DNL Adobe Experi
 
 Revise a [descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, medidas de proteção de desempenho e limitações.
 
-## Notas da versão de janeiro de 2025 {#Jan-2025}
+## Notas de versão 2025.2
+
+**Data de lançamento**: 11 de março de 2025
+
+Esta versão inclui os seguintes novos recursos e melhorias:
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Novo recurso | Campos personalizáveis — fragmentos de conteúdo | Como designer de fragmento de conteúdo, você pode designar um parâmetro para um componente no fragmento como editável. Isso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão. <a href="../content/fragment-authoring.md#enable-custom-fields">Saiba mais</a> |
+| Novo recurso | Funções integradas B2B e permissões de produto | O Experience Platform agora inclui um conjunto de funções integradas (padrão) que você pode usar para gerenciar o acesso aos recursos do produto B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Saiba mais</a> <br/>Os administradores agora podem definir funções personalizadas no Adobe Experience Platform para incluir permissões de produto do Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">Saiba mais</a> |
+| Aprimoramento | Quatro modelos de email de amostra adicionais | A biblioteca de modelos de e-mail de exemplo agora inclui quatro modelos do SecurFinancial como exemplos de reengajamento, informação, criação e exemplos de conteúdo de feedback |
+
+
+
+## Notas de versão 2025.1 {#Jan-2025}
 
 **Data de lançamento**: 6 de fevereiro de 2025
 
@@ -25,7 +39,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Novo recurso | Encaminhamento de evento de experiência | Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP). Essas configurações permitem que os profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência da AEP.  <a href="../admin/configure-aep-events.md">Saiba mais</a> |
+| Novo recurso | Encaminhamento de evento de experiência | Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP). Essas configurações permitem que os profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência do AEP.  <a href="../admin/configure-aep-events.md">Saiba mais</a> |
 | Novo recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de caminhos divididos em uma jornada de conta para segmentar públicos da conta com base em um comportamento específico e identificar contas que exigem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externos por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
 | Novo recurso | Painel inteligente | Visualize a progressão dos grupos de compras por meio de suas jornadas de conta, incluindo insights gerados por IA para análises mais inteligentes e priorização de conta precisa. <a href="../dashboards/intelligent-dashboard.md">Saiba mais</a> |
 | Novo recurso | Detalhes do grupo de compras e da conta | Visualize insights no grupo de compras e no nível da conta para ter mais dados de contexto e histórico quando você começar a se envolver com um cliente.<p>Os detalhes do grupo de compras incluem qualquer intenção própria detectada. <a href="../buying-groups/buying-group-details.md">Saiba mais</a><p>As contas de detalhes da conta destacam o aumento da intenção de envolvimento detectada, para que você possa alertar as vendas sobre contas que estão prontas para o envolvimento focado em vendas personalizado.  <a href="../accounts/account-details.md">Saiba mais</a> |
@@ -46,7 +60,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Novo recurso | Conteúdo condicional em modelos de email | Personalize seu conteúdo de email com base no comportamento do recipient e nas características do perfil, tanto no nível da conta quanto no nível de lead. <p>Ao criar um email para sua jornada de conta no designer de email, use regras condicionais para definir várias variantes para qualquer componente de conteúdo. <a href="../content/conditional-content.md">Saiba mais</a> |
+| Novo recurso | Conteúdo condicional em modelos de email | Personalize seu conteúdo de email com base no comportamento do recipient e nas características do perfil, tanto no nível da conta quanto no nível de lead. <p>Ao criar um email para sua jornada de conta no espaço de design visual de email, use regras condicionais para definir várias variantes para qualquer componente de conteúdo. <a href="../content/conditional-content.md">Saiba mais</a> |
 | Novo recurso | _Adicionar à Lista_ e _Remover da lista_ ações de pessoas no jornada | Personalize seu conteúdo de email com base no comportamento do recipient e nas características do perfil, tanto no nível da conta quanto no nível de lead. <a href="../journeys/action-nodes.md">Saiba mais</a> |
 | Novo recurso | Governança de conteúdo e bloqueio de componentes | Para garantir a adesão aos designs de conteúdo aprovados, use os recursos de governança de conteúdo para bloquear componentes de conteúdo do modelo de email. Com a governança de conteúdo ativada no modelo de email, os profissionais de marketing podem alterar apenas os elementos permitidos para mantê-lo alinhado à estratégia de conteúdo. <a href="../content/template-content-governance.md">Saiba mais</a> |
 | Novo recurso | Estágios do grupo de compra | Ao definir e publicar um modelo de preparo de grupos de compra personalizados, você pode rastrear a progressão dos grupos de compra nos estágios do ciclo de vida do grupo de compra. Use esses estágios para identificar as próximas melhores ações para membros do grupo de compras. Você configura as regras de transição e os nós de jornada que determinam a progressão do estágio e acionam as ações com base nas alterações. <a href="../buying-groups/buying-group-stages.md">Saiba mais</a> |
