@@ -2,10 +2,11 @@
 title: Criar e publicar uma Jornada de conta
 description: Saiba como criar e publicar jornadas de conta.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 2%
 
 ---
 
@@ -34,10 +35,10 @@ O _mapa de jornadas_ é a zona central no designer de jornadas. É nessa zona qu
 Depois de criar uma jornada de conta e adicionar o público-alvo, crie a jornada usando nós. O mapa de jornadas fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar uma jornada de conta:
 
 * [Realizar uma ação](./action-nodes.md)
-* [Ouvir um evento](./listen-for-event-nodes.md)
+* [Monitorar um evento](./listen-for-event-nodes.md)
 * [Dividir caminhos](./split-merge-paths-nodes.md)
 * [Aguardar](./wait-nodes.md)
-* [Caminhos de mesclagem](./split-merge-paths-nodes.md)
+* [Mesclar caminhos](./split-merge-paths-nodes.md)
 
 ## Medidas de proteção
 
@@ -109,7 +110,7 @@ Ao publicar uma jornada, ela pode começar imediatamente ou em uma data futura p
 
 ## Publicar uma jornada de conta
 
-Se a jornada da conta estiver sem erros, você poderá publicá-la.
+Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Live_. Se a jornada tiver erros, o botão _[!UICONTROL Publicar]_ ficará esmaecido com as informações de conteúdo: `Resolve errors before publishing`.
 
 1. Na parte superior direita do mapa de jornadas, clique em **[!UICONTROL Publicar]**.
 
