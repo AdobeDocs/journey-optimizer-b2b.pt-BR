@@ -1,19 +1,19 @@
 ---
 title: Usar o assistente de IA
-description: Saiba como o Assistente de IA pode ajudar você a aproveitar ao máximo os recursos do Journey Optimizer B2B Edition.
+description: Saiba como o Assistente de IA pode ajudar você a aproveitar ao máximo os recursos do Journey Optimizer B2B edition.
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="Beta" type="informative" tooltip="Recurso do Beta"
-source-git-commit: 3d20c8e8b9e5b8bc37274fc170edec80e142ad8e
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+source-git-commit: e3ae3508db551cbd495be3108d555b936e2982a3
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # Usar o assistente de IA
 
-No Journey Optimizer B2B Edition, o Assistente de IA é um recurso de interface do usuário que você pode usar para entender conceitos de marketing baseados em conta e navegar e aprender rapidamente sobre os recursos do Journey Optimizer B2B Edition<!-- get operational insights for your specific environment -->. Ele também está disponível em vários produtos na Adobe Experience Cloud.
+No Journey Optimizer B2B edition, o Assistente de IA é um recurso de interface do usuário que você pode usar para entender conceitos de marketing baseados em conta e navegar e aprender rapidamente sobre os recursos do Journey Optimizer B2B edition<!-- get operational insights for your specific environment -->. Ele também está disponível em vários produtos na Adobe Experience Cloud.
 
 Para acessar o Assistente de IA, clique no ícone no cabeçalho. O Assistente de IA é aberto em um painel à direita.
 
@@ -23,11 +23,11 @@ Para acessar o Assistente de IA, clique no ícone no cabeçalho. O Assistente de
 >
 >É necessário um contrato para as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud para que você possa usar o Assistente de IA. Para obter mais informações sobre este contrato e diretrizes de uso, consulte as [Diretrizes de usuário da IA gerativa da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
-No Adobe Journey Optimizer B2B Edition, o Assistente de IA é compatível com os seguintes casos de uso:
+No Adobe Journey Optimizer B2B edition, o Assistente de IA é compatível com os seguintes casos de uso:
 
 * **Conhecimento do produto** (Beta)
 
-  As perguntas de conhecimento do produto são sobre os conceitos do Journey Optimizer B2B Edition relacionados aos aspectos do Adobe Journey Optimizer. Alguns exemplos de perguntas de conhecimento sobre produtos incluem:
+  As perguntas de conhecimento do produto são sobre os conceitos do Journey Optimizer B2B edition relacionados aos aspectos do Adobe Journey Optimizer. Alguns exemplos de perguntas de conhecimento sobre produtos incluem:
 
    * Como configurar contas do provedor de SMS?
    * Como faço para enviar um email em uma jornada de conta?
