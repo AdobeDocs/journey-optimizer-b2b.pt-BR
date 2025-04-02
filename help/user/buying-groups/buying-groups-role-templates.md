@@ -3,9 +3,9 @@ title: Comprando modelos de função de grupo
 description: Saiba mais sobre como definir um modelo de função a ser usado como um componente de grupo de compras.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1128'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 | Tipo | Condição |
 | ---- | --------- |
 | Atributos da pessoa | <li>Endereço de email <li>Email inválido <li>Email suspenso <li>Número de fax <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Segundo nome <li>Número do celular <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
-| Filtros especiais | <li>Membro da lista |
+| Filtros especiais | <li>Membro da lista <li>Membro do programa |
 | Dados de intenção | Tentativa de categoria <li>Propósito do produto <li>Tentativa de palavra-chave<br/>[Saiba mais sobre dados de intenção](../admin/intent-data.md). |
 
 1. Para o primeiro cartão de função, defina as propriedades da função.
@@ -111,11 +111,11 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
    ![Modelo de funções com várias funções definidas](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX &quot;associação à lista de Marketo Engage&quot;]
+>[!BEGINSHADEBOX &quot;associação à lista do Marketo Engage&quot;]
 
-No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista de Marketo Engage como uma condição para seu modelo de funções para ajudar a eliminar a duplicação na compra de associação de grupo e atividades de jornada.
+No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista do Marketo Engage como uma condição para seu modelo de funções para ajudar a eliminar a duplicação na compra de associação de grupo e atividades de jornada.
 
-Para usar a associação de lista como uma condição de função, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Em seguida, conclua a definição do filtro para avaliar a associação em uma ou mais listas de Marketo Engage.
+Para usar a associação de lista como uma condição de função, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Em seguida, conclua a definição do filtro para avaliar a associação em uma ou mais listas do Marketo Engage.
 
 ![Condição de modelo de funções para associação à lista de Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
@@ -123,9 +123,9 @@ Para usar a associação de lista como uma condição de função, expanda **[!U
 
 Suas alterações são salvas automaticamente no status _Rascunho_. Se você não estiver pronto para publicar o modelo de funções, clique na seta para a esquerda (para trás) na parte superior da página e retorne à lista _[!UICONTROL Modelos de funções]_.
 
-### Publish o modelo de funções
+### Publicar o modelo de funções
 
-Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publish]** no canto superior direito.
+Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publicar]** no canto superior direito.
 
 A publicação do modelo define o status como _Ativo_ e o disponibiliza para associação com um interesse de solução. Deve haver pelo menos uma função definida para publicar o modelo de funções.
 
