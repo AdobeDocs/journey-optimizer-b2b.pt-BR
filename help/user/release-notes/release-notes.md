@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão mais recentes do Adobe Journey Optimizer edição B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Novo recurso | Listas de contas | Agora é possível criar uma lista de contas estática ou dinâmica para direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. <a href="../accounts/account-lists.md">Saiba mais</a> |
-| Novo recurso | Meus tokens para jornadas de conta | Agora é possível definir um conjunto de tokens personalizados com valores específicos para a jornada da conta. Este conjunto de tokens personalizados é chamado de _Meus tokens_, e qualquer um desses tokens personalizados serve para personalização ao criar emails de jornada. |
+| Novo recurso | Meus tokens para jornadas de conta | Agora é possível definir um conjunto de tokens personalizados com valores específicos para a jornada da conta. Este conjunto de tokens personalizados é chamado de _Meus tokens_, e qualquer um desses tokens personalizados serve para personalização ao criar emails de jornada. <a href="../content/personalization-my-tokens.md">Saiba mais</a> |
 | Novo recurso | Excluir estágios de grupo de compra | Você pode excluir o modelo de estágios de grupo de compras quando está em um estado de rascunho ou publicado. Se for publicado (em tempo real), você poderá excluí-lo somente quando não estiver associado a um interesse de solução. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Saiba mais</a> |
 | Aprimoramento | Jornada contagens de nós | Melhoria na visibilidade das contagens de associação do jornada no nível do nó. Use essas informações para validar a progressão da conta em uma jornada. |
 
