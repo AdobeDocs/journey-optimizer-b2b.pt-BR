@@ -3,9 +3,9 @@ title: Criação de SMS
 description: Saiba como enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis e personalizar e visualizar mensagens no formato de texto pelo editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -78,19 +78,19 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
 1. Na caixa de diálogo, escolha o tipo de URLs a serem vinculados:
 
-   * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer uma das páginas de aterrissagem aprovadas do Adobe Marketo Engage Design Studio da sua instância do Marketo Engage. Selecione o espaço de trabalho e selecione a landing page.
+   * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer uma das páginas de aterrissagem aprovadas do Adobe Marketo Engage da sua instância do Marketo Engage. Selecione o espaço de trabalho e selecione a landing page.
 
    * **[!UICONTROL URL Externa]** - Esse tipo é qualquer URL externa que você digitar na caixa de texto.
 
 1. Se você optar por usar uma landing page, defina as opções de rastreamento.
 
-   * **[!UICONTROL Habilitar rastreamento]** - Marque esta caixa de seleção para habilitar o rastreamento, o que requer _redução_ da URL. Para uma página de aterrissagem, ela usa o subdomínio Marketo Engage para o URL mais curto. Uma amostra do formato de URL mais curto é exibida. O URL real é criado quando o SMS é enviado ao recipient.
+   * **[!UICONTROL Habilitar rastreamento]** - Marque esta caixa de seleção para habilitar o rastreamento, o que requer _redução_ da URL. Para uma página de aterrissagem, ela usa o subdomínio do Marketo Engage para o URL mais curto. Uma amostra do formato de URL mais curto é exibida. O URL real é criado quando o SMS é enviado ao recipient.
 
    * **[!UICONTROL Incluir mkt_tok]** - Marque esta caixa de seleção para rastrear a atividade em relação a um usuário.
 
      >[!NOTE]
      >
-     >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento de atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desabilite esta opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
+     >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento das atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desabilite esta opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
      >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
@@ -101,7 +101,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
 1. Na seção _[!UICONTROL Propriedades de SMS]_, insira um **[!UICONTROL Nome]** (obrigatório, máximo de 100 caracteres) e uma **[!UICONTROL Descrição]** (opcional, máximo de 300 caracteres) para a mensagem.
 
-   Caracteres especiais, numéricos e de Alpha são permitidos nesses campos. Os seguintes caracteres reservados são **não permitidos**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
+   São permitidos caracteres Alpha, numéricos e especiais nesses campos. Os seguintes caracteres reservados são **não permitidos**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
 
 1. Escolha o **[!UICONTROL Tipo de SMS]**:
 
@@ -116,7 +116,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
    ![Executar uma ação - enviar sms](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   O número do destinatário é sempre mapeado para o campo `Lead.mobilePhone` no Marketo Engage.
+   O número do recipient é sempre mapeado para o campo `Lead.mobilePhone` no Marketo Engage.
 
 ### Simular o conteúdo da mensagem de texto {#preview-test}
 
@@ -137,7 +137,7 @@ Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para
 
 1. Use a página _Simular Conteúdo_ para gerenciar os clientes em potencial usados para seu perfil de teste.
 
-   Na lista exibida, você pode pesquisar e adicionar qualquer um dos leads (até 10 leads de cada vez) do banco de dados de leads do Marketo Engage.
+   Na lista exibida, procure e adicione qualquer um dos leads (até 10 leads de cada vez) do banco de dados de leads da Marketo Engage.
 
    Para pesquisar, digite o endereço de email completo e pressione _Enter_. O perfil de lead correspondente é exibido para seleção.
 
@@ -165,4 +165,4 @@ O Journey Optimizer B2B edition fornece a capacidade de gerenciar a opção de n
 
 * Por padrão, se um cliente potencial optar por não receber comunicações de você, o perfil correspondente será excluído dos deliveries de SMS subsequentes
 
-* Esse consentimento principal vindo de diferentes fontes (como a AEP ou o provedor de serviços SMS) é sincronizado com o Journey Optimizer B2B edition. Atualmente, ele suporta apenas um único estado de consentimento por lead no nível da instância (uma &quot;John Doe&quot; lead recebe ou cancela a assinatura de todos os SMS promocionais na instância). No momento, não há suporte para aceitação dupla no nível da marca/consentimento no nível da lista de assinaturas individuais.
+* Esse consentimento principal vindo de diferentes fontes (como o AEP ou o provedor de serviços SMS) é sincronizado com o Journey Optimizer B2B edition. Atualmente, ele suporta apenas um único estado de consentimento por lead no nível da instância (uma &quot;John Doe&quot; lead recebe ou cancela a assinatura de todos os SMS promocionais na instância). No momento, não há suporte para aceitação dupla no nível da marca/consentimento no nível da lista de assinaturas individuais.

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer edição B2B
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer edição B2B e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compra usando a IA gerativa integrada e a automação líder do setor.
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 36%
+source-wordcount: '240'
+ht-degree: 38%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 36%
    + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)
    + [Jornada nós](./journeys/journey-nodes.md)
    + Jornada nós {#journey-nodes}
-      + [Público-alvo de conta](./journeys/account-audience-nodes.md)
+      + [Público-alvo da conta](./journeys/account-audience-nodes.md)
       + [Realizar uma ação](./journeys/action-nodes.md)
-      + [Ouvir um evento](./journeys/listen-for-event-nodes.md)
+      + [Monitorar um evento](./journeys/listen-for-event-nodes.md)
       + [Dividir e mesclar caminhos](./journeys/split-merge-paths-nodes.md)
       + [Aguardar](./journeys/wait-nodes.md)
    + [Detalhes da jornada](./journeys/journey-details.md)
@@ -36,6 +36,7 @@ ht-degree: 36%
       + [Assistente de IA para criação de email](./content/ai-assistant-emails.md)
       + [Modelos controlados](./content/email-authoring-governance.md)
       + [Email de alerta de vendas](./content/sales-alert-email.md)
+   + [Tokens de personalização personalizados](./content/personalization-my-tokens.md)
    + [Criação de SMS](./content/sms-authoring.md)
 + Contas {#accounts}
    + [Públicos-alvo](./audiences/account-audience-overview.md)
@@ -64,11 +65,15 @@ ht-degree: 36%
       + Modelos de email {#email-templates}
          + [Visão geral](./content/email-templates.md)
          + [Criação de modelo de email](./content/email-template-authoring.md)
-      + [Modelos de páginas](./content/landing-page-templates.md)
+      + Modelos de página de aterrissagem {#landing-page-templates}
+         + [Visão geral](./content/landing-page-templates.md)
+         + [Design do modelo de landing page](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Visão geral](./content/fragments.md)
       + [Criação de fragmentos](./content/fragment-authoring.md)
-   + [Formulários](./content/forms.md)
+   + Forms {#forms}
+      + [Visão geral](./content/forms.md)
+      + [Design do formulário](./content/form-design.md)
    + Páginas de destino {#landing-pages}
       + [Visão geral](./content/landing-pages.md)
       + [Design da landing page](./content/landing-page-design.md)

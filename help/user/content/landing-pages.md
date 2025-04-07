@@ -2,31 +2,30 @@
 title: Páginas de aterrissagem
 description: Saiba mais sobre landing pages e como criá-las e gerenciá-las para oferecer suporte a jornadas e campanhas de conta.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 2%
 
 ---
 
 # Páginas de destino
 
-Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas nas jornadas da conta para que seus clientes potenciais e clientes visualizem suas mensagens na Web, além de avançar nas jornadas da conta. Você pode criar, personalizar e visualizar páginas de aterrissagem na Designer de páginas de aterrissagem.
+Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas nas jornadas da conta para que seus clientes potenciais e clientes visualizem suas mensagens na Web, além de avançar nas jornadas da conta. Você pode criar, personalizar e visualizar páginas de aterrissagem no espaço de design visual da página de aterrissagem.
 
 Para direcionar seus clientes para uma página da Web definida quando clicarem em um link específico, crie uma página de aterrissagem no Journey Optimizer B2B edition.
 
 * Criar a página
 * Projetar a página de aterrissagem e o conteúdo do autor
 * Testar a página
-* Publish da página
+* Publicar a página
 * Link para a página do conteúdo da jornada
 
 Por exemplo, você pode criar e projetar páginas de aterrissagem para direcionar seus usuários para informações online. A página pode incluir um formulário no qual eles possam aceitar ou recusar receber suas comunicações. Ou pode ser uma oportunidade de assinar uma comunicação recorrente, como um boletim informativo.
 
-Você pode criar, personalizar e pré-visualizar páginas de aterrissagem no designer visual.
+Você pode criar, personalizar e pré-visualizar páginas de aterrissagem no espaço de design visual.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ O status da landing page determina a disponibilidade para vinculação no conte�
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Editar no designer visual<li>Publicar<li>Duplicar<li>Excluir |
+| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
 | Publicado | Ao publicar uma landing page, ela é hospedada na instância do Journey Optimizer B2B edition e fica disponível para vinculação em um conteúdo de mensagem de email ou SMS. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Criar versão de rascunho<li>Duplicar<li>Excluir |
-| Publicado com rascunho | Ao criar um rascunho a partir de uma página de aterrissagem publicada, a versão publicada permanece e o conteúdo de rascunho pode ser modificado no designer visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado na página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Editar versão de rascunho no visual designer<li>Versão de rascunho do Publish<li>Duplicar<li>Excluir (exclui ambas as versões)<li>Descartar rascunho (retorna para publicado) |
+| Publicado com rascunho | Ao criar um rascunho de uma página de aterrissagem publicada, a versão publicada permanece e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado na página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (exclui ambas as versões)<li>Descartar rascunho (retorna ao status publicado) |
 
 ![Ciclo de vida do status da página de aterrissagem](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -76,7 +75,7 @@ Você pode adicionar uma nova página de aterrissagem no Journey Optimizer B2B e
 
    * Descrição - Máximo de 300 caracteres
 
-   * Alpha, caracteres numéricos e especiais são permitidos
+   * São permitidos caracteres Alpha, numéricos e especiais
 
    * Os caracteres reservados **_não são permitidos_**: `\ / : * ? " < > |`
 
@@ -90,7 +89,7 @@ Você pode adicionar uma nova página de aterrissagem no Journey Optimizer B2B e
 
    ![Escolha como deseja começar com o design da sua página de aterrissagem](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   Após selecionar o método que deseja usar para iniciar o design da página de aterrissagem, use o designer visual para [criar a página](./landing-page-design.md).
+   Após selecionar o método que deseja usar para iniciar o design da página de aterrissagem, use o espaço de design visual para [criar a página](./landing-page-design.md).
 
 ### Criar do zero
 
@@ -102,7 +101,7 @@ Use o editor de conteúdo visual para definir a estrutura do conteúdo da págin
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B edition permite importar conteúdo de HTML existente para criar suas páginas de aterrissagem.
+O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HTML para criar suas páginas de aterrissagem.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -110,9 +109,9 @@ O Adobe Journey Optimizer B2B edition permite importar conteúdo de HTML existen
 
 >[!NOTE]
 >
->Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
+>Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-Você pode personalizar o conteúdo importado conforme necessário com o designer visual.
+Você pode personalizar o conteúdo importado conforme necessário com o espaço de design visual.
 
 ### Selecionar um modelo salvo
 
@@ -142,7 +141,7 @@ Após a seleção, é exibida uma pré-visualização do modelo. No modo de visu
 
 Quando a exibição corresponder ao que você deseja usar, clique em **[!UICONTROL Usar este modelo]** na parte superior direita da janela de visualização.
 
-Essa ação copia o conteúdo no designer de conteúdo visual, onde você pode editar o conteúdo conforme necessário.
+Essa ação copia o conteúdo para o espaço de design visual, onde você pode editar o conteúdo conforme necessário.
 
 >[!TAB Modelos de exemplo]
 
@@ -177,9 +176,9 @@ As edições em uma landing page dependem do status atual:
 
    ![Detalhes da página de aterrissagem com status Rascunho](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. Para fazer alterações no conteúdo do designer visual, clique em **[!UICONTROL Editar página de aterrissagem]**.
+1. Para fazer alterações no conteúdo do espaço de design visual, clique em **[!UICONTROL Editar página de aterrissagem]**.
 
-   Use as ferramentas do designer visual conforme necessário:
+   Use as ferramentas de design visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./landing-page-design.md#add-structure-and-content)
    * [Adicionar o Assets](./landing-page-design.md#add-assets)
@@ -189,7 +188,7 @@ As edições em uma landing page dependem do status atual:
 
 1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes da página de aterrissagem.
 
-1. Quando a página atender aos seus critérios e você desejar disponibilizá-la para exibição, clique em **[!UICONTROL Publish]**.
+1. Quando a página atender aos seus critérios e você desejar disponibilizá-la para exibição, clique em **[!UICONTROL Publicar]**.
 
 >[!TAB Publicado]
 
@@ -203,11 +202,11 @@ As edições em uma landing page dependem do status atual:
 
 1. Para atualizar o conteúdo, clique em **[!UICONTROL Editar página de aterrissagem]** à direita.
 
-   Clique em **[!UICONTROL Criar versão de rascunho]** na caixa de diálogo para abrir a versão de rascunho no designer visual.
+   Clique em **[!UICONTROL Criar versão de rascunho]** na caixa de diálogo para abrir a versão de rascunho no espaço de design visual.
 
    ![Criar caixa de diálogo de versão de rascunho](./assets/landing-page-create-draft-version.png){width="300"}
 
-   Use as ferramentas do designer visual conforme necessário:
+   Use as ferramentas de design visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./landing-page-design.md#add-structure-and-content)
    * [Adicionar o Assets](./landing-page-design.md#add-assets)
@@ -217,7 +216,7 @@ As edições em uma landing page dependem do status atual:
 
 1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes da página de aterrissagem.
 
-1. Quando a página de aterrissagem de rascunho atender aos seus critérios e você quiser disponibilizar as alterações na página publicada, clique em **[!UICONTROL Publish]**.
+1. Quando a landing page de rascunho atender aos seus critérios e você quiser disponibilizar as alterações na página publicada, clique em **[!UICONTROL Publicar]**.
 
    Ao publicar a versão de rascunho, ela substitui a versão publicada atual e o conteúdo é atualizado para o URL da página.
 
@@ -229,7 +228,7 @@ Ao abrir a landing page, a versão de rascunho é exibida por padrão. As guias 
 
 Para atualizar o conteúdo:
 
-1. Clique em **[!UICONTROL Editar página de aterrissagem]** na parte superior direita. Use as ferramentas do designer visual conforme necessário:
+1. Clique em **[!UICONTROL Editar página de aterrissagem]** na parte superior direita. Use as ferramentas de design visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./landing-page-design.md#add-structure-and-content)
    * [Adicionar o Assets](./landing-page-design.md#add-assets)
@@ -239,7 +238,7 @@ Para atualizar o conteúdo:
 
 1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes da página de aterrissagem.
 
-1. Quando a página de rascunho atender aos seus critérios e você desejar disponibilizar as alterações, clique em **[!UICONTROL Publish]**.
+1. Quando a página de rascunho atender aos seus critérios e você desejar disponibilizar as alterações, clique em **[!UICONTROL Publicar]**.
 
    Ao publicar a versão de rascunho, ela substitui a versão publicada atual e o conteúdo é atualizado na página hospedada.
 
@@ -292,3 +291,33 @@ A página duplicada (nova) aparece na listagem _Landing pages_.
 Essa ação abre uma caixa de diálogo de confirmação. Você pode anular o processo clicando em **[!UICONTROL Cancelar]** ou em **[!UICONTROL Excluir]** para confirmar a exclusão.
 
 ![Excluir caixa de diálogo da página de aterrissagem](./assets/landing-page-delete-dialog.png){width="400"}
+
+## Link para uma landing page
+
+Como profissional de marketing ou Designer que cria conteúdo de email, fragmento e página, você pode incorporar links às páginas de aterrissagem publicadas (online) criadas na instância do Journey Optimizer B2B edition.
+
+1. Conforme você trabalha no espaço de design visual de um fragmento, email, página de aterrissagem ou modelo, selecione um trecho de texto, um componente de botão ou um componente de imagem para o link.
+
+   As opções **[!UICONTROL Link]** são exibidas no painel direito.
+
+1. Para a opção **[!UICONTROL Tipo]**, escolha **[!UICONTROL Página de aterrissagem]**.
+
+   ![Opções de link para uma página de aterrissagem](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. Na opção **[!UICONTROL Página de aterrissagem]**, clique no ícone _Selecionar página_ ( ![Ícone Mostrar links](/help/assets/do-not-localize/icon-landing-page-select.svg) ).
+
+1. Na caixa de diálogo Selecionar página de aterrissagem, defina a **[!UICONTROL Origem da página de aterrissagem]** como **[!UICONTROL Journey Optimizer B2B edition]**, marque a caixa de seleção da página de aterrissagem na lista de páginas publicadas e clique em **[!UICONTROL Selecionar]**.
+
+   ![Opções de link para uma página de aterrissagem](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. Para a opção **[!UICONTROL Target]**, escolha o comportamento de destino do link:
+
+   * **[!UICONTROL Nenhum]** - abre o link usando o comportamento padrão do navegador.
+   * **[!UICONTROL Em branco]** - abre o link em uma nova janela ou guia.
+   * **[!UICONTROL Self]** - abre o link no mesmo quadro.
+   * **[!UICONTROL Pai]** - abre o link no quadro pai.
+   * **[!UICONTROL Superior]** - abre o link no corpo inteiro da janela.
+
+1. (Somente link de texto) Se quiser sublinhar o texto vinculado, marque a caixa de seleção **[!UICONTROL Sublinhar link]**.
+
+   É possível definir um estilo adicional para o texto do link, incluindo a cor do link, selecionando a guia **[!UICONTROL Estilos]** no painel direito.

@@ -1,31 +1,30 @@
 ---
-title: Design da landing page
-description: Saiba como projetar e criar conteúdo para suas páginas de aterrissagem que oferecem suporte a jornadas e campanhas de conta.
+title: Design do modelo de landing page
+description: Saiba como projetar e criar conteúdo para modelos de página de aterrissagem que os profissionais de marketing podem reutilizar para criar páginas de aterrissagem.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
-exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: f0658fad82d6656bc052c1810530963404e29396
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 18%
+source-wordcount: '319'
+ht-degree: 9%
 
 ---
 
-# Design da landing page
+# Design do modelo de landing page
 
-Depois de [criar uma página de aterrissagem](./landing-pages.md#create-a-landing-page), use o espaço de design visual para criar os componentes estruturais e de conteúdo na sua página.
+Depois de [criar um modelo de página de aterrissagem](./landing-page-templates.md#create-a-landing-page-template), use o espaço de design visual para criar os componentes estruturais e de conteúdo no seu modelo de página.
 
 ## Adicionar estrutura e conteúdo {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
+>id="ajo-b2b_landing_page_template_structure"
 >title="Adicionar componentes de estrutura à página de destino"
->abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente de **estrutura** na tela para começar a criar o conteúdo da sua página."
+>abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente **Estrutura** na tela para começar a projetar o conteúdo para o seu modelo de página."
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
+>id="ajo-b2b_landing_page_template_content_components"
 >title="Sobre os componentes de conteúdo para páginas de destino"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
+>abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que podem ser usados para criar o layout de um modelo de página de aterrissagem."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -51,9 +50,9 @@ Depois de [criar uma página de aterrissagem](./landing-pages.md#create-a-landin
 
 ### Salve o trabalho
 
-Clique em **[!UICONTROL Salvar]** a qualquer momento para salvar a landing page de rascunho.
-
-Você pode continuar a fazer edições na página de rascunho. Quando estiver pronto para exibir a página e disponibilizá-la para vinculação em uma mensagem de email ou SMS, você poderá publicar a página.
+Clique em **[!UICONTROL Salvar]** a qualquer momento para salvar o modelo de página de destino.
+<!--
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### Exibir opções
 

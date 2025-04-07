@@ -3,9 +3,9 @@ title: Estágios de Grupo de Compras
 description: Saiba mais sobre estágios de grupo de compras e como defini-los para rastrear a progressão da jornada em relação às metas de vendas.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ As regras de transição determinam como um grupo de compras pode se mover de um
 
 Desde que o modelo de estágios do grupo de compra permaneça em um estado de _Rascunho_, você pode editar os estágios e as regras de transição.
 
-Para exibir o modelo preliminar:
+_Para exibir o modelo de rascunho:_
 
 1. Na navegação à esquerda, vá para **[!UICONTROL Contas]** > **[!UICONTROL Grupos de Compras]**.
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## Excluir o modelo de estágios de grupo de compra
+
+Você pode excluir o modelo de estágios de grupo de compras quando está em um estado de rascunho ou publicado. Se for publicado (em tempo real), você poderá excluí-lo somente quando não estiver associado a um interesse de solução.
+
+1. Na navegação à esquerda, vá para **[!UICONTROL Contas]** > **[!UICONTROL Grupos de Compras]**.
+
+1. Na página _Grupos de Compra_, selecione a guia **[!UICONTROL Estágios]**.
+
+1. Clique no ícone de menu _Mais_ (**...**) ao lado do nome do modelo de estágios e escolha **[!UICONTROL Excluir]**.
+
+   ![Menu Mais de modelos de estágios de grupo de compras](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. Na caixa de diálogo, clique em **[!UICONTROL Excluir]** para confirmar.
 
 ## Usar o modelo nas jornadas da conta
 

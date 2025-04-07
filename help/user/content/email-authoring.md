@@ -3,10 +3,10 @@ title: Criação de email
 description: Saiba como criar conteúdo de email personalizado que é usado em uma Jornada de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 12%
+source-wordcount: '1297'
+ht-degree: 11%
 
 ---
 
@@ -144,6 +144,10 @@ Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento
 ### Personalizar conteúdo
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>Se _[!UICONTROL Meus tokens]_ forem definidos para a jornada da conta, você também poderá usar esses tokens específicos da jornada para o seu conteúdo de email. Consulte [Personalizar tokens para personalização de email](./personalization-my-tokens.md) para obter mais informações.
 
 ### Editar rastreamento de URL vinculado
 

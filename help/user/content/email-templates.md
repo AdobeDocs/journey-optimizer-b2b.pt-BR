@@ -3,9 +3,9 @@ title: Modelos de e-mail
 description: Saiba como gerenciar e criar modelos de email usados para criar emails de jornada de conta de forma fácil e eficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para pesquisar um modelo por nome, digite uma string de texto na barra de pesqui
 
 ![Acessar a biblioteca de modelos de email e filtrar por nome e datas](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Personalize as colunas que deseja exibir na tabela clicando no ícone _Personalizar tabela_ na parte superior direita. Selecione as colunas a serem exibidas e clique em **[!UICONTROL Aplicar]**.
+Personalize as colunas que deseja exibir na tabela clicando no ícone _Personalizar tabela_ ( ![Ícone Personalizar tabela](../assets/do-not-localize/icon-column-settings.svg) ) na parte superior direita. Selecione as colunas a serem exibidas e clique em **[!UICONTROL Aplicar]**.
 
 Na lista exibida de modelos, é possível realizar as ações descritas nas seções a seguir.
 
@@ -58,7 +58,7 @@ Use o editor de conteúdo visual para definir a estrutura do conteúdo de email.
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B edition permite importar conteúdo de HTML existente para criar seus modelos de email.
+O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HTML para criar seus modelos de email.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -66,7 +66,7 @@ O Adobe Journey Optimizer B2B edition permite importar conteúdo de HTML existen
 
 >[!NOTE]
 >
->Usar uma marca `<table>` como a primeira camada em um arquivo de HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
+>Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
 Você pode personalizar o conteúdo importado conforme necessário com o designer visual.
 
