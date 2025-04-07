@@ -3,10 +3,10 @@ title: Grupos de compra
 description: Saiba como os grupos de compra no Journey Optimizer B2B edition podem aumentar a eficácia do marketing ao identificar e direcionar membros para suas listas de conta.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
+source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 17%
+source-wordcount: '1784'
+ht-degree: 18%
 
 ---
 
@@ -27,8 +27,8 @@ Você pode aumentar a eficácia do marketing estabelecendo grupos de compra no J
 
 | Componente | Finalidade |
 | --------- | ------- |
-| Interesse na solução | Esse componente fornece a resposta para: <ul><li>Como organização de marketing, o que você está vendendo?</li><li>Que produto ou coleção de produtos você pretende vender?</li></ul>  **_Exemplo:_** venda cruzada do novo Produto X para clientes existentes |
-| Público-alvo de conta | Esse componente fornece a resposta para: <ul><li>Para quem você está vendendo?</li><li>Qual é a lista de contas que você está direcionando?</li></ul> **_Exemplo:_** Segmento de conta definido por contas com o Produto Y com receita superior a 1 milhão |
+| Interesse de solução | Esse componente fornece a resposta para: <ul><li>Como organização de marketing, o que você está vendendo?</li><li>Que produto ou coleção de produtos você pretende vender?</li></ul>  **_Exemplo:_** venda cruzada do novo Produto X para clientes existentes |
+| Público-alvo da conta | Esse componente fornece a resposta para: <ul><li>Para quem você está vendendo?</li><li>Qual é a lista de contas que você está direcionando?</li></ul> **_Exemplo:_** Segmento de conta definido por contas com o Produto Y com receita superior a 1 milhão |
 | Comprando modelos de função do grupo | Esse componente fornece a resposta para: <ul><li>Quais funções você está direcionando?</li><li>Qual conjunto de regras é usado para determinar quem está atribuído às funções de grupo de compra?</li></ul>  **_Exemplo:_** Atribua uma pessoa com título de CMO à função de Tomador de Decisão |
 | Estágios do grupo de compra | (Opcional) Este componente fornece a resposta para: como o grupo de compras está rastreando o sucesso ou a falha? |
 
@@ -64,7 +64,7 @@ A página _[!UICONTROL Grupos de compras]_ é organizada como guias:
 | Tabulação | Descrição |
 | --- | ----------- |
 | [!UICONTROL Visão geral] | Esta guia é a padrão e exibe o [Painel de grupos de compra](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Procurar] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compras. </li><li>Filtrar por interesse da solução. </li><li>Detalhar detalhes do grupo de compras. </li><li>Criar um grupo de compras. Excluir um grupo de compras.</li></ul> |
+| [!UICONTROL Procurar] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compras. </li><li>Filtrar por interesse da solução. </li><li>Detalhar detalhes do grupo de compras. </li><li>Criar um grupo de compras. </li></ul> |
 | [!UICONTROL Interesses da solução] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compras. </li><li>Acesse e edite as propriedades de interesse da solução. </li><li>Criar um interesse de solução. </li><li>Excluir um interesse de solução. </li><li>Exibir e excluir ordens de produção do grupo de compras. </li></ul> |
 | [!UICONTROL Modelos de Funções] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de modelos de funções existentes. </li><li>Pesquisar por nome do modelo de funções. </li><li>Acesse e edite as propriedades e condições do modelo de funções. </li><li>Crie um modelo de funções. </li><li>Excluir um modelo de funções. </li></ul> |
 | [!UICONTROL Estágios] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir o modelo de estágios existentes de grupos de compras. </li><li>Acesse e edite o modelo de estágios de grupo de compra de rascunho. </li><li>Criar o modelo de estágios de grupo de compras. </li></ul> |
@@ -144,7 +144,7 @@ A pontuação de engajamento do grupo de compra é um número para determinar o 
 
 +++
 
-#### Ponderação
+#### Pesagem
 
 Os usuários podem atribuir _ponderação_ a cada função no modelo de funções para alocar pesos diferentes para uma função para calcular a pontuação de engajamento.
 
@@ -160,7 +160,7 @@ Cada nível de ponderação converte em um valor, que é usado para calcular a p
 
 Um modelo de funções com três funções com peso de _[!UICONTROL Vital]_, _[!UICONTROL Important]_ e _[!UICONTROL Normal]_ é convertido nas seguintes porcentagens ponderadas:
 
-| Função | Ponderação | Valor do sistema | Cálculo de valor | Porcentagem |
+| Função | Pesagem | Valor do sistema | Cálculo de valor | Porcentagem |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Tomador de decisão | Vital | 100 | 100/240 | 41,67% |
