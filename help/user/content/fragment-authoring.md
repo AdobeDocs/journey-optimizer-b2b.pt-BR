@@ -2,10 +2,11 @@
 title: Criação de fragmentos
 description: Saiba como criar fragmentos de conteúdo que podem ser reutilizados para seus emails e designs de modelo para obter eficiência e manter os padrões de design e marca.
 feature: Content
-source-git-commit: 1f551b636ef347fd65aa39a809dedba8372c3ac4
+exl-id: d29754cf-6721-489c-bff8-cde034456db2
+source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 14%
+source-wordcount: '401'
+ht-degree: 13%
 
 ---
 
@@ -39,11 +40,11 @@ Depois de [criar um fragmento](./fragments.md#create-fragments), use o editor vi
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-## Habilitar campos personalizados
+## Ativar personalização de fragmentos
 
-Quando um autor de email ou de modelo de email adiciona o fragmento, o conteúdo do fragmento é bloqueado por padrão. Quaisquer alterações no fragmento publicado são propagadas automaticamente para todos os ativos de conteúdo nos quais o fragmento é usado. Quando você designa um parâmetro para um componente no fragmento como editável, o autor do email ou modelo pode especificar um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão.
+Quando um autor adiciona um fragmento a um [modelo de email](./email-authoring.md#content-authoring---use-visual-fragments) ou [modelo de email](./email-template-authoring.md#content-authoring---use-visual-fragments), o conteúdo do fragmento é bloqueado por padrão. Quaisquer alterações no fragmento publicado são propagadas automaticamente para todos os ativos de conteúdo nos quais o fragmento é usado. Quando você designa um parâmetro para um componente no fragmento como editável, o autor do email ou modelo pode especificar um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão.
 
-Por exemplo, se você criar um banner reutilizável que inclua um botão clicável, poderá designar o parâmetro de URL do botão como editável. Os autores de email podem usar um URL mais específico para a campanha de email. Com esses campos personalizáveis, os profissionais de marketing podem gerenciar e personalizar o conteúdo sem a necessidade de criar blocos de conteúdo totalmente novos ou interromper as atualizações herdadas do fragmento original.
+Por exemplo, se você criar um banner reutilizável que inclua um botão clicável, poderá designar o parâmetro de URL do botão como editável. Os autores de email podem usar um URL mais específico para a campanha de email. Com esses campos personalizáveis, os profissionais de marketing podem gerenciar e personalizar o conteúdo reutilizável sem a necessidade de criar blocos de conteúdo totalmente novos ou interromper as atualizações herdadas do fragmento original.
 
 1. No editor de conteúdo visual, selecione a imagem, o texto ou o elemento de botão no qual deseja habilitar a personalização.
 
@@ -51,7 +52,7 @@ Por exemplo, se você criar um banner reutilizável que inclua um botão clicáv
 
 1. Clique na opção **[!UICONTROL Habilitar edição]** e defina os campos editáveis.
 
-   ![Habilitar campos editáveis para um componente de imagem de fragmento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
+   ![Habilitar campos editáveis para um componente de imagem de fragmento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
    Você pode ativar a personalização para os campos exibidos, que dependem do tipo de componente e dos parâmetros definidos no fragmento.
 
@@ -59,7 +60,7 @@ Por exemplo, se você criar um banner reutilizável que inclua um botão clicáv
 
 1. Clique em **[!UICONTROL Visão geral]** para revisar todos os campos editáveis e seus valores padrão.
 
-   ![Revisar os campos editáveis e seus valores padrão](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
+   ![Revisar os campos editáveis e seus valores padrão](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
 1. Salve as alterações.
 
