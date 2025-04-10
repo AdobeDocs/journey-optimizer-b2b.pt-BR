@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão mais recentes do Adobe Journey Optimizer edição B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
+source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1863'
 ht-degree: 9%
 
 ---
@@ -28,7 +28,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Novo recurso | Listas de contas | Agora é possível criar uma lista de contas estática ou dinâmica para direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. <a href="../accounts/account-lists.md">Saiba mais</a> |
 | Novo recurso | Meus tokens para jornadas de conta | Agora é possível definir um conjunto de tokens personalizados com valores específicos para a jornada da conta. Este conjunto de tokens personalizados é chamado de _Meus tokens_, e qualquer um desses tokens personalizados serve para personalização ao criar emails de jornada. <a href="../content/personalization-my-tokens.md">Saiba mais</a> |
 | Novo recurso | Excluir estágios de grupo de compra | Você pode excluir o modelo de estágios de grupo de compras quando está em um estado de rascunho ou publicado. Se for publicado (em tempo real), você poderá excluí-lo somente quando não estiver associado a um interesse de solução. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Saiba mais</a> |
-| Aprimoramento | Jornada contagens de nós | Melhoria na visibilidade das contagens de associação do jornada no nível do nó. Use essas informações para validar a progressão da conta em uma jornada. |
+| Aprimoramento | Jornada contagens de nós | Melhoria na visibilidade das contagens de associação de jornada publicadas no nível do nó. No _mapa de Jornadas_, os nós exibem _[!UICONTROL Total de contas inseridas]_. Quando você seleciona um nó de ação, os detalhes à direita também incluem _[!UICONTROL Contas ainda não ativadas]_. Os detalhes de _Ouvir um evento_ incluem _[!UICONTROL Contas nesta etapa]_. Use essas informações para validar o progresso da conta nas jornadas ativas, concluídas e abortadas. |
 
 ## Notas de versão 2025.2
 
@@ -38,7 +38,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Novo recurso | Campos personalizáveis — fragmentos de conteúdo | Como designer de fragmento de conteúdo, você pode designar um parâmetro para um componente no fragmento como editável. Isso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão. <a href="../content/fragment-authoring.md#enable-custom-fields">Saiba mais</a> |
+| Novo recurso | Campos personalizáveis — fragmentos de conteúdo | Como designer de fragmento de conteúdo, você pode designar um parâmetro para um componente no fragmento como editável. Isso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão. <a href="../content/fragment-authoring.md#enable-fragment-customization">Saiba mais</a> |
 | Novo recurso | Funções integradas B2B e permissões de produto | O Experience Platform agora inclui um conjunto de funções integradas (padrão) que você pode usar para gerenciar o acesso aos recursos do produto B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Saiba mais</a> <br/>Os administradores agora podem definir funções personalizadas no Adobe Experience Platform para incluir permissões de produto do Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">Saiba mais</a> |
 | Novo recurso | Jornada tipos de duplicação | Ao duplicar uma jornada de conta, você pode incluir detalhes do nó, excluindo emails e mensagens SMS criadas no Journey Optimizer B2B edition. Como alternativa, é possível criar uma cópia estrutural da estrutura e dos fluxos de caminho, sem detalhes e configurações de nó. <a href="../journeys/journey-overview.md#duplicate-journey">Saiba mais</a> |
 | Aprimoramento | Quatro modelos de email de amostra adicionais | A biblioteca de modelos de e-mail de exemplo agora inclui quatro modelos do SecurFinancial como exemplos de reengajamento, informação, criação e exemplos de conteúdo de feedback |
