@@ -3,9 +3,10 @@ title: Habilitar o acesso ao assistente de IA
 description: Espaço reservado
 feature: AI Assistant
 level: Beginner
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
+source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -28,13 +29,13 @@ Como administrador, você pode:
 
 * Adicione a permissão **Exibir Insights Operacionais** a uma determinada função e adicione um usuário a essa função. Essa permissão possibilita que o usuário use os recursos de insights operacionais do Assistente de IA.
 
-![Atribuir permissões do Assistente de IA](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Atribuir permissões do Assistente de IA](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
 Use a interface de permissões para conceder permissões para usar o Assistente de IA no Journey Optimizer B2B edition. Para obter informações sobre como acessar o Assistente de IA no Experience Platform e outros aplicativos da Experience Cloud, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
 
 Quando o usuário tem as permissões necessárias, ele pode acessar o Assistente de IA selecionando o ícone do _Assistente de IA_ no cabeçalho superior do aplicativo que você está usando.
 
-![Ícone do Assistente de IA no cabeçalho do aplicativo](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Ícone do Assistente de IA no cabeçalho do aplicativo](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
 
 ## Vídeo de visão geral do acesso ao Assistente de IA
 

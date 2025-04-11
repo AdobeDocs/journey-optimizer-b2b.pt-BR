@@ -2,7 +2,7 @@
 title: Visão geral do Adobe Journey Optimizer B2B edition
 description: Descubra os principais recursos, casos de uso e arquiteturas do Adobe Journey Optimizer edição B2B.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: d1696eb54c9ff25963b51a0e3934a02e103923e4
+source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 5%
@@ -19,7 +19,7 @@ Ao comparar o Adobe Journey Optimizer B2B edition com o Marketo Engage e o Adobe
 
 ## Arquitetura de alto nível
 
-O Adobe Journey Optimizer B2B edition usa _Públicos-alvo da conta_ e _Públicos-alvo de pessoas_ da Adobe Experience Platform para potencializar uma jornada de conta, que é executada dentro do Marketo Engage. O Experience Platform é sempre a fonte da verdade para esses dados, mas toda a execução e processamento da jornada da conta acontece dentro da infraestrutura de marketing Marketo Engage B2B. A orquestração traz dados de volta ao Experience Platform em tempo quase real pelo conector de origem Marketo Engage - Adobe Real-Time CDP B2B edition existente, que transmite as alterações de dados do Marketo Engage para o Experience Platform.
+O Adobe Journey Optimizer B2B edition usa _Públicos-alvo da conta_ e _Públicos-alvo de pessoas_ da Adobe Experience Platform para potencializar uma jornada de conta, que é executada dentro do Marketo Engage. O Experience Platform é sempre a fonte da verdade para esses dados, mas toda a execução e processamento da jornada da conta acontece dentro da infraestrutura de marketing B2B do Marketo Engage. A orquestração traz dados de volta para a Experience Platform em tempo quase real pelo conector de origem Marketo Engage - Adobe Real-Time CDP B2B edition existente, que transmite alterações de dados do Marketo Engage para o Experience Platform.
 
 ![Arquitetura de dados de alto nível](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
@@ -29,20 +29,20 @@ O Adobe Journey Optimizer B2B edition usa _Públicos-alvo da conta_ e _Públicos
 
 ### Modelo de assinatura
 
-Uma assinatura do Journey Optimizer B2B edition é definida por um par de sandboxes Experience Platform (AEP) com uma assinatura Marketo Engage _Munchkin_. Não é possível que uma única assinatura de Marketo Engage seja emparelhada a mais de uma sandbox da AEP. Se você não optar por emparelhar uma assinatura de Marketo Engage existente com o Journey Optimizer B2B edition, você receberá uma nova assinatura de Marketo Engage vazia para uso com o Journey Optimizer B2B edition.
+Uma assinatura Journey Optimizer B2B edition é definida por um par de sandboxes Experience Platform (AEP) com uma assinatura Marketo Engage _Munchkin_. Não é possível que uma única assinatura do Marketo Engage seja emparelhada com mais de uma sandbox da AEP. Se você não optar por emparelhar uma assinatura existente do Marketo Engage com o Journey Optimizer B2B edition, você receberá uma assinatura nova e vazia do Marketo Engage para uso com o Journey Optimizer B2B edition.
 
-O objetivo do Experience Platform nessa configuração é fornecer uma visualização unificada dos dados das instâncias Marketo Engage (e de quaisquer sistemas CRM conectados) e, em seguida, poder agir nos dados unificados usando uma jornada de conta.
+A finalidade do Experience Platform nesta configuração é fornecer uma exibição unificada nos dados das instâncias do Marketo Engage (e de qualquer sistema CRM conectado) e, em seguida, poder agir nos dados unificados usando uma jornada de conta.
 
 ### Operações de jornada de conta
 
-As jornadas de conta são criadas no Journey Optimizer B2B edition e armazenadas na instância de Marketo Engage associada à assinatura. Embora seja armazenado no armazenamento de dados do Marketo Engage, não é visível na interface do usuário do Marketo Engage e só pode ser usado no Journey Optimizer B2B edition.
+As jornadas de conta são criadas no Journey Optimizer B2B edition e armazenadas na instância do Marketo Engage associada à assinatura. Embora seja armazenado no armazenamento de dados do Marketo Engage, ele não é visível na interface do usuário do Marketo Engage e só pode ser usado no Journey Optimizer B2B edition.
 
-Uma jornada de conta sempre começa com a seleção de um segmento de conta para usar como público-alvo da jornada. A seleção do público-alvo usa o componente seletor de público-alvo de Experience Platform padrão. Os profissionais de marketing podem implementar a jornada de conta dividindo os caminhos da jornada de acordo com seus próprios critérios, que podem incluir critérios de conta, critérios de pessoas ou critérios de grupo de compras. Em cada ramificação, ações podem ser tomadas para implementar a jornada, como enviar um email ou aguardar a ocorrência de um evento.
+Uma jornada de conta sempre começa com a seleção de um segmento de conta para usar como público-alvo da jornada. A seleção do público-alvo usa o componente padrão do seletor de público-alvo do Experience Platform. Os profissionais de marketing podem implementar a jornada de conta dividindo os caminhos da jornada de acordo com seus próprios critérios, que podem incluir critérios de conta, critérios de pessoas ou critérios de grupo de compras. Em cada ramificação, ações podem ser tomadas para implementar a jornada, como enviar um email ou aguardar a ocorrência de um evento.
 
-Depois que a jornada da conta é criada, ela deve ser publicada. No momento da publicação, a jornada da conta é validada e convertida em uma série de campanhas de Marketo Engage que implementam a experiência de jornada. Os Data Integration Services são contatados para iniciar o fluxo de dados que, por sua vez, inicia as operações de jornada de conta. A primeira etapa é criar os segmentos para as Pessoas da conta.
+Depois que a jornada da conta é criada, ela deve ser publicada. No momento da publicação, a jornada da conta é validada e convertida em uma série de campanhas do Marketo Engage que implementam a experiência de jornada. Os Data Integration Services são contatados para iniciar o fluxo de dados que, por sua vez, inicia as operações de jornada de conta. A primeira etapa é criar os segmentos para as Pessoas da conta.
 
 ### Fluxo de dados
 
-O Journey Optimizer B2B edition usa a segmentação de conta do Real-Time CDP para definir e executar segmentos de conta e segmentos de conta de pessoa relacionados exigidos pelo jornada. Conforme uma jornada publicada é executada, dados sobre as pessoas e contas podem mudar, e os dados são coletados nas pessoas que interagem com a jornada. O Journey Optimizer B2B edition depende do conector de origem do Marketo Engage para que o Real-Time CDP B2B edition faça o fluxo das alterações de dados de volta para a sandbox do Experience Platform, que é a fonte da verdade.  Esses dados são entregues à AEP em tempo quase real.
+O Journey Optimizer B2B edition usa a segmentação de conta do Real-Time CDP para definir e executar segmentos de conta e segmentos de conta de pessoa relacionados exigidos pelo jornada. Conforme uma jornada publicada é executada, dados sobre as pessoas e contas podem mudar, e os dados são coletados nas pessoas que interagem com a jornada. O Journey Optimizer B2B edition depende do conector de origem do Marketo Engage para o Real-Time CDP B2B edition a fim de transmitir as alterações de dados de volta para a sandbox da Experience Platform, que é a fonte da verdade.  Esses dados são entregues à AEP quase em tempo real.
 
 Somente os tipos de dados existentes compatíveis com o conector de origem do Marketo Engage (contas, pessoas e oportunidades) fluem de volta para o Real-Time CDP. Isso significa que a compra de dados do grupo não flui para o AEP e, em vez disso, reside na instância do Marketo Engage usada pela assinatura do Journey Optimizer B2B edition.

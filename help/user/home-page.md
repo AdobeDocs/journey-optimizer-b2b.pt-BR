@@ -2,7 +2,7 @@
 title: Logon e página inicial
 description: Saiba como acessar o aplicativo Journey Optimizer B2B edition e usar as informações da página inicial.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 6%
@@ -32,7 +32,7 @@ O Journey Optimizer B2B edition tem duas personas de usuário principais: um _**
 
 A seção _[!UICONTROL Acessados recentemente]_ fornece uma lista dos ativos acessados mais recentemente para o profissional de marketing ou administrador. Use esta lista para ir diretamente para o ativo no qual você trabalhou recentemente sem navegar por uma série de páginas de ativos e pesquisas.
 
-A página também inclui acesso ao [Assistente de IA](./start/ai-assistant.md), que ajuda os usuários a obter informações rápidas sobre quaisquer perguntas ou tópicos específicos de que eles precisem.<!-- and to obtain specific recommendations for their challenges or objectives-->
+A página também inclui acesso ao [Assistente de IA](./ai-assistant/ai-assistant-overview.md), que ajuda os usuários a obter informações rápidas sobre quaisquer perguntas ou tópicos específicos de que eles precisem.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
