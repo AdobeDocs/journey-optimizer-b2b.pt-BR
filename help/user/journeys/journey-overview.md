@@ -6,16 +6,16 @@ exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 2%
+ht-degree: 30%
 
 ---
 
 
-# Jornadas da conta
+# Jornadas de conta
 
 Com as jornadas da conta, você pode dinamizar a geração de demanda e a qualificação do grupo de compra e impulsionar a demanda mais qualificada para seus programas de aquisição, venda adicional/venda cruzada e retenção. Personalize suas jornadas para cada grupo de compra e membro do grupo de compra usando o envolvimento automatizado em email, SMS, eventos e muito mais.
 
-Defina um envolvimento orientado a vendas que inclua email, SMS e muito mais jornadas de conta interna para coordenar o marketing de entrada com atividades de vendas de saída para cada membro do grupo de compras.
+Defina um engajamento orientado a vendas que inclua email, SMS e mais jornadas de conta interna para coordenar o marketing de entrada com atividades de vendas de saída para cada membro do grupo de compra.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -23,25 +23,25 @@ Defina um envolvimento orientado a vendas que inclua email, SMS e muito mais jor
 
 Para começar a usar jornadas de conta:
 
-1. [Criar uma jornada](./create-publish-journey.md#create-an-account-journey).
-1. [Adicione os nós](./create-publish-journey.md#add-a-node) e [defina o fluxo de jornadas](./create-publish-journey.md#add-and-delete-a-path) no mapa de jornadas.
-1. [Publicar a jornada](./create-publish-journey.md#publish-an-account-journey).
+1. [Crie uma jornada](./create-publish-journey.md#create-an-account-journey).
+1. [Adicione os nós](./create-publish-journey.md#add-a-node) e [defina o fluxo da jornada](./create-publish-journey.md#add-and-delete-a-path) no mapa de jornada.
+1. [Publique a jornada](./create-publish-journey.md#publish-an-account-journey).
 
-## Acessar e procurar jornadas da conta
+## Acessar e procurar jornadas de conta
 
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B edition.
+1. Na página inicial da Adobe Experience Platform, clique em Adobe Journey Optimizer B2B Edition.
 
-1. Na navegação à esquerda, clique em **[!UICONTROL jornadas da conta]**.
+1. Na navegação à esquerda, clique em **[!UICONTROL Jornadas da conta]**.
 
-   ![Acessar jornadas da conta](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+   ![Acessar jornadas de conta](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   A página jornadas exibida inclui as seguintes colunas:
+   A página de jornadas exibida inclui as seguintes colunas:
 
    * [!UICONTROL Nome] (clique no nome para abrir a jornada para edição)
    * [!UICONTROL Status]
    * [!UICONTROL Descrição]
    * [!UICONTROL Criado por]
-   * [!UICONTROL Última atualização às]
+   * [!UICONTROL Última atualização em]
    * [!UICONTROL Última atualização por]
    * [!UICONTROL Publicado em]
    * [!UICONTROL Publicado por]
@@ -50,13 +50,13 @@ Use a ferramenta _Pesquisa_ na parte superior para localizar a jornada por nome.
 
 Você pode personalizar as colunas exibidas na tabela clicando no ícone _Personalizar tabela_ ( ![Personalizar tabela](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito. Marque ou desmarque as caixas de seleção na caixa de diálogo e clique em **[!UICONTROL Aplicar]**.
 
-![Escolha as colunas a serem exibidas na lista de jornadas da conta](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
+![Escolha as colunas a serem exibidas na lista de jornadas de conta](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
 ## Anatomia de uma jornada de conta
 
-Clique no nome (exibido como um link) na lista _[!UICONTROL jornadas da conta]_ para examinar os detalhes, fazer alterações e realizar ações.
+Clique no nome (exibido como um link) na lista de _[!UICONTROL jornadas de conta]_ para consultar os detalhes, fazer alterações e realizar ações.
 
-![Espaço de trabalho de jornada de conta](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
+![Espaço de trabalho da jornada de conta](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
 O cabeçalho de cada mapa de jornada de conta inclui:
 
@@ -69,10 +69,10 @@ O status de uma jornada pode ser alterado com base nas ações aplicadas. Com ba
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
 | _**Rascunho**_ | Uma jornada não publicada que é editável. | <ul><li>[Publicar](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplicar </li><li>Excluir </li></ul> |
-| _**Ao vivo**_ | O status da jornada muda de Rascunho para Em tempo real quando uma jornada é publicada. Nesse estado, ele não é mais editável. | <ul><li>Duplicar </li><li>Fechar para novas entradas </li><li>Anular </li></ul> |
-| _**Fechadas para novas entradas**_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <ul><li>Duplicar </li><li>Anular </li></ul> |
-| _**Anulado**_ | O status da jornada muda de _Ativo_ ou _Fechado para novas entradas_ quando você anula uma jornada. Uma jornada anulada não pode ser reiniciada. | <ul><li>Duplicar </li><li>Excluir </li></ul> |
-| _**Concluído**_ | Quando todas as contas em uma jornada concluem a jornada, o status muda de Ativo ou Fechado para novas entradas e muda para Concluído. | <ul><li>Duplicar </li><li>Excluir </li></ul> |
+| _**Ativa**_ | O status da jornada muda de Rascunho para Ativa quando ela é publicada. Nesse estado, ela não é mais editável. | <ul><li>Duplicar </li><li>Fechar para novas entradas </li><li>Abortar </li></ul> |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <ul><li>Duplicar </li><li>Abortar </li></ul> |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada abortada não pode ser reiniciada. | <ul><li>Duplicar </li><li>Excluir </li></ul> |
+| _**Concluída**_ | Quando todas as contas em uma jornada concluem a jornada, o status muda de Ativa ou Fechada para novas entradas para Concluída. | <ul><li>Duplicar </li><li>Excluir </li></ul> |
 
 ## Gerenciar jornadas
 
@@ -80,7 +80,7 @@ A lista _Jornadas da conta_ inclui todas as jornadas da sua instância do Journe
 
 ### Anular jornada
 
-Se você abortar (interromper) uma jornada em tempo real ou programada, as contas na jornada interromperão imediatamente o progresso e não poderá ocorrer mais nenhuma entrada na jornada. Uma jornada anulada não pode ser reiniciada.
+Se você abortar (interromper) uma jornada em tempo real ou programada, as contas na jornada interromperão imediatamente o progresso e não poderá ocorrer mais nenhuma entrada na jornada. Uma jornada abortada não pode ser reiniciada.
 
 >[!IMPORTANT]
 >
