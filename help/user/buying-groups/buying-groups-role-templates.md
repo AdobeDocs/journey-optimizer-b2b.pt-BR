@@ -3,22 +3,20 @@ title: Comprando modelos de função de grupo
 description: Saiba mais sobre como definir um modelo de função a ser usado como um componente de grupo de compras.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 3%
+source-wordcount: '1115'
+ht-degree: 5%
 
 ---
 
-# Comprando modelos de função do grupo
+# Modelos de função do grupo de compra
 
 Em um mercado B2B, as decisões de compra geralmente são tomadas por vários indivíduos. Essas pessoas participam do processo de tomada de decisões de acordo com sua função na organização. Crie modelos de função do Grupo de compras que contenham essas definições de função de acordo com cada tipo de oferta de produto ou caso de uso de conta.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Acessar e procurar modelos de função
-
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B edition.
 
 1. Na navegação à esquerda, clique em **[!UICONTROL Grupos de compra]**.
 

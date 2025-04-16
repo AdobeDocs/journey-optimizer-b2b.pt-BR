@@ -3,22 +3,20 @@ title: Interesses da solução
 description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
-# Interesses da solução
+# Interesses na solução
 
 Antes de criar grupos de compra, você deve saber o que está vendendo e quem deseja direcionar. Sua estratégia de marketing e vendas deve estar alinhada para que você possa adicionar o interesse da solução para os grupos de compras.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Acessar e procurar interesses da solução
-
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B edition.
 
 1. Na navegação à esquerda, clique em **[!UICONTROL Comprando grupos]**.
 

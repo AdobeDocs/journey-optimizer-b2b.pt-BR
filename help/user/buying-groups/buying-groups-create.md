@@ -3,10 +3,10 @@ title: Criar grupos de compra
 description: Saiba como criar grupos de compra usando os componentes necessários.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
@@ -14,8 +14,6 @@ ht-degree: 1%
 # Criar grupos de compra
 
 Após a criação do grupo de compras, ele estará disponível para uso em uma jornada de conta por meio do [interesse de solução](./solution-interests.md).
-
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B Edition.
 
 1. Na navegação à esquerda, clique em **[!UICONTROL Grupos de compra]**.
 

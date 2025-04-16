@@ -2,10 +2,10 @@
 title: Listas de contas
 description: Saiba mais sobre listas de contas e como os profissionais de marketing podem usá-las para direcionar contas por meio de jornadas de conta.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,29 +20,27 @@ Quando uma lista de contas está em um estado _Live_ (publicada), ela está disp
 
 ## Acessar e procurar listas de contas
 
-1. Na página inicial do Adobe Experience Platform, clique em Adobe Journey Optimizer B2B edition.
+Na navegação à esquerda, expanda **[!UICONTROL Contas]** e clique em **[!UICONTROL Listas de contas]**.
 
-1. Na navegação à esquerda, expanda **[!UICONTROL Contas]** e clique em **[!UICONTROL Listas de contas]**.
+![Acessar jornadas de conta](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![Acessar jornadas da conta](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+A página exibida _[!UICONTROL Listas de contas]_ inclui as seguintes colunas:
 
-   A página exibida _[!UICONTROL Listas de contas]_ inclui as seguintes colunas:
-
-   * [!UICONTROL Nome] (clique no nome da lista de contas para ver os detalhes)
-   * [!UICONTROL Status]
-   * [!UICONTROL Tipo]
-   * [!UICONTROL Última atualização em]
-   * [!UICONTROL Última atualização por]
-   * [!UICONTROL Data de criação]
-   * [!UICONTROL Criado por]
+* [!UICONTROL Nome] (clique no nome da lista de contas para ver os detalhes)
+* [!UICONTROL Status]
+* [!UICONTROL Tipo]
+* [!UICONTROL Última atualização em]
+* [!UICONTROL Última atualização por]
+* [!UICONTROL Data de criação]
+* [!UICONTROL Criado por]
 
 Esta tabela inclui a capacidade de pesquisar por Nome. A função de classificação não está disponível no momento.
 
 Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção.
 
-![Escolha as colunas a serem exibidas na lista de jornadas da conta](./assets/account-lists-list-columns.png){width="300"}
+![Escolha as colunas a serem exibidas na lista de jornadas de conta](./assets/account-lists-list-columns.png){width="300"}
 
-Para exibir a descrição de uma lista de contas, clique no ícone _Informações_ ao lado do nome.
+Para exibir a descrição de uma lista de contas, clique no ícone _Informações_ ( ![Informações](../assets/do-not-localize/icon-info.svg) ) ao lado do nome.
 
 ## Criar uma lista de contas
 

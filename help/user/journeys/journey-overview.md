@@ -3,10 +3,10 @@ title: Jornadas da conta
 description: Saiba mais sobre jornadas de conta e como criá-las e gerenciá-las.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ Para começar a usar jornadas de conta:
 
 ## Acessar e procurar jornadas de conta
 
-1. Na página inicial da Adobe Experience Platform, clique em Adobe Journey Optimizer B2B Edition.
+Na navegação à esquerda, clique em **[!UICONTROL Jornadas da conta]**.
 
-1. Na navegação à esquerda, clique em **[!UICONTROL Jornadas da conta]**.
+![Acessar jornadas de conta](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![Acessar jornadas de conta](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+A página de jornadas exibida inclui as seguintes colunas:
 
-   A página de jornadas exibida inclui as seguintes colunas:
-
-   * [!UICONTROL Nome] (clique no nome para abrir a jornada para edição)
-   * [!UICONTROL Status]
-   * [!UICONTROL Descrição]
-   * [!UICONTROL Criado por]
-   * [!UICONTROL Última atualização em]
-   * [!UICONTROL Última atualização por]
-   * [!UICONTROL Publicado em]
-   * [!UICONTROL Publicado por]
+* [!UICONTROL Nome] (clique no nome para abrir a jornada para edição)
+* [!UICONTROL Status]
+* [!UICONTROL Descrição]
+* [!UICONTROL Criado por]
+* [!UICONTROL Última atualização em]
+* [!UICONTROL Última atualização por]
+* [!UICONTROL Publicado em]
+* [!UICONTROL Publicado por]
 
 Use a ferramenta _Pesquisa_ na parte superior para localizar a jornada por nome. Você pode classificar a lista por _[!UICONTROL Status]_ clicando no cabeçalho da coluna.
 
