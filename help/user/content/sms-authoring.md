@@ -3,9 +3,9 @@ title: Criação de SMS
 description: Saiba como enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis e personalizar e visualizar mensagens no formato de texto pelo editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Antes de criar mensagens SMS para jornadas de conta, verifique se o [provedor de
 
 ## Adicionar uma ação de SMS em uma jornada de conta
 
-Você pode configurar entregas de mensagens de texto em uma Jornada de conta ao adicionar um nó _[!UICONTROL Realizar uma ação]_ e fazer o seguinte:
+Você pode configurar entregas de mensagens de texto em uma jornada de conta ao adicionar um nó _[!UICONTROL Realizar uma ação]_ e fazer o seguinte:
 
 1. Para o destino _[!UICONTROL Ação em]_, escolha **[!UICONTROL Pessoas]**.
 
@@ -34,7 +34,7 @@ Você pode configurar entregas de mensagens de texto em uma Jornada de conta ao 
 
 1. Clique em **[!UICONTROL Criar]**.
 
-   O _designer de conteúdo de Jornada_ é aberto e você pode criar a mensagem e definir as propriedades de SMS para enviar a mensagem.
+   O _mapa de Jornadas_ é aberto e você pode criar a mensagem e definir as propriedades de SMS para enviar a mensagem.
 
 ### Criar a mensagem SMS
 
