@@ -3,22 +3,22 @@ title: Criar e publicar uma Jornada de conta
 description: Saiba como criar e publicar jornadas de conta.
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Criar e publicar uma jornada de conta
 
-Para começar a usar uma jornada de conta, crie a jornada e construa os nós e o fluxo da jornada no editor de jornadas.
+Para começar a usar uma jornada de conta, crie a jornada e construa os nós e o fluxo de jornada no mapa de jornadas.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Criar uma jornada de conta
 
-1. Na navegação à esquerda, clique em **[!UICONTROL jornadas da conta]**.
+1. Na navegação à esquerda, clique em **[!UICONTROL Jornadas da conta]**.
 
 1. Clique em **[!UICONTROL Criar Jornada de Conta]** na parte superior direita da página.
 
@@ -35,7 +35,7 @@ O _mapa de jornadas_ é a zona central no designer de jornadas. É nessa zona qu
 Depois de criar uma jornada de conta e adicionar o público-alvo, crie a jornada usando nós. O mapa de jornadas fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar uma jornada de conta:
 
 * [Realizar uma ação](./action-nodes.md)
-* [Monitorar um evento](./listen-for-event-nodes.md)
+* [Acompanhar um evento](./listen-for-event-nodes.md)
 * [Dividir caminhos](./split-merge-paths-nodes.md)
 * [Aguardar](./wait-nodes.md)
 * [Mesclar caminhos](./split-merge-paths-nodes.md)
@@ -50,7 +50,7 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
 ## Adicionar um nó
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Clique no ícone de adição ( **+** ) no caminho e selecione o tipo de nó.
 
@@ -58,7 +58,7 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
 ## Excluir um nó
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Nas propriedades do nó à direita, clique no ícone _Excluir_ ( ![Ícone Excluir](../assets/do-not-localize/icon-delete.svg) ).
 
@@ -66,7 +66,7 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
 ## Adicionar e excluir um caminho
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Clique no ícone de adição ( **+** ) no caminho e adicione o [nó do caminho dividido](./split-merge-paths-nodes.md#split-paths).
 
@@ -110,7 +110,7 @@ Ao publicar uma jornada, ela pode começar imediatamente ou em uma data futura p
 
 ## Publicar uma jornada de conta
 
-Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Live_. Se a jornada tiver erros, o botão _[!UICONTROL Publicar]_ ficará esmaecido com as informações de conteúdo: `Resolve errors before publishing`.
+Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Ativo_. Se a jornada tiver erros, o botão _[!UICONTROL Publicar]_ ficará esmaecido com as informações de conteúdo: `Resolve errors before publishing`.
 
 1. Na parte superior direita do mapa de jornadas, clique em **[!UICONTROL Publicar]**.
 

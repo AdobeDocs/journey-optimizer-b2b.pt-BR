@@ -2,7 +2,8 @@
 title: Nós de espera
 description: Saiba mais sobre o tipo de nó Aguardar que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Há duas maneiras de definir o tempo de espera:
 
 _Para definir um nó de espera para a jornada da conta:_
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Aguardar]**.
 

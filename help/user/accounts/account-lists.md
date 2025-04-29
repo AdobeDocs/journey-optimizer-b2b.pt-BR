@@ -1,23 +1,26 @@
 ---
 title: Listas de contas
 description: Saiba mais sobre listas de contas e como os profissionais de marketing podem usá-las para direcionar contas por meio de jornadas de conta.
-badgeBeta: label="Disponibilidade limitada" type="informative" tooltip="Este recurso está disponível no momento somente mediante solicitação"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1339'
 ht-degree: 1%
 
 ---
 
 # Listas de contas
 
-Uma lista de contas é uma coleção de contas nomeadas que os profissionais de marketing podem usar para a orquestração de jornadas direcionada. Uma lista de contas pode direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. Há dois tipos de listas de contas:
+No Journey Optimizer B2B edition, uma lista de contas é uma coleção de contas nomeadas que os profissionais de marketing podem usar para a orquestração de jornadas direcionada. Uma lista de contas pode direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. Há dois tipos de listas de contas:
 
 * **Estático** - Com uma lista de contas estáticas, a lista só é alterada quando você adiciona as contas. Você pode adicionar contas manualmente aplicando um conjunto de filtros para preencher a lista com base nos dados atuais da conta, ou adicionar e remover contas por meio de uma jornada de conta.
 * **Dinâmico** - Com uma lista de contas dinâmica, você define um conjunto de filtros para preparar automaticamente a lista. O sistema usa esse conjunto de filtros para adicionar e remover contas de acordo com as alterações nas informações da conta. Este gerenciamento de lista é semelhante à [segmentação de público na Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
-Quando uma lista de contas está em um estado _Live_ (publicada), ela está disponível para uso nas jornadas de conta.
+Quando uma lista de contas está em um estado _Live_ (publicada), ela está disponível para [uso em programas de jornada e Marketo Engage](./account-lists-journeys.md).
+
+>[!NOTE]
+>
+>As listas de contas usam os dados de conta do Marketo Engage para criar segmentos e listas de contas. Isso significa que se um segmento de conta do Adobe Experience Platform não for sincronizado ativamente com o Marketo Engage, as contas nesse segmento do Experience Platform podem não estar disponíveis nas listas de contas do Journey Optimizer B2B edition. Posteriormente, as pessoas das contas nos segmentos da Experience Platform que não estão sincronizadas com o Marketo Engage não podem ser incluídas nas contagens de associação de pessoas ou contadas em eventos de acionador.
 
 ## Acessar e procurar listas de contas
 
@@ -170,65 +173,3 @@ Você pode continuar a publicar uma lista de contas dinâmicas assim que o conju
 O status da lista de contas dinâmicas é alterado para _[!UICONTROL Live]_ e está disponível para [uso em uma jornada de conta](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Uso da lista de contas em jornadas de conta
-
-Há três maneiras de incorporar listas de contas Ativas (publicadas) nas jornadas de conta:
-
-### Nó de público-alvo da conta
-
-1. Selecione a **[!UICONTROL Lista de contas]** para o nó _Público-alvo da conta_ inicial.
-
-   ![Selecione a opção de lista de contas para o nó de público-alvo da conta](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Clique em **[!UICONTROL Adicionar lista de contas]**.
-
-1. Marque a caixa de seleção da lista de contas e clique em **[!UICONTROL Salvar]**.
-
-   ![Selecione a opção de lista de contas para o nó de público-alvo da conta](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-As contas na lista percorrem a jornada quando ela é ativada (publicada).
-
-### Executar um nó de ação - Adicionar à conta
-
-**_Somente listas de contas estáticas_**
-
-Adicionar contas a uma lista de contas estática usando o nó [a _Take an Action_](../journeys/action-nodes.md).
-
-Por exemplo, você pode ter um caminho de jornada para enviar um email e uma conta realizar várias ações como uma resposta. Você considera essa atividade um ponto de qualificação na jornada e deseja adicioná-la a uma lista de contas usada como público-alvo de outra jornada com um fluxo diferente para contas qualificadas.
-
->[!NOTE]
->
->Se uma conta já estiver na lista quando o nó for executado, a ação será ignorada.
-
-1. Selecione a opção _[!UICONTROL Ação em]_ **[!UICONTROL Contas]**.
-
-1. Para _[!UICONTROL Ação nas contas]_, escolha **[!UICONTROL Adicionar à lista de contas]**.
-
-   ![Selecione Adicionar à lista de contas](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. Para **[!UICONTROL Selecionar lista de contas estáticas em tempo real]**, escolha a lista de contas à qual deseja adicionar contas.
-
-   ![Selecione Adicionar à lista de contas](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Executar um nó de ação - Remover da conta
-
-**_Somente listas de contas estáticas_**
-
-Remover contas de uma lista de contas estáticas usando o nó [a _Realizar uma Ação_](../journeys/action-nodes.md).
-
-Por exemplo, você pode ter um caminho de jornada para enviar um email e uma conta realizar várias ações como uma resposta. Você considera essa atividade um ponto de qualificação na jornada e deseja removê-la de uma lista de contas usada como público-alvo de outra jornada que envia emails adicionais para que você não duplique suas comunicações de qualificação.
-
->[!NOTE]
->
->Se uma conta não estiver na lista onde está agendada para remoção, a ação será ignorada.
-
-1. Selecione a opção _[!UICONTROL Ação em]_ **[!UICONTROL Contas]**.
-
-1. Para _[!UICONTROL Ação em contas]_, escolha **[!UICONTROL Remover da lista de contas]**.
-
-   ![Selecione Adicionar à lista de contas](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. Para **[!UICONTROL Selecionar lista de contas estáticas em tempo real]**, escolha a lista de contas para a qual deseja remover as contas.
-
-   ![Selecione Adicionar à lista de contas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

@@ -2,10 +2,10 @@
 title: Documentação do Adobe Journey Optimizer B2B Edition
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B Edition para orquestrar jornadas de conta e grupo de compra usando a IA generativa integrada e automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 99%
+source-wordcount: '719'
+ht-degree: 65%
 
 ---
 
@@ -13,9 +13,33 @@ ht-degree: 99%
 
 ## Novidades?
 
-Veja um exemplo dos aprimoramentos mais recentes no produto e na documentação do Journey Optimizer B2B Edition.
+Esta é uma amostra das últimas adições e melhorias no aplicativo e na documentação do Journey Optimizer B2B edition.
 
 >[!BEGINTABS]
+
+>[!TAB Listas de contas]
+
+Crie uma lista de contas, que é uma coleção de contas nomeadas que os profissionais de marketing podem usar para a orquestração de jornadas direcionada. Uma lista de contas pode direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Saiba mais sobre listas de contas"}
+
+>[!TAB Filtros da lista de contas para listas inteligentes]
+
+Agora é possível filtrar as listas inteligentes do Marketo Engage com filtros de lista de contas. Esses filtros permitem suprimir e incluir membros da lista de contas em campanhas e programas do Marketo Engage a partir de jornadas de conta no Journey Optimizer B2B edition.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program—membro-da-lista-de-contas" tooltip="Saiba mais sobre os filtros de lista de contas usados nas listas inteligentes do Marketo Engage"}
+
+>[!TAB Filtros de histórico de inatividade]
+
+Prossiga com as jornadas com base na inatividade em campanhas e programas do Marketo Engage, incluindo email, momentos interessantes, alterações no valor dos dados e páginas da Web visitadas.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Saiba mais sobre filtros do histórico de inatividade"}
+
+>[!TAB Duplicação de Jornadas]
+
+Duplique suas estruturas de jornada de conta para minimizar erros manuais e garantir configurações, fluxos e caminhos consistentes. Na jornada duplicada, é possível ajustar o conteúdo ou as ações, facilitando o gerenciamento de campanhas maiores e mais complexas&#x200B;.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-jornada" tooltip="Saiba mais sobre a duplicação do jornada"}
 
 >[!TAB Painel de insights inteligentes]
 
@@ -27,34 +51,15 @@ Com o novo painel inteligente, é possível ver a progressão da qualificação 
 
 Use as ações rápidas do Adobe Express para retocar seu conteúdo com recorte, redimensionamento, remoção de plano de fundo e conversão de formato. A interface intuitiva do Adobe Express é incorporada para que você possa ajustar rapidamente seus ativos de imagem.
 
-Com o licenciamento da versão corporativa do Adobe Express, é possível aproveitar o conjunto completo de recursos do Adobe Express. Use esses recursos para retocar e aprimorar imagens de acordo com as diretrizes da marca e remova obstáculos na cadeia de suprimento de conteúdo.
+Com o licenciamento da versão corporativa do Adobe Express, é possível aproveitar o conjunto completo de recursos do Adobe Express. Use esses recursos para polir e aprimorar imagens, além de seguir as diretrizes da marca e remover bloqueios na cadeia de fornecimento de conteúdo.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Saiba mais sobre a edição de imagens com o Adobe Express"}
 
 >[!TAB Campos personalizáveis do fragmento]
 
-Como designer de conteúdo, é possível designar um parâmetro para um componente no fragmento como editável. Isso permite que o autor do email ou modelo determine um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão.
+Como designer de conteúdo, é possível designar um parâmetro para um componente no fragmento como editável. Essa configuração permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Saiba mais sobre campos personalizados para fragmentos de conteúdo"}
-
->[!TAB Encaminhamento de eventos da AEP]
-
-Admins agora podem configurar definições de eventos baseadas na Adobe Experience Platform (AEP). Essas configurações permitem que profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência da AEP.
-
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Saiba mais sobre as definições de evento da AEP usadas para a orquestração de jornadas"}
-
->[!TAB Filtros de grupo de compra para listas inteligentes]
-
-Agora é possível visualizar e criar listas inteligentes com filtros de grupo de compra no Marketo Engage. Esses filtros permitem retirar e incluir membros do grupo de compra em campanhas e programas do Marketo Engage das jornadas de conta no Journey Optimizer B2B Edition.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Saiba mais sobre os filtros de grupos de compra usados nas listas inteligentes do Marketo Engage"}
-
->[!TAB Conteúdo condicional]
-
-Use conteúdo condicional para adaptar seu conteúdo de email com base em regras condicionais. Defina as regras usando atributos de perfil ou eventos contextuais. É possível criar regras condicionais no construtor de regras e armazená-las para reutilização nas jornadas de conta.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Saiba mais sobre conteúdo condicional"}
 
 >[!ENDTABS]
 
@@ -65,15 +70,15 @@ Para obter uma lista completa de novos recursos e melhorias, consulte as [notas 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Inicialização do uso do produto"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Inicialização do uso do produto"></a>
     <div><strong>Iniciar a partir da página inicial</strong><br/>Saiba como atingir suas metas mais rápido no Journey Optimizer B2B Edition com a página inicial personalizada de acordo com sua função.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Grupos de compra"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Grupos de compra"></a>
     <div><strong>Criar o primeiro grupo de compra</strong><br/>Crie o primeiro grupo de compra no Journey Optimizer B2B Edition para automatizar o processo de engajamento e qualificação de contatos.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Jornadas de conta"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Jornadas de conta"></a>
     <div><strong>Criar sua primeira jornada de conta</strong><br/>Crie e orquestre jornadas de conta personalizadas para harmonizar o alcance de marketing com o engajamento direcionado. 
     </div>
     </td>

@@ -3,16 +3,16 @@ title: Nós de público-alvo da conta
 description: Saiba mais sobre o tipo de nó de público-alvo da conta que você pode usar para definir a entrada das suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # Nós de jornada de público-alvo da conta
 
-O nó Account audience define o público-alvo da conta de entrada (criado e gerenciado no Adobe Experience Platform) para a jornada. Quando você [cria uma jornada de conta](./journey-overview.md#create-an-account-journey), ela sempre começa com um nó _Público-alvo de conta_ que define a entrada para a jornada.
+O nó Account audience define as contas de entrada para a jornada. Quando você [cria uma jornada de conta](./journey-overview.md#create-an-account-journey), ela sempre começa com um nó _Público-alvo de conta_ que define a entrada para a jornada.
 
 Há dois tipos de entrada que você pode usar para esse nó:
 

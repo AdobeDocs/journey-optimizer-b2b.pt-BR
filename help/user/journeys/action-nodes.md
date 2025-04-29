@@ -3,10 +3,10 @@ title: Realizar uma ação
 description: Saiba mais sobre o tipo de nó Realizar uma ação que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 1%
+source-wordcount: '1240'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Use uma ação nas contas quando quiser aplicar uma alteração a todas as pesso
 | [!UICONTROL Valor de Dados de Alteração de Conta] | Selecionar atributo<br/>Novo valor |
 | [!UICONTROL Momento Interessante na Conta] | Tipo (email, marco ou Web)<br/>Descrição (opcional) |
 | [!UICONTROL Adicionar conta à (outra) Jornada] | Selecionar jornada de conta em tempo real |
-| [!UICONTROL Adicionar à lista de contas] | Selecionar lista de contas estáticas ativas |
+| [!UICONTROL Adicionar à lista de contas] | Selecionar lista de contas estáticas em tempo real |
 | [!UICONTROL Remover Conta da Jornada] | Selecionar jornada de conta em tempo real |
 | [!UICONTROL Remover da lista de contas] | Selecionar uma lista de contas estáticas em tempo real |
 | [!UICONTROL Enviar Alerta de Vendas] | Selecionar interesse da solução<br/>Enviar email para |
@@ -36,7 +36,7 @@ Use uma ação nas contas quando quiser aplicar uma alteração a todas as pesso
 
 ### Adicionar uma ação baseada em conta
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Executar uma ação]**.
 
@@ -61,7 +61,7 @@ Use uma ação em pessoas quando quiser aplicar uma alteração a todas as pesso
 | | [!UICONTROL Alterar valor de dados] | Selecionar atributo de pessoa<br/>Definir novo valor |
 | | [!UICONTROL Alterar pontuação] | Nome da pontuação<br/>Alteração na pontuação |
 | | [!UICONTROL Momento Interessante] | Tipo<br/>Descrição |
-| | [!UICONTROL Remover do Grupo de Compras] | Selecionar interesse de solução |
+| | [!UICONTROL Remover do Grupo de Compras] | Selecione o interesse na solução |
 | | [!UICONTROL Enviar email] | Criar novo email<br/>Selecionar email do Marketo Engage |
 | | [!UICONTROL Enviar SMS] | Criar SMS |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Adicionar à lista] | Selecionar espaço de trabalho do Marketo Engage <br/>Nome da lista |
@@ -71,7 +71,7 @@ Use uma ação em pessoas quando quiser aplicar uma alteração a todas as pesso
 
 ### Adicionar uma ação com base em pessoas
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Executar uma ação]**.
 
@@ -112,6 +112,10 @@ _Para criar uma audiência externa:_
 1. Clique em **[!UICONTROL Criar]**.
 
    O sistema cria o novo público-alvo e exibe uma mensagem de confirmação. Em seguida, você pode continuar a usá-lo como um público-alvo existente para a ação do nó.
+
+   >[!NOTE]
+   >
+   >Quando um novo público-alvo de cliente externo é criado do Journey Optimizer B2B edition, ele é propagado com um registro fictício (`test@email.com`). Esse registro é substituído assim que o primeiro perfil real é adicionado ao público-alvo externo pela jornada.
 
 _Para usar um público existente:_
 

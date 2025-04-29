@@ -3,14 +3,14 @@ title: Ouvir um evento
 description: Saiba mais sobre o tipo de nó Ouvir um evento que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
-# Ouvir um evento
+# Acompanhar um evento
 
 Adicione o nó _Ouvir um evento_ para mover o público-alvo para a próxima etapa da jornada da conta quando ocorrer um evento.
 
@@ -29,15 +29,15 @@ Analise um evento com base na conta quando quiser mover a conta para frente na j
 | Evento | Restrições |
 | ----- | ----------- |
 | A conta teve um momento interessante | Tipo (Email, Marco ou Web)<br/>Restrições adicionais (opcional): <li>Descrição</li><li>Origem</li><li>Data da atividade</li> <br/>Tempo limite (opcional) |
-| Alteração no valor dos dados da conta | Atributo<br/>Restrições adicionais (opcional): <li>Novo valor</li><li>Valor anterior</li><li>Data da atividade</li> <br/>Tempo limite (opcional) |
-| Alteração no Estágio de Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional): <li>Novo estágio</li><li>Fase anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
-| Alteração no Status do Grupo de Compras | Interesse da solução<br/>Restrições adicionais (opcional): <li>Novo status</li><li>Status anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
-| Alteração na pontuação de integridade | Interesse da solução<br/>Restrições adicionais (opcional): <li>Nova pontuação</li><li>Pontuação anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
+| Alteração do valor dos dados da conta | Atributo<br/>Restrições adicionais (opcional): <li>Novo valor</li><li>Valor anterior</li><li>Data da atividade</li> <br/>Tempo limite (opcional) |
+| Alteração no estágio do grupo de compra | Interesse da solução<br/>Restrições adicionais (opcional): <li>Novo estágio</li><li>Fase anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
+| Alteração no status do grupo de compra | Interesse da solução<br/>Restrições adicionais (opcional): <li>Novo status</li><li>Status anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
+| Alteração da pontuação de integridade | Interesse da solução<br/>Restrições adicionais (opcional): <li>Nova pontuação</li><li>Pontuação anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
 | Alteração na pontuação de engajamento | Interesse da solução<br/>Restrições adicionais (opcional): <li>Nova pontuação</li><li>Pontuação anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
 
 ### Adicionar um evento de conta
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Ouvir um evento]**.
 
@@ -57,21 +57,21 @@ Analise um evento com base em pessoas quando quiser mover a conta para frente na
 
 | Tipo de entrada | Evento | Restrições |
 | ---------- | ----- | ----------- |
-| Journey Optimizer B2B | Atribuído ao Grupo de Compras | Interesse da solução<br/><br/>Restrições adicionais (opcional): <li>Função</li><li>Data da atividade</li><br/>Tempo limite (opcional) |
-| | Clica em link no email | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>ID do link</li><li>É um dispositivo móvel</li><li>Dispositivo</li><li>Plataforma</li><li>Navegador</li><li>É conteúdo preditivo</li><li>É atividade de bot</li><li>Padrão de atividade do bot</li><li>Navegador</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
-| | Cliques no link do SMS | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>Dispositivo</li><li>Plataforma</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
-| | Alterações no valor de dados | Atributo de pessoa<br/><br/>Restrições adicionais (opcional): <li>Novo valor</li><li>Valor anterior</li><li>Motivo</li><li>Origem</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
+| Journey Optimizer B2B | Atribuído ao grupo de compra | Interesse da solução<br/><br/>Restrições adicionais (opcional): <li>Função</li><li>Data da atividade</li><br/>Tempo limite (opcional) |
+| | Clica no link no email | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>ID do link</li><li>É um dispositivo móvel</li><li>Dispositivo</li><li>Plataforma</li><li>Navegador</li><li>É conteúdo preditivo</li><li>É atividade de bot</li><li>Padrão de atividade do bot</li><li>Navegador</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
+| | Clica no link do SMS | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>Dispositivo</li><li>Plataforma</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
+| | Alterações no valor dos dados | Atributo de pessoa<br/><br/>Restrições adicionais (opcional): <li>Novo valor</li><li>Valor anterior</li><li>Motivo</li><li>Origem</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
 | | Abre o email | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>ID do link</li><li>É um dispositivo móvel</li><li>Dispositivo</li><li>Plataforma</li><li>Navegador</li><li>É conteúdo preditivo</li><li>É atividade de bot</li><li>Padrão de atividade do bot</li><li>Navegador</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
-| | Removido do Grupo de Compras | Interesse da solução<br/>Data da atividade (opcional)<br/>Tempo limite (opcional) |
+| | Removido do grupo de compra | Interesse da solução<br/>Data da atividade (opcional)<br/>Tempo limite (opcional) |
 | | A pontuação é alterada | Nome da pontuação<br/><br/>Restrições adicionais (opcional):<li>Alterar</li><li>Nova pontuação</li><li>Urgência</li><li>Prioridade</li><li>Pontuação relativa</li><li>Urgência relativa</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
 | | Rejeições de SMS | Mensagem SMS<br/><br/>Restrições adicionais (opcional): <li>Data da atividade</li><li>Número mínimo de vezes</li><br/>Tempo limite (opcional) |
-| Marketo Engage | Visita página da Web | Página da Web <br/> Selecione uma ou mais páginas do Marketo Engage para corresponder. <br/><br/>Restrições adicionais (opcional): <li>Cadeia de consulta</li><li>Endereço IP do cliente</li><li>Referenciador</li><li>Agente do usuário</li><li>Mecanismo de pesquisa</li><li>Pesquisar consulta</li><li>Token</li><li>Navegador</li><li>Plataforma</li><li>Dispositivo</li><li>Data da atividade</li> |
+| Marketo Engage | Visita a página da web | Página da Web <br/> Selecione uma ou mais páginas do Marketo Engage para corresponder. <br/><br/>Restrições adicionais (opcional): <li>Cadeia de consulta</li><li>Endereço IP do cliente</li><li>Referenciador</li><li>Agente do usuário</li><li>Mecanismo de pesquisa</li><li>Pesquisar consulta</li><li>Token</li><li>Navegador</li><li>Plataforma</li><li>Dispositivo</li><li>Data da atividade</li> |
 | | Preenche formulário | Formulário <br/> Selecione um ou mais formulários do Marketo Engage para corresponder.  <br/><br/>Restrições adicionais (opcional): <li>Data da atividade</li><li>Cadeia de consulta</li><li>Endereço IP do cliente</li><li>Referenciador</li><li>Agente do usuário</li><li>Plataforma</li><li>Dispositivo</li><br/>Tempo limite (opcional) |
 | Adobe Experience Platform | Definição de evento | Tipo de evento <br/><br/>Restrições adicionais (opcional): <li>Campos</li> <br/>Restrições adicionais (sem suporte): <li>Data da atividade</li><li>Número número de vezes</li>Tempo limite de <br/> (opcional) |
 
 ### Adicionar um evento de pessoas
 
-1. Navegue até o editor de jornadas.
+1. Navegue até o mapa de jornadas.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Ouvir um evento]**.
 
@@ -87,7 +87,7 @@ Analise um evento com base em pessoas quando quiser mover a conta para frente na
 
 Se você tiver páginas da Web criadas na instância conectada do Marketo Engage, poderá acionar um evento com base em uma visita/sem visita às páginas da Web do Marketo Engage, bem como aos formulários do Marketo Engage que não foram/foram preenchidos.
 
-1. Selecione um nó **[!UICONTROL Ouvir um evento]** no editor de jornadas.
+1. Selecione um nó **[!UICONTROL Ouvir um evento]** no mapa de jornadas.
 
 1. Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o tipo de evento.
 
@@ -114,21 +114,21 @@ Se você tiver páginas da Web criadas na instância conectada do Marketo Engage
 
 1. Se necessário, defina a opção **[!UICONTROL Tempo limite]** para limitar o período de tempo para ouvir o evento (consulte [Adicionar um tempo limite a um nó de evento](#add-a-timeout-to-an-event-node)).
 
-1. No editor de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
+1. No mapa de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
 
 ### Analise um evento de experiência
 
-Os administradores podem configurar as definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
+Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
 
 1. [Criar e publicar uma definição de evento do AEP](../admin/configure-aep-events.md).
 
 2. Em uma jornada de conta, adicione um nó _Ouvir um evento_ e selecione uma definição de evento do Experience Platform para um evento com base em pessoas.
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](../admin/configure-aep-events.md#overview-video)
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](../admin/configure-aep-events.md#overview-video)
 
 _Para incluir um Evento de Experiência na jornada:_
 
-1. Selecione um nó **[!UICONTROL Ouvir um evento]** no editor de jornadas.
+1. Selecione um nó **[!UICONTROL Ouvir um evento]** no mapa de jornadas.
 
 1. Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o tipo de evento.
 
@@ -160,7 +160,7 @@ _Para incluir um Evento de Experiência na jornada:_
 
 1. Se necessário, defina a opção **[!UICONTROL Tempo limite]** para limitar o período de tempo para ouvir o evento (consulte [Adicionar um tempo limite a um nó de evento](#add-a-timeout-to-an-event-node)).
 
-1. No editor de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
+1. No mapa de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
 
 1. Conclua os nós restantes para sua jornada e [publique-a](./journey-overview.md).
 
