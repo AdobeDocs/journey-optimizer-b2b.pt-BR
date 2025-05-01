@@ -2,9 +2,9 @@
 title: Notas de versão
 description: Notas de versão mais recentes do Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2004'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | ---- | ---- | ----------- |
 | Recurso | Listas de contas | Agora é possível criar uma lista de contas estática ou dinâmica para direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. <a href="../accounts/account-lists.md">Saiba mais</a> |
 | Recurso | Orquestração de jornada da lista de contas | Use os nós de ação de jornada para adicionar e remover contas de listas de contas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Saiba mais</a> |
-| Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B edition para o público-alvo do jornada e use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program—member-of-account-list>Saiba mais</a> |
+| Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B edition para o público-alvo do jornada e use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Saiba mais</a> |
 | Recurso | Filtros de inatividade | Orquestrar jornadas com base na inatividade em campanhas e programas do Marketo Engage, incluindo inatividade de email, momentos interessantes, alterações no valor dos dados e páginas da Web visitadas. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Saiba mais</a> |
 | Aprimoramento | Filtro de página da Web visitado | Orquestrar jornadas com base na atividade para páginas da Web visitadas associadas a campanhas e programas do Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Saiba mais</a> |
 
