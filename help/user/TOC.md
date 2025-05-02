@@ -3,8 +3,8 @@ user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compra usando a IA generativa integrada e a automação líder do setor.
 source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 91%
       + [Assistente de IA para criação de email](./content/ai-assistant-emails.md)
       + [Modelos controlados](./content/email-authoring-governance.md)
       + [Email de alerta de vendas](./content/sales-alert-email.md)
-   + [Tokens de personalização personalizados](./content/personalization-my-tokens.md)
+   + [Tokens de personalização](./content/personalization-my-tokens.md)
    + [Criação de SMS](./content/sms-authoring.md)
 + Contas {#accounts}
    + [Públicos-alvo](./audiences/account-audience-overview.md)
@@ -68,18 +68,18 @@ ht-degree: 91%
       + [Ativos de imagem do Experience Manager](./content/aem-assets.md)
    + Modelos {#templates}
       + [Governança de conteúdo](./content/template-content-governance.md)
-      + Modelos de e-mail {#email-templates}
+      + Modelos de email {#email-templates}
          + [Visão geral](./content/email-templates.md)
          + [Criação de modelo de email](./content/email-template-authoring.md)
       + Modelos de páginas de destino {#landing-page-templates}
          + [Visão geral](./content/landing-page-templates.md)
-         + [Design do modelo de landing page](./content/landing-page-template-design.md)
+         + [Design de modelo de página de destino](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Visão geral](./content/fragments.md)
       + [Criação de fragmentos](./content/fragment-authoring.md)
    + Formulários {#forms}
       + [Visão geral](./content/forms.md)
-      + [Design do formulário](./content/form-design.md)
+      + [Design de formulário](./content/form-design.md)
    + Páginas de destino {#landing-pages}
       + [Visão geral](./content/landing-pages.md)
       + [Design da página de destino](./content/landing-page-design.md)

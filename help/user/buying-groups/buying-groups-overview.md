@@ -5,8 +5,8 @@ feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ A página _[!UICONTROL Grupos de compra]_ é organizada em guias:
 | Tabulação | Descrição |
 | --- | ----------- |
 | [!UICONTROL Visão geral] | Esta guia é a padrão e exibe o [painel de grupos de compra](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Procurar] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compra. </li><li>Filtrar por interesse da solução. </li><li>Especificar os detalhes do grupo de compra. </li><li>Criar um grupo de compras. </li></ul> |
+| [!UICONTROL Procurar] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compra. </li><li>Filtrar por interesse da solução. </li><li>Especificar os detalhes do grupo de compra. </li><li>Crie um grupo de compra. </li></ul> |
 | [!UICONTROL Interesses de solução] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de grupos de compra existentes. </li><li>Pesquisar por nome do grupo de compra. </li><li>Acessar e editar as propriedades de interesse de solução. </li><li>Criar um interesse de solução. </li><li>Excluir um interesse de solução. </li><li>Exibir e excluir trabalhos de grupo de compra. </li></ul> |
 | [!UICONTROL Modelos de funções] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir a lista de modelos de funções existentes. </li><li>Pesquisar por nome do modelo de funções. </li><li>Acessar e editar as propriedades e condições do modelo de funções. </li><li>Criar um modelo de funções. </li><li>Excluir um modelo de funções. </li></ul> |
 | [!UICONTROL Estágios] | Essa guia oferece suporte às seguintes atividades: <ul><li>Exibir o modelo de estágios existente dos grupos de compra. </li><li>Acessar e editar o modelo de estágios de rascunho do grupo de compra. </li><li>Criar o modelo de estágios do grupo de compra. </li></ul> |
@@ -138,7 +138,7 @@ A pontuação de engajamento do grupo de compra é um número para determinar o 
 
 >[!NOTE]
 >
->As atividades de pontuação de engajamento são registradas no log de atividades [do Marketo Engage para uma pessoa](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>As atividades de pontuação de engajamento são registradas no [log de atividades do Marketo Engage para uma pessoa](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
