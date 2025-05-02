@@ -3,9 +3,9 @@ title: Visão geral do Adobe Journey Optimizer B2B Edition
 description: Descubra os principais recursos, casos de uso e arquiteturas do Adobe Journey Optimizer B2B Edition.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ O Adobe Journey Optimizer B2B Edition usa _públicos-alvo de conta_ e _públicos
 
 >[!NOTE]
 >
->Verifique seus direitos de licença e a [descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=pt-BR){target="_blank"} correspondente sobre medidas de proteção de desempenho e limitações estáticas.
+>Verifique seus direitos de licença e a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondente sobre proteções de desempenho e limitações estáticas.
 
 ### Modelo de assinatura
 

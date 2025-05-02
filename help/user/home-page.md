@@ -3,7 +3,7 @@ title: Logon e página inicial
 description: Saiba como acessar o aplicativo Journey Optimizer B2B Edition e usar as informações da página inicial.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
 ht-degree: 100%
 
