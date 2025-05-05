@@ -13,7 +13,7 @@ ht-degree: 7%
 
 O Journey Optimizer B2B edition oferece a capacidade de gerar públicos-alvo de anúncios do LinkedIn por meio de públicos-alvo correspondentes à conta, e foi projetado para ajudar você a preencher funções vazias em seus grupos de compra. Ao definir um conjunto de filtros de grupo de compra, você pode manter um Público-alvo correspondente do LinkedIn para direcionar os prospetos que correspondem aos parâmetros do grupo de compra. Esse recurso aproveita o Experience Platform Destinations para gerenciar alguns aspectos da integração. Há um limite de dez fluxos de dados.
 
-Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
+Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin#connect) com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
 
 ## Configurar uma nova conexão com a conta do LinkedIn {#linkedin-destination-setup}
 

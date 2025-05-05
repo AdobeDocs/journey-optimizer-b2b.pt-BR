@@ -20,7 +20,7 @@ Se essas condições forem verdadeiras, você pode optar por pontuar em primeiro
 
 Na instância do Marketo Engage que está conectada ao Journey Optimizer B2B edition, você pode usar o filtro _[!UICONTROL Membro do grupo de compra]_ nas Smart Lists para identificar esses clientes em potencial de acordo com a estratégia de campanha.
 
-1. Depois de [criar uma Smart List no Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selecione a guia **[!UICONTROL Smart List]** para abrir o editor de filtro.
+1. Depois de [criar uma Smart List no Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selecione a guia **[!UICONTROL Smart List]** para abrir o editor de filtro.
 
 1. Na lista de filtros à direita, role para baixo na lista e expanda a pasta **[!UICONTROL Filtros especiais]**.
 

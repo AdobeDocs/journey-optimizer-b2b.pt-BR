@@ -77,9 +77,9 @@ Para perguntas sobre insights operacionais, as respostas podem não refletir o e
 
 Atualmente, o escopo do Assistente de IA é o seguinte:
 
-* [Conhecimento de produto](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): o AI Assistant pode responder a perguntas de conhecimento de produto do Real-Time Customer Data Platform e do Adobe Journey Optimizer B2B edition.
+* [Conhecimento de produto](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home#product-knowledge): o AI Assistant pode responder a perguntas de conhecimento de produto do Real-Time Customer Data Platform e do Adobe Journey Optimizer B2B edition.
 
-* [Insights operacionais](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): você pode fazer perguntas ao Assistente de IA sobre insights operacionais para os seguintes objetos de dados: atributos, públicos-alvo de conta, fluxos de dados, conjuntos de dados, destinos, jornadas de conta, esquemas, fontes, modelos de grupo de compra e interesses de solução.
+* [Insights operacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home#operational-insights): você pode fazer perguntas ao Assistente de IA sobre insights operacionais para os seguintes objetos de dados: atributos, públicos-alvo de conta, fluxos de dados, conjuntos de dados, destinos, jornadas de conta, esquemas, fontes, modelos de grupo de compra e interesses de solução.
 
 ### Privacidade, segurança e governança
 
@@ -91,7 +91,7 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado com privacidade, 
 
 * Você deve ter permissão explícita para interagir com o Assistente de IA.
 
-   * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) e a [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse).
+   * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions) e a [Admin Console](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/browse).
 
    * As permissões são granulares e o administrador da sandbox pode configurar quais usuários podem fazer diferentes categorias de perguntas (perguntas baseadas em conhecimento do produto com o Assistente de IA ou perguntas sobre insights operacionais).
 

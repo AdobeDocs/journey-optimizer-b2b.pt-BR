@@ -22,7 +22,7 @@ Quando o ambiente tem uma ou mais [conexões de repositórios Assets](../admin/c
 
 >[!IMPORTANT]
 >
->Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
 
 ## Acessar imagens do AEM Assets
 
@@ -32,7 +32,7 @@ No editor de conteúdo visual, clique no ícone do _Experience Manager Assets_ (
 
 >[!NOTE]
 >
->Atualmente, somente os ativos de imagem do Adobe Experience Manager Assets são compatíveis com o Adobe Journey Optimizer B2B edition. As alterações nos ativos devem ser feitas pelo repositório central da Adobe Experience Manager Assets. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>Atualmente, somente os ativos de imagem do Adobe Experience Manager Assets são compatíveis com o Adobe Journey Optimizer B2B edition. As alterações nos ativos devem ser feitas pelo repositório central da Adobe Experience Manager Assets. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
 
 ### Alterar o repositório exibido
 

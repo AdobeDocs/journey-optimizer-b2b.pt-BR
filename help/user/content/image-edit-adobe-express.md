@@ -69,7 +69,7 @@ Se você tiver uma licença Enterprise para o Adobe Express, poderá acessar e u
 
 ![Abrir a imagem no editor Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-O [Guia do Usuário do Adobe Express](https://helpx.adobe.com/express/user-guide.html){target="_blank"} fornece informações detalhadas sobre os recursos de edição disponíveis.
+O [Guia do Usuário do Adobe Express](https://helpx.adobe.com/br/express/user-guide.html){target="_blank"} fornece informações detalhadas sobre os recursos de edição disponíveis.
 
 ## Ações rápidas no Adobe Express
 

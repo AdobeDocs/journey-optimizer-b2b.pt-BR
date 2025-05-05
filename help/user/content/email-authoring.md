@@ -26,7 +26,7 @@ Você pode configurar entregas de email em uma Jornada de conta ao adicionar um 
 
    >[!NOTE]
    >
-   >Se estiver criando um email pela primeira vez, verifique se o canal de email está configurado no Adobe Marketo Engage. Para saber mais, consulte [Garantir a capacidade de entrega de emails](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) na documentação do Marketo Engage.
+   >Se estiver criando um email pela primeira vez, verifique se o canal de email está configurado no Adobe Marketo Engage. Para saber mais, consulte [Garantir a capacidade de entrega de emails](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) na documentação do Marketo Engage.
 
    ![Realizar uma ação - enviar um email](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

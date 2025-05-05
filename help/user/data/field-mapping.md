@@ -15,7 +15,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 >[!TIP]
 >
->Você pode modelar as classes XDM Empresas Pessoa e XDM Empresas Conta em um relação muitos para muitos usando a classe XDM Empresas Account Person Relation, conforme descrito na [documentação](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) Experience Platform XDM.
+>Você pode modelar as classes XDM Empresas Pessoa e XDM Empresas Conta em um relação muitos para muitos usando a classe XDM Empresas Account Person Relation, conforme descrito na [documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b) Experience Platform XDM.
 
 ## Atributos de relação de pessoa da conta Empresas XDM
 
@@ -79,7 +79,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 ## Atributos do XDM Empresas Opportunity
 
-Além disso, oportunidade dados são armazenados como atributos na classe XDM Empresas Opportunity, que pode ser associada à classe XDM Empresas Account por meio de um relacionamento muitos para um, conforme descrito [aqui](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
+Além disso, oportunidade dados são armazenados como atributos na classe XDM Empresas Opportunity, que pode ser associada à classe XDM Empresas Account por meio de um relacionamento muitos para um, conforme descrito [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
 
 | [Propriedade](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | Nome de exibição | Nome B2B exibição do Journey Optimizer | Tipo de dados | Descrição |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

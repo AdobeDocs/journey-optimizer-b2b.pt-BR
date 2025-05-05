@@ -91,7 +91,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
      >[!NOTE]
      >
      >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento das atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desabilite esta opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
-     >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
 
