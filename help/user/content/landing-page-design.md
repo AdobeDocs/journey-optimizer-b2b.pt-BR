@@ -7,11 +7,11 @@ exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
-# Design da landing page
+# Design da página de destino
 
 Depois de [criar uma página de aterrissagem](./landing-pages.md#create-a-landing-page), use o espaço de design visual para criar os componentes estruturais e de conteúdo na sua página.
 
@@ -24,7 +24,7 @@ Depois de [criar uma página de aterrissagem](./landing-pages.md#create-a-landin
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
->title="Sobre os componentes de conteúdo para páginas de destino"
+>title="Sobre componentes de conteúdo para páginas de destino"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
 {{$include /help/_includes/content-design-components.md}}
