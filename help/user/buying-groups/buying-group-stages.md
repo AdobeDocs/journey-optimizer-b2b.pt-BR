@@ -364,4 +364,4 @@ Use a ocorrência de uma alteração de estágio de grupo de compra para mover a
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448699/?learn=on&captions=por_br)
