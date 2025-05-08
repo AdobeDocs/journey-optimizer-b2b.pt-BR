@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Configurar definições de evento do Experience Platform
 
-Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -29,7 +29,7 @@ Cada definição de evento exige a seguinte entrada do Experience Platform:
 
   >[!NOTE]
   >
-  >Coordene com sua equipe de engenharia para garantir que os esquemas necessários sejam definidos. [A criação de esquemas XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
+  >Coordene com sua equipe de engenharia para garantir que os esquemas necessários sejam definidos. [A criação de esquemas XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
 
 * **_Tipos de evento_** - XDM ExperienceEvent eventType (máximo de 20 por definição de evento).
 
@@ -115,7 +115,7 @@ Para procurar uma definição de evento por nome, digite uma string de texto na 
 
 1. Selecione os **[!UICONTROL Tipos de evento]** a serem usados para a definição de evento.
 
-   Os [tipos de evento](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
+   Os [tipos de evento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
 
    * Clique em **[!UICONTROL Selecionar tipos de evento]**.
    * Na caixa de diálogo, selecione um ou mais tipos de evento na lista (máximo de 20).
