@@ -3,7 +3,7 @@ title: Ouvir um evento
 description: Saiba mais sobre o tipo de nó Ouvir um evento que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 16%
@@ -118,7 +118,7 @@ Se você tiver páginas da Web criadas na instância conectada do Marketo Engage
 
 ### Analise um evento de experiência
 
-Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent). O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
+Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
 
 1. [Criar e publicar uma definição de evento do AEP](../admin/configure-aep-events.md).
 
@@ -182,4 +182,4 @@ Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. 
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443239/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

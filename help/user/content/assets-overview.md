@@ -3,8 +3,8 @@ title: Ativos
 description: Saiba mais sobre o gerenciamento de ativos no Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Reúna fluxos de trabalho de marketing e criação usando o Adobe Experience Man
 
 O Adobe Journey Optimizer B2B Edition pode se conectar ao Adobe Experience Manager Assets as a Cloud Service para um gerenciamento de ativos centralizado que estende seu sistema de criação e unifica ativos digitais para a entrega de experiências. O Adobe Experience Manager Assets as a Cloud Service oferece uma solução em nuvem fácil de usar para operações eficientes de gerenciamento de ativos digitais e mídia dinâmica. Ele incorpora recursos avançados com perfeição, incluindo inteligência artificial e aprendizado de máquina.
 
-Saiba mais na [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/overview).
+Saiba mais na [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 

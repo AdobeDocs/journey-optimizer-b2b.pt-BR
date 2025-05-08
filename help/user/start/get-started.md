@@ -2,8 +2,8 @@
 title: Comece a usar o Journey Optimizer B2B Edition
 description: Como novo usuário no Journey Optimizer B2B Edition, saiba mais sobre as áreas principais para começar.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ Como administrador do sistema, você precisa entender os perfis de produtos e at
 
 Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
-1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **Configure o perfil de produto**. Um perfil de produto é um conjunto de direitos unitários na Adobe Experience Platform que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. [Saiba mais](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Configure permissões de usuário** para perfis de produtos, incluindo sandboxes, e dê acesso aos membros da sua equipe atribuindo-os a diferentes perfis de produtos. Esta tarefa é executada no Admin Console. [Saiba mais](../admin/user-management.md#create-a-user-group)
 
-1. **Configure a entrega de email** no Marketo Engage, o que permite que sua equipe envie conteúdo de email de jornadas de conta. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. **Configure a entrega de email** no Marketo Engage, o que permite que sua equipe envie conteúdo de email de jornadas de conta. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **Configure serviços de SMS**. Configure um dos provedores de SMS terceirizados com suporte que oferecem serviços de mensagens de texto de forma independente e configure as credenciais da conta no Adobe Journey Optimizer B2B Edition. [Saiba mais](../admin/configure-channels-sms.md)
 

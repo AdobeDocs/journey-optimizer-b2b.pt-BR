@@ -2,8 +2,8 @@
 title: Públicos-alvo da conta
 description: Saiba mais sobre os públicos-alvo de conta e como eles possibilitam jornadas baseadas em contas.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. O Journey Optimizer B2B Edition usa as funcionalidades de segmentação de conta encontradas nas edições B2B e B2P da Adobe Real-Time Customer Data Platform. Com a segmentação de conta, os usuários podem gerar públicos-alvo de conta aproveitando dados de qualquer uma das entidades B2B no sistema. Esses públicos-alvo de conta servem como entradas para jornadas de conta do Journey Optimizer B2B Edition, facilitando a ativação contínua e o recurso de personalização.
 
-Saiba mais sobre públicos-alvo de conta e como defini-los na [documentação do serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/types/account-audiences).
+Saiba mais sobre públicos-alvo de conta e como defini-los na [documentação do serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
 ## Fluxo de trabalho do público-alvo da conta
 
@@ -32,7 +32,7 @@ O Journey Optimizer B2B Edition permite criar públicos-alvo de conta da Adobe E
 
 ## Criar um público-alvo de conta
 
-Defina o público-alvo da conta criando uma segmentação de conta. Crie a segmentação de conta diretamente no aplicativo Journey Optimizer B2B Edition ou utilize a [interface do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder). Veja a seguir as etapas que podem ser usadas para criar uma segmentação de conta no Journey Optimizer B2B Edition.
+Defina o público-alvo da conta criando uma segmentação de conta. Crie a segmentação de conta diretamente no aplicativo Journey Optimizer B2B Edition ou utilize a [interface do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Veja a seguir as etapas que podem ser usadas para criar uma segmentação de conta no Journey Optimizer B2B Edition.
 
 1. Na navegação à esquerda, escolha **[!UICONTROL Contas]** > **[!UICONTROL Públicos-alvo]**.
 

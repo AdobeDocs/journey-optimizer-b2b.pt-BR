@@ -1,19 +1,19 @@
 ---
-title: Públicos correspondentes da conta do LinkedIn
+title: Públicos-alvo correspondentes da conta do LinkedIn
 description: Saiba como conectar uma conta do LinkedIn e ativar um fluxo de dados para grupos de compra.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
-# Públicos correspondentes da conta do LinkedIn
+# Públicos-alvo correspondentes da conta do LinkedIn
 
-O Journey Optimizer B2B edition oferece a capacidade de gerar públicos-alvo de anúncios do LinkedIn por meio de públicos-alvo correspondentes à conta, e foi projetado para ajudar você a preencher funções vazias em seus grupos de compra. Ao definir um conjunto de filtros de grupo de compra, você pode manter um Público-alvo correspondente do LinkedIn para direcionar os prospetos que correspondem aos parâmetros do grupo de compra. Esse recurso aproveita o Experience Platform Destinations para gerenciar alguns aspectos da integração. Há um limite de dez fluxos de dados.
+O Journey Optimizer B2B edition oferece a capacidade de gerar públicos-alvo de anúncios do LinkedIn por meio de públicos-alvo correspondentes à conta, e foi projetado para ajudar você a preencher funções vazias em seus grupos de compra. Ao definir um conjunto de filtros de grupo de compra, você pode manter um Público-alvo correspondente do LinkedIn para direcionar os prospetos que correspondem aos parâmetros do grupo de compra. Esse recurso utiliza os destinos da Experience Platform para gerenciar alguns aspectos da integração. Há um limite de dez fluxos de dados.
 
-Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin#connect) com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
+Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
 
 ## Configurar uma nova conexão com a conta do LinkedIn {#linkedin-destination-setup}
 
@@ -70,9 +70,9 @@ O nome e a descrição da conta do LinkedIn estão visíveis para grupos de comp
 >
 >Se você já tiver dez fluxos de dados, não poderá criar outro. Se você estiver no máximo, exclua um no Experience Platform antes de criar um novo no Journey Optimizer B2B edition.
 
-1. No Journey Optimizer B2B edition, acesse **[!UICONTROL Contas]** > **[!UICONTROL Grupos de compras]** na navegação à esquerda.
+1. No Journey Optimizer B2B Edition, acesse **[!UICONTROL Contas]** > **[!UICONTROL Grupos de compra]** na navegação à esquerda.
 
-1. Selecione a guia **[!UICONTROL Procurar]**.
+1. Selecione a guia **[!UICONTROL Navegar]**.
 
 1. Clique em **[!UICONTROL Ativar para destino do LinkedIn]** na parte superior direita.
 
@@ -96,7 +96,7 @@ O nome e a descrição da conta do LinkedIn estão visíveis para grupos de comp
 
    ![Especificar a filtragem de público da conta de acordo com os grupos de compra](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
-   Para a **[!UICONTROL Pontuação de engajamento]**, o operador `Between` é inclusivo, assim como os intervalos de porcentagem. Por exemplo, 5.1 e 5 estão ambos _entre_ 5 e 6.
+   Na **[!UICONTROL Pontuação de engajamento]**, o operador `Between` é inclusivo, assim como os intervalos de porcentagem. Por exemplo, 5,1 e 5 estão ambos _entre_ 5 e 6.
 
    Condições vazias são tratadas como `Is Any`.
 
@@ -116,4 +116,4 @@ O nome e a descrição da conta do LinkedIn estão visíveis para grupos de comp
 
 Você pode se envolver com membros da conta por meio de um canal de mídia paga, como públicos-alvo de anúncios do LinkedIn, para adquirir, alimentar e qualificá-los para Vendas. Use um nó _Realizar uma ação_ em uma jornada de conta para automatizar o engajamento com membros-chave de uma conta por meio de um canal externo que seja mais adequado para membros de conta diferentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448677/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

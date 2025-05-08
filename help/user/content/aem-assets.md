@@ -3,26 +3,26 @@ title: Trabalho com o Experience Manager Assets
 description: Saiba como você pode usar ativos de imagem de um repositório conectado do AEM Assets ao criar conteúdo no Adobe Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%
 
 ---
 
-# Trabalhar com ativos do Experience Manager
+# Trabalhar com ativos da Experience Manager
 
 Quando o Adobe Experience Manager Assets as a Cloud Service é integrado ao Adobe Journey Optimizer B2B edition, você pode descobrir e acessar facilmente ativos digitais para uso em seu conteúdo de marketing. À medida que você cria seu conteúdo, os ativos podem ser acessados a partir do item _Experience Manager Assets_ na navegação à esquerda e ao criar conteúdo de email para uma jornada de conta.
 
 {{aem-assets-licensing-note}}
 
-Quando você usa esses ativos digitais, as alterações mais recentes no Assets as a Cloud Service se propagam automaticamente para campanhas de email ao vivo por meio de referências vinculadas. Se as imagens forem excluídas no Adobe Experience Manager Assets as a Cloud Service, elas serão exibidas com uma referência quebrada nos emails. Quando os ativos atualmente usados nas jornadas da conta são modificados ou excluídos, os autores da jornada são notificados sobre as alterações na imagem e a lista de jornadas que usam a imagem. Todas as alterações nos ativos devem ser feitas no repositório central da Adobe Experience Manager Assets.
+Ao usar esses ativos digitais, as alterações mais recentes no Assets as a Cloud Service se propagam automaticamente para campanhas de email em tempo real por meio de referências vinculadas. Se as imagens forem excluídas no Adobe Experience Manager Assets as a Cloud Service, elas serão exibidas com uma referência quebrada nos emails. Quando os ativos atualmente usados nas jornadas da conta são modificados ou excluídos, os autores da jornada são notificados sobre as alterações na imagem e a lista de jornadas que usam a imagem. Todas as alterações nos ativos devem ser feitas no repositório central da Adobe Experience Manager Assets.
 
 Quando o ambiente tem uma ou mais [conexões de repositórios Assets](../admin/configure-aem-repositories.md), os autores de conteúdo podem usar o AEM Assets como fonte para ativos ao criar um email, modelo de email ou fragmento visual.
 
 >[!IMPORTANT]
 >
->Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Acessar imagens do AEM Assets
 
@@ -32,11 +32,11 @@ No editor de conteúdo visual, clique no ícone do _Experience Manager Assets_ (
 
 >[!NOTE]
 >
->Atualmente, somente os ativos de imagem do Adobe Experience Manager Assets são compatíveis com o Adobe Journey Optimizer B2B edition. As alterações nos ativos devem ser feitas pelo repositório central da Adobe Experience Manager Assets. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>Atualmente, somente os ativos de imagem do Adobe Experience Manager Assets são compatíveis com o Adobe Journey Optimizer B2B edition. As alterações nos ativos devem ser feitas pelo repositório central da Adobe Experience Manager Assets. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Alterar o repositório exibido
 
-Se você tiver mais de um repositório AEM conectado, clique na seta de menu de **[!UICONTROL Repositório]** para escolher o repositório que deseja exibir no painel esquerdo.
+Se você tiver mais de um repositório do AEM conectado, clique na seta de menu de **[!UICONTROL Repositório]** para escolher o repositório que deseja exibir no painel esquerdo.
 
 ![Escolha um repositório do AEM Assets para acessar os ativos da imagem](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
 

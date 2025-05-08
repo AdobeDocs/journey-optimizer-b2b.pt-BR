@@ -4,16 +4,16 @@ description: Espaço reservado
 feature: AI Assistant
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 3%
+source-wordcount: '1241'
+ht-degree: 4%
 
 ---
 
 # Assistente de IA no Journey Optimizer B2B edition
 
-O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma base tecnológica do [Assistente de IA no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home). É uma experiência de conversação que você pode usar para acelerar seus fluxos de trabalho no Adobe Journey Optimizer B2B edition. Você pode usar o Assistente de IA para entender melhor os recursos do produto, solucionar problemas ou pesquisar informações e encontrar insights operacionais para o Journey Optimizer B2B edition.
+O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma base tecnológica do [Assistente de IA no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}. É uma experiência de conversação que você pode usar para acelerar seus fluxos de trabalho no Adobe Journey Optimizer B2B edition. Você pode usar o Assistente de IA para entender melhor os recursos do produto, solucionar problemas ou pesquisar informações e encontrar insights operacionais para o Journey Optimizer B2B edition.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma
 
 ## Recursos do Assistente de IA no Journey Optimizer B2B edition
 
-Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Essa resposta é uma representação interna de dados subjacentes e também é conhecida como _&#x200B;**_Gráfico de Conhecimento_**&#x200B;_ — uma Web abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
+Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Essa resposta é uma representação interna de dados subjacentes e também é conhecida como _**_Gráfico de Conhecimento_**_ — uma Web abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
 
 * Documentação do Experience League.
 * Artefatos operacionais, como esquemas, campos, públicos e jornadas.
@@ -59,7 +59,7 @@ Você pode fazer perguntas ao Assistente de IA sobre seus insights operacionais 
 | Domínio | Metadados compatíveis | Metadados incompatíveis |
 | --- | --- | --- |
 | Atributos/campos | <li>Pesquisa de nome de atributo <li>Atributo - relacionamento de esquema <li>Relação atributo-conjunto de dados <li>Atributo - relacionamento de público <li>Relação atributo-destino | <li>Classe de atributo <li>Auditoria <li>Status de desativação <li>Rótulos <li>Valor armazenado em atributos |
-| Públicos-alvo da conta <br><br>**_Observação:_**&#x200B;o Assistente de IA B2B da AJO só pode responder a perguntas de públicos-alvo para Públicos-alvo da conta, enquanto o Assistente de IA da Experience Platform só pode responder a perguntas de Públicos-alvo de pessoa | <li>Contagem de público-alvo <li>Tipo de público-alvo (streaming ou lote) <li>Datas de criação/modificação <li>Status de ativação <li>Contagem de membros <li>Duplicar públicos <li>Pesquisa de nome e ID | <li>Sobreposições de público <li>Ativação de público-alvo <li>Auditoria <li>Criar/modificar <li>Rótulos <li>Tendências de qualificação de membros |
+| Públicos-alvo da conta <br><br>**_Observação:_**o Assistente de IA B2B da AJO só pode responder a perguntas de públicos-alvo para Públicos-alvo da conta, enquanto o Assistente de IA da Experience Platform só pode responder a perguntas de Públicos-alvo de pessoa | <li>Contagem de público-alvo <li>Tipo de público-alvo (streaming ou lote) <li>Datas de criação/modificação <li>Status de ativação <li>Contagem de membros <li>Duplicar públicos <li>Pesquisa de nome e ID | <li>Sobreposições de público <li>Ativação de público-alvo <li>Auditoria <li>Criar/modificar <li>Rótulos <li>Tendências de qualificação de membros |
 | Fluxos de dados | <li>Contagens de fluxo de dados <li>Status do fluxo de dados <li>Fluxo de dados - relação do conjunto de dados <li>Fluxo de dados - relacionamento de origem | <li>Criação/modificação <li>Relações fluxo-lote de dados <li>Contagem de perfis de assimilação |
 | Conjuntos de dados | <li>Contagem do conjunto de dados <li>Status de habilitação do perfil <li>Data de criação/modificação <li>Relação entre conjunto de dados e esquema <li>Conjunto de dados - relacionamento de público-alvo <li>Conjunto de dados - relação de atributo <li>Relação entre conjunto de dados e fluxo de dados <li>Pesquisa de nome <li>Pesquisa de nome e ID | <li>Auditoria <li>Criado por <li>Relação entre conjunto de dados e lote <li>Criação/modificação do conjunto de dados <li>Tamanho do conjunto de dados <li>Número de perfis <li>Número de linhas <li>Pesquisa de valor |
 | Destinos | <li>Contagens de destino configuradas <li>Relação destino - público <li>Relação de atributo de destino | <li>Configuração de conta <li>Informações de credencial da conta <li>Perfis únicos ativados |
@@ -77,9 +77,9 @@ Para perguntas sobre insights operacionais, as respostas podem não refletir o e
 
 Atualmente, o escopo do Assistente de IA é o seguinte:
 
-* [Conhecimento de produto](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home#product-knowledge): o AI Assistant pode responder a perguntas de conhecimento de produto do Real-Time Customer Data Platform e do Adobe Journey Optimizer B2B edition.
+* **Conhecimento de produto**: o AI Assistant pode responder a perguntas de conhecimento de produto do Real-Time Customer Data Platform e do Adobe Journey Optimizer B2B edition.
 
-* [Insights operacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home#operational-insights): você pode fazer perguntas ao Assistente de IA sobre insights operacionais para os seguintes objetos de dados: atributos, públicos-alvo de conta, fluxos de dados, conjuntos de dados, destinos, jornadas de conta, esquemas, fontes, modelos de grupo de compra e interesses de solução.
+* **Insights operacionais**: você pode fazer perguntas ao Assistente de IA sobre insights operacionais para os seguintes objetos de dados: atributos, públicos-alvo de conta, fluxos de dados, conjuntos de dados, destinos, jornadas de conta, esquemas, fontes, modelos de grupo de compra e interesses de solução.
 
 ### Privacidade, segurança e governança
 
@@ -91,7 +91,7 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado com privacidade, 
 
 * Você deve ter permissão explícita para interagir com o Assistente de IA.
 
-   * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions) e a [Admin Console](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/browse).
+   * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * As permissões são granulares e o administrador da sandbox pode configurar quais usuários podem fazer diferentes categorias de perguntas (perguntas baseadas em conhecimento do produto com o Assistente de IA ou perguntas sobre insights operacionais).
 
@@ -127,4 +127,4 @@ Com uma compreensão geral do Assistente de IA, prossiga para ativar e usar o As
 
 * [Habilitar o acesso ao Assistente de IA](./enable-ai-assistant-access.md)
 * [Orientação para perguntas](./question-guidance.md)
-* [Usar o assistente de IA](./use-ai-assistant.md)
+* [Usar o Assistente de IA](./use-ai-assistant.md)

@@ -3,10 +3,10 @@ title: Criação de email
 description: Saiba como criar conteúdo de email personalizado que é usado em uma Jornada de conta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Você pode configurar entregas de email em uma Jornada de conta ao adicionar um 
 
    >[!NOTE]
    >
-   >Se estiver criando um email pela primeira vez, verifique se o canal de email está configurado no Adobe Marketo Engage. Para saber mais, consulte [Garantir a capacidade de entrega de emails](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) na documentação do Marketo Engage.
+   >Se estiver criando um email pela primeira vez, verifique se o canal de email está configurado no Adobe Marketo Engage. Para saber mais, consulte [Garantir a capacidade de entrega de emails](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} na documentação do Marketo Engage.
 
    ![Realizar uma ação - enviar um email](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
