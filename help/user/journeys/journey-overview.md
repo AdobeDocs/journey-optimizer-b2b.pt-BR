@@ -154,4 +154,4 @@ Use uma ação de exclusão para excluir uma jornada permanentemente. Não é po
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443212/?learn=on&captions=por_br)
