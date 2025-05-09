@@ -4,9 +4,9 @@ description: Saiba como os grupos de compra no Journey Optimizer B2B Edition pod
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1782'
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ Você pode aumentar a eficácia do marketing estabelecendo grupos de compra no J
 
 1. Criar grupos de compra.
 
-   * Definir [interesses da solução](./solution-interests.md) e [modelo de função](./buying-groups-role-templates.md)
-   * [Criar o grupo de compras](./buying-groups-create.md#create-buying-groups) e atribuir [estágios de grupos de compras](./buying-group-stages.md).
+   * Definir [interesse na solução](./solution-interests.md) e [modelo de função](./buying-groups-role-templates.md)
+   * [Crie o grupo de compra](./buying-groups-create.md#create-buying-groups) e atribua [estágios do grupo de compra](./buying-group-stages.md).
 
 1. Identificar pessoas ausentes.
 
@@ -51,7 +51,7 @@ Você pode aumentar a eficácia do marketing estabelecendo grupos de compra no J
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Use o grupo de compras para suas jornadas de conta.
+1. Use o grupo de compra para suas jornadas de conta.
 
 ## Exibir grupos de compra e componentes
 
@@ -204,4 +204,4 @@ A pontuação final de engajamento é calculada aplicando o peso de cada uma das
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
