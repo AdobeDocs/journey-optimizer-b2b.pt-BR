@@ -3,18 +3,18 @@ title: Conteúdo condicional
 description: Saiba como criar variações de conteúdo e aplicar regras condicionais ao criar conteúdo de email para jornadas de conta.
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 12%
+source-wordcount: '1305'
+ht-degree: 14%
 
 ---
 
 # Conteúdo condicional
 
-O conteúdo condicional permite adaptar o conteúdo do email com base em regras condicionais. Essas regras são definidas usando atributos de perfil ou eventos contextuais. Você pode criar regras condicionais no construtor de regras e armazená-las para reutilização nas jornadas da conta.
+O conteúdo condicional permite adaptar o conteúdo do email com base em regras condicionais. Essas regras são definidas usando atributos de perfil ou eventos contextuais. É possível criar regras condicionais no construtor de regras e armazená-las para reutilização nas jornadas de conta.
 
-Para adicionar conteúdo condicional às suas mensagens de email, o Adobe Journey Optimizer permite aplicar regras condicionais armazenadas na biblioteca _Condições_. Aplique regras condicionais no espaço de design de email ao [criar um email em uma jornada de conta](./email-authoring.md).
+Para adicionar conteúdo condicional às suas mensagens de email, o Adobe Journey Optimizer permite aplicar regras condicionais armazenadas na biblioteca _Condições_. Aplique regras condicionais no espaço de design de email ao [criar conteúdo de email para uma jornada de conta](./email-authoring.md).
 
 ## Adicionar conteúdo condicional aos emails {#email-content}
 
@@ -34,7 +34,7 @@ Ao criar um email para sua jornada de conta no espaço de design de email, use r
 
    O componente é contornado em laranja para indicar que está ativado como um componente condicional. O painel **[!UICONTROL Conteúdo Condicional]** é exibido à esquerda com a _Variante Padrão_ e a _Variante - 1.
 
-   ![Habilitar conteúdo condicional para o componente de texto](./assets/conditions-enable.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoom=&quot;yes&quot;}
+   ![Habilitar conteúdo condicional para o componente de texto](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    O conteúdo original selecionado e ativado é o padrão e se aplica quando nenhuma das regras condicionais é satisfeita para nenhuma das variantes definidas.
 
@@ -42,13 +42,13 @@ Ao criar um email para sua jornada de conta no espaço de design de email, use r
 
 1. Passe o mouse sobre a primeira variante (_Variante - 1_) e clique no ícone _Selecionar condição_ ( ![Ícone de condição](../assets/do-not-localize/icon-select-condition.svg) ).
 
-   ![Selecionar condição para a variante](./assets/conditions-variant-select.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Selecionar condição para a variante](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    A caixa de diálogo _[!UICONTROL Selecionar condição]_ é aberta e exibe a biblioteca de condições.
 
    Se quiser exibir detalhes de uma condição para garantir que ela seja o que você deseja, clique no ícone do _Mais menu_ (**...**) e escolha **[!UICONTROL Exibir Informações]**.
 
-   ![Detalhes da condição de acesso à biblioteca de condições](assets/conditions-select-dialog.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Detalhes da condição de acesso à biblioteca de condições](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    Se a condição necessária não existir, [crie uma regra condicional](#create-condition) clicando em **[!UICONTROL Criar novo]**.
 
@@ -56,23 +56,23 @@ Ao criar um email para sua jornada de conta no espaço de design de email, use r
 
    Você pode revisar a condição associada clicando no ícone do _Mais menu_ (**...**) para a variante e escolhendo **[!UICONTROL Exibir condição]**.
 
-   ![Exibir a condição associada à variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Exibir a condição associada à variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    Clique em X na parte superior direita para fechar o pop-up.
 
-   ![Exibir detalhes da condição associada](./assets/conditions-info-popup.png){width="500"}{width=&quot;500&quot;}
+   ![Exibir detalhes da condição associada](./assets/conditions-info-popup.png){width="500"}
 
 1. Para facilitar a leitura, renomeie a variante clicando no ícone _Mais menu_ (**...**) da variante e escolhendo **[!UICONTROL Renomear]**.
 
    Insira um nome significativo para a variante que ajude a identificar a variante e seu propósito.
 
-   ![Renomear a variante](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Renomear a variante](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. Com a variante selecionada no painel esquerdo, altere o componente para alterar como ele aparece na mensagem de email quando a condição for verdadeira.
 
    Neste exemplo, a variante do componente de texto usa uma descrição diferente com base na região do recipient.
 
-   ![Alterar o componente para a variante](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Alterar o componente para a variante](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. Se necessário, defina outra variante clicando em **[!UICONTROL Adicionar variante]**.
 
@@ -136,13 +136,13 @@ Você pode acessar o construtor de regras condicionais no espaço de design de e
    * **[!UICONTROL Condição de pessoa]** - Escolha esse tipo para criar a regra condicional usando atributos de pessoa e eventos contextuais.
    * **[!UICONTROL Condição de conta]** - Escolha este tipo para criar a regra condicional usando atributos de conta.
 
-   ![Escolha o tipo de condição a ser criado](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Escolha o tipo de condição a ser criado](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. Crie a regra condicional de acordo com suas necessidades.
 
    Para cada atributo ou evento que você deseja incluir na regra, arraste e solte o item na tela da regra. Expanda o filtro e conclua a expressão.
 
-   ![Conclua a expressão para avaliar](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Concluir a expressão a ser avaliada](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    Se você incluir mais de um filtro, defina a **[!UICONTROL Lógica do filtro]**:
 
@@ -153,7 +153,7 @@ Você pode acessar o construtor de regras condicionais no espaço de design de e
 
    Use um nome significativo e uma descrição útil para ajudar outras pessoas em sua organização para que elas possam reutilizá-lo, em vez de criar outra condição duplicada.
 
-   ![Adicionar um nome e uma descrição para a regra condicional](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Adicionar um nome e uma descrição para a regra condicional](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. Quando sua regra condicional for concluída, clique em **[!UICONTROL Salvar]**.
 
@@ -167,7 +167,7 @@ Regras condicionais salvas na biblioteca não podem ser modificadas. No entanto,
 
    Uma duplicata da regra é aberta no construtor de regras. Use a duplicata como ponto de partida para a regra que deseja criar.
 
-   ![Use uma regra duplicada para criar a regra necessária](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Use uma regra duplicada para criar a que você precisa](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. No construtor de regras, altere, adicione ou exclua condições de acordo com o que precisar.
 

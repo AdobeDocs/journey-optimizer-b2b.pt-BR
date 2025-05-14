@@ -1,30 +1,30 @@
 ---
 title: Fragmentos
-description: Aprenda a criar e usar fragmentos de conteúdo visuais como componentes reutilizáveis em e-mails e modelos de email em Adobe Systems Journey Optimizer B2B Edition.
+description: Saiba como criar e usar fragmentos de conteúdo visual como componentes reutilizáveis para emails e modelos de email no Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '2624'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Fragmentos
 
-Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails e modelos de email no Adobe Journey Optimizer B2B edition. Geralmente, é um bloco de conteúdo (texto, imagem ou ambos) que pode ser pré-criado e inserido rapidamente em um email ou modelo de email. Com essa funcionalidade, você pode pré-criar vários blocos de conteúdo personalizados para serem usados pelos membros da equipe de marketing para montar conteúdo de email a fim de oferecer um processo de design aprimorado. Casos de uso comuns incluem blocos de conteúdo de cabeçalho/rodapé para email, evento convidar banners e saudações sazonais.
+Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails e modelos de email no Adobe Journey Optimizer B2B edition. Geralmente, é um bloco de conteúdo (texto, imagem ou ambos) que pode ser pré-criado e inserido rapidamente em um email ou modelo de email. Com essa funcionalidade, você pode pré-criar vários blocos de conteúdo personalizados para serem usados pelos membros da equipe de marketing para montar conteúdo de email a fim de oferecer um processo de design aprimorado. Casos de uso comuns incluem blocos de conteúdo de cabeçalho/rodapé para email, banners para convites de eventos e saudações sazonais.
 
 >[!BEGINSHADEBOX]
 
 **Fragmentos visuais**
 
-Fragmentos visuais são blocos visuais predefinidos criados usando o visual conteúdo designer que você pode reutilizar em vários e-mails ou modelos de email. A escopo atual do Journey Optimizer B2B Edition e esta documentação são apenas de fragmentos visuais. Fragmentos baseados em expressão ainda não são suportados no Journey Optimizer B2B Edition.
+Fragmentos visuais são blocos visuais predefinidos criados com o designer de conteúdo visual que podem ser reutilizados em vários emails ou modelos de email. O escopo atual do Journey Optimizer B2B edition e desta documentação é apenas o de fragmentos visuais. Fragmentos baseados em expressão ainda não são compatíveis com o Journey Optimizer B2B edition.
 
 >[!ENDSHADEBOX]
 
-Para fazer o melhor uso dos fragmentos na workflows:
+Para aproveitar ao máximo os fragmentos em seus workflows:
 
-* _Criar seus próprios fragmentos_ - Criar fragmentos visuais, do zero ou salvando conteúdo como um fragmento do editor visual conteúdo.
+* _Criar seus próprios fragmentos_ - Crie fragmentos visuais, do zero ou salvando o conteúdo como um fragmento do editor de conteúdo visual.
 * _Reutilizar fragmentos_ - Use-os quantas vezes forem necessárias em seu conteúdo.
 
 ## Acessar e gerenciar fragmentos
@@ -43,7 +43,7 @@ O status do fragmento determina sua disponibilidade para uso em um email ou mode
 | -------------------- | ----------- |
 | Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o conteúdo visual, até que você o publique para uso em um modelo de email ou de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no designer visual<li>Publicação<li>Duplicar<li>Excluir |
 | Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. O conteúdo do fragmento publicado não pode ser modificado no designer visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
-| Publicado com rascunho | Quando você cria um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um email ou modelo de email, e o rascunho conteúdo pode ser modificado no designer visual. Se você publicar a versão de rascunho, ela substitui a versão publicada atual e a conteúdo é atualizada nos modelos de e-mails e email onde está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no visual designer<li>Publish versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
+| Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no designer visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no visual designer<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
 
 ![Ciclo de vida do status do fragmento](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -73,25 +73,25 @@ Você pode criar novos fragmentos visuais no Journey Optimizer B2B edition clica
 
    Requisitos de fragmento:
 
-   * Nome - máximo de 100 caracteres, deve ser exclusivo, sem distinção entre maiúsculas e minúsculas
+   * Nome - Máximo de 100 caracteres; deve ser exclusivo, não diferencia maiúsculas de minúsculas
 
    * Descrição - Máximo de 300 caracteres
 
-   * São permitidos caracteres alfa, numérico e especiais
+   * São permitidos caracteres Alpha, numéricos e especiais
 
-   * Caracteres reservados não são permitidos **__**:`\ / : * ? " < > |`
+   * Os caracteres reservados **_não são permitidos_**: `\ / : * ? " < > |`
 
    ![Caixa de diálogo Criar fragmento](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. Clique em **[!UICONTROL Criar]**.
 
-   O visual designer é aberto com uma tela vazia.
+   O designer visual é aberto com uma tela vazia.
 
-1. Use as ferramentas de design conteúdo para criar o fragmento visual conteúdo:
+1. Use as ferramentas de design de conteúdo para criar o conteúdo visual do fragmento:
 
    * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
-   * [Adicionar Assets](./fragment-authoring.md#add-assets)
-   * [Navegue pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Adicionar o Assets](./fragment-authoring.md#add-assets)
+   * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
    * [Habilitar campos personalizados](./fragment-authoring.md#enable-fragment-customization)
    * [Editar rastreamento de URL vinculado](./fragment-authoring.md#edit-linked-url-tracking)
@@ -122,7 +122,7 @@ Na página de detalhes do fragmento, clique na guia **[!UICONTROL Usado por]** p
 >
 >Qualquer fragmento que esteja sendo usado atualmente por qualquer email ou modelo de email não pode ser excluído.
 
-As referências são exibidas de acordo com categoria: _Email_ ou _Email modelo_. Os emails no Journey Optimizer B2B edition são incorporados e criados nas jornadas da conta, de modo que a jornada principal do email que usa o fragmento é exibida nas referências.
+As referências são exibidas de acordo com a categoria: _Email_ ou _Modelo de email_. Os emails no Journey Optimizer B2B edition são incorporados e criados nas jornadas da conta, de modo que a jornada principal do email que usa o fragmento é exibida nas referências.
 
 ![Usado pelas referências para o fragmento](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -132,16 +132,16 @@ Clique no link para abrir o email ou modelo de email correspondente onde o fragm
 
 Qualquer fragmento que esteja sendo usado atualmente por qualquer email ou modelo de email não pode ser excluído, portanto, verifique as referências _usado por_ antes de iniciar a remoção de um fragmento. Além disso, uma remoção não pode ser desfeita, portanto, verifique antes de iniciar uma ação de exclusão.
 
-É possível excluir um fragmento usando qualquer um dos seguintes métodos:
+É possível excluir um fragmento usando um dos seguintes métodos:
 
-* Nos detalhes do fragmento à direita, clique **[!UICONTROL Excluir]**.
-* Na lista Fragmentos que _[!UICONTROL lista página, clique nas elipses]_ ao lado do fragmento e escolha **[!UICONTROL Excluir]**.
+* Nos detalhes do fragmento à direita, clique em **[!UICONTROL Excluir]**.
+* Na página de listagem _[!UICONTROL Fragmentos]_, clique nas reticências ao lado do fragmento e escolha **[!UICONTROL Excluir]**.
 
-Essa ação abre uma caixa de diálogo de confirmação. Você pode suspender o processo clicando **[!UICONTROL Cancelar]** ou clicar **[!UICONTROL em Excluir]** para confirmar a exclusão.
+Essa ação abre uma caixa de diálogo de confirmação. Você pode anular o processo clicando em **[!UICONTROL Cancelar]** ou em **[!UICONTROL Excluir]** para confirmar a exclusão.
 
-![Caixa de diálogo do fragmento de Excluir](./assets/fragment-delete-dialog.png){width="400"}
+![Excluir caixa de diálogo do fragmento](./assets/fragment-delete-dialog.png){width="400"}
 
-Se o fragmento estiver em uso no momento, a ação abre uma caixa de diálogo informativa que alerta que ele não pode ser excluído. Clique **[!UICONTROL OK]**, que anula a ação de exclusão.
+Se o fragmento estiver em uso no momento, a ação abrirá uma caixa de diálogo informativa que o alerta de que não pode ser excluído. Clique em **[!UICONTROL OK]**, que anula a ação de exclusão.
 
 ![Caixa de diálogo Excluir fragmento - não é possível excluir o fragmento em uso](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
@@ -178,25 +178,25 @@ As edições em um fragmento dependem do status atual:
 
    Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do fragmento.
 
-1. Quando o fragmento atender aos seus critérios e você desejar disponibilizá-lo para uso em um email ou modelo de email, clique **[!UICONTROL Publish]**.
+1. Quando o fragmento atender aos seus critérios e você quiser disponibilizá-lo para uso em um modelo de email ou email, clique em **[!UICONTROL Publicar]**.
 
 >[!TAB Publicado]
 
-1. Na lista _[!UICONTROL Fragmentos que]_ lista página, clique no nome do fragmento para abri-lo.
+1. Na página de listagem _[!UICONTROL Fragmentos]_, clique no nome do fragmento para abri-lo.
 
-   Uma pré-visualização do conteúdo visual é exibida, com os detalhes do fragmento à direita.
+   Uma visualização do conteúdo visual é exibida, com os detalhes do fragmento à direita.
 
 1. Modifique a descrição, se necessário.
 
    Para um fragmento publicado, todos os outros detalhes não podem ser alterados.
 
-1. Se desejar atualizar a conteúdo, clique **[!UICONTROL Criar versão]** de rascunho na parte superior direita.
+1. Para atualizar o conteúdo, clique em **[!UICONTROL Criar versão de rascunho]** na parte superior direita.
 
-   Clique **[!UICONTROL OK]** na caixa de diálogo para abrir a versão de rascunho no visual designer.
+   Clique em **[!UICONTROL OK]** na caixa de diálogo para abrir a versão de rascunho no designer visual.
 
-   ![Caixa de diálogo da versão de rascunho do Criar](./assets/fragments-create-draft-version.png){width="300"}
+   ![Criar caixa de diálogo de versão de rascunho](./assets/fragments-create-draft-version.png){width="300"}
 
-   Use as ferramentas do visual designer conforme necessário:
+   Use as ferramentas do designer visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
@@ -225,7 +225,7 @@ Há duas maneiras de abrir a versão de rascunho para edição na página de lis
 
 Para atualizar o conteúdo:
 
-1. Clique **[!UICONTROL Editar fragmento]** na parte superior direita. Use as ferramentas do designer visual conforme necessário:
+1. Clique em **[!UICONTROL Editar fragmento]** na parte superior direita. Use as ferramentas do designer visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
@@ -285,21 +285,21 @@ Os fragmentos são projetados para reutilização e podem ser inseridos para cri
 
 1. Navegue até **[!UICONTROL Jornadas de conta]** e abra uma jornada existente ou crie uma nova jornada.
 
-1. Criar um nó enviar email[__.](./email-authoring.md#add-an-email-action-in-an-account-journey)
+1. Criar um nó [_[!UICONTROL Enviar email ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
-1. Criar ou edite [conteúdo de email do nó](./email-authoring.md#create-the-email-content).
+1. Criar ou editar o conteúdo de email [do nó](./email-authoring.md).
 
-1. Arraste e solte um item do **[!UICONTROL menu Componentes]** para fornecer uma _estrutura_ para o fragmento.
+1. Arraste e solte um item do menu **[!UICONTROL Componentes]** para fornecer uma _estrutura_ para o fragmento.
 
 1. Para abrir a listagem de fragmentos publicados, clique no ícone _Fragmentos_.
 
    É possível:
    * Classifique a listagem.
-   * Procure, pesquisa e filtre a listagem.
-   * Alternar entre exibições de cartão (miniatura) e lista.
-   * Atualizar o lista para refletir qualquer um dos fragmentos criados recentemente.
+   * Procurar, pesquisar e filtrar a listagem.
+   * Alternar entre as visualizações de cartão (miniatura) e de lista.
+   * Atualize a lista para refletir qualquer um dos fragmentos criados recentemente.
 
-   ![Search para um fragmento no visual designer](./assets/fragments-list-designer-search.png){width="600"}
+   ![Procurar um fragmento no designer visual](./assets/fragments-list-designer-search.png){width="600"}
 
 1. Arraste e solte qualquer um dos fragmentos no espaço reservado do componente de estrutura.
 

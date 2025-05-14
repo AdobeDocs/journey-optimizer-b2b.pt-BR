@@ -1,52 +1,24 @@
 ---
-title: Criação de email
-description: Saiba como criar conteúdo de email personalizado que é usado em uma Jornada de conta.
+title: Criação de mensagens de email
+description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B. Use modelos, importações do HTML e ferramentas alimentadas por IA para personalizar e otimizar suas comunicações por email.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 12%
+source-wordcount: '949'
+ht-degree: 15%
 
 ---
 
-# Criação de email
+# Criação de mensagens de email
 
-Use o Adobe Journey Optimizer B2B edition para enviar mensagens de email aos seus clientes. Você pode criar, personalizar e visualizar mensagens no designer visual.
-
-## Adicionar uma ação de email em uma jornada de conta
-
-Você pode configurar entregas de email em uma Jornada de conta ao adicionar um nó _[!UICONTROL Realizar uma ação]_ e fazer o seguinte:
-
-1. Para o destino _[!UICONTROL Ação em]_, escolha **[!UICONTROL Pessoas]**.
-1. Para a _[!UICONTROL Ação sobre pessoas]_, escolha **[!UICONTROL Enviar email]**.
-1. Para a _[!UICONTROL origem do email]_, escolha **[!UICONTROL Criar novo email]**.
-
-   Como alternativa, você também pode selecionar a opção _[!UICONTROL Selecionar email do Adobe Marketo Engage]_ para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da Jornada de Conta.
-
-   >[!NOTE]
-   >
-   >Se estiver criando um email pela primeira vez, verifique se o canal de email está configurado no Adobe Marketo Engage. Para saber mais, consulte [Garantir a capacidade de entrega de emails](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} na documentação do Marketo Engage.
-
-   ![Realizar uma ação - enviar um email](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. Na parte inferior do painel _[!UICONTROL Realizar uma ação]_, clique em **[!UICONTROL Criar email]**.
-
-1. Na caixa de diálogo, insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**.
-
-   ![Caixa de diálogo Criar novo email](assets/create-new-email.png){width="400"}
-
-1. Clique em **[!UICONTROL Criar]**.
-
-   Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
-
-## Criar o conteúdo do email
+Depois de [adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
 
 Clique em **[!UICONTROL Adicionar conteúdo de email]** na parte superior do painel de visualização do _[!UICONTROL Email]_.
 
 ![Clique em Adicionar conteúdo de email ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-Essa ação inicia o Designer de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
+Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
 * [Crie o email do zero](#design-your-email-from-scratch) usando a interface Designer de email.
 
@@ -62,7 +34,7 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 >
 >Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa, para elevar seu conteúdo ao próximo nível. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
 
-### Criar email do zero {#design-from-scratch}
+## Criar email do zero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ Quando o conteúdo estiver concluído, clique em **[!UICONTROL Simular conteúdo
 
 Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
-### Importar conteúdo existente do HTML
+## Importar conteúdo existente do HTML
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
 Você pode personalizar o conteúdo importado conforme necessário com as ferramentas do editor visual de email.
 
-### Selecione um modelo
+## Selecione um modelo
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
 
 ### Mais opções
 
-No menu _[!UICONTROL Mais...]_, na parte superior do designer de email, você pode realizar as seguintes ações:
+No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design de email, você pode realizar as seguintes ações:
 
 ![Clique em Mais para acessar as ações do modelo](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ No menu _[!UICONTROL Mais...]_, na parte superior do designer de email, você po
 * **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu email_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design ou optar por projetar o conteúdo do zero em uma tela preta.\
 * **[!UICONTROL Salvar como modelo de conteúdo]** - Salve o corpo do email como um modelo de email a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o modelo e salve-o na lista de modelos de email salvos.
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
-
-## Verificar alertas
-
-À medida que você cria o conteúdo da sua mensagem de email, os alertas são exibidos na interface (canto superior direito da página) quando as principais configurações estão ausentes.
-
-Se você não vir esse botão, não há problemas detectados.
-
-Dois tipos de alertas podem ser detectados:
-
-* **_Avisos_** que se referem a recomendações e práticas recomendadas, como:
-
-   * `The opt-out link is not present in the email body`: adicionar um link de cancelamento de assinatura ao corpo do email é uma prática recomendada.
-
-     >[!NOTE]
-     >
-     >As mensagens de email de estilo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais.
-
-   * `Text version of HTML is empty`: não se esqueça de definir uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
-
-   * `Empty link is present in email body`: verifique se todos os links no seu email estão corretos.
-
-   * `Email size has exceeded the limit of 100KB`: para uma entrega ideal, verifique se o tamanho do seu email não excede 100KB.
-
-* **_Erros_** que impedem que você teste ou ative a jornada/campanha enquanto não forem resolvidos, como:
-
-   * `The subject line is missing`: a linha de assunto do email é obrigatória.
-
-   * `The email version of the message is empty`: este erro é exibido quando o conteúdo do email não foi configurado.
 
 ## Verificar e testar o email {#preview-test}
 
