@@ -164,4 +164,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

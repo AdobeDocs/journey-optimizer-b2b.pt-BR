@@ -22,7 +22,7 @@ Os parâmetros a seguir controlam o acesso ao Assistente de IA no Journey Optimi
 
 * **Acessar o aplicativo:** Você pode acessar o Assistente de IA no Adobe Journey Optimizer B2B edition.
 
-* **Permissões:** Use a [Interface do usuário de permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} para conceder ou revogar acesso ao Assistente de IA em sua organização. Para usar o Assistente de IA, um determinado usuário deve pertencer a uma função configurada com as permissões **Habilitar Assistente de IA** e **Exibir Insights Operacionais**.
+* **Permissões:** Use a [Interface do usuário de permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} para conceder ou revogar acesso ao Assistente de IA em sua organização. Para usar o Assistente de IA, um determinado usuário deve pertencer a uma função configurada com as permissões **Habilitar Assistente de IA** e **Exibir Insights Operacionais**.
 
 Como administrador, você pode:
 
@@ -32,7 +32,7 @@ Como administrador, você pode:
 
 ![Atribuir permissões do Assistente de IA](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Use a interface de permissões para conceder permissões para usar o Assistente de IA no Journey Optimizer B2B edition. Para obter informações sobre como acessar o Assistente de IA no Experience Platform e outros aplicativos da Experience Cloud, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Use a interface de permissões para conceder permissões para usar o Assistente de IA no Journey Optimizer B2B edition. Para obter informações sobre como acessar o Assistente de IA no Experience Platform e outros aplicativos da Experience Cloud, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Quando o usuário tem as permissões necessárias, ele pode acessar o Assistente de IA selecionando o ícone do _Assistente de IA_ no cabeçalho superior do aplicativo que você está usando.
 

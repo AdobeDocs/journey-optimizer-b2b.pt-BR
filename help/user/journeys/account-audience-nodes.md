@@ -54,4 +54,4 @@ _Para criar um segmento de público-alvo:_
 
    ![Criar um segmento de público-alvo](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Siga as etapas descritas no [guia do Serviço de Segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Siga as etapas descritas no [guia do Serviço de Segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.

@@ -4,21 +4,21 @@ description: Saiba como os grupos de compra no Journey Optimizer B2B Edition pod
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 100%
+source-wordcount: '1778'
+ht-degree: 95%
 
 ---
 
 
 # Grupos de compra
 
-As contas são fundamentais para qualquer estratégia de atividades de vendas e marketing B2B. Cada conta tem um grupo de pessoas associado, as quais podem ser funcionários ou profissionais contratados que trabalham com a conta. As contas são hierárquicas e produtos diferentes podem ser vendidos em diferentes níveis na hierarquia. Por exemplo, a Adobe Experience Platform pode ser vendida no nível corporativo para uma conta de nível superior, enquanto o Adobe Photoshop pode ser vendido para uma conta que representa uma divisão ou departamento dentro de uma organização, como um departamento de design dentro de uma corporação maior.
+As contas são fundamentais para qualquer estratégia de atividades de vendas e marketing B2B. Cada conta tem um grupo de pessoas associado, as quais podem ser funcionários ou profissionais contratados que trabalham com a conta. As contas são hierárquicas e produtos diferentes podem ser vendidos em diferentes níveis na hierarquia. Por exemplo, o Adobe Experience Platform pode ser vendido no nível corporativo para uma conta de nível superior. E o Adobe Photoshop pode ser vendido para uma conta que representa uma divisão ou departamento dentro de uma organização, como um departamento de design dentro de uma corporação maior.
 
 ![Diagrama de funções da conta](assets/account-roles-diagram.png){width="800"}
 
-A conta pode conter um subconjunto de pessoas que compõe o _grupo de compra_. Essas são as pessoas que tomam a decisão de compra final, portanto, precisam de atenção especial de profissionais de marketing e podem precisar de acesso a informações diferentes em comparação com as outras pessoas associadas à conta. Os grupos de compra podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente exigem um(a) diretor(a) de informações ou de segurança e um(a) representante do departamento jurídico para aprovar uma compra, mas um produto de monitoramento de erros normalmente conta com um(a) vice-presidente de engenharia e um(a) diretor(a) de TI em seu grupo de compra.
+A conta pode conter um subconjunto de pessoas que compõe o _grupo de compra_. Essas pessoas tomam a decisão de comprar, portanto precisam de atenção especial do profissional de marketing e podem precisar de informações diferentes fornecidas a elas do que as outras pessoas associadas à conta. Os grupos de compra podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente exigem um(a) diretor(a) de informações ou de segurança e um(a) representante do departamento jurídico para aprovar uma compra, mas um produto de monitoramento de erros normalmente conta com um(a) vice-presidente de engenharia e um(a) diretor(a) de TI em seu grupo de compra.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -205,4 +205,4 @@ A pontuação final de engajamento é calculada aplicando o peso de cada uma das
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

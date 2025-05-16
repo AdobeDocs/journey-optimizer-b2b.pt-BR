@@ -286,7 +286,7 @@ Os fragmentos são projetados para reutilização e podem ser inseridos para cri
 
 1. Navegue até **[!UICONTROL Jornadas de conta]** e abra uma jornada existente ou crie uma nova jornada.
 
-1. Criar um nó [_[!UICONTROL Enviar email &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Criar um nó [_[!UICONTROL Enviar email ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Criar ou editar o conteúdo de email [do nó](./email-authoring.md).
 
