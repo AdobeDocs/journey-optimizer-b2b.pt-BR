@@ -17,7 +17,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 >[!TIP]
 >
->Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do Experience Platform XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Atributos de relação pessoal da conta comercial XDM
 
@@ -81,7 +81,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 ## Atributos de oportunidade de negócios XDM
 
-Além disso, os dados da oportunidade são armazenados como atributos na classe de Oportunidade Comercial XDM, que pode ser associada à classe de Conta Comercial XDM por meio de uma relação muitos para um, conforme descrito na [documentação da Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Além disso, os dados da oportunidade são armazenados como atributos na classe de Oportunidade Comercial XDM, que pode ser associada à classe de Conta Comercial XDM por meio de uma relação muitos para um, conforme descrito na [documentação da Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 | [Propriedade](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Nome de exibição | Nome para exibição do Journey Optimizer B2B | Tipo de dados | Descrição |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
