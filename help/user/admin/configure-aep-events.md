@@ -282,4 +282,4 @@ Ao abrir uma definição de evento _Publicado (com rascunho)_, a guia de versão
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448688/?learn=on&captions=por_br)
