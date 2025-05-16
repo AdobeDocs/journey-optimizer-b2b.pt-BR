@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # Criação de mensagens de email
 
-Depois de [adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
+Depois de &lbrack;adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada&rbrack;(./add-email.md), você pode definir o conteúdo da mensagem de email.
 
 Clique em **[!UICONTROL Adicionar conteúdo de email]** na parte superior do painel de visualização do _[!UICONTROL Email]_.
 
