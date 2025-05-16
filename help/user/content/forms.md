@@ -1,10 +1,11 @@
 ---
 title: Formulários
 description: Saiba como criar formulários reutilizáveis que podem ser incluídos nas landing pages.
-feature: Content
+feature: Forms, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 1%
@@ -32,8 +33,8 @@ O status do formulário determina sua disponibilidade para uso em uma página de
 | Status | Descrição |
 | -------------------- | ----------- |
 | Rascunho | Quando você cria um formulário, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita os campos, até que você os publique para uso em uma página de aterrissagem ou modelo de página de aterrissagem. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
-| Publicado | Ao publicar um formulário, ele fica disponível para uso em uma landing page ou template de landing page. O conteúdo do formulário publicado não pode ser modificado no espaço de design visual. Ações disponíveis:<br/><ul><li>Editar nome, descrição ou página de agradecimento<li>Adicionar a uma página ou modelo de página de aterrissagem<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso)<li>Integrar código |
-| Publicado com rascunho | Ao criar um rascunho de um formulário publicado, a versão publicada permanece disponível para uso em uma página de aterrissagem ou modelo de página de aterrissagem, e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nas páginas de aterrissagem ou modelos de página de aterrissagem em que está em uso. Ações disponíveis:<br/><ul><li>Editar páginas de nome, descrição ou agradecimento<li>Adicionar a uma página ou modelo de página de aterrissagem<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso)<li>Integrar código |
+| Publicado | Ao publicar um formulário, ele fica disponível para uso em uma landing page ou template de landing page. O conteúdo do formulário publicado não pode ser modificado no espaço de design visual. Ações disponíveis:<br/><ul><li>Editar nome, descrição ou página de agradecimento<li>Adicionar a uma página ou modelo de página de aterrissagem<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso)<li>Código incorporado |
+| Publicado com rascunho | Ao criar um rascunho de um formulário publicado, a versão publicada permanece disponível para uso em uma página de aterrissagem ou modelo de página de aterrissagem, e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nas páginas de aterrissagem ou modelos de página de aterrissagem em que está em uso. Ações disponíveis:<br/><ul><li>Editar páginas de nome, descrição ou agradecimento<li>Adicionar a uma página ou modelo de página de aterrissagem<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso)<li>Código incorporado |
 
 ![Ciclo de vida do status do formulário](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 

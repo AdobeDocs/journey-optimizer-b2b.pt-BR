@@ -1,12 +1,13 @@
 ---
 title: Email de alerta de vendas
 description: Saiba como incluir um email de alerta de vendas automatizado nas jornadas da conta.
-feature: Email Authoring, Content
+feature: Email Authoring, Account Journeys
+role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -31,12 +32,12 @@ Como profissional de marketing, você pode configurar um nó de email de alerta 
 | - | ---- | ----------- |
 | Informações do grupo de compras | Nome do Grupo Comprador | Nome de exibição do grupo de compras. |
 |   | Nome da conta | Nome da conta. |
-|   | Pontuação de envolvimento | Pontuação de engajamento do grupo de compras, com base nas atividades de engajamento ativas nos últimos 30 dias. |
+|   | Pontuação de engajamento | Pontuação de engajamento do grupo de compras, com base nas atividades de engajamento ativas nos últimos 30 dias. |
 |   | Pontuação de integridade | Pontuação de integridade do grupo de compras. |
 |   | Interesse na solução | Interesse da solução vinculado ao grupo de compras&#39; |
 |   | Status | Status do grupo de compras. |
-| Destaques do grupo de compras | Membros mais engajados | Principais membros envolvidos do grupo de compras por pontuação de engajamento e função do membro do grupo de compras. |
-|   | Tópico de interesse | Palavras-chave mais frequentes que ocorrem no engajamento de conteúdo, com base em emails, downloads, bate-papo, revisão de PDF, resumo da atividade e perguntas do webinário. |
+| Destaques do grupo de compra | Membros mais engajados | Principais membros envolvidos do grupo de compras por pontuação de engajamento e função do membro do grupo de compras. |
+|   | Tópico de interesse | Palavras-chave mais frequentes que ocorrem no engajamento de conteúdo, com base em emails, downloads, bate-papo, análise de PDF, resumo de atividades e perguntas de webinários. |
 |   | Funções ausentes | Funções obrigatórias no modelo, mas estão ausentes no grupo de compras. |
 | Resumo do grupo de compras | Resumo da atividade (viabilizado pelo Generative AI) | Resumo do grupo de compras gerado por IA com base nas atividades dos membros. As atividades dos últimos 30 dias são consideradas. |
 |   | Principais momentos interessantes | Momentos interessantes recentes relacionados aos membros do grupo de compra. |
@@ -44,7 +45,7 @@ Como profissional de marketing, você pode configurar um nó de email de alerta 
 | Cada membro do grupo de compras | Nome do membro | Nome do membro do grupo de compra. |
 |   | Título | Título do membro do grupo de compras. |
 |   | Função | A função do grupo Comprador do membro. |
-|   | Pontuação de envolvimento | Pontuação de engajamento do membro do grupo de compra. A pontuação é baseada em atividades de envolvimento ativo nos últimos 30 dias. |
+|   | Pontuação de engajamento | Pontuação de engajamento do membro do grupo de compra. A pontuação é baseada em atividades de envolvimento ativo nos últimos 30 dias. |
 |   | Último momento interessante | O momento mais interessante recente relacionado ao membro. |
 |   | Atividades mais recentes | As duas atividades mais recentes relacionadas ao membro do grupo de compra. |
 |   | ID do e-mail | ID de email do membro do grupo de compras. |

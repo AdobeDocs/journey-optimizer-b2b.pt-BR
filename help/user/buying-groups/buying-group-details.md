@@ -1,16 +1,17 @@
 ---
 title: Detalhes do Grupo de Compras
 description: Saiba mais sobre como acessar informações detalhadas e resumos de IA gerativos para grupos de compra no Journey Optimizer B2B edition.
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# Detalhes do grupo de compras
+# Detalhes do grupo de compra
 
 Quando você clica em um nome de grupo de compras em qualquer lugar no Journey Optimizer B2B edition, os detalhes do grupo de compras são exibidos. Essa visão geral fornece informações úteis sobre o grupo de compras, incluindo resumos de IA generativos.
 
@@ -29,7 +30,7 @@ A seção de visão geral do grupo de compras inclui as seguintes informações 
 * Nome do grupo de compras
 * Nome da conta (clique no nome para abrir os detalhes da conta)
 * Número de pessoas no grupo de compra
-* Pontuação de envolvimento
+* Pontuação de engajamento
 * Pontuação de integridade
 * Estágio de grupo de compras atual
 * Modelo de função (clique no nome para abrir os detalhes do modelo de funções)
@@ -49,7 +50,7 @@ A seção de visão geral da conta inclui as seguintes informações da conta:
 * Três jornadas de conta mais recentes nas quais a conta está em uso no momento (clique no nome para abrir os detalhes da jornada)
 * Resumo da conta da IA geral
 
-## Comprando membros do grupo
+## Membros do grupo de compra
 
 ![Membros do grupo de compra](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 

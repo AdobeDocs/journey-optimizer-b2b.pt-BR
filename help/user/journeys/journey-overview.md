@@ -2,9 +2,10 @@
 title: Jornadas da conta
 description: Saiba mais sobre jornadas de conta e como criá-las e gerenciá-las.
 feature: Account Journeys
+role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 100%
 
@@ -154,4 +155,4 @@ Use uma ação de exclusão para excluir uma jornada permanentemente. Não é po
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

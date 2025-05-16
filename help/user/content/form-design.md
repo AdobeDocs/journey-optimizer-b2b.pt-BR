@@ -1,17 +1,18 @@
 ---
 title: Design do formulário
 description: Saiba como projetar formulários reutilizáveis usados para coletar informações de clientes potenciais de negócios.
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
 
 ---
 
-# Design do formulário
+# Design de formulário
 
 Depois que você [cria um formulário](./landing-pages.md#create-a-landing-page), o espaço de design visual abre um rascunho com uma definição de formulário básica padrão. No painel _[!UICONTROL Resumo]_ à direita, clique em **[!UICONTROL Editar formulário]** e use o espaço de design visual para definir o estilo do formulário e os componentes do campo.
 
@@ -128,7 +129,7 @@ Adicione componentes estruturais ao formulário e mova os campos para colunas pa
 
 ### Excluir ou duplicar um campo {#field-delete-duplicate}
 
-Clique no ícone _Excluir_ ( ![Ícone Excluir](../assets/do-not-localize/icon-delete.svg) ) na barra de ferramentas ou no painel direito para excluir um campo selecionado. No diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
+Clique no ícone _Excluir_ ( ![Ícone Excluir](../assets/do-not-localize/icon-delete.svg) ) na barra de ferramentas ou no painel direito para excluir um campo selecionado. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 
 Clique no ícone _Duplicar_ ( ![Duplicar ícone](../assets/do-not-localize/icon-duplicate.svg) ) na barra de ferramentas ou no painel direito para duplicar um campo selecionado. O novo campo é exibido logo abaixo do campo original. Clique em **[!UICONTROL Selecionar atributo de campo]** para definir o atributo do campo. Defina o tipo de campo, os detalhes e os estilos conforme necessário.
 

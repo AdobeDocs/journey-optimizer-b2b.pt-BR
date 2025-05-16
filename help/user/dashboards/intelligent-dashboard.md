@@ -1,9 +1,10 @@
 ---
 title: Painel inteligente
 description: Saiba mais sobre o Painel inteligente, que fornece uma visualização abrangente das métricas do grupo de compras e da conta
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%

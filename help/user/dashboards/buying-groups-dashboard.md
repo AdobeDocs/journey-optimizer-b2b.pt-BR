@@ -2,8 +2,9 @@
 title: Painel de Visão Geral de Grupos de Compras
 description: Saiba mais sobre o painel Visão geral dos grupos de compra e como ele permite a transferência de vendas da equipe de marketing.
 feature: Dashboards, Buying Groups
+role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%

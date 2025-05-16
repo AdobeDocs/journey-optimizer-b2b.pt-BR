@@ -1,9 +1,10 @@
 ---
 title: Criação de SMS
 description: Saiba como enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis e personalizar e visualizar mensagens no formato de texto pelo editor de SMS.
-feature: SMS Authoring, Content
+feature: SMS Authoring, Content, Channels
+role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 3%
@@ -91,7 +92,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
      >[!NOTE]
      >
      >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento das atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desabilite esta opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
-     >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
 

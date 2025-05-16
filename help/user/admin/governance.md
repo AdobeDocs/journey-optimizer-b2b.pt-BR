@@ -1,8 +1,10 @@
 ---
 title: Recursos de governança
 description: Saiba mais sobre os recursos de governança disponíveis atualmente no Journey Optimizer B2B edition.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ O Journey Optimizer B2B edition é um aplicativo Adobe Experience Platform integ
 
 ## Privacidade - GDPR
 
-O Journey Optimizer B2B edition usa os recursos de governança do GDPR de Marketo Engage existentes fornecidos pelo Privacy Service e pelo Serviço de Agente de Privacidade da Marketo.
+O Journey Optimizer B2B edition usa os recursos de governança do GDPR da Marketo Engage fornecidos pelo Privacy Service e pelo Serviço de agente de privacidade da Marketo.
 
 ## Controle de acesso baseado em função (RBAC)
 

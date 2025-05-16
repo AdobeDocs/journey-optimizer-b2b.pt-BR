@@ -2,8 +2,9 @@
 title: Criar e publicar uma Jornada de conta
 description: Saiba como criar e publicar jornadas de conta.
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -136,4 +137,4 @@ Você pode publicar uma jornada se não houver erros de bloqueador. Quando publi
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443224/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

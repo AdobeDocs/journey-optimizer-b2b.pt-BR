@@ -2,11 +2,12 @@
 title: Estágios de Grupo de Compras
 description: Saiba mais sobre estágios de grupo de compras e como defini-los para rastrear a progressão da jornada em relação às metas de vendas.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,7 @@ Defina os estágios em um único modelo de preparo, definindo vários estágios 
 
 ![Exemplo de estágios de grupo de compras](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](#overview-video)
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Definir seu modelo de estágios de grupo de compras
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## Excluir o modelo de estágios de grupo de compra
 
-Você pode excluir o modelo de estágios de grupo de compras quando está em um estado de rascunho ou publicado. Se for publicado (em tempo real), você poderá excluí-lo somente quando não estiver associado a um interesse de solução.
+Você pode excluir o modelo de estágios do grupo de compra quando ele estiver em estado de rascunho ou publicado. Se for publicado (em tempo real), você poderá excluí-lo somente quando não estiver associado a um interesse de solução.
 
 1. Na navegação à esquerda, vá para **[!UICONTROL Contas]** > **[!UICONTROL Grupos de Compras]**.
 
@@ -364,4 +365,4 @@ Use a ocorrência de uma alteração de estágio de grupo de compra para mover a
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448699/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

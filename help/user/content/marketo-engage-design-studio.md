@@ -2,11 +2,12 @@
 title: Trabalhar com o Marketo Engage Assets
 description: Saiba mais sobre como usar a integração de gerenciamento de ativos do Marketo Engage Design Studio no Journey Optimizer B2B edition.
 feature: Assets, Content
+role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 O Marketo Engage Design Studio é a fonte de ativos padrão do Journey Optimizer B2B edition e você pode gerenciar e usar facilmente os ativos disponíveis para criar conteúdo que ofereça suporte às jornadas da sua conta.
 
-No Marketo Engage, as organizações de marketing usam espaços de trabalho para organizar seus ativos de conteúdo e ajudar as equipes a acessar o ativo correto. Espaços de trabalho bem definidos são especialmente úteis para grandes empresas que têm um grande portfólio de ofertas de produtos ou operam globalmente com diferentes requisitos de marketing para diferentes regiões.
+No Marketo Engage, as organizações de marketing usam espaços de trabalho para organizar os ativos de conteúdo e ajudar as equipes a acessar o ativo correto. Espaços de trabalho bem definidos são especialmente úteis para grandes empresas que têm um grande portfólio de ofertas de produtos ou operam globalmente com diferentes requisitos de marketing para diferentes regiões.
 
 ## Gerenciamento de ativos central
 
@@ -23,7 +24,7 @@ Por padrão, há um espaço de trabalho do **_[!UICONTROL Journey Optimizer B2B 
 * [Substituir](#replace-assets)
 * [Excluir](#delete-assets)
 * [Mover](#create-a-folder)
-* [Editar com Adobe Express](./image-edit-adobe-express.md)
+* [Editar com o Adobe Express](./image-edit-adobe-express.md)
 
 Os Assets residentes nos espaços de trabalho do Marketo Engage são limitados ao acesso somente leitura para uso em emails, modelos de email e fragmentos. Você pode adicionar novos ativos a esses espaços de trabalho e baixar uma cópia de um ativo.
 
@@ -31,7 +32,7 @@ Os Assets residentes nos espaços de trabalho do Marketo Engage são limitados a
 
 Para acessar os ativos do Adobe Marketo Engage no Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Assets]**. Essa ação abre uma página de listagem com todos os ativos listados.
 
-![Procurar ativos Marketo Engage](assets/assets-list-page.png){width="800" zoomable="yes"}
+![Procurar ativos do Marketo Engage](assets/assets-list-page.png){width="800" zoomable="yes"}
 
 O espaço de trabalho do Journey Optimizer B2B edition é selecionado por padrão. Os outros espaços de trabalho estão listados abaixo.
 
@@ -85,7 +86,7 @@ Na página de lista _Assets_, você pode adicionar ativos de imagem ao espaço d
 
    >[!NOTE]
    >
-   >Se você selecionar um local no espaço de trabalho _[!UICONTROL Journey Optimizer B2B edition]_, será possível gerenciar o ativo no aplicativo. Se você adicionar o ativo a um espaço de trabalho de Marketo Engage, as funções de gerenciamento de ativos estarão disponíveis somente no Marketo Engage Design Studio.
+   >Se você selecionar um local no espaço de trabalho _[!UICONTROL Journey Optimizer B2B edition]_, será possível gerenciar o ativo no aplicativo. Se você adicionar o ativo a um espaço de trabalho do Marketo Engage, as funções de gerenciamento de ativos estarão disponíveis somente no Marketo Engage Design Studio.
 
 1. Para substituir arquivos ao carregar um ou mais arquivos com um nome de arquivo existente, marque a caixa de seleção **[!UICONTROL Substituir arquivos existentes]**.
 
@@ -169,7 +170,7 @@ Você pode realizar as seguintes ações em massa para os ativos selecionados qu
 
 1. No banner de seleção, clique em **[!UICONTROL Excluir]**.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
+1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 
    Se qualquer um dos ativos selecionados estiver em uso no momento, a remoção desse ativo será anulada e uma mensagem de alerta será exibida.
 
@@ -249,7 +250,7 @@ Você pode executar as seguintes ações no nível da pasta:
 
 1. Escolha **[!UICONTROL Excluir]**.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
+1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 
 Se qualquer um dos ativos na pasta estiver em uso no momento, a ação abrirá uma caixa de diálogo de alerta para informá-lo de que ele não pode ser excluído. Clique em **[!UICONTROL OK]**, que interrompe a remoção.
 
@@ -269,7 +270,7 @@ O arquivamento de uma pasta torna os arquivos dentro dela não pesquisáveis. Us
 
 O Assets pode ser usado no email da sua equipe, no modelo de email ou na criação de fragmentos visuais no editor de conteúdo visual.
 
-Na interface do designer visual, selecione o ícone _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) na barra lateral esquerda.
+Na interface do designer visual, selecione o ícone do _Marketo Engage Assets_ ( ![ícone do Marketo Engage Assets](../../assets/do-not-localize/icon-assets-me.svg) ) na barra lateral esquerda.
 
 Essa ação altera o painel Ferramentas que exibe uma lista estruturada dos ativos disponíveis no espaço de trabalho selecionado. Selecione o espaço de trabalho que deseja exibir para escolher um ativo.
 

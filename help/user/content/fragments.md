@@ -1,9 +1,10 @@
 ---
 title: Fragmentos
 description: Saiba como criar e usar fragmentos de conteúdo visual como componentes reutilizáveis para emails e modelos de email no Adobe Journey Optimizer B2B edition.
-feature: Content, Email Authoring
+feature: Fragments, Content
+role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 3%
@@ -285,7 +286,7 @@ Os fragmentos são projetados para reutilização e podem ser inseridos para cri
 
 1. Navegue até **[!UICONTROL Jornadas de conta]** e abra uma jornada existente ou crie uma nova jornada.
 
-1. Criar um nó [_[!UICONTROL Enviar email &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Criar um nó [_[!UICONTROL Enviar email ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Criar ou editar o conteúdo de email [do nó](./email-authoring.md).
 

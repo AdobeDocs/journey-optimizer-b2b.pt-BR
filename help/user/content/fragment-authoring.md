@@ -1,12 +1,13 @@
 ---
 title: Criação de fragmentos
 description: Saiba como criar fragmentos de conteúdo que podem ser reutilizados para seus emails e designs de modelo para obter eficiência e manter os padrões de design e marca.
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 13%
+source-wordcount: '373'
+ht-degree: 19%
 
 ---
 
@@ -52,7 +53,7 @@ Por exemplo, se você criar um banner reutilizável que inclua um botão clicáv
 
 1. Clique na opção **[!UICONTROL Habilitar edição]** e defina os campos editáveis.
 
-   ![Habilitar campos editáveis para um componente de imagem de fragmento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Habilitar campos editáveis para um componente de imagem de fragmento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
    Você pode ativar a personalização para os campos exibidos, que dependem do tipo de componente e dos parâmetros definidos no fragmento.
 
@@ -60,7 +61,7 @@ Por exemplo, se você criar um banner reutilizável que inclua um botão clicáv
 
 1. Clique em **[!UICONTROL Visão geral]** para revisar todos os campos editáveis e seus valores padrão.
 
-   ![Revisar os campos editáveis e seus valores padrão](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Revisar os campos editáveis e seus valores padrão](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. Salve as alterações.
 

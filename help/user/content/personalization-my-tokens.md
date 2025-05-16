@@ -1,11 +1,13 @@
 ---
 title: Tokens personalizados para o Personalization de email
 description: Saiba como usar um conjunto de tokens definidos para uma jornada de conta para gerenciar a personalização no conteúdo de email.
-feature: Content, Email Authoring
-source-git-commit: 01c217c928ccb344eaebe471c7b7a8b930c68010
+feature: Personalization, Content, Email Authoring
+role: User
+exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +29,7 @@ _Para acessar os tokens personalizados de uma jornada de conta:_
 
 1. Clique no menu **[!UICONTROL Mais...]** na parte superior direita e escolha **[!UICONTROL Meus tokens]**.
 
-   ![Clique em Mais no canto superior direito](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
+   ![Clique em “Mais” no canto superior direito](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
    A página _Meus tokens_ lista todos os tokens personalizados definidos para a jornada.
 
@@ -73,7 +75,7 @@ Embora a jornada da conta permaneça no status de rascunho, é possível editar 
 
 1. Na página _[!UICONTROL Meus tokens]_, clique no ícone _Mais ações_ (**...**) ao lado do nome do token e escolha **[!UICONTROL Excluir]**.
 
-1. No diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
+1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 
 ## Usar tokens personalizados em seu conteúdo
 

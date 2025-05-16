@@ -1,9 +1,10 @@
 ---
 title: Configurações de canal de email
 description: Saiba como acessar e revisar as configurações de email definidas no Marketo Engage.
-feature: Setup
+feature: Setup, Channels
+role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 35a384a848678921f10f3ad1358adec2aa017bf8
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -50,11 +51,11 @@ Para examinar os domínios de identidade visual, clique na guia **[!UICONTROL Do
 
 ![Acessar as configurações dos domínios de identidade visual](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Essa configuração define o domínio primário de um ou mais espaços de trabalho do Marketo Engage. Os novos emails usam esse domínio como padrão, mas os profissionais de marketing podem substituí-lo com base no email. Para obter mais informações, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Essa configuração define o domínio primário de um ou mais espaços de trabalho do Marketo Engage. Os novos emails usam esse domínio como padrão, mas os profissionais de marketing podem substituí-lo com base no email. Para obter mais informações, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Se você estiver comercializando várias marcas no Journey Optimizer B2B edition e na instância conectada do Marketo Engage e quiser que cada uma tenha seus próprios links de rastreamento de marca, poderá adicionar um domínio de marca adicional. Para obter mais informações, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Se você estiver comercializando várias marcas no Journey Optimizer B2B edition e na instância conectada do Marketo Engage e quiser que cada uma tenha seus próprios links de rastreamento de marca, poderá adicionar um domínio de marca adicional. Para obter mais informações, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Opções de cabeçalho personalizado] {#custom-header-options}
 
@@ -78,7 +79,7 @@ As configurações são somente leitura no Journey Optimizer B2B edition. Clique
 >
 >Para acessar e editar essas configurações no Adobe Marketo Engage, é necessário ter permissões de administrador do produto.
 
-Para obter mais informações sobre como configurar os limites de comunicação, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Para obter mais informações sobre como configurar os limites de comunicação, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -145,4 +146,4 @@ As configurações são somente leitura no Journey Optimizer B2B edition. Clique
 >
 >Para acessar e editar essas configurações no Adobe Marketo Engage, é necessário ter permissões de administrador do produto.
 
-Para obter mais informações sobre como configurar as opções de atividade de bot, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Para obter mais informações sobre como configurar as opções de atividade de bot, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

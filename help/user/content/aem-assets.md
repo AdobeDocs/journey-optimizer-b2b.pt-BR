@@ -1,9 +1,10 @@
 ---
 title: Trabalho com o Experience Manager Assets
 description: Saiba como você pode usar ativos de imagem de um repositório conectado do AEM Assets ao criar conteúdo no Adobe Journey Optimizer B2B edition.
-feature: Assets, Content
+feature: Assets, Content, Integrations
+role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%
@@ -22,7 +23,7 @@ Quando o ambiente tem uma ou mais [conexões de repositórios Assets](../admin/c
 
 >[!IMPORTANT]
 >
->Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Acessar imagens do AEM Assets
 
@@ -32,7 +33,7 @@ No editor de conteúdo visual, clique no ícone do _Experience Manager Assets_ (
 
 >[!NOTE]
 >
->Atualmente, somente os ativos de imagem do Adobe Experience Manager Assets são compatíveis com o Adobe Journey Optimizer B2B edition. As alterações nos ativos devem ser feitas pelo repositório central da Adobe Experience Manager Assets. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Atualmente, somente os ativos de imagem do Adobe Experience Manager Assets são compatíveis com o Adobe Journey Optimizer B2B edition. As alterações nos ativos devem ser feitas pelo repositório central da Adobe Experience Manager Assets. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Alterar o repositório exibido
 

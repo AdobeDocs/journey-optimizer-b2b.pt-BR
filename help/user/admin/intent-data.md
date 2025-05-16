@@ -1,9 +1,10 @@
 ---
 title: Dados de intenção
 description: Saiba como reunir e enviar palavras-chave para gerar dados de intenção para o Journey Optimizer B2B edition.
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -19,7 +20,7 @@ No Journey Optimizer B2B edition, o modelo de Detecção de intenções prevê u
 
 ![Visualização de dados de intenção](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
-Para ativar esse recurso, você pode enviar uma lista de palavras-chave em uma planilha para o gerente de conta do Adobe. Essas palavras-chave são usadas para marcar conteúdo.
+Para ativar esse recurso, você pode enviar uma lista de palavras-chave em uma planilha para o gerente de conta da Adobe. Essas palavras-chave são usadas para marcar conteúdo.
 
 Um conjunto de palavras-chave (até 20) pode ser associado a um produto. Um conjunto de produtos (até 20) pode ser associado a uma categoria. É possível ter no máximo 20 categorias. Todo esse modelo é obtido por meio de uma planilha simples assimilada. A planilha pode conter uma única guia que se correlaciona ao nome do produto e uma coluna que se correlaciona a uma lista de palavras-chave.
 

@@ -1,12 +1,13 @@
 ---
 title: Criação de modelo de email
 description: Saiba como criar modelos de email de conteúdo que podem ser usados para emails de jornada de conta para reutilizar seus designs de forma fácil e eficiente.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 

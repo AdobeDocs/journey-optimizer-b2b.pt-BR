@@ -1,16 +1,17 @@
 ---
 title: Modelos de e-mail
 description: Saiba como gerenciar e criar modelos de email usados para criar emails de jornada de conta de forma fácil e eficiente.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 0%
 
 ---
 
-# Modelos de e-mail
+# Modelos de email
 
 Para um processo de design acelerado e aprimorado, é possível criar modelos de email independentes para reutilizar conteúdo personalizado nas jornadas de conta do Adobe Journey Optimizer B2B edition. Por meio de modelos, os membros da equipe orientados a conteúdo podem trabalhar no conteúdo de email fora do jornada. Os estrategistas de marketing podem então reutilizar e adaptar esses modelos independentes dentro de suas jornadas de conta. Por exemplo, um membro da equipe é responsável apenas pelo conteúdo, sem acesso às jornadas da conta. No entanto, eles podem criar um template de email que os profissionais de marketing podem selecionar como ponto de partida para comunicações por email e personalizá-lo de acordo com os requisitos da jornada.
 

@@ -1,8 +1,10 @@
 ---
 title: Governança de conteúdo do modelo
 description: Saiba como bloquear elementos de conteúdo em seus modelos de email para que você possa controlar como eles podem ser alterados para uso em jornadas de conta.
-feature: Email Authoring, Content
-source-git-commit: 44413c763ca57d04b83ba78df0ae846142180ec3
+feature: Templates, Email Authoring, Content
+role: User
+exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%
@@ -92,4 +94,3 @@ A aplicação de um tipo de bloqueio no nível da estrutura fornece uma configur
      Para um componente bloqueado, é possível permitir a remoção do componente durante a criação de email ativando a opção **[!UICONTROL Permitir exclusão]**.
 
    ![Aplicar bloqueio de conteúdo a um componente filho](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}
-

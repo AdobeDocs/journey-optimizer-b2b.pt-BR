@@ -2,8 +2,9 @@
 title: Interesses da solução
 description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos grupos de compra.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 1%
@@ -101,4 +102,4 @@ Qualquer interesse de solução que esteja atualmente em uso por qualquer trabal
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3450118/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

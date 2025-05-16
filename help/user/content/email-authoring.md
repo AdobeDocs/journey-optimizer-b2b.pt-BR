@@ -1,9 +1,10 @@
 ---
 title: Criação de mensagens de email
 description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B. Use modelos, importações do HTML e ferramentas alimentadas por IA para personalizar e otimizar suas comunicações por email.
-feature: Email Authoring, Content
+feature: Email Authoring, Content Design Tools
+role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 15%
@@ -12,7 +13,7 @@ ht-degree: 15%
 
 # Criação de mensagens de email
 
-Depois de &lbrack;adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada&rbrack;(./add-email.md), você pode definir o conteúdo da mensagem de email.
+Depois de [adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
 
 Clique em **[!UICONTROL Adicionar conteúdo de email]** na parte superior do painel de visualização do _[!UICONTROL Email]_.
 

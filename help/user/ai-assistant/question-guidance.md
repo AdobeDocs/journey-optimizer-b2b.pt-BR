@@ -1,12 +1,13 @@
 ---
-title: Orientação de perguntas para o assistente de IA
-description: Espaço reservado
+title: Guia de perguntas para o Assistente de IA
+description: Saiba como escrever perguntas eficazes para o Assistente de IA no Journey Optimizer B2B edition.
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
@@ -15,18 +16,18 @@ ht-degree: 1%
 
 Analise o seguinte conjunto de perguntas de exemplo para consultar o Assistente de IA no Journey Optimizer B2B edition. Essas informações também incluem dicas sobre como formular suas perguntas para obter respostas ideais do Assistente de IA.
 
-## Perguntas com base em objetivos
+## Perguntas baseadas em objetivos
 
-As seguintes perguntas de exemplo são agrupadas de acordo com os objetivos que você pode realizar ao usar o Assistente de IA:
+Os exemplos de perguntas a seguir são agrupados de acordo com os objetivos que você pode realizar ao usar o Assistente do AI:
 
 | Objetivo | Descrição | Exemplo |
 | --- | --- | --- |
-| Conceitos de aprendizagem e continuação do workflows | Como usuário iniciante, você pode usar o AI Assistant para aprender conceitos do Real-Time CDP e do Adobe Journey Optimizer B2B edition e integrar-se a produtos e recursos com os quais não está familiarizado. <br>Como um usuário experiente, você pode usar o Assistente de IA para resolver um caso de borda que possa estar bloqueando seu fluxo de trabalho. | <li>Conte-me alguns casos de uso para o Real-Time CDP. <li>Explique o conceito do Grupo de Compras para mim. |
+| Conceitos de aprendizado e fluxos de trabalho contínuos | Como usuário iniciante, você pode usar o AI Assistant para aprender conceitos do Real-Time CDP e do Adobe Journey Optimizer B2B edition e integrar-se a produtos e recursos com os quais não está familiarizado. <br>Como um usuário experiente, você pode usar o Assistente de IA para resolver um caso de borda que possa estar bloqueando seu fluxo de trabalho. | <li>Conte-me alguns casos de uso para o Real-Time CDP. <li>Explique o conceito do Grupo de Compras para mim. |
 | Solução de problemas | Use o Assistente de IA para saber como depurar erros básicos que você pode encontrar no fluxo de trabalho. | <li>O que significa este erro &lt;ERROR_MESSAGE>? <li>Por que não posso excluir o público-alvo chamado &quot;...&quot;? |
-| Higiene da sandbox | Use o Assistente de IA para identificar objetos duplicados ou não utilizados, para que você possa manter sua sandbox com eficiência. | <li>Você pode me mostrar públicos semelhantes da conta? <li>Há algum esquema que não tenha uma conjunto de dados associada? |
-| análise de Valor | Use o Assistente de IA para identificar seus objetos de dados mais usados e avaliar quaisquer indicadores de desempenho ou encontrar os objetos de dados mais valiosos. | <li>Quantas contas existem em nossa definição de segmento &quot;...&quot;? <li>Quando os públicos-alvo foram ativados para o destino do Experience Cloud Audiences? |
-| Pesquisa | Use o Assistente de IA para encontrar objetos compatíveis com Experience Platform e Adobe Systems Journey Optimizer B2B Edition, como conta públicos-alvo, conjuntos de dados, destinos, schemas, fontes, conta jornadas, compra de modelos de grupo e interesses da solução | <li>Listar os públicos que contêm &quot;Luma&quot; no nome que foram usados conta jornadas. <li>Quais atributos estão no XDM &quot;Luma: Ações personalizadas&quot; schema? |
-| Impacto análise | Use o Assistente de IA para identificar objetos de dados que foram usados em determinadas workflows para que você possa avaliar o impacto de quaisquer alterações. | <li>Quais públicos-alvo de conta usam `workEmail.address` no esquema &quot;Pessoa B2B&quot;? <li>Em quais conjuntos de dados... `jobTitle` são armazenados? |
+| Higiene da sandbox | Use o Assistente de IA para identificar objetos duplicados ou não utilizados, para que você possa manter sua sandbox com eficiência. | <li>Você pode me mostrar públicos semelhantes da conta? <li>Há esquemas que não tenham um conjunto de dados associado? |
+| Análise de valor | Use o Assistente de IA para identificar os objetos de dados mais usados e avaliar os indicadores de desempenho ou encontrar os objetos de dados mais valiosos. | <li>Quantas contas existem em nossa definição de segmento &quot;...&quot;? <li>Quando os públicos-alvo foram ativados para o destino do Experience Cloud Audiences? |
+| Pesquisa | Use o AI Assistant para encontrar objetos compatíveis do Experience Platform e do Adobe Journey Optimizer B2B edition, como públicos-alvo de conta, conjuntos de dados, destinos, esquemas, fontes, jornadas de conta, modelos de grupo de compra e interesses de solução | <li>Liste os públicos-alvo que contêm &quot;Luma&quot; no nome que foram usados nas jornadas da conta. <li>Quais atributos estão no esquema XDM &quot;Luma: Ações personalizadas&quot;? |
+| Análise de impacto | Use o Assistente do AI para identificar objetos de dados que foram usados em determinados workflows para que você possa avaliar o impacto de quaisquer alterações. | <li>Quais públicos-alvo de conta usam `workEmail.address` no esquema &quot;Pessoa B2B&quot;? <li>Em quais conjuntos de dados... `jobTitle` são armazenados? |
 
 ## Formular suas perguntas
 
@@ -46,9 +47,9 @@ As tabelas a seguir fornecem algumas práticas recomendadas que você pode segui
 
 | Não | Exemplo |
 | --- | --- |
-| Use uma linguagem vaga ou ambígua. | <li>Forneça informações sobre conjuntos de dados. <li>O que a jornada x faz? <li>Quantos usuários eu tenho no &quot;ACME Audience&quot;? <li>Mostrar segmentos. <li>Listar atributos. |
+| Use uma linguagem vaga ou ambígua. | <li>Forneça-me informações sobre conjuntos de dados. <li>O que o jornada x faz? <li>Quantos usuários eu tenho em &quot;ACME Audience&quot;? <li>Mostrar segmentos. <li>Listar atributos. |
 | Faça solicitações incompletas. | <li>&quot;Luma - Conjunto de dados de fidelidade&quot; |
-| Assume o conhecimento sem contextos. | <li>Audiences nos últimos 6 meses. <li>Construa um query para mim. <li>Criar uma jornada para mim |
+| Assumir conhecimento sem contextos. | <li>Públicos nos últimos 6 meses. <li>Criar uma consulta para mim. <li>Criar uma jornada para mim |
 | Formular consultas muito complexas. | <li>Fornecer uma análise abrangente da linhagem de dados em todos os objetos e suas dependências. |
 | Omitir critérios ou parâmetros. | <li>Mostre-me conjuntos de dados. |
 
@@ -61,8 +62,8 @@ A lista a seguir inclui exemplos de perguntas que o Assistente de IA no Journey 
 * Quem fez a última atualização na jornada da conta x?
 * Quantas jornadas ativas adicionam membros do grupo de compras para o interesse da solução x?
 * Quais jornadas ativas adicionam membros do grupo de compra para o interesse de solução x?
-* Qual é o título mais comum do fabricante de decisões de comprar modelos de grupo?
-* Quem são os fabricantes de decisões para comprar grupo modelo x?
+* Qual é o título mais comum de tomador de decisão de modelos de grupo de compras?
+* Quem são os tomadores de decisão para comprar o modelo x do grupo?
 
 ## Próximas etapas
 
