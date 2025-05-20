@@ -3,9 +3,9 @@ title: Documentação do Adobe Journey Optimizer B2B Edition
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B Edition para orquestrar jornadas de conta e grupo de compra usando a IA generativa integrada e automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Conteúdo da jornada"><br/>
-      <strong>Jornada conteúdo</strong><br/><a href="./content/add-email.md">Canal de email</a><br/><a href="./content/ai-assistant-emails.md">Assistente de IA para email</a><br/><a href="./content/sales-alert-email.md">Email de alerta de vendas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
+      <strong>Conteúdo da jornada</strong><br/><a href="./content/add-email.md">Canal de email</a><br/><a href="./content/ai-assistant-emails.md">Assistente de IA para email</a><br/><a href="./content/sales-alert-email.md">Email de alerta de vendas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gerenciamento de conteúdo"><br/>
@@ -139,7 +139,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desenvolvedores</a>
@@ -147,7 +147,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
 
