@@ -4,20 +4,20 @@ description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 15%
+source-wordcount: '928'
+ht-degree: 16%
 
 ---
 
 # Criação de mensagens de email
 
-Depois de &lbrack;adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada&rbrack;(./add-email.md), você pode definir o conteúdo da mensagem de email.
+Depois de [adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
 
-Clique em **[!UICONTROL Adicionar conteúdo de email]** na parte superior do painel de visualização do _[!UICONTROL Email]_.
+Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
-![Clique em Adicionar conteúdo de email ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Clique em Editar conteúdo do email ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
@@ -26,8 +26,6 @@ Essa ação inicia as ferramentas de design de email, onde você pode escolher c
 * [Importe conteúdo existente do HTML](#import-existing-html-content) de um arquivo ou de uma pasta .zip.
 
 * [Selecione um modelo existente](#select-a-template) em uma lista de modelos de email predefinidos ou personalizados.
-
-Para configurar e personalizar a linha de assunto com o editor de expressão, clique no ícone _Personalization_ e adicione qualquer um dos tokens do Marketo Engage.
 
 Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo para validação ou para uso posterior. Clique em **[!UICONTROL Exportar HTML]** para salvar o conteúdo como um arquivo .zip que inclui seu HTML e seus ativos.
 
@@ -47,10 +45,9 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 >title="Sobre os componentes de conteúdo"
 >abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
-Use o editor de conteúdo visual para definir a estrutura do conteúdo de email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
+Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
 
 1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
-
 1. [Adicionar estrutura e conteúdo](#add-structure-and-content) à mensagem de email.
 1. [Adicionar ativos de imagem](#add-assets) à mensagem de email.
 1. [Personalizar o conteúdo do email](#personalize-content).
