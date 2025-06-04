@@ -1,13 +1,13 @@
 ---
 title: Jornadas da conta
-description: Saiba mais sobre jornadas de conta e como criá-las e gerenciá-las.
+description: Comece com as jornadas de conta e saiba como usar a lista Jornadas de conta para gerenciá-las.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '1009'
-ht-degree: 100%
+source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 86%
 
 ---
 
@@ -30,11 +30,13 @@ Para começar a usar jornadas de conta:
 
 ## Acessar e procurar jornadas de conta
 
-Na navegação à esquerda, clique em **[!UICONTROL Jornadas da conta]**.
+Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de contas]** e clique em **[!UICONTROL jornadas de contas]**.
 
-![Acessar jornadas de conta](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+Insira texto na ferramenta _Search_ na parte superior da lista para filtrar a lista exibida por nome.
 
-A página de jornadas exibida inclui as seguintes colunas:
+![Filtrar a lista de jornadas da conta](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
+
+A página da lista _[!UICONTROL Jornadas de Conta]_ inclui as seguintes colunas:
 
 * [!UICONTROL Nome] (clique no nome para abrir a jornada para edição)
 * [!UICONTROL Status]
@@ -45,7 +47,7 @@ A página de jornadas exibida inclui as seguintes colunas:
 * [!UICONTROL Publicado em]
 * [!UICONTROL Publicado por]
 
-Use a ferramenta _Pesquisa_ na parte superior para localizar a jornada pelo nome. Você pode classificar a lista por _[!UICONTROL Status]_ clicando no cabeçalho da coluna.
+Você pode classificar a lista por _[!UICONTROL Status]_ clicando no cabeçalho da coluna.
 
 Você pode personalizar as colunas exibidas na tabela clicando no ícone _Personalizar tabela_ ( ![Personalizar tabela](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito. Marque ou desmarque as caixas de seleção na caixa de diálogo e clique em **[!UICONTROL Aplicar]**.
 
@@ -60,18 +62,18 @@ Clique no nome (exibido como um link) na lista de _[!UICONTROL jornadas de conta
 O cabeçalho de cada mapa de jornada da conta inclui:
 
 * Nome da jornada
-* Acesso para editar o nome da jornada (![Ícone de edição](../assets/do-not-localize/icon-edit.svg) ícone _Editar_)
+* Editar ferramenta para o nome da jornada ( ![Ícone Editar](../assets/do-not-localize/icon-edit.svg) _Ícone Editar_)
 * Status da jornada
 
 O status de uma jornada pode mudar com base nas ações que você aplica. Com base no status de uma jornada, certas ações estão/não estão disponíveis no lado direito do cabeçalho.
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _**Rascunho**_ | Uma jornada não publicada que é editável. | <ul><li>[Publicar](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplicar </li><li>Excluir </li></ul> |
-| _**Ativa**_ | O status da jornada muda de Rascunho para Ativa quando ela é publicada. Nesse estado, ela não é mais editável. | <ul><li>Duplicar </li><li>Fechar para novas entradas </li><li>Abortar </li></ul> |
-| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <ul><li>Duplicar </li><li>Abortar </li></ul> |
-| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <ul><li>Duplicar </li><li>Excluir </li></ul> |
-| _**Concluída**_ | Quando todas as contas em uma jornada concluem a jornada, o status muda de Ativa ou Fechada para novas entradas para Concluída. | <ul><li>Duplicar </li><li>Excluir </li></ul> |
+| _**Rascunho**_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Ativa**_ | O status da jornada muda de Rascunho para Ativa quando ela é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Concluída**_ | Quando todas as contas em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
 
 ## Gerenciar jornadas
 
@@ -83,7 +85,7 @@ Se você cancelar (parar) uma jornada ativa ou agendada, as contas na jornada in
 
 >[!IMPORTANT]
 >
->Quando a jornada da conta é usada em outra jornada de um nó _Executar uma ação_ com a ação _Adicionar conta a (outra) jornada_, cancelar a jornada bloqueia essa ação daquela jornada.
+>Quando a jornada da conta é usada em outra jornada de um nó _Executar uma ação_ com a ação _Adicionar conta à (outra) Jornada_, anular a jornada bloqueia essa ação nessa jornada.
 
 1. Clique no nome da jornada para abri-la.
 
@@ -155,4 +157,4 @@ Use uma ação de exclusão para excluir uma jornada permanentemente. Não é po
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

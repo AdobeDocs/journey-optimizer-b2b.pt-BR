@@ -4,16 +4,16 @@ description: Saiba como criar modelos de email de conteúdo que podem ser usados
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 17%
 
 ---
 
 # Criação de modelo de email
 
-Depois de [criar um modelo de email](./email-templates.md#create-an-email-template), use o designer visual para criar os componentes estruturais e de conteúdo no seu modelo de email.
+Depois de [criar um modelo de email](./email-templates.md#create-an-email-template), use o espaço de design visual para criar os componentes estruturais e de conteúdo no seu modelo de email.
 
 ## Adicionar estrutura e conteúdo {#structure-content}
 
@@ -45,7 +45,7 @@ Depois que o modelo é salvo, ele aparece na página de detalhes do fragmento ao
 
 ### Personalizar conteúdo
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Editar rastreamento de URL vinculado
 
@@ -53,7 +53,7 @@ Depois que o modelo é salvo, ele aparece na página de detalhes do fragmento ao
 
 ## Exibir opções
 
-Aproveite as opções de exibição e validação de conteúdo disponíveis no designer visual.
+Aproveite as opções de exibição e validação de conteúdo disponíveis no espaço de design visual.
 
 * Aumentar/diminuir o zoom do conteúdo nas opções de zoom predefinidas.
 
@@ -63,11 +63,11 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no d
 
 ### Mais opções
 
-No menu _[!UICONTROL Mais...]_, na parte superior do designer de email, você pode realizar as seguintes ações:
+No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design de email, você pode realizar as seguintes ações:
 
 ![Clique em Mais para acessar as ações do modelo](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Redefinir modelo]** - Clique nesta opção para limpar a tela do designer visual para uma folha em branco e reiniciar a compilação de conteúdo.
+* **[!UICONTROL Redefinir modelo]** - Clique nesta opção para limpar a tela de design em branco e reiniciar a criação de conteúdo.
 * **[!UICONTROL Salvar como fragmento]** - Salve todo o modelo ou partes dele como um fragmento a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o fragmento e salve-o na lista de fragmentos disponíveis.
 * **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu modelo_. A partir daí, você pode optar por projetar seu modelo do zero ou usar um modelo existente para reiniciar o processo de design.
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.

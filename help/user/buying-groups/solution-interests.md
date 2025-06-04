@@ -4,9 +4,9 @@ description: Saiba mais sobre os interesses da solução e como você pode defin
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,13 @@ Antes de criar grupos de compra, você deve saber o que está vendendo e quem de
 
 1. Na página _[!UICONTROL Grupos de Compras]_, selecione a guia **[!UICONTROL Interesse da solução]**.
 
+   A guia fornece uma lista de inventário de todos os interesses existentes da solução. Ele exibe as seguintes informações no formato da coluna: _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Atualizar grupos de compras]_, _[!UICONTROL Data de criação]_, _[!UICONTROL Criado por]_, _[!UICONTROL Última atualização]_ e _[!UICONTROL Última atualização por]_,
+
+   Por padrão, a lista é classificada pela coluna _[!UICONTROL Última atualização]_. Clique no título da coluna no cabeçalho para alternar a classificação entre decrescente e crescente.
+
+   Insira texto na ferramenta _Search_ na parte superior da lista para filtrar a lista exibida por nome.
+
    ![Guia Interesse da solução](assets/solution-interest-tab.png){width="700" zoomable="yes"}
-
-   A guia fornece uma lista de inventário de todos os interesses existentes da solução. Ele exibe as seguintes informações no formato da coluna: _[!UICONTROL Nome]_, _[!UICONTROL Modelo de funções]_, _[!UICONTROL Trabalhos de criação de grupos de compras]_, _[!UICONTROL Última atualização em]_, _[!UICONTROL Atualizado por]_, _[!UICONTROL Criado em]_ e _[!UICONTROL Criado por]_
-
-   A lista é classificada por padrão pela _[!UICONTROL Última atualização em]_. Clique no título da coluna no cabeçalho para alternar a classificação entre decrescente e crescente.
 
 ## Exibir e excluir trabalhos de grupo de compras
 
@@ -102,4 +104,4 @@ Qualquer interesse de solução que esteja atualmente em uso por qualquer trabal
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3450118/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
