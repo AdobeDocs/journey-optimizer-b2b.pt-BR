@@ -69,11 +69,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _**Rascunho**_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _**Ativa**_ | O status da jornada muda de Rascunho para Ativa quando ela é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _**Concluída**_ | Quando todas as contas em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de Rascunho para Ativa quando ela é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _&#x200B;**Concluída**&#x200B;_ | Quando todas as contas em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
 
 ## Gerenciar jornadas
 
