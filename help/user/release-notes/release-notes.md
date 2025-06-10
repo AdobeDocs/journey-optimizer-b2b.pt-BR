@@ -1,12 +1,12 @@
 ---
-title: Funções de lançamento do Journey Optimizer B2B edition
-description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe Journey Optimizer B2B edition.
+title: Notas de versão do Journey Optimizer B2B Edition
+description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -26,8 +26,8 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Integração com o GenStudio for Performance Marketing | (Disponibilidade limitada) Agora é possível integrar as experiências de email do GenStudio for Performance Marketing com o Journey Optimizer B2B edition para melhorar a eficiência do marketing e manter a consistência da marca. Com essa integração, você pode combinar a criação de conteúdo habilitada pela IA do GenStudio com os recursos avançados de orquestração do Journey Optimizer B2B edition. [Saiba mais](../content/genstudio-email-workflow.md) |
-| Aprimoramento | Formato de token de barra de controle para email | Os tokens do Personalization para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts do Handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#content-authoring---personalization) |
+| Recurso | Integração com o GenStudio for Performance Marketing | (Disponibilidade limitada) Agora é possível integrar as experiências de email do GenStudio for Performance Marketing com o Journey Optimizer B2B Edition para melhorar a eficiência do marketing e manter a consistência da marca. Com essa integração, é possível combinar a criação de conteúdo viabilizada por IA do GenStudio com os recursos avançados de orquestração do Journey Optimizer B2B Edition. [Saiba mais](../content/genstudio-email-workflow.md) |
+| Aprimoramento | Formato de token handlebar para email | Os tokens de personalização para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#content-authoring---personalization) |
 | Aprimoramento | Exibição da contagem total de listas | As páginas de lista _[!UICONTROL Interesses da solução]_ e _[!UICONTROL Jornadas da conta]_ foram aprimoradas com a exibição da contagem total ao lado da barra de pesquisa. |
 
 
@@ -67,7 +67,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Campos personalizáveis: fragmentos de conteúdo | Durante o design do fragmento visual, é possível designar parâmetros para um componente no fragmento como editável. Esse recurso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão. <a href="../content/fragment-authoring.md#enable-fragment-customization">Saiba mais</a> |
+| Recurso | Campos personalizáveis: fragmentos de conteúdo | Durante o design do fragmento visual, é possível designar parâmetros de um componente no fragmento como editáveis. Esse recurso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão. <a href="../content/fragment-authoring.md#enable-fragment-customization">Saiba mais</a> |
 | Recurso | Funções integradas e permissões de produto da versão B2B | A Experience Platform agora inclui um conjunto de funções integradas (padrão) que você pode usar para gerenciar o acesso aos recursos do produto B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Saiba mais</a> <br/>Admins agora podem definir funções personalizadas na Adobe Experience Platform para incluir permissões de produto do Journey Optimizer B2B Edition.  <a href="../admin/user-management.md#b2b-product-permissions">Saiba mais</a> |
 | Recurso | Tipos de duplicação de jornada | Ao duplicar uma jornada de conta, você pode incluir detalhes do nó, excluindo emails e mensagens SMS criados no Journey Optimizer B2B Edition. Como alternativa, você pode criar uma cópia da estrutura e dos fluxos de caminho, sem detalhes e configurações do nó. <a href="../journeys/journey-overview.md#duplicate-journey">Saiba mais</a> |
 | Aprimoramento | Quatro modelos de email de exemplo adicionais | A biblioteca de modelos de email agora inclui quatro modelos do SecurFinancial como exemplos de conteúdo de reengajamento, informação, estímulo e feedback |
@@ -81,7 +81,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Encaminhamento de eventos de experiência | Admins podem configurar definições de evento baseadas na Adobe Experience Platform (AEP). Essas configurações permitem que profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência da AEP.  <a href="../admin/configure-aep-events.md">Saiba mais</a> |
-| Recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de caminho dividido em uma jornada de conta para segmentar públicos da conta com base em um comportamento específico e identificar contas que justifiquem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externo por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
+| Recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de divisão de caminho em uma jornada de conta para segmentar públicos-alvo da conta com base em comportamentos específicos e identificar contas que exigem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externo por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
 | Recurso | Painel inteligente | Visualize a progressão dos grupos de compra por meio das jornadas de conta, incluindo insights gerados por IA, a fim de obter análises mais inteligentes e uma priorização precisa da conta. <a href="../dashboards/intelligent-dashboard.md">Saiba mais</a> |
 | Recurso | Detalhes do grupo de compra e da conta | Visualize insights no grupo de compra e no nível da conta para ter mais dados históricos e de contexto ao iniciar o engajamento de um cliente.<p>Os detalhes do grupo de compra incluem qualquer intenção própria detectada. <a href="../buying-groups/buying-group-details.md">Saiba mais</a><p>Os detalhes da conta destacam o aumento na intenção de engajamento detectada para que você possa alertar sobre as vendas em contas que estão prontas para o engajamento personalizado com foco em vendas. <a href="../accounts/account-details.md">Saiba mais</a> |
 | Recurso | Visão geral da jornada | Ao acessar as jornadas de conta, a guia Visão geral fornece um instantâneo abrangente das jornadas de conta ativas, detalhando o progresso da conta usando gráficos de círculo e de barra que categorizam e quantificam conclusões e atividades de engajamento.  <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |
@@ -94,7 +94,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 ## Versões de 2024
 
-Expanda as listas a seguir para obter os recursos e aprimoramentos do Journey Optimizer B2B edition lançados em 2024.
+Expanda as listas a seguir para obter os recursos e aprimoramentos do Journey Optimizer B2B Edition lançados em 2024.
 
 +++Notas de versão de outubro de 2024
 
