@@ -4,7 +4,7 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
