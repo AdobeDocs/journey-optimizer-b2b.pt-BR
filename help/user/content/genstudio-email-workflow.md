@@ -73,7 +73,7 @@ O GenStudio for Performance Marketing reconhece determinados elementos no HTML d
 
 Use o arquivo HTML para criar um modelo no GenStudio for Performance Marketing.
 
-Para obter informações detalhadas sobre como carregar um modelo do HTML no GenStudio no Adobe GenStudio for Performance Marketing, consulte [Adicionar um modelo](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) na documentação do GenStudio for Performance Marketing.
+Para obter informações detalhadas sobre como carregar um modelo do HTML no GenStudio no Adobe GenStudio for Performance Marketing, consulte [Adicionar um modelo](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) na documentação do GenStudio for Performance Marketing.
 
 Ao fazer upload do HTML exportado como um modelo, o GenStudio for Performance Marketing verifica o arquivo do HTML em busca de campos reconhecidos. Use a visualização para revisar os elementos do modelo e confirmar que você os identificou corretamente com os nomes de campo reconhecidos.
 
@@ -81,7 +81,7 @@ Ao fazer upload do HTML exportado como um modelo, o GenStudio for Performance Ma
 
 No GenStudio for Performance Marketing, use o modelo para criar várias variações de experiência de email e salvá-las.
 
-Para obter informações detalhadas sobre como gerar experiências de email de marca, consulte [Criar uma experiência de email](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) na documentação do GenStudio for Performance Marketing.
+Para obter informações detalhadas sobre como gerar experiências de email de marca, consulte [Criar uma experiência de email](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) na documentação do GenStudio for Performance Marketing.
 
 ## Adicionar experiências de email geradas ao Journey Optimizer B2B edition
 
