@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2139'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -68,9 +68,10 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Campos personalizáveis: fragmentos de conteúdo | Durante o design do fragmento visual, é possível designar parâmetros de um componente no fragmento como editáveis. Esse recurso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão. <a href="../content/fragment-authoring.md#enable-fragment-customization">Saiba mais</a> |
-| Recurso | Funções integradas e permissões de produto da versão B2B | A Experience Platform agora inclui um conjunto de funções integradas (padrão) que você pode usar para gerenciar o acesso aos recursos do produto B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Saiba mais</a> <br/>Admins agora podem definir funções personalizadas na Adobe Experience Platform para incluir permissões de produto do Journey Optimizer B2B Edition.  <a href="../admin/user-management.md#b2b-product-permissions">Saiba mais</a> |
 | Recurso | Tipos de duplicação de jornada | Ao duplicar uma jornada de conta, você pode incluir detalhes do nó, excluindo emails e mensagens SMS criados no Journey Optimizer B2B Edition. Como alternativa, você pode criar uma cópia da estrutura e dos fluxos de caminho, sem detalhes e configurações do nó. <a href="../journeys/journey-overview.md#duplicate-journey">Saiba mais</a> |
 | Aprimoramento | Quatro modelos de email de exemplo adicionais | A biblioteca de modelos de email agora inclui quatro modelos do SecurFinancial como exemplos de conteúdo de reengajamento, informação, estímulo e feedback |
+
+<!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->
 
 ## Notas da versão 2025.1 {#Jan-2025}
 
