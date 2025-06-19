@@ -4,10 +4,10 @@ description: Saiba como criar e publicar jornadas de conta.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 5%
+source-wordcount: '791'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Para começar a usar uma jornada de conta, crie a jornada e construa os nós e o
 
 ## Blocos de construção de uma jornada
 
-O _mapa de jornadas_ é a zona central no designer de jornadas. É nessa zona que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir o painel de propriedades à direita da tela e defina-o de acordo com seu design. Uma jornada de conta sempre começa com um [nó de Público-alvo de Conta](./account-audience-nodes.md), onde é possível adicionar entrada à jornada.
+O _mapa de jornadas_ é a zona central no espaço de trabalho de jornada. É nessa zona que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir o painel de propriedades à direita da tela e defina-o de acordo com seu design. Uma jornada de conta sempre começa com um [nó de Público-alvo de Conta](./account-audience-nodes.md), onde é possível adicionar entrada à jornada.
 
 Depois de criar uma jornada de conta e adicionar o público-alvo, crie a jornada usando nós. O mapa de jornadas fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar uma jornada de conta:
 
@@ -47,7 +47,7 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
 * _Excluindo um nó de caminho Split_: a exclusão de um nó requer a exclusão de todos os nós subsequentes em cada caminho.
 * _Excluindo um nó de mesclagem_: um nó de mesclagem só pode ser excluído quando há um caminho conectado a ele. Para excluir um nó de mesclagem, deixe apenas um caminho selecionado.
-* _Alternando entre conta e pessoas_: não é possível alterar a seleção de contas para pessoas sem excluir todos os nós subsequentes em cada caminho.
+* _Alternância entre conta e pessoas_: alterar a seleção de contas para pessoas exclui todos os nós subsequentes em cada caminho.
 
 ## Adicionar um nó
 
@@ -113,6 +113,10 @@ Ao publicar uma jornada, ela pode começar imediatamente ou em uma data futura p
 
 Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Ativo_. Se a jornada tiver erros, o botão _[!UICONTROL Publicar]_ ficará esmaecido com as informações de conteúdo: `Resolve errors before publishing`.
 
+>[!NOTE]
+>
+>Após a publicação de uma jornada de conta, ocorre um atraso de até 24 horas para que as contas qualificadas entrem na jornada.
+
 1. Na parte superior direita do mapa de jornadas, clique em **[!UICONTROL Publicar]**.
 
 1. Na caixa de diálogo _[!UICONTROL Revisar configurações da jornada]_, defina as opções de início da jornada.
@@ -137,4 +141,4 @@ Você pode publicar uma jornada se não houver erros de bloqueador. Quando publi
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443224/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
