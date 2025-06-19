@@ -4,16 +4,16 @@ description: Use a lista Emails para gerenciar o conteúdo de email no Adobe Jou
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Emails
 
-Ao [criar emails](./add-email.md), você os adiciona no contexto de um nó de jornada. Se quiser trabalhar com emails fora do mapa de jornadas, use a lista _[!UICONTROL Emails]_ para localizar e atualizar o email. Você pode revisar emails ou fazer atualizações nas configurações e no conteúdo.
+Ao [criar emails](./add-email.md), você os adiciona no contexto de um nó de jornada. Quando quiser trabalhar com conteúdo de email fora do mapa de jornadas, use a lista _[!UICONTROL Emails]_ para localizar e atualizar o email. Você pode revisar emails ou fazer atualizações nas configurações e no conteúdo.
 
 ## Acessar e gerenciar emails
 
