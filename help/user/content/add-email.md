@@ -4,9 +4,9 @@ description: Saiba como adicionar, definir e otimizar ações de email no Adobe 
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -33,59 +33,55 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
    * Escolha **[!UICONTROL Criar novo email]** para criar o email nativamente no Journey Optimizer B2B edition.
 
-     Essa opção permite gerenciar o conteúdo de email nativamente no Journey Optimizer B2B edition. Clique em **[!UICONTROL Criar email]** para abrir o diálogo _Criar novo email_. Você pode criar um novo ativo de conteúdo de email<!-- or duplicate an existing email content asset-->.
+     Essa opção permite gerenciar o conteúdo de email nativamente no Journey Optimizer B2B edition. Clique em **[!UICONTROL Criar email]** para abrir o diálogo _Criar novo email_. Você pode criar um novo ativo de conteúdo de email ou duplicar um ativo de conteúdo de email existente.
 
-     Na caixa de diálogo, insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**, depois clique em **[!UICONTROL Criar]**.
+     +++Novo email
 
-     ![Caixa de diálogo Criar novo email - novo email](assets/create-new-email-no-duplicate.png){width="400"}
+     Quando quiser criar um email usando uma tela vazia ou um modelo de email, use a opção _[!UICONTROL Novo email]_.
 
-     Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
+      1. Na caixa de diálogo, escolha **[!UICONTROL Novo email]**.
 
-     Defina as [configurações](#define-the-email-settings) do email e clique em **[!UICONTROL Editar conteúdo do email]** para [criar o conteúdo](./email-authoring.md).
+      1. Insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**.
 
-     <!-- +++New email {#new-email}
-     When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
+         ![Caixa de diálogo Criar novo email - novo email](assets/create-new-email.png){width="400"}
 
-     1. In the dialog, choose **[!UICONTROL New email]**.
+      1. Clique em **[!UICONTROL Criar]**.
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+         Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
 
-        ![Create new email dialog - new email](assets/create-new-email.png){width="400"}
+      1. Clique em **[!UICONTROL Editar email]** para definir as [configurações](#define-the-email-settings) do email e criar o [conteúdo](./email-authoring.md).
 
-     1. Click **[!UICONTROL Create]**.
++++
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+     +++Duplicar email existente
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+     Quando quiser criar um email usando um email existente da jornada atual ou de outra jornada, use a opção _[!UICONTROL Duplicar email existente]_. Você pode fazer alterações no email duplicado de acordo com seu objetivo para o nó de jornada.
 
-     +++
+      1. Na caixa de diálogo _[!UICONTROL Criar novo email]_, escolha **[!UICONTROL Duplicar email existente]**.
 
-     +++Duplicate existing email {#duplicate-email}
-     When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
+      1. Para duplicar o email **[!UICONTROL existente]**, clique no ícone _Seleção_ ( ![Ícone Seleção](../assets/do-not-localize/icon-email-select.svg) ) e selecione o email que deseja duplicar e usar para o nó de jornada.
 
-     1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
+         Você pode filtrar a lista de emails inserindo uma cadeia de texto no campo de pesquisa para corresponder ao nome do email.
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Select email_ icon and select the email you want to duplicate and use for the journey node.
+         ![Selecionar email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         Marque a caixa de seleção do email que você deseja duplicar e clique em **[!UICONTROL Selecionar]**.
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+      1. Insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**.
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         ![Caixa de diálogo Criar novo email - duplicar email existente](assets/create-new-email-duplicate.png){width="400"}
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+      1. Clique em **[!UICONTROL Criar]**.
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email.png){width="400"}
+         Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
 
-     1. Click **[!UICONTROL Create]**.
+      1. Se necessário, clique em **[!UICONTROL Editar email]** para modificar as [configurações](#define-the-email-settings) e o [conteúdo](./email-authoring.md) do email.
 
-        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
++++
 
-     1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
-
-     +++
-   —>
    * Escolha **[!UICONTROL Selecionar email do Adobe Marketo Engage]** para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da jornada.
+
+     Se você tiver mais de um espaço de trabalho disponível na instância conectada do Market Engage, selecione o espaço de trabalho. Em seguida, selecione o email aprovado que deseja enviar para o nó do jornada.
 
      ![Selecionar email do Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
