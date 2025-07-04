@@ -31,7 +31,7 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Trabalhe com seu engenheiro de dados** para planejar e implementar sua ativação de público-alvo B2B e perfil. Revise os blueprints publicados e siga as diretrizes de acordo com suas necessidades. [Saiba mais](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Trabalhe com seu engenheiro de dados** para planejar e implementar sua ativação de público-alvo B2B e perfil. Revise os blueprints publicados e siga as diretrizes de acordo com suas necessidades. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Configure o perfil de produto**. Um perfil de produto é um conjunto de direitos unitários na Adobe Experience Platform que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. [Saiba mais](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
