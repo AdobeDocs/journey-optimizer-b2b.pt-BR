@@ -4,16 +4,16 @@ description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 16%
 
 ---
 
 # Criação de mensagens de email
 
-Depois de &lbrack;adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada&rbrack;(./add-email.md), você pode definir o conteúdo da mensagem de email.
+Depois de [adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
@@ -52,14 +52,13 @@ Use o espaço de design de conteúdo visual para definir a estrutura e o conteú
 1. [Adicionar ativos de imagem](#add-assets) à mensagem de email.
 1. [Personalizar o conteúdo do email](#personalize-content).
 1. [Examinar e atualizar links](#preview-and-edit-linked-urls).
+1. [Testar o email](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-Quando o conteúdo estiver concluído, clique em **[!UICONTROL Simular conteúdo]** na parte superior para verificar a renderização. Você pode escolher a visualização de desktop ou móvel.
 
 Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
@@ -133,7 +132,7 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
    * Clique no ícone _Exibir_ para visualizar o conteúdo entre dispositivos.
    * Selecione um dos dispositivos prontos para uso ou insira dimensões personalizadas para visualizar o conteúdo.
 
-### Mais opções
+## Mais opções
 
 No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design de email, você pode realizar as seguintes ações:
 
@@ -145,15 +144,21 @@ No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design de email,
 * **[!UICONTROL Salvar como modelo de conteúdo]** - Salve o corpo do email como um modelo de email a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o modelo e salve-o na lista de modelos de email salvos.
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
 
-## Verificar e testar o email {#preview-test}
+## Verificar e testar o email {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Verificar como o conteúdo está sendo renderizado"
 >abstract="Após o conteúdo ser definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
-Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para pré-visualizá-la, enviar provas e controlar sua renderização em clientes populares de desktop, móveis e baseados na Web. Se você inseriu conteúdo personalizado, é possível visualizar como esse conteúdo é exibido na mensagem usando os dados do perfil de teste.
+Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para visualizá-la, enviar provas e revisar a renderização nas taxas de proporção do desktop e dos dispositivos móveis. Se você inseriu conteúdo personalizado, é possível visualizar como esse conteúdo é exibido na mensagem usando os dados do perfil de teste.
 
-Para visualizar o conteúdo do email, clique em **[!UICONTROL Simular conteúdo]** e adicione um perfil de teste para verificar sua mensagem usando os dados do perfil de teste.
+Para [visualizar o conteúdo do email](./email-simulate-content.md), clique em **[!UICONTROL Simular conteúdo]** e selecione um perfil de teste para verificar sua mensagem usando os dados do perfil da pessoa.
 
 ![Simular o conteúdo do email para verificar seu design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+É possível acessar ferramentas adicionais para validar e revisar o conteúdo do email:
+
+* [Enviar uma prova](./email-simulate-content.md#send-proofs)
+* [Testar renderização em clientes de email](./email-test-rendering.md)
+<!-- * Generate a spam report -->

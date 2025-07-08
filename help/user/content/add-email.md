@@ -4,9 +4,9 @@ description: Saiba como adicionar, definir e otimizar ações de email no Adobe 
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
       1. Clique em **[!UICONTROL Editar email]** para definir as [configurações](#define-the-email-settings) do email e criar o [conteúdo](./email-authoring.md).
 
-     +++
++++
 
      +++Duplicar email existente
 
@@ -77,7 +77,7 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
       1. Se necessário, clique em **[!UICONTROL Editar email]** para modificar as [configurações](#define-the-email-settings) e o [conteúdo](./email-authoring.md) do email.
 
-     +++
++++
 
    * Escolha **[!UICONTROL Selecionar email do Adobe Marketo Engage]** para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da jornada.
 
@@ -115,7 +115,7 @@ Dois tipos de alertas podem ser detectados:
 
 * **_Avisos_** que se referem a recomendações e práticas recomendadas, como:
 
-   * `The opt-out link is not present in the email body`: adicionar um link de cancelamento de assinatura ao corpo do email é uma prática recomendada.
+   * `The opt-out link is not present in the email body`: Adicionar um link de cancelamento de assinatura ao corpo do email é uma prática recomendada.
 
      >[!NOTE]
      >
@@ -125,10 +125,12 @@ Dois tipos de alertas podem ser detectados:
 
    * `Empty link is present in email body`: verifique se todos os links no seu email estão corretos.
 
-   * `Email size has exceeded the limit of 100KB`: para uma entrega ideal, verifique se o tamanho do seu email não excede 100KB.
+   * `Email size has exceeded the limit of 100KB`: Para uma entrega ideal, certifique-se de que o tamanho do seu email não exceda 100KB.
 
 * **_Erros_** que impedem que você teste ou ative a jornada/campanha enquanto não forem resolvidos, como:
 
-   * `The subject line is missing`: a linha de assunto do email é obrigatória.
+   * `From name is empty`: O campo _De_ do email (obrigatório) não está definido.
 
-   * `The email version of the message is empty`: este erro é exibido quando o conteúdo do email não foi configurado.
+   * `The subject line is missing`: A linha de assunto do email (obrigatória) não está definida.
+
+   * `The email version of the message is empty`: O conteúdo do email não está definido.
