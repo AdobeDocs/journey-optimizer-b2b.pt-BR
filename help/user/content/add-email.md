@@ -51,7 +51,7 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
       1. Clique em **[!UICONTROL Editar email]** para definir as [configurações](#define-the-email-settings) do email e criar o [conteúdo](./email-authoring.md).
 
-+++
+     +++
 
      +++Duplicar email existente
 
@@ -77,7 +77,7 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
       1. Se necessário, clique em **[!UICONTROL Editar email]** para modificar as [configurações](#define-the-email-settings) e o [conteúdo](./email-authoring.md) do email.
 
-+++
+     +++
 
    * Escolha **[!UICONTROL Selecionar email do Adobe Marketo Engage]** para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da jornada.
 
