@@ -1,13 +1,13 @@
 ---
 title: Orientação integrada para administradores e profissionais de marketing
-description: Como novo administrador ou usuário no Journey Optimizer B2B edition, saiba mais sobre as principais áreas no processo de integração.
+description: Como novo administrador ou usuário do Journey Optimizer B2B Edition, saiba mais sobre as principais áreas do processo de integração.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Trabalhe com seu engenheiro de dados** para planejar e implementar sua ativação de público-alvo B2B e perfil. Revise os blueprints publicados e siga as diretrizes de acordo com suas necessidades. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Trabalhe com seu engenheiro de dados** para planejar e implementar sua ativação de público-alvo B2B e perfil. Revise os blueprints publicados e siga as diretrizes de acordo com suas necessidades. [Saiba mais](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Configure o perfil de produto**. Um perfil de produto é um conjunto de direitos unitários na Adobe Experience Platform que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. [Saiba mais](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
