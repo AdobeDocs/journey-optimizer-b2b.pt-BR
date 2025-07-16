@@ -5,9 +5,9 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Para testar seus emails, você pode usar uma conta corporativa do [Litmus](https://www.litmus.com/email-testing){target="_blank"} da Journey Optimizer B2B edition. Com essa integração, você pode pré-visualizar a renderização de email em clientes de email populares. Essa ferramenta ajuda a garantir que o conteúdo de email tenha uma ótima aparência e funcione conforme projetado em cada caixa de entrada.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Essa integração está disponível somente para contas do Litmus Enterprise. Para obter mais informações, consulte a [página de soluções no site do Litmus](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
+>Essa integração só está disponível para usuários do Journey Optimizer B2B edition com contas do Litmus Enterprise. Para obter mais informações, consulte a [página de soluções no site do Litmus](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
 
 1. Quando o design do email estiver concluído e pronto para ser testado, clique em **[!UICONTROL Simular conteúdo]** no espaço de design de email.
 
