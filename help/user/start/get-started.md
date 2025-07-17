@@ -4,10 +4,10 @@ description: Como novo administrador ou usuário do Journey Optimizer B2B Editio
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
+source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 87%
+source-wordcount: '713'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,9 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Trabalhe com seu engenheiro de dados** para planejar e implementar sua ativação de público-alvo B2B e perfil. Revise os blueprints publicados e siga as diretrizes de acordo com suas necessidades. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Trabalhe com seu engenheiro de dados** para planejar e implementar sua ativação de público-alvo B2B e perfil. Revise os blueprints publicados e siga as diretrizes de acordo com suas necessidades. [Saiba mais](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+
+1. **Planeje e implemente a integração do Marketo Engage** para incorporar o esquema personalizado, a assimilação de perfis e contas e a orquestração de jornadas personalizadas para grupos de compras. [Saiba mais](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Configure o perfil de produto**. Um perfil de produto é um conjunto de direitos unitários na Adobe Experience Platform que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. [Saiba mais](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
