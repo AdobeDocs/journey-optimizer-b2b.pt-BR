@@ -1,5 +1,5 @@
 ---
-title: Orientação integrada para administradores e profissionais de marketing
+title: Orientação sobre a integração de administradores e profissionais de marketing
 description: Como novo administrador ou usuário do Journey Optimizer B2B Edition, saiba mais sobre as principais áreas do processo de integração.
 role: Admin, User
 level: Beginner
@@ -7,13 +7,13 @@ exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
-# Orientação de integração
+# Orientação sobre integração
 
-Os recursos e as ferramentas que você deseja aproveitar no Adobe Journey Optimizer B2B edition dependem da função que você desempenha na equipe. Com base na sua organização, os administradores podem definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das suas permissões.
+Os recursos e ferramentas que você pode usar no Adobe Journey Optimizer B2B Edition dependem da sua função na equipe. Com base na sua organização, os administradores podem definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das suas permissões.
 
 >[!TIP]
 >
@@ -31,7 +31,7 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Trabalhe com seu engenheiro de dados** para planejar e implementar sua ativação de público-alvo B2B e perfil. Revise os blueprints publicados e siga as diretrizes de acordo com suas necessidades. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Colabore com o seu engenheiro de dados** para planejar e implementar a ativação do seu perfil e público-alvo B2B. Confira os blueprints publicados e siga as diretrizes de acordo com as suas necessidades. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Planeje e implemente a integração do Marketo Engage** para incorporar o esquema personalizado, a assimilação de perfis e contas e a orquestração de jornadas personalizadas para grupos de compras. [Saiba mais](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
@@ -69,7 +69,7 @@ Consulte as seções a seguir para configurar sua primeira jornada, adicionar at
 
    * Use as ações de canal integradas (email e SMS) para enviar mensagens projetadas no Journey Optimizer B2B Edition.
 
-   * No mapa do jornada, crie seus casos de uso de várias etapas, adicione condições e envie mensagens personalizadas.
+   * No mapa da jornada, crie casos de uso em várias etapas, adicione condições e envie mensagens personalizadas.
 
 [Saiba mais](../journeys/journey-overview.md)
 

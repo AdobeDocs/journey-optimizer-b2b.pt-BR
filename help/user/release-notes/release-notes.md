@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
 source-wordcount: '2552'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 <!-- hold for 2025.8 release 
@@ -54,8 +54,8 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Teste de email com o Litmus | Com uma [Conta do Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, agora você pode visualizar a sua renderização de email em clientes de email populares do Journey Optimizer B2B edition. Essa integração ajuda a garantir que seu conteúdo de email tenha ótima aparência e funcione conforme projetado em cada caixa de entrada de email. [Saiba mais](../content/email-test-rendering.md) |
-| Aprimoramento | Duplicar email | Ao adicionar um email para um nó do jornada, agora é possível duplicar um email existente. Modifique a configuração ou o conteúdo do email duplicado ou deixe-o intacto.  [Saiba mais](../content/add-email.md#add-an-email-to-your-journey) |
+| Recurso | Testes de email com o Litmus | Com uma [Conta do Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, agora você pode visualizar a sua renderização de email em clientes de email populares do Journey Optimizer B2B edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. [Saiba mais](../content/email-test-rendering.md) |
+| Aprimoramento | Duplicar email | Ao adicionar um email relacionado a um nó da jornada, agora é possível duplicar um email existente. Modifique a configuração ou o conteúdo do email duplicado, ou deixe-o intacto.  [Saiba mais](../content/add-email.md#add-an-email-to-your-journey) |
 | Aprimoramento | Formato de token handlebar para email | Os tokens de personalização para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#content-authoring---personalization) |
 | Aprimoramento | Exibição da contagem total de listas | As páginas de lista _[!UICONTROL Interesses da solução]_ e _[!UICONTROL Jornadas da conta]_ foram aprimoradas com a exibição da contagem total ao lado da barra de pesquisa. |
 

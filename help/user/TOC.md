@@ -4,7 +4,7 @@ user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 + Introdução {#get-started}
    + [Visão geral do Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
    + [Logon e página inicial](home-page.md)
-   + [Orientação de integração](./start/get-started.md)
+   + [Orientação sobre integração](./start/get-started.md)
    + [Protocolos de rastreamento e email](./start/email-protocols.md)
 + Assistente de IA {#ai-assistant}
    + [Visão geral](./ai-assistant/ai-assistant-overview.md)
