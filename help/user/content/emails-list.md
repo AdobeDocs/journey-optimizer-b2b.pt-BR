@@ -4,9 +4,9 @@ description: Use a lista Emails para gerenciar o conteúdo de email no Adobe Jou
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ Para procurar um email por nome, digite uma string de texto na barra de pesquisa
 
 ![Acessar a biblioteca de modelos de email e filtrar por nome e datas](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## Editar emails
+## Abrir e editar emails
 
 Clique no nome do email na lista para abri-lo. Você pode revisar e alterar as [configurações de email](./add-email.md#define-the-email-settings). Clique em **[!UICONTROL Editar conteúdo de email]** para fazer [atualizações no conteúdo](./email-authoring.md).
 
 Se [os alertas forem exibidos](./add-email.md#check-alerts) no canto superior direito da página, clique em para analisar os avisos ou erros e endereçar os itens conforme necessário.
 
 ![Abrir o email para fazer atualizações](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+Você também pode acessar a janela [_[!UICONTROL Simular conteúdo]_](./email-simulate-content.md). Use essas ferramentas para visualizar o conteúdo usando um perfil de teste, enviar provas e testar o email quanto à capacidade de entrega e renderização do cliente de email.

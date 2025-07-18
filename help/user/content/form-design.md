@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Design de formulário
 
-Depois que você [cria um formulário](./landing-pages.md#create-a-landing-page), o espaço de design visual abre um rascunho com uma definição de formulário básica padrão. No painel _[!UICONTROL Resumo]_ à direita, clique em **[!UICONTROL Editar formulário]** e use o espaço de design visual para definir o estilo do formulário e os componentes do campo.
+Depois que você [cria um formulário](./forms.md#create-forms), o espaço de design visual abre um rascunho com uma definição de formulário básica padrão. No painel _[!UICONTROL Resumo]_ à direita, clique em **[!UICONTROL Editar formulário]** e use o espaço de design visual para definir o estilo do formulário e os componentes do campo.
 
 ![Acessar a biblioteca de formulários](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -179,7 +179,7 @@ Selecione a guia **[!UICONTROL Estilos]** no painel direito para alterar o estil
 
 Novos formulários usam o CSS padrão para o estilo. Se quiser alterar os estilos modificando o CSS, você poderá copiá-lo e usá-lo para definir um CSS personalizado para o formulário.
 
-_Para definir um CSS personalizado para o formulário:_
+_Para definir um CSS personalizado para o formulário :_
 
 1. Clique em **[!UICONTROL Exibir CSS]** no painel direito para examinar o código CSS.
 

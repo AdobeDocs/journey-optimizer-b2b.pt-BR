@@ -4,16 +4,16 @@ description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
+source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 16%
+source-wordcount: '1050'
+ht-degree: 14%
 
 ---
 
 # Criação de mensagens de email
 
-Depois de &lbrack;adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada&rbrack;(./add-email.md), você pode definir o conteúdo da mensagem de email.
+Depois de [adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
@@ -95,6 +95,20 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 >abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Adicionar CSS personalizado
+
+Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design de email. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes como imagens, botões e texto.
+
+Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UICONTROL Corpo]** na árvore de navegação esquerda para acessar o editor de CSS personalizado.
+
+>[!NOTE]
+>
+>Se sua mensagem de email for criada usando um [modelo com conteúdo bloqueado](./template-content-governance.md), você não poderá adicionar CSS personalizado ao seu conteúdo. O rótulo do botão é alterado para **[!UICONTROL Exibir CSS personalizado]** e qualquer CSS personalizado já presente no conteúdo é somente leitura.
+
+![Acessar os estilos de corpo](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Adicionar fragmentos
 

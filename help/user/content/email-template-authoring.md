@@ -4,10 +4,10 @@ description: Saiba como criar modelos de email de conteúdo que podem ser usados
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 17%
+source-wordcount: '421'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,16 @@ Depois de [criar um modelo de email](./email-templates.md#create-an-email-templa
 >abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um modelo."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Adicionar CSS personalizado
+
+Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design do modelo de email. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes como imagens, botões e texto.
+
+Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UICONTROL Corpo]** na árvore de navegação esquerda para acessar o editor de CSS personalizado.
+
+![Acessar os estilos de corpo](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Adicionar fragmentos
 

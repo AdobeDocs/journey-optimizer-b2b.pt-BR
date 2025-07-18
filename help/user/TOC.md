@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compra usando a IA generativa integrada e a automação líder do setor.
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 95%
+source-wordcount: '282'
+ht-degree: 93%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 95%
       + [Interesses na solução](./buying-groups/solution-interests.md)
       + [Modelos de função](./buying-groups/buying-groups-role-templates.md)
       + [Estágios do grupo de compra](./buying-groups/buying-group-stages.md)
-      + [Detalhes do grupo de compra](./buying-groups/buying-group-details.md)
       + [Criar grupos de compra](./buying-groups/buying-groups-create.md)
       + [Exportar lista de contas](./audiences/account-list-export.md)
       + [Públicos-alvo correspondentes da conta do LinkedIn](./data/linkedin-account-matched-audiences.md)
@@ -59,14 +58,19 @@ ht-degree: 95%
    + Listas de contas {#account-lists}
       + [Visão geral](./accounts/account-lists.md)
       + [Usar em jornadas e programas](./accounts/account-lists-journeys.md)
-   + [Detalhes da conta](./accounts/account-details.md)
    + [Campos XDM](./data/field-mapping.md)
+   + Experiência de vendas {#sales-experience}
+      + [Detalhes da conta](./accounts/account-details.md)
+      + [Detalhes do grupo de compra](./buying-groups/buying-group-details.md)
+      + [Dados da pessoa](./accounts/person-details.md)
+      + [Vinculação do CRM](./accounts/crm-linking.md)
 + Gerenciamento de conteúdo {#content-management}
    + Emails {#emails}
       + [Trabalhar com conteúdo de email](./content/emails-list.md)
-Visualização e validação {#preview}
+      + Pré-visualização e validação {#preview}
          + [Simular conteúdo](./content/email-simulate-content.md)
          + [Testar a renderização do email](./content/email-test-rendering.md)
+         + [Relatório de spam](./content/email-spam-report.md)
    + Ativos {#assets}
       + [Visão geral](./content/assets-overview.md)
       + Ativos do Marketo Engage {#marketo-engage-dam}
@@ -91,6 +95,7 @@ Visualização e validação {#preview}
       + [Visão geral](./content/landing-pages.md)
       + [Design da página de destino](./content/landing-page-design.md)
    + [Conteúdo condicional](./content/conditional-content.md)
+   + [CSS personalizado](./content/design-custom-css.md)
 + Painéis de insights {#dashboards}
    + [Painel inteligente](./dashboards/intelligent-dashboard.md)
    + [Visão geral do engajamento](./dashboards/engagement-dashboard.md)

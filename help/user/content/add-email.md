@@ -4,9 +4,9 @@ description: Saiba como adicionar, definir e otimizar ações de email no Adobe 
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
       1. Clique em **[!UICONTROL Editar email]** para definir as [configurações](#define-the-email-settings) do email e criar o [conteúdo](./email-authoring.md).
 
-     +++
++++
 
      +++Duplicar email existente
 
@@ -77,7 +77,7 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
       1. Se necessário, clique em **[!UICONTROL Editar email]** para modificar as [configurações](#define-the-email-settings) e o [conteúdo](./email-authoring.md) do email.
 
-     +++
++++
 
    * Escolha **[!UICONTROL Selecionar email do Adobe Marketo Engage]** para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da jornada.
 
@@ -89,9 +89,9 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
 ## Definir as configurações de email
 
-Com a guia **[!UICONTROL Detalhes]** selecionada no painel _Resumo_ à direita, role até a parte inferior para exibir e definir as opções de email.
+Com a guia **[!UICONTROL Detalhes]** selecionada no painel _Resumo_ à direita, role até o final para exibir e definir as configurações de email.
 
-![Configurações de email](./assets/email-summary-details-settings.png){width="600" zoomable="yes"}
+![Configurações de email](./assets/email-summary-details-settings.png){width="700" zoomable="yes"}
 
 | Opção | Descrição |
 | ------ | ----------- |
@@ -99,6 +99,9 @@ Com a guia **[!UICONTROL Detalhes]** selecionada no painel _Resumo_ à direita, 
 | [!UICONTROL Do email] | O endereço do remetente usado no cabeçalho do email. O valor padrão é preenchido nas [configurações de entrega de canal de email](../admin/configure-channels-emails.md#delivery-settings). Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização no campo. |
 | [!UICONTROL Endereço para resposta] | O endereço do remetente usado no cabeçalho do email. O valor padrão é preenchido a partir das [configurações de entrega de canal de email](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Do Rótulo]). Insira o endereço de email que você deseja preencher se o recipient usar a função de resposta (pode ser diferente ou igual ao endereço do remetente). Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização no campo. |
 | [!UICONTROL Linha de assunto] | O texto exibido no campo de assunto do email. O valor padrão é preenchido com base no texto inserido na caixa de diálogo _[!UICONTROL Criar novo email]_. Você pode alterar o texto, se necessário. Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização no campo.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL Domínio de marca] | Se você tiver mais de um [domínio de identidade visual](../admin/configure-channels-emails.md#branding-domains) definido no sistema, selecione o domínio de identidade visual a ser usado para enviar o email. Use um domínio de marca específico para enviar emails que parecem vir da sua marca, em vez da empresa como um todo. Ele cria confiança com a marca, personaliza a experiência de email e aumenta as taxas de abertura e resposta. |
+| [!UICONTROL IP dedicado] | Se tiver mais de um endereço IP dedicado definido, selecione um endereço IP dedicado para usar ao enviar o email. Ao usar um IP dedicado específico para seus programas, você pode rastrear e monitorar a capacidade de entrega com mais precisão e responder rapidamente a qualquer alteração em suas métricas de entrega. Para obter mais informações sobre como adicionar um IP dedicado para a instância conectada do Marketo Engage, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
+| Resolução de problemas - é mais fácil pesquisar, entender e resolver problemas de entrega. |
 | [!UICONTROL Email operacional] | Marque a caixa de seleção se desejar designar o email como operacional. Os emails operacionais são excluídos das listas de recusa/cancelamento de inscrição e dos limites de comunicação. Selecione essa opção somente quando o recipient não puder considerar a mensagem de email como uma mensagem comercial não solicitada (SPAM). |
 | [!UICONTROL Incluir exibição como página da Web] | Marque a caixa de seleção para incluir um link para uma página da Web gerada a partir do conteúdo da mensagem de email. As mensagens de email têm recursos mais limitados do que as páginas da Web, portanto, são úteis para o JavaScript, CSS estendido e formulários. O texto usado para gerar o link está configurado nas [configurações de entrega de canal de email](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Exibir como página da Web do HTML] e [!UICONTROL Exibir como texto da página da Web]). |
 | [!UICONTROL Desabilitar o rastreamento de aberturas] | Marque a caixa de seleção quando não quiser rastrear a atividade de abertura de emails. Com a função desativada, as contagens de atividades de email abertas são aumentadas somente quando uma pessoa única abre o email. Você pode [gerenciar o rastreamento de links de conteúdo de email](./email-authoring.md#content-authoring---link-tracking) ao criar o conteúdo do corpo do email. |

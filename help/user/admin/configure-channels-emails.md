@@ -4,9 +4,9 @@ description: Saiba como acessar e revisar as configurações de email definidas 
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Para examinar os domínios de identidade visual, clique na guia **[!UICONTROL Do
 
 ![Acessar as configurações dos domínios de identidade visual](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Essa configuração define o domínio primário de um ou mais espaços de trabalho do Marketo Engage. Os novos emails usam esse domínio como padrão, mas os profissionais de marketing podem substituí-lo com base no email. Para obter mais informações, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Essa configuração define seu domínio primário para um ou mais espaços de trabalho na instância conectada do Marketo Engage. Novos emails usam este domínio como padrão, mas os profissionais de marketing podem [substituí-lo por email](../content/add-email.md#define-the-email-settings). Para obter mais informações sobre como definir o domínio de marca padrão, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Se você estiver comercializando várias marcas no Journey Optimizer B2B edition e na instância conectada do Marketo Engage e quiser que cada uma tenha seus próprios links de rastreamento de marca, poderá adicionar um domínio de marca adicional. Para obter mais informações, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Se você estiver comercializando várias marcas e quiser que cada uma tenha seus próprios links de rastreamento de marca, poderá adicionar outro domínio de marca. Para obter mais informações sobre como adicionar vários domínios de marca, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Opções de cabeçalho personalizado] {#custom-header-options}
 
@@ -79,7 +79,7 @@ As configurações são somente leitura no Journey Optimizer B2B edition. Clique
 >
 >Para acessar e editar essas configurações no Adobe Marketo Engage, é necessário ter permissões de administrador do produto.
 
-Para obter mais informações sobre como configurar os limites de comunicação, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Para obter mais informações sobre como configurar os limites de comunicação, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -111,7 +111,7 @@ Se você já tiver um registro SPF na sua entrada DNS, adicione o seguinte a ele
 
 O DKIM é um protocolo de autenticação usado pelos destinatários de email para validar o remetente da mensagem de email. Geralmente, melhora a capacidade de delivery de emails para a caixa de entrada, pois um receptor pode ter certeza de que a mensagem não é uma falsificação.
 
-Com a chave pública em seu registro DNS e o domínio de envio ativado na instância conectada do Marketo Engage, a assinatura personalizada do DKIM é usada para suas mensagens de saída. A assinatura personalizada do DKIM inclui uma assinatura digital criptografada com cada email enviado. Os destinatários podem descriptografar a assinatura digital procurando a _chave pública_ no DNS do domínio de envio. Se a chave no email corresponder à chave no registro DNS, o servidor de email de recebimento terá mais probabilidade de aceitar o email enviado pelo Marketo Engage.
+Quando a chave pública está em seu registro DNS e o domínio de envio está ativado na instância conectada do Marketo Engage, a assinatura personalizada do DKIM é usada para suas mensagens de saída. A assinatura personalizada do DKIM inclui uma assinatura digital criptografada com cada email enviado. Os destinatários podem descriptografar a assinatura digital procurando a _chave pública_ no DNS do domínio de envio. Se a chave no email corresponder à chave no registro DNS, o servidor de email de recebimento terá mais probabilidade de aceitar o email enviado pelo Marketo Engage.
 
 Para obter mais informações sobre como configurar uma assinatura personalizada do DKIM para entrega de email, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
@@ -146,4 +146,4 @@ As configurações são somente leitura no Journey Optimizer B2B edition. Clique
 >
 >Para acessar e editar essas configurações no Adobe Marketo Engage, é necessário ter permissões de administrador do produto.
 
-Para obter mais informações sobre como configurar as opções de atividade de bot, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Para obter mais informações sobre como configurar as opções de atividade de bot, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

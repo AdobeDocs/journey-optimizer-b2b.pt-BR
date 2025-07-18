@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 22%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
@@ -29,6 +29,16 @@ Depois de [criar um modelo de página de aterrissagem](./landing-page-templates.
 >abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de um modelo de página de destino."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Adicionar CSS personalizado
+
+Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design da página de destino. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes como imagens, botões e texto.
+
+Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UICONTROL Corpo]** na árvore de navegação esquerda para acessar o editor de CSS personalizado.
+
+![Acessar os estilos de corpo](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Adicionar ativos
 

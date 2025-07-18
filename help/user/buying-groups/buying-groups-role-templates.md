@@ -4,9 +4,9 @@ description: Saiba mais sobre como definir um modelo de função a ser usado com
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
    ![guia Modelos de Funções](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   A guia fornece uma lista de inventário de todos os modelos de funções existentes com as seguintes colunas:
+   A guia fornece uma lista de inventário de todos os modelos de funções existentes e exibe as seguintes informações no formato da coluna:
 
    * [!UICONTROL Nome]
    * [!UICONTROL Status]
@@ -36,9 +36,7 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
    * [!UICONTROL Publicado em]
    * [!UICONTROL Publicado por]
 
-   Por padrão, a lista é classificada pela coluna _[!UICONTROL Última atualização]_.
-
-   O número de modelos de funções _online_ (publicados) é exibido na parte superior direita da página. Todos os modelos de funções têm status de `Draft` ou `Live`.
+   A lista é classificada por padrão por _[!UICONTROL Última atualização]_. Todos os modelos de funções têm status de `Draft` ou `Live`.
 
 1. Para filtrar a lista por nome, use o campo de pesquisa na parte superior da lista.
 
@@ -66,7 +64,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 | ---- | --------- |
 | Atributos da pessoa | <li>Endereço de email <li>Email inválido <li>Email suspenso <li>Número de fax <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Segundo nome <li>Número do celular <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
 | Filtros especiais | <li>Membro da lista <li>Membro do programa |
-| Dados de intenção | Tentativa de categoria <li>Propósito do produto <li>Tentativa de palavra-chave<br/>[Saiba mais sobre dados de intenção](../admin/intent-data.md). |
+| Dados de intenção | Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave<br/>[Saiba mais sobre dados de intenção](../admin/intent-data.md). |
 
 1. Para o primeiro cartão de função, defina as propriedades da função.
 
@@ -164,4 +162,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -4,9 +4,10 @@ description: Saiba como pré-visualizar e testar seu conteúdo de email para gar
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ Use o recurso _Simular conteúdo_ para visualizar o conteúdo do email e enviar 
 
 ## Exibir a visualização do email
 
-1. No espaço de design de email<!-- or the email properties -->, clique em **[!UICONTROL Simular Conteúdo]**.
+Você pode acessar a visualização de renderização no [espaço de design de email](./email-authoring.md) ou no _[!UICONTROL Resumo]_ ao [abrir um email na lista de Emails](./emails-list.md#edit-emails).
 
-   ![Clique em Simular conteúdo](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. Clique em **[!UICONTROL Simular conteúdo]** na parte superior.
+
+   ![Clique em Simular conteúdo](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
