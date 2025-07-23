@@ -4,7 +4,7 @@ description: Saiba como os grupos de compra no Journey Optimizer B2B Edition pod
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ A pontuação de engajamento do grupo de compra é um número para determinar o 
 
 +++Atividades usadas para pontuação
 
->[!BEGINSHADEBOX]
-
 | Nome da atividade | Descrição | Tipo de engajamento | Contagem máxima de frequência diária | Peso da atividade |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL Visitar Página Da Web] | Um membro visita uma página da Web | Web | 20 | 40 |
@@ -153,9 +151,6 @@ A pontuação de engajamento do grupo de compra é um número para determinar o 
 | [!UICONTROL Envolvido com um Agente em Fluxo de Conversação] | Um membro se envolve com um Agente em um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
 | [!UICONTROL Link Clicado no Chat no Fluxo de Conversação] | Um membro clica em um link em um fluxo de conversação do Dynamic Chat | Chat | 20 | 90 |
 | [!UICONTROL Clique no Link no SMS V2] | Um membro clica em um link em uma mensagem SMS | SMS | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ A pontuação final de engajamento é calculada aplicando o peso de cada uma das
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
