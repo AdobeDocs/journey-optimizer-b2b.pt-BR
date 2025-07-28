@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como você pode usá-lo para orquestrar jornadas de conta e de grupo de compra usando a IA generativa integrada e a automação líder do setor.
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 95%
 
 ---
 
@@ -88,12 +88,16 @@ ht-degree: 100%
    + Fragmentos {#visual-fragments}
       + [Visão geral](./content/fragments.md)
       + [Criação de fragmentos](./content/fragment-authoring.md)
-   + Formulários {#forms}
+   + Forms (Beta) {#forms}
       + [Visão geral](./content/forms.md)
       + [Design de formulário](./content/form-design.md)
-   + Páginas de destino {#landing-pages}
+   + Landing pages (Beta) {#landing-pages}
       + [Visão geral](./content/landing-pages.md)
       + [Design da página de destino](./content/landing-page-design.md)
+   + Marcas (Beta) {#brands}
+      + [Visão geral](./content/brands-overview.md)
+      + [Gerenciar e criar](./content/brands-manage-create.md)
+      + [Alinhamento da marca](./content/brand-alignment.md)
    + [Conteúdo condicional](./content/conditional-content.md)
    + [CSS personalizado](./content/design-custom-css.md)
 + Painéis de insights {#dashboards}
