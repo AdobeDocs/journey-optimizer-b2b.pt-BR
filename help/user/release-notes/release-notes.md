@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 <!-- hold for 2025.8 release 
@@ -26,7 +26,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 ## Notas da versão 2025.6
 
-**Data de implantação**: quarta-feira, 15 de julho de 2025
+**Data de implantação**: 15 de julho de 2025
 
 Esta versão inclui os seguintes novos recursos e melhorias:
 
@@ -34,13 +34,13 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | ---- | ---- | ----------- |
 | Recurso | Integração com o GenStudio for Performance Marketing | (Disponibilidade limitada) Agora é possível integrar as experiências de email do GenStudio for Performance Marketing com o Journey Optimizer B2B Edition para melhorar a eficiência do marketing e manter a consistência da marca. Com essa integração, é possível combinar a criação de conteúdo viabilizada por IA do GenStudio com os recursos avançados de orquestração do Journey Optimizer B2B Edition. [Saiba mais](../content/genstudio-email-workflow.md) |
 | Recurso | Relatórios de detecção de spam | Para evitar filtros de spam e garantir que as mensagens sejam entregues nas caixas de entrada do público-alvo, você pode gerar um _relatório de spam_ diretamente no espaço de design do email. [Saiba mais](../content/email-spam-report.md) |
-| Recurso | Página de detalhes da pessoa | Agora você pode clicar no nome de uma pessoa quando ele for exibido (como um hiperlink) no Painel inteligente, na página de detalhes do grupo de compra e na página de detalhes da conta. Essa ação abre a página de detalhes da pessoa associada, que contém informações para o contato, sua atividade e grupos de compras mais engajados. [Saiba mais](../accounts/person-details.md) |
-| Recurso | Ações de conta e grupo de compras | Realize ações diretamente nas páginas de detalhes da conta e detalhes do grupo de compra para um envolvimento oportuno e intencional. <li>Use a ação _Enviar email_ para enviar um email do Marketo Engage aprovado para contatos de conta ou membros do grupo de compras selecionados. [Saiba mais](../accounts/account-details.md#send-emails) <li>Nos detalhes do grupo de compras, as ações também incluem _Atribuir um novo membro_, _Remover um membro_ e _Editar uma função_. [Saiba mais](../buying-groups/buying-group-details.md#members-tab) |
-| Recurso | Acesso no CRM às páginas de detalhes | Agora é possível configurar links diretos para as páginas de detalhes do Journey Optimizer B2B edition para contas, contatos e clientes potenciais em sua ferramenta de Gerenciamento de relacionamento com o cliente (CRM), como Salesforce ou Microsoft Dynamics. [Saiba mais](../accounts/crm-linking.md) |
-| Recurso | Suporte a CSS personalizado para design de conteúdo | Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo de email e de página de aterrissagem no espaço de design. [Saiba mais](../content/design-custom-css.md) |
-| Recurso | Configuração de mapeamento de palavra-chave de intenção | Para ativar e gerenciar o modelo de Detecção de intenção, agora é possível fazer upload de uma planilha para definir uma categoria de mapeamento de dados de intenção. [Saiba mais](../admin/intent-data.md) |
-| Aprimoramento | Simular conteúdo do resumo de email | Agora você pode acessar as ferramentas _Simular Conteúdo_ do resumo de email (detalhes e propriedades) ao abrir um email na lista Emails. Esse acesso é uma adição ao espaço de design de email. [Saiba mais](../content/email-simulate-content.md#display-the-email-preview) |
-| Aprimoramento | Exibição da contagem total da lista de modelos de funções | A página da lista _[!UICONTROL Modelos de funções]_ é aprimorada com a exibição da contagem total ao lado da barra de pesquisa. |
+| Recurso | Página de detalhes da pessoa | Agora você pode clicar no nome de uma pessoa quando ele for exibido (como um hiperlink) no Painel inteligente, na página de detalhes do grupo de compra e na página de detalhes da conta. Essa ação abre a página de detalhes da pessoa associada, que contém informações de contato, sua atividade e grupos de compras mais engajados. [Saiba mais](../accounts/person-details.md) |
+| Recurso | Ações de conta e grupo de compra | Realize ações diretamente nas páginas de detalhes da conta e detalhes do grupo de compra para um engajamento oportuno e intencional. <li>Use a ação _Enviar email_ para enviar um email do Marketo Engage aprovado para contatos de conta ou membros do grupo de compra selecionados. [Saiba mais](../accounts/account-details.md#send-emails) <li>Nos detalhes do grupo de compra, as ações também incluem as opções _Atribuir um novo membro_, _Remover um membro_ e _Editar uma função_. [Saiba mais](../buying-groups/buying-group-details.md#members-tab) |
+| Recurso | Acesso no CRM às páginas de detalhes | Agora é possível configurar links diretos para as páginas de detalhes do Journey Optimizer B2B Edition para contas, contatos e leads em sua ferramenta de Gerenciamento de Relacionamento com o Cliente (CRM), como Salesforce ou Microsoft Dynamics. [Saiba mais](../accounts/crm-linking.md) |
+| Recurso | Suporte a CSS personalizado para design de conteúdo | Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo de emails e de páginas de destino no espaço de design. [Saiba mais](../content/design-custom-css.md) |
+| Recurso | Configuração de mapeamento de palavra-chave de intenção | Para ativar e gerenciar o modelo de detecção de intenção, agora é possível fazer upload de uma planilha para definir uma categoria de mapeamento de dados de intenção. [Saiba mais](../admin/intent-data.md) |
+| Aprimoramento | Simular conteúdo do resumo de email | Agora você pode acessar as ferramentas _Simular conteúdo_ do resumo de email (detalhes e propriedades) ao abrir um email na lista Emails. Esse acesso é uma adição ao espaço de design de email. [Saiba mais](../content/email-simulate-content.md#display-the-email-preview) |
+| Aprimoramento | Exibição da contagem total da lista de modelos de funções | A página da lista _[!UICONTROL Modelos de funções]_ é aprimorada com a exibição da contagem total ao lado da barra de pesquisa. |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 
@@ -54,7 +54,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Testes de email com o Litmus | Com uma [Conta do Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, agora você pode visualizar a sua renderização de email em clientes de email populares do Journey Optimizer B2B edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. [Saiba mais](../content/email-test-rendering.md) |
+| Recurso | Testes de email com o Litmus | Com uma [conta Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, agora você pode visualizar a renderização do email em clientes de email populares do Journey Optimizer B2B Edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. [Saiba mais](../content/email-test-rendering.md) |
 | Aprimoramento | Duplicar email | Ao adicionar um email relacionado a um nó da jornada, agora é possível duplicar um email existente. Modifique a configuração ou o conteúdo do email duplicado, ou deixe-o intacto.  [Saiba mais](../content/add-email.md#add-an-email-to-your-journey) |
 | Aprimoramento | Formato de token handlebar para email | Os tokens de personalização para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#content-authoring---personalization) |
 | Aprimoramento | Exibição da contagem total de listas | As páginas de lista _[!UICONTROL Interesses da solução]_ e _[!UICONTROL Jornadas da conta]_ foram aprimoradas com a exibição da contagem total ao lado da barra de pesquisa. |

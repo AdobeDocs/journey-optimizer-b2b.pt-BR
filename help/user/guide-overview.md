@@ -3,9 +3,9 @@ title: Documentação do Adobe Journey Optimizer B2B Edition
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B Edition para orquestrar jornadas de conta e grupo de compra usando a IA generativa integrada e automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -29,21 +29,21 @@ Com os novos relatórios de spam, você pode evitar filtros de spam e garantir q
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Saiba mais sobre os relatórios de detecção de spam"}
 
->[!TAB Ações de contas e grupos de compras]
+>[!TAB Ações de conta e grupo de compra]
 
-Realize ações diretamente nas páginas de detalhes da conta e detalhes do grupo de compra para um envolvimento oportuno e intencional.
+Realize ações diretamente nas páginas de detalhes da conta e detalhes do grupo de compra para um engajamento oportuno e intencional.
 
-Use a ação _Enviar email_ para enviar um email do Marketo Engage aprovado para contatos de conta ou membros do grupo de compras selecionados.
+Use a ação _Enviar email_ para enviar um email do Marketo Engage aprovado para contatos da conta ou membros do grupo de compra selecionados.
 
-[!BADGE Saiba mais]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Saiba mais sobre como enviar emails para contatos de conta"}
+[!BADGE Saiba mais]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Saiba mais sobre como enviar emails para contatos da conta"}
 
-Nos detalhes do grupo de compras, as ações também incluem _Atribuir um novo membro_, _Remover um membro_ e _Editar uma função_.
+Nos detalhes do grupo de compra, as ações também incluem as opções _Atribuir um novo membro_, _Remover um membro_ e _Editar uma função_.
 
-[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/buying-group-details.md#member-tab" tooltip="Saiba mais sobre ações de grupo de compras"}
+[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Saiba mais sobre ações de grupo de compra"}
 
 >[!TAB Suporte a CSS personalizado]
 
-Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo de email e de página de aterrissagem no espaço de design.
+Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo de emails e de páginas de destino no espaço de design.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Saiba mais sobre como usar o CSS personalizado"}
 
@@ -53,11 +53,11 @@ Para ativar e gerenciar o modelo de Detecção de intenção, agora é possível
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Saiba mais sobre a configuração de mapeamento de palavra-chave de intenção"}
 
->[!TAB Teste de email com Litmus]
+>[!TAB Testes de email com o Litmus]
 
-Com uma conta Litmus, agora é possível pré-visualizar a renderização de email em clientes de email populares do Journey Optimizer B2B edition. Essa integração ajuda a garantir que seu conteúdo de email tenha ótima aparência e funcione conforme projetado em cada caixa de entrada de email.
+Com uma conta do Litmus, agora você pode visualizar a renderização de emails nos clientes de email mais usados a partir do Journey Optimizer B2B Edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. 
 
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Saiba mais sobre a integração do teste de email Litmus"}
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Saiba mais sobre a integração do teste de email do Litmus"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desenvolvedores</a>
@@ -145,7 +145,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
 
