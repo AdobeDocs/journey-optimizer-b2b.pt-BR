@@ -5,7 +5,7 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2151'
 ht-degree: 100%
 
@@ -220,4 +220,4 @@ A pontuação final de engajamento é calculada aplicando o peso de cada uma das
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
