@@ -4,10 +4,10 @@ description: Revise os campos de atributo padrão que são sincronizados entre o
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 15%
+source-wordcount: '1097'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 >[!TIP]
 >
->Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do Experience Platform XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Atributos de relação pessoal da conta comercial XDM
 
@@ -29,7 +29,10 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 >[!IMPORTANT]
 >
->O atributo `workEmail.Address` é obrigatório. Se estiver vazio para um membro do público-alvo da conta, essa pessoa não será assimilada e será omitida das jornadas de conta e dos grupos de compra que fazem referência ao público-alvo.
+>O atributo de endereço de email é obrigatório e deve ser preenchido para a funcionalidade adequada. Por padrão, o sistema usa `workEmail.Address`. Se você pretende usar um atributo diferente, contate o Suporte da Adobe antes de publicar jornadas para garantir a configuração adequada.<br/>
+>
+>Certifique-se de que o atributo de email não seja nulo, pois isso pode afetar a sincronização de dados e os processos downstream.
+><ul><li>Se o atributo de email for nulo no B2B da Real-time CDP e a pessoa existir no Journey Optimizer B2B edition, o atributo em será substituído no Journey Optimizer B2B edition por um valor nulo durante a sincronização. Posteriormente, persiste no Marketo Engage como nulo.<li>Se o atributo de email for nulo no B2B da Real-time CDP e a pessoa não existir no Journey Optimizer B2B edition, o registro de pessoa não será sincronizado.<ul/>
 
 | [Propriedade](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Nome de exibição | Nome para exibição do Journey Optimizer B2B | Tipo de dados | Descrição |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -66,7 +69,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 | `accountBillingAddress.city` | Cidade | Cidade | String | O nome da cidade usado no endereço para cobrança. |
 | `accountBillingAddress.country` | País | País | String | O nome do território administrado pelo governo usado no endereço de faturamento. Além de `xdm:countryCode`, é um campo de forma livre que pode ter o nome do país em qualquer idioma. |
 | `accountBillingAddress.postalCode` | Código postal | CEP do endereço | String | O código postal da localização do endereço de cobrança. Os códigos postais não estão disponíveis para todos os países. Em alguns países, contém apenas parte do código postal. |
-| `accountBillingAddress.region` | Região  | Região do endereço | String | A parte da região, cidade ou distrito do endereço para cobrança. |
+| `accountBillingAddress.region` | Região | Região do endereço | String | A parte da região, cidade ou distrito do endereço para cobrança. |
 | `accountBillingAddress.state` | Estado | Estado | String | O nome do estado do endereço para cobrança. É um campo de forma livre. |
 | `accountBillingAddress.street1` | Folha 1 | Folha 1 | String | Informações no nível da rua principal do endereço de cobrança, que normalmente incluem o número do apartamento, o número da rua e o nome da rua. |
 | `accountName` | Nome | Nome | String | **Campo obrigatório** <br/>Nome da empresa. São permitidos até 255 caracteres neste campo. |
@@ -81,7 +84,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
