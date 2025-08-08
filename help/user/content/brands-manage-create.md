@@ -7,7 +7,8 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 6%
@@ -71,7 +72,7 @@ Você pode definir qualquer marca publicada (_Live_) como a marca padrão. Na pl
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="Crie sua marca"
->abstract="Insira o nome e faça upload do arquivo de diretrizes da marca. A ferramenta extrai automaticamente os principais detalhes, facilitando a manutenção da identidade da sua marca."
+>abstract="Insira o nome e faça upload do arquivo de diretrizes da marca. A ferramenta extrairá automaticamente os principais detalhes, facilitando a manutenção da identidade da marca."
 
 Para criar e definir as diretrizes de marca, você pode inserir os detalhes ou fazer upload dos documentos de diretrizes de marca para usar na extração automática.
 

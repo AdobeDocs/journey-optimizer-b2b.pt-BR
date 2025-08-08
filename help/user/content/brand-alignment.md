@@ -1,5 +1,5 @@
 ---
-title: Pontuação de alinhamento da marca
+title: Classificação de alinhamento da marca
 description: Saiba como criar, validar e gerenciar conteúdo na marca usando uma pontuação de alinhamento de marca.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -7,14 +7,15 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
-# Pontuação de alinhamento da marca {#brand-score}
+# Classificação de alinhamento da marca {#brand-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -24,7 +25,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Pontuação de alinhamento da marca"
->abstract="A pontuação do alinhamento da marca mede o desempenho do conteúdo em seguir as diretrizes da marca, garantindo a consistência nas cores, fontes, logotipo, imagem e estilo de escrita."
+>abstract="A pontuação de alinhamento da marca mede o quanto o conteúdo segue as diretrizes da marca, garantindo consistência nas cores, fontes, logotipo, imagem e estilo de escrita."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

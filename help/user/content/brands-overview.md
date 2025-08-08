@@ -7,24 +7,25 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# Usar marcas para geração e consistência de conteúdo {#brands}
+# Use marcas para geração de conteúdo e consistência {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Introdução a marcas"
->abstract="Crie e personalize suas próprias marcas para definir sua identidade visual e verbal exclusiva, facilitando a geração de conteúdo que corresponda ao estilo e à voz da sua marca."
+>abstract="Crie e personalize suas próprias marcas para definir uma identidade visual e verbal única, além de facilitar a geração de conteúdo que corresponda ao estilo e à voz da marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="Selecione sua marca"
->abstract="Escolha sua marca para garantir que todo o conteúdo gerado por IA seja personalizado para se alinhar às especificações e diretrizes da sua marca."
+>abstract="Escolha sua marca para garantir que todo o conteúdo gerado por IA seja personalizado para se alinhar às suas especificações e diretrizes."
 
 As marcas ajudam a definir a sua _identidade de marca_ e desempenham um papel crucial para garantir uma criação de conteúdo consistente e eficaz que representa com precisão a identidade, os valores e as mensagens da sua marca. Ao aderir a estilos de marca bem definidos, as organizações podem manter uma presença de marca coesa e reconhecível em todos os canais e pontos de contato e fortalecer o reconhecimento, a confiança e a fidelidade de suas marcas entre os públicos-alvo.
 
@@ -99,4 +100,3 @@ Os administradores de produtos podem habilitar o acesso aos recursos de gerencia
    * Clique em **[!UICONTROL Salvar]** para aplicar as alterações.
 
 >[!ENDSHADEBOX]
-
