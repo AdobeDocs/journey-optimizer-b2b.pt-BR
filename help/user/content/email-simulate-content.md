@@ -5,14 +5,19 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 5%
 
 ---
 
-# Pré-visualizar e testar o conteúdo do email
+# Pré-visualizar e testar o conteúdo do email {#preview-simulate}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_email_preview_simulate"
+>title="Verificar como o conteúdo está sendo renderizado"
+>abstract="Após o conteúdo ser definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
 Use o recurso _Simular conteúdo_ para visualizar o conteúdo do email e enviar entregas de teste para destinatários específicos. Os campos de email necessários devem ser definidos, incluindo _[!UICONTROL Do nome]_, _[!UICONTROL Do endereço]_, _[!UICONTROL Responder para endereço]_ e _[!UICONTROL Linha de assunto]_, para acessar os recursos de visualização e teste.
 
