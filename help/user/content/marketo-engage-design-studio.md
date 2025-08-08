@@ -4,9 +4,9 @@ description: Saiba mais sobre como usar a integração de gerenciamento de ativo
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -280,7 +280,7 @@ Há vários métodos para adicionar um ativo de imagem à tela visual:
 
 * Arraste e solte uma miniatura de imagem da navegação à esquerda.
 
-* Adicione um componente de imagem à tela e clique em **[!UICONTROL Procurar]** para abrir a caixa de diálogo _[!UICONTROL Selecionar ativo da Adobe Marketo Engage]_.
+* Adicione um componente de imagem à tela e clique em **[!UICONTROL Marketo Engage Assets]** no componente para abrir a caixa de diálogo _[!UICONTROL Selecionar ativo da Adobe Marketo Engage]_.
 
   ![Use os filtros e o campo de pesquisa para localizar o ativo necessário](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

@@ -1,20 +1,20 @@
 ---
 title: Criação de conteúdo - navegação
 description: Seção reutilizada sobre o uso da árvore de navegação para criação de conteúdo
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # Criação de conteúdo - navegação
 
-Conforme você trabalha com o conteúdo no designer visual, pode acessar as camadas/containers e elementos usando a árvore _Navegação_. Clique no ícone _Navegação_ para exibir a árvore à esquerda da tela.
+Conforme você trabalha com o conteúdo no espaço de design visual, pode acessar os componentes, as colunas e os elementos de conteúdo usando a árvore de navegação. Clique no ícone da _[!UICONTROL Árvore de navegação]_ ( ![Ícone da árvore de navegação](../assets/do-not-localize/icon-navigation-tree.svg) ) à esquerda para exibir a árvore.
 
 ![Acessar as camadas de conteúdo](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-O exemplo a seguir descreve as etapas para ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura composto por colunas.
+O exemplo a seguir descreve as etapas para ajustar o preenchimento e o alinhamento vertical dentro de um componente de estrutura com colunas.
 
 1. Selecione a coluna no componente de estrutura diretamente na tela ou usando a _Árvore de navegação_ exibida à esquerda.
 

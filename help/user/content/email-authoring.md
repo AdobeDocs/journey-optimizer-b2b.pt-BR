@@ -4,16 +4,16 @@ description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 14%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
 # Criação de mensagens de email
 
-Depois de &lbrack;adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada&rbrack;(./add-email.md), você pode definir o conteúdo da mensagem de email.
+Depois de [adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
@@ -34,16 +34,6 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 >Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa, para elevar seu conteúdo ao próximo nível. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
 
 ## Criar email do zero {#design-from-scratch}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout da página de destino. Arraste e solte um componente de **Estrutura** na tela para começar a criação do conteúdo da página de destino."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="Sobre os componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados de conteúdo vazios que você pode usar para criar o layout de uma página de destino."
 
 Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
 
@@ -83,16 +73,6 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 > Os modelos salvos podem ter configurações de governança (bloqueio de conteúdo) aplicadas a um ou mais componentes. O designer visual fornece diretrizes sobre componentes bloqueados quando você [cria um email a partir de um modelo controlado](./email-authoring-governance.md).
 
 ## Adicionar estrutura e conteúdo {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Adicionar componentes da estrutura"
->abstract="Os componentes de estrutura definem o layout do email. Arraste e solte um componente de **Estrutura** na tela para iniciar a criação do conteúdo de email."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Sobre os componentes de conteúdo"
->abstract="Componentes de conteúdo são espaços reservados de conteúdo vazios que podem ser usados para criar o layout de um email."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -159,11 +139,6 @@ No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design de email,
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
 
 ## Verificar e testar o email {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="Verificar como o conteúdo está sendo renderizado"
->abstract="Após o conteúdo ser definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
 
 Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para visualizá-la, enviar provas e revisar a renderização nas taxas de proporção do desktop e dos dispositivos móveis. Se você inseriu conteúdo personalizado, é possível visualizar como esse conteúdo é exibido na mensagem usando os dados do perfil de teste.
 

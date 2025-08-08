@@ -1,7 +1,7 @@
 ---
 title: Criação de conteúdo - Componentes
 description: Seção reutilizada sobre o uso de componentes e elementos de conteúdo para a criação de conteúdo
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    Cada tamanho de coluna não pode ser menor que 10% da largura total do componente de estrutura. Somente colunas vazias podem ser removidas.
 
-1. Expanda a seção **[!UICONTROL Conteúdo]** e adicione quantos elementos forem necessários em um ou mais componentes da estrutura.
+1. Expanda a seção **[!UICONTROL Conteúdo]** e adicione quantos componentes de conteúdo forem necessários em um ou mais componentes de estrutura.
 
    ![Arraste um elemento de conteúdo para a tela e ajuste as configurações](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--

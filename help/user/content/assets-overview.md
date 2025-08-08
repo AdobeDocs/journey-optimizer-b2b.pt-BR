@@ -4,10 +4,10 @@ description: Saiba mais sobre o gerenciamento de ativos no Journey Optimizer B2B
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Atualmente, só é possível usar imagens do Adobe Experience Manager Assets no 
 
 Use ativos ao criar emails, modelos de email e fragmentos visuais. O editor de conteúdo visual fornece acesso às imagens nos repositórios de ativos conectados. Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service junto com a versão padrão do Adobe Marketo Engage Design Studio, poderá escolher ativos de imagem de qualquer uma destas fontes. Também é possível fazer upload de um ativo de imagem, o que o coloca no espaço de trabalho do Journey Optimizer B2B Edition do repositório conectado do Marketo Engage Design Studio.
 
-Você pode escolher a fonte da imagem ao editar as configurações de um componente de imagem ou diretamente na tela.
+Você pode escolher a origem da imagem ao editar as configurações de um componente de imagem ou diretamente na tela:
 
 * **_Configurações do componente de imagem_**: ao selecionar um componente de imagem no designer visual, é possível exibir e editar as configurações no painel direito. Para adicionar ou alterar o arquivo de imagem exibido no componente, escolha o tipo de origem e selecione um arquivo de imagem.
 
@@ -61,7 +61,7 @@ Você pode escolher a fonte da imagem ao editar as configurações de um compone
 
   ![Use a barra de ferramentas para escolher uma fonte e selecionar um arquivo de imagem para o componente de imagem](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-É possível adicionar um ativo de imagem ao criar seu conteúdo, dependendo da origem do ativo de imagem.
+É possível adicionar um ativo de imagem ao criar seu conteúdo, dependendo da fonte do ativo de imagem. Você também pode escolher um ativo de imagem nas configurações de fundo de um componente de estrutura.
 
 >[!BEGINTABS]
 
