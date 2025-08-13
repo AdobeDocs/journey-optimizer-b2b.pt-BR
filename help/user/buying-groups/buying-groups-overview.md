@@ -230,4 +230,4 @@ A pontuação final de engajamento é calculada aplicando o peso de cada uma das
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
