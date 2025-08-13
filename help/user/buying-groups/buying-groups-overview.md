@@ -4,10 +4,10 @@ description: Saiba como os grupos de compra no Journey Optimizer B2B Edition pod
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,12 @@ Por exemplo, se houver quatro funções em um grupo de compra e três delas fore
 
 A pontuação de integridade é recalculada toda vez que um grupo de compra é criado ou atualizado.
 
-### Pontuação de engajamento do grupo de compra
+### Pontuação de engajamento do grupo de compra {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Pontuação de engajamento"
+>abstract="As pontuações de engajamento determinam o nível de engajamento dos membros do grupo de compra."
 
 A pontuação de engajamento do grupo de compra é um número para determinar o engajamento dos membros de um grupo de compra com base nas atividades que realizam.
 
@@ -158,9 +163,14 @@ A pontuação de engajamento do grupo de compra é um número para determinar o 
 
 +++
 
-#### Peso
+#### Peso {#engagement-score-weighting}
 
-Os usuários podem atribuir _peso_ a cada função no modelo de funções e alocar pesos diferentes a uma função para calcular a pontuação de engajamento.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="Ponderação de pontuação de engajamento"
+>abstract="Use a ponderação para personalizar o cálculo da pontuação de envolvimento."
+
+Os usuários podem atribuir _ponderação_ a cada função no [modelo de funções](./buying-groups-role-templates.md) para alocar pesos diferentes para uma função.
 
 ![Definir o peso para cada função no modelo de funções](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -220,4 +230,4 @@ A pontuação final de engajamento é calculada aplicando o peso de cada uma das
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
