@@ -3,10 +3,10 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 92%
 
 ---
 
@@ -14,15 +14,35 @@ ht-degree: 100%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
-<!-- hold for 2025.8 release 
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## Notas da versão 2025.8
+
+**Data de implantação**: quarta-feira, 26 de agosto de 2025
+
+Esta versão inclui os seguintes novos recursos e melhorias:
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Recurso | Filtros de pontuação de envolvimento de pessoas para modelos de funções e jornadas | Agora você pode usar a _Pontuação de engajamento da pessoa_ como filtro nos modelos de Funções usados para criar grupos de compra e nos nós de jornada de caminho dividido. |
+| Recurso | Configuração de funções personalizadas para grupos de compra | Agora você tem a flexibilidade de configurar funções personalizadas para grupos de compra, o que permite definir as funções específicas para seus casos de uso. |
+| Recurso | Configuração de ponderação da pontuação de engajamento | Agora você pode atribuir pesos às atividades que influenciam a pontuação de engajamento do grupo de compras. Esse recurso inclui definir seus próprios modelos de pontuação personalizados e alterar o modelo ativo que influencia os cálculos de pontuação de engajamento. |
+| Aprimoramento | Conteúdo condicional para fragmentos | Agora você pode usar as ferramentas de conteúdo condicional para o design visual de fragmentos. |
+| Aprimoramento | Atualizações de pontuação do engajamento | A lógica de pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, você pode trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compras. |
+| Aprimoramento | Observabilidade da jornada ativa - contas em cada nó | Para uma jornada de conta ativa, você pode acessar uma lista das contas que atingiram cada nó de conta na jornada. |
+
+>[!NOTE]
+>
+>As alterações de versão começam a ser implantadas em 26 de agosto de 2025, com uma implantação em fases de cada recurso. As datas de lançamento dos recursos e aprimoramentos estão sujeitas a alterações.
 
 ## Notas da versão 2025.6
 
