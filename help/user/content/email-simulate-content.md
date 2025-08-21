@@ -1,5 +1,5 @@
 ---
-title: Pré-visualizar e testar o conteúdo do email
+title: Visualizar e testar o conteúdo do email
 description: Saiba como pré-visualizar e testar seu conteúdo de email para garantir que ele esteja livre de erros nas configurações de conteúdo e personalização.
 feature: Email Authoring
 level: Beginner
@@ -8,11 +8,11 @@ exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Pré-visualizar e testar o conteúdo do email {#preview-simulate}
+# Visualizar e testar o conteúdo do email {#preview-simulate}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"

@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
 source-wordcount: '2170'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -167,8 +167,8 @@ A pontuação de engajamento do grupo de compra é um número para determinar o 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Ponderação de pontuação de engajamento"
->abstract="Use a ponderação para personalizar o cálculo da pontuação de envolvimento."
+>title="Ponderação da pontuação de engajamento"
+>abstract="Use a ponderação para personalizar o cálculo da pontuação de engajamento."
 
 Os usuários podem atribuir _ponderação_ a cada função no [modelo de funções](./buying-groups-role-templates.md) para alocar pesos diferentes para uma função.
 
@@ -230,4 +230,4 @@ A pontuação final de engajamento é calculada aplicando o peso de cada uma das
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

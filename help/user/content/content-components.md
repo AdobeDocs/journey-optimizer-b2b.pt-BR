@@ -3,10 +3,11 @@ title: Componentes do conteúdo
 description: Saiba como usar componentes de conteúdo para criar conteúdo de email, página de aterrissagem e fragmento visual.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '2841'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -14,23 +15,23 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
->title="Sobre os componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar um email."
+>title="Sobre os componentes do conteúdo"
+>abstract="Componentes do conteúdo são espaços reservados vazios do conteúdo que podem ser usados para criar um email."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
->title="Sobre os componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que podem ser usados para criar uma página de aterrissagem."
+>title="Sobre os componentes do conteúdo"
+>abstract="Componentes do conteúdo são espaços reservados vazios do conteúdo que podem ser usados para criar uma página de destino."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
->title="Sobre os componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que você pode usar para criar um fragmento."
+>title="Sobre os componentes do conteúdo"
+>abstract="Componentes do conteúdo são espaços reservados vazios do conteúdo que podem ser usados para criar um fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
->title="Sobre os componentes de conteúdo"
->abstract="Os componentes de conteúdo são espaços reservados vazios para o conteúdo que podem ser usados para criar um modelo."
+>title="Sobre os componentes do conteúdo"
+>abstract="Componentes do conteúdo são espaços reservados vazios do conteúdo que podem ser usados para criar um modelo."
 
 Ao criar conteúdo para emails, páginas de aterrissagem, modelos e fragmentos visuais, use os [!UICONTROL Componentes de conteúdo] para adicionar elementos de design visual. É possível adicionar quantos componentes de conteúdo forem necessários dentro de um ou mais componentes da estrutura, que definem o layout.
 
@@ -243,7 +244,7 @@ Por exemplo, adicione um componente _[!UICONTROL Contêiner]_ e adicione um comp
 
 ![Estilos de componentes de conteúdo do contêiner](./assets/content-components-container.png){width="600" zoomable="yes"}
 
-+++Plano de fundo
++++Histórico
 
 {{styles-background}}
 
@@ -319,7 +320,7 @@ Na guia _[!UICONTROL Configurações]_, use as opções **[!UICONTROL Link]** pa
 
 Personalize o estilo do botão na guia **[!UICONTROL Estilos]**.
 
-+++Plano de fundo
++++Histórico
 
 {{styles-background}}
 
@@ -343,7 +344,7 @@ Personalize o estilo do botão na guia **[!UICONTROL Estilos]**.
 
 +++
 
-+++Alinhar
++++Alinhamento
 
 +++
 
@@ -375,7 +376,7 @@ Use o componente de Texto para inserir um bloco de texto no conteúdo. Quando o 
 
 Personalize o estilo do componente de texto na guia **[!UICONTROL Estilos]**.
 
-+++Plano de fundo
++++Histórico
 
 {{styles-background}}
 
@@ -425,7 +426,7 @@ Adicione um componente _Divider_ para incorporar uma divisão linear entre seç�
 
 
 
-+++Plano de fundo
++++Histórico
 
 {{styles-background}}
 
@@ -441,7 +442,7 @@ Adicione um componente _Divider_ para incorporar uma divisão linear entre seç�
 
 +++
 
-+++Alinhar
++++Alinhamento
 
 {{styles-alignment-h}}
 
@@ -481,7 +482,7 @@ Use o componente HTML para adicionar partes do seu HTML existente. Esse componen
 
 Para um componente do HTML, você pode definir os seguintes estilos para todo o componente do HTML no painel direito:
 
-+++Plano de fundo
++++Histórico
 
 {{styles-background}}
 
@@ -499,7 +500,7 @@ Para um componente do HTML, você pode definir os seguintes estilos para todo o 
 
 +++
 
-+++Alinhar
++++Alinhamento
 
 {{styles-alignment-h-v}}
 
@@ -617,7 +618,7 @@ Na guia _[!UICONTROL Configurações]_, use as opções **[!UICONTROL Link]** pa
 
 Defina os estilos do componente de Imagem no painel direito.
 
-+++Plano de fundo
++++Histórico
 
 {{styles-background}}
 
@@ -635,7 +636,7 @@ Defina os estilos do componente de Imagem no painel direito.
 
 +++
 
-+++Alinhar
++++Alinhamento
 
 {{styles-alignment-h}}
 
@@ -683,7 +684,7 @@ Para definir um tamanho de exibição consistente para todos os elementos gráfi
 
 Você pode definir as seguintes opções de estilo para o componente _Social_:
 
-+++Plano de fundo
++++Histórico
 
 {{styles-background}}
 
@@ -701,7 +702,7 @@ Você pode definir as seguintes opções de estilo para o componente _Social_:
 
 +++
 
-+++Alinhar
++++Alinhamento
 
 {{styles-alignment-h}}
 

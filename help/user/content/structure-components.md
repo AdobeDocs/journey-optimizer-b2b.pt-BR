@@ -3,10 +3,11 @@ title: Componentes da estrutura
 description: Saiba como usar componentes de estrutura para definir o layout do seu conteúdo de email, página de aterrissagem e fragmento visual.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -14,23 +15,23 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
->title="Sobre os componentes de estrutura"
->abstract="Os componentes da estrutura são elementos de layout que podem ser usados para criar a estrutura de um email."
+>title="Sobre os componentes da estrutura"
+>abstract="Componentes da estrutura são elementos do layout que podem ser usados para criar a estrutura de um email."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
->title="Sobre os componentes de estrutura"
->abstract="Os componentes da estrutura são elementos de layout que podem ser usados para criar a estrutura de uma página."
+>title="Sobre os componentes da estrutura"
+>abstract="Componentes da estrutura são elementos do layout que podem ser usados para criar a estrutura de uma página."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
->title="Sobre os componentes de estrutura"
->abstract="Os componentes de estrutura são elementos de layout que podem ser usados para projetar a estrutura de um fragmento."
+>title="Sobre os componentes da estrutura"
+>abstract="Componentes da estrutura são elementos do layout que podem ser usados para criar a estrutura de um fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
->title="Sobre os componentes de estrutura"
->abstract="Os componentes da estrutura são elementos de layout que podem ser usados para criar a estrutura de um modelo."
+>title="Sobre os componentes da estrutura"
+>abstract="Componentes da estrutura são elementos do layout que podem ser usados para criar a estrutura de um modelo."
 
 Use os _Componentes da estrutura_ no espaço de design visual para definir a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, é possível definir rapidamente a forma do layout de conteúdo. Cada componente da estrutura abrange o espaço horizontal e você pode empilhá-los para criar o layout verticalmente. Divida cada componente em colunas para formar cada bloco de conteúdo necessário.
 
@@ -196,7 +197,7 @@ Na tela de desenho, mova o ícone de dimensionamento de coluna para ajustar a la
 
 Com a coluna selecionada na tela de desenho, é possível definir estilos para serem aplicados a essa coluna.
 
-+++Plano de fundo
++++Histórico
 
 * **[!UICONTROL Cor do plano de fundo]** - Marque a caixa de seleção e clique no quadrado de cores para escolher uma cor no seletor. Você pode escolher uma cor inserindo um valor RGB, HSL, HSB ou hexadecimal conhecido. Ou você pode usar o controle deslizante de cores e o campo de cores para selecionar a cor.
 
@@ -216,7 +217,7 @@ Com a coluna selecionada na tela de desenho, é possível definir estilos para s
 
 +++
 
-+++Alinhar
++++Alinhamento
 
 {{styles-alignment-v}}
 
