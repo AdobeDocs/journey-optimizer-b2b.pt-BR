@@ -4,60 +4,60 @@ description: Saiba mais sobre o gerenciamento de ativos no Journey Optimizer B2B
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 94%
+source-wordcount: '871'
+ht-degree: 48%
 
 ---
 
 # Ativos
 
-No Adobe Journey Optimizer B2B Edition, os ativos normalmente são as imagens usadas ao desenvolver conteúdo de suporte para jornadas de conta. É possível usar essas imagens nos emails, modelos de email e fragmentos por meio de um seletor de ativos ou uma interface simples de arrastar e soltar no editor de conteúdo visual.
+No [!DNL Adobe Journey Optimizer B2B Edition], os ativos são normalmente as imagens usadas ao criar conteúdo para dar suporte a jornadas de conta. Você pode usar essas imagens nos emails, modelos de email e fragmentos por meio de um seletor de ativos ou uma interface simples de arrastar e soltar no espaço de design visual.
 
-O Adobe Journey Optimizer B2B Edition oferece a profissionais de marketing acesso a dois tipos de bibliotecas de ativos: Adobe Marketo Engage Design Studio e Adobe Experience Manager Assets as a Cloud Service. Você pode usar somente o Adobe Marketo Engage Design Studio ou usar ambas as bibliotecas configuradas ao mesmo tempo (com base em sua licença do AEM Assets).
+O [!DNL Journey Optimizer B2B Edition] oferece aos profissionais de marketing acesso a dois tipos de bibliotecas de ativos: [!DNL Adobe Marketo Engage] [!DNL Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service]. Você pode usar somente o Adobe Marketo Engage Design Studio ou ambas as bibliotecas configuradas ao mesmo tempo (com base na licença [!DNL Experience Manager Assets] que você tem).
 
 ## Gerenciamento de ativos
 
-Se você receber o direito ao Adobe Experience Manager as a Cloud Service, também receberá acesso aos repositórios do Marketo Engage Design Studio e do Adobe Experience Manager Assets as a Cloud Service se sua conta de usuário tiver as permissões necessárias. Esses repositórios são separados e não estão sincronizados. É possível usar imagens de qualquer fonte.
+Se você estiver provisionado com [!DNL Adobe Experience Manager as a Cloud Services], terá acesso aos repositórios para [!DNL Marketo Engage Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service] quando sua conta de usuário tiver as permissões necessárias. Esses repositórios são separados e não estão sincronizados. É possível usar imagens de qualquer fonte.
 
 ### Ativos do Adobe Marketo Engage
 
-O repositório de ativos do Adobe Marketo Engage Design Studio é fornecido por padrão com cada assinatura do Journey Optimizer B2B Edition. Isso significa que você tem acesso a qualquer ativo de imagem armazenado no Adobe Marketo Engage ([!UICONTROL Design Studio] > [!UICONTROL Imagens e arquivos]). É possível usar esse repositório como a biblioteca de ativos local, garantindo acesso a funções de upload e download de ativos. Você também pode usar esses ativos no conteúdo da jornada.
+O repositório de ativos [!DNL Adobe Marketo Engage Design Studio] é fornecido por padrão com cada assinatura [!DNL Journey Optimizer B2B Edition]. Isso significa que você tem acesso a qualquer um dos ativos de imagem armazenados no [!DNL Adobe Marketo Engage] ([!UICONTROL Design Studio] > [!UICONTROL Imagens e Arquivos]). É possível usar esse repositório como a biblioteca de ativos local, garantindo acesso a funções de upload e download de ativos. Você também pode usar esses ativos no conteúdo da jornada.
 
-Algumas medidas de proteção integradas impedem a edição dos ativos do Marketo Engage no Journey Optimizer B2B Edition, assim como operações de exclusão e movimentação. Essas proteções garantem que os ativos de origem (Marketo Engage Design Studio) sejam mantidos enquanto permitem a leitura e reutilização contínuas no Journey Optimizer B2B Edition.
+Existem medidas de proteção internas que impedem a edição de [!DNL Marketo Engage] ativos de [!DNL Journey Optimizer B2B Edition] e excluem e movem operações. Essas proteções garantem que os ativos de origem (Marketo Engage Design Studio) sejam mantidos, permitindo leitura e reutilização perfeitas no [!DNL Journey Optimizer B2B Edition].
 
 Formatos de arquivo compatíveis: JPG, JPEG, GIF, PNG, EPS, SVG e RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 
-Reúna fluxos de trabalho de marketing e criação usando o Adobe Experience Manager Assets. Ele é integrado nativamente ao Adobe Journey Optimizer B2B Edition, garantindo fácil acesso ao Assets as a Cloud Service para descobrir e usar ativos digitais. Ele fornece acesso ao repositório de ativos, os quais podem ser usados para preencher mensagens.
+Junte os fluxos de trabalho de marketing e de criação usando o [!DNL Adobe Experience Manager Assets]. Ele é integrado nativamente ao [!DNL Journey Optimizer B2B Edition], para que você possa acessar facilmente o Assets as a Cloud Service para descobrir e usar ativos digitais. Ele fornece acesso ao repositório de ativos, os quais podem ser usados para preencher mensagens.
 
-O Adobe Journey Optimizer B2B Edition pode se conectar ao Adobe Experience Manager Assets as a Cloud Service para um gerenciamento de ativos centralizado que estende seu sistema de criação e unifica ativos digitais para a entrega de experiências. O Adobe Experience Manager Assets as a Cloud Service oferece uma solução em nuvem fácil de usar para operações eficientes de gerenciamento de ativos digitais e mídia dinâmica. Ele incorpora recursos avançados com perfeição, incluindo inteligência artificial e aprendizado de máquina.
+O [!DNL Adobe Journey Optimizer B2B Edition] pode se conectar ao [!DNL Adobe Experience Manager Assets as a Cloud Service] para obter um gerenciamento centralizado de ativos que estende seu sistema criativo e unifica ativos digitais para obter entrega de experiência. O [!DNL Adobe Experience Manager Assets as a Cloud Service] oferece uma solução de nuvem fácil de usar para operações eficientes de Gerenciamento de ativos digitais e Mídia dinâmica. Ele incorpora recursos avançados com perfeição, incluindo inteligência artificial e aprendizado de máquina.
 
 Saiba mais na [documentação do Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 
-Acesse o Adobe Experience Manager Assets diretamente no Journey Optimizer B2B Edition a partir do item **[!UICONTROL Experience Manager Assets]** na navegação à esquerda do design de conteúdo. Também é possível acessar ativos e pastas ao criar conteúdos de email, modelo de email e fragmento visual.
+Acesse [!DNL Adobe Experience Manager Assets] diretamente em [!DNL Journey Optimizer B2B Edition] a partir do item **[!UICONTROL Experience Manager Assets]** na navegação à esquerda do design de conteúdo. Também é possível acessar ativos e pastas ao criar conteúdos de email, modelo de email e fragmento visual.
 
 Atualmente, só é possível usar imagens do Adobe Experience Manager Assets no Adobe Journey Optimizer B2B Edition.
 
 ## Usar ativos para criação de conteúdo
 
-Use ativos ao criar emails, modelos de email e fragmentos visuais. O editor de conteúdo visual fornece acesso às imagens nos repositórios de ativos conectados. Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service junto com a versão padrão do Adobe Marketo Engage Design Studio, poderá escolher ativos de imagem de qualquer uma destas fontes. Também é possível fazer upload de um ativo de imagem, o que o coloca no espaço de trabalho do Journey Optimizer B2B Edition do repositório conectado do Marketo Engage Design Studio.
+Use ativos ao criar emails, modelos de email e fragmentos visuais. O editor de conteúdo visual fornece acesso às imagens nos repositórios de ativos conectados. Se você tiver uma assinatura do Experience Manager Assets as a Cloud Service junto com a versão padrão do Adobe Marketo Engage Design Studio, poderá escolher ativos de imagem de qualquer uma destas fontes. Você também pode carregar um ativo de imagem, que o coloca no espaço de trabalho [!DNL Journey Optimizer B2B Edition] do repositório [!DNL Marketo Engage Design Studio] conectado.
 
 Você pode escolher a origem da imagem ao editar as configurações de um componente de imagem ou diretamente na tela:
 
-* **_Configurações do componente de imagem_**: ao selecionar um componente de imagem no designer visual, é possível exibir e editar as configurações no painel direito. Para adicionar ou alterar o arquivo de imagem exibido no componente, escolha o tipo de origem e selecione um arquivo de imagem.
+* **_Configurações do componente de imagem_** - Quando um componente de imagem está selecionado no espaço de design visual, você pode exibir e editar as configurações no painel direito. Para adicionar ou alterar o arquivo de imagem exibido no componente, escolha o tipo de origem e selecione um arquivo de imagem.
 
   ![Editar as configurações do componente de imagem no painel direito](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Componente vazio_**: ao adicionar um componente de imagem no designer visual, ele estará vazio e você poderá escolher com facilidade uma fonte e selecionar um arquivo de imagem.
+* **_Componente vazio_** - Quando você adiciona um componente de imagem no espaço de design visual, ele fica vazio e fornece acesso fácil para escolher uma fonte e selecionar um arquivo de imagem.
 
   ![Escolha uma fonte e selecione um arquivo de imagem para o componente de imagem vazio](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Barra de ferramentas do componente de imagem_**: ao selecionar um componente de imagem no designer visual, a barra de ferramentas permite escolher com facilidade uma fonte e selecionar um arquivo de imagem.
+* **_Barra de ferramentas do componente de Imagem_** - Quando você tem um componente de imagem selecionado no espaço de design visual, a barra de ferramentas fornece acesso fácil para escolher uma fonte e selecionar o arquivo de imagem.
 
   ![Use a barra de ferramentas para escolher uma fonte e selecionar um arquivo de imagem para o componente de imagem](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
@@ -67,13 +67,13 @@ Você pode escolher a origem da imagem ao editar as configurações de um compon
 
 >[!TAB Marketo Engage Assets]
 
-Clique em **[!UICONTROL Marketo Engage Assets]** para abrir o seletor de ativos, onde é possível escolher uma imagem de um espaço de trabalho do Marketo Engage ou do Journey Optimizer B2B Edition.
+Clique em **[!UICONTROL Marketo Engage Assets]** para abrir o seletor de ativos, onde você pode escolher uma imagem de um espaço de trabalho [!DNL Marketo Engage] ou do Journey Optimizer B2B edition.
 
 ![Selecione um ativo de imagem do espaço de trabalho](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
 
 É possível usar a pesquisa e filtros para localizar o ativo de imagem desejado. Selecione o ativo e clique em **[!UICONTROL Selecionar]** para usá-lo no componente de imagem.
 
-Para obter informações mais detalhadas sobre o uso de ativos de imagem do Marketo Engage, consulte [Usar ativos em seu conteúdo](./marketo-engage-design-studio.md#use-assets-in-your-content).
+Para obter informações mais detalhadas sobre o uso de [!DNL Marketo Engage] ativos de imagem, consulte [Usar ativos no seu conteúdo](./marketo-engage-design-studio.md#use-assets-in-your-content).
 
 >[!TAB Experience Manager Assets]
 
@@ -83,7 +83,7 @@ Clique em **[!UICONTROL Experience Manager Assets]** para abrir o seletor de ati
 
 É possível usar a pesquisa e filtros para localizar o ativo de imagem desejado. Selecione o ativo e clique em **[!UICONTROL Selecionar]** para usá-lo no componente de imagem.
 
-Para obter informações mais detalhadas sobre como usar arquivos de imagem do Experience Manager Assets, consulte [Acessar imagens do AEM Assets](./aem-assets.md#access-aem-assets-images).
+Para obter informações mais detalhadas sobre como usar arquivos de imagem do [!DNL Experience Manager Assets], consulte [Acessar imagens do AEM Assets](./aem-assets.md#access-aem-assets-images).
 
 >[!TAB Importar mídia]
 
@@ -91,6 +91,6 @@ Clique em **[!UICONTROL Importar mídia]** para selecionar um arquivo de imagem 
 
 ![Selecione seu próprio arquivo de imagem para importar como um ativo](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"}
 
-Depois de arrastar e soltar o arquivo ou selecioná-lo no sistema de arquivos, clique em **[!UICONTROL Importar]**. O ativo importado é armazenado no espaço de trabalho do Journey Optimizer B2B Edition do repositório do Adobe Marketo Engage Design Studio.
+Depois de arrastar e soltar o arquivo ou selecioná-lo no sistema de arquivos, clique em **[!UICONTROL Importar]**. O ativo importado é armazenado no espaço de trabalho [!DNL Journey Optimizer B2B Edition] do repositório [!DNL Adobe Marketo Engage Design Studio].
 
 >[!ENDTABS]
