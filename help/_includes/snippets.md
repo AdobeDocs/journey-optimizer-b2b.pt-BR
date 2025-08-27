@@ -1,10 +1,10 @@
 ---
 title: Blocos de conteúdo
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 0%
+source-wordcount: '2375'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->As licenças do AEM Assets as a Cloud Service e do Dynamic Media são pré-requisitos para a integração. Verifique se a [Mídia dinâmica com API aberta](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} está habilitada. A integração é limitada a repositórios da _Camada de entrega_. Se você usa a _camada do Autor_ e deseja convertê-la, contate o Suporte da Adobe Experience Manager.<br/>
->&#x200B;>Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition ao projetar conteúdo visual.
+>As licenças do AEM Assets as a Cloud Service e do Dynamic Media são pré-requisitos para a integração. Verifique se a [Mídia dinâmica com API aberta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} está habilitada. A integração é limitada a repositórios da _Camada de entrega_. Se você usa a _camada do Autor_ e deseja convertê-la, contate o Suporte da Adobe Experience Manager.<br/>
+>>Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition ao projetar conteúdo visual.
 
 ## Criação de conteúdo - Componentes - etapa de estruturas {#structures-step}
 
@@ -262,3 +262,16 @@ Na caixa de diálogo _[!UICONTROL Carregar imagem]_, arraste e solte um arquivo 
 Os nomes de arquivo das imagens selecionadas são exibidos na caixa de diálogo. Os nomes dos arquivos do ativo devem ser exclusivos (em várias pastas). Se um arquivo com o nome já existir, uma mensagem será exibida. Os nomes podem ter no máximo 100 caracteres e não podem conter caracteres especiais (como `;`, `:`, `\` e `|`).
 
 Clique em **[!UICONTROL Importar]**.
+
+## Atividades de pontuação de engajamento {#engagement-activities}
+
+| Nome da atividade | Descrição | Tipo de engajamento | Contagem máxima de frequência diária | Peso de atividade do modelo padrão |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL Participar do evento] | Um membro participou de um evento | Evento | 20 | 60 |
+| [!UICONTROL Email clicado] | Um membro clica em um link em um email | Email | 20 | 30 |
+| [!UICONTROL Email Aberto] | Um membro abre um email | Email | 20 | 30 |
+| [!UICONTROL Formulário preenchido] | Um membro preenche e envia um formulário em uma página da Web | Web | 20 | 40 |
+| [!UICONTROL Momento interessante] | Um membro tem um momento interessante | Preparado | 20 | 60 |
+| [!UICONTROL Cliques em links] | Um membro clica em um link em uma página da Web | Web | 20 | 40 |
+| [!UICONTROL Exibições de página] | Um membro exibe uma página da Web | Web | 20 | 40 |
+| [!UICONTROL Inscrever-se no Evento] | Um membro registrado para um evento | Evento | 20 | 60 |

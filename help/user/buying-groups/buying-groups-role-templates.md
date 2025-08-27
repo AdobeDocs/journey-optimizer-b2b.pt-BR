@@ -4,16 +4,16 @@ description: Saiba mais sobre como definir um modelo de função a ser usado com
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 5%
 
 ---
 
 # Modelos de função do grupo de compra
 
-Em um mercado B2B, as decisões de compra geralmente são tomadas por vários indivíduos. Essas pessoas participam do processo de tomada de decisões de acordo com sua função na organização. Crie modelos de função do Grupo de compras que contenham essas definições de função de acordo com cada tipo de oferta de produto ou caso de uso de conta.
+Em um mercado B2B, as decisões de compra geralmente são tomadas por vários indivíduos. Essas pessoas participam do processo de tomada de decisões de acordo com sua função na organização. Crie modelos de função do Grupo de compras que contenham um grupo de definições de função de acordo com cada tipo de oferta de produto ou caso de uso de conta.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -23,7 +23,7 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
 1. Na página _[!UICONTROL Grupos de compras]_, selecione a guia **[!UICONTROL Modelos de Funções]**.
 
-   ![guia Modelos de Funções](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![guia Modelos de Funções](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    A guia fornece uma lista de inventário de todos os modelos de funções existentes e exibe as seguintes informações no formato da coluna:
 
@@ -56,13 +56,13 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
 ### Adicionar as funções de modelo
 
-Após criar o modelo, ele será aberto no espaço de trabalho e você será solicitado a definir as funções. O primeiro cartão de função é exibido por padrão.
+Após criar o modelo, ele será aberto no espaço de trabalho e você receberá uma solicitação para adicionar as funções. O primeiro cartão de função é exibido por padrão.
 
 Cada função definida para o modelo usa um conjunto de filtros, ou _condições_, para determinar os membros atribuídos à função. Use os seguintes tipos de filtro para definir as condições para uma função:
 
 | Tipo | Condição |
 | ---- | --------- |
-| Atributos da pessoa | <li>Endereço de email <li>Email inválido <li>Email suspenso <li>Número de fax <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Segundo nome <li>Número do celular <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
+| Atributos da pessoa | <li>Endereço de email <li>Email inválido <li>Email suspenso <li>Número de fax <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Segundo nome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
 | Filtros especiais | <li>Membro da lista <li>Membro do programa |
 | Dados de intenção | Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave<br/>[Saiba mais sobre dados de intenção](../admin/intent-data.md). |
 
@@ -70,7 +70,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
    * Escolha a **[!UICONTROL Função do grupo de compra]** na lista.
 
-     Na versão atual, há seis funções: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
+     Há seis funções padrão: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`. A lista também inclui quaisquer [funções personalizadas definidas na lista _Funções_](./default-custom-roles.md#custom-roles).
 
      ![Lista de funções do grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

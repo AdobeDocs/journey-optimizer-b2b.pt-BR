@@ -4,16 +4,16 @@ description: Saiba como criar fragmentos de conteúdo que podem ser reutilizados
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 7%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
 # Criação de fragmentos
 
-Depois de [criar um fragmento](./fragments.md#create-fragments), use o editor visual para criar os componentes estruturais e de conteúdo no fragmento.
+Depois de [criar um fragmento](./fragments.md#create-fragments), use o espaço de design visual para criar os componentes de estrutura e conteúdo no fragmento.
 
 ## Adicionar estrutura e conteúdo {#design-fragment}
 
@@ -30,6 +30,12 @@ Depois de [criar um fragmento](./fragments.md#create-fragments), use o editor vi
 ## Personalizar conteúdo
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## Conteúdo condicional
+
+Para adicionar conteúdo condicional que adapta o conteúdo aos perfis direcionados com base em regras, selecione um componente de conteúdo e clique no botão **[!UICONTROL Habilitar conteúdo condicional]** na barra de ferramentas do componente. Quando o fragmento publicado é incluído em uma mensagem de email, as regras condicionais determinam a variante de um componente condicional que é renderizado na mensagem de email.
+
+Para obter mais informações, consulte [_Conteúdo condicional_](./conditional-content.md).
 
 ## Ativar personalização de fragmentos
 

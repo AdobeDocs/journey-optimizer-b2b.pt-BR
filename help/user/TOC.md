@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 95%
+source-wordcount: '309'
+ht-degree: 91%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 95%
       + [Visão geral](./buying-groups/buying-groups-overview.md)
       + [Interesses na solução](./buying-groups/solution-interests.md)
       + [Modelos de função](./buying-groups/buying-groups-role-templates.md)
+      + [Funções padrão e personalizadas](./buying-groups/default-custom-roles.md)
+      + [Pontuações de engajamento](./buying-groups/engagement-scores.md)
       + [Estágios do grupo de compra](./buying-groups/buying-group-stages.md)
       + [Criar grupos de compra](./buying-groups/buying-groups-create.md)
-      + [Exportar lista de contas](./audiences/account-list-export.md)
+      + [Exportar contas](./audiences/account-list-export.md)
       + [Públicos-alvo correspondentes da conta do LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtros de grupo de compra no Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Listas de contas {#account-lists}
@@ -116,5 +118,6 @@ ht-degree: 95%
       + [Configuração de SMS](./admin/configure-channels-sms.md)
    + [Configurar repositórios do AEM Assets](./admin/configure-aem-repositories.md)
    + [Configurar definições de evento da AEP](./admin/configure-aep-events.md)
+   + [Configurar ponderação de pontuação de engajamento](./admin/engagement-score-weighting.md)
    + [Configurações da página de destino](./admin/landing-page-settings.md)
    + [Governança](./admin/governance.md)

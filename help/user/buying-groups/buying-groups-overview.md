@@ -4,10 +4,10 @@ description: Saiba como os grupos de compra no Journey Optimizer B2B Edition pod
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 98%
+source-wordcount: '1193'
+ht-degree: 75%
 
 ---
 
@@ -24,7 +24,7 @@ A conta pode conter um subconjunto de pessoas que compõe o _grupo de compra_. E
 
 ## Componentes principais
 
-Você pode aumentar a eficácia do marketing estabelecendo grupos de compra no Journey Optimizer B2B Edition que identifiquem membros para suas listas de contas de destino com base nas soluções pelas quais suas equipes de vendas são responsáveis por vender. Antes de você e sua equipe de marketing começarem a criar os grupos de compra, verifique se os principais componentes foram definidos. Esses componentes são essenciais para atingir suas metas e objetivos de negócios.
+Você pode aumentar a eficácia do marketing estabelecendo grupos de compras no Journey Optimizer B2B edition que identificam membros para suas listas de contas de destino das soluções pelas quais suas equipes de vendas são responsáveis. Antes de você e sua equipe de marketing começarem a criar os grupos de compra, verifique se os principais componentes foram definidos. Esses componentes são essenciais para atingir suas metas e objetivos de negócios.
 
 | Componente | Finalidade |
 | --------- | ------- |
@@ -41,11 +41,11 @@ Há três maneiras pelas quais os membros são atribuídos ou removidos de um gr
 2. **_Ação de jornada_**: [nós de ação de jornada para associação ao grupo de compra](../journeys/action-nodes.md#add-a-people-based-action) (_Atribuir ao grupo de compra_ ou _Remover do grupo de compra_)
 3. **_Trabalhos do sistema_**: trabalhos de [criação](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) e manutenção de grupo de compras.
 
-Para garantir que a atribuição de membro em um grupo de compra não seja substituída incorretamente, essa lista está na ordem de precedência seguida no sistema para garantir uma atribuição de membro precisa. Por exemplo, quando um usuário de vendas adiciona manualmente um membro ao grupo de compra, ele não deseja que um trabalho de manutenção altere essa adição. Usando a ordem de precedência, os seguintes cenários são aplicados:
+Para evitar a substituição incorreta de uma atribuição de membro em um grupo de compra, essa lista está na ordem de precedência seguida no sistema para garantir uma atribuição de membro precisa. Por exemplo, quando um usuário de vendas adiciona manualmente um membro ao grupo de compra, ele não deseja que um trabalho de manutenção altere essa adição. Usando a ordem de precedência, os seguintes cenários são aplicados:
 
-* Se um usuário atribuir manualmente um membro a um grupo de compra, e isso for seguido por um trabalho de manutenção de grupo de compra que o remove, o trabalho de manutenção **não removerá** esse membro e não poderá substituir a atribuição manual.
-* Se um usuário atribuir manualmente um membro a um grupo de compra, e isso for seguido por um nó de jornada acionado que o remove, a ação do nó **não removerá** esse membro e não poderá substituir a atribuição manual.
-* Se um nó de ação de jornada acionada adicionar um membro a um grupo de compra, e isso for seguido por um trabalho de manutenção de grupo de compra que o remove, o trabalho de manutenção **não removerá** esse membro e não poderá substituir a atribuição de ação de jornada.
+* Se um usuário atribuir manualmente um membro a um grupo de compras e ele for seguido por um trabalho de manutenção de grupo de compras que remove o mesmo membro do grupo de compras, o trabalho de manutenção **não removerá** esse membro e não poderá substituir a atribuição manual.
+* Se um usuário atribuir manualmente um membro a um grupo de compras e ele for seguido por um nó de jornada acionado que remove o mesmo membro do grupo de compras, a ação do nó **não removerá** esse membro e não poderá substituir a atribuição manual.
+* Se um nó de ação de jornada disparada adicionar um membro a um grupo de compras e for seguido por um trabalho de manutenção de grupo de compras que remove o mesmo membro do grupo de compras, o trabalho de manutenção **não removerá** esse membro e não poderá substituir a atribuição de ação de jornada.
 
 ## Fluxo de trabalho do grupo de compra
 
@@ -96,7 +96,7 @@ Para acessar os detalhes de um grupo de compra, clique no nome do grupo de compr
 
 ### Pontuação de integridade do grupo de compra
 
-A pontuação de integridade é usada para determinar se o grupo de compra está completo, o que significa que os membros certos foram atribuídos às funções e ele está pronto para ser usado em uma jornada de conta. Essa pontuação é uma porcentagem baseada no número de funções no grupo de compra e em quantas funções são atribuídas a pelo menos um lead.
+A pontuação de integridade é usada para determinar se o grupo de compras tem os membros certos atribuídos às funções e está pronto para ser usado em uma jornada de conta. Essa pontuação é uma porcentagem baseada no número de funções no grupo de compra e em quantas funções são atribuídas a pelo menos um lead.
 
 Por exemplo, se houver quatro funções em um grupo de compra e três delas forem atribuídas a pelo menos um lead, o grupo de compra terá uma integridade de 75%.
 
@@ -104,130 +104,12 @@ A pontuação de integridade é recalculada toda vez que um grupo de compra é c
 
 ### Pontuação de engajamento do grupo de compra {#engagement-score}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_buying_group_engagement_score"
->title="Pontuação de engajamento"
->abstract="As pontuações de engajamento determinam o nível de engajamento dos membros do grupo de compra."
+A pontuação de engajamento é baseada nas atividades de membro do grupo de compra, ações ponderadas e funções ponderadas. A pontuação resultante é normalizada no locatário/instância para permitir uma comparação consistente e insights acionáveis.
 
-A pontuação de engajamento do grupo de compra é um número para determinar o engajamento dos membros de um grupo de compra com base nas atividades que realizam.
+O cálculo da pontuação de engajamento inicial começa assim que você cria o grupo de compra e é recalculado diariamente.
 
-* O cálculo da pontuação de engajamento é iniciado assim que o grupo de compra é gerado.
-* Qualquer atividade de entrada realizada por membros do grupo de compra nos últimos 30 dias é usada para calcular a pontuação.
-* A pontuação pode diminuir em uma janela de 30 dias e conforme as atividades expiram.
-* Há um limite de frequência diário de 20 para cada atividade. Se um membro de um grupo de compra realizar a mesma atividade mais de 20 vezes por dia, a contagem da atividade será limitada a 20.
-* A pontuação exibida é arredondada.  Por exemplo, uma pontuação de 75,89999 é exibida como 76.
-
-+++Atividades usadas para pontuação
-
-| Nome da atividade | Descrição | Tipo de engajamento | Contagem máxima de frequência diária | Peso da atividade |
-| --- | --- | --- | --- | --- |
-| [!UICONTROL Acessar a página da Web] | Um membro visita uma página da Web | Web | 20 | 40 |
-| [!UICONTROL Preencher formulário] | Um membro preenche e envia um formulário em uma página da Web | Web | 20 | 40 |
-| [!UICONTROL Clicar em link] | Um membro clica em um link em uma página da Web | Web | 20 | 40 |
-| [!UICONTROL Abrir email] | Um membro abre um email | Email | 20 | 30 |
-| [!UICONTROL Clicar em email] | Um membro clica em um link em um email | Email | 20 | 30 |
-| [!UICONTROL Abrir email de vendas] | Um membro abre um email de vendas | Email | 20 | 30 |
-| [!UICONTROL Clicar em email de vendas] | Um membro clica em um link em um email de vendas | Email | 20 | 30 |
-| [!UICONTROL Momento interessante] | Um membro tem um momento interessante | Preparado | 20 | 60 |
-| [!UICONTROL Tocar em notificação por push] | Um membro recebe uma notificação por push | Dispositivos móveis | 20 | 30 |
-| [!UICONTROL Atividade em aplicativo móvel] | Um membro realiza uma atividade em um aplicativo móvel | Dispositivos móveis | 20 | 30 |
-| [!UICONTROL Sessão em aplicativo móvel] | Um membro está ativo em uma sessão de aplicativo móvel | Dispositivos móveis | 20 | 30 |
-| [!UICONTROL Preencher formulário de anúncios de leads do Facebook] | Um membro preenche e envia um formulário de anúncios de lead em uma página do Facebook | Redes sociais | 20 | 30 |
-| [!UICONTROL Clicar em uma chamada para ação de RTP] | Um membro clica em uma chamada para ação personalizada | Web | 20 | 60 |
-| [!UICONTROL Exibir mensagem no aplicativo] | Um membro exibe uma mensagem no aplicativo | Dispositivos móveis | 20 | 30 |
-| [!UICONTROL Tocar em mensagem no aplicativo] | Um membro toca em uma mensagem no aplicativo | Dispositivos móveis | 20 | 30 |
-| [!UICONTROL Assinar SMS] | Um membro assina comunicações por SMS | SMS | 20 | 90 |
-| [!UICONTROL Responder a email de vendas] | Um membro responde a um email de vendas | Email | 20 | 30 |
-| [!UICONTROL Interagiu com um diálogo] | Um membro interage com um diálogo do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Interagiu com o documento em uma caixa de diálogo] | Um membro interage com um documento em uma caixa de diálogo do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Agendou reunião em uma caixa de diálogo] | Um membro agenda um compromisso em uma caixa de dialogo do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Atingiu a meta da caixa de diálogo] | Um membro atinge uma meta em uma caixa de diálogo do Dynamic Chat |  | 20 | 90 |
-| [!UICONTROL Respondeu a uma enquete no webinário] | Um membro responde a uma enquete em um evento de webinário | Chat | 20 | 90 |
-| [!UICONTROL Chamada para ação clicada no webinário] | Um membro clica em um link de chamada para ação em um evento de webinário | Chamada | 20 | 30 |
-| [!UICONTROL Downloads de ativos no webinário] | Um membro baixa um arquivo/ativo em um evento de webinário | Evento | 20 | 60 |
-| [!UICONTROL Faz perguntas no webinário] | Um membro faz perguntas em um evento de webinário | Evento | 20 | 60 |
-| [!UICONTROL Participou do evento] | Um membro participou de um evento | Evento | 20 | 60 |
-| [!UICONTROL Interagiu com um agente em uma caixa de diálogo] | Um membro interage com um agente em uma caixa de diálogo do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Clicou no link no chat em uma caixa de diálogo] | Um membro clica em um link em uma caixa de diálogo do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Interagiu com um fluxo de conversa] | Um membro interage com um fluxo de conversa do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Reunião agendada no fluxo de conversa] | Um membro agenda um compromisso em um fluxo de conversa do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Meta do fluxo de conversa alcançada] | Um membro atinge uma meta em um fluxo de conversa do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Interagiu com um documento no fluxo de conversa] | Um membro interage com um documento em um fluxo de conversa do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Interagiu com um agente no fluxo de conversa] | Um membro interage com um agente em um fluxo de conversa do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Clicou no link no chat no fluxo de conversa] | Um membro clica em um link em um fluxo de conversa do Dynamic Chat | Chat | 20 | 90 |
-| [!UICONTROL Clicar no link no SMS V2] | Um membro clica em um link em uma mensagem de SMS | SMS | 20 | 90 |
-
->[!NOTE]
->
->As atividades de pontuação de engajamento são registradas no [log de atividades do Marketo Engage para uma pessoa](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
-
-+++
-
-#### Peso {#engagement-score-weighting}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Ponderação da pontuação de engajamento"
->abstract="Use a ponderação para personalizar o cálculo da pontuação de engajamento."
-
-Os usuários podem atribuir _ponderação_ a cada função no [modelo de funções](./buying-groups-role-templates.md) para alocar pesos diferentes para uma função.
-
-![Definir o peso para cada função no modelo de funções](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
-
-Cada nível de peso é convertido em um valor, que é usado para calcular a pontuação de engajamento:
-
-* [!UICONTROL Trivial] = 20
-* [!UICONTROL Baixo] = 40
-* [!UICONTROL Normal] = 60
-* [!UICONTROL Importante] = 80
-* [!UICONTROL Vital] = 100
-
-Um modelo de funções com três funções de peso _[!UICONTROL Vital]_, _[!UICONTROL Importante]_ e _[!UICONTROL Normal]_ é convertido nas seguintes porcentagens de peso:
-
-| Função | Peso | Valor do sistema | Cálculo de valor | Porcentagem |
-|-------------- |--------- |------------- |------------------ |---------- |
-|               |          |              |                   |           |
-| Tomador de decisão | Vital | 100 | 100/240 | 41.67% |
-| Influenciador | Importante | 80 | 80/240 | 33,33% |
-| Profissional | Normal | 60 | 60/240 | 25% |
-|               | Total | 240 |                   |           |
-
-#### Exemplo de cálculo
-
-O exemplo a seguir ilustra o cálculo da pontuação de engajamento usando a porcentagem de peso da função descrita, a contagem de atividades de entrada para cada membro do grupo de compra e um limite diário de 20 contagens para cada evento (se tiver ocorrido várias vezes).
-
-| Função | Membro | Tipo de atividade | Contagem de ontem | Contagem de hoje | Cálculo | Pontuação total |
-|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
-|               |          |             |                 |             |      |           |
-| Tomador de decisão | Adam | Site visitado | 37 | 15 | 20 + 15 | 35 |
-|               |          | Email clicado | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Mark | Site visitado | 5 | 3 | 5 + 3 | 8 |
-|               |          | Email clicado | 1 | 1 | 1 + 1 | 2 |
-|               |          | PUB baixado | 3 | 2 | 3 + 2 | 5 |
-| **Pontuação total de tomadores de decisão** |         |             |                 |             |      | **52** |
-|               |          |             |                 |             |      |           |
-| Influenciador | John | Site visitado | 19 | 9 | 19 + 9 | 28 |
-| **Pontuação total de influenciadores** |         |             |                 |             |      | **28** |
-|               |          |             |                 |             |      |           |
-| Profissional | Bob | Email clicado | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Paul | Email clicado | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Calvin | Email clicado | 1 | 1 | 1 + 1 | 2 |
-|               |          | Site visitado | 1 | 7 | 1 + 7 | 8 |
-|               |          | PUB baixado | 1 | 2 | 1 + 2 | 3 |
-| **Pontuação total de profissionais** |         |             |                 |             |      | **17** |
-
-A pontuação final de engajamento é calculada aplicando o peso de cada uma das pontuações de função:
-
-| Função | Pontuação total da função | % de peso da função | % de peso da pontuação X |
-|-------------- |---------------- |------------- |---------------- |
-| Tomadores de decisão | 52 | 41.67% | 21,67 |
-| Influenciadores | 28 | 33,33% | 9,33 |
-| Profissionais | 17 | 25% | 4,25 |
-| **Pontuação final de engajamento** |                |             | **35,25** |
+Consulte [Pontuações de engajamento](./engagement-scores.md) para obter informações detalhadas sobre atividades e cálculos de pontuação de engajamento.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

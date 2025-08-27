@@ -1,23 +1,23 @@
 ---
 title: Conteúdo condicional
-description: Saiba como criar variações de conteúdo e aplicar regras condicionais ao criar conteúdo de email para jornadas de conta.
-feature: Email Authoring, Content
+description: Saiba como criar variações de conteúdo e aplicar regras condicionais ao criar fragmentos visuais e conteúdo de email para jornadas de conta.
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1259'
 ht-degree: 12%
 
 ---
 
 # Conteúdo condicional
 
-O conteúdo condicional permite adaptar o conteúdo do email com base em regras condicionais. Essas regras são definidas usando atributos de perfil ou eventos contextuais. É possível criar regras condicionais no construtor de regras e armazená-las para reutilização nas jornadas de conta.
+O conteúdo condicional permite adaptar o conteúdo do email e fragmentá-lo com base em regras condicionais. Essas regras são definidas usando atributos de perfil ou eventos contextuais. É possível criar regras condicionais no construtor de regras e armazená-las para reutilização nas jornadas de conta.
 
-Para adicionar conteúdo condicional às suas mensagens de email, o Adobe Journey Optimizer permite aplicar regras condicionais armazenadas na biblioteca _Condições_. Aplique regras condicionais no espaço de design de email ao [criar conteúdo de email para uma jornada de conta](./email-authoring.md).
+Para adicionar conteúdo condicional aos seus fragmentos e mensagens de email, o Adobe Journey Optimizer permite aplicar regras condicionais armazenadas na biblioteca _Condições_. Aplique regras condicionais no espaço de design visual ao criar [conteúdo de email para uma jornada de conta](./email-authoring.md) ou um [fragmento visual](./fragment-authoring.md).
 
-## Adicionar conteúdo condicional aos emails {#email-content}
+## Adicionar conteúdo condicional {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,11 +29,11 @@ Para adicionar conteúdo condicional às suas mensagens de email, o Adobe Journe
 >title="Conteúdo condicional"
 >abstract="Use uma regra condicional salva na biblioteca ou crie uma nova."
 
-Ao criar um email para sua jornada de conta no espaço de design de email, use regras condicionais para definir várias variantes para um componente de conteúdo.
+Ao criar um fragmento ou um email no espaço de design visual, use regras condicionais para definir várias variantes para um componente de conteúdo.
 
 1. Selecione um componente de conteúdo e clique no ícone **[!UICONTROL Habilitar conteúdo condicional]** na barra de ferramentas do componente.
 
-   O componente é contornado em laranja para indicar que está ativado como um componente condicional. O painel **[!UICONTROL Conteúdo Condicional]** é exibido à esquerda com a _Variante Padrão_ e a _Variante - 1.
+   O componente é contornado em laranja para indicar que está ativado como um componente condicional. O painel **[!UICONTROL Conteúdo Condicional]** é exibido à esquerda com a _Variante Padrão_ e a _Variante - 1_.
 
    ![Habilitar conteúdo condicional para o componente de texto](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
@@ -94,20 +94,18 @@ Ao criar um email para sua jornada de conta no espaço de design de email, use r
 ## Regras condicionais
 
 As regras condicionais são um conjunto de expressões condicionais que podem ser avaliadas como true ou false. Você pode usar essas regras para determinar qual variante de conteúdo exibir em uma mensagem de email com base em vários filtros, como atributos de perfil ou eventos contextuais.
-
-As regras condicionais são armazenadas na biblioteca de condições, onde estão disponíveis para reutilização pelo conteúdo da jornada para sua organização.
-<!-- 
-
+As regras são armazenadas na biblioteca de condições, onde estão disponíveis para reutilização em emails e fragmentos de conteúdo para sua organização.
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### Filtros de condição {#condition-filters}
 
 | Tipo de condição | Filtros | Descrição |
 | -------------- | ------- | ----------- |
 | **Conta** | Atributos de contas | Atributos do perfil da conta, incluindo: <li>Receita anual</li><li>Cidade</li><li>País</li><li>Tamanho do funcionário</li><li>Setor</li><li>Nome</li><li>Código SIC</li><li>Estado</li> |
-| | [!UICONTROL Filtros especiais] > [!UICONTROL Tem Grupo de Compras] | A conta tem ou não membros de grupos de compra. Também podem ser avaliados em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li> |
+| | [!UICONTROL Filtros especiais] > [!UICONTROL Tem Grupo de Compras] | A conta tem ou não membros de grupos de compra. O filtro também pode ser avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li> |
 | **Pessoa** | [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email associadas à jornada: <li>[!UICONTROL Link clicado no email]</li><li>E-mail aberto</li><li>O email foi entregue</li><li>O email foi enviado</li> Essas condições são avaliadas usando uma mensagem de email selecionada anteriormente na jornada. |
 |  | [!UICONTROL Atributos da pessoa] | Atributos do perfil de pessoa, incluindo: <li>Cidade</li><li>País</li><li>Data de nascimento</li><li>Endereço de email</li><li>Email inválido</li><li>Email suspenso</li><li>Nome</li><li>Região inferida</li><li>Nome do cargo</li><li>Sobrenome</li><li>Número do celular</li><li>Número de telefone</li><li>Código postal</li><li>Estado</li><li>Inscrição cancelada</li><li>Motivo do cancelamento de inscrição</li> |
 | | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Função</li> |

@@ -5,7 +5,7 @@ feature: Setup, Integrations
 role: Admin
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configurar definições de evento do Experience Platform
 
-Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -30,7 +30,7 @@ Cada definição de evento exige a seguinte entrada do Experience Platform:
 
   >[!NOTE]
   >
-  >Coordene com sua equipe de engenharia para garantir que os esquemas necessários sejam definidos. [A criação de esquemas XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
+  >Coordene com sua equipe de engenharia para garantir que os esquemas necessários sejam definidos. [A criação de esquemas XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
 
 * **_Tipos de evento_** - XDM ExperienceEvent eventType (máximo de 20 por definição de evento).
 
@@ -62,11 +62,11 @@ Ao criar e gerenciar as definições de evento para atingir as metas organizacio
 
 ## Acessar e gerenciar definições de eventos
 
-1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configuração]**.
+1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
 
 1. Clique em **[!UICONTROL Eventos]** no painel intermediário para exibir a lista de definições de eventos.
 
-   Nesta página, você pode [criar](#create-an-event-definition), [publicar](#publish-an-event-defintion), [editar](#publish-an-event-defintion) e [excluir](#delete-an-event-definition) definições de eventos.
+   Nesta página, você pode [criar](#create-an-event-definition), [publicar](#publish-an-event-defintion), [editar](#edit-an-event-definition) e [excluir](#delete-an-event-definition) definições de eventos.
 
    ![Acessar as definições de evento configuradas](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
@@ -116,7 +116,7 @@ Para procurar uma definição de evento por nome, digite uma string de texto na 
 
 1. Selecione os **[!UICONTROL Tipos de evento]** a serem usados para a definição de evento.
 
-   Os [tipos de evento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
+   Os [tipos de evento](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
 
    * Clique em **[!UICONTROL Selecionar tipos de evento]**.
    * Na caixa de diálogo, selecione um ou mais tipos de evento na lista (máximo de 20).
@@ -282,4 +282,4 @@ Ao abrir uma definição de evento _Publicado (com rascunho)_, a guia de versão
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448688/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

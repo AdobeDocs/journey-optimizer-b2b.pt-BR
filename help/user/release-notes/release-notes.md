@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2787'
 ht-degree: 92%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -33,11 +33,11 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Filtros de pontuação de envolvimento de pessoas para modelos de funções e jornadas | Agora você pode usar a _Pontuação de engajamento da pessoa_ como filtro nos modelos de Funções usados para criar grupos de compra e nos nós de jornada de caminho dividido. |
-| Recurso | Configuração de funções personalizadas para grupos de compra | Agora você tem a flexibilidade de configurar funções personalizadas para grupos de compra, o que permite definir as funções específicas para seus casos de uso. |
-| Recurso | Configuração de ponderação da pontuação de engajamento | Agora você pode atribuir pesos às atividades que influenciam a pontuação de engajamento do grupo de compras. Esse recurso inclui definir seus próprios modelos de pontuação personalizados e alterar o modelo ativo que influencia os cálculos de pontuação de engajamento. |
-| Aprimoramento | Conteúdo condicional para fragmentos | Agora você pode usar as ferramentas de conteúdo condicional para o design visual de fragmentos. |
-| Aprimoramento | Atualizações de pontuação do engajamento | A lógica de pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, você pode trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compras. |
+| Recurso | Filtros de pontuação de envolvimento de pessoas para modelos de funções e jornadas | Agora você pode usar a _Pontuação de engajamento da pessoa_ como filtro nos modelos de Funções usados para criar grupos de compra e nos nós de jornada de caminho dividido. [Saiba mais](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Recurso | Configuração de funções personalizadas para grupos de compra | Agora você tem a flexibilidade de configurar funções personalizadas para grupos de compra, o que permite definir as funções específicas para seus casos de uso. [Saiba mais](../buying-groups/default-custom-roles.md) |
+| Recurso | Configuração de ponderação da pontuação de engajamento | Agora você pode atribuir pesos às atividades que influenciam a pontuação de engajamento do grupo de compras. Esse recurso inclui definir seus próprios modelos de pontuação personalizados e alterar o modelo ativo que influencia os cálculos de pontuação de engajamento. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Aprimoramento | Conteúdo condicional para fragmentos | Agora você pode usar as ferramentas de conteúdo condicional para o design visual de fragmentos. [Saiba mais](../content/conditional-content.md) |
+| Aprimoramento | Atualizações de pontuação do engajamento | A lógica de pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, você pode trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compras. [Saiba mais](../buying-groups/engagement-scores.md) |
 | Aprimoramento | Observabilidade da jornada ativa - contas em cada nó | Para uma jornada de conta ativa, você pode acessar uma lista das contas que atingiram cada nó de conta na jornada. |
 
 >[!NOTE]
@@ -153,7 +153,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Conteúdo condicional em modelos de email | Personalize o conteúdo do email com base nas características comportamentais e de perfil do destinatário, tanto no nível da conta quanto no nível de lead. <p>Ao criar um email para a jornada de conta no espaço de design visual de email, use regras condicionais para definir múltiplas variantes para qualquer componente de conteúdo. <a href="../content/conditional-content.md">Saiba mais</a> |
+| Recurso | Conteúdo condicional em emails | Personalize o conteúdo do email com base nas características comportamentais e de perfil do destinatário, tanto no nível da conta quanto no nível de lead. <p>Ao criar um email para a jornada de conta no espaço de design visual de email, use regras condicionais para definir múltiplas variantes para qualquer componente de conteúdo. <a href="../content/conditional-content.md">Saiba mais</a> |
 | Recurso | Ações de pessoa _Adicionar à lista_ e _Remover da lista_ nas jornadas | Personalize o conteúdo do email com base nas características comportamentais e de perfil do destinatário, tanto no nível da conta quanto no nível de lead. <a href="../journeys/action-nodes.md">Saiba mais</a> |
 | Recurso | Governança de conteúdo e bloqueio de componentes | Para garantir a adesão aos designs de conteúdo aprovados, use os recursos de governança de conteúdo para bloquear componentes de conteúdo do modelo de email. Com a governança de conteúdo ativada no modelo de email, profissionais de marketing podem alterar apenas os elementos permitidos para mantê-lo alinhado à estratégia de conteúdo. <a href="../content/template-content-governance.md">Saiba mais</a> |
 | Recurso | Estágios do grupo de compra | Ao definir e publicar um modelo de preparo de grupos de compra personalizado, é possível acompanhar a progressão do grupo de compra nos estágios do seu ciclo de vida. Use esses estágios para identificar as melhores ações para membros do grupo de compra. É possível configurar as regras de transição e os nós de jornada que determinam a progressão do estágio e acionam as ações com base em alterações. <a href="../buying-groups/buying-group-stages.md">Saiba mais</a> |

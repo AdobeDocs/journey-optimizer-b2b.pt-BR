@@ -4,9 +4,9 @@ description: Saiba como usar componentes de conteúdo para criar conteúdo de em
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2844'
 ht-degree: 6%
 
 ---
@@ -200,10 +200,9 @@ Cada tipo de componente de conteúdo exibe uma barra de ferramentas ao selecion�
 | ---- | ---- | ----- |
 | ![Adicionar personalização](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Adicionar personalização | Use o editor de personalização para inserir tokens de personalização no conteúdo do componente. [Saiba mais](./email-authoring.md#personalize-content) |
 | ![Mostrar o código-fonte](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Mostrar o código-fonte | Exibir o código-fonte HTML do componente em um pop-up somente leitura. <br/>![Mostrar código HTML](./assets/content-components-show-source-code.png){width="200"} |
-| ![Habilitar conteúdo condicional](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Ativar conteúdo condicional | Habilitar variantes condicionais para o componente. [Saiba mais](./conditional-content.md) |
+| ![Habilitar conteúdo condicional](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Ativar conteúdo condicional | (Emails e fragmentos) Ative variantes condicionais para o componente. [Saiba mais](./conditional-content.md) |
 | ![Duplicar](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplicar | Crie uma cópia do componente e adicione-a diretamente abaixo. |
 | ![Excluir](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Excluir | Remova o componente. |
-
 
 ## Adicionar um componente de conteúdo ao seu design
 
