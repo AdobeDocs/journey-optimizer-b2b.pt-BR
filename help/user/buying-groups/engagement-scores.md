@@ -30,7 +30,7 @@ Há dois tipos de pontuações de engajamento:
 
 * **Pontuação de engajamento da pessoa** - A pontuação de engajamento da pessoa é baseada nas atividades de um membro de grupo de compras individual.
 
-  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros ]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
+  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros &#x200B;]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
 
   ![Membros mais engajados do grupo de compras](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
