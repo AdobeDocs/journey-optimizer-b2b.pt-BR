@@ -4,16 +4,16 @@ description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 # Criação de mensagens de email
 
-Depois de &lbrack;adicionar um novo ativo de email<!-- or duplicated --> a um nó de ação de jornada&rbrack;(./add-email.md), você pode definir o conteúdo da mensagem de email.
+Depois de [adicionar um ativo de email a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
@@ -38,17 +38,24 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
 
 1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
-1. [Adicionar estrutura e conteúdo](#add-structure-and-content) à mensagem de email.
-1. [Adicionar ativos de imagem](#add-assets) à mensagem de email.
-1. [Personalizar o conteúdo do email](#personalize-content).
+
+1. Na caixa de diálogo _[!UICONTROL Criar email]_, escolha o tipo de conteúdo de email que deseja criar.
+
+   * **[!UICONTROL Usar Temas]** - Escolha esta opção para criar o email no _Modo de Tema_. Nesse modo, é possível usar um tema de marca definido para simplificar o processo de criação de conteúdo e garantir que o design se alinhe aos padrões definidos.
+
+   * **[!UICONTROL Estilo Manual]** - Escolha esta opção para criar o email no _Modo manual_. Nesse modo, você define manualmente o estilo de todos os componentes de estrutura e conteúdo adicionados à tela em branco.
+
+1. [Adicionar estrutura e conteúdo](./email-authoring.md#add-structure-and-content) ao modelo.
+
 1. [Examinar e atualizar links](#preview-and-edit-linked-urls).
+
 1. [Testar o email](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
@@ -70,7 +77,7 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 
 >[!NOTE]
 >
-> Os modelos salvos podem ter configurações de governança (bloqueio de conteúdo) aplicadas a um ou mais componentes. O designer visual fornece diretrizes sobre componentes bloqueados quando você [cria um email a partir de um modelo controlado](./email-authoring-governance.md).
+> Os modelos salvos podem ter configurações de governança (bloqueio de conteúdo) aplicadas a um ou mais componentes. O espaço de design visual fornece diretrizes sobre componentes bloqueados quando você [cria um email a partir de um modelo controlado](./email-authoring-governance.md).
 
 ## Adicionar estrutura e conteúdo {#structure-content}
 
@@ -78,7 +85,7 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 
 ### Adicionar CSS personalizado
 
-Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design de email. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes como imagens, botões e texto.
+Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design de email. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes de conteúdo, como imagens, botões e texto.
 
 Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UICONTROL Corpo]** na árvore de navegação esquerda para acessar o editor de CSS personalizado.
 
@@ -91,6 +98,10 @@ Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UI
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Adicionar fragmentos
+
+>[!NOTE]
+>
+>Os fragmentos não são compatíveis entre o _Modo de tema_ e o _Modo manual_ no conteúdo do email. Para usar um fragmento no conteúdo de email no qual um tema é aplicado, ele também deve ser criado no _Modo de tema_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -128,13 +139,13 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
 
 ## Mais opções
 
-No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design de email, você pode realizar as seguintes ações:
+No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design visual, você pode realizar as seguintes ações:
 
 ![Clique em Mais para acessar as ações do modelo](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Redefinir email]** - Clique nesta opção para limpar a tela do designer de email visual em branco e reiniciar a criação do conteúdo.
+* **[!UICONTROL Redefinir email]** - Clique nesta opção para limpar a tela de design de email em branco e reiniciar a criação do conteúdo.
 * **[!UICONTROL Salvar como fragmento]** - Salve todo o email ou partes dele como um fragmento a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o fragmento e salve-o na lista de fragmentos disponíveis.
-* **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu email_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design ou optar por projetar o conteúdo do zero em uma tela preta.\
+* **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu email_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design. Você também pode optar por criar o conteúdo do zero com uma tela em branco (_Modo clássico_) ou usar um [Tema da marca](./brand-themes.md) (_Modo do tema_).
 * **[!UICONTROL Salvar como modelo de conteúdo]** - Salve o corpo do email como um modelo de email a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o modelo e salve-o na lista de modelos de email salvos.
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
 

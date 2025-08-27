@@ -4,9 +4,9 @@ description: Saiba como os grupos de compra no Journey Optimizer B2B Edition pod
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -20,7 +20,7 @@ As contas são fundamentais para qualquer estratégia de atividades de vendas e 
 
 A conta pode conter um subconjunto de pessoas que compõe o _grupo de compra_. Essas são as pessoas que tomam a decisão de compra final; portanto, elas precisam de atenção especial de profissionais de marketing e podem precisar de acesso a informações diferentes em comparação com as outras pessoas associadas à conta. Os grupos de compra podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente pode exigir um diretor de informação ou diretor de segurança e um representante do departamento jurídico para aprovar uma compra. Um produto de rastreamento de erros normalmente tem um VP de engenharia e um diretor de TI como membros do grupo de compra.
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
+![Ícone de vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](#overview-video)
 
 ## Componentes principais
 
@@ -112,4 +112,4 @@ Consulte [Pontuações de engajamento](./engagement-scores.md) para obter inform
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

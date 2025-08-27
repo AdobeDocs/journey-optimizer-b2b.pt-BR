@@ -1,25 +1,27 @@
 ---
-title: Modelos de e-mail
+title: Modelos de email
 description: Saiba como gerenciar e criar modelos de email usados para criar emails de jornada de conta de forma fácil e eficiente.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
 
 # Modelos de email
 
-Para um processo de design acelerado e aprimorado, é possível criar modelos de email independentes para reutilizar conteúdo personalizado nas jornadas de conta do Adobe Journey Optimizer B2B edition. Por meio de modelos, os membros da equipe orientados a conteúdo podem trabalhar no conteúdo de email fora do jornada. Os estrategistas de marketing podem então reutilizar e adaptar esses modelos independentes dentro de suas jornadas de conta. Por exemplo, um membro da equipe é responsável apenas pelo conteúdo, sem acesso às jornadas da conta. No entanto, eles podem criar um template de email que os profissionais de marketing podem selecionar como ponto de partida para comunicações por email e personalizá-lo de acordo com os requisitos da jornada.
+Para um processo de design acelerado e aprimorado, você pode criar modelos de email independentes para reutilizar conteúdo personalizado nas jornadas de conta do [!DNL Adobe Journey Optimizer B2B Edition]. Por meio de modelos, os membros da equipe orientados a conteúdo podem trabalhar no conteúdo de email fora do jornada. Os estrategistas de marketing podem então reutilizar e adaptar esses modelos independentes dentro de suas jornadas de conta. Por exemplo, um membro da equipe é responsável apenas pelo conteúdo, sem acesso às jornadas da conta. No entanto, eles podem criar um template de email que os profissionais de marketing podem selecionar como ponto de partida para comunicações por email e personalizá-lo de acordo com os requisitos da jornada.
 
 ## Acessar e gerenciar modelos de email
 
-Para acessar modelos de email no Adobe Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos]**. Essa ação abre uma página de listagem com todos os templates de email criados na instância listada em uma tabela.
+Para acessar modelos de email no [!DNL Journey Optimizer B2B Edition], vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos]**. No painel lateral, selecione **[!UICONTROL Modelos de email]**.
 
-A tabela é classificada pela coluna _[!UICONTROL Modificado]_ por padrão, com os modelos atualizados mais recentes na parte superior. Clique no título da coluna para alterar entre crescente e decrescente.
+Essa ação abre uma página de listagem com todos os templates de email criados na instância listada no formato de tabela.
+
+A lista é classificada pela coluna _[!UICONTROL Modificado]_ por padrão, com os modelos atualizados mais recentes no topo. Clique no título da coluna para alterar entre crescente e decrescente.
 
 Para pesquisar um modelo por nome, digite uma string de texto na barra de pesquisa. Clique no ícone _Filtro_ na parte superior esquerda para filtrar a lista de acordo com as datas de criação ou modificação e os modelos que você criou ou modificou.
 
@@ -43,7 +45,7 @@ A página _[!UICONTROL Criar seu modelo]_ é aberta e fornece várias opções p
 
 ![Escolha como deseja começar com o design do seu modelo de email](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-Após selecionar o método que deseja usar para iniciar o design do modelo de email, use o designer visual para [criar o conteúdo do seu modelo de email](./email-template-authoring.md).
+Após selecionar o método que deseja usar para iniciar o design do modelo de email, use o espaço de design visual para [criar o conteúdo do modelo de email](./email-template-authoring.md).
 
 ### Criar do zero
 
@@ -55,7 +57,29 @@ Use o editor de conteúdo visual para definir a estrutura do conteúdo de email.
 
 1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
 
+1. Na caixa de diálogo _[!UICONTROL Criar email]_, escolha o tipo de conteúdo de email que deseja usar para o modelo.
+
+   * **[!UICONTROL Usar Temas]** - Escolha esta opção para criar o modelo de email no _Modo de tema_. Nesse modo, é possível usar um tema de marca definido para simplificar o processo de criação de conteúdo e garantir que o design se alinhe aos padrões definidos.
+
+   ![Criar seu email - Usar temas](./assets/create-email-use-theme.png){width="450"}
+
+   * **[!UICONTROL Estilo Manual]** - Escolha esta opção para criar o modelo de email no _Modo manual_. Nesse modo, você define manualmente o estilo de todos os componentes de estrutura e conteúdo adicionados à tela em branco.
+
+1. (_Modo de temas_ somente) Aplicar um tema.
+
+   No espaço de design de email, clique no ícone _Temas_ ( ![Temas](../assets/do-not-localize/icon-design-themes.svg) ) à direita.
+
+   ![Espaço de design de email - Ícone de temas selecionado](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   O tema padrão ou o tema aplicado ao modelo é exibido. Você pode alternar entre as variantes de cor deste tema.
+
+   Clique na seta ao lado do tema exibido para exibir a lista de temas personalizados e do Adobe disponíveis. Selecione **[!UICONTROL Meus temas]** para usar um tema personalizado criado para sua organização.
+
+   Ao clicar fora da lista, o tema selecionado aplica os estilos. É possível alternar entre as variantes de cor.
+
 1. [Adicionar estrutura e conteúdo](./email-authoring.md#add-structure-and-content) ao modelo.
+
+   Se houver um tema aplicado, os componentes adicionados herdarão automaticamente os estilos definidos no tema.
 
 ### Importar HTML
 
@@ -69,7 +93,7 @@ O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HT
 >
 >Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-Você pode personalizar o conteúdo importado conforme necessário com o designer visual.
+Você pode personalizar o conteúdo importado conforme necessário no espaço de design visual.
 
 ### Selecionar um modelo de design
 
@@ -89,7 +113,7 @@ Na página da listagem de modelos, clique no nome de um modelo de email para abr
 
 * Se houver alertas ativos (erros e avisos para o modelo de email), clique em **[!UICONTROL Alertas]** na parte superior direita para exibir as informações.
 
-  Esses alertas não proíbem o uso do modelo de email para criação de email. As informações fornecem visibilidade aos profissionais de marketing da sua equipe sobre o que pode não funcionar e as atualizações necessárias antes que possam ser usadas para o delivery.
+  Esses alertas não proíbem o uso do modelo de e-mail para criação de e-mails. As informações fornecem visibilidade aos profissionais de marketing da sua equipe sobre o que pode não funcionar e as atualizações necessárias antes que possam ser usadas para o delivery.
 
 ## Exibir modelo de email usado por referências
 
@@ -120,18 +144,18 @@ Esta ação direciona você à página _Criar modelo_ ou à página do editor de
 
   ![Clique em Mais para acessar as ações Excluir e Duplicar](./assets/template-details-more-menu.png){width="400"}
 
-* Na página de listagem _Modelos de email_, clique nas reticências (...) ao lado do modelo e escolha **[!UICONTROL Duplicar]**.
+* Na página de listagem _[!UICONTROL Modelos de email]_, clique nas reticências (...) ao lado do modelo e escolha **[!UICONTROL Duplicar]**.
 
 Na caixa de diálogo do, digite um nome útil (exclusivo) e uma descrição. Clique em **[!UICONTROL Duplicar]** para concluir a ação.
 
-O (novo) modelo de email duplicado aparece na lista _Modelos de email_.
+O (novo) modelo de email duplicado aparece na lista _[!UICONTROL Modelos de email]_.
 
 ## Excluir modelos de email
 
 A remoção de um modelo de email não pode ser desfeita, portanto, verifique antes de iniciar uma ação de exclusão. É possível excluir um template de email usando um dos seguintes métodos:
 
 * Nos detalhes do modelo à direita, expanda **[!UICONTROL Mais]** e clique em **[!UICONTROL Excluir]**.
-* Na página de listagem _Modelos de email_, clique nas reticências (...) ao lado do modelo e escolha **[!UICONTROL Excluir]**.
+* Na página de listagem _[!UICONTROL Modelos de email]_, clique nas reticências (...) ao lado do modelo e escolha **[!UICONTROL Excluir]**.
 
   ![Clique em ... para acessar as ações Duplicar e Excluir](./assets/templates-list-more-menu.png){width="500"}
 
@@ -165,4 +189,4 @@ Para começar a criar o conteúdo com um dos templates de email criados, siga es
 
 1. Clique em **[!UICONTROL Usar este modelo]** na parte superior direita.
 
-1. No designer de conteúdo visual, edite seu conteúdo conforme necessário.
+1. No espaço de design visual, edite o conteúdo conforme necessário.

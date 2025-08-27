@@ -4,10 +4,10 @@ description: Saiba como criar e usar fragmentos de conteúdo visual como compone
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 3%
+source-wordcount: '2738'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,11 @@ Um fragmento é um componente reutilizável que pode ser referenciado em um ou m
 
 **Fragmentos visuais**
 
-Fragmentos visuais são blocos visuais predefinidos criados com o designer de conteúdo visual que podem ser reutilizados em vários emails ou modelos de email. O escopo atual do Journey Optimizer B2B edition e desta documentação é apenas o de fragmentos visuais. Fragmentos baseados em expressão ainda não são compatíveis com o Journey Optimizer B2B edition.
+Fragmentos visuais são blocos visuais predefinidos criados usando as ferramentas de design visual que você pode reutilizar em vários emails ou modelos de email. O escopo atual do Journey Optimizer B2B edition e desta documentação é apenas o de fragmentos visuais.
+
+>[!NOTE]
+>
+>Fragmentos baseados em expressão ainda não têm suporte em [!DNL Journey Optimizer B2B Edition].
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ O status do fragmento determina sua disponibilidade para uso em um email ou mode
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o conteúdo visual, até que você o publique para uso em um modelo de email ou de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no designer visual<li>Publicação<li>Duplicar<li>Excluir |
-| Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. O conteúdo do fragmento publicado não pode ser modificado no designer visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
-| Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no designer visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no visual designer<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
+| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o espaço de design visual, até que você o publique para uso em um email ou modelo de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
+| Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. O conteúdo do fragmento publicado não pode ser modificado no espaço de design visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
+| Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
 
 ![Ciclo de vida do status do fragmento](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ Você pode criar novos fragmentos visuais no Journey Optimizer B2B edition clica
 
 1. Clique em **[!UICONTROL Criar]**.
 
-   O designer visual é aberto com uma tela vazia.
+   O espaço de design visual é aberto com uma tela vazia.
 
 1. Use as ferramentas de design de conteúdo para criar o conteúdo visual do fragmento:
 
@@ -96,6 +100,18 @@ Você pode criar novos fragmentos visuais no Journey Optimizer B2B edition clica
    * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
    * [Habilitar campos personalizados](./fragment-authoring.md#enable-fragment-customization)
    * [Editar rastreamento de URL vinculado](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (Opcional) Aplique um [tema de marca](./brand-themes.md) ao conteúdo do fragmento para simplificar o processo de criação do fragmento e garantir que o design se alinhe aos padrões definidos.
+
+   >[!NOTE]
+   >
+   >Quando você aplica um tema, a compatibilidade de fragmentos é limitada a emails e modelos de email criados no _Modo de tema_.
+
+   Clique no ícone _Temas_ ( ![Ícone Temas](../assets/do-not-localize/icon-design-themes.svg) ) à direita.
+
+   ![Espaço de design do fragmento - ícone de Temas selecionado](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Selecione um dos temas personalizados listados na guia **[!UICONTROL Meus temas]** ou selecione **[!UICONTROL Temas do Adobe]** para usar um tema interno. Quando você clica fora da lista, o tema selecionado aplica os estilos a todos os componentes na tela de desenho. É possível alternar entre as variantes de cor, conforme necessário.
 
 1. Clique em **[!UICONTROL Salvar]** a qualquer momento para salvar o fragmento de rascunho.
 
@@ -166,9 +182,9 @@ As edições em um fragmento dependem do status atual:
 
    ![Detalhes do fragmento com status de Rascunho](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. Para fazer alterações no conteúdo no designer visual, clique em **[!UICONTROL Editar fragmento]**.
+1. Para fazer alterações no conteúdo do espaço de design visual, clique em **[!UICONTROL Editar fragmento]**.
 
-   Use as ferramentas do designer visual conforme necessário:
+   Use as ferramentas de design visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
@@ -193,11 +209,11 @@ As edições em um fragmento dependem do status atual:
 
 1. Para atualizar o conteúdo, clique em **[!UICONTROL Criar versão de rascunho]** na parte superior direita.
 
-   Clique em **[!UICONTROL OK]** na caixa de diálogo para abrir a versão de rascunho no designer visual.
+   Clique em **[!UICONTROL OK]** na caixa de diálogo para abrir a versão de rascunho no espaço de design visual.
 
    ![Criar caixa de diálogo de versão de rascunho](./assets/fragments-create-draft-version.png){width="300"}
 
-   Use as ferramentas do designer visual conforme necessário:
+   Use as ferramentas de design visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
@@ -226,7 +242,7 @@ Há duas maneiras de abrir a versão de rascunho para edição na página de lis
 
 Para atualizar o conteúdo:
 
-1. Clique em **[!UICONTROL Editar fragmento]** na parte superior direita. Use as ferramentas do designer visual conforme necessário:
+1. Clique em **[!UICONTROL Editar fragmento]** na parte superior direita. Use as ferramentas de design visual conforme necessário:
 
    * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
@@ -286,7 +302,7 @@ Os fragmentos são projetados para reutilização e podem ser inseridos para cri
 
 1. Navegue até **[!UICONTROL Jornadas de conta]** e abra uma jornada existente ou crie uma nova jornada.
 
-1. Criar um nó [_[!UICONTROL Enviar email &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Criar um nó [_[!UICONTROL Enviar email ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Criar ou editar o conteúdo de email [do nó](./email-authoring.md).
 

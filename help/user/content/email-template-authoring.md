@@ -4,9 +4,9 @@ description: Saiba como criar modelos de email de conteúdo que podem ser usados
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,10 @@ Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UI
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Adicionar fragmentos
+
+>[!NOTE]
+>
+>Os fragmentos não são compatíveis entre o _Modo de tema_ e o _Modo manual_ no conteúdo do email. Para usar um fragmento no conteúdo de email no qual um tema é aplicado, ele também deve ser criado no _Modo de tema_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design de email,
 
 * **[!UICONTROL Redefinir modelo]** - Clique nesta opção para limpar a tela de design em branco e reiniciar a criação de conteúdo.
 * **[!UICONTROL Salvar como fragmento]** - Salve todo o modelo ou partes dele como um fragmento a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o fragmento e salve-o na lista de fragmentos disponíveis.
-* **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu modelo_. A partir daí, você pode optar por projetar seu modelo do zero ou usar um modelo existente para reiniciar o processo de design.
+* **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu email_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design. Você também pode optar por criar o conteúdo do zero com uma tela em branco (_Modo clássico_) ou usar um [Tema da marca](./brand-themes.md) (_Modo do tema_).
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
