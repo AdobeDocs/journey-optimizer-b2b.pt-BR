@@ -4,24 +4,24 @@ description: Saiba como configurar uma conexão com repositórios Experience Man
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Configurar repositórios de ativos da Experience Manager
 
-O Adobe Journey Optimizer B2B edition integra-se ao Adobe Experience Manager Assets as a Cloud Service, permitindo mais do que apenas usar ativos como emails em uma jornada de conta. Ela garante a transparência ao trocar informações com a Experience Manager Assets. Configure a conexão com o Adobe Experience Assets para habilitar esse recurso.
+O [!DNL Adobe Journey Optimizer B2B Edition] integra-se ao [!DNL Adobe Experience Manager Assets as a Cloud Service], permitindo o uso de ativos no seu conteúdo de email. Ela garante a transparência ao trocar informações com [!DNL Experience Manager Assets]. Configure a conexão com [!DNL Adobe Experience Assets] para habilitar esse recurso.
 
-O Adobe Experience Manager Cloud Manager está organizado em programas, e cada programa tem vários ambientes e repositórios ([Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Ao configurar o Adobe Experience Manager Assets no Adobe Journey Optimizer B2B edition, você configura conexões para cada repositório que deseja usar para acessar ativos digitais.
+O Adobe Experience Manager Cloud Manager está organizado em programas, e cada programa tem vários ambientes e repositórios ([Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Ao configurar o Adobe Experience Manager Assets no Adobe Journey Optimizer B2B edition, você configura conexões para cada repositório que deseja usar para acessar ativos digitais.
 
 {{aem-assets-licensing-note}}
 
 ## Pré-requisitos
 
-* Gere credenciais de serviço para o ambiente desejado no AEM Headless Developer Console ([Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Gere credenciais de serviço para o ambiente desejado no AEM Headless Developer Console ([Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Adquira os certificados necessários para a conexão. Como prática recomendada, verifique se os certificados têm pelo menos seis meses restantes antes da expiração. Os certificados expiram a cada 365 dias.
 * O Adobe Journey Optimizer B2B edition oferece suporte ao acesso a uma fonte de gerenciamento de ativos digitais por vez. Verifique se os ativos necessários estão disponíveis no Adobe Experience Manager antes de alternar.
 
@@ -47,7 +47,7 @@ Aqui, é possível configurar as conexões com cada repositório de ambiente do 
 
 1. Clique em **[!UICONTROL Adicionar um certificado]** e use as ferramentas de caixa de diálogo para carregar o arquivo.
 
-   Você pode fazer upload de um arquivo .json arrastando-o para a caixa de diálogo ou clicando no link para localizar e selecionar um arquivo do seu sistema (verifique se o arquivo é um tipo JSON válido).
+   É possível carregar um arquivo .json arrastando-o para a caixa de diálogo. Você também pode clicar no link para localizar e selecionar um arquivo do seu sistema.
 
    ![Carregar o arquivo JSON de certificado](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
@@ -65,7 +65,7 @@ Aqui, é possível configurar as conexões com cada repositório de ambiente do 
 
    ![Revisar os repositórios de ativos configurados do AEM](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
-Quando você terminar de configurar os repositórios, os membros da equipe poderão selecionar o Adobe Experience Manager Assets ao criar conteúdo.
+Quando você terminar de configurar os repositórios, os membros da equipe poderão selecionar o [!DNL Adobe Experience Manager Assets] ao criar o conteúdo.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Quando você terminar de configurar os repositórios, os membros da equipe poder
 
 ## Substituir um certificado
 
-Os certificados expiram a cada 365 dias a partir da data de criação. Substitua-o antes de expirar para garantir que sua equipe possa continuar acessando os ativos.
+Os certificados expiram a cada 365 dias a partir da data de criação. Para garantir que sua equipe continue acessando os ativos, substitua o certificado antes que ele expire.
 
 >[!NOTE]
 >
->O Adobe Journey Optimizer B2B edition se comunica com os ativos da Experience Manager para obter informações de uso. A conexão deve permanecer ativa para sincronização de dados de uso confiável e para evitar discrepâncias de dados. Os usuários administradores são notificados sobre certificados que estão expirando por meio das notificações no aplicativo. Eles também podem observar as datas de expiração na subseção Assets - Gerenciamento de ativos digitais na área de Administração.
+>[!DNL Adobe Journey Optimizer B2B Edition] se comunica com [!DNL Experience Manager Assets] para obter informações de uso. A conexão deve permanecer ativa para a sincronização de dados de uso confiável e para evitar discrepâncias de dados. Os administradores recebem notificações sobre certificados que estão expirando por meio das notificações no aplicativo. As datas de expiração também são exibidas na subseção _Assets_ da área _[!UICONTROL Administração]_.
 
 1. Na página Gerenciamento de ativos digitais, localize a lista dos repositórios configurados.
 
@@ -89,7 +89,7 @@ Os certificados expiram a cada 365 dias a partir da data de criação. Substitua
 
 1. Escolha **[!UICONTROL Substituir]** para abrir a caixa de diálogo para carregar arquivos.
 
-1. Carregue um arquivo arrastando-o para a caixa de diálogo ou usando o link. Verifique se o arquivo é do tipo json.
+1. Carregue um arquivo arrastando-o para a caixa de diálogo ou usando o link. Verifique se o arquivo é do tipo JSON.
 
    ![Carregar o arquivo JSON de certificado do repositório de ativos da AEM de substituição](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 

@@ -3,18 +3,18 @@ title: Configurar eventos do Experience Platform
 description: Saiba mais sobre o tipo de nó Aguardar que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 1%
 
 ---
 
 # Configurar definições de evento do Experience Platform
 
-Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -24,13 +24,13 @@ O uso de eventos de experiência do AEP em jornadas de conta é um processo de d
 
 2. Em uma jornada de conta, adicione um nó _Ouvir um evento_ e [selecione uma definição de evento do AEP como um evento de pessoas](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Cada definição de evento exige a seguinte entrada do Experience Platform:
+Cada definição de evento requer as seguintes entradas do Experience Platform:
 
 * **_Esquema_** - esquema XDM que define a estrutura de dados do Evento de Experiência. Ele deve ser baseado em um Evento de experiência e deve ser habilitado para perfil.
 
   >[!NOTE]
   >
-  >Coordene com sua equipe de engenharia para garantir que os esquemas necessários sejam definidos. [A criação de esquemas XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
+  >Para garantir que os esquemas necessários sejam definidos, fale com a equipe de engenharia. [A criação de esquemas XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
 
 * **_Tipos de evento_** - XDM ExperienceEvent eventType (máximo de 20 por definição de evento).
 
@@ -70,7 +70,7 @@ Ao criar e gerenciar as definições de evento para atingir as metas organizacio
 
    ![Acessar as definições de evento configuradas](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   A tabela é classificada pela coluna _[!UICONTROL Modificado]_, com as definições atualizadas mais recentes no topo por padrão.<!-- Click the column title to change between ascending and descending.-->
+   A tabela é classificada pela coluna _[!UICONTROL Modificado]_, com as definições atualizadas mais recentemente na parte superior como padrão.<!-- Click the column title to change between ascending and descending.-->
 
 1. Para acessar os detalhes de uma definição de evento, clique no nome.
 
@@ -80,9 +80,9 @@ Na lista _[!UICONTROL Definições de evento]_, a coluna **[!UICONTROL Status]**
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Ao criar uma definição de evento, ela estará no status de rascunho. Ele permanece nesse status até que você o publique para uso nas jornadas da conta. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Publicação<li>Excluir |
-| Publicado | Ao publicar uma definição de evento, ela fica disponível para uso nas jornadas da conta. Os detalhes não podem ser modificados. Ações disponíveis:<br/><ul><li>Disponível para _Ouvir um nó de jornada do evento_<li>Criar versão de rascunho<li>Excluir (se não estiver em uso) |
-| Publicado (com rascunho) | Ao criar um rascunho a partir de uma definição de evento publicada, a versão publicada permanece disponível para uso nas jornadas da conta e a versão rascunho pode ser modificada. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e a definição do evento será atualizada para as jornadas da conta em que ainda não foi executada. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Publicar versão de rascunho<li>Descartar versão de rascunho<li>Excluir (se não estiver em uso) |
+| Rascunho | Ao criar uma definição de evento, ela estará no status de rascunho. Ele permanece nesse status até que você o publique para uso nas jornadas da conta. Ações disponíveis: <br/><li>Editar todos os detalhes<li>Publicação<li>Excluir |
+| Publicado | Ao publicar uma definição de evento, ela fica disponível para uso nas jornadas da conta. Os detalhes não podem ser modificados. Ações disponíveis: <br/><li>Disponível para _Ouvir um nó de jornada do evento_<li>Criar versão de rascunho<li>Excluir (se não estiver em uso) |
+| Publicado (com rascunho) | Ao criar um rascunho a partir de uma definição de evento publicada, a versão publicada permanece disponível para uso nas jornadas da conta e a versão rascunho pode ser modificada. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e a definição do evento será atualizada para as jornadas da conta em que ainda não foi executada. Ações disponíveis: <br/><li>Editar todos os detalhes<li>Publicar versão de rascunho<li>Descartar versão de rascunho<li>Excluir (se não estiver em uso) |
 
 ![Ciclo de vida do status do fragmento](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ Para procurar uma definição de evento por nome, digite uma string de texto na 
 
 1. Defina o **[!UICONTROL Esquema]** a ser usado para a definição do evento.
 
-   O esquema selecionado determina os campos disponíveis para serem adicionados à definição, que ficam disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
+   O esquema selecionado determina os campos disponíveis para adição à definição. Os campos adicionados ficam disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
 
    * Clique em **[!UICONTROL Selecionar esquema]**.
    * Na caixa de diálogo, selecione um esquema na lista de esquemas baseados em eventos de experiência.
@@ -116,7 +116,7 @@ Para procurar uma definição de evento por nome, digite uma string de texto na 
 
 1. Selecione os **[!UICONTROL Tipos de evento]** a serem usados para a definição de evento.
 
-   Os [tipos de evento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
+   Os [tipos de evento](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
 
    * Clique em **[!UICONTROL Selecionar tipos de evento]**.
    * Na caixa de diálogo, selecione um ou mais tipos de evento na lista (máximo de 20).
@@ -146,7 +146,7 @@ Para procurar uma definição de evento por nome, digite uma string de texto na 
 
 ## Publicar uma definição de evento
 
-Quando estiver satisfeito com a definição completa e correta do evento de rascunho para suas necessidades, você poderá publicá-la para disponibilizá-la para uso nas jornadas da conta. Depois que a definição do evento for publicada, você poderá criar uma versão de rascunho se precisar fazer alterações nela. No entanto, não é possível alterar o esquema e você só pode adicionar tipos de evento e campos (não é possível excluí-los).
+Quando estiver satisfeito com a definição completa e correta do evento de rascunho para suas necessidades, você poderá publicá-la. A definição de evento publicada estará disponível para uso nas jornadas da conta. Depois que a definição do evento for publicada, você poderá criar uma versão de rascunho se precisar fazer alterações nela. No entanto, não é possível alterar o esquema e você só pode adicionar tipos de evento e campos (não é possível excluí-los).
 
 1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configuração]**.
 
@@ -218,7 +218,7 @@ Siga as etapas de acordo com o status:
 
 1. Clique no nome da definição de evento para abri-la.
 
-   Para uma definição de evento _Publicado (com rascunho)_, a guia de versão _[!UICONTROL Publicado]_ é selecionada por padrão.
+   Para uma definição de evento _Publicado (com rascunho)_, a guia de versão _[!UICONTROL Publicado]_ é selecionada como padrão.
 
 1. Selecione a guia de versão **[!UICONTROL Rascunho]**.
 
@@ -240,7 +240,7 @@ Siga as etapas de acordo com o status:
 
 >[!TAB Publicado (com rascunho)]
 
-Ao abrir uma definição de evento _Publicado (com rascunho)_, a guia de versão _[!UICONTROL Publicado]_ é selecionada por padrão.
+Ao abrir uma definição de evento _Publicado (com rascunho)_, a guia de versão _[!UICONTROL Publicado]_ é selecionada como padrão.
 
 1. Selecione a guia de versão **[!UICONTROL Rascunho]**.
 
@@ -282,4 +282,4 @@ Ao abrir uma definição de evento _Publicado (com rascunho)_, a guia de versão
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448688/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

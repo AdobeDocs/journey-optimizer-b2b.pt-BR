@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Uma pontuação de engajamento do grupo de compra reflete o nível de engajamento avaliando várias atividades registradas para membros do grupo de compra. Com a ponderação de pontuação personalizada, as equipes de operações de marketing têm a flexibilidade de definir seus próprios modelos para ponderar as atividades mais significativas para o envolvimento. Um modelo de pontuação personalizado produz um reflexo mais preciso do pipeline, priorizando os comportamentos que sinalizam com mais precisão a intenção de compra em seu processo de vendas.
 
-Como administrador, você pode definir vários modelos de pontuação de engajamento para sua organização, mas somente um modelo pode estar ativo a qualquer momento. Você define um modelo de pontuação de acordo com as atividades que serão incluídas e o peso aplicado a cada atividade.
+Como administrador, você pode definir vários modelos de pontuação de engajamento para sua organização, mas somente um modelo pode estar ativo a qualquer momento. Você define um modelo de pontuação de acordo com o peso aplicado a cada atividade de pontuação de envolvimento.
 
 ## Acessar os modelos de ponderação de pontuação de engajamento
 
@@ -29,7 +30,7 @@ Como administrador, você pode definir vários modelos de pontuação de engajam
 
    ![Acessar as definições de evento configuradas](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   A tabela é classificada pela coluna _[!UICONTROL Última atualização]_, com os modelos atualizados mais recentes no topo por padrão, e inclui a capacidade de pesquisar por _[!UICONTROL Nome]_. Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
+   A tabela exibe os modelos atualizados mais recentemente na parte superior (classificados por _[!UICONTROL Última atualização]_) e inclui a capacidade de pesquisar por _[!UICONTROL Nome]_. Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
 
 ![Colunas a serem exibidas na lista de ponderação de pontuação de envolvimento](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,7 +79,7 @@ As configurações de peso definem as faixas que podem ser atribuídas a cada at
 1. Para cada faixa de peso, ajuste o nome ou os valores de acordo com suas necessidades:
 
    * Altere o nome no campo _[!UICONTROL Faixa de ponderação]_.
-   * Insira um novo valor ou clique em **+** ou **-** para aumentar ou diminuir o valor.
+   * Insira um novo valor. Você também pode clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Configurações de peso da participação](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -98,7 +99,7 @@ Cada modelo de pontuação inclui a lista completa de atividades de pontuação 
 
 {{engagement-activities}}
 
-Para cada atividade na lista, defina o valor que deseja atribuir para cada ocorrência de atividade. Clique na seta para baixo no campo Ponderação e escolha a faixa de ponderação conforme definido nas configurações de ponderação de engajamento.
+Para cada atividade na lista, defina o valor que deseja atribuir a cada ocorrência de atividade. Clique na seta para baixo no campo **[!UICONTROL Ponderação]** e escolha a faixa de ponderação conforme definido nas configurações de ponderação do envolvimento.
 
 ![Definir ponderação da atividade](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 
