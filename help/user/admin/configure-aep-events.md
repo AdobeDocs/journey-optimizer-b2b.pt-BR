@@ -1,20 +1,20 @@
 ---
 title: Configurar eventos do Experience Platform
-description: Saiba mais sobre o tipo de nó Aguardar que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
+description: Saiba como configurar as definições de evento do Experience Platform para uso no Journey Optimizer B2B edition jornada.
 feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
+source-git-commit: 2cfe830608857206dacb23bb52e41f0b3953b39b
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1775'
 ht-degree: 1%
 
 ---
 
 # Configurar definições de evento do Experience Platform
 
-Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -30,7 +30,7 @@ Cada definição de evento requer as seguintes entradas do Experience Platform:
 
   >[!NOTE]
   >
-  >Para garantir que os esquemas necessários sejam definidos, fale com a equipe de engenharia. [A criação de esquemas XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
+  >Para garantir que os esquemas necessários sejam definidos, fale com a equipe de engenharia. [A criação de esquemas XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} é um processo complexo executado por engenheiros de dados com base nos requisitos de caso de uso em sua organização.
 
 * **_Tipos de evento_** - XDM ExperienceEvent eventType (máximo de 20 por definição de evento).
 
@@ -116,7 +116,7 @@ Para procurar uma definição de evento por nome, digite uma string de texto na 
 
 1. Selecione os **[!UICONTROL Tipos de evento]** a serem usados para a definição de evento.
 
-   Os [tipos de evento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
+   Os [tipos de evento](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selecionados determinam os eventos que estão disponíveis como restrições para um nó _Ouvir um evento_ em uma jornada de conta.
 
    * Clique em **[!UICONTROL Selecionar tipos de evento]**.
    * Na caixa de diálogo, selecione um ou mais tipos de evento na lista (máximo de 20).
