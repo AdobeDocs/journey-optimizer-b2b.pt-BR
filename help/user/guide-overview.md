@@ -2,10 +2,10 @@
 title: Documentação do Adobe Journey Optimizer B2B Edition
 description: Saiba como usar os recursos do Adobe Journey Optimizer B2B Edition para orquestrar jornadas de conta e grupo de compra usando a IA generativa integrada e automação líder do setor.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 76%
 
 ---
 
@@ -17,29 +17,23 @@ Confira uma amostragem das últimas adições e melhorias no aplicativo e na doc
 
 >[!BEGINTABS]
 
+>[!TAB Pontuação de engajamento da pessoa]
+
+Agora, os profissionais de marketing B2B podem usar pontuações de engajamento no nível da pessoa como um filtro em seus caminhos divididos para uma jornada ou em um modelo de funções para criar grupos de compra. Essa pontuação e filtragem permitem o direcionamento preciso dos membros dos grupos de compra para personalizar o engajamento contínuo.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Saiba mais sobre pontuações de engajamento e filtragem de pessoas"}
+
+>[!TAB Funções personalizadas de grupos de compras]
+
+Os estrategistas de marketing B2B agora podem expandir a precisão do grupo de compras com funções de grupo de compras personalizadas. Crie até 20 funções personalizadas além das seis padrão e reutilize-as em grupos de compra. Nas jornadas da conta, adapte as mensagens para corresponder às suas funções exclusivas e melhore a relevância e o envolvimento em grupos de compra.&#x200B;
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Saiba mais sobre as funções personalizadas de grupos de compra"}
+
 >[!TAB Experiências de email do GenStudio]
 
 Integre as experiências de email do GenStudio for Performance Marketing com o Journey Optimizer B2B Edition para melhorar a eficiência do marketing e manter a consistência da marca. Com essa integração, é possível combinar a criação de conteúdo viabilizada por IA do GenStudio com os recursos avançados de orquestração do Journey Optimizer B2B Edition.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Saiba mais sobre experiências de email do GenStudio"}
-
->[!TAB Relatórios de detecção de spam]
-
-Com os novos relatórios de spam, você pode evitar filtros de spam e garantir que as mensagens sejam entregues nas caixas de entrada do público-alvo. Gerar um _relatório de spam_ diretamente no espaço de design de email.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Saiba mais sobre os relatórios de detecção de spam"}
-
->[!TAB Ações de conta e grupo de compra]
-
-Realize ações diretamente nas páginas de detalhes da conta e detalhes do grupo de compra para um engajamento oportuno e intencional.
-
-Use a ação _Enviar email_ para enviar um email do Marketo Engage aprovado para contatos da conta ou membros do grupo de compra selecionados.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Saiba mais sobre como enviar emails para contatos da conta"}
-
-Nos detalhes do grupo de compra, as ações também incluem as opções _Atribuir um novo membro_, _Remover um membro_ e _Editar uma função_.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Saiba mais sobre ações de grupo de compra"}
 
 >[!TAB Suporte a CSS personalizado]
 
@@ -53,11 +47,11 @@ Para ativar e gerenciar o modelo de Detecção de intenção, agora é possível
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Saiba mais sobre a configuração de mapeamento de palavra-chave de intenção"}
 
->[!TAB Testes de email com o Litmus]
+>[!TAB Relatórios de detecção de spam]
 
-Com uma conta do Litmus, agora você pode visualizar a renderização de emails nos clientes de email mais usados a partir do Journey Optimizer B2B Edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. 
+Com os novos relatórios de spam, você pode evitar filtros de spam e garantir que as mensagens sejam entregues nas caixas de entrada do público-alvo. Gerar um _relatório de spam_ diretamente no espaço de design de email.
 
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Saiba mais sobre a integração do teste de email do Litmus"}
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Saiba mais sobre os relatórios de detecção de spam"}
 
 >[!ENDTABS]
 
@@ -100,7 +94,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introdução"><br/>
-      <strong>Introdução</strong><br/><a href="home-page.md">Logon e página inicial</a><br/><a href="./start/get-started.md">Orientação de início rápido</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistente de IA</a>
+      <strong>Introdução</strong><br/><a href="home-page.md">Logon e página inicial</a><br/><a href="./start/get-started.md">Orientação de integração</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistente de IA</a>
     </td>
     <!--
     <td>
@@ -113,7 +107,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Jornadas da conta"><br/>
-      <strong>Jornadas de conta</strong><br/><a href="./journeys/journey-overview.md">Visão geral das jornadas</a><br/><a href="./journeys/journey-nodes.md">Nós de jornada</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Criar uma jornada de conta</a>
+      <strong>jornadas de conta</strong><br/><a href="./journeys/journey-overview.md">Visão geral do Jornada</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Criar uma jornada de conta</a><br/><a href="./journeys/journey-nodes.md">nós de Jornada</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +131,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desenvolvedores</a>
@@ -145,7 +139,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
 
