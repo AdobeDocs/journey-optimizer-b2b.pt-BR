@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
+source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 93%
+source-wordcount: '314'
+ht-degree: 92%
 
 ---
 
@@ -112,14 +112,15 @@ ht-degree: 93%
    + [Visão geral de grupos de compra](./dashboards/buying-groups-dashboard.md)
    + [Visão geral das jornadas da conta](./dashboards/journeys-dashboard.md)
 + Administração {#admin}
+   + [Governança](./admin/governance.md)
    + [Gerenciamento de usuários](./admin/user-management.md)
-   + [Dados de intenção](./admin/intent-data.md)
    + Canais {#channels}
       + [Configurações de email](./admin/configure-channels-emails.md)
-      + [Configurações de SMS](./admin/configure-channels-sms.md)
+      + [Configuração de SMS](./admin/configure-channels-sms.md)
       + [Configurações da página de destino](./admin/landing-page-settings.md)
       + [Configurar sequências de dados para a coleção de eventos](./data/aep-event-collection.md)
-   + [Configurar repositórios do AEM Assets](./admin/configure-aem-repositories.md)
-   + [Configurar definições de evento da AEP](./admin/configure-aep-events.md)
-   + [Configurar ponderação de pontuação de engajamento](./admin/engagement-score-weighting.md)
-   + [Governança](./admin/governance.md)
+   + Configurações  {#configurations}
+      + [Repositórios do AEM Assets](./admin/configure-aem-repositories.md)
+      + [Definições de evento do AEP](./admin/configure-aep-events.md)
+      + [Dados de intenção](./admin/intent-data.md)
+      + [Ponderação da pontuação de engajamento](./admin/engagement-score-weighting.md)
