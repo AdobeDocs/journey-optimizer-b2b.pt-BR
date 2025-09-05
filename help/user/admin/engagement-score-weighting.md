@@ -4,7 +4,7 @@ description: Saiba como configurar a ponderação de pontuação de engajamento 
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ Como administrador, você pode definir vários modelos de pontuação de engajam
 
    ![Acessar as definições de evento configuradas](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   A tabela exibe os modelos atualizados mais recentemente na parte superior (classificados por _[!UICONTROL Última atualização]_) e inclui a capacidade de pesquisar por _[!UICONTROL Nome]_. Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
+   A tabela exibe os modelos atualizados mais recentemente na parte superior (classificados por _[!UICONTROL Última atualização]_) e inclui a capacidade de pesquisar por _[!UICONTROL Nome]_.
 
-![Colunas a serem exibidas na lista de ponderação de pontuação de envolvimento](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
+
+   ![Colunas a serem exibidas na lista de ponderação de pontuação de envolvimento](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. Para acessar os detalhes de um modelo de pontuação de engajamento, clique no nome.
 
@@ -76,7 +78,7 @@ As configurações de peso definem as faixas que podem ser atribuídas a cada at
 1. Para cada faixa de peso, ajuste o nome ou os valores de acordo com suas necessidades:
 
    * Altere o nome no campo _[!UICONTROL Faixa de ponderação]_.
-   * Insira um novo valor. Você também pode clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
+   * Insira um novo valor. Você também pode clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Configurações de peso da participação](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
