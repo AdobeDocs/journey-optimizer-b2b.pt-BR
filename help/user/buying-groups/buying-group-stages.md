@@ -1,10 +1,10 @@
 ---
 title: Estágios de Grupo de Compras
-description: Saiba mais sobre estágios de grupo de compras e como defini-los para rastrear a progressão da jornada em relação às metas de vendas.
+description: Configure os estágios do grupo de compras para rastrear a progressão de vendas da oportunidade para a conversão do cliente no Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -128,7 +128,7 @@ As regras de transição determinam como um grupo de compras pode se mover de um
 
 Desde que o modelo de estágios do grupo de compra permaneça em um estado de _Rascunho_, você pode editar os estágios e as regras de transição.
 
-_Para exibir o modelo de rascunho:_
+_Para exibir o modelo de rascunho :_
 
 1. Na navegação à esquerda, vá para **[!UICONTROL Contas]** > **[!UICONTROL Grupos de Compras]**.
 
@@ -365,4 +365,4 @@ Use a ocorrência de uma alteração de estágio de grupo de compra para mover a
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448699/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

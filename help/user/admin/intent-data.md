@@ -1,12 +1,12 @@
 ---
 title: Dados de intenção
-description: Saiba como reunir e enviar palavras-chave para gerar dados de intenção para o Journey Optimizer B2B edition.
+description: Configure os dados de intenção com mapeamento de palavra-chave para prever o interesse do cliente e os sinais de compra para marketing baseado em conta no Journey Optimizer B2B edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---

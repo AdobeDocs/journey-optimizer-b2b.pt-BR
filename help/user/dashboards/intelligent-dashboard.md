@@ -1,13 +1,13 @@
 ---
 title: Painel inteligente
-description: Saiba mais sobre o Painel inteligente, que fornece uma visualização abrangente das métricas do grupo de compras e da conta
+description: Acesse insights alimentados por IA para grupos de compras e contas com métricas de envolvimento, detecção de intenção e análise preditiva no Journey Optimizer B2B edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -153,7 +153,7 @@ A seção _[!UICONTROL Contas de limpeza]_ exibe uma visualização das contas c
 
 >[!NOTE]
 >
->Os dados de sobrecarga da conta são limitados às contas assimiladas pelo Journey Optimizer B2B edition em um público-alvo de conta por meio de jornadas de conta ou grupos de compra.
+>Os dados de sobrecarga da conta incluem apenas as contas que o Journey Optimizer B2B edition assimila por meio de jornadas de conta ou grupos de compra.
 
 ![Visualização de dados de sobreposição de conta](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -172,7 +172,6 @@ Clique no ícone _Filtro_ ( ![Editar ícone](../assets/do-not-localize/icon-filt
 * Interesse na solução
 * Setor
 * Região
-
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
@@ -198,7 +197,7 @@ A seção _[!UICONTROL Destaques da conta]_ está organizada em duas linhas para
 
 >[!NOTE]
 >
->Os dados de destaque da conta são limitados às contas assimiladas pelo Journey Optimizer B2B edition em um público-alvo de conta por meio de jornadas de conta ou grupos de compra.
+>Os dados de destaques da conta incluem apenas contas que o Journey Optimizer B2B edition assimila por meio de jornadas de conta ou grupos de compra.
 
 ![Destaques da conta](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -288,7 +287,7 @@ Clique em _Informações_ ( ![Ícone de informações](../assets/do-not-localize
 * Nome do grupo de compras (clique no nome para abrir a página de detalhes do grupo de compras)
 * Função
 * Interesse na solução
-* Propósito do produto
+* Intenção do produto
 * Produto
 
 ![Detalhes de sobreposição de contato](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}

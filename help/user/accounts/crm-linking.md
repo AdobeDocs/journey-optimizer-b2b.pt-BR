@@ -1,21 +1,22 @@
 ---
 title: Acesso no CRM às páginas de detalhes
-description: Saiba como os membros da equipe de vendas podem acessar páginas detalhadas de contas, contatos e clientes potenciais diretamente da ferramenta CRM (relacionamento com o cliente), como Salesforce ou Microsoft Dynamics.
+description: Adicione links personalizados para detalhes de conta e contato para habilitar o acesso direto aos insights B2B do Journey Optimizer do Salesforce e do Dynamics CRM.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
 # Acesso no CRM às páginas de detalhes
 
-O Adobe Journey Optimizer B2B edition permite que os membros da equipe de vendas e os gerentes de conta acessem páginas detalhadas para informações de conta e grupo de compras diretamente da ferramenta de CRM (relacionamento com o cliente), como Salesforce ou Microsoft Dynamics. Com essa integração, os representantes de vendas podem acessar rapidamente os insights da conta e do grupo de compras em tempo real, como o histórico de engajamento, os sinais de intenção e as recomendações geradas por IA. Essa capacidade capacita a equipe de vendas para um alcance mais rápido, uma priorização mais inteligente e um melhor alinhamento com o Marketing.
+O Adobe Journey Optimizer B2B edition permite que os membros da equipe de vendas e contas acessem páginas detalhadas para informações de contas e grupos de compras diretamente da ferramenta de CRM (relacionamento com o cliente), como Salesforce ou Microsoft Dynamics. Com essa integração, os representantes de vendas podem acessar rapidamente os insights da conta e do grupo de compras em tempo real, como o histórico de engajamento, os sinais de intenção e as recomendações geradas por IA. Essa capacidade capacita a equipe de vendas para um alcance mais rápido, uma priorização mais inteligente e um melhor alinhamento com o Marketing.
 
-Para permitir que os membros da equipe de Vendas exibam [detalhes da conta](account-details.md) e [detalhes da pessoa](person-details.md) páginas no Journey Optimizer B2B edition a partir do CRM, o administrador do Salesforce ou do Dynamics pode adicionar um link do Journey Optimizer B2B edition a partir da exibição da conta, do contato ou do cliente potencial.
+Para permitir que membros da equipe de vendas e contas exibam [detalhes da conta](account-details.md) e [detalhes da pessoa](person-details.md) páginas no Journey Optimizer B2B edition a partir do CRM, o administrador do Salesforce ou do Dynamics pode adicionar um link da exibição da conta, do contato ou do cliente potencial.
 
 Quando um membro da equipe de vendas usa o link da instância do CRM, a sandbox deve ser _Prod_ e a organização IMS é determinada de acordo com a seguinte lógica ordenada:
 
@@ -45,7 +46,7 @@ Use o objeto `Account` para buscar a ID de 18 caracteres da conta, como `CASESAF
 
 **_Exemplos:_**
 
-+++Link de campo
++++Link do campo
 
 1. No Salesforce, vá para **[!UICONTROL Configuração]** > **[!UICONTROL Gerenciador de Objetos]** > **[!UICONTROL Conta]**/**[!UICONTROL Contato]**/**[!UICONTROL Lead]** > **[!UICONTROL Campos e Relações]**.
 1. Clique em **[!UICONTROL Novo]** para criar um campo de fórmula (texto) e adicioná-lo ao layout _Conta_, _Contato_ ou _Cliente Potencial_.
@@ -91,7 +92,7 @@ Use o objeto `Account` para buscar a ID de 18 caracteres da conta, como `CASESAF
 
 +++
 
-+++Botão de página Detalhes
++++Botão Detalhar página
 
 1. No Salesforce, vá para **[!UICONTROL Configuração]** > **[!UICONTROL Gerenciador de Objetos]** > **[!UICONTROL Conta]**/**[!UICONTROL Contato]**/**[!UICONTROL Lead]** > **[!UICONTROL Botões, Links e Ações]**.
 1. Clique em **[!UICONTROL Novo Botão ou Link]** no canto superior direito e crie o botão de página detalhada.
@@ -134,7 +135,7 @@ Ao definir o URL de destino para o link, você pode usar a visualização de con
 
 **_Exemplos:_**
 
-+++Campo URL
++++Campo de URL
 
 Siga esta sequência de tarefas para adicionar o link personalizado como um campo de URL:
 
@@ -319,7 +320,7 @@ Siga esta sequência de tarefas para adicionar o link personalizado como um recu
 
    ![Recurso da Web](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Consulte a [documentação do Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy) para obter informações detalhadas sobre as propriedades e a formatação dos recursos da Web.
+   Para obter informações detalhadas sobre propriedades e formatação de recursos da Web, consulte a [documentação do Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
 
 1. Clique em **[!UICONTROL OK]**.
 

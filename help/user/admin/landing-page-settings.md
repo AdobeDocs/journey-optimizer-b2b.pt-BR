@@ -1,15 +1,15 @@
 ---
 title: Configuração da landing page
-description: Saiba como acessar e definir as configurações da landing page para que sua equipe de marketing possa criar e publicar páginas da Web para dar suporte às campanhas.
+description: Configure subdomínios de página de aterrissagem, configurações de preenchimento prévio de formulário e sequências de dados para ativar a publicação de páginas da Web do Campaign no Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '506'
 ht-degree: 23%
 
 ---

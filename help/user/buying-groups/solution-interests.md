@@ -1,12 +1,12 @@
 ---
 title: Interesses da solução
-description: Saiba mais sobre os interesses da solução e como você pode defini-los para uso nos grupos de compra.
+description: Defina os interesses da solução para identificar os produtos de destino e criar automaticamente grupos de compra com modelos de função no Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ Qualquer interesse de solução que esteja atualmente em uso por qualquer trabal
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3450118/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

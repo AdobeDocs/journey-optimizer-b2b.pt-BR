@@ -1,12 +1,12 @@
 ---
 title: Configurar Ponderação De Pontuação De Engajamento
-description: Saiba como configurar a ponderação de pontuação de engajamento personalizada para refletir a lógica de pontuação que se alinha às suas estratégias comerciais.
+description: Crie modelos de pontuação de engajamento personalizados com atividades ponderadas para medir o engajamento e a intenção do grupo de compras com precisão no Journey Optimizer B2B edition.
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ As configurações de peso definem as faixas que podem ser atribuídas a cada at
 1. Para cada faixa de peso, ajuste o nome ou os valores de acordo com suas necessidades:
 
    * Altere o nome no campo _[!UICONTROL Faixa de ponderação]_.
-   * Insira um novo valor. Você também pode clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
+   * Insira um novo valor. Você também pode clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Configurações de peso da participação](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

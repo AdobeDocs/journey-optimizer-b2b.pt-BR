@@ -1,13 +1,13 @@
 ---
 title: Pontuações de engajamento para grupos de compra
-description: Saiba mais sobre as pontuações de engajamento de grupo de compras e pessoa, incluindo lógica de cálculo e tipos de atividade que determinam a pontuação.
-feature: Buying Groups
+description: Rastreie as pontuações de engajamento do grupo de compras e da pessoa com atividades ponderadas e cálculos com base em funções no Journey Optimizer B2B edition.
+feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 24%
+source-wordcount: '1251'
+ht-degree: 28%
 
 ---
 
@@ -30,7 +30,7 @@ Há dois tipos de pontuações de engajamento:
 
 * **Pontuação de engajamento da pessoa** - A pontuação de engajamento da pessoa é baseada nas atividades de um membro de grupo de compras individual.
 
-  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros &#x200B;]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
+  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros ]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
 
   ![Membros mais engajados do grupo de compras](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ A pontuação do grupo de compras não é _baseada em acionamentos_. É um proce
 
 Há um limite de frequência diário de 20 para cada atividade. Se um membro de um grupo de compras executar a mesma atividade mais de 20 vezes em um único dia, a contagem da atividade será limitada a 20.
 
-{{engagement-activities}}
+| Nome da atividade | Descrição | Tipo de engajamento | Contagem máxima de frequência diária | Peso de atividade do modelo padrão |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| Participar de evento | Um membro participou de um evento | Evento | 20 | 60 |
+| Email clicado | Um membro clica em um link em um email | Email | 20 | 30 |
+| Email aberto | Um membro abre um email | Email | 20 | 30 |
+| Formulário preenchido | Um membro preenche e envia um formulário em uma página da Web | Web | 20 | 40 |
+| Momento interessante | Um membro tem um momento interessante | Preparado | 20 | 60 |
+| Cliques de link | Um membro clica em um link em uma página da Web | Web | 20 | 40 |
+| Page Views | Um membro exibe uma página da Web | Web | 20 | 40 |
+| Inscrever-se em um evento | Um membro registrado para um evento | Evento | 20 | 60 |
 
 <!-- old list
 

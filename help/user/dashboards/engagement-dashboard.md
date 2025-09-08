@@ -1,12 +1,12 @@
 ---
 title: Painel de visão geral do contrato
-description: Saiba como você pode usar o painel Visão geral do engajamento para monitorar seus esforços de engajamento.
+description: Monitore métricas de engajamento em tempo real para contas, grupos de compras e pessoas com gráficos interativos e análise de tendências no Journey Optimizer B2B edition.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---
@@ -54,7 +54,6 @@ Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filt
 * Interesse na solução
 * Tipo de engajamento
 * Região
-
 * Setor
 * Função do membro do grupo de compra
 
@@ -82,7 +81,7 @@ Os filtros globais (intervalo de dados e atributos) são aplicados ao painel e s
 
 Você pode clicar no ícone de menu **...** no canto superior direito e escolher **[!UICONTROL Exibir mais]** para [exibir dados e insights estendidos](#view-more).
 
-### Exibir mais
+### Visualizar mais
 
 Escolha **[!UICONTROL Exibir mais]** para dados e insights estendidos.
 

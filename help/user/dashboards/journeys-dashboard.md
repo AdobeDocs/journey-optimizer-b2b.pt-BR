@@ -1,12 +1,12 @@
 ---
 title: Painel de Visão Geral das Jornadas da Conta
-description: Saiba mais sobre as informações fornecidas pelo painel Visão geral do Jornada e como ele pode ajudar você a monitorar e gerenciar sua estratégia de jornada de conta.
+description: Acompanhe o desempenho da jornada de conta com taxas de conclusão, métricas de envolvimento e análise da eficácia do canal no Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---

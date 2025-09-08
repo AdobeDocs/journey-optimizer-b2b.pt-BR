@@ -1,12 +1,12 @@
 ---
 title: Painel de Visão Geral de Grupos de Compras
-description: Saiba mais sobre o painel Visão geral dos grupos de compra e como ele permite a transferência de vendas da equipe de marketing.
+description: Acompanhe o progresso do grupo de compras com pontuações de conclusão, métricas de envolvimento e análise de interesse da solução para permitir a transferência de vendas no Journey Optimizer B2B edition.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,6 @@ Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filt
 * Estágio atual
 * Setor
 * Região
-
 * Interesse na solução
 
 ![Filtrar os dados exibidos por atributos](./assets/buying-group-overview-filters.png){width="500"}

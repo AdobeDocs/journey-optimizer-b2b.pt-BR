@@ -1,13 +1,13 @@
 ---
 title: Públicos-alvo da conta
-description: Saiba mais sobre os públicos-alvo de conta e como eles possibilitam jornadas baseadas em contas.
+description: Crie públicos-alvo de conta com segmentação para direcionar contas específicas e habilite jornadas personalizadas com base em conta no Journey Optimizer B2B edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '552'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Defina o público-alvo da conta criando uma segmentação de conta. Crie a segme
 
    O exemplo a seguir define o público-alvo criado por meio de `Country Code`, `Revenue Amount` e `Market segment`. A consulta em inglês seria “I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M.” (Busco todas as contas do segmento de Finanças nos EUA cuja receita exceda US$ 1 milhão).
 
-   ![Exemplo do construtor de segmento de público-alvo da conta](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ![Exemplo do construtor de segmentos de público-alvo da conta](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]

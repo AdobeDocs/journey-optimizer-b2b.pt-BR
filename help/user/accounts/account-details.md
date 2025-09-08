@@ -1,12 +1,12 @@
 ---
 title: Detalhes da conta
-description: Saiba mais sobre como acessar informações detalhadas e resumos de IA gerativos para contas no Journey Optimizer B2B edition.
+description: Visualize insights da conta com resumos de IA, detecção de intenção, análise de cobertura de contato e comunicações por email no Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 6%
 
 ---

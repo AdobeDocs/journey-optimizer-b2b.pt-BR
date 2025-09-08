@@ -1,12 +1,12 @@
 ---
 title: Comprando modelos de função de grupo
-description: Saiba mais sobre como definir um modelo de função a ser usado como um componente de grupo de compras.
+description: Crie modelos de função do grupo de compras com condições de atribuição automática para identificar tomadores de decisão e participantes no Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1124'
 ht-degree: 5%
 
 ---
@@ -162,4 +162,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

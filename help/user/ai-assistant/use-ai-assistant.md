@@ -1,13 +1,13 @@
 ---
 title: Usar o Assistente de IA
-description: Saiba como o Assistente de IA pode ajudar você a aproveitar ao máximo os recursos do Journey Optimizer B2B edition.
+description: Faça perguntas sobre o conhecimento do produto no Assistente de IA e obtenha insights operacionais sobre jornadas, públicos e grupos de compras no Journey Optimizer B2B edition.
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---

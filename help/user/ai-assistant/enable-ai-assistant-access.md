@@ -1,13 +1,13 @@
 ---
 title: Habilitar o acesso ao assistente de IA
-description: Saiba como habilitar o Assistente de IA no Journey Optimizer B2B edition.
+description: Conceda permissões do Assistente de IA para usuários por meio da interface do usuário de permissões para habilitar o acesso no Journey Optimizer B2B edition.
 feature: AI Assistant
 role: Admin
 level: Beginner
 exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
-source-git-commit: b1dbc1cab8b986d9daca9ec18f8ccb842f52e99c
+source-git-commit: ce6c6b26865f1e5b02b95f3700d79234fbf9f500
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '322'
 ht-degree: 3%
 
 ---
@@ -16,23 +16,23 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Se você receber uma mensagem pop-up na interface de permissões do usuário informando que sua organização deve primeiro concordar com termos legais adicionais para obter acesso ao Assistente de IA, entre em contato com a equipe de conta da Adobe para obter orientação sobre esses termos.
+>Se você receber uma mensagem na interface de permissões para informá-lo de que sua organização deve primeiro concordar com termos legais adicionais para obter acesso ao Assistente de IA, entre em contato com a equipe de conta da Adobe para obter orientação.
 
 Os parâmetros a seguir controlam o acesso ao Assistente de IA no Journey Optimizer B2B edition:
 
 * **Acessar o aplicativo:** Você pode acessar o Assistente de IA no Adobe Journey Optimizer B2B edition.
 
-* **Permissões:** Use a [Interface do usuário de permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} para conceder ou revogar acesso ao Assistente de IA em sua organização. Para usar o Assistente de IA, um determinado usuário deve pertencer a uma função configurada com as permissões **Habilitar Assistente de IA** e **Exibir Insights Operacionais**.
+* **Permissões:** Use a [Interface do usuário de permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} para conceder ou revogar acesso ao Assistente de IA em sua organização. Para usar o Assistente de IA, um determinado usuário deve pertencer a uma função configurada com as permissões _[!UICONTROL Habilitar Assistente de IA]_ e _[!UICONTROL Exibir Insights Operacionais]_.
 
 Como administrador, você pode:
 
-* Adicione a permissão **Habilitar Assistente de IA** a uma determinada função e adicione um usuário a essa função. Essa permissão dá ao usuário acesso ao Assistente de IA na organização.
+* Adicione a permissão **[!UICONTROL Habilitar Assistente de IA]** a uma determinada função e adicione um usuário a essa função. Essa permissão fornece acesso ao Assistente de IA para usuários em sua organização.
 
-* Adicione a permissão **Exibir Insights Operacionais** a uma determinada função e adicione um usuário a essa função. Essa permissão possibilita que o usuário use os recursos de insights operacionais do Assistente de IA.
+* Adicione a permissão **[!UICONTROL Exibir Insights Operacionais]** a uma determinada função e adicione um usuário a essa função. Essa permissão possibilita que o usuário use os recursos de insights operacionais do Assistente de IA.
 
 ![Atribuir permissões do Assistente de IA](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Use a interface de permissões para conceder permissões para usar o Assistente de IA no Journey Optimizer B2B edition. Para obter informações sobre como acessar o Assistente de IA no Experience Platform e outros aplicativos da Experience Cloud, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Use a interface de permissões para conceder permissões para usar o Assistente de IA no Journey Optimizer B2B edition. Para obter informações sobre como acessar o Assistente de IA no Experience Platform e outros aplicativos da Experience Cloud, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Quando o usuário tem as permissões necessárias, ele pode acessar o Assistente de IA selecionando o ícone do _Assistente de IA_ no cabeçalho superior do aplicativo que você está usando.
 
