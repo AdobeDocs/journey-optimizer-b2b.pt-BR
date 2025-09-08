@@ -9,19 +9,20 @@ keywords: Temas de email, Reutilização, Alinhamento da marca, Design de email
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9d8aa70c23ce85058a23bbe21c198d6e074923ac
+exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
 workflow-type: tm+mt
 source-wordcount: '3085'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Usar temas de marca para conteúdo de email {#email-brand-themes}
+# Usar temas de marca para o conteúdo do email {#email-brand-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
->title="Aplicar um tema de marca ao seu email ou modelo de email"
->abstract="Selecione um tema para seu email ou modelo de email para aplicar um estilo específico que se ajuste à sua marca e design."
+>title="Aplicar um tema da marca ao email ou modelo de email"
+>abstract="Selecione um tema para o e-mail ou o modelo de e-mail para aplicar um estilo específico que se ajuste à marca e ao design."
 
 Com temas, os designers não técnicos têm a capacidade de criar diretrizes reutilizáveis de design de conteúdo de email que se alinham a uma marca e um estilo específicos. Os temas permitem que os profissionais de marketing aproveitem emails visualmente atraentes e consistentes com a marca de forma mais rápida e com menos esforço, além de fornecer opções avançadas de personalização para necessidades de design exclusivas.
 

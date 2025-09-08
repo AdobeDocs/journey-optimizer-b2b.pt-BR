@@ -3,13 +3,13 @@ title: Pontuações de engajamento para grupos de compra
 description: Saiba mais sobre as pontuações de engajamento de grupo de compras e pessoa, incluindo lógica de cálculo e tipos de atividade que determinam a pontuação.
 feature: Buying Groups
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
-
 
 # Pontuações de engajamento {#engagement-scores}
 
@@ -30,7 +30,7 @@ Há dois tipos de pontuações de engajamento:
 
 * **Pontuação de engajamento da pessoa** - A pontuação de engajamento da pessoa é baseada nas atividades de um membro de grupo de compras individual.
 
-  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros &#x200B;]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
+  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros ]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
 
   ![Membros mais engajados do grupo de compras](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -100,8 +100,8 @@ Há um limite de frequência diário de 20 para cada atividade. Se um membro de 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Ponderação de função da pontuação de engajamento"
->abstract="Use a ponderação de funções para personalizar o cálculo da pontuação de envolvimento."
+>title="Ponderação da função da pontuação de engajamento"
+>abstract="Use a ponderação de função para personalizar o cálculo da pontuação de engajamento."
 
 Os usuários podem atribuir _ponderação_ a cada função no [modelo de funções](./buying-groups-role-templates.md) para alocar pesos diferentes para uma função.
 
