@@ -25,7 +25,7 @@ Ao fazer logon no Adobe Experience Platform e selecionar o aplicativo Adobe Jour
 
 ![Página inicial do Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-O Journey Optimizer B2B Edition tem duas personas de usuário principais: _**profissional de marketing**_ e _**admin**_. Cada persona tem uma página inicial específica para diferentes estágios de maturidade (novos ou avançados). O conteúdo da página é baseado no que cada persona precisa em termos de informações e as próximas ações a serem tomadas.
+O Journey Optimizer B2B Edition tem duas personas de usuário principais: _&#x200B;**profissional de marketing**&#x200B;_ e _&#x200B;**admin**&#x200B;_. Cada persona tem uma página inicial específica para diferentes estágios de maturidade (novos ou avançados). O conteúdo da página é baseado no que cada persona precisa em termos de informações e as próximas ações a serem tomadas.
 
 * **Profissional de marketing - novo usuário** — A página inicial do _Profissional de marketing_ para um novo usuário ajuda ele a se acostumar com o Journey Optimizer B2B e seus recursos. Inclui um guia detalhado com um passo a passo de integração para que o(a) novo(a) profissional de marketing possa entender as nuances do sistema e se tornar eficiente no desenvolvimento de estratégias e iniciativas de marketing B2B.
 * **Profissional de marketing - usuário avançado** — A página inicial do _Profissional de marketing_ de um profissional de marketing avançado exibe o progresso da iniciativa atual, as próximas ações recomendadas e fornece acesso rápido às seções relevantes.
