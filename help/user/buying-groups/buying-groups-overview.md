@@ -112,4 +112,4 @@ Consulte [Pontuações de engajamento](./engagement-scores.md) para obter inform
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
