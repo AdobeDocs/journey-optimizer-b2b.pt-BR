@@ -1,13 +1,13 @@
 ---
 title: Criação de SMS
-description: Saiba como enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis e personalizar e visualizar mensagens no formato de texto pelo editor de SMS.
+description: Crie mensagens SMS para jornadas de conta com personalização, links e gerenciamento de consentimento — visualize o conteúdo e defina as configurações de entrega no Journey Optimizer B2B edition.
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 3%
+source-wordcount: '1362'
+ht-degree: 2%
 
 ---
 
@@ -92,7 +92,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
      >[!NOTE]
      >
      >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento das atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desabilite esta opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
-     >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -124,7 +124,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Verificar como o conteúdo está sendo renderizado"
->abstract="Após o conteúdo ser definido, você poderá visualizá-lo e verificar a renderização para o canal que está usando."
+>abstract="Quando o conteúdo é definido, é possível visualizar e verificar a renderização do canal que você está usando."
 
 Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para simular (pré-visualizar) o conteúdo. Se você inseriu conteúdo personalizado, é possível verificar como esse conteúdo é exibido na mensagem usando os dados do perfil de teste.
 

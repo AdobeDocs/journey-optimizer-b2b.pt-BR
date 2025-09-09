@@ -1,6 +1,6 @@
 ---
 title: Usar temas de marca para conteúdo de email
-description: Saiba como simplificar a criação de conteúdo de email com temas reutilizáveis, garantindo a consistência e a eficiência do design.
+description: Crie temas de marca personalizados para emails e modelos - defina cores, fontes, espaçamento e botões para obter um design consistente no Journey Optimizer B2B edition.
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3087'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Aplicar um tema da marca ao email ou modelo de email"
->abstract="Selecione um tema para o e-mail ou o modelo de e-mail para aplicar um estilo específico que se ajuste à marca e ao design."
+>abstract="Selecione um tema para seu email ou modelo de email para aplicar um estilo que se ajuste à sua marca e design."
 
 Com temas, os designers não técnicos têm a capacidade de criar diretrizes reutilizáveis de design de conteúdo de email que se alinham a uma marca e um estilo específicos. Os temas permitem que os profissionais de marketing aproveitem emails visualmente atraentes e consistentes com a marca de forma mais rápida e com menos esforço, além de fornecer opções avançadas de personalização para necessidades de design exclusivas.
 
@@ -132,7 +132,7 @@ Selecione a guia **[!UICONTROL Cores]** e use as configurações para definir a 
 
   | Tipo | Configurações | Descrição |
   | ---- | -------- | ----------- |
-  | [!UICONTROL Geral] | ![Configurações gerais de cor para uma variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Essas configurações permitem definir cores para corpo, estruturas, contêineres, planos de fundo, links, grades e bordas. |
+  | [!UICONTROL Geral] | ![Configurações gerais de cor para uma variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Essas configurações determinam as cores do corpo, das estruturas, dos contêineres, dos planos de fundo, dos links, das grades e das bordas. |
   | [!UICONTROL Títulos] | ![Configurações de cor de cabeçalho para uma variante](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | Essas configurações se aplicam aos elementos `Heading`, onde é possível definir cores de texto e de borda para cada um dos seis níveis de cabeçalho. Expanda cada nível de cabeçalho que você deseja definir para a variante. |
   | [!UICONTROL Parágrafos] | ![Configurações de cor de parágrafo para uma variante](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | Essas configurações se aplicam aos elementos `Paragraph`, onde é possível definir cores de texto e de borda para cada um dos três tipos de parágrafo. Expanda cada tipo de parágrafo que você deseja definir para a variante. |
   | [!UICONTROL Botões] | ![Configurações de cor do botão para uma variante](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | As configurações se aplicam aos elementos de botão, onde é possível definir a cor de preenchimento, a cor da borda e a cor do texto para cada uma das três predefinições de botão: _Primário_, _Secundário_ e _Terciário_. |

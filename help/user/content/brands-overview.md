@@ -1,6 +1,6 @@
 ---
 title: Usar marcas para geração e consistência de conteúdo
-description: Saiba mais sobre as diretrizes da marca que você pode definir no Journey Optimizer B2B edition para gerar e otimizar seu conteúdo de acordo com os estilos da marca e a voz.
+description: Defina as diretrizes da marca para a criação consistente do conteúdo - mantenha a identidade visual, o alinhamento das mensagens e a voz autêntica no Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Introdução a marcas"
->abstract="Crie e personalize suas próprias marcas para definir uma identidade visual e verbal única, além de facilitar a geração de conteúdo que corresponda ao estilo e à voz da marca."
+>abstract="Crie e personalize suas marcas para definir sua identidade visual e verbal exclusiva, facilitando a geração de conteúdo que corresponda ao estilo e à voz da sua marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -73,7 +73,7 @@ Uma marca definida fornece a _fonte da verdade_ para sua equipe criativa usar ao
 
 ## Permissões relacionadas à marca
 
-Os administradores de produtos podem habilitar o acesso aos recursos de gerenciamento de marcas e alinhamento de marcas, atribuindo o **[!UICONTROL Gerenciar kit de marcas]** ou as **[!UICONTROL Habilitar assistente de IA]** permissões de recursos por meio do aplicativo _Permissões_ no Adobe Experience Cloud.
+Os administradores de produtos podem habilitar o acesso aos recursos de gerenciamento de marcas e alinhamento de marcas atribuindo o **[!UICONTROL Gerenciar kit de marcas]** ou as **[!UICONTROL Habilitar assistente de IA]** permissões de recursos por meio da interface de usuário de _Permissões_ no Adobe Experience Cloud.
 
 1. No aplicativo Permissões, vá para a guia **[!UICONTROL Funções]** e selecione a [função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} desejada.
 

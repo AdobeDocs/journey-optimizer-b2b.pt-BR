@@ -1,14 +1,14 @@
 ---
 title: Visualizar e testar o conteúdo do email
-description: Saiba como pré-visualizar e testar seu conteúdo de email para garantir que ele esteja livre de erros nas configurações de conteúdo e personalização.
+description: Pré-visualize emails com perfis de teste, verifique a renderização de desktops e dispositivos móveis, envie provas para os recipients e valide a personalização no Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 7%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Verificar como o conteúdo está sendo renderizado"
->abstract="Após o conteúdo ser definido, você poderá visualizá-lo e verificar se a renderização está correta de acordo com o canal que está usando."
+>abstract="Quando o conteúdo for definido, você poderá pré-visualizá-lo e verificar se a renderização está correta para o canal que está usando."
 
 Use o recurso _Simular conteúdo_ para visualizar o conteúdo do email e enviar entregas de teste para destinatários específicos. Os campos de email necessários devem ser definidos, incluindo _[!UICONTROL Do nome]_, _[!UICONTROL Do endereço]_, _[!UICONTROL Responder para endereço]_ e _[!UICONTROL Linha de assunto]_, para acessar os recursos de visualização e teste.
 
