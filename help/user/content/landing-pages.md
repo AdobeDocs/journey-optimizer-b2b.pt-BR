@@ -1,13 +1,13 @@
 ---
-title: Páginas de aterrissagem
-description: Saiba mais sobre landing pages e como criá-las e gerenciá-las para oferecer suporte a jornadas e campanhas de conta.
+title: Páginas de destino
+description: Criar, projetar e publicar páginas de aterrissagem para jornadas de conta - crie do zero, importe o HTML, adicione formulários, personalize o conteúdo e vincule a partir de emails no Journey Optimizer B2B edition.
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 2%
 
 ---

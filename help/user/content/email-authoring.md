@@ -1,12 +1,12 @@
 ---
 title: Criação de mensagens de email
-description: Saiba como criar conteúdo de email no Adobe Journey Optimizer B2B. Use modelos, importações do HTML e ferramentas alimentadas por IA para personalizar e otimizar suas comunicações por email.
+description: Crie emails com ferramentas de design visual, importação do HTML ou modelos - use a geração de conteúdo do Assistente de IA, CSS personalizado e personalização no Journey Optimizer B2B edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 2%
 
 ---

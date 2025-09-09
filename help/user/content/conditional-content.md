@@ -1,12 +1,12 @@
 ---
 title: Conteúdo condicional
-description: Saiba como criar variações de conteúdo e aplicar regras condicionais ao criar fragmentos visuais e conteúdo de email para jornadas de conta.
+description: Crie variantes de conteúdo dinâmico com regras condicionais com base em atributos de perfil e eventos para emails e fragmentos personalizados no Journey Optimizer B2B edition.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1262'
 ht-degree: 12%
 
 ---

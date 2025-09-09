@@ -1,17 +1,17 @@
 ---
-title: Assistente de IA para criação de email
-description: Saiba como usar o Assistente de IA para otimizar o conteúdo de email usado nas Jornadas de conta.
+title: Assistente de IA para geração de conteúdo de email
+description: Gerar conteúdo de email com o Assistente de IA - crie conteúdo de mensagem, linhas de assunto e pré-cabeçalhos com ativos de marca e direcionamento de função de grupo de compra no Journey Optimizer B2B edition.
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: '3089'
 ht-degree: 0%
 
 ---
 
-# Assistente de IA para criação de email
+# Assistente de IA para geração de conteúdo de email
 
 À medida que o setor de marketing se torna mais competitivo, as marcas buscam maneiras eficientes de gerar conteúdo impactante de forma rápida e eficiente. O Assistente de IA para criação de email no Adobe Journey Optimizer B2B edition é um recurso de geração de conteúdo alimentado por IA da Adobe que revoluciona a maneira como os profissionais de marketing criam conteúdo de email profissional e consistente com a marca. Com modelos avançados de GenAI e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz com base no objetivo de marketing com conteúdo otimizado para estilos, layouts, tom e muito mais. O AI Assistant torna a criação e a execução de campanhas de marketing por email intuitivas, simples e sem complicações. Adicionar esse recurso aos workflows pode economizar tempo, melhorar a eficiência e gerar melhores resultados.
 
@@ -204,11 +204,11 @@ Um pré-cabeçalho de email é o texto curto de resumo que segue a linha de assu
 
 Depois de [criar e personalizar seu email](./email-authoring.md), use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA generativa, para elevar seu conteúdo de corpo de email ao próximo nível.
 
-No designer de email, o Assistente de IA pode ajudar você a otimizar o impacto de suas entregas, gerando o corpo completo do email, o conteúdo de texto direcionado e as recomendações de imagens que refletem no seu público-alvo. Essa otimização de suas campanhas de email foi projetada para produzir um melhor engajamento.
+No espaço de design de email, o Assistente de IA pode ajudar você a otimizar o impacto de seus deliveries, gerando o corpo completo do email, o conteúdo de texto direcionado e recomendações para imagens que repercutem com seu público-alvo. Essa otimização de suas campanhas de email foi projetada para produzir um melhor engajamento.
 
 1. Crie um email com base em uma jornada de conta e clique em **[!UICONTROL Abrir Designer de Email]** ou **[!UICONTROL Adicionar Conteúdo de Email]**.
 
-1. Selecione e abra um modelo de email no designer de email visual.
+1. Selecione e abra um modelo de email no espaço de design visual de email.
 
 1. Personalize o email conforme necessário para o nó do jornada.
 
@@ -220,7 +220,7 @@ No designer de email, o Assistente de IA pode ajudar você a otimizar o impacto 
 
 As etapas a seguir descrevem a sequência de tarefas para usar o Assistente de IA para refinar um modelo de email existente:
 
-1. No designer de email, acesse o menu do Assistente do AI clicando no ícone ( ![Alternância do menu do Assistente do AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) à direita.
+1. No espaço de design de email, acesse o menu do Assistente do AI clicando no ícone ( ![Alternância do menu do Assistente do AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) à direita.
 
    ![Alternância do Assistente de IA no designer de email](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -259,15 +259,15 @@ As etapas a seguir descrevem a sequência de tarefas para usar o Assistente de I
 
      ![Assistente de IA - configurações de texto](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Selecionar]** para substituir o conteúdo do modelo pela variante selecionada e retornar ao designer de email.
+1. Clique em **[!UICONTROL Selecionar]** para substituir o conteúdo do modelo pela variante selecionada e retornar ao espaço de design de email.
 
-   No designer de email, você pode usar as ferramentas de edição e formatação da tela para alterar o conteúdo, bem como as opções _[!UICONTROL Configurações]_ e _[!UICONTROL Estilo]_ à direita.
+   No espaço de design de email, você pode usar as ferramentas de edição e formatação na tela para alterar o conteúdo, bem como as opções _[!UICONTROL Configurações]_ e _[!UICONTROL Estilo]_ à direita.
 
 >[!TAB Geração de texto]
 
 As etapas a seguir descrevem a sequência de tarefas para usar o Assistente do AI para refinar ou aprimorar o conteúdo de texto de um email existente:
 
-1. No designer de email, acesse o menu do Assistente do AI clicando no ícone ( ![Alternância do menu do Assistente do AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) à direita.
+1. No espaço de design de email, acesse o menu do Assistente do AI clicando no ícone ( ![Alternância do menu do Assistente do AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) à direita.
 
    ![Alternância do Assistente de IA no designer de email](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -315,9 +315,9 @@ As etapas a seguir descrevem a sequência de tarefas para usar o Assistente do A
 
    ![Visualização do Assistente de IA das opções de refinamento e variação de texto](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. Quando tiver o conteúdo desejado, clique em **[!UICONTROL Selecionar]** para substituir o texto pela variante selecionada e retornar ao designer de email.
+1. Quando tiver o conteúdo desejado, clique em **[!UICONTROL Selecionar]** para substituir o texto pela variante selecionada e retornar ao espaço de design de email.
 
-   No designer de email, você pode usar as ferramentas de edição e formatação da tela para alterar o texto, bem como as opções _[!UICONTROL Configurações]_ e _[!UICONTROL Estilo]_ à direita.
+   No espaço de design de email, você pode usar as ferramentas de edição e formatação na tela para alterar o texto, bem como as opções _[!UICONTROL Configurações]_ e _[!UICONTROL Estilo]_ à direita.
 
 >[!TAB Recomendações de imagem]
 
@@ -363,8 +363,8 @@ Você pode usar o Assistente de IA para otimizar e melhorar seus ativos e garant
 
    Para exibir uma versão em tela inteira da variação selecionada, clique em **[!UICONTROL Visualizar]**.
 
-1. Realce a imagem desejada e clique em **[!UICONTROL Selecionar]** para substituir a imagem ou o espaço reservado pelo item selecionado e retornar ao designer de email.
+1. Realce a imagem desejada e clique em **[!UICONTROL Selecionar]** para substituir a imagem ou o espaço reservado pelo item selecionado e retornar ao espaço de design de email.
 
-   No designer de email, você pode usar as ferramentas de edição e formatação da tela para alterar o conteúdo, bem como as opções _[!UICONTROL Configurações]_ e _[!UICONTROL Estilo]_ à direita.
+   No espaço de design de email, você pode usar as ferramentas de edição e formatação na tela para alterar o conteúdo, bem como as opções _[!UICONTROL Configurações]_ e _[!UICONTROL Estilo]_ à direita.
 
 >[!ENDTABS]

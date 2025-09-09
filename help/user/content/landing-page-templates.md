@@ -1,15 +1,15 @@
 ---
-title: Modelos de páginas
-description: Saiba como criar modelos de página de aterrissagem que sua equipe de marketing pode usar para criar novas páginas de suporte a jornadas e campanhas de conta.
+title: Modelos de páginas de destino
+description: Crie, gerencie e reutilize modelos de páginas de aterrissagem — crie do zero, importe o HTML, duplique, exclua e rastreie o uso para equipes de marketing no Journey Optimizer B2B edition.
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -150,13 +150,13 @@ Na página da listagem de templates de landing page, selecione vários templates
 
 ## Criar uma página de aterrissagem a partir de um modelo salvo
 
-Na página _Criar sua página de aterrissagem_, use a seção _Selecionar modelo de design_ para começar a criar o conteúdo a partir de um modelo.
+Na página _[!UICONTROL Criar sua página de aterrissagem]_, use a seção _Selecionar modelo de design_ para começar a criar o conteúdo a partir de um modelo.
 
 Para começar a criar o conteúdo com um dos templates de landing page criados, siga estas etapas:
 
 1. Acesse o espaço de design visual na página _Editar conteúdo_.
 
-   Na página _Criar sua página de aterrissagem_, a guia _Modelos de amostra_ é selecionada por padrão.
+   Na página _[!UICONTROL Criar sua página de aterrissagem]_, a guia _Modelos de amostra_ é selecionada por padrão.
 
 1. Para usar um modelo de página de aterrissagem personalizado, selecione a guia **[!UICONTROL Modelos salvos]**.
 
@@ -168,4 +168,4 @@ Para começar a criar o conteúdo com um dos templates de landing page criados, 
 
 1. Clique em **[!UICONTROL Usar este modelo]** na parte superior direita.
 
-1. No designer de conteúdo visual, edite seu conteúdo conforme necessário.
+1. No espaço de design de conteúdo visual, edite o conteúdo conforme necessário.

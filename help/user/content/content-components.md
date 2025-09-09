@@ -1,12 +1,12 @@
 ---
 title: Componentes do conteúdo
-description: Saiba como usar componentes de conteúdo para criar conteúdo de email, página de aterrissagem e fragmento visual.
+description: Projetar emails, páginas de aterrissagem e fragmentos com componentes de conteúdo — adicione botões, texto, imagens, formulários e contêineres no Journey Optimizer B2B edition.
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2849'
 ht-degree: 6%
 
 ---

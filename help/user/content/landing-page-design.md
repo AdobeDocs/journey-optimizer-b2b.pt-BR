@@ -1,14 +1,14 @@
 ---
 title: Design da landing page
-description: Saiba como projetar e criar conteúdo para suas páginas de aterrissagem que oferecem suporte a jornadas e campanhas de conta.
+description: Criar páginas de aterrissagem com ferramentas visuais - adicione componentes de conteúdo, formulários, CSS personalizado, personalização e pré-visualização de dispositivo para jornadas de conta no Journey Optimizer B2B edition.
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Depois de [criar uma página de aterrissagem](./landing-pages.md#create-a-landin
 
 ### Adicionar CSS personalizado
 
-Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design da página de destino. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes como imagens, botões e texto.
+Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design da página de destino. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes, como imagens, botões e texto.
 
 Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UICONTROL Corpo]** na árvore de navegação esquerda para acessar o editor de CSS personalizado.
 

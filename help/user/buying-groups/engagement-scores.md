@@ -1,12 +1,12 @@
 ---
 title: Pontuações de engajamento para grupos de compra
-description: Rastreie as pontuações de engajamento do grupo de compras e da pessoa com atividades ponderadas e cálculos com base em funções no Journey Optimizer B2B edition.
+description: Calcule as pontuações de engajamento do grupo de compras e da pessoa usando atividades ponderadas, cálculos com base em função e janelas de pontuação de 30 dias no Journey Optimizer B2B edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 28%
 
 ---
@@ -30,7 +30,7 @@ Há dois tipos de pontuações de engajamento:
 
 * **Pontuação de engajamento da pessoa** - A pontuação de engajamento da pessoa é baseada nas atividades de um membro de grupo de compras individual.
 
-  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros &#x200B;]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
+  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros ]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
 
   ![Membros mais engajados do grupo de compras](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

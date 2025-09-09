@@ -1,19 +1,19 @@
 ---
 title: Autor de um modelo controlado
-description: Saiba como usar a criação de email com um modelo controlado que contém componentes de conteúdo bloqueados.
+description: Crie emails de modelos governados com conteúdo bloqueado - identifique áreas editáveis e trabalhe dentro das restrições de governança no Journey Optimizer B2B edition.
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # Autor de um modelo controlado
 
-Os designers de conteúdo podem habilitar a [governança (_bloqueio de conteúdo_)](./template-content-governance.md) ao criar modelos de email. Os recursos de governança permitem designar as partes do design que não podem ser alteradas quando usadas em uma jornada de conta. Quando você [seleciona um modelo salvo](./email-authoring.md#select-a-template) para criar um email, o designer visual carrega o modelo para que você possa usá-lo como base para o seu email.
+Os designers de conteúdo podem habilitar a [governança (_bloqueio de conteúdo_)](./template-content-governance.md) ao criar modelos de email. Os recursos de governança permitem designar as partes do design que não podem ser alteradas quando usadas em uma jornada de conta. Quando você [seleciona um modelo salvo](./email-authoring.md#select-a-template) para criar um email, o espaço de design visual carrega o modelo para que você possa usá-lo como base para seu email.
 
 Se o modelo tiver o controle ativado, um alerta será exibido no painel de propriedades à direita. Você pode ativar as **[!UICONTROL Realçar áreas editáveis]** na parte superior da tela para ver quais componentes e elementos de conteúdo são editáveis para uso na jornada.
 

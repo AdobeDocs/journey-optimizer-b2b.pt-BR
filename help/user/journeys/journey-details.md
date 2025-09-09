@@ -1,12 +1,12 @@
 ---
 title: Detalhes do Jornada
-description: Saiba mais sobre as informações fornecidas pela página de detalhes da jornada e como ela pode ajudar você a monitorar e gerenciar a jornada de conta publicada.
+description: Monitore o desempenho da jornada da conta com taxas de conclusão, métricas de envolvimento, análise de email/SMS e insights de IA no Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Para o gráfico _[!UICONTROL status da Jornada]_, escolha **[!UICONTROL Drill-th
 <!--
 The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
-### Exibir mais
+### Visualizar mais
 
 Escolha **[!UICONTROL Exibir mais]** para acessar os dados estendidos. O pop-up exibido fornece um detalhamento dos dados.
 

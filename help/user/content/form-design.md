@@ -1,13 +1,13 @@
 ---
-title: Design do formulário
-description: Saiba como projetar formulários reutilizáveis usados para coletar informações de clientes potenciais de negócios.
+title: Design de formulário
+description: Crie formulários com tipos de campo, validação, estilo e atributos de esquema XDM para a coleta de dados de negócios no Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2062'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Use as ferramentas de design de campo para criar o conjunto de campos e o layout
      >
      >_Instruções vs. texto de espaço reservado_<br/>
      >
-     >Use essas duas propriedades para orientar os visitantes a preencherem o campo. O texto de instrução é exibido como uma dica de ferramenta/texto pop-up ao passar o ponteiro sobre o campo. O texto do espaço reservado aparece _esmaecido_ dentro do campo e desaparece à medida que o visitante insere o texto no campo. Você pode usar ambos os métodos, ou apenas um.
+     >Use essas duas propriedades para orientar os visitantes a preencherem o campo. O texto de instrução é exibido como uma dica de ferramenta/texto pop-up ao passar o ponteiro sobre o campo. O texto do espaço reservado aparece _esmaecido_ dentro do campo e desaparece quando o visitante insere o texto no campo. Você pode usar ambos os métodos, ou apenas um.
 
    * **[!UICONTROL Valor padrão]** - Use esta opção para especificar um valor padrão para o campo.
 

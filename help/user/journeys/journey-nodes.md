@@ -1,14 +1,14 @@
 ---
 title: Nós de Jornada de conta
-description: Saiba mais sobre os tipos de nó que você pode usar para criar suas jornadas de conta no Journey Optimizer B2B edition.
+description: Crie jornadas de conta com nós de ação, evento e orquestração - público-alvo, espera, divisão e mesclagem - para marketing entre canais no Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +20,7 @@ Crie sua jornada de conta combinando os diferentes nós de ação, evento e orqu
 
 * [Público-alvo de conta](./account-audience-nodes.md)
 * [Realizar uma ação](./action-nodes.md)
-* [Ouvir um evento](./listen-for-event-nodes.md)
+* [Acompanhar um evento](./listen-for-event-nodes.md)
 * [Dividir caminhos](./split-merge-paths-nodes.md)
 * [Aguardar](./wait-nodes.md)
-* [Caminhos de mesclagem](./split-merge-paths-nodes.md)
+* [Mesclar caminhos](./split-merge-paths-nodes.md)

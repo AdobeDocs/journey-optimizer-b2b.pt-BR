@@ -1,11 +1,11 @@
 ---
 title: Visão geral do Adobe Journey Optimizer B2B Edition
-description: Descubra os principais recursos, casos de uso e arquiteturas do Adobe Journey Optimizer B2B Edition.
+description: Saiba mais sobre o Adobe Journey Optimizer B2B edition - organize jornadas de conta com grupos de compra, insights de IA e integração do Experience Platform para marketing B2B.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: ht
-source-wordcount: '811'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ Com o Adobe Journey Optimizer B2B Edition, você pode orquestrar jornadas de con
 
 ## Jornadas de conta com grupos de compra
 
-Ao comparar o Adobe Journey Optimizer B2B Edition com o Marketo Engage e à versão padrão do Adobe Journey Optimizer, a principal distinção é que as jornadas de conta movem as contas pela jornada, não as pessoas. Uma pessoa associada a uma conta normalmente tem uma progressão não linear baseada no progresso da conta pela jornada, não em suas ações individuais. Por exemplo, quando uma conta está em uma fase inicial da jornada de compra, as informações enviadas podem ser sobre recursos ou funcionalidades gerais da solução. Mais adiante no processo de compra, o conteúdo pode se tornar mais direcionado para ofertas específicas ou outros itens orientados para o fechamento de uma venda. Após a compra da solução, as informações podem mudar novamente para fornecer guias passo a passo, práticas recomendadas e informações sobre eventos futuros ou conteúdo sobre vendas adicionais. Mesmo que uma pessoa não tenha interagido com o conteúdo da fase inicial, é ideal que ela avance para a fase atual com base não em suas próprias ações, mas nas ações das outras pessoas em sua conta ou grupo de compra.
+Ao comparar o Adobe Journey Optimizer B2B edition com o Marketo Engage e o Adobe Journey Optimizer Standard, a principal distinção é que as jornadas de conta movem as contas pela Jornada, não as pessoas. Uma pessoa associada a uma conta normalmente tem uma progressão não linear baseada no progresso da conta pela jornada, não em suas ações individuais. Por exemplo, quando uma conta está em uma fase inicial da jornada de compra, as informações enviadas podem ser sobre recursos ou funcionalidades gerais da solução. Mais adiante no processo de compra, o conteúdo pode se tornar mais direcionado para ofertas específicas ou outros itens orientados para o fechamento de uma venda. Após a compra da solução, as informações podem mudar novamente para fornecer guias passo a passo, práticas recomendadas e informações sobre eventos futuros ou conteúdo sobre vendas adicionais. Mesmo que uma pessoa não tenha interagido com o conteúdo da fase inicial, é ideal que ela avance para a fase atual com base não em suas próprias ações, mas nas ações das outras pessoas em sua conta ou grupo de compra.
 
 ## Arquitetura de alto nível
 
@@ -37,7 +37,7 @@ A finalidade da Experience Platform nesta configuração é fornecer uma visuali
 
 As jornadas de conta são criadas no Journey Optimizer B2B Edition e armazenadas na instância do Marketo Engage associada à assinatura. Embora seja enviada ao armazenamento de dados do Marketo Engage, ela não é visível na interface do Marketo Engage e só pode ser usada no Journey Optimizer B2B Edition.
 
-Uma jornada de conta sempre começa com a seleção de um segmento da conta para usar como o público-alvo da jornada. A seleção do público-alvo usa o componente de seleção de público-alvo padrão da Experience Platform. Profissionais de marketing podem então implementar a jornada de conta dividindo os caminhos da jornada de acordo com seus próprios critérios, que podem incluir critérios de conta, de pessoas ou de grupo de compra. É possível tomar ações para implementar a jornada em cada ramificação, como enviar um email ou aguardar a ocorrência de um evento.
+Uma jornada de conta sempre começa com a seleção de um segmento da conta para usar como o público-alvo da jornada. A seleção do público-alvo usa o componente de seleção de público-alvo padrão da Experience Platform. Os profissionais de marketing podem implementar a jornada de conta dividindo os caminhos de jornada de acordo com seus próprios critérios, que podem incluir critérios de conta, critérios de pessoas ou critérios de grupo de compras. É possível tomar ações para implementar a jornada em cada ramificação, como enviar um email ou aguardar a ocorrência de um evento.
 
 Após criar a jornada da conta, é necessário publicá-la. No momento da publicação, a jornada da conta é validada e convertida em uma série de campanhas do Marketo Engage que implementam a experiência da jornada. Os serviços de integração de dados são contatados para iniciar o fluxo de dados que, por sua vez, inicia as operações de jornada da conta. A primeira etapa é criar os segmentos para as pessoas da conta.
 

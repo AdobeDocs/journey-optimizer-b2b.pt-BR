@@ -1,12 +1,12 @@
 ---
 title: Estágios de Grupo de Compras
-description: Configure os estágios do grupo de compras para rastrear a progressão de vendas da oportunidade para a conversão do cliente no Journey Optimizer B2B edition.
+description: Crie modelos de estágio de grupo de compras personalizados com estágios de entrada, sucesso e falha para rastrear a progressão e acionar ações de jornada de conta no Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Os estágios de grupo de compra são projetados para rastrear a progressão dos grupos de compra na conversão de oportunidades em clientes. Use este recurso para rastrear a progressão do grupo de compras e identificar as próximas melhores ações para membros do grupo de compras.
 
-Defina os estágios em um único modelo de preparo, definindo vários estágios e o fluxo de transição entre eles. Um ou mais estágios são designados para entrada no ciclo de vida. O modelo também permite a progressão não linear, onde você pode especificar transições de um estágio para outro, como do estágio A para os estágios B, C ou D. É necessário que um estágio seja designado como o estágio de sucesso, como uma compra ou contrato assinado. É opcional que outro estágio seja designado como um estágio de falha, como um contrato rejeitado ou a compra de uma solução concorrente de outro fornecedor. Isso é feito por meio de [painéis inteligentes](../dashboards/intelligent-dashboard.md) que mostram como os grupos de compras estão progredindo em termos de conclusão de uma oportunidade de venda ou de conversão de uma oportunidade em um cliente.
+Defina os estágios em um único modelo de preparo, definindo vários estágios e o fluxo de transição entre eles. Um ou mais estágios são designados para entrada no ciclo de vida. O modelo também permite a progressão não linear, onde você pode especificar transições de um estágio para outro, como do estágio A para os estágios B, C ou D. É necessário que um estágio seja designado como o estágio de sucesso, como uma compra ou contrato assinado. É opcional que outro estágio seja designado como um estágio de falha, como um contrato rejeitado ou a compra de uma solução concorrente de outro fornecedor. Monitore esses estágios por meio de [painéis inteligentes](../dashboards/intelligent-dashboard.md) que mostram como os grupos de compras estão progredindo em termos de conclusão de uma oportunidade de venda ou de conversão de uma oportunidade em um cliente.
 
 ![Exemplo de estágios de grupo de compras](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -365,4 +365,4 @@ Use a ocorrência de uma alteração de estágio de grupo de compra para mover a
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448699/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -1,12 +1,12 @@
 ---
 title: Email de alerta de vendas
-description: Saiba como incluir um email de alerta de vendas automatizado nas jornadas da conta.
+description: Configure emails de alerta de vendas nas jornadas de conta para notificar as equipes de vendas - inclui resumos do grupo de compras, insights de IA e detalhes do membro no Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 6%
 
 ---
@@ -65,4 +65,4 @@ Você pode configurar entregas de email de alerta de vendas em uma jornada de co
 
    ![Caixa de diálogo Criar novo email](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Depois que a jornada da conta for publicada, o alerta de vendas será entregue de acordo com esses parâmetros.
+   Quando a jornada da conta estiver ativa, o alerta de vendas será entregue de acordo com esses parâmetros.

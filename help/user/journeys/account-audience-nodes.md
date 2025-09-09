@@ -1,12 +1,12 @@
 ---
 title: Nós de público-alvo da conta
-description: Saiba mais sobre o tipo de nó de público-alvo da conta que você pode usar para definir a entrada das suas jornadas de conta no Journey Optimizer B2B edition.
+description: Configure nós de público-alvo de conta com públicos-alvo de conta ou listas de conta para definir pontos de entrada de jornada para a orquestração direcionada no Journey Optimizer B2B edition.
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---

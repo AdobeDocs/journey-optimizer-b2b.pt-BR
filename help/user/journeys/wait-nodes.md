@@ -1,12 +1,12 @@
 ---
 title: Nós de espera
-description: Saiba mais sobre o tipo de nó Aguardar que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
+description: Adicione nós de espera para pausar a progressão da jornada com duração relativa ou datas específicas para o tempo estratégico no Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Há duas maneiras de definir o tempo de espera:
 * Uma duração relativa (número de minutos, horas, dias, semanas ou meses)
 * Uma data específica na qual você deseja avançar para o próximo nó na jornada
 
-_Para definir um nó de espera para a jornada da conta:_
+_Para definir um nó de espera para sua jornada de conta :_
 
 1. Navegue até o mapa de jornadas.
 

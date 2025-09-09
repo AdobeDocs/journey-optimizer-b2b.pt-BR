@@ -1,12 +1,12 @@
 ---
 title: Componentes da estrutura
-description: Saiba como usar componentes de estrutura para definir o layout do seu conteúdo de email, página de aterrissagem e fragmento visual.
+description: Use componentes de estrutura para criar layouts para emails, páginas de aterrissagem e fragmentos. Arraste os layouts de coluna, defina estilos e configure a exibição móvel no Journey Optimizer B2B edition.
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 7%
 
 ---

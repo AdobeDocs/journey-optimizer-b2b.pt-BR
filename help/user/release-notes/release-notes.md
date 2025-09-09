@@ -1,12 +1,12 @@
 ---
-title: Notas de versão do Journey Optimizer B2B Edition
-description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe Journey Optimizer B2B Edition.
+title: Notas de versão do Journey Optimizer B2B edition
+description: Descubra os recursos, aprimoramentos e correções de erros mais recentes no Adobe Journey Optimizer B2B edition - mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 92%
+source-wordcount: '2795'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -130,7 +130,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Encaminhamento de eventos de experiência | Admins podem configurar definições de evento baseadas na Adobe Experience Platform (AEP). Essas configurações permitem que profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência da AEP.  <a href="../admin/configure-aep-events.md">Saiba mais</a> |
-| Recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de divisão de caminho em uma jornada de conta para segmentar públicos-alvo da conta com base em comportamentos específicos e identificar contas que exigem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externo por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
+| Recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de caminho dividido para segmentar públicos da conta com base em um comportamento específico e identificar contas que justifiquem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externo por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
 | Recurso | Painel inteligente | Visualize a progressão dos grupos de compra por meio das jornadas de conta, incluindo insights gerados por IA, a fim de obter análises mais inteligentes e uma priorização precisa da conta. <a href="../dashboards/intelligent-dashboard.md">Saiba mais</a> |
 | Recurso | Detalhes do grupo de compra e da conta | Visualize insights no grupo de compra e no nível da conta para ter mais dados históricos e de contexto ao iniciar o engajamento de um cliente.<p>Os detalhes do grupo de compra incluem qualquer intenção própria detectada. <a href="../buying-groups/buying-group-details.md">Saiba mais</a><p>Os detalhes da conta destacam o aumento na intenção de engajamento detectada para que você possa alertar sobre as vendas em contas que estão prontas para o engajamento personalizado com foco em vendas. <a href="../accounts/account-details.md">Saiba mais</a> |
 | Recurso | Visão geral da jornada | Ao acessar as jornadas de conta, a guia Visão geral fornece um instantâneo abrangente das jornadas de conta ativas, detalhando o progresso da conta usando gráficos de círculo e de barra que categorizam e quantificam conclusões e atividades de engajamento.  <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |

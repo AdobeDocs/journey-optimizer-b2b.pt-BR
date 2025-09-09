@@ -1,12 +1,12 @@
 ---
 title: Tokens personalizados para o Personalization de email
-description: Saiba como usar um conjunto de tokens definidos para uma jornada de conta para gerenciar a personalização no conteúdo de email.
+description: Criar e gerenciar Meus tokens personalizados para personalização dinâmica de email - defina variáveis de texto e número para jornadas de conta no Journey Optimizer B2B edition.
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Os _Meus tokens_ são variáveis personalizadas que você cria ou modifica para 
 
 Ao adicionar um token personalizado a um email, ele é exibido como `{{my.TokenName}}`. Por exemplo, você pode ter `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` tokens criados para gerenciar conteúdo de email relacionado a webinários futuros.
 
-_Para acessar os tokens personalizados de uma jornada de conta:_
+_Para acessar os tokens personalizados de uma jornada de conta :_
 
 1. Abra a jornada da conta de rascunho.
 
@@ -67,7 +67,7 @@ Embora a jornada da conta permaneça no status de rascunho, é possível editar 
 
    ![Alterar o nome e o valor do token](./assets/my-tokens-edit-text-token-dialog.png){width="400"}
 
-1. Clique em **[!UICONTROL Editar]**.
+1. Clique em **[!UICONTROL Editar]**.
 
 ### Excluir um token
 

@@ -1,12 +1,12 @@
 ---
 title: Criar e publicar uma Jornada de conta
-description: Saiba como criar e publicar jornadas de conta.
+description: Crie jornadas de conta na tela visual, adicione nós de ação e evento, configure o agendamento e publique para orquestração em tempo real no Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -141,4 +141,4 @@ Você pode publicar uma jornada se não houver erros de bloqueador. Quando publi
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443224/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

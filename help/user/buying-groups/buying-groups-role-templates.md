@@ -1,12 +1,12 @@
 ---
 title: Comprando modelos de função de grupo
-description: Crie modelos de função do grupo de compras com condições de atribuição automática para identificar tomadores de decisão e participantes no Journey Optimizer B2B edition.
+description: Crie modelos de função com atribuição automática condicional para identificar tomadores de decisão e participantes de grupos de compra no Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 5%
 
 ---
@@ -162,4 +162,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

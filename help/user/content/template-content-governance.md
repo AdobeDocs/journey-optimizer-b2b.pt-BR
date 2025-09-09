@@ -1,12 +1,12 @@
 ---
 title: Governança de conteúdo do modelo
-description: Saiba como bloquear elementos de conteúdo em seus modelos de email para que você possa controlar como eles podem ser alterados para uso em jornadas de conta.
+description: Bloquear componentes de modelo de email para conformidade com a marca - defina modos de governança, controle a edição de conteúdo e gerencie permissões para autores de jornada de conta no Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Por exemplo, você pode bloquear o cabeçalho e o rodapé projetados para a cont
 
 ## Ativar a governança de conteúdo para o modelo
 
-Depois de usar o designer visual para [criar os componentes estruturais e de conteúdo](./email-template-authoring.md) para seu modelo de email, habilite a governança e aplique o bloqueio de conteúdo específico conforme necessário.
+Depois de usar o espaço de design visual para [criar os componentes estruturais e de conteúdo](./email-template-authoring.md) para seu modelo de email, habilite a governança e aplique o bloqueio de conteúdo específico conforme necessário.
 
-1. No designer visual, acesse as camadas/containers e elementos usando a _Árvore de navegação_.
+1. No espaço de design visual, acesse as camadas/containers e elementos usando a _Árvore de navegação_.
 
    Clique no ícone da _Árvore de navegação_ ( ![Ícone de link](../assets/do-not-localize/icon-navigation-tree.svg) ) à esquerda da tela para exibir a árvore.
 

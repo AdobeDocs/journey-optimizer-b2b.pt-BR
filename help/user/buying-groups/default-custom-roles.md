@@ -1,12 +1,12 @@
 ---
 title: Funções padrão e personalizadas
-description: Gerencie funções de grupo de compras padrão e personalizadas - crie, edite e configure definições de função para suas necessidades comerciais no Journey Optimizer B2B edition.
+description: Exiba funções padrão de grupos de compra e crie funções personalizadas - edite, exclua e configure definições de função para sua empresa no Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 2%
 
 ---

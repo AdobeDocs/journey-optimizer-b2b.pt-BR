@@ -1,12 +1,13 @@
 ---
 title: Revisar o relatório de spam
-description: Saiba como verificar a pontuação de spam do seu conteúdo de email em um relatório de spam dedicado que prevê se os ISPs ou provedores de caixa de correio o considerariam como spam ou não.
+description: Gere relatórios de spam com pontuação do SpamAssassin para verificar se os emails acionam filtros de spam e melhoram a capacidade de entrega no Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,3 @@ Ao revisar suas configurações de email ou editar o conteúdo, abra a página _
 1. Se houver elementos no conteúdo do email que possam ser melhorados, edite o conteúdo para aplicar as atualizações necessárias.
 
 1. Quando as alterações forem concluídas, volte à página _[!UICONTROL Simular]_ e clique novamente em **[!UICONTROL Relatório de spam]** para verificar as melhorias de pontuação resultantes.
-
-
-

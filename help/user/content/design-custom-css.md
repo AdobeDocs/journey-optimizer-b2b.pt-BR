@@ -1,12 +1,12 @@
 ---
 title: Adicionar CSS personalizado para o seu conteúdo
-description: Saiba como adicionar CSS personalizado ao seu conteúdo de email e de página de aterrissagem.
+description: Adicione CSS personalizado a emails e landing pages para obter estilo avançado e controle de design preciso além dos componentes padrão no Journey Optimizer B2B edition.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Se você quiser usar o CSS personalizado com conteúdo importado para o espaço 
 
 * Se você importar conteúdo externo do HTML, incluindo CSS, <!-- unless converting that content, -->ele será preenchido no [!UICONTROL Modo de compatibilidade] e a seção [!UICONTROL Estilos CSS] não estará disponível.
 
-* Se você importar conteúdo que foi criado originalmente no espaço de design de email ou página de aterrissagem, incluindo CSS aplicado por meio da opção [!UICONTROL Adicionar CSS personalizado], o CSS aplicado ficará visível e poderá ser editado na mesma opção.
+* Se você importar o conteúdo que foi criado originalmente no espaço de design de email ou página de aterrissagem com a opção [!UICONTROL Adicionar CSS personalizado], o CSS aplicado ficará visível e poderá ser editado na mesma opção.
 
 ## Solução de problemas
 

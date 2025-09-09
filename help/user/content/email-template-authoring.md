@@ -1,13 +1,13 @@
 ---
 title: Criação de modelo de email
-description: Saiba como criar modelos de email de conteúdo que podem ser usados para emails de jornada de conta para reutilizar seus designs de forma fácil e eficiente.
+description: Crie modelos de email reutilizáveis com ferramentas de design visual, CSS personalizado, fragmentos e personalização para jornadas de conta no Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 3%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Depois de [criar um modelo de email](./email-templates.md#create-an-email-templa
 
 ### Adicionar CSS personalizado
 
-Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design do modelo de email. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes como imagens, botões e texto.
+Você pode adicionar seu próprio CSS personalizado diretamente no espaço de design do modelo de email. Use o CSS personalizado para aplicar um estilo avançado e específico, proporcionando maior flexibilidade e controle sobre a aparência do seu conteúdo. É uma prática recomendada adicionar esse estilo de mais alto nível antes de incluir componentes, como imagens, botões e texto.
 
 Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UICONTROL Corpo]** na árvore de navegação esquerda para acessar o editor de CSS personalizado.
 

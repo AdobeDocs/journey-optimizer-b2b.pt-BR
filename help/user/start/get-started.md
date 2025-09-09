@@ -1,13 +1,13 @@
 ---
 title: Orientação sobre a integração de administradores e profissionais de marketing
-description: Como novo administrador ou usuário do Journey Optimizer B2B Edition, saiba mais sobre as principais áreas do processo de integração.
+description: Guia de integração para administradores e profissionais de marketing - configure sandboxes, canais, crie grupos de compra e projete jornadas de conta no Journey Optimizer B2B edition.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 96%
 
 ---
 

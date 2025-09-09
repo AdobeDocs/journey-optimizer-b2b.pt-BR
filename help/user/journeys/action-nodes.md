@@ -1,12 +1,12 @@
 ---
 title: Realizar uma ação
-description: Saiba mais sobre o tipo de nó Realizar uma ação que você pode usar para orquestrar suas jornadas de conta no Journey Optimizer B2B edition.
+description: 'Configure nós de ação para ações de conta e pessoas: envie emails, atualize grupos de compra, altere pontuações e integre ao Marketo Engage no Journey Optimizer B2B edition.'
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: e42367fad7247446c414a3b6b7a75573806d62cb
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1252'
 ht-degree: 3%
 
 ---
@@ -96,11 +96,11 @@ Use esta ação para encaminhar as pessoas para um público-alvo externo que pod
 
 ![Realizar uma ação - Adicionar ao público-alvo externo do cliente](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Ao selecionar essa ação com base em pessoas, você pode criar um novo público-alvo externo ou selecionar de um público-alvo externo existente. Para públicos existentes, é possível escolher entre públicos de clientes externos que foram criados somente no Journey Optimizer B2B edition. Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação do Experience Platform.
+Ao selecionar essa ação com base em pessoas, você pode criar um novo público-alvo externo ou selecionar de um público-alvo externo existente. Para públicos existentes, é possível escolher entre públicos de clientes externos que foram criados somente no Journey Optimizer B2B edition. Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação do Experience Platform.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista a uma visão geral de vídeo para orquestração de mídia paga](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-_Para criar uma audiência externa:_
+_Para criar uma audiência externa :_
 
 1. Escolha **[!UICONTROL Criar novo]**.
 
@@ -118,7 +118,7 @@ _Para criar uma audiência externa:_
    >
    >Quando um novo público-alvo de cliente externo é criado do Journey Optimizer B2B edition, ele é propagado com um registro fictício (`test@email.com`). Esse registro é substituído assim que o primeiro perfil real é adicionado ao público-alvo externo pela jornada.
 
-_Para usar um público existente:_
+_Para usar um público existente :_
 
 1. Clique em **[!UICONTROL Selecionar público-alvo de cliente externo]**.
 
@@ -148,7 +148,7 @@ Use esta ação para alterar o valor de um [atributo de perfil de pessoas](../da
 
 +++[!UICONTROL Alterar pontuação]
 
-Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Realizar uma ação - Alterar pontuação](./assets/node-action-change-score.png){width="300"}
 
@@ -156,7 +156,7 @@ Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba m
 
 +++[!UICONTROL Momento Interessante]
 
-Use esta ação para registrar um momento interessante para perfis de pessoas. Escolha um tipo (Email, Marco ou Web) e adicione uma descrição (opcional).
+Use esta ação para registrar um momento interessante para as pessoas. Escolha um tipo (Email, Marco ou Web) e adicione uma descrição (opcional).
 
 ![Realizar uma ação - Momento interessante da pessoa](./assets/node-action-person-interesting-moment.png){width="300"}
 
@@ -172,7 +172,7 @@ Use esta ação para remover perfis de pessoas de um [grupo de compras](../buyin
 
 +++[!UICONTROL Enviar email]
 
-Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
+Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
 
 ![Executar uma ação - Enviar email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -180,7 +180,7 @@ Use esta ação para enviar um email. Depois de [criar o email](../content/add-e
 
 +++[!UICONTROL Enviar SMS]
 
-Use esta ação para enviar uma mensagem SMS. Você pode criar, personalizar e visualizar mensagens SMS no designer visual (consulte [Criação de SMS](../content/sms-authoring.md)).
+Use esta ação para enviar uma mensagem SMS. Você pode criar, personalizar e visualizar mensagens SMS no espaço de design visual (consulte [Criação de SMS](../content/sms-authoring.md)).
 
 ![Executar uma ação - Enviar SMS](./assets/node-action-send-sms.png){width="300"}
 
@@ -192,7 +192,7 @@ As ações com base em pessoas do Marketo Engage foram projetadas para coordenar
 
 +++[!UICONTROL Adicionar à lista]
 
-Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
+Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conectada. Em seguida, selecione o nome da lista.
 
@@ -202,7 +202,7 @@ Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conect
 
 +++[!UICONTROL Adicionar à campanha de solicitação do Marketo]
 
-Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} no Marketo Engage.
+Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conectada. Em seguida, selecione o nome da campanha de solicitação.
 
@@ -212,7 +212,7 @@ Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conect
 
 +++[!UICONTROL Alterar partição de pessoas no Marketo Engage]
 
-Use esta ação para alterar a [partição de pessoa](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} no Marketo Engage.
+Use esta ação para alterar a [partição de pessoa](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} no Marketo Engage.
 
 ![Realizar uma ação - Alterar partição de pessoas no Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -220,7 +220,7 @@ Use esta ação para alterar a [partição de pessoa](https://experienceleague.a
 
 +++[!UICONTROL Remover da lista]
 
-Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage. Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conectada. Em seguida, selecione o nome da lista.
+Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage. Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conectada. Em seguida, selecione o nome da lista.
 
 ![Realizar uma ação - Remover da lista](./assets/node-action-remove-from-list-options.png){width="300"}
 
@@ -230,4 +230,4 @@ Se o perfil da pessoa não for membro da Smart List, a ação será ignorada.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443250/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

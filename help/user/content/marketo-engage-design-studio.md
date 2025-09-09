@@ -1,12 +1,12 @@
 ---
 title: Trabalhar com o Marketo Engage Assets
-description: Saiba mais sobre como usar a integração de gerenciamento de ativos do Marketo Engage Design Studio no Journey Optimizer B2B edition.
+description: Navegue, gerencie e use ativos do Marketo Engage Design Studio no Journey Optimizer B2B edition - organize espaços de trabalho, edite imagens e crie conteúdo para jornadas de conta.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Na caixa de diálogo _[!UICONTROL Substituir ativo]_, arraste e solte o arquivo 
 
 Para continuar, clique em **[!UICONTROL Substituir]**. Você pode anular o processo clicando em **[!UICONTROL Cancelar]**.
 
-Se o arquivo a ser substituído estiver em uso, uma caixa de diálogo informativa o alertará de que o novo arquivo de imagem substitui a imagem em todos os locais em que é usada (emails, modelos e fragmentos de email).
+Se o arquivo a ser substituído estiver em uso, uma caixa de diálogo o alertará de que o novo arquivo de imagem substitui a imagem onde é usado (emails, modelos e fragmentos de email).
 
 ## Baixar ativos
 
@@ -270,7 +270,7 @@ O arquivamento de uma pasta torna os arquivos dentro dela não pesquisáveis. Us
 
 O Assets pode ser usado no email da sua equipe, no modelo de email ou na criação de fragmentos visuais no editor de conteúdo visual.
 
-Na interface do designer visual, selecione o ícone do _Marketo Engage Assets_ ( ![ícone do Marketo Engage Assets](../../assets/do-not-localize/icon-assets-me.svg) ) na barra lateral esquerda.
+No espaço de design visual, selecione o ícone do _Marketo Engage Assets_ ( ![ícone do Marketo Engage Assets](../../assets/do-not-localize/icon-assets-me.svg) ) na barra lateral esquerda.
 
 Essa ação altera o painel Ferramentas que exibe uma lista estruturada dos ativos disponíveis no espaço de trabalho selecionado. Selecione o espaço de trabalho que deseja exibir para escolher um ativo.
 

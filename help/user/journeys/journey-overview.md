@@ -1,13 +1,13 @@
 ---
 title: Jornadas da conta
-description: Comece com as jornadas de conta e saiba como usar a lista de jornadas de conta para gerenciá-las.
+description: Simplifique a geração de demanda com jornadas de conta - crie, publique e gerencie o envolvimento do grupo de compras por email, SMS e eventos no Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 97%
 
 ---
 
@@ -157,4 +157,4 @@ Use uma ação de exclusão para excluir uma jornada permanentemente. Não é po
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
