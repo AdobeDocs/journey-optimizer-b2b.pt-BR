@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '2795'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -27,18 +27,18 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 ## Notas da versão 2025.8
 
-**Data de implantação**: quarta-feira, 26 de agosto de 2025
+**Data de implantação**: 26 de agosto de 2025
 
 Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Filtros de pontuação de envolvimento de pessoas para modelos de funções e jornadas | Agora você pode usar a _Pontuação de engajamento da pessoa_ como filtro nos modelos de Funções usados para criar grupos de compra e nos nós de jornada de caminho dividido. [Saiba mais](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| Recurso | Configuração de funções personalizadas para grupos de compra | Agora você tem a flexibilidade de configurar funções personalizadas para grupos de compra, o que permite definir as funções específicas para seus casos de uso. [Saiba mais](../buying-groups/default-custom-roles.md) |
-| Recurso | Configuração de ponderação da pontuação de engajamento | Agora você pode atribuir pesos às atividades que influenciam a pontuação de engajamento do grupo de compras. Esse recurso inclui definir seus próprios modelos de pontuação personalizados e alterar o modelo ativo que influencia os cálculos de pontuação de engajamento. [Saiba mais](../admin/engagement-score-weighting.md) |
-| Aprimoramento | Conteúdo condicional para fragmentos | Agora você pode usar as ferramentas de conteúdo condicional para o design visual de fragmentos. [Saiba mais](../content/conditional-content.md) |
-| Aprimoramento | Atualizações de pontuação do engajamento | A lógica de pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, você pode trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compras. [Saiba mais](../buying-groups/engagement-scores.md) |
-| Aprimoramento | Observabilidade da jornada ativa - contas em cada nó | Para uma jornada de conta ativa, você pode acessar uma lista das contas que atingiram cada nó de conta na jornada. |
+| Recurso | Filtros de pontuação de engajamento da pessoa para modelos de funções e jornadas | Agora é possível usar a _Pontuação de engajamento da pessoa_ como filtro nos modelos de funções utilizados para criar grupos de compra e nos nós de jornada de caminho dividido. [Saiba mais](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Recurso | Configuração de funções personalizadas para grupos de compra | Agora você tem a flexibilidade de configurar funções personalizadas para grupos de compra, o que permite definir as funções específicas para os casos de uso. [Saiba mais](../buying-groups/default-custom-roles.md) |
+| Recurso | Configuração do peso da pontuação de engajamento | Agora é possível atribuir pesos às atividades que influenciam a pontuação de engajamento do grupo de compra. Esse recurso inclui definir seus próprios modelos de pontuação personalizados e alterar o modelo ativo que influencia os cálculos de pontuação de engajamento. [Saiba mais](../admin/engagement-score-weighting.md) |
+| Aprimoramento | Conteúdo condicional para fragmentos | Agora é possível usar as ferramentas de conteúdo condicional para o design de fragmentos visuais. [Saiba mais](../content/conditional-content.md) |
+| Aprimoramento | Atualizações da pontuação de engajamento | A lógica da pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, é possível trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compra. [Saiba mais](../buying-groups/engagement-scores.md) |
+| Aprimoramento | Observabilidade da jornada ativa: contas em cada nó | Para uma jornada de conta ativa, é possível acessar uma lista das contas que atingiram cada nó de conta na jornada. |
 
 >[!NOTE]
 >

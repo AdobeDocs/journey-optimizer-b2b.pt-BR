@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 73%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ As contas são fundamentais para qualquer estratégia de atividades de vendas e 
 
 A conta pode conter um subconjunto de pessoas que compõe o _grupo de compra_. Essas são as pessoas que tomam a decisão de compra final; portanto, elas precisam de atenção especial de profissionais de marketing e podem precisar de acesso a informações diferentes em comparação com as outras pessoas associadas à conta. Os grupos de compra podem incluir um grupo diferente de pessoas para diferentes linhas de produtos ou ofertas. Por exemplo, um produto de segurança cibernética normalmente pode exigir um diretor de informação ou diretor de segurança e um representante do departamento jurídico para aprovar uma compra. Um produto de rastreamento de erros normalmente tem um VP de engenharia e um diretor de TI como membros do grupo de compra.
 
-![Ícone de vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista à visão geral do vídeo](#overview-video)
+![Ícone de vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Componentes principais
 
@@ -41,11 +41,11 @@ Há três maneiras pelas quais os membros são atribuídos ou removidos de um gr
 2. **_Ação de jornada_**: [nós de ação de jornada para associação ao grupo de compra](../journeys/action-nodes.md#add-a-people-based-action) (_Atribuir ao grupo de compra_ ou _Remover do grupo de compra_)
 3. **_Trabalhos do sistema_**: trabalhos de [criação](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) e manutenção de grupo de compras.
 
-Para evitar a substituição incorreta de uma atribuição de membro em um grupo de compra, essa lista está na ordem de precedência seguida no sistema para garantir uma atribuição de membro precisa. Por exemplo, quando um usuário de vendas adiciona manualmente um membro ao grupo de compra, ele não deseja que um trabalho de manutenção altere essa adição. Usando a ordem de precedência, os seguintes cenários são aplicados:
+Para evitar a substituição incorreta da atribuição de um membro em um grupo de compra, essa lista está na ordem de precedência seguida no sistema com o objetivo de garantir uma atribuição de membros precisa. Por exemplo, quando um usuário de vendas adiciona manualmente um membro ao grupo de compra, ele não deseja que um trabalho de manutenção altere essa adição. Usando a ordem de precedência, os seguintes cenários são aplicados:
 
-* Se um usuário atribuir manualmente um membro a um grupo de compras e ele for seguido por um trabalho de manutenção de grupo de compras que remove o mesmo membro do grupo de compras, o trabalho de manutenção **não removerá** esse membro e não poderá substituir a atribuição manual.
-* Se um usuário atribuir manualmente um membro a um grupo de compras e ele for seguido por um nó de jornada acionado que remove o mesmo membro do grupo de compras, a ação do nó **não removerá** esse membro e não poderá substituir a atribuição manual.
-* Se um nó de ação de jornada disparada adicionar um membro a um grupo de compras e for seguido por um trabalho de manutenção de grupo de compras que remove o mesmo membro do grupo de compras, o trabalho de manutenção **não removerá** esse membro e não poderá substituir a atribuição de ação de jornada.
+* Se um usuário atribuir manualmente um membro a um grupo de compra e isso for seguido por uma tarefa de manutenção de grupo de compra que o remove, a tarefa de manutenção **não removerá** esse membro e não poderá se sobrepor à atribuição manual.
+* Se um usuário atribuir manualmente um membro a um grupo de compra e isso for seguido por um nó de jornada acionado que o remove, a ação do nó **não removerá** esse membro e não poderá se sobrepor à atribuição manual.
+* Se um nó de ação de jornada acionado adicionar um membro a um grupo de compra e isso for seguido por uma tarefa de manutenção de grupo de compra que o remove, a tarefa de manutenção **não removerá** esse membro e não poderá se sobrepor à atribuição de ação de jornada.
 
 ## Fluxo de trabalho do grupo de compra
 
@@ -96,7 +96,7 @@ Para acessar os detalhes de um grupo de compra, clique no nome do grupo de compr
 
 ### Pontuação de integridade do grupo de compra
 
-A pontuação de integridade é usada para determinar se o grupo de compras tem os membros certos atribuídos às funções e está pronto para ser usado em uma jornada de conta. Essa pontuação é uma porcentagem baseada no número de funções no grupo de compra e em quantas funções são atribuídas a pelo menos um lead.
+A pontuação de integridade é usada para determinar se o grupo de compra tem os membros certos atribuídos às funções e está pronto para ser usado em uma jornada de conta. Essa pontuação é uma porcentagem baseada no número de funções no grupo de compra e em quantas funções são atribuídas a pelo menos um lead.
 
 Por exemplo, se houver quatro funções em um grupo de compra e três delas forem atribuídas a pelo menos um lead, o grupo de compra terá uma integridade de 75%.
 
@@ -104,12 +104,12 @@ A pontuação de integridade é recalculada toda vez que um grupo de compra é c
 
 ### Pontuação de engajamento do grupo de compra {#engagement-score}
 
-A pontuação de engajamento é baseada nas atividades de membro do grupo de compra, ações ponderadas e funções ponderadas. A pontuação resultante é normalizada no locatário/instância para permitir uma comparação consistente e insights acionáveis.
+A pontuação de engajamento é baseada nas atividades do membro do grupo de compra, ações ponderadas e funções ponderadas. A pontuação resultante é normalizada no locatário/instância para permitir uma comparação consistente e insights acionáveis.
 
 O cálculo da pontuação de engajamento inicial começa assim que você cria o grupo de compra e é recalculado diariamente.
 
-Consulte [Pontuações de engajamento](./engagement-scores.md) para obter informações detalhadas sobre atividades e cálculos de pontuação de engajamento.
+Consulte [Pontuações de engajamento](./engagement-scores.md) para obter informações detalhadas sobre atividades e cálculos da pontuação de engajamento.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
