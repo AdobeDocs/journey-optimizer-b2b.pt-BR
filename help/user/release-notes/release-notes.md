@@ -1,12 +1,12 @@
 ---
-title: Notas de versão do Journey Optimizer B2B edition
-description: Descubra os recursos, aprimoramentos e correções de erros mais recentes no Adobe Journey Optimizer B2B edition - mantenha-se atualizado com novos recursos e melhorias de produtos.
+title: Notas de versão do Journey Optimizer B2B Edition
+description: Descubra os recursos, aprimoramentos e correções de erros mais recentes no Adobe Journey Optimizer B2B Edition e atualize-se com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2795'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -35,7 +35,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | ---- | ---- | ----------- |
 | Recurso | Filtros de pontuação de engajamento da pessoa para modelos de funções e jornadas | Agora é possível usar a _Pontuação de engajamento da pessoa_ como filtro nos modelos de funções utilizados para criar grupos de compra e nos nós de jornada de caminho dividido. [Saiba mais](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Recurso | Configuração de funções personalizadas para grupos de compra | Agora você tem a flexibilidade de configurar funções personalizadas para grupos de compra, o que permite definir as funções específicas para os casos de uso. [Saiba mais](../buying-groups/default-custom-roles.md) |
-| Recurso | Configuração do peso da pontuação de engajamento | Agora é possível atribuir pesos às atividades que influenciam a pontuação de engajamento do grupo de compra. Esse recurso inclui definir seus próprios modelos de pontuação personalizados e alterar o modelo ativo que influencia os cálculos de pontuação de engajamento. [Saiba mais](../admin/engagement-score-weighting.md) |
+| Recurso | Configuração do peso da pontuação de engajamento | Agora é possível atribuir pesos às atividades que influenciam a pontuação de engajamento do grupo de compra. Esse recurso inclui definir seus próprios modelos de pontuação personalizados e alterar o modelo ativo que influencia os cálculos da pontuação de engajamento. [Saiba mais](../admin/engagement-score-weighting.md) |
 | Aprimoramento | Conteúdo condicional para fragmentos | Agora é possível usar as ferramentas de conteúdo condicional para o design de fragmentos visuais. [Saiba mais](../content/conditional-content.md) |
 | Aprimoramento | Atualizações da pontuação de engajamento | A lógica da pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, é possível trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compra. [Saiba mais](../buying-groups/engagement-scores.md) |
 | Aprimoramento | Observabilidade da jornada ativa: contas em cada nó | Para uma jornada de conta ativa, é possível acessar uma lista das contas que atingiram cada nó de conta na jornada. |
@@ -130,7 +130,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Encaminhamento de eventos de experiência | Admins podem configurar definições de evento baseadas na Adobe Experience Platform (AEP). Essas configurações permitem que profissionais de marketing criem jornadas de conta que reagem aos eventos de experiência da AEP.  <a href="../admin/configure-aep-events.md">Saiba mais</a> |
-| Recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de caminho dividido para segmentar públicos da conta com base em um comportamento específico e identificar contas que justifiquem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externo por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
+| Recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de divisão de caminho para segmentar públicos-alvo da conta com base em comportamentos específicos e identificar contas que exigem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externo por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
 | Recurso | Painel inteligente | Visualize a progressão dos grupos de compra por meio das jornadas de conta, incluindo insights gerados por IA, a fim de obter análises mais inteligentes e uma priorização precisa da conta. <a href="../dashboards/intelligent-dashboard.md">Saiba mais</a> |
 | Recurso | Detalhes do grupo de compra e da conta | Visualize insights no grupo de compra e no nível da conta para ter mais dados históricos e de contexto ao iniciar o engajamento de um cliente.<p>Os detalhes do grupo de compra incluem qualquer intenção própria detectada. <a href="../buying-groups/buying-group-details.md">Saiba mais</a><p>Os detalhes da conta destacam o aumento na intenção de engajamento detectada para que você possa alertar sobre as vendas em contas que estão prontas para o engajamento personalizado com foco em vendas. <a href="../accounts/account-details.md">Saiba mais</a> |
 | Recurso | Visão geral da jornada | Ao acessar as jornadas de conta, a guia Visão geral fornece um instantâneo abrangente das jornadas de conta ativas, detalhando o progresso da conta usando gráficos de círculo e de barra que categorizam e quantificam conclusões e atividades de engajamento.  <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |

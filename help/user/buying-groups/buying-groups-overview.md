@@ -1,13 +1,13 @@
 ---
 title: Grupos de compra
-description: Otimize o marketing baseado em conta com grupos de compras - identifique tomadores de decisão, rastreie as pontuações de engajamento e automatize o direcionamento no Journey Optimizer B2B edition.
+description: 'Otimize o marketing baseado em conta com grupos de compra: identifique tomadores de decisão, acompanhe as pontuações de engajamento e automatize o direcionamento no Journey Optimizer B2B Edition.'
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ A conta pode conter um subconjunto de pessoas que compõe o _grupo de compra_. E
 
 ## Componentes principais
 
-Você pode aumentar a eficácia do marketing estabelecendo grupos de compra que identificam membros para suas listas de contas de destino para as soluções pelas quais suas equipes de vendas são responsáveis. Antes de você e sua equipe de marketing começarem a criar os grupos de compra, verifique se os principais componentes foram definidos. Esses componentes são essenciais para atingir suas metas e objetivos de negócios.
+É possível aumentar a eficácia do marketing estabelecendo grupos de compra que identifiquem membros para as listas de contas de destino das soluções que as equipes de vendas são responsáveis por vender. Antes de você e sua equipe de marketing começarem a criar os grupos de compra, verifique se os principais componentes foram definidos. Esses componentes são essenciais para atingir suas metas e objetivos de negócios.
 
 | Componente | Finalidade |
 | --------- | ------- |
@@ -112,4 +112,4 @@ Consulte [Pontuações de engajamento](./engagement-scores.md) para obter inform
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

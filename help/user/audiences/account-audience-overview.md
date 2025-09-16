@@ -1,13 +1,13 @@
 ---
 title: Públicos-alvo da conta
-description: Crie públicos-alvo de conta com segmentação para direcionar contas específicas e habilite jornadas personalizadas com base em conta no Journey Optimizer B2B edition.
+description: Crie públicos-alvo de conta com segmentação para direcionar contas específicas e habilitar jornadas personalizadas com base na conta no Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

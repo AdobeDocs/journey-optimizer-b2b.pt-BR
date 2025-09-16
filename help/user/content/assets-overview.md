@@ -1,21 +1,21 @@
 ---
 title: Ativos
-description: Gerencie ativos de imagem do Marketo Engage Design Studio e do AEM Assets para emails, modelos e fragmentos no Journey Optimizer B2B edition.
+description: Gerencie ativos de imagem do Marketo Engage Design Studio e do AEM Assets para emails, modelos e fragmentos no Journey Optimizer B2B Edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Ativos
 
-No [!DNL Adobe Journey Optimizer B2B Edition], os ativos normalmente são as imagens usadas ao criar conteúdo de suporte para jornadas de conta. Você pode usar essas imagens nos emails, modelos de email e fragmentos do seletor de ativos ou em uma interface simples de arrastar e soltar no espaço de design visual.
+No [!DNL Adobe Journey Optimizer B2B Edition], os ativos normalmente são as imagens usadas ao criar conteúdo de suporte para jornadas de conta. É possível usar essas imagens nos emails, modelos de email e fragmentos pelo seletor de ativos ou em uma interface simples de arrastar e soltar no espaço de design visual.
 
-O [!DNL Journey Optimizer B2B Edition] oferece aos profissionais de marketing acesso a dois tipos de bibliotecas de ativos: [!DNL Adobe Marketo Engage] [!DNL Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service]. Você pode usar somente o Adobe Marketo Engage Design Studio ou ambas as bibliotecas configuradas ao mesmo tempo (com base na licença [!DNL Experience Manager Assets] que você tem).
+O [!DNL Journey Optimizer B2B Edition] oferece aos profissionais de marketing acesso a dois tipos de bibliotecas de ativos: [!DNL Adobe Marketo Engage] [!DNL Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service]. É possível usar somente o Adobe Marketo Engage Design Studio ou ambas as bibliotecas configuradas ao mesmo tempo (com base na licença do [!DNL Experience Manager Assets] que você possuir).
 
 ## Gerenciamento de ativos
 
