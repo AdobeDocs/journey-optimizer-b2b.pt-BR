@@ -9,7 +9,7 @@ badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso est
 source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 1%
+ht-degree: 45%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
->title="ID do fluxo de dados de subdomínio"
->abstract="Forneça uma sequência de dados para ativar a coleta de dados da página de aterrissagem com o Experience Platform Web SDK. "
+>title="ID da sequência de dados do subdomínio"
+>abstract="Forneça uma sequência de dados para habilitar a coleta de dados da página de destino com o SDK da web da Experience Platform. "
 
 Conteúdo em breve.

@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 23%
+ht-degree: 28%
 
 ---
 
@@ -46,13 +46,13 @@ Habilite a opção **[!UICONTROL Preenchimento prévio do formulário]** para pe
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
->title="Requisito de sequência de dados"
->abstract="A sequência de dados é necessária para coletar eventos de página das páginas de aterrissagem neste domínio."
+>title="Requisito da sequência de dados"
+>abstract="A sequência de dados é necessária para coletar eventos de página das páginas de destino neste domínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="ID de sequência de dados ausente"
->abstract="O subdomínio não tem uma ID de sequência de dados, que é necessária para o roteamento adequado. Configure-o em Configurações para continuar"
+>abstract="O subdomínio não tem uma ID de sequência de dados, que é necessária para o roteamento adequado. Configure-a em Configurações para continuar"
 
 Defina a opção **[!UICONTROL Datastream]** para configurar uma sequência de dados para a coleção de eventos de página de aterrissagem.
 
