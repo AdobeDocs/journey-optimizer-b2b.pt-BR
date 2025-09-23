@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Aplicar um tema da marca ao email ou modelo de email"
->abstract="Selecione um tema para seu email ou modelo de email para aplicar um estilo que se ajuste à sua marca e design."
+>abstract="Selecione um tema para o email ou o modelo de email para aplicar um estilo que se ajuste à marca e ao design."
 
 Com temas, os designers não técnicos têm a capacidade de criar diretrizes reutilizáveis de design de conteúdo de email que se alinham a uma marca e um estilo específicos. Os temas permitem que os profissionais de marketing aproveitem emails visualmente atraentes e consistentes com a marca de forma mais rápida e com menos esforço, além de fornecer opções avançadas de personalização para necessidades de design exclusivas.
 

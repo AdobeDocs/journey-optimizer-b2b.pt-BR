@@ -11,7 +11,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Introdução a marcas"
->abstract="Crie e personalize suas marcas para definir sua identidade visual e verbal exclusiva, facilitando a geração de conteúdo que corresponda ao estilo e à voz da sua marca."
+>abstract="Crie e personalize marcas para definir uma identidade visual e verbal única, além de facilitar a geração de conteúdo que corresponda ao estilo e à voz da marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
