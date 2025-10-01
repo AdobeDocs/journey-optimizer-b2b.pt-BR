@@ -4,9 +4,9 @@ description: Descubra os recursos, aprimoramentos e correções de erros mais re
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3016'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -27,20 +27,20 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 ## Notas da versão 2025.9
 
-**Data de implantação**: quarta-feira, 30 de setembro de 2025
+**Data de implantação**: 30 de setembro de 2025
 
 Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Colaboração de conteúdo de email | Agora você pode comentar sobre como colaborar com os colegas usuários do Journey Optimizer B2B edition no contexto de um ativo de email. É possível marcar os membros da equipe para que eles recebam uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação de pulso. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| Recurso | Colaboração de conteúdo de email | Agora é possível comentar sobre a colaboração com outros usuários do Journey Optimizer B2B Edition no contexto de um ativo de email. É possível marcar os membros da equipe para que recebam uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação de pulso. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
 | Recurso | Modo escuro para design de email | O espaço de design de email agora inclui a capacidade de alternar para o _modo escuro_. No modo escuro, é possível visualizar o conteúdo do email e definir configurações personalizadas a serem exibidas especificamente para destinatários que visualizam seus emails no modo escuro. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| Aprimoramento | Jornadas - Dividir caminho pelo número de pessoas na função | Use um caminho dividido pelo nó da conta para direcionar uma conta com o número de pessoas em uma ou mais funções de grupo de compra. No caminho, você pode avaliar a disponibilidade do grupo de compras para alertas de vendas e outros envolvimentos com base na profundidade da função. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| Aprimoramento | Jornadas - Filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica para um grupo de compras correspondente. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| Aprimoramento | Jornadas: dividir caminho pelo número de pessoas na função | Use um caminho dividido pelo nó da conta para direcionar uma conta com o número de pessoas em uma ou mais funções de grupo de compra. No caminho, é possível avaliar a disponibilidade do grupo de compras para alertas de vendas e outros engajamentos com base na profundidade da função. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| Aprimoramento | Jornadas: filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica em um grupo de compras correspondente. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
 
 >[!NOTE]
 >
->As alterações de versão começam a ser implantadas em quarta-feira, 30 de setembro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento dos recursos e aprimoramentos estão sujeitas a alterações.
+>As alterações de versão começam a ser implantadas em 30 de setembro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento dos recursos e aprimoramentos estão sujeitas a alterações.
 
 ## Notas da versão 2025.8
 
