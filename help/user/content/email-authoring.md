@@ -17,7 +17,7 @@ Depois de [adicionar um ativo de email a um nó de ação de jornada](./add-emai
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
-![Clique em Editar conteúdo do email ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Clique em Editar conteúdo do email &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
