@@ -30,7 +30,7 @@ _Modo escuro_ permite que um cliente ou aplicativo de email de suporte exiba ema
 
 ![Diagrama de conceito dos modos claro e escuro mostrando a renderização de conteúdo em temas claros e escuros](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Journey Optimizer B2B Edition], é possível alternar para o modo de exibição _**[!UICONTROL Escuro]**_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
+À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Journey Optimizer B2B Edition], é possível alternar para o modo de exibição _&#x200B;**[!UICONTROL Escuro]**&#x200B;_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
 
 ## Considerações do cliente de email
 
