@@ -4,10 +4,10 @@ description: Crie nós de caminho de divisão e mesclagem para segmentar contas 
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2bd5c21221da6b1e747bb133cd17c38225539ada
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 5%
+source-wordcount: '2454'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Um nó _Split paths_ define um ou mais caminhos segmentados com base em **_accou
 
 Dividir por caminhos de contas pode incluir ações e eventos de contas e pessoas. Esses caminhos podem ser divididos ainda mais.
 
-_&#x200B;**Como funciona um caminho dividido por nó de contas**&#x200B;_
+_**Como funciona um caminho dividido por nó de contas**_
 
 * Cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
 * Os nós divididos por conta podem ser aninhados (você pode dividir o caminho por contas repetidamente).
@@ -42,7 +42,12 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 | Condições de caminho | Descrição |
 | --------------- | ----------- |
 | Atributos de contas | Atributos do perfil da conta, incluindo: <li>Receita anual <li>Cidade <li>País <li>Tamanho do funcionário <li>Setor <li>Nome <li>Código SIC <li>Estado |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Tem Grupo de Compras] | A conta tem ou não membros de grupos de compra. Ele também pode ser avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução <li>Status do Grupo de Compras <li>Pontuação de integridade <li>Pontuação de engajamento |
+| [!UICONTROL Filtros especiais] > [!UICONTROL A conta corresponde ao grupo de compras] | A conta corresponde a um ou mais grupos de compra. Ele pode ser avaliado em relação a uma ou mais das seguintes restrições para um grupo de compras correspondente: <li>Interesse da solução <li>Estágio do Grupo de Compras <li>Status do Grupo de Compras <li>Pontuação de engajamento <li>Pontuação de integridade <li> Número de pessoas na função de grupo de compra |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Tem Grupo de Compras] | A conta tem ou não membros de grupos de compra. Ele também pode ser avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução <li>Estágio do Grupo de Compras <li>Status do Grupo de Compras <li>Pontuação de engajamento <li>Pontuação de integridade |
+
+>[!NOTE]
+>
+>O filtro _[!UICONTROL Tem Grupo de Compra]_ está marcado para descontinuação futura. Para novas jornadas, use o filtro _[!UICONTROL A conta corresponde ao grupo de compras]_, que inclui todas as mesmas restrições.
 
 ### Adicionar um caminho dividido pelo nó da conta
 
@@ -62,7 +67,7 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
    * Arraste e solte atributos de filtro da navegação à esquerda e conclua a definição de correspondência.
 
-   * Ajuste as condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você escolhe corresponder todas as condições de atributo ou qualquer condição.
+   * Ajuste as condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você escolhe corresponder todos os filtros ou qualquer filtro.
 
      ![Nó de caminho dividido - lógica de filtro de contas de condições](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -84,11 +89,39 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
    Quando essa opção não está ativada, a jornada termina para contas que não correspondem a um segmento/caminho definido na divisão.
 
+### Filtragem de grupo de compras para contas {#buying-group-filtering-accounts}
+
+Você pode definir um caminho para contas associadas a grupos de compra e filtrar o caminho usando critérios de grupo de compra. Use o filtro **[!UICONTROL A conta corresponde ao grupo de compras]** para definir o segmento de caminho usando um grupo de compras correspondente. Esse filtro também inclui a opção para identificar contas com base no número de funções atribuídas em um grupo de compras correspondente.
+
+Por exemplo, você pode querer avaliar a prontidão do grupo de compras com base na profundidade (número de pessoas) que ele tem em diferentes funções, como três tomadores de decisão e dois influenciadores. Nesse caso, defina a condição para direcionar contas com um mínimo de três (3) tomadores de decisão e dois (2) influenciadores em um grupo de compras correspondente:
+
+1. Clique em **[!UICONTROL Adicionar filtro]** e escolha o filtro **[!UICONTROL Número de pessoas na função de grupo de compras]**.
+
+   ![Adicionar filtro para Conta corresponde ao grupo de compras e escolha Número de pessoas na função de grupo de compras](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+
+1. Defina o primeiro parâmetro de função.
+
+   * Defina a avaliação de número de pessoas como `at least` com um valor de `3`.
+   * Defina a avaliação de função como `is` e escolha `Decision Maker` na lista de funções.
+
+1. Repita a etapa 1 para adicionar outro parâmetro de função de grupo de compra.
+
+1. Defina o segundo parâmetro de função.
+
+   * Defina a avaliação de número de pessoas como `at least` com um valor de `2`.
+   * Defina a avaliação de função como `is` e escolha `Influencer` na lista de funções.
+
+   ![Exemplo de condições para profundidade de função em grupo de compras correspondente para uma conta](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
+
+1. Clique em **[!UICONTROL Concluído]** quando tiver todas as condições definidas para o caminho.
+
+Para as contas identificadas, você pode adicionar um nó de ação no caminho para atualizar o status do grupo de compras ou estágio, ou para enviar um email de alerta de vendas.
+
 ## Dividir caminhos por pessoas
 
 Dividir por caminhos de pessoas pode incluir apenas ações de pessoas. Esses caminhos não podem ser divididos novamente e se unem automaticamente.
 
-_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
+_**Como funciona um caminho dividido por nó de pessoas**_
 
 * Divisão por nós de pessoas em uma combinação de divisão de mesclagem de _nó agrupado_. Os caminhos divididos se mesclam automaticamente para que todas as pessoas possam avançar para a próxima etapa sem perder o contexto da conta.
 * Os nós Split by people não podem ser aninhados (não é possível adicionar um caminho dividido para pessoas em um caminho que esteja neste nó agrupado).
@@ -98,15 +131,15 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 ![Nó do Jornada - caminhos divididos por pessoas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Condições de caminho de pessoas
+### Filtros de caminho de pessoas
 
-| Condições de caminho | Descrição |
-| --------------- | ----------- |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado no email] <li>E-mail aberto <li>O email foi entregue <li>Email enviado <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de email). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Mensagem SMS] | Atividades de SMS com base em condições que são avaliadas usando uma ou mais mensagens SMS selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado em SMS] <li>[!UICONTROL SMS Devolvido] <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de SMS). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor<li>Valor anterior<li>Motivo<li>Origem<li>Data da atividade<li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não teve uma alteração no valor de dados). |
-| [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância associada do Marketo Engage. As restrições incluem: <li>Data importante<li>Email<li>Web <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não teve um momento interessante). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Página da Web visitada] | Atividade da página da Web que para uma ou mais páginas da Web gerenciadas pela instância do Marketo Engage associada. As restrições incluem: <li>Página da Web (obrigatório)<li>Data da atividade<li>Endereço IP do cliente <li>Cadeia de consulta <li>Referenciador <li>Agente do usuário <li>Mecanismo de pesquisa <li>Pesquisar consulta <li>URL personalizada <li>Token <li>Navegador <li>Plataforma <li>Dispositivo <li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não visitou a página da web). |
+| Filtros | Descrição |
+| ------------ | ----------- |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado no email] <li>Abriu um email <li>O email foi entregue <li>Email enviado <br>**[!UICONTROL Alternar para filtro de inatividade ]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de email). |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Mensagem SMS] | Atividades de SMS com base em condições que são avaliadas usando uma ou mais mensagens SMS selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado em SMS] <li>[!UICONTROL SMS Devolvido] <br>**[!UICONTROL Alternar para filtro de inatividade ]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de SMS). |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor<li>Valor anterior<li>Motivo<li>Origem<li>Data da atividade<li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade ]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não teve uma alteração no valor de dados). |
+| [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância associada do Marketo Engage. As restrições incluem: <li>Data importante<li>Email<li>Web <br>**[!UICONTROL Alternar para filtro de inatividade ]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não teve um momento interessante). |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Página da Web visitada] | Atividade da página da Web que para uma ou mais páginas da Web gerenciadas pela instância do Marketo Engage associada. As restrições incluem: <li>Página da Web (obrigatório)<li>Data da atividade<li>Endereço IP do cliente <li>Cadeia de consulta <li>Referenciador <li>Agente do usuário <li>Mecanismo de pesquisa <li>Pesquisar consulta <li>URL personalizada <li>Token <li>Navegador <li>Plataforma <li>Dispositivo <li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade ]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não visitou a página da web). |
 | [!UICONTROL Atributos da pessoa] | Atributos do perfil de pessoa, incluindo: <li>Cidade <li>País <li>Data de nascimento <li>Endereço de email <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida<li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Função</li> |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | A pessoa é ou não membro de uma ou mais listas do Marketo Engage. |
@@ -141,7 +174,7 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 1. No editor de condições, adicione um ou mais filtros para definir o caminho dividido.
 
-   * Arraste e solte qualquer um dos atributos de pessoas da navegação à esquerda e conclua a definição de correspondência.
+   * Arraste e solte qualquer um dos filtros de pessoas da navegação à esquerda e conclua a definição de correspondência.
 
      >[!NOTE]
      >
@@ -183,7 +216,7 @@ Para um caminho dividido por pessoas, você pode definir um caminho de acordo co
 
 >[!BEGINSHADEBOX &quot;Filtragem de inatividade&quot;]
 
-Para cada filtro de _[!UICONTROL Histórico de atividades]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Por exemplo, se você deseja criar um caminho para pessoas que _&#x200B;**não**&#x200B;_ abriram um email anteriormente na jornada, adicione o filtro _[!UICONTROL Email]_ > _[!UICONTROL Email aberto]_. Ative a opção de inatividade e especifique o email. É uma prática recomendada usar a restrição _[!UICONTROL Data da atividade]_ para definir um período de tempo para a inatividade.
+Para cada filtro de _[!UICONTROL Histórico de atividades]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Por exemplo, se você deseja criar um caminho para pessoas que _**não**_ abriram um email anteriormente na jornada, adicione o filtro _[!UICONTROL Email]_ > _[!UICONTROL Email aberto]_. Ative a opção de inatividade e especifique o email. É uma prática recomendada usar a restrição _[!UICONTROL Data da atividade]_ para definir um período de tempo para a inatividade.
 
 ![Dividir caminho por condição de pessoas para comprar associação de grupo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -233,4 +266,4 @@ Adicione um nó _Merge paths_ para combinar diferentes caminhos divididos por co
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443261/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

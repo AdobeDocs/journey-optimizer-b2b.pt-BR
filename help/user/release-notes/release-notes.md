@@ -3,10 +3,10 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes no Adobe Journey Optimizer B2B Edition e atualize-se com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -14,10 +14,9 @@ ht-degree: 100%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Colaboração de conteúdo de email | Agora é possível comentar sobre a colaboração com outros usuários do Journey Optimizer B2B Edition no contexto de um ativo de email. É possível marcar os membros da equipe para que recebam uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação de pulso. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| Recurso | Modo escuro para design de email | O espaço de design de email agora inclui a capacidade de alternar para o _modo escuro_. No modo escuro, é possível visualizar o conteúdo do email e definir configurações personalizadas a serem exibidas especificamente para destinatários que visualizam seus emails no modo escuro. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| Aprimoramento | Jornadas: dividir caminho pelo número de pessoas na função | Use um caminho dividido pelo nó da conta para direcionar uma conta com o número de pessoas em uma ou mais funções de grupo de compra. No caminho, é possível avaliar a disponibilidade do grupo de compras para alertas de vendas e outros engajamentos com base na profundidade da função. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| Aprimoramento | Jornadas: filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica em um grupo de compras correspondente. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| Recurso | Colaboração de conteúdo de email | Agora é possível comentar sobre a colaboração com outros usuários do Journey Optimizer B2B Edition no contexto de um ativo de email. É possível marcar os membros da equipe para que recebam uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação de pulso. [Saiba mais](../content/email-collaboration-tools.md) |
+| Recurso | Modo escuro para design de email | O espaço de design de email agora inclui a capacidade de alternar para o _modo escuro_. No modo escuro, é possível visualizar o conteúdo do email e definir configurações personalizadas a serem exibidas especificamente para destinatários que visualizam seus emails no modo escuro. [Saiba mais](../content/email-dark-mode.md) |
+| Aprimoramento | Jornadas: dividir caminho pelo número de pessoas na função | Use um caminho dividido pelo nó da conta para direcionar uma conta com o número de pessoas em uma ou mais funções de grupo de compra. No caminho, você pode avaliar a disponibilidade do grupo de compras para alertas de vendas e outros envolvimentos com base na profundidade da função. [Saiba mais](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| Aprimoramento | Jornadas: filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica para um grupo de compras correspondente. [Saiba mais](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Aprimoramento | Conteúdo condicional para fragmentos | Agora é possível usar as ferramentas de conteúdo condicional para o design de fragmentos visuais. [Saiba mais](../content/conditional-content.md) |
 | Aprimoramento | Atualizações da pontuação de engajamento | A lógica da pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, é possível trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compra. [Saiba mais](../buying-groups/engagement-scores.md) |
 | Aprimoramento | Observabilidade da jornada ativa: contas em cada nó | Para uma jornada de conta ativa, é possível acessar uma lista das contas que atingiram cada nó de conta na jornada. |
-
->[!NOTE]
->
->As alterações de versão começam a ser implantadas em 26 de agosto de 2025, com uma implantação em fases de cada recurso. As datas de lançamento dos recursos e aprimoramentos estão sujeitas a alterações.
 
 ## Notas da versão 2025.6
 
@@ -91,7 +86,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Testes de email com o Litmus | Com uma [conta Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, agora você pode visualizar a renderização do email em clientes de email populares do Journey Optimizer B2B Edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. [Saiba mais](../content/email-test-rendering.md) |
+| Recurso | Testes de email com o Litmus | Com uma [conta Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, agora você pode visualizar o e-mail rendering em clientes de email populares do Journey Optimizer B2B Edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. [Saiba mais](../content/email-test-rendering.md) |
 | Aprimoramento | Duplicar email | Ao adicionar um email relacionado a um nó da jornada, agora é possível duplicar um email existente. Modifique a configuração ou o conteúdo do email duplicado, ou deixe-o intacto.  [Saiba mais](../content/add-email.md#add-an-email-to-your-journey) |
 | Aprimoramento | Formato de token handlebar para email | Os tokens de personalização para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#content-authoring---personalization) |
 | Aprimoramento | Exibição da contagem total de listas | As páginas de lista _[!UICONTROL Interesses da solução]_ e _[!UICONTROL Jornadas da conta]_ foram aprimoradas com a exibição da contagem total ao lado da barra de pesquisa. |
@@ -108,7 +103,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Recurso | Orquestração de jornada da lista de contas | Use os nós de ação de jornada para adicionar e remover contas de listas de contas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Saiba mais</a> |
 | Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B Edition para o público-alvo da jornada e, em seguida, use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Saiba mais</a> |
 | Recurso | Filtros de inatividade | Orquestre jornadas com base na inatividade em campanhas e programas do Marketo Engage, incluindo inatividade de email, momentos interessantes, alterações no valor de dados e páginas da Web visitadas. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Saiba mais</a> |
-| Aprimoramento | Filtro de página da Web visitada | Orquestre jornadas com base na atividade de páginas da web visitadas associadas a campanhas e programas do Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Saiba mais</a> |
+| Aprimoramento | Filtro de página da Web visitada | Orquestre jornadas com base na atividade de páginas da web visitadas associadas a campanhas e programas do Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Saiba mais</a> |
 | Aprimoramento | Lista de emails | Exiba uma lista global de emails ativos e de rascunho para pesquisá-los, analisá-los e atualizá-los nas jornadas de conta associadas. <a href="../content/emails-list.md">Saiba mais</a> |
 
 ## Notas da versão 2025.3

@@ -4,9 +4,9 @@ description: Crie emails com ferramentas de design visual, importação do HTML 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1163'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UI
 
 Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento ao selecionar a guia _[!UICONTROL Usado por]_ no resumo.
 
-### Adicionar ativos
+### Adicionar ativos de imagem
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -126,6 +126,14 @@ Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento
 ### Editar rastreamento de URL vinculado
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Aplicar estilo de modo escuro
+
+Use o _Modo escuro_ para analisar a exibição de emails para ver se há um tema escuro em um cliente de email. Um modo ou tema escuro permite que um cliente ou aplicativo de email de suporte exiba emails com planos de fundo mais escuros e cores mais claras para texto, botões e outros elementos visuais. Na parte superior direita da tela de design, altere o seletor para _Modo escuro_ ( ![Ícone de modo escuro](../assets/do-not-localize/icon-content-dark-mode.svg) ). Em seguida, visualize e defina configurações personalizadas específicas usadas para exibição pelos clientes de email de suporte quando o tema escuro estiver habilitado.
+
+![Tela de design de email mostrando o seletor de modo escuro e o conteúdo de email exibidos no modo escuro](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Para obter mais informações sobre o estilo e as práticas recomendadas do modo escuro, consulte [Modo escuro para conteúdo de email](./email-dark-mode.md).
 
 ### Exibir opções
 

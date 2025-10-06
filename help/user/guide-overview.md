@@ -2,10 +2,10 @@
 title: Documentação do Adobe Journey Optimizer B2B Edition
 description: 'Documentação completa do Journey Optimizer B2B Edition: explore os recursos disponíveis para integração, criação de grupos de compra, criação de jornadas de conta e gerenciamento de conteúdo.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 100%
 Confira uma amostragem das últimas adições e melhorias no aplicativo e na documentação do Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
+
+>[!TAB Colaboração de conteúdo de email]
+
+O espaço de design de email inclui ferramentas de colaboração para comentários e resolução, para que as equipes de marketing possam analisar, discutir e finalizar ativos de email diretamente no [!DNL Journey Optimizer B2B Edition]. Em vez de compartilhar rascunhos por meio de ferramentas externas (como bate-papo, threads de email ou planilhas), os usuários podem comentar, sugerir edições e resolver comentários no espaço de design de email. Você pode marcar os membros da equipe para que eles recebam uma notificação por email ou por pulso com os detalhes do comentário.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Saiba mais sobre as ferramentas de colaboração de conteúdo de email"}
+
+>[!TAB Design de email no modo escuro]
+
+O espaço de design de email agora inclui a visualização e as configurações do _modo escuro_. O modo escuro permite que um cliente ou aplicativo de email de suporte exiba emails com planos de fundo mais escuros e cores mais claras para texto, botões e outros elementos visuais. Visualize a renderização, personalize as configurações, garanta a acessibilidade e teste entre clientes de email.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Saiba mais sobre o design de email no modo escuro"}
 
 >[!TAB Pontuação de engajamento de pessoa]
 
@@ -35,12 +47,6 @@ Atribua pesos personalizados às atividades de engajamento para que as pontuaç�
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Saiba mais sobre a ponderação personalizada da pontuação de engajamento"}
 
->[!TAB Experiências de email do GenStudio]
-
-Integre as experiências de email do GenStudio for Performance Marketing com o Journey Optimizer B2B Edition para melhorar a eficiência do marketing e manter a consistência da marca. Com essa integração, é possível combinar a criação de conteúdo viabilizada por IA do GenStudio com os recursos avançados de orquestração do Journey Optimizer B2B Edition.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Saiba mais sobre experiências de email do GenStudio"}
-
 >[!TAB Suporte a CSS personalizado]
 
 Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo de emails e de páginas de destino no espaço de design.
@@ -52,12 +58,6 @@ Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo d
 Para ativar e gerenciar o modelo de Detecção de intenção, agora é possível fazer upload de uma planilha para definir uma categoria de mapeamento de dados de intenção.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Saiba mais sobre a configuração de mapeamento de palavra-chave de intenção"}
-
->[!TAB Relatórios de detecção de spam]
-
-Com os novos relatórios de spam, você pode evitar filtros de spam e garantir que as mensagens sejam entregues nas caixas de entrada do público-alvo. Gerar um _relatório de spam_ diretamente no espaço de design de email.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Saiba mais sobre os relatórios de detecção de spam"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desenvolvedores</a>
@@ -145,7 +145,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
 
