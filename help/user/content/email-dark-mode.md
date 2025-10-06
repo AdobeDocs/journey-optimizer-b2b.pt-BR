@@ -3,10 +3,11 @@ title: Modo escuro para conteúdo de email
 description: Saiba mais sobre o design de email no modo escuro no Journey Optimizer B2B edition. Visualize a renderização, personalize as configurações, garanta a acessibilidade e teste entre clientes de email.
 feature: Email Authoring
 topic: Content Management
+hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 keywords: modo escuro, email, cor, design
-source-git-commit: 1b59c4260ee49c21d9205ffa740bf3b0ae345287
+source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 6%
@@ -29,7 +30,7 @@ _Modo escuro_ permite que um cliente ou aplicativo de email de suporte exiba ema
 
 ![Diagrama de conceito dos modos claro e escuro mostrando a renderização de conteúdo em temas claros e escuros](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Journey Optimizer B2B Edition], é possível alternar para o modo de exibição _&#x200B;**[!UICONTROL Escuro]**&#x200B;_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
+À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Journey Optimizer B2B Edition], é possível alternar para o modo de exibição _**[!UICONTROL Escuro]**_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
 
 ## Considerações do cliente de email
 
