@@ -4,7 +4,7 @@ user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e
 source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 + Gerenciamento de conteúdo {#content-management}
    + Emails {#emails}
       + [Trabalhar com conteúdo de email](./content/emails-list.md)
-      + [Criar conteúdo acessível](./content/email-accessible-content.md)
+      + [Crie conteúdo acessível](./content/email-accessible-content.md)
       + Pré-visualização e validação {#preview}
          + [Simular conteúdo](./content/email-simulate-content.md)
          + [Testar o e-mail rendering](./content/email-test-rendering.md)
