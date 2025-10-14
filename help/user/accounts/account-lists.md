@@ -86,7 +86,7 @@ Depois de criar a lista de contas estáticas, você pode preencher a lista aplic
 
 1. Clique em **[!UICONTROL Adicionar contas]**.
 
-   ![Adicionar um filtro de conta para popular a lista ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Adicionar um filtro de conta para popular a lista &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Você pode acessar essa função na página de lista vazia ou na parte superior direita.
 
@@ -98,7 +98,7 @@ Depois de criar a lista de contas estáticas, você pode preencher a lista aplic
    * Conclua a definição de avaliação de correspondência.
    * Repita essas ações para cada filtro que deseja incluir.
 
-     ![Adicionar filtros para popular a lista de contas ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Adicionar filtros para popular a lista de contas &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Você pode ajustar suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você pode optar por corresponder todas as condições de atributo ou qualquer condição.
 
@@ -116,7 +116,7 @@ Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usa
 
 1. Clique em **[!UICONTROL Selecionar filtros]**.
 
-   ![Selecione os filtros usados para popular a lista dinamicamente ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![Selecione os filtros usados para popular a lista dinamicamente &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. Na caixa de diálogo _[!UICONTROL Adicionar contas por filtro]_, use o menu **[!UICONTROL Filtros de Conta]** para adicionar os atributos e filtros especiais que deseja usar para criar o conjunto de filtros:
 
@@ -126,7 +126,7 @@ Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usa
    * Conclua a definição de avaliação de correspondência.
    * Repita essas ações para cada filtro que deseja incluir.
 
-     ![Adicionar filtros para popular a lista de contas ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Adicionar filtros para popular a lista de contas &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Você pode ajustar suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você pode optar por corresponder todas as condições de atributo ou qualquer condição.
 

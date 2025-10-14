@@ -97,7 +97,7 @@ Você pode remover a designação do cabeçalho ou rodapé selecionando o compon
 
 Para telas menores ou janelas de exibição, as colunas no componente de estrutura são exibidas como empilhadas, a menos que você altere a configuração padrão. Com o componente de estrutura de várias colunas selecionado, altere a configuração **[!UICONTROL Não empilhar colunas em dispositivos móveis]** movendo o controle deslizante para a direita.
 
-![Não empilhar colunas no celular ](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Não empilhar colunas no celular &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componentes
 
