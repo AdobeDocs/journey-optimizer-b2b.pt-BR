@@ -3,17 +3,16 @@ title: Enviar ferramentas do Collaboration por email
 description: Colabore em emails no Journey Optimizer B2B edition. Adicione comentários, convide revisores, resolva comentários e simplifique os fluxos de trabalho de revisão para equipes.
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Ferramentas de colaboração de email
 
-O [espaço de design de email](./email-authoring.md) inclui ferramentas de colaboração para comentários e resolução, para que as equipes de marketing possam analisar, discutir e finalizar ativos de email diretamente no [!DNL Journey Optimizer B2B Edition]. Em vez de compartilhar rascunhos por meio de ferramentas externas (como bate-papo, threads de email ou planilhas), os usuários podem comentar, sugerir edições e resolver comentários no espaço de design de email. Use essas ferramentas para simplificar seu fluxo de trabalho, reduzir erros e garantir que as partes interessadas estejam alinhadas antes de iniciar sua campanha de email em uma jornada de conta:
+O [espaço de design de email](./email-authoring.md) inclui ferramentas de colaboração para comentários e resolução, para que as equipes de marketing possam analisar, discutir e finalizar ativos de email diretamente no [!DNL Journey Optimizer B2B Edition]. Em vez de compartilhar rascunhos em ferramentas externas (como bate-papos, threads de email ou planilhas), os usuários podem comentar, sugerir edições e resolver feedbacks dentro do espaço de design de email. Use essas ferramentas para simplificar seu fluxo de trabalho, reduzir erros e garantir que as partes interessadas estejam alinhadas antes de iniciar sua campanha de email em uma jornada de conta:
 
 * **_Feedback centralizado_** - Colete e acompanhe todos os comentários em um único local.
 
