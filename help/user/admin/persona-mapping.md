@@ -2,11 +2,10 @@
 title: Mapeamento de persona
 description: Saiba como configurar personas para marketing baseado em conta mapeando atributos de pessoa para criar modelos de função simplificados para grupos de compra.
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
