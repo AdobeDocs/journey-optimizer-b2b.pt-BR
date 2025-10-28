@@ -1,13 +1,11 @@
 ---
 title: Mapeamento de persona
-description: Saiba como configurar personas para marketing baseado em conta mapeando atributos de pessoa para criar modelos de função simplificados para grupos de compra.
+description: Saiba como configurar o mapeamento pessoal para marketing B2B. Mapeie os atributos de pessoa no Journey Optimizer B2B edition para criar modelos de função e otimizar o direcionamento de grupos de compra.
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -92,7 +90,7 @@ Para localizar o perfil desejado, use as ferramentas de pesquisa e filtro:
 
    * Clique em **[!UICONTROL Selecionar atributos de pessoa]**.
 
-   * Na caixa de diálogo _[!UICONTROL Selecionar atributos de pessoa]_, marque a caixa de seleção de cada atributo que você deseja mapear (no máximo cinco).
+   * Na caixa de diálogo, marque a caixa de seleção de cada atributo que você deseja mapear (no máximo cinco).
 
      Você pode personalizar a tabela exibida clicando no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito.
 
@@ -110,7 +108,7 @@ Para localizar o perfil desejado, use as ferramentas de pesquisa e filtro:
 
 ## Editar uma persona
 
-1. Para acessar os detalhes da persona, clique no nome.
+Clique no nome da persona para acessar e editar os detalhes dela,
 
 ## Excluir um perfil
 

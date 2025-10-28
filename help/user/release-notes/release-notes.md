@@ -3,10 +3,10 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes no Adobe Journey Optimizer B2B Edition e atualize-se com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 97%
+source-wordcount: '3384'
+ht-degree: 90%
 
 ---
 
@@ -14,9 +14,37 @@ ht-degree: 97%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
+
+## Notas da versão 2025.10
+
+**Data de implantação**: sábado, 31 de outubro de 2025
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Recurso | Esquemas personalizados baseados em modelo | Crie esquemas personalizados a partir de classes baseadas em modelo. |
+| Recurso | Ativar para o destino | Use a nova ação de conta da empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado a empresas do LinkedIn para esta versão.) |
+| Recurso | Temas da marca | Com temas de marca, os usuários não técnicos agora têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca específica e a um idioma de design, adicionando estilo personalizado sobre os modelos padrão. [Saiba mais](../content/brand-themes.md) |
+| Recurso | Mapeamento pessoal | Vincular membros da conta a perfis estabelecidos com mapeamento de atributo. [Saiba mais](../admin/persona-mapping.md) |
+| Aprimoramento | Comprando trabalhos de manutenção de grupo | A frequência do trabalho de manutenção do grupo de compras é atualizada de semanal para diário. |
+| Aprimoramento | Progressão da jornada de conta | Um link _Mais informações_ está visível para a progressão da jornada para acessar contagens e listas de contas. |
+
+<!-- M1.5 changes
+| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
+
+Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimizer B2B edition na interface do Assistente de IA:
+
+| Agente | Atualização | Descrição |
+| ----- | ------ | ----------- |
+| Account Qualification Agent | Novo | Veja quais contas estão prontas para a próxima etapa usando o Account Qualification Agent no Assistente de IA. Esse agente permite que os membros da equipe de vendas se concentrem nas contas certas, identificando clientes potenciais de alto valor e automatizando os fluxos de trabalho de qualificação. [Saiba mais](../agents/account-qualification-agent.md) |
+
+>[!NOTE]
+>
+>As alterações de versão começam a ser implantadas em sábado, 31 de outubro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento dos recursos e aprimoramentos estão sujeitas a alterações.
+
+
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -34,6 +62,8 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | ---- | ---- | ----------- |
 | Recurso | Colaboração de conteúdo de email | Agora é possível comentar sobre a colaboração com outros usuários do Journey Optimizer B2B Edition no contexto de um ativo de email. É possível marcar os membros da equipe para que recebam uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação instantânea. |
 | Recurso | Modo escuro para design de email | O espaço de design de email agora inclui a capacidade de alternar para o _modo escuro_. No modo escuro, você pode visualizar o conteúdo do email e definir configurações personalizadas a serem exibidas especificamente para destinatários que visualizam seus emails no modo escuro. |
+| Recurso | Desduplicação de fadiga de email | Agora é possível ativar a desduplicação de email para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. |
+| Recurso | Insights de vendas para o Salesforce e o Dynamics | Os membros da equipe de vendas agora podem visualizar grupos de compras em vencimento e insights relacionados em uma integração do Salesforce ou do Dynamics para identificar novas oportunidades. Os detalhes do grupo de compras como estágio, pontuação e membros relacionados estão incluídos. |
 | Aprimoramento | Jornadas: dividir caminho pelo número de pessoas na função | Use um caminho dividido pelo nó da conta para direcionar uma conta com o número de pessoas em uma ou mais funções de grupo de compra. No caminho, você pode avaliar a prontidão do grupo de compras com respeito a alertas de vendas e outras interações com base na profundidade da função. [Saiba mais](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Aprimoramento | Jornadas: filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica para um grupo de compra correspondente. [Saiba mais](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
