@@ -51,11 +51,11 @@ Para examinar os domínios de identidade visual, clique na guia **[!UICONTROL Do
 
 ![Acessar as configurações dos domínios de identidade visual](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Essa configuração define seu domínio primário para um ou mais espaços de trabalho na instância conectada do Marketo Engage. Novos emails usam este domínio como padrão, mas os profissionais de marketing podem [substituí-lo por email](../content/add-email.md#define-the-email-settings). Para obter mais informações sobre como definir o domínio de marca padrão, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Essa configuração define seu domínio primário para um ou mais espaços de trabalho na instância conectada do Marketo Engage. Novos emails usam este domínio como padrão, mas os profissionais de marketing podem [substituí-lo por email](../content/add-email.md#define-the-email-settings). Para obter mais informações sobre como definir o domínio de marca padrão, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Se você estiver comercializando várias marcas e quiser que cada uma tenha seus próprios links de rastreamento de marca, poderá adicionar outro domínio de marca. Para obter mais informações sobre como adicionar vários domínios de marca, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Se você estiver comercializando várias marcas e quiser que cada uma tenha seus próprios links de rastreamento de marca, poderá adicionar outro domínio de marca. Para obter mais informações sobre como adicionar vários domínios de marca, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Opções de cabeçalho personalizado] {#custom-header-options}
 
@@ -79,7 +79,7 @@ Clique em **[!UICONTROL Editar configurações]** na parte superior direita para
 >
 >Para acessar e editar essas configurações no Adobe Marketo Engage, é necessário ter permissões de administrador do produto.
 
-Para obter mais informações sobre como configurar os limites de comunicação, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Para obter mais informações sobre como configurar os limites de comunicação, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -146,4 +146,4 @@ As configurações são somente leitura no Journey Optimizer B2B edition. Clique
 >
 >Para acessar e editar essas configurações no Adobe Marketo Engage, é necessário ter permissões de administrador do produto.
 
-Para obter mais informações sobre como configurar as opções de atividade de bot, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Para obter mais informações sobre como configurar as opções de atividade de bot, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
