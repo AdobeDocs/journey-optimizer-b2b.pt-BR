@@ -3,7 +3,7 @@ title: Account Qualification Agent para B2B
 description: Saiba mais sobre o Account Qualification Agent alimentado por IA para equipes de vendas B2B a fim de acelerar a geração de pipelines com pesquisas automatizadas de prospecto, insights de conta e rascunhos de email.
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 79a4c897621c7af68c4c17382673124cdc14d8af
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Account Qualification Agent para B2B
 
->[!NOTE]
->Este recurso está atualmente com a Disponibilidade Limitada e não está disponível para todos os usuários.
+>[!AVAILABILITY]
 >
+>Este recurso está atualmente com a Disponibilidade Limitada e não está disponível para todos os usuários.
 
 O Account Qualification Agent é um assistente habilitado para IA projetado para representantes de conta. Ele simplifica e automatiza os principais fluxos de trabalho de desenvolvimento de vendas, reduzindo significativamente a sobrecarga manual e acelerando a geração de pipeline.
 
