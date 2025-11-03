@@ -3,10 +3,10 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes no Adobe Journey Optimizer B2B edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
+source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
 workflow-type: tm+mt
-source-wordcount: '3494'
-ht-degree: 86%
+source-wordcount: '3522'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -26,9 +26,10 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | ---- | ---- | ----------- |
 | Recurso | Modelo de dados relacional | Aproveite os dados relacionais vinculados às Contas B2B para filtrar contas em uma jornada de conta ou personalizar conteúdo de email. Esses dados relacionais podem representar entidades comerciais reais, como registros de compra, registros de evento, licenças de software, assinaturas de serviço ou reservas. |
 | Recurso | Ativar para destino do jornada | Use a nova ação de conta da empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado a empresas do LinkedIn para esta versão.) |
-| Recurso | Ativação múltipla do Marketo Engage | Configure conexões com instâncias remotas do Marketo Engage e use essas conexões para definir ações de jornada relacionadas ao Marketo Engage. Essas ações, como adicionar ou remover pessoas de listas ou adicionar pessoas a uma campanha de solicitação, se aplicam à instância designada do Marketo Engage. |
+| Recurso | Ativação múltipla do Marketo Engage | Configure conexões com instâncias remotas do Marketo Engage e use essas conexões para definir ações do Marketo Engage no jornada. Essas ações, como adicionar/remover pessoas de listas ou adicionar pessoas a uma campanha de solicitação, se aplicam à instância designada do Marketo Engage. |
 | Recurso | Temas da marca | Com temas de marca, os usuários não técnicos agora têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca específica e a um idioma de design, adicionando estilo personalizado sobre os modelos padrão. [Saiba mais](../content/brand-themes.md) |
-| Recurso | Mapeamento pessoal | Vincular membros da conta a perfis estabelecidos com mapeamento de atributo. [Saiba mais](../admin/persona-mapping.md) |
+| Recurso | Modelos de email - converter imagem para o HTML | Agora você pode usar seus arquivos de design armazenados como arquivos de imagem JPG ou PNG e gerar automaticamente modelos de email. [Saiba mais](../content/email-template-image-convert.md) |
+| Recurso | Mapeamento de personas | Vincular membros da conta a perfis estabelecidos com mapeamento de atributo. [Saiba mais](../admin/persona-mapping.md) |
 | Recurso | Insights de vendas para o Salesforce e o Dynamics | Os membros da equipe de vendas agora podem visualizar grupos de compras em vencimento e insights relacionados em uma integração do Salesforce ou do Dynamics para identificar novas oportunidades. Os detalhes do grupo de compras como estágio, pontuação e membros relacionados estão incluídos. |
 | Aprimoramento | Desduplicação de fadiga de email | Agora é possível ativar a desduplicação de email para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. |
 | Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B edition. |
