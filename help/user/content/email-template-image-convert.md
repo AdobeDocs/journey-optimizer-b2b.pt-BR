@@ -2,7 +2,7 @@
 title: Converter uma imagem em um modelo de email
 description: Transforme arquivos de imagem em modelos de email do HTML com o Journey Optimizer B2B edition. Faça upload de arquivos PNG/JPEG e gere automaticamente conteúdo de email reutilizável.
 feature: Email Authoring, Content
-source-git-commit: afac631110f27c59f73aaf4761e3739c772258be
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -11,11 +11,9 @@ ht-degree: 0%
 
 # Conversão de uma imagem em um modelo de email
 
-É possível converter facilmente arquivos de design salvos como imagens (PNG ou JPEG) em HTML prontos para modelo de email, economizando tempo e recursos valiosos para a equipe da Web.
-
 A criação e a atualização de modelos de email são um componente fundamental no seu supply chain de conteúdo de marketing, mas essas tarefas geralmente exigem tempo e recursos significativos devido à codificação manual do HTML. Tradicionalmente, as equipes de marketing dependiam de agências ou equipes de TI para desenvolver esses modelos. A nova ferramenta de imagem para HTML para modelos de email simplifica esse processo, permitindo que os profissionais de marketing convertam arquivos de design em modelos de código do HTML. O HTML convertido está pronto para edição adicional no espaço de design de email. Essa ferramenta é compatível com tipos de arquivos JPEG e PNG e apresenta uma interface de arrastar e soltar.
 
-O gerador de modelos intuitivo converte imagens em modelos de código do HTML que estão prontos para modificação com as ferramentas de design de email. Um profissional de marketing ou design pode fazer upload de uma imagem e gerar rapidamente um modelo de email, sem precisar de codificação manual do HTML. Essa ferramenta oferece suporte à conversão de tipos de arquivos JPEG e PNG em modelos de email codificados pela HTML.
+É possível converter facilmente arquivos de design salvos como imagens (PNG ou JPEG) em HTML prontos para modelo de email, economizando tempo e recursos valiosos para a equipe da Web. O gerador de modelos intuitivo converte imagens em modelos de email codificados no HTML que estão prontos para modificação com as ferramentas de design de email. Um profissional de marketing ou design pode fazer upload de uma imagem e gerar rapidamente um modelo de email, sem precisar de codificação manual do HTML. Essa ferramenta oferece suporte à conversão de tipos de arquivos JPEG e PNG em modelos de email codificados pela HTML.
 
 >[!BEGINSHADEBOX]
 
