@@ -261,4 +261,4 @@ Se o perfil da pessoa não for membro da Smart List, a ação será ignorada.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443250/?captions=por_br&learn=on)
