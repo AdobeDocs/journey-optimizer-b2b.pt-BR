@@ -4,10 +4,10 @@ description: 'Otimize o marketing baseado em conta com grupos de compra: identif
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: ht
-source-wordcount: '1187'
-ht-degree: 100%
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Para evitar a substituição incorreta da atribuição de um membro em um grupo 
 * Se um usuário atribuir manualmente um membro a um grupo de compra e isso for seguido por uma tarefa de manutenção de grupo de compra que o remove, a tarefa de manutenção **não removerá** esse membro e não poderá se sobrepor à atribuição manual.
 * Se um usuário atribuir manualmente um membro a um grupo de compra e isso for seguido por um nó de jornada acionado que o remove, a ação do nó **não removerá** esse membro e não poderá se sobrepor à atribuição manual.
 * Se um nó de ação de jornada acionado adicionar um membro a um grupo de compra e isso for seguido por uma tarefa de manutenção de grupo de compra que o remove, a tarefa de manutenção **não removerá** esse membro e não poderá se sobrepor à atribuição de ação de jornada.
+
+>[!NOTE]
+>
+>Os trabalhos de manutenção do grupo de compra automatizada são executados diariamente, a partir da versão 2025.10.
 
 ## Fluxo de trabalho do grupo de compra
 
@@ -96,11 +100,11 @@ Para acessar os detalhes de um grupo de compra, clique no nome do grupo de compr
 
 ### Pontuação de integridade do grupo de compra
 
-A pontuação de integridade é usada para determinar se o grupo de compra tem os membros certos atribuídos às funções e está pronto para ser usado em uma jornada de conta. Essa pontuação é uma porcentagem baseada no número de funções no grupo de compra e em quantas funções são atribuídas a pelo menos um lead.
+A pontuação de integridade é usada para determinar se o grupo de compras tem o número correto de membros atribuídos às funções necessárias e está pronto para ser usado em uma jornada de conta. Essa pontuação é uma porcentagem baseada no número de funções no grupo de compra e na integridade de cada uma das funções definidas.
 
-Por exemplo, se houver quatro funções em um grupo de compra e três delas forem atribuídas a pelo menos um lead, o grupo de compra terá uma integridade de 75%.
+O cálculo inicial da pontuação de integridade é iniciado assim que você cria o grupo de compras, é recalculado diariamente e sempre que um grupo de compras é criado ou atualizado.
 
-A pontuação de integridade é recalculada toda vez que um grupo de compra é criado ou atualizado.
+Consulte [Pontuações de integridade](./completeness-scores.md) para obter informações detalhadas sobre pontuação de integridade e cálculos.
 
 ### Pontuação de engajamento do grupo de compra {#engagement-score}
 
@@ -112,4 +116,4 @@ Consulte [Pontuações de engajamento](./engagement-scores.md) para obter inform
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

@@ -4,10 +4,10 @@ description: 'Simplifique a geração de demanda com jornadas de conta: crie, pu
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 91%
 
 ---
 
@@ -85,7 +85,7 @@ Se você cancelar (parar) uma jornada ativa ou agendada, as contas na jornada in
 
 >[!IMPORTANT]
 >
->Quando a jornada da conta é usada em outra jornada de um nó _Executar uma ação_ com a ação _Adicionar conta a (outra) jornada_, cancelar a jornada bloqueia essa ação daquela jornada.
+>Quando a jornada da conta é usada em outra jornada de um nó _Executar uma ação_ com a ação _[!UICONTROL Adicionar conta a (outra) jornada]_, cancelar a jornada bloqueia essa ação daquela jornada.
 
 1. Clique no nome da jornada para abri-la.
 
@@ -101,7 +101,7 @@ Se você fechar uma jornada ativa, as contas que estão atualmente na jornada co
 
 >[!IMPORTANT]
 >
->Quando a jornada da conta é usada em outra jornada de um nó _Executar uma ação_ com a ação _Adicionar conta a (outra) jornada_, fechá-la para novas entradas bloqueia essa ação daquela jornada.
+>Quando a jornada da conta é usada em outra jornada de um nó _Executar uma ação_ com a ação _[!UICONTROL Adicionar conta a (outra) jornada]_, fechá-la para novas entradas bloqueia essa ação daquela jornada.
 
 1. Clique no nome da jornada para abri-la.
 
@@ -155,6 +155,16 @@ Use uma ação de exclusão para excluir uma jornada permanentemente. Não é po
 
 1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 
+## Revisar progressão da conta
+
+Para uma jornada publicada que esteja em um status _Ativo_, _Fechado para novas entradas_, _Abortado_ ou _Concluído_, você pode abrir o mapa de jornadas para examinar a progressão da conta para os nós de jornada. Cada nó no mapa exibe o número de contas para alcançar esse nó e, para jornadas ativas, o número de contas atualmente nesse nó.
+
+![Jornada informações de progressão da conta do nó](./assets/node-account-progression-observability.png){width="400"}
+
+Ao selecionar o nó, clique no número para exibir uma lista de contas que entraram no nó ou que estão atualmente nessa etapa da jornada.
+
+![Jornada informações de progressão da conta do nó](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -4,9 +4,9 @@ description: Crie modelos de função com atribuição automática condicional p
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1303'
 ht-degree: 5%
 
 ---
@@ -120,6 +120,26 @@ Para usar a associação de lista como uma condição de função, expanda **[!U
 
 Suas alterações são salvas automaticamente no status _Rascunho_. Se você não estiver pronto para publicar o modelo de funções, clique na seta para a esquerda (para trás) na parte superior da página e retorne à lista _[!UICONTROL Modelos de funções]_.
 
+### Alterar as configurações de pontuação de integridade
+
+Por padrão, a integridade de uma função é definida como um membro atribuído à função. Quando quiser usar a integridade do grupo de compras como um indicador de disponibilidade para vendas ou sucesso <!-- journey decisioning coming later-->, você poderá usar essas configurações para alinhar a pontuação com o número de membros por função necessários para fechar uma oportunidade.
+
+Por exemplo, fechar um negócio para sua solução _X_ requer que vários tomadores de decisão de marketing sejam identificados e envolvidos, pois várias equipes de marketing em uma organização usariam a solução. Nesse caso, você deseja aumentar o limite para calcular um grupo de compras _concluído_ exigindo pelo menos dois tomadores de decisão de marketing.
+
+Consulte [Pontuações de integridade](./completeness-scores.md) para obter informações detalhadas sobre pontuação de integridade e cálculos.
+
+1. Na parte superior direita da página de modelo de funções, clique em **[!UICONTROL Configurações de pontuação de integridade]**.
+
+   ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}
+
+1. Na caixa de diálogo, altere o valor de **[!UICONTROL Membros necessários]** para cada função definida, conforme necessário.
+
+   Você pode inserir o valor ou clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
+
+   ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+
+1. Clique em **[!UICONTROL Salvar]**.
+
 ### Publicar o modelo de funções
 
 Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publicar]** no canto superior direito.
@@ -162,4 +182,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
