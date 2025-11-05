@@ -17,7 +17,7 @@ O Journey Optimizer B2B edition oferece a capacidade de gerar públicos-alvo de 
 
 Esse recurso utiliza os destinos da Experience Platform para gerenciar alguns aspectos da integração. Há um limite de dez fluxos de dados.
 
-Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
+Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
 
 ## Configurar uma nova conexão com a conta do LinkedIn {#linkedin-destination-setup}
 
