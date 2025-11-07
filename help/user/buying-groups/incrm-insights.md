@@ -15,7 +15,7 @@ ht-degree: 0%
 
 O Marketo In-CRM Insights é um aplicativo baseado na Web que se integra ao Salesforce, fornecendo acesso aos grupos de compras B2B do AJO diretamente no Salesforce. Isso permite identificar oportunidades para maior envolvimento e potencial de vendas.
 
-O In-CRM Insights está disponível no [pacote do Marketo Sales Insights](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+O In-CRM Insights está disponível no [pacote do Marketo Sales Insights](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Uso de insights no CRM
 
@@ -29,7 +29,7 @@ O In-CRM Insights está disponível no Salesforce por meio do Inicializador de a
 Seus Grupos de compra estão carregados e disponíveis. Os dados são somente leitura por meio do In-CRM Insights.
 
 >[!NOTE]
->Os usuários devem ser membros da função [Usuário de Vendas B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) para acessar Insights no CRM.
+>Os usuários devem ser membros da função [Usuário de Vendas B2B](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) para acessar Insights no CRM.
 >
 
-Ao selecionar um Grupo de Compras, agora você pode navegar pelos [detalhes do grupo](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), exatamente como no Journey Optimizer B2B.
+Ao selecionar um Grupo de Compras, agora você pode navegar pelos [detalhes do grupo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), exatamente como no Journey Optimizer B2B.
