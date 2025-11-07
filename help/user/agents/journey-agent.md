@@ -1,11 +1,11 @@
 ---
 title: Agente de Compilação do Jornada para B2B
-description: Saiba como
+description: Saiba como usar o Agente de build de Jornada alimentado por IA para ajudar a criar jornadas robustas rapidamente
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---

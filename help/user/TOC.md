@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 98%
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -23,9 +23,12 @@ ht-degree: 98%
    + [Habilitar o acesso ao Assistente de IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Orientação para perguntas](./ai-assistant/question-guidance.md)
    + [Usar o Assistente de IA](./ai-assistant/use-ai-assistant.md)
+   + Agentes {#ai-agents}
+      + [Audience Agent](./agents/audience-agent-b2b.md)
+      + [Agente de construção de jornada](./agents/journey-agent.md)
+      + [Qualificador de Vendas](./agents/sales-qualifier.md)
 + Jornadas da conta {#account-journeys}
    + [Visão geral](./journeys/journey-overview.md)
-   + [Agente de construção de jornada](./agents/journey-agent.md)
    + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)
    + [Nós de jornada](./journeys/journey-nodes.md)
    + Nós de jornada {#journey-nodes}
@@ -48,8 +51,6 @@ ht-degree: 98%
    + [Criação de SMS](./content/sms-authoring.md)
 + Contas {#accounts}
    + [Públicos-alvo](./audiences/account-audience-overview.md)
-   + [Audience Agent](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
    + Grupos de compra {#buying-groups}
       + [Visão geral](./buying-groups/buying-groups-overview.md)
       + [Interesses na solução](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 98%
       + [Exportar contas](./audiences/account-list-export.md)
       + [Públicos-alvo correspondentes da conta do LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtros de grupo de compra no Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [Insights no CRM](./buying-groups/incrm-insights.md)
    + Listas de contas {#account-lists}
       + [Visão geral](./accounts/account-lists.md)
       + [Usar em jornadas e programas](./accounts/account-lists-journeys.md)
