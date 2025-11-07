@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 92%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
-## Recursos de IA do agente
+## Recursos de IA agêntica
 
 Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey Optimizer B2B Edition na interface do Assistente de IA:
 
@@ -37,7 +37,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 | Recurso | Modelo de dados relacional | Aproveite os dados relacionais vinculados às contas B2B para filtrar contas dentro de uma jornada de conta ou personalizar o conteúdo de emails. Esses dados relacionais podem representar entidades comerciais do mundo real, como registros de compras, inscrições em eventos, licenças de software, assinaturas de serviços ou reservas. |
 | Recurso | Ativar para destino da jornada | Use a nova ação de conta de empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado a empresas do LinkedIn para esta versão.) [Saiba mais](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Recurso | Temas da marca | Com os temas de marca, usuários sem conhecimentos técnicos agora têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca e linguagem de design específicas, adicionando estilos personalizados aos modelos padrão. [Saiba mais](../content/brand-themes.md) |
-| Recurso | Modelos de email - converter imagem para o HTML | Agora você pode usar seus arquivos de design armazenados como arquivos de imagem JPG ou PNG e gerar automaticamente modelos de email. [Saiba mais](../content/email-template-image-convert.md) |
+| Recurso | Modelos de email: converter imagem em HTML | Agora, você pode usar os seus arquivos de design armazenados como arquivos de imagem JPG ou PNG para gerar modelos de email automaticamente. [Saiba mais](../content/email-template-image-convert.md) |
 | Recurso | Mapeamento de personas | Vincule membros da conta a personas estabelecidas com mapeamento de atributos. [Saiba mais](../admin/persona-mapping.md) |
 | Recurso | Insights de vendas para o Salesforce e o Dynamics | Os membros da equipe de vendas agora podem visualizar grupos de compra em amadurecimento e insights relacionados dentro de uma integração do Salesforce ou Dynamics para identificar novas oportunidades. As informações sobre o grupo de compra, como estágio, pontuação e membros relacionados, estão incluídas. |
 | Recurso | Ativação múltipla do Marketo Engage | Configure conexões com instâncias remotas do Marketo Engage e use essas conexões para configurar ações de jornada relacionadas ao Marketo Engage. Essas ações, como adicionar ou remover pessoas de listas ou adicionar pessoas a uma campanha de solicitação, aplicam-se à instância designada do Marketo Engage. |
@@ -49,18 +49,18 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 31 de outubro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Estas alterações da versão começam a ser implantadas em 31 de outubro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ### Arquitetura simplificada
 
-O Adobe Journey Optimizer B2B edition agora está disponível usando uma arquitetura simplificada. Com essa arquitetura atualizada, o Journey Optimizer B2B edition e o Marketo Engage não estão mais no mesmo sistema e armazenamento de dados. O Journey Optimizer B2B edition recebe dados somente do Adobe Experience Platform. No entanto, ele continua a depender de direitos da Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
+Agora, o Adobe Journey Optimizer B2B Edition está disponível com uma arquitetura simplificada. Com essa arquitetura atualizada, o Journey Optimizer B2B Edition e o Marketo Engage não estão mais no mesmo sistema nem no mesmo armazenamento de dados. O Journey Optimizer B2B Edition recebe dados somente da Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
 
 Essa arquitetura atualizada oferece vários benefícios:
 
-* **Unifique e dimensione facilmente seus dados**: a plataforma atualizada oferece suporte a modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
-* **Conectar várias instâncias do Adobe Marketo Engage**: gerenciar e unificar dados de vários ambientes do Adobe Marketo Engage em um único local.
-* **Mantenha seus dados seguros**: recursos avançados de privacidade e segurança ajudam a proteger as informações de seus clientes.
-* **Criado para o futuro**: esta atualização configura a sua organização para melhorias e inovações contínuas.
+* **Unifique e dimensione os seus dados facilmente**: a plataforma atualizada permite o uso de modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
+* **Conecte várias instâncias do Adobe Marketo Engage**: gerencie e unifique dados de vários ambientes do Adobe Marketo Engage no mesmo lugar.
+* **Mantenha os seus dados seguros**: os recursos avançados de privacidade e segurança ajudam a proteger as informações dos seus clientes.
+* **Criado para o futuro**: esta atualização prepara a sua organização para melhorias e inovações contínuas.
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 30 de setembro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Estas alterações da versão começam a ser implantadas em 30 de setembro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas da versão 2025.8
 
