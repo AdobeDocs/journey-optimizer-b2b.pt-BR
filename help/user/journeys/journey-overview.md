@@ -5,9 +5,9 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de Rascunho para Ativa quando ela é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
-| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Cancelar](#abort-journey) |
-| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Concluída**&#x200B;_ | Quando todas as contas em uma jornada a concluem, o status muda de _Ativa_ ou _Fechada para novas entradas_ para _Concluída_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Rascunho**_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Ativa**_ | O status da jornada muda de Rascunho para Ativa quando ela é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Cancelar](#abort-journey) |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Concluída**_ | Quando todas as contas em uma jornada a concluem, o status muda de _Ativa_ ou _Fechada para novas entradas_ para _Concluída_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
 
 ## Gerenciar jornadas
 
@@ -157,14 +157,14 @@ Use uma ação de exclusão para excluir uma jornada permanentemente. Não é po
 
 ## Revisar progressão da conta
 
-Para uma jornada publicada que esteja em um status _Ativo_, _Fechado para novas entradas_, _Abortado_ ou _Concluído_, você pode abrir o mapa de jornadas para examinar a progressão da conta para os nós de jornada. Cada nó no mapa exibe o número de contas para alcançar esse nó e, para jornadas ativas, o número de contas atualmente nesse nó.
+Para uma jornada publicada que esteja no status _Ativa_, _Fechada para novas entradas_, _Abortada_ ou _Concluída_, você pode abrir o mapa da jornada para revisar a progressão da conta para os nós da jornada. Cada nó no mapa exibe o número de contas para chegar a esse nó e, para jornadas ativas, o número de contas atualmente nesse nó.
 
-![Jornada informações de progressão da conta do nó](./assets/node-account-progression-observability.png){width="400"}
+![Informações sobre o progresso da conta do nó da jornada](./assets/node-account-progression-observability.png){width="400"}
 
-Ao selecionar o nó, clique no número para exibir uma lista de contas que entraram no nó ou que estão atualmente nessa etapa da jornada.
+Ao selecionar o nó, clique no número para visualizar uma lista de contas que entraram no nó ou que estão atualmente nessa etapa da jornada.
 
-![Jornada informações de progressão da conta do nó](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+![Informações sobre o progresso da conta do nó da jornada](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

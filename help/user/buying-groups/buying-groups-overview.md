@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Para evitar a substituição incorreta da atribuição de um membro em um grupo 
 
 >[!NOTE]
 >
->Os trabalhos de manutenção do grupo de compra automatizada são executados diariamente, a partir da versão 2025.10.
+>As tarefas automatizadas de manutenção do grupo de compras são executadas diariamente, a partir da versão 2025.10.
 
 ## Fluxo de trabalho do grupo de compra
 
@@ -100,11 +100,11 @@ Para acessar os detalhes de um grupo de compra, clique no nome do grupo de compr
 
 ### Pontuação de integridade do grupo de compra
 
-A pontuação de integridade é usada para determinar se o grupo de compras tem o número correto de membros atribuídos às funções necessárias e está pronto para ser usado em uma jornada de conta. Essa pontuação é uma porcentagem baseada no número de funções no grupo de compra e na integridade de cada uma das funções definidas.
+A pontuação de completude é usada para determinar se o grupo de compras tem o número certo de membros atribuídos às funções necessárias e está pronto para ser usado em uma jornada de conta. Esta pontuação é uma porcentagem baseada no número de funções dentro do grupo de compras e na completude de cada uma das funções definidas.
 
-O cálculo inicial da pontuação de integridade é iniciado assim que você cria o grupo de compras, é recalculado diariamente e sempre que um grupo de compras é criado ou atualizado.
+O cálculo inicial da pontuação de completude começa assim que você cria o grupo de compras e é recalculado diariamente e sempre que um grupo de compras é criado ou atualizado.
 
-Consulte [Pontuações de integridade](./completeness-scores.md) para obter informações detalhadas sobre pontuação de integridade e cálculos.
+Consulte [Pontuações de completude](./completeness-scores.md) para obter informações detalhadas sobre pontuação e cálculos de completude.
 
 ### Pontuação de engajamento do grupo de compra {#engagement-score}
 
@@ -116,4 +116,4 @@ Consulte [Pontuações de engajamento](./engagement-scores.md) para obter inform
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3452936/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
