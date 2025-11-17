@@ -4,9 +4,9 @@ description: Gerenciar o acesso do usuário com o Experience Cloud Admin Console
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 6c03cbf235002015d54852604698729021253ec8
+source-git-commit: fed4ffe06d645784dc3f2adc84c15906e9816507
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2004'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Para obter mais informações sobre como usar perfis de produtos para direitos d
 
 Ao adicionar um usuário ao perfil de produto do Marketo Engage, ele é subsequentemente adicionado à função _Usuário padrão_ no espaço de trabalho Padrão da assinatura do Marketo Engage. Esta função concede a eles todas as permissões de _Usuário padrão_ para o Marketo Engage nesse espaço de trabalho. Atualmente, todos os usuários do Journey Optimizer B2B edition precisam ser usuários do Marketo Engage. Um administrador do Marketo Engage pode restringir o acesso atualizando as permissões para a função de _Usuário padrão_ ou movendo o usuário para outra função de usuário do Marketo Engage com permissões mais restritivas.
 
-Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
+Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -143,7 +143,7 @@ As permissões são direitos unitários que permitem definir as autorizações a
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
-Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
+Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
 
 ### Permissões de produto B2B
 
@@ -168,7 +168,7 @@ Quando sua organização tem o produto Journey Optimizer B2B edition provisionad
 | Gerenciador de Jornada B2B | <li>Gerenciar Jornadas B2B <li>Gerenciar grupos de compra B2B <li>Gerenciar listas de contas B2B <li>Exibir painel do compromisso B2B <li>Exibir painel de insights B2B |
 | Gerenciador de canal B2B | <li>Gerenciar Assets B2B <li>Gerenciar modelos B2B <li>Gerenciar fragmentos B2B |
 | Administrador de sistema B2B | <li>Gerenciar configurações de canais B2B <li>Gerenciar configurações de administrador B2B |
-| Usuário de vendas B2B | <li>Exibir painel do compromisso B2B |
+| Usuário de vendas B2B | <li>Exibir painel do compromisso B2B <li>Acessar Insights no CRM |
 
 ### Editar permissões de função
 

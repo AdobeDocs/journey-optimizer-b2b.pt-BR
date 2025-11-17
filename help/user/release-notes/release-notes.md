@@ -3,10 +3,10 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
 workflow-type: tm+mt
-source-wordcount: '3690'
-ht-degree: 100%
+source-wordcount: '3729'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -26,7 +26,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 | ----- | ------ | ----------- |
 | Agente de construção de jornada | Novo | O agente de construção da jornada analisa, idealiza e co-cria jornadas em tempo real, permitindo que os profissionais de marketing lancem mais rapidamente, melhorem o engajamento e impulsionem taxas de conversão mais altas. [Saiba mais](../agents/journey-agent.md) |
 | Audience Agent | Novo | O Audience Agent identifica e cria automaticamente grupos de compra utilizando dados estruturados e não estruturados. Ele ajuda os profissionais de marketing a atingir as pessoas certas com mais rapidez e precisão. [Saiba mais](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | Novo | Veja quais contas estão prontas para a próxima etapa usando o Account Qualification Agent no Assistente de IA. Este agente permite que os membros da sua equipe de vendas se concentrem nas contas certas, revelando leads de alto valor e automatizando fluxos de trabalho de qualificação. [Saiba mais](../agents/sales-qualifier.md) |
+| Qualificador de Vendas | Novo | O qualificador de vendas é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador entre canais [Saiba mais](../agents/sales-qualifier.md) |
 
 ## Notas da versão 2025.10
 
@@ -34,16 +34,12 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Modelo de dados relacional | Aproveite os dados relacionais vinculados às contas B2B para filtrar contas dentro de uma jornada de conta ou personalizar o conteúdo de emails. Esses dados relacionais podem representar entidades comerciais do mundo real, como registros de compras, inscrições em eventos, licenças de software, assinaturas de serviços ou reservas. |
 | Recurso | Ativar para destino da jornada | Use a nova ação de conta de empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado às empresas do LinkedIn para esta versão.) [Saiba mais](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Recurso | Temas da marca | Com os temas de marca, usuários sem conhecimentos técnicos agora têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca e linguagem de design específicas, adicionando estilos personalizados aos modelos padrão. [Saiba mais](../content/brand-themes.md) |
 | Recurso | Modelos de email: converter imagem em HTML | Agora, você pode usar os seus arquivos de design armazenados como arquivos de imagem JPG ou PNG para gerar modelos de email automaticamente. [Saiba mais](../content/email-template-image-convert.md) |
 | Recurso | Mapeamento de personas | Vincule membros da conta a personas estabelecidas com mapeamento de atributos. [Saiba mais](../admin/persona-mapping.md) |
-| Recurso | Insights de vendas para o Salesforce e o Dynamics | Os membros da equipe de vendas agora podem visualizar grupos de compra em amadurecimento e insights relacionados dentro de uma integração do Salesforce ou Dynamics para identificar novas oportunidades. As informações sobre o grupo de compra, como estágio, pontuação e membros relacionados, estão incluídas. |
-| Recurso | Ativação múltipla do Marketo Engage | Configure conexões com instâncias remotas do Marketo Engage e use essas conexões para configurar ações de jornada relacionadas ao Marketo Engage. Essas ações, como adicionar ou remover pessoas de listas ou adicionar pessoas a uma campanha de solicitação, aplicam-se à instância designada do Marketo Engage. |
-| Aprimoramento | Desduplicação de fadiga de email | Agora você pode habilitar a desduplicação de emails para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Os endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. |
+| Recurso | Insights de vendas para o Salesforce e o Dynamics | Os membros da equipe de vendas agora podem visualizar grupos de compra em amadurecimento e insights relacionados dentro de uma integração do Salesforce ou Dynamics para identificar novas oportunidades. Os detalhes do grupo de compras como estágio, pontuação e membros relacionados estão incluídos. [Saiba mais](../buying-groups/incrm-insights.md) |
 | Aprimoramento | Pontuação aprimorada da completude do grupo de compras | Agora você pode garantir que os grupos de compra reflitam a tomada de decisão real com limites personalizáveis para membros de funções para pontuação de completude.  [Saiba mais](../buying-groups/completeness-scores.md) |
-| Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B Edition. |
 | Aprimoramento | Trabalhos de manutenção de grupos de compras | A frequência do trabalho de manutenção do grupo de compras é atualizada de semanal para diária. |
 | Aprimoramento | Progressão da jornada da conta | Para uma jornada publicada que esteja no status _Ativa_, _Fechada para novas entradas_, _Abortada_ ou _Concluída_, você pode abrir o mapa da jornada para revisar uma lista de contas para cada nó da jornada. |
 
@@ -61,6 +57,17 @@ Essa arquitetura atualizada oferece vários benefícios:
 * **Conecte várias instâncias do Adobe Marketo Engage**: gerencie e unifique dados de vários ambientes do Adobe Marketo Engage no mesmo lugar.
 * **Mantenha os seus dados seguros**: os recursos avançados de privacidade e segurança ajudam a proteger as informações dos seus clientes.
 * **Criado para o futuro**: esta atualização prepara a sua organização para melhorias e inovações contínuas.
+
+Com a arquitetura simplificada, os novos recursos e aprimoramentos a seguir estão disponíveis na versão 2025.10:
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Recurso | Modelo de dados relacional | Aproveite os dados relacionais vinculados às contas B2B para filtrar contas em uma jornada de conta ou personalizar o conteúdo de email. Esses dados relacionais podem representar entidades comerciais do mundo real, como registros de compras, inscrições em eventos, licenças de software, assinaturas de serviços ou reservas. |
+| Recurso | Ativação múltipla do Marketo Engage | Configure conexões com instâncias remotas do Marketo Engage e use essas conexões para definir ações do Marketo Engage para jornada. Essas ações, como adicionar ou remover pessoas de listas ou adicionar pessoas a uma campanha de solicitação, aplicam-se à instância designada do Marketo Engage. |
+| Recurso | Desduplicação de fadiga de email | Agora você pode habilitar a desduplicação de emails para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Os endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. |
+| Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B edition. [Saiba mais](../admin/configure-channels-emails.md#communication-limits) |
+
+Se o ambiente for provisionado nessa arquitetura, revise as [diretrizes para configuração](../simplified-architecture.md).
 
 <!-- hold for later release 
 
@@ -210,8 +217,8 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Conteúdo condicional em emails | Personalize o conteúdo do email com base nas características comportamentais e de perfil do destinatário, tanto no nível da conta quanto no nível de lead. <p>Ao criar um email para a jornada de conta no espaço de design visual de email, use regras condicionais para definir múltiplas variantes para qualquer componente de conteúdo. <a href="../content/conditional-content.md">Saiba mais</a> |
-| Recurso | Ações de pessoa _Adicionar à lista_ e _Remover da lista_ nas jornadas | Personalize o conteúdo do email com base nas características comportamentais e de perfil do destinatário, tanto no nível da conta quanto no nível de lead. <a href="../journeys/action-nodes.md">Saiba mais</a> |
+| Recurso | Conteúdo condicional em emails | Personalize seu conteúdo de email com base no comportamento do recipient e nas características do perfil, tanto no nível da conta quanto no nível de lead. <p>Ao criar um email para a jornada de conta no espaço de design visual de email, use regras condicionais para definir múltiplas variantes para qualquer componente de conteúdo. <a href="../content/conditional-content.md">Saiba mais</a> |
+| Recurso | Ações de pessoa _Adicionar à lista_ e _Remover da lista_ nas jornadas | Personalize seu conteúdo de email com base no comportamento do recipient e nas características do perfil, tanto no nível da conta quanto no nível de lead. <a href="../journeys/action-nodes.md">Saiba mais</a> |
 | Recurso | Governança de conteúdo e bloqueio de componentes | Para garantir a adesão aos designs de conteúdo aprovados, use os recursos de governança de conteúdo para bloquear componentes de conteúdo do modelo de email. Com a governança de conteúdo ativada no modelo de email, profissionais de marketing podem alterar apenas os elementos permitidos para mantê-lo alinhado à estratégia de conteúdo. <a href="../content/template-content-governance.md">Saiba mais</a> |
 | Recurso | Estágios do grupo de compra | Ao definir e publicar um modelo de preparo de grupos de compra personalizado, é possível acompanhar a progressão do grupo de compra nos estágios do seu ciclo de vida. Use esses estágios para identificar as melhores ações para membros do grupo de compra. É possível configurar as regras de transição e os nós de jornada que determinam a progressão do estágio e acionam as ações com base em alterações. <a href="../buying-groups/buying-group-stages.md">Saiba mais</a> |
 | Aprimoramento | Novos modelos de email prontos para uso | A biblioteca de modelos de exemplo agora inclui modelos de email adicionais criados para profissionais de marketing B2B. Use esses modelos de exemplo como ponto de partida e adicione sua própria identidade visual e mensagens. <a href="../content/email-templates.md#select-a-design-template">Saiba mais</a> |
