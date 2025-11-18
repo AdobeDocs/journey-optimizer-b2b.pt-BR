@@ -1,14 +1,14 @@
 ---
-title: Blocos de conteúdo
+title: Snippets
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2374'
 ht-degree: 3%
 
 ---
 
-# Blocos de conteúdo
+# Snippets
 
 <!-- Content authoring steps for reuse -->
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->As licenças do AEM Assets as a Cloud Service e do Dynamic Media são pré-requisitos para a integração. Verifique se a [Mídia dinâmica com API aberta](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} está habilitada. A integração é limitada a repositórios da _Camada de entrega_. Se você usa a _camada do Autor_ e deseja convertê-la, contate o Suporte da Adobe Experience Manager.<br/>
->&#x200B;>Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition ao projetar conteúdo visual.
+>As licenças do AEM Assets as a Cloud Service e do Dynamic Media são pré-requisitos para a integração. Verifique se a [Mídia dinâmica com API aberta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} está habilitada. A integração é limitada a repositórios da _Camada de entrega_. Se você usa a _camada do Autor_ e deseja convertê-la, contate o Suporte da Adobe Experience Manager.<br/>
+>Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition ao projetar conteúdo visual.
 
 ## Criação de conteúdo - Componentes - etapa de estruturas {#structures-step}
 
@@ -217,7 +217,7 @@ Escolha esse tipo para procurar e selecionar um ativo de imagem da biblioteca B2
 
 ![Procurar os ativos de imagem disponíveis](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-Na caixa de diálogo, é possível escolher uma imagem do repositório e do espaço de trabalho selecionados. Clique em **[!UICONTROL Selecionar]** para adicionar o ativo.
+Na caixa de diálogo, é possível escolher uma imagem do repositório selecionado. Clique em **[!UICONTROL Selecionar]** para adicionar o ativo.
 
 Há ferramentas disponíveis para ajudar a localizar o ativo necessário:
 

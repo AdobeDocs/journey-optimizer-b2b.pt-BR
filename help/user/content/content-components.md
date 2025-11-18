@@ -4,9 +4,9 @@ description: Projetar emails, páginas de aterrissagem e fragmentos com componen
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2843'
 ht-degree: 6%
 
 ---
@@ -293,7 +293,7 @@ Na guia _[!UICONTROL Configurações]_, use as opções **[!UICONTROL Link]** pa
 
    * **[!UICONTROL Link externo]** - Escolha este tipo para usar uma URL padrão como o destino do link.
 
-     Em **[!UICONTROL Url]**, insira a URL para o destino do link. Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização como parâmetro na URL.
+     Em **[!UICONTROL Url]**, insira a URL para o destino do link. Clique no ícone _Personalizar_ ( ![Personalizar ícone](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização como parâmetro na URL.
 
      ![Definir um link externo para um componente de botão](./assets/component-button-link-options-external.png){width="200"}
 
@@ -537,7 +537,7 @@ Escolha o [tipo de origem do ativo](./assets-overview.md) e selecione um arquivo
 
   ![Procurar os ativos de imagem disponíveis](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-  Na caixa de diálogo, é possível escolher uma imagem do repositório e do espaço de trabalho selecionados. Clique em **[!UICONTROL Selecionar]** para adicionar o ativo.
+  Na caixa de diálogo, é possível escolher uma imagem do repositório selecionado. Clique em **[!UICONTROL Selecionar]** para adicionar o ativo.
 
   Há ferramentas disponíveis para ajudar a localizar o ativo necessário:
 
@@ -591,7 +591,7 @@ Na guia _[!UICONTROL Configurações]_, use as opções **[!UICONTROL Link]** pa
 
    * **[!UICONTROL Link externo]** - Escolha este tipo para usar uma URL padrão como o destino do link.
 
-     Em **[!UICONTROL Url]**, insira a URL para o destino do link. Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização como parâmetro na URL.
+     Em **[!UICONTROL Url]**, insira a URL para o destino do link. Clique no ícone _Personalizar_ ( ![Personalizar ícone](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização como parâmetro na URL.
 
      ![Definir um link externo para um componente de botão](./assets/component-button-link-options-external.png){width="250"}
 

@@ -3,7 +3,7 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
+source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 95%
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -58,6 +58,10 @@ Essa arquitetura atualizada oferece vários benefícios:
 * **Mantenha os seus dados seguros**: os recursos avançados de privacidade e segurança ajudam a proteger as informações dos seus clientes.
 * **Criado para o futuro**: esta atualização prepara a sua organização para melhorias e inovações contínuas.
 
+>[!NOTE]
+>
+>Se o ambiente for provisionado nessa arquitetura, revise as [diretrizes para configuração](../simplified-architecture.md).
+
 Com a arquitetura simplificada, os novos recursos e aprimoramentos a seguir estão disponíveis na versão 2025.10:
 
 | Tipo | Item | Descrição |
@@ -67,7 +71,12 @@ Com a arquitetura simplificada, os novos recursos e aprimoramentos a seguir est�
 | Recurso | Desduplicação de fadiga de email | Agora você pode habilitar a desduplicação de emails para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Os endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. |
 | Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B edition. [Saiba mais](../admin/configure-channels-emails.md#communication-limits) |
 
-Se o ambiente for provisionado nessa arquitetura, revise as [diretrizes para configuração](../simplified-architecture.md).
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
@@ -235,7 +244,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Aprimoramento | Biblioteca central de ativos | A _biblioteca central de ativos_ aprimorada permite usar todos os ativos de imagem da instância do Marketo Engage nos espaços de trabalho do Design Studio. Algumas medidas de proteção integradas impedem a edição dos ativos do Marketo Engage no Journey Optimizer B2B Edition, bem como as operações de exclusão e movimentação. Essas proteções garantem que os ativos de origem (Marketo Engage Design Studio) sejam mantidos enquanto permitem a leitura e reutilização contínuas no Journey Optimizer B2B Edition.<p>Para ativos de uso exclusivo no Journey Optimizer B2B Edition, há um espaço de trabalho específico que fornece funções completas de gerenciamento de ativos. <a href="../content/marketo-engage-design-studio.md">Saiba mais</a> |
+| Aprimoramento | Biblioteca central de ativos | A _biblioteca central de ativos_ aprimorada permite usar todos os ativos de imagem da instância do Marketo Engage nos espaços de trabalho do Design Studio. Algumas medidas de proteção integradas impedem a edição dos ativos do Marketo Engage no Journey Optimizer B2B Edition, bem como as operações de exclusão e movimentação. Essas proteções garantem que os ativos de origem (Marketo Engage Design Studio) sejam mantidos enquanto permitem a leitura e reutilização contínuas no Journey Optimizer B2B Edition.<p>Para ativos de uso exclusivo no Journey Optimizer B2B Edition, há um espaço de trabalho específico que fornece funções completas de gerenciamento de ativos. <a href="../content/internal-image-assets.md">Saiba mais</a> |
 | Recurso | Ativos acessados recentemente | A página inicial no aplicativo Journey Optimizer B2B Edition agora inclui a seção _[!UICONTROL Acessados recentemente]_, que fornece uma lista dos ativos acessados mais recentemente para profissionais de marketing ou admins. Você pode usar essa lista e acessar diretamente o ativo no qual trabalhou recentemente sem ter que navegar por uma série de páginas de ativos e realizar pesquisas. <p>A lista fornece informações adicionais sobre a modificação para que você possa tomar a decisão sobre quais dos ativos precisam de modificações adicionais desde a última sessão. Para ativos de email, ela exibe a jornada da conta onde o ativo de email é usado. <a href="../home-page.md">Saiba mais</a> |
 | Aprimoramento | Nó de divisão de jornada: reordenar caminhos | Em nós de divisão de caminho, a filtragem de caminho é avaliada de cima para baixo. Cada pessoa ou conta continua pelo primeiro caminho que corresponder. É possível reordenar os caminhos definidos clicando nas setas para cima e para baixo na parte superior direita de cada cartão de caminho, para movê-lo para cima ou para baixo na lista. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Saiba mais</a> |
 | Aprimoramento | Nó de divisão de jornada: atributos adicionais de condição do histórico de atividades | Ao usar condições para definir a filtragem de caminho de um nó de divisão por pessoas, há dois atributos adicionais: _Email aberto_ e _Email entregue_. Essas adições fornecem maior flexibilidade para filtrar pessoas na jornada com base na atividade de email. <a href="../journeys/journey-nodes.md#split-paths">Saiba mais</a> |
