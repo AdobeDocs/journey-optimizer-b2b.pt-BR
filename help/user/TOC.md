@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [Usar o Assistente de IA](./ai-assistant/use-ai-assistant.md)
    + Agentes {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
-      + [Agente de construção de jornada](./agents/journey-agent.md)
+      + [Agente de Compilação do Jornada B2B](./agents/journey-agent.md)
       + [Qualificador de Vendas](./agents/sales-qualifier.md)
 + Jornadas da conta {#account-journeys}
    + [Visão geral](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 96%
    + Listas de contas {#account-lists}
       + [Visão geral](./accounts/account-lists.md)
       + [Usar em jornadas e programas](./accounts/account-lists-journeys.md)
-   + [Campos XDM](./data/field-mapping.md)
    + Experiência de vendas {#sales-experience}
       + [Detalhes da conta](./accounts/account-details.md)
       + [Detalhes do grupo de compra](./buying-groups/buying-group-details.md)
@@ -128,8 +127,11 @@ ht-degree: 96%
    + [Visão geral das jornadas da conta](./dashboards/journeys-dashboard.md)
 + Administração {#admin}
    + [Governança](./admin/governance.md)
+   + [Configuração de ações do Marketo](./admin/marketo-actions-connect.md)
    + [Mapeamento de personas](./admin/persona-mapping.md)
    + [Gerenciamento de usuários](./admin/user-management.md)
+   + [Campos XDM](./admin/field-mapping.md)
+   + [Seleção de campo XDM](admin/xdm-field-management.md)
    + Canais {#channels}
       + [Configurações de email](./admin/configure-channels-emails.md)
       + [Configuração de SMS](./admin/configure-channels-sms.md)
