@@ -4,7 +4,7 @@ description: 'Configure nós de ação para ações de conta e pessoas: envie em
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Use esta ação para adicionar perfis de pessoas a um [grupo de compras](../buyi
 
 +++[!UICONTROL Alterar valor de dados]
 
-Use esta ação para alterar o valor de um [atributo de perfil de pessoas](../data/field-mapping.md#xdm-business-person-attributes). Selecione o atributo e defina o novo valor.
+Use esta ação para alterar o valor de um [atributo de perfil de pessoas](../admin/field-mapping.md#xdm-business-person-attributes). Selecione o atributo e defina o novo valor.
 
 ![Realizar uma ação - Alterar Valor dos Dados](./assets/node-action-change-data-value.png){width="300"}
 
