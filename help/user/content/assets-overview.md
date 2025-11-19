@@ -4,10 +4,10 @@ description: Gerencie ativos de imagem do Journey Optimizer B2B edition e do AEM
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -49,15 +49,15 @@ Use ativos ao criar emails, modelos de email e fragmentos visuais. O editor de c
 
 Você pode escolher a fonte da imagem ao editar as configurações de um componente de imagem ou diretamente na tela:
 
-* **_Configurações do componente de imagem_**: ao selecionar um componente de imagem no espaço de design visual, é possível exibir e editar as configurações no painel direito. Para adicionar ou alterar o arquivo de imagem exibido no componente, escolha o tipo de origem e selecione um arquivo de imagem.
+* **_Configurações do componente de imagem_** - Quando um componente de imagem está selecionado na tela, você pode exibi-las e editá-las no painel direito. Para adicionar ou alterar o arquivo de imagem exibido no componente, escolha o tipo de origem e selecione um arquivo de imagem.
 
   ![Editar as configurações do componente de imagem no painel direito](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Componente vazio_**: quando adicionar um componente de imagem no espaço de design visual, ele estará vazio e fornecerá acesso fácil à escolha de uma fonte e de um arquivo de imagem.
+* **_Componente vazio_** - Quando você adiciona um componente de imagem à tela, ele fica vazio e fornece acesso fácil para escolher uma fonte e selecionar um arquivo de imagem.
 
   ![Escolha uma fonte e selecione um arquivo de imagem para o componente de imagem vazio](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Barra de ferramentas do componente de imagem_**: quando selecionar um componente de imagem no espaço de design visual, a barra de ferramentas fornecerá acesso fácil à escolha de uma fonte e do arquivo de imagem.
+* **_Barra de ferramentas do componente de Imagem_** - Quando você tem um componente de Imagem selecionado na tela, a barra de ferramentas fornece acesso fácil para escolher uma fonte e selecionar o arquivo de imagem.
 
   ![Use a barra de ferramentas para escolher uma fonte e selecionar um arquivo de imagem para o componente de imagem](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
