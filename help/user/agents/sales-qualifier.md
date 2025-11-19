@@ -3,9 +3,9 @@ title: Qualificador de Vendas
 description: Automatize a qualificação de prospecto B2B e o alcance com o Qualificador de vendas. Ele fornece pesquisa alimentada por IA, elaboração de email, integração de CRM e planos de engajamento para BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Use os plug-ins do navegador e do email para acessar a business intelligence dir
 
 O qualificador de vendas está incluído no Journey Optimizer B2B edition, mas é um aplicativo separado dentro da Experience Platform Experience Cloud.
 
-![Página inicial do Qualificador de Vendas](assets/home-screen.png)
+![Painel do Qualificador de Vendas que automatiza a qualificação de prospecto BDR e o alcance corporativo B2B](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 O Account Qualification Agent (AQA) é o coração do qualificador de vendas. O AQA usa IA para ler suas contas e determinar quais estão prontas para a próxima etapa. Ele auxilia na pesquisa, elaboração de email e atualizações de CRM.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+![Painel do Account Qualification Agent habilitado por IA para prospecto de vendas e pesquisa de conta](assets/acc-qualification-agent.png)
 
 * **Pesquisa de cliente potencial**
 
@@ -44,7 +44,7 @@ O Account Qualification Agent (AQA) é o coração do qualificador de vendas. O 
 
 * **Emails do plano de engajamento**
 
-  Criar rascunhos de email do plano de engajamento personalizados para cada etapa de uma cadência de alcance definido pelo BDR, garantindo que toda a sequência seja personalizada
+  Crie rascunhos de email do plano de engajamento que sejam personalizados para cada etapa de uma cadência de alcance definido pelo BDR, garantindo que toda a sequência seja personalizada.
 
 ### Uso básico
 
@@ -68,7 +68,7 @@ Repita sua jornada refinando seus prompts para obter os resultados necessários.
 
 Essa janela lista todos os leads aos quais você tem acesso. É uma verificação rápida em itens, como status de lead e última atividade.
 
-![Ver todos os seus clientes em potencial na tabela de Clientes potenciais](assets/prospects.png)
+![Tabela de clientes potenciais exibindo o status do cliente potencial e a última atividade para gerenciamento de clientes potenciais](assets/prospects.png)
 
 Clique no ícone _Filtro_ ![Filtro](../../assets/do-not-localize/icon_filter-outline.svg) para filtrar a lista exibida por status de cliente potencial.
 
@@ -76,7 +76,7 @@ Clique no ícone _Filtro_ ![Filtro](../../assets/do-not-localize/icon_filter-out
 
 Essa janela fornece detalhes sobre quaisquer planos de Engajamento definidos.
 
-![Planos de participação](assets/engagement-plans.png)
+![Painel de plano de envolvimento mostrando detalhes do plano, clientes potenciais selecionados e configurações de agendamento](assets/engagement-plans.png)
 
 Para criar um novo plano de Envolvimento, clique em **[!UICONTROL Criar plano de envolvimento]**.
 
@@ -95,9 +95,9 @@ Esse painel exibe todas as reuniões configuradas por meio da automação.
 
 ## Caixa de entrada do chat
 
-Este painel exibe todas as suas threads de bate-papo.
+Este painel exibe todas as suas discussões encadeadas.
 
-![Caixa de entrada do chat](assets/chat-inbox.png)
+![Painel mostrando threads de chat com resumos de contatos e threads para automação de vendas](assets/chat-inbox.png)
 
 Você pode interagir com clientes e ver resumos do contato e da thread, para que possa saber rapidamente onde está na thread.
 
@@ -106,15 +106,15 @@ Você pode interagir com clientes e ver resumos do contato e da thread, para que
 Com as integrações, o Qualificador de vendas pode aproveitar os CRMs e outras fontes de dados para enriquecer os perfis dos clientes e aproveitar as atividades de vendas:
 
 * Integre o à sua caixa de entrada de emails para acompanhar emails recebidos relevantes e ajudar a gerar respostas.
-* Leia e atualize dados do CRM, como Salesforce ou Microsoft® Dynamics, ZoomInfo ou Buildwidth.
+* Leia e atualize dados do CRM, como Salesforce ou Microsoft® Dynamics, ZoomInfo ou BuiltWith.
 
-![Integração do Outlook com o Qualificador de Vendas](assets/outlook.png)
+![Integração do Qualificador de Vendas com o Microsoft Outlook mostrando resumos de email e contato](assets/outlook.png)
 
 ### Configurar uma nova integração
 
 Para iniciar uma nova integração, clique em **[!UICONTROL Criar integração]** na parte superior direita.
 
-![Detalhes da integração](assets/integration-details.png)
+![Formulário de configuração de integração mostrando opções de URL, método HTTP, cabeçalhos e autenticação](assets/integration-details.png)
 
 Defina o URL da integração e estabeleça a carga útil a ser enviada:
 
@@ -165,13 +165,13 @@ As configurações de representante especificam informações sobre você, inclu
 
 A guia **[!UICONTROL Detalhes]** é onde você insere informações sobre si mesmo:
 
-![Configurações de Detalhes do Qualificador de Vendas](assets/details.png)
+![Guia Detalhes mostrando as configurações de disponibilidade de informações pessoais, email e chat para representantes](assets/details.png)
 
 ### Configurações de email
 
 Na guia **[!UICONTROL Configurações de email]**, configure suas conexões de email.
 
-![Configurações de email](assets/email-settings.png)
+![Guia de configurações de email mostrando opções de conexão de email e configuração de assinatura de email](assets/email-settings.png)
 
 * **[!UICONTROL Conexões de email]** - Clique em **[!UICONTROL Conectar]** e siga o procedimento de logon do Microsoft.
 
@@ -181,7 +181,7 @@ Na guia **[!UICONTROL Configurações de email]**, configure suas conexões de e
 
 Na guia **[!UICONTROL Configurações do calendário]**, defina o fuso horário e a disponibilidade.
 
-![Configurações do calendário](assets/calendar-settings.png)
+![Guia de configurações do calendário mostrando opções de fuso horário e disponibilidade](assets/calendar-settings.png)
 
 * **[!UICONTROL Conexão do calendário]** - Clique em **[!UICONTROL Conectar]** e siga o procedimento de logon do Microsoft para integrar seu calendário.
 
@@ -193,7 +193,7 @@ Na guia **[!UICONTROL Configurações do calendário]**, defina o fuso horário 
 
 Na guia **[!UICONTROL Configurações de chat]**, defina a disponibilidade de chat do Fuso Horário em Tempo Real.
 
-![Configurações de chat](assets/chat-settings.png)
+![Guia de configurações de chat para definir o fuso horário e a disponibilidade do chat ao vivo](assets/chat-settings.png)
 
 ## Gerenciamento de representantes
 
@@ -223,4 +223,4 @@ Na parte inferior esquerda do aplicativo, clique em **[!UICONTROL Editar]** para
 
 O vídeo a seguir fornece uma breve demonstração do qualificador de vendas e do Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476566?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
