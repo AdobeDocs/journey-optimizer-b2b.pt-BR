@@ -1,17 +1,25 @@
 ---
-title: Filtros do grupo de compras no Market Engage
+title: Filtros de grupo de compra no Marketo Engage
 description: Filtre leads comprando a associação de grupo nas Smart Lists do Marketo Engage com restrições como a pontuação de integridade para otimizar campanhas e a pontuação de lead.
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
 
 # Filtros de grupo de compra no Market Engage
+
+>[!IMPORTANT]
+>
+>**Descontinuação de recursos**</br></br>
+>
+>Com a [arquitetura simplificada](../simplified-architecture.md) para o Journey Optimizer B2B edition, os filtros de grupo de compra não estão mais disponíveis em uma instância conectada do Marketo Engage.</br></br>
+>
+>Como alternativa, você pode criar uma lista estática para cada interesse de solução e, em seguida, [usar a _ação Adicionar à lista do Marketo_](../journeys/action-nodes.md#marketo-engage-actions) de um nó de jornada. Essa ação adiciona membros do grupo de compra a uma lista estática específica em uma instância conectada do Marketo Engage. Em seguida, use a lista estática focada no interesse da solução para um filtro de lista inteligente.
 
 Como profissional de marketing, talvez você queira suprimir campanhas no Marketo Engage para pessoas que fazem parte de grupos de compra no Journey Optimizer B2B edition. Você também pode informar os workflows de pontuação de clientes potenciais no Marketo Engage usando informações sobre os clientes potenciais associados aos grupos de compra. Por exemplo:
 
@@ -22,7 +30,7 @@ Se essas condições forem verdadeiras, você pode optar por pontuar em primeiro
 
 Na instância do Marketo Engage que está conectada ao Journey Optimizer B2B edition, você pode usar o filtro _[!UICONTROL Membro do Grupo de Compra]_ nas Smart Lists para identificar esses clientes em potencial de acordo com a estratégia de campanha.
 
-1. Depois de [criar uma Smart List no Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selecione a guia **[!UICONTROL Smart List]** para abrir o editor de filtro.
+1. Depois de [criar uma Smart List no Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selecione a guia **[!UICONTROL Smart List]** para abrir o editor de filtro.
 
 1. Na lista de filtros à direita, role para baixo na lista e expanda a pasta **[!UICONTROL Filtros especiais]**.
 
