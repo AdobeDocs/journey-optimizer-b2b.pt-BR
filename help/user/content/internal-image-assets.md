@@ -4,16 +4,16 @@ description: Navegue, gerencie e use os ativos do Journey Optimizer B2B edition 
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ddc0c68c5d2fb3c1260100bb4686bcff16aafdff
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1758'
 ht-degree: 1%
 
 ---
 
 # Trabalhar com ativos de imagem internos
 
-O repositório interno de ativos de imagem é a fonte de ativos padrão para criação de conteúdo, e você pode gerenciar e usar facilmente os ativos disponíveis para criação de conteúdo compatível com as jornadas de sua conta.
+O repositório interno de ativos de imagem é a fonte padrão de ativos de imagem, e você pode gerenciar e usar facilmente os ativos disponíveis para projetar conteúdo que seja compatível com as jornadas de sua conta.
 
 Você tem a gama completa de funções de gerenciamento de ativos no Journey Optimizer B2B edition. Essas funções incluem:
 
