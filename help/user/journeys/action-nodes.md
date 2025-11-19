@@ -4,9 +4,9 @@ description: 'Configure nós de ação para ações de conta e pessoas: envie em
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1560'
 ht-degree: 2%
 
 ---
@@ -96,10 +96,13 @@ Use uma ação em pessoas quando quiser aplicar uma alteração a todas as pesso
 | | [!UICONTROL Remover do Grupo de Compras] | Selecione o interesse na solução |
 | | [!UICONTROL Enviar email] | Criar novo email<br/>Selecionar email do Marketo Engage |
 | | [!UICONTROL Enviar SMS] | Criar SMS |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Adicionar à lista] | Selecionar espaço de trabalho do Marketo Engage <br/>Nome da lista |
-| | [!UICONTROL Adicionar à campanha de solicitação do Marketo Engage] | Selecionar espaço de trabalho do Marketo Engage<br/>Selecionar campanha de Solicitação |
-| | [!UICONTROL Alterar Partição de Pessoas no Marketo Engage] | Nova partição |
-| | [!UICONTROL Remover da lista] | Selecionar espaço de trabalho do Marketo Engage <br/>Nome da lista |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Adicionar à campanha de solicitação do Marketo Engage] | Selecionar espaço de trabalho do Marketo Engage<br/>Selecionar campanha de Solicitação |
+| | [!UICONTROL Adicionar à lista do Marketo] | Selecione o nome da conexão externa do Marketo <br/>Nome da lista |
+| | [!UICONTROL Remover da lista do Marketo] | Selecione o nome da conexão externa do Marketo <br/>Nome da lista |
+
+>[!NOTE]
+>
+>A ação _[!UICONTROL Alterar partição de pessoas no Marketo Engage]_ foi descontinuada para a versão 2025.10 e não está disponível na arquitetura simplificada do Journey Optimizer B2B edition.
 
 ### Adicionar uma ação com base em pessoas
 
@@ -127,7 +130,7 @@ Use esta ação para encaminhar as pessoas para um público-alvo externo que pod
 
 ![Realizar uma ação - Adicionar ao público-alvo externo do cliente](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Ao selecionar essa ação com base em pessoas, você pode criar um novo público-alvo externo ou selecionar de um público-alvo externo existente. Para públicos existentes, é possível escolher entre públicos de clientes externos que foram criados somente no Journey Optimizer B2B edition. Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação do Experience Platform.
+Ao selecionar essa ação com base em pessoas, você pode criar um novo público-alvo externo ou selecionar de um público-alvo externo existente. Para públicos existentes, é possível escolher entre públicos de clientes externos que foram criados somente no Journey Optimizer B2B edition. Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação do Experience Platform.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista a uma visão geral de vídeo para orquestração de mídia paga](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -179,7 +182,7 @@ Use esta ação para alterar o valor de um [atributo de perfil de pessoas](../da
 
 +++[!UICONTROL Alterar pontuação]
 
-Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Realizar uma ação - Alterar pontuação](./assets/node-action-change-score.png){width="300"}
 
@@ -203,7 +206,7 @@ Use esta ação para remover perfis de pessoas de um [grupo de compras](../buyin
 
 +++[!UICONTROL Enviar email]
 
-Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
+Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
 
 ![Executar uma ação - Enviar email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -219,46 +222,44 @@ Use esta ação para enviar uma mensagem SMS. Você pode criar, personalizar e v
 
 ### Ações do Marketo Engage
 
-As ações com base em pessoas do Marketo Engage foram projetadas para coordenar sua orquestração de marketing com base em contas no Journey Optimizer B2B edition com seus esforços de marketing com base em clientes potenciais no Marketo Engage. Use essas ações para orquestrar a associação de listas, partições de pessoas e solicitar campanhas.
+As ações com base em pessoas do Marketo Engage foram projetadas para coordenar sua orquestração de marketing com base em contas no Journey Optimizer B2B edition com seus esforços de marketing com base em clientes potenciais no Marketo Engage. Use essas ações para orquestrar a associação de listas e solicitar campanhas.
 
-+++[!UICONTROL Adicionar à lista]
+>[!NOTE]
+>
+>As ações do Marketo Engage exigem integração configurada com uma ou mais instâncias externas do Marketo Engage. <!-- For detailed information about configuring these connections, see #. -->
 
-Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
+Por exemplo, talvez você queira suprimir campanhas no Marketo Engage para pessoas que fazem parte de grupos de compra no Journey Optimizer B2B edition. Nesse caso, é possível criar uma lista estática no Marketo Engage especificamente para o interesse da solução. Em seguida, em um caminho dividido por grupo de compras, use a ação _Adicionar à lista do Marketo_ de um nó de jornada. Essa ação adiciona membros do grupo de compra a uma lista estática específica em uma instância conectada do Marketo Engage. Em seguida, use a lista estática focada no interesse da solução para um filtro de lista inteligente no Marketo Engage.
 
-Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conectada. Em seguida, selecione o nome da lista.
++++[!UICONTROL Adicionar à campanha de solicitação do Marketo Engage]
 
-![Realizar uma ação - Adicionar à lista](./assets/node-action-add-to-list-options.png){width="300"}
+Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} no Marketo Engage.
 
-+++
+Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da campanha de solicitação.
 
-+++[!UICONTROL Adicionar à campanha de solicitação do Marketo]
-
-Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} no Marketo Engage.
-
-Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conectada. Em seguida, selecione o nome da campanha de solicitação.
-
-![Realizar uma ação - Adicionar à campanha de Solicitação do Marketo](./assets/node-action-add-to-request-campaign-options.png){width="300"}
+![Realizar uma ação - Adicionar à campanha de Solicitação do Marketo Engage](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL Alterar partição de pessoas no Marketo Engage]
++++[!UICONTROL Adicionar à lista do Marketo]
 
-Use esta ação para alterar a [partição de pessoa](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} no Marketo Engage.
+Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
-![Realizar uma ação - Alterar partição de pessoas no Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
+Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
+
+![Realizar uma ação - Adicionar à lista do Marketo](./assets/node-action-add-to-list-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL Remover da lista]
++++[!UICONTROL Remover da lista do Marketo]
 
-Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage. Primeiro, selecione o espaço de trabalho na instância do Marketo Engage conectada. Em seguida, selecione o nome da lista.
+Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
-![Realizar uma ação - Remover da lista](./assets/node-action-remove-from-list-options.png){width="300"}
+Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
-Se o perfil da pessoa não for membro da Smart List, a ação será ignorada.
+![Realizar uma ação - Remover da lista do Marketo](./assets/node-action-remove-from-list-options.png){width="300"}
 
 +++
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443250/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
