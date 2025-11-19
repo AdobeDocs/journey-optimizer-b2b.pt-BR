@@ -1,16 +1,16 @@
 ---
-title: Agente de Compilação do Jornada para B2B
+title: Agente de Compilação do Jornada B2B
 description: Saiba como usar o Agente de build de Jornada alimentado por IA para ajudar a criar jornadas robustas rapidamente
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Agente de Compilação do Jornada para B2B
+# Agente de Compilação do Jornada B2B
 
 O Jornada Builder Agent B2B é um agente de IA que ajuda você no design/criação, execução e otimização da jornada por meio de automação e recomendações orientadas por dados. O Jornada Builder Agent for B2B automatiza e reduz o tempo necessário para executar a criação de novas jornadas B2B.
 
