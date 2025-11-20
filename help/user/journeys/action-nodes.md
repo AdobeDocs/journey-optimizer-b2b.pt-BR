@@ -262,4 +262,4 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443250/?captions=por_br&learn=on)
