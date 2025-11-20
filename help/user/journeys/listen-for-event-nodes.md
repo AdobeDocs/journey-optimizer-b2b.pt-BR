@@ -4,9 +4,9 @@ description: 'Configure nós de eventos para acionadores de conta e de pessoas: 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 12%
 
 ---
@@ -117,7 +117,7 @@ Se você tiver páginas da Web na instância conectada do Marketo Engage, poder�
 
 1. Clique em **[!UICONTROL Editar evento]** e defina uma ou mais páginas da Web para corresponder e quaisquer restrições adicionais para o evento.
 
-   * (Obrigatório) Na caixa de diálogo _[!UICONTROL Editar evento]_, defina a restrição **[!UICONTROL Página da Web]** ou **[!UICONTROL Preenche formulário]**. Use **[!UICONTROL is]** (padrão) para corresponder em uma ou mais páginas ou formulários selecionados. Use **[!UICONTROL não]** para corresponder a todas as visitas/formulários da página, com a exclusão de uma ou mais páginas/formulários selecionados. Ou use **[!UICONTROL é qualquer]** para corresponder a qualquer visita de página da Web ou formulário preenchido do Marketo Engage.
+   * (Obrigatório) Na caixa de diálogo _[!UICONTROL Editar evento]_, defina a restrição **[!UICONTROL Página da Web]** ou **[!UICONTROL Preenche formulário]**. Use **[!UICONTROL is]** (padrão) para corresponder em uma ou mais páginas ou formulários selecionados. Use **[!UICONTROL não]** para corresponder a todas as visitas/formulários da página, com a exclusão de uma ou mais páginas/formulários selecionados. Ou use o operador **[!UICONTROL is any]** para corresponder a qualquer visita à página da Web do Marketo Engage ou formulário preenchido.
 
    * (Opcional) Clique em **[!UICONTROL Adicionar restrição]** e escolha o campo que deseja usar para a restrição. Defina o operador e o valor do campo.
 
@@ -135,13 +135,14 @@ Se você tiver páginas da Web na instância conectada do Marketo Engage, poder�
 
 ### Analise um evento de experiência
 
-Os administradores podem configurar definições de evento baseadas no Adobe Experience Platform (AEP), que permitem aos profissionais de marketing criar jornadas de conta que reagem aos [Eventos de experiência do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. O uso de eventos de experiência do AEP em jornadas de conta é um processo de duas etapas:
+Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
 
-1. [Criar e publicar uma definição de evento do AEP](../admin/configure-aep-events.md).
+1. Um administrador [seleciona os tipos de evento e campos de interesse](../admin/configure-aep-events.md#select-an-event) para torná-los disponíveis no jornada.
 
-2. Em uma jornada de conta, adicione um nó _Ouvir um evento_ e selecione uma definição de evento do Experience Platform para um evento com base em pessoas.
+2. Em uma jornada, adicione um nó _Ouvir um evento_ e selecione um tipo de evento do Experience Platform para um evento com base em pessoas.
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Assista à visão geral do vídeo](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 _Para incluir um Evento de Experiência na jornada :_
 
@@ -159,21 +160,21 @@ _Para incluir um Evento de Experiência na jornada :_
 
    ![Editar o evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Editar evento]** e defina os tipos de evento e quaisquer restrições adicionais para o evento.
+1. Clique em **[!UICONTROL Editar evento]** e defina uma ou mais restrições para o evento.
 
-   * (Obrigatório) Na caixa de diálogo _[!UICONTROL Editar evento]_, defina o tipo de evento. Você pode usar o operador padrão **[!UICONTROL is]** para corresponder um ou mais tipos de evento selecionados. Ou você pode usar o operador **[!UICONTROL não]** para corresponder em todos os tipos de evento com a exclusão de um ou mais tipos de evento selecionados.
+   As restrições disponíveis são definidas como campos gerenciados para a configuração do evento.
 
-   * (Opcional) Clique em **[!UICONTROL Adicionar restrição]** e escolha o campo que deseja usar para a restrição. Defina o operador e o valor do campo.
+   * Clique em **[!UICONTROL Adicionar restrição]** e escolha o campo que deseja usar para a restrição.
+
+   * Conclua a condição da restrição.
+
+     Você pode usar o operador padrão **[!UICONTROL is]** para corresponder a um ou mais valores de campo. Ou você pode usar o operador **[!UICONTROL is not]** para corresponder em todos os valores com a exclusão de um ou mais valores especificados.
 
      ![Ouvir um evento de experiência](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >As restrições para _data de atividade_ e _número mínimo de vezes_ não são suportadas.
-
-     Você pode repetir essa ação para incluir restrições de campo adicionais, conforme necessário.
-
    * Se necessário, selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#add-a-filter-to-the-people-event).
+
+   * (Opcional) Clique em **[!UICONTROL Adicionar restrição]** e repita essas etapas para incluir restrições de campo adicionais, conforme necessário.
 
    * Quando as restrições e os filtros forem definidos, clique em **[!UICONTROL Concluído]**.
 
@@ -219,6 +220,6 @@ Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. 
 
    ![Nó de evento de Jornada - definir caminho de tempo limite](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Vídeo de visão geral
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443239/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

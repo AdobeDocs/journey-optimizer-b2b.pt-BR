@@ -1,28 +1,27 @@
 ---
-title: Campos XDM
+title: Campos XDM padrão
 description: Revise os campos de atributo padrão que são sincronizados entre o Adobe Experience Platform e o Journey Optimizer B2B edition.
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 13%
+source-wordcount: '1155'
+ht-degree: 12%
 
 ---
 
-# Campos XDM
+# Campos XDM padrão
 
 Os dados de público-alvo da conta são armazenados como atributos nas classes Conta de negócios XDM e Pessoa de negócios XDM. Os dados são sincronizados periodicamente entre o Adobe Experience Platform e o Journey Optimizer B2B edition. As seções a seguir listam os conjuntos padrão de atributos.
 
 >[!TIP]
 >
->Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do Experience Platform XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Você pode modelar as classes de Pessoa Comercial XDM e Conta Comercial XDM em uma relação muitos para muitos usando a classe de Relação de Pessoa da Conta Comercial XDM, conforme descrito na [documentação do Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 >[!NOTE]
->Esquemas relacionais e do Data Mirror estão disponíveis para titulares de licença de campanhas do Adobe Journey Optimizer Orchestrated. Elas também estão disponíveis como uma versão limitada para usuários do Customer Journey Analytics, dependendo da sua licença e da ativação de recursos. Entre em contato com o representante da Adobe para obter acesso. Esquemas relacionais também estão disponíveis como uma versão limitada para o Adobe Journey Optimizer B2B edition.
 >
-
+>Esquemas relacionais e do Data Mirror estão disponíveis para titulares de licença de campanhas do Adobe Journey Optimizer Orchestrated. Elas também estão disponíveis como uma versão limitada para usuários do Customer Journey Analytics, dependendo da sua licença e da ativação de recursos. Entre em contato com o representante da Adobe para obter acesso. Esquemas relacionais também estão disponíveis como uma versão limitada para o Adobe Journey Optimizer B2B edition.
 
 ## Atributos de relação pessoal da conta comercial XDM
 
@@ -89,7 +88,7 @@ Os dados de público-alvo da conta são armazenados como atributos nas classes C
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

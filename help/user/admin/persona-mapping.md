@@ -3,14 +3,14 @@ title: Mapeamento de persona
 description: Saiba como configurar o mapeamento pessoal para marketing B2B. Mapeie os atributos de pessoa no Journey Optimizer B2B edition para criar modelos de função e otimizar o direcionamento de grupos de compra.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Mapeamento pessoal
+# Mapeamento de personas
 
 As personas são um aspecto principal em uma abordagem de marketing baseado em conta (ABM) porque ajudam os profissionais de marketing a ajustar suas estratégias às necessidades, preferências e pontos problemáticos específicos dos indivíduos nas contas de destino. Os profissionais de marketing podem criar perfis detalhados para cada persona, incluindo o histórico, as responsabilidades, os pontos problemáticos e os canais de comunicação preferidos. Com essas definições, os administradores podem configurar personas de acordo com os atributos de pessoa no Journey Optimizer B2B edition, para que os modelos de funções possam usar condições de função simplificadas e consistentes que capturam essas personas.
 
@@ -39,13 +39,13 @@ Por exemplo, você pode configurar uma persona chamada _Gerenciamento de Produto
 
 1. Clique em **[!UICONTROL Mapeamento de persona]** no painel intermediário para exibir a lista de personas.
 
-   ![Acessar as personalidades configuradas](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![Acessar as personalidades configuradas](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   Nesta página, você pode [criar](#create-an-engagement-score-model), [editar](#change-the-engagement-weighting-settings) ou [excluir](#delete-a-persona) personas.
+   Nesta página, você pode [criar](#create-a-persona), [editar](#edit-a-persona) ou [excluir](#delete-a-persona) personas.
 
-   A lista Mapeamento pessoal. O é organizado como uma tabela e exibe os perfis atualizados mais recentemente na parte superior (classificado por _[!UICONTROL Última atualização]_). Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
+   A lista Mapeamento de pessoas está organizada como uma tabela e exibe os perfis atualizados mais recentemente na parte superior (classificado por _[!UICONTROL Última atualização]_). Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
 
-![Colunas a serem exibidas na lista de mapeamento de persona](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![Colunas a serem exibidas na lista de mapeamento de persona](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Para acessar os detalhes de uma persona, clique no nome.
 
@@ -68,13 +68,9 @@ A lista _Mapeamento de persona_ inclui cinco personas padrão definidas de acord
 
 ### Filtragem de lista
 
-Para localizar o perfil desejado, use as ferramentas de pesquisa e filtro:
+Para localizar o perfil desejado, insira uma cadeia de texto na barra de pesquisa para corresponder perfis por nome,
 
-* Insira uma string de texto na barra de pesquisa para corresponder personas por nome,
-
-  ![Filtrar as definições de evento exibidas](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar a lista exibida por atributo.
+![Filtrar os mapeamentos de persona exibidos](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Criar uma persona
 
@@ -86,6 +82,8 @@ Para localizar o perfil desejado, use as ferramentas de pesquisa e filtro:
 
 1. Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** exclusivos (opcional) para a persona.
 
+   ![Criar um mapeamento personalizado](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. Selecione os atributos a serem usados para corresponder à persona.
 
    * Clique em **[!UICONTROL Selecionar atributos de pessoa]**.
@@ -96,6 +94,8 @@ Para localizar o perfil desejado, use as ferramentas de pesquisa e filtro:
 
      Para filtrar a lista de atributos por nome, digite uma string de texto na barra de pesquisa. Você também pode clicar no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar a lista exibida por tipo, _Padrão_ ou _Personalizado_.
 
+     ![Caixa de diálogo Selecionar atributos pessoais](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * Clique em **[!UICONTROL Salvar]**.
 
      Os atributos selecionados são preenchidos na seção _[!UICONTROL Atributos pessoais]_.
@@ -104,11 +104,13 @@ Para localizar o perfil desejado, use as ferramentas de pesquisa e filtro:
 
    No lugar de um valor, você também pode adicionar um prompt que pode ser usado para identificar uma correspondência. Por exemplo, você poderia inserir
 
-1. Clique em **[!UICONTROL Criar]**.
+1. Clique em **[!UICONTROL Enviar]**.
 
 ## Editar uma persona
 
 Clique no nome da persona para acessar e editar os detalhes dela,
+
+Você pode alterar o nome ou a descrição, adicionar atributos ou atualizar os valores do atributo. Clique em **[!UICONTROL Enviar]** quando as alterações forem concluídas.
 
 ## Excluir um perfil
 
