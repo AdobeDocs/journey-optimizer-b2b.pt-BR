@@ -23,7 +23,7 @@ Os esquemas do Adobe Experience Platform (AEP) normalmente contêm muitos campos
 Os administradores que entendem o XDM e colaboram com engenheiros de dados ou partes interessadas da modelagem de dados da Plataforma de dados do cliente (CDP) B2B devem usar os procedimentos nesta página.
 
 >[!NOTE]
->[Esquemas relacionais](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. Esquemas relacionais e do Data Mirror estão disponíveis para titulares de licença de campanhas do Journey Optimizer Orchestrated. Os esquemas relacionais também estão disponíveis como uma versão limitada para usuários do Customer Journey Analytics, dependendo da sua licença e da ativação de recursos. Entre em contato com o representante da Adobe para obter acesso.
+>[Esquemas relacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. Esquemas relacionais e do Data Mirror estão disponíveis para titulares de licença de campanhas do Journey Optimizer Orchestrated. Os esquemas relacionais também estão disponíveis como uma versão limitada para usuários do Customer Journey Analytics, dependendo da sua licença e da ativação de recursos. Entre em contato com o representante da Adobe para obter acesso.
 
 ## Acessar classes XDM
 
@@ -89,7 +89,7 @@ Quando você escolhe **[!UICONTROL Campos gerenciados]**, a caixa de diálogo _S
 
 #### Campos atualizáveis
 
-Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
+Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
 
 Crie um conjunto de dados para um Perfil individual e outro para uma Conta comercial. Selecione cada novo conjunto de dados durante o processo de configuração:
 
