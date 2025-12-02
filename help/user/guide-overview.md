@@ -2,10 +2,10 @@
 title: Documentação do Adobe Journey Optimizer B2B Edition
 description: 'Documentação completa do Journey Optimizer B2B Edition: explore os recursos disponíveis para integração, criação de grupos de compra, criação de jornadas de conta e gerenciamento de conteúdo.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 69%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 100%
 
 ## Novidades
 
-Confira uma amostragem das últimas adições e melhorias no aplicativo e na documentação do Journey Optimizer B2B Edition.
+Esta é uma amostra das adições e aprimoramentos mais recentes no aplicativo e na documentação do [!DNL Journey Optimizer B2B Edition].
 
 >[!BEGINTABS]
+
+>[!TAB Agentes de IA]
+
+Com o [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, a interface do Assistente de IA pode chamar automaticamente agentes especializados para obter as respostas e os insights certos. O Agent Orchestrator lembra seu histórico de conversas, permitindo que você se baseie em perguntas anteriores naturalmente sem repetir o contexto e combina insights de vários agentes para apresentar respostas claras e unificadas. No contexto [!DNL Journey Optimizer B2B Edition], há três agentes criados com propósitos específicos para tarefas e domínios B2B:
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [Agente de Compilação do Jornada B2B](./agents/journey-agent.md)
+* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB Temas da marca]
+
+Com temas, os designers não técnicos têm a capacidade de criar diretrizes reutilizáveis de design de conteúdo de email que se alinham a uma marca e um estilo específicos. Os temas permitem que os profissionais de marketing aproveitem emails visualmente atraentes e consistentes com a marca de forma mais rápida e com menos esforço, além de fornecer opções avançadas de personalização para necessidades de design exclusivas.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Saiba mais sobre temas de marca"}
+
+>[!TAB Mapeamento pessoal]
+
+Os profissionais de marketing podem definir perfis detalhados, incluindo histórico, responsabilidades, pontos problemáticos e canais de comunicação preferidos. Com essas definições, os administradores podem configurar personas de acordo com os atributos de pessoa no [!DNL Journey Optimizer B2B Edition], de modo que os modelos de funções possam usar condições de função simplificadas e consistentes que capturem essas personas.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Saiba mais sobre o mapeamento pessoal"}
+
+>[!TAB Insights de Vendas no CRM]
+
+Os membros da equipe de vendas agora podem visualizar grupos de compra em amadurecimento e insights relacionados dentro de uma integração do Salesforce ou Dynamics para identificar novas oportunidades. As informações sobre o grupo de compra, como estágio, pontuação e membros relacionados, estão incluídas.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Saiba mais sobre os Insights de vendas no CRM"}
 
 >[!TAB Colaboração de conteúdo de email]
 
@@ -34,30 +60,6 @@ O espaço de design de email agora inclui a visualização e as configurações 
 Agora, os profissionais de marketing B2B podem usar pontuações de engajamento no nível da pessoa como um filtro em seus caminhos divididos para uma jornada ou em um modelo de funções para criar grupos de compra. Essa pontuação e a filtragem habilitam o direcionamento preciso dos membros dos grupos de compra para personalizar o engajamento em andamento.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Saiba mais sobre as pontuações de engajamento de pessoa e filtragem"}
-
->[!TAB Funções personalizadas de grupos de compra]
-
-Os estrategistas de marketing B2B agora podem expandir a precisão do grupo de compra com as funções personalizadas de grupos de compra. Crie até 20 funções personalizadas além das seis padrão e reutilize-as pelos grupos de compra. Nas jornadas de conta, adapte as mensagens para corresponder às funções exclusivas e melhorar a relevância e o engajamento nos grupos de compra.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Saiba mais sobre as funções personalizadas de grupos de compra"}
-
->[!TAB Ponderação personalizada da pontuação de engajamento]
-
-Atribua pesos personalizados às atividades de engajamento para que as pontuações de engajamento reflitam as atividades de maior valor. Ao enfatizar sinais de alta intenção, a equipe pode identificar e priorizar melhor as contas com maior potencial de compra.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Saiba mais sobre a ponderação personalizada da pontuação de engajamento"}
-
->[!TAB Suporte a CSS personalizado]
-
-Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo de emails e de páginas de destino no espaço de design.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Saiba mais sobre como usar o CSS personalizado"}
-
->[!TAB Mapeamento de palavra-chave de intenção]
-
-Para ativar e gerenciar o modelo de Detecção de intenção, agora é possível fazer upload de uma planilha para definir uma categoria de mapeamento de dados de intenção.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Saiba mais sobre a configuração de mapeamento de palavra-chave de intenção"}
 
 >[!ENDTABS]
 
@@ -123,11 +125,11 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gerenciamento de conteúdo"><br/>
-      <strong>Gerenciamento de conteúdo</strong><br/><a href="./content/assets-overview.md">Visão geral dos ativos</a><br/><a href="./content/email-templates.md">Modelos de email</a><br/><a href="./content/fragments.md">Fragmentos visuais</a><br/><a href="./content/conditional-content.md">Conteúdo condicional</a>
+      <strong>Gestão de conteúdo</strong><br/><a href="./content/assets-overview.md">Visão geral do Assets</a><br/><a href="./content/email-templates.md">Modelos de email</a><br/><a href="./content/fragments.md">Fragmentos visuais</a><br/><a href="./content/conditional-content.md">Conteúdo condicional</a><br/><a href="./content/brand-themes.md">Temas de marca</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights e painéis"><br/>
-      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Painel inteligente</a><br/><a href="./dashboards/engagement-dashboard.md">Painel de engajamento</a><br/><a href="./dashboards/buying-groups-dashboard.md">Painel de grupos de compra</a><br/><a href="./dashboards/journeys-dashboard.md">Painel de jornadas</a>
+      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Painel inteligente</a><br/><a href="./dashboards/engagement-dashboard.md">Painel de envolvimento</a><br/><a href="./dashboards/buying-groups-dashboard.md">Painel de grupos de compras</a><br/><a href="./dashboards/journeys-dashboard.md">Painel do Jornada</a><br/><a href="./buying-groups/incrm-insights.md">Insights no CRM</a>
     </td>
 
 </tr>
@@ -137,7 +139,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desenvolvedores</a>
@@ -145,7 +147,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
 
