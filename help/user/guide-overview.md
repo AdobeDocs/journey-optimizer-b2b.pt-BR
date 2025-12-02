@@ -23,7 +23,7 @@ Revise esta amostragem das adições e aprimoramentos mais recentes no aplicativ
 
 >[!TAB Agentes de IA]
 
-Com o [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, a interface do Assistente de IA pode chamar automaticamente agentes especializados para obter as respostas e os insights certos. O Agent Orchestrator lembra seu histórico de conversas, permitindo que você se baseie em perguntas anteriores naturalmente sem repetir o contexto e combina insights de vários agentes para apresentar respostas claras e unificadas. No contexto [!DNL Journey Optimizer B2B Edition], há três agentes criados com propósitos específicos para tarefas e domínios B2B:
+Com o [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, a interface do Assistente de IA pode chamar automaticamente agentes especializados para obter as respostas e os insights certos. O Agent Orchestrator lembra seu histórico de conversas, permitindo que você se baseie em perguntas anteriores naturalmente sem repetir o contexto e combina insights de vários agentes para apresentar respostas claras e unificadas. No contexto [!DNL Journey Optimizer B2B Edition], há três agentes criados com propósitos específicos para tarefas e domínios B2B:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Agente de Compilação do Jornada B2B](./agents/journey-agent.md)
@@ -143,7 +143,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desenvolvedores</a>
@@ -151,7 +151,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
 
