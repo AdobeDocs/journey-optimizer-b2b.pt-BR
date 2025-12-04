@@ -131,11 +131,11 @@ Selecione [esquemas relacionais](https://experienceleague.adobe.com/en/docs/expe
 >Observe que os esquemas relacionais devem ter as seguintes configurações:
 >
 ><li>Comportamento: Registro
-&gt; <li>Segmentação: ativada
-&gt; <li>Tipo de relacionamento: muitos para um
-&gt; <li>Esquema de referência: <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">Conta B2B - Esquema de conta de negócios XDM</a>
-&gt; <li>Campos obrigatórios: chave primária, chave estrangeira e descritor de versão
-&gt; <li>Conjunto de dados associado: definido e mapeado para o esquema
+>&gt; <li>Segmentação: ativada
+>&gt; <li>Tipo de relacionamento: muitos para um
+>&gt; <li>Esquema de referência: <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">Conta B2B - Esquema de conta de negócios XDM</a>
+>&gt; <li>Campos obrigatórios: chave primária, chave estrangeira e descritor de versão
+>&gt; <li>Conjunto de dados associado: definido e mapeado para o esquema
 
 ### Eventos
 
