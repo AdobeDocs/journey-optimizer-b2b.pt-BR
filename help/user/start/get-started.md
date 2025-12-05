@@ -4,10 +4,10 @@ description: 'Guia de integração para administradores e profissionais de marke
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 93%
 
 ---
 
@@ -33,13 +33,15 @@ Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
 
 1. **Colabore com o seu engenheiro de dados** para planejar e implementar a ativação do seu perfil e público-alvo B2B. Confira os blueprints publicados e siga as diretrizes de acordo com as suas necessidades. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Planeje e implemente a integração do Marketo Engage** para incorporar o esquema personalizado, a ingestão de perfis e contas, e a orquestração de jornadas personalizadas para grupos de compra. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Planeje e implemente as integrações do Marketo Engage** para incorporar o esquema personalizado, a assimilação de perfis e contas e a orquestração de jornadas personalizadas para grupos de compras. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Configure o perfil de produto**. Um perfil de produto é um conjunto de direitos unitários na Adobe Experience Platform que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. [Saiba mais](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Configure permissões de usuário** para perfis de produtos, incluindo sandboxes, e dê acesso aos membros da sua equipe atribuindo-os a diferentes perfis de produtos. Esta tarefa é executada no Admin Console. [Saiba mais](../admin/user-management.md#create-a-user-group)
 
-1. **Configure a entrega de email** no Marketo Engage, o que permite que sua equipe envie conteúdo de email de jornadas de conta. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **Configure classes e campos XDM** para controlar os dados disponíveis para a orquestração de jornadas e personalização de conteúdo do Journey Optimizer B2B edition. [Saiba mais](../admin/xdm-field-management.md)
+
+1. **Configure a entrega de email** no Marketo Engage, o que permite que sua equipe envie conteúdo de email de jornadas de conta. [Saiba mais](../admin/configure-channels-emails.md){target="_blank"}
 
 1. **Configure serviços de SMS**. Configure um dos provedores de SMS terceirizados com suporte que oferecem serviços de mensagens de texto de forma independente e configure as credenciais da conta no Adobe Journey Optimizer B2B Edition. [Saiba mais](../admin/configure-channels-sms.md)
 
