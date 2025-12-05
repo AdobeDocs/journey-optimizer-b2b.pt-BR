@@ -2,11 +2,12 @@
 title: Dividir e mesclar caminhos
 description: Crie nós de caminho de divisão e mesclagem para segmentar contas e pessoas com lógica condicional, filtrar por grupos de compra e recombinar caminhos no Journey Optimizer B2B edition.
 feature: Account Journeys
+solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 2bd5c21221da6b1e747bb133cd17c38225539ada
+source-git-commit: 1dbcdfd67e90a37774287d8d1a18aa5ba502befe
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2502'
 ht-degree: 4%
 
 ---
@@ -27,7 +28,7 @@ Um nó _Split paths_ define um ou mais caminhos segmentados com base em **_accou
 
 Dividir por caminhos de contas pode incluir ações e eventos de contas e pessoas. Esses caminhos podem ser divididos ainda mais.
 
-_&#x200B;**Como funciona um caminho dividido por nó de contas**&#x200B;_
+_**Como funciona um caminho dividido por nó de contas**_
 
 * Cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
 * Os nós divididos por conta podem ser aninhados (você pode dividir o caminho por contas repetidamente).
@@ -41,7 +42,7 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
 | Condições de caminho | Descrição |
 | --------------- | ----------- |
-| Atributos de contas | Atributos do perfil da conta, incluindo: <li>Receita anual <li>Cidade <li>País <li>Tamanho do funcionário <li>Setor <li>Nome <li>Código SIC <li>Estado |
+| Atributos de contas | Atributos do perfil da conta, incluindo: <li>Receita anual <li>Cidade <li>País <li>Tamanho do funcionário <li>Setor <li>Nome <li>Código SIC <li>Estado <li>Tem `<relational schema>` (Consulte [Filtragem de dados personalizada](#custom-data-filtering)) |
 | [!UICONTROL Filtros especiais] > [!UICONTROL A conta corresponde ao grupo de compras] | A conta corresponde a um ou mais grupos de compra. Ele pode ser avaliado em relação a uma ou mais das seguintes restrições para um grupo de compras correspondente: <li>Interesse da solução <li>Estágio do Grupo de Compras <li>Status do Grupo de Compras <li>Pontuação de engajamento <li>Pontuação de integridade <li> Número de pessoas na função de grupo de compra |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Tem Grupo de Compras] | A conta tem ou não membros de grupos de compra. Ele também pode ser avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução <li>Estágio do Grupo de Compras <li>Status do Grupo de Compras <li>Pontuação de engajamento <li>Pontuação de integridade |
 
@@ -55,13 +56,13 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Dividir caminhos]**.
 
-   ![Adicionar nó do jornada - caminhos divididos](./assets/add-node-split.png){width="300"}
+   ![Adicionar nó do jornada - caminhos divididos](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. Nas propriedades do nó à direita, escolha **[!UICONTROL Contas]** para a divisão.
 
 1. Para definir uma condição aplicável ao _[!UICONTROL Caminho 1]_, clique em **[!UICONTROL Aplicar condição]**.
 
-   ![Nó de caminho dividido - adicionar condição](./assets/node-split-properties-apply-condition.png){width="500"}
+   ![Nó de caminho dividido - adicionar condição](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
 1. No editor de condições, adicione um ou mais filtros para definir o caminho dividido.
 
@@ -117,11 +118,26 @@ Por exemplo, você pode querer avaliar a prontidão do grupo de compras com base
 
 Para as contas identificadas, você pode adicionar um nó de ação no caminho para atualizar o status do grupo de compras ou estágio, ou para enviar um email de alerta de vendas.
 
+### Filtragem de dados personalizada
+
+[!BADGE Beta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Disponível como um recurso beta na arquitetura simplificada"}
+
+Você pode usar esquemas relacionais (classes baseadas em modelo) para dividir caminhos por conta. Os objetos personalizados são definidos em _esquemas relacionais_, e um administrador de produto pode [configurar campos de esquemas relacionais](../admin/xdm-field-management.md#relational-schemas) em [!DNL Journey Optimizer B2B Edition]. Os campos de esquema selecionados estão disponíveis no editor de condições para uso em nós de divisão de caminho por conta.
+
+![Exemplo de condições para o esquema relacional da oferta](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
+
+<!-- SPHR-23746
+
+Note: These are currently going under Account Attributes folder, which is a bug (SPHR-21734). This will move to Special filters when resolved (January release).
+
+This will also be available for split paths by people (under special filters) for the M 1.5 GA release.
+-->
+
 ## Dividir caminhos por pessoas
 
 Dividir por caminhos de pessoas pode incluir apenas ações de pessoas. Esses caminhos não podem ser divididos novamente e se unem automaticamente.
 
-_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
+_**Como funciona um caminho dividido por nó de pessoas**_
 
 * Divisão por nós de pessoas em uma combinação de divisão de mesclagem de _nó agrupado_. Os caminhos divididos se mesclam automaticamente para que todas as pessoas possam avançar para a próxima etapa sem perder o contexto da conta.
 * Os nós Split by people não podem ser aninhados (não é possível adicionar um caminho dividido para pessoas em um caminho que esteja neste nó agrupado).
@@ -135,15 +151,15 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 | Filtros | Descrição |
 | ------------ | ----------- |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado no email] <li>Abriu um email <li>O email foi entregue <li>Email enviado <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de email). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Mensagem SMS] | Atividades de SMS com base em condições que são avaliadas usando uma ou mais mensagens SMS selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado em SMS] <li>[!UICONTROL SMS Devolvido] <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de SMS). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor<li>Valor anterior<li>Motivo<li>Origem<li>Data da atividade<li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não teve uma alteração no valor de dados). |
-| [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância associada do Marketo Engage. As restrições incluem: <li>Data importante<li>Email<li>Web <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não teve um momento interessante). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Página da Web visitada] | Atividade da página da Web que para uma ou mais páginas da Web gerenciadas pela instância do Marketo Engage associada. As restrições incluem: <li>Página da Web (obrigatório)<li>Data da atividade<li>Endereço IP do cliente <li>Cadeia de consulta <li>Referenciador <li>Agente do usuário <li>Mecanismo de pesquisa <li>Pesquisar consulta <li>URL personalizada <li>Token <li>Navegador <li>Plataforma <li>Dispositivo <li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não visitou a página da web). |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado no email] <li>Abriu um email <li>O email foi entregue <li>Email enviado <br>**[!UICONTROL Alternar para filtro de inatividade ]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de email). |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Mensagem SMS] | Atividades de SMS com base em condições que são avaliadas usando uma ou mais mensagens SMS selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado em SMS] <li>[!UICONTROL SMS Devolvido] <br>**[!UICONTROL Alternar para filtro de inatividade ]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de SMS). |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor<li>Valor anterior<li>Motivo<li>Origem<li>Data da atividade<li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade ]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não teve uma alteração no valor de dados). |
+| [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância [!DNL Marketo Engage] associada. As restrições incluem: <li>Data importante<li>Email<li>Web <br>**[!UICONTROL Alternar para filtro de inatividade ]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não teve um momento interessante). |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Página da Web visitada] | Atividade da página da Web que para uma ou mais páginas da Web gerenciadas pela instância [!DNL Marketo Engage] associada. As restrições incluem: <li>Página da Web (obrigatório)<li>Data da atividade<li>Endereço IP do cliente <li>Cadeia de consulta <li>Referenciador <li>Agente do usuário <li>Mecanismo de pesquisa <li>Pesquisar consulta <li>URL personalizada <li>Token <li>Navegador <li>Plataforma <li>Dispositivo <li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade ]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não visitou a página da web). |
 | [!UICONTROL Atributos da pessoa] | Atributos do perfil de pessoa, incluindo: <li>Cidade <li>País <li>Data de nascimento <li>Endereço de email <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida<li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Função</li> |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | A pessoa é ou não membro de uma ou mais listas do Marketo Engage. |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do programa] | A pessoa é ou não é membro de um ou mais programas do Marketo Engage. |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | A pessoa é ou não membro de uma ou mais listas [!DNL Marketo Engage]. |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do programa] | A pessoa é ou não membro de um ou mais programas do [!DNL Marketo Engage]. |
 
 ### Condições de caminho conta-pessoa
 
@@ -161,7 +177,7 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Dividir caminhos]**.
 
-   ![Adicionar nó do jornada - caminhos divididos](./assets/add-node-split.png){width="300"}
+   ![Adicionar nó do jornada - caminhos divididos](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para a divisão.
 
@@ -211,12 +227,12 @@ Para um caminho dividido por pessoas, você pode definir um caminho de acordo co
 * Mensagens de email de antes na jornada
 * Mensagens SMS de versões anteriores na jornada
 * Alteração no valor dos dados no perfil da pessoa
-* Um momento interessante (rastreado no Marketo Engage) associado a um email, página da Web ou marco
-* Visita a uma página da Web rastreada no Marketo Engage
+* Um momento interessante (rastreado em [!DNL Marketo Engage]) associado a um email, página da Web ou marco
+* Visita a uma página da Web (rastreada em [!DNL Marketo Engage])
 
 >[!BEGINSHADEBOX &quot;Filtragem de inatividade&quot;]
 
-Para cada filtro de _[!UICONTROL Histórico de atividades]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Por exemplo, se você deseja criar um caminho para pessoas que _&#x200B;**não**&#x200B;_ abriram um email anteriormente na jornada, adicione o filtro _[!UICONTROL Email]_ > _[!UICONTROL Email aberto]_. Ative a opção de inatividade e especifique o email. É uma prática recomendada usar a restrição _[!UICONTROL Data da atividade]_ para definir um período de tempo para a inatividade.
+Para cada filtro de _[!UICONTROL Histórico de atividades]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Por exemplo, adicione o filtro _[!UICONTROL Email]_ > _[!UICONTROL Email aberto]_ para criar um caminho para as pessoas que _**não**_ abriram um email anteriormente na jornada. Ative a opção de inatividade e especifique o email. É uma prática recomendada usar a restrição _[!UICONTROL Data da atividade]_ para definir um período de tempo para a inatividade.
 
 ![Dividir caminho por condição de pessoas para comprar associação de grupo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -224,17 +240,17 @@ Para cada filtro de _[!UICONTROL Histórico de atividades]_, você pode habilita
 
 ### Filtragem de associação
 
-Na seção _[!UICONTROL Filtros Especiais]_, há vários filtros que você pode usar para avaliar a associação de uma pessoa em um grupo de compra ou lista de Marketo Engage. Por exemplo, se você deseja criar um caminho para pessoas que são membros de um grupo de compra e receberam uma função específica, adicione o filtro _[!UICONTROL Filtros especiais]_ > _[!UICONTROL Membro do grupo de compra]_. Para o filtro, defina a associação como _true_, selecione um _[!UICONTROL Interesse da solução]_ associado a um ou mais grupos de compra e defina a _[!UICONTROL Função]_ que você deseja corresponder.
+Na seção _[!UICONTROL Filtros Especiais]_, há vários filtros que você pode usar para avaliar a associação de uma pessoa em um grupo de compra ou lista [!DNL Marketo Engage]. Por exemplo, se você deseja criar um caminho para pessoas que são membros de um grupo de compra e receberam uma função específica, adicione o filtro _[!UICONTROL Filtros especiais]_ > _[!UICONTROL Membro do grupo de compra]_. Para o filtro, defina a associação como _true_, selecione um _[!UICONTROL Interesse da solução]_ associado a um ou mais grupos de compra e defina a _[!UICONTROL Função]_ que você deseja corresponder.
 
 ![Dividir caminho por condição de pessoas para comprar associação de grupo](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX &quot;associação à lista do Marketo Engage&quot;]
 
-No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista do Marketo Engage como uma condição para o caminho dividido por pessoas para ajudar a eliminar a duplicação em atividades de jornada.
+Em [!DNL Marketo Engage], as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista [!DNL Marketo Engage] como uma condição para o caminho dividido por pessoas para ajudar a eliminar a duplicação em atividades de jornada.
 
-Para usar a associação de lista em uma condição de divisão, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Conclua a definição do filtro para avaliar a associação em uma ou mais listas do Marketo Engage.
+Para usar a associação de lista em uma condição de divisão, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Conclua a definição do filtro para avaliar a associação em uma ou mais listas [!DNL Marketo Engage].
 
-![Dividir caminho por condição de pessoas para associação à lista de Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Dividir caminho pela condição de pessoas para a associação à lista [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -254,7 +270,7 @@ Adicione um nó _Merge paths_ para combinar diferentes caminhos divididos por co
 
 1. Clique no ícone de adição ( **+** ) de qualquer um desses caminhos e escolha **[!UICONTROL Mesclar]** nas opções exibidas.
 
-   ![Nó do Jornada - caminhos de mesclagem](./assets/node-plus-icon-merge-paths.png){width="400"}
+   ![Nó do Jornada - caminhos de mesclagem](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"}
 
 1. Nas propriedades do nó dos caminhos de mesclagem, selecione os caminhos que deseja mesclar.
 
@@ -266,4 +282,4 @@ Adicione um nó _Merge paths_ para combinar diferentes caminhos divididos por co
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443261/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
