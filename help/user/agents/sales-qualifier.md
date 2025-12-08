@@ -3,7 +3,7 @@ title: Qualificador de Vendas
 description: Automatize a qualificação de prospecto B2B e o alcance com o Qualificador de vendas. Ele fornece pesquisa alimentada por IA, elaboração de email, integração de CRM e planos de engajamento para BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
+source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -19,6 +19,12 @@ ht-degree: 1%
 
 O Sales Qualifier é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho para BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). O Sales Qualifier automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador entre canais. Ele reduz a carga manual de BDR e acelera a velocidade do pipeline para empresas B2B corporativas.
 Use os plug-ins do navegador e do email para acessar a business intelligence diretamente nos CRMs ou no Outlook.
+
+## Vídeo de demonstração
+
+O vídeo a seguir fornece uma breve demonstração do qualificador de vendas e do Account Qualification Agent.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 O Qualificador de Vendas está incluído na [!UICONTROL Journey Optimizer B2B edition], mas é um aplicativo separado dentro da Experience Platform Experience Cloud.
 
@@ -218,9 +224,3 @@ Quando o plug-in é instalado no Chrome, o logotipo do Adobe aparece no meio à 
 ## Editar a barra de navegação esquerda
 
 Na parte inferior esquerda do aplicativo, clique em **[!UICONTROL Editar]** para controlar quais dos ícones estão visíveis na navegação. Você também pode arrastá-los e soltá-los para reordenar como desejar.
-
-## Vídeo de demonstração
-
-O vídeo a seguir fornece uma breve demonstração do qualificador de vendas e do Account Qualification Agent.
-
->[!VIDEO](https://video.tv.adobe.com/v/3476566?captions=por_br)
