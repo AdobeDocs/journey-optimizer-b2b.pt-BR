@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
+source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
 workflow-type: tm+mt
-source-wordcount: '3778'
+source-wordcount: '3780'
 ht-degree: 92%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -69,7 +69,7 @@ Com a arquitetura simplificada, os novos recursos e aprimoramentos a seguir est�
 | ---- | ---- | ----------- |
 | Recurso | Modelo de dados relacional | Aproveite os dados relacionais vinculados às contas B2B para filtrar contas em uma jornada de conta ou personalizar o conteúdo de email. Esses dados relacionais podem representar entidades comerciais reais, como registros de compra, registros de evento, licenças de software, assinaturas de serviço ou reservas. [Saiba mais](../admin/xdm-field-management.md#relational-schemas) |
 | Recurso | Várias ativações do Marketo Engage | Configure conexões com instâncias remotas do Marketo Engage e use essas conexões para definir ações do Marketo Engage para jornada. Essas ações, como adicionar ou remover pessoas de listas ou adicionar pessoas a uma campanha de solicitação, se aplicam à instância designada do Marketo Engage. [Saiba mais](../admin/marketo-actions-connect.md) |
-| Recurso | Desduplicação de fadiga de email | Agora você pode habilitar a desduplicação de emails para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Os endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. |
+| Recurso | Desduplicação de fadiga de email | Agora você pode habilitar a desduplicação de emails para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada.  [Saiba mais](../content/email-deduplication.md) |
 | Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B edition. [Saiba mais](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:
