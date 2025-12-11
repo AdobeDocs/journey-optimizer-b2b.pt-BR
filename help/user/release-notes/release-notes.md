@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '3807'
+source-wordcount: '3841'
 ht-degree: 91%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -40,6 +40,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 | Recurso | Mapeamento de personas | Vincule membros da conta a personas estabelecidas com mapeamento de atributos. [Saiba mais](../admin/persona-mapping.md) |
 | Recurso | Insights de vendas para o Salesforce e o Dynamics | Os membros da equipe de vendas agora podem visualizar grupos de compra em amadurecimento e insights relacionados dentro de uma integração do Salesforce ou Dynamics para identificar novas oportunidades. Os detalhes do grupo de compras como estágio, pontuação e membros relacionados estão incluídos. [Saiba mais](../buying-groups/incrm-insights.md) |
 | Recurso | Ativar público para [!DNL Adobe Target] | Agora você pode ativar um público-alvo de uma jornada de conta para um público-alvo de cliente externo e enviá-lo por push para [!DNL Adobe Target]. Com essa integração, você pode fornecer um público qualificado por meio de uma sequência de jornadas para uma experiência da Web projetada em [!DNL Target]. [Saiba mais](../audiences/target-external-audience.md) |
+| Recurso | Painel de engajamento na Web | Um novo painel que fornece insights sobre como os visitantes da Web interagem com o conteúdo principal. Ele segmenta dados em todos os setores e regiões da conta para ajudar você a entender as tendências de engajamento. [Saiba mais](../dashboards/web-engagement-dashboard.md) |
 | Recurso | Painel de insights da função | O novo painel _[!UICONTROL Insights de função]_ fornece insights sobre como suas campanhas e jornadas estão influenciando a aquisição e o envolvimento de funções de grupos de compras. [Saiba mais](../buying-groups/buying-group-role-insights.md) |
 | Aprimoramento | Pontuação aprimorada da completude do grupo de compras | Agora você pode garantir que os grupos de compra reflitam a tomada de decisão real com limites personalizáveis para membros de funções para pontuação de completude.  [Saiba mais](../buying-groups/completeness-scores.md) |
 | Aprimoramento | Trabalhos de manutenção de grupos de compras | A frequência do processo de manutenção do grupo de compras é atualizada de semanal para diária. |

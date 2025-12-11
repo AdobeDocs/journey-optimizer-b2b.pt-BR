@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 88%
+source-wordcount: '378'
+ht-degree: 84%
 
 ---
 
@@ -124,11 +124,12 @@ ht-degree: 88%
       + [Visão geral](./content/personalization.md)
       + [Sintaxe de personalização](./content/personalization-syntax.md)
       + [Lista de funções auxiliares](./content/personalization-helper-functions.md)
-+ Painéis de insights {#dashboards}
-   + [Painel inteligente](./dashboards/intelligent-dashboard.md)
-   + [Visão geral do engajamento](./dashboards/engagement-dashboard.md)
-   + [Visão geral de grupos de compra](./dashboards/buying-groups-dashboard.md)
-   + [Visão geral das jornadas da conta](./dashboards/journeys-dashboard.md)
++ Painéis inteligentes {#dashboards}
+   + [Painel de insights](./dashboards/intelligent-dashboard.md)
+   + [Painel de engajamento](./dashboards/engagement-dashboard.md)
+   + [Painel de participação na Web](./dashboards/web-engagement-dashboard.md)
+   + [Painel Grupos de compra](./dashboards/buying-groups-dashboard.md)
+   + [Painel de Jornadas da conta](./dashboards/journeys-dashboard.md)
 + Administração {#admin}
    + [Governança](./admin/governance.md)
    + [Configuração de ações do Marketo](./admin/marketo-actions-connect.md)
