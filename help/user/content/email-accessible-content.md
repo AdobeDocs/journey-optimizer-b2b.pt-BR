@@ -1,61 +1,55 @@
 ---
-title: Criar conteúdo acessível
+title: Crie conteúdo acessível
 description: Saiba como criar conteúdo acessível para seus emails e landing pages no Journey Optimizer B2B edition
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: email, design, acessibilidade
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: 09391f6d7c3360d0624edd7dae6c25a8616046d9
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
 
-# Criar conteúdo acessível {#accessible-content}
+# Crie conteúdo acessível {#accessible-content}
 
 A [Lei Europeia da Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} é uma diretiva destinada a reforçar o mercado interno de produtos e serviços acessíveis, eliminando os obstáculos causados pelas diferentes regras nacionais entre os Estados-Membros.
 
 Esse regulamento determina que todas as comunicações digitais, incluindo emails, boletins informativos, PDFs e conteúdo para download, devem estar acessíveis. Ao criar conteúdo para seus destinatários, você deve seguir diretrizes específicas, como o uso de fontes acessíveis, formatos legíveis e fornecer texto alternativo para imagens.
 
-O [!DNL Journey Optimizer B2B Edition] Email Designer, que permite que profissionais de marketing criem conteúdo para **emails** e **páginas de aterrissagem**, permite que você cumpra facilmente esta diretiva, com base nas Diretrizes de Acessibilidade de Conteúdo da Web (WCAG) 2.1, nível AA.
+As ferramentas de design do [!DNL Journey Optimizer B2B Edition] permitem que os profissionais de marketing criem conteúdo para **emails** e **páginas de aterrissagem**. Use essas ferramentas para estar em conformidade com esta diretiva, com base nas Web Content Accessibility Guidelines (WCAG) 2.1, nível AA.
 
-De acordo com isso, as práticas recomendadas para criar conteúdo acessível com o [!DNL Journey Optimizer B2B Edition] estão listadas abaixo.
-
->[!NOTE]
->
->Esta página trata de tornar o seu conteúdo acessível a todos os seus destinatários, para garantir que pessoas com deficiência possam ler, entender e interagir com seus emails e landing pages criadas com o [!DNL Journey Optimizer B2B Edition].
->
+As seções a seguir descrevem as práticas recomendadas para criar conteúdo acessível com o [!DNL Journey Optimizer B2B Edition]. Essas informações se concentram no design de conteúdo acessível a todos os recipients, para que as pessoas com deficiência possam ler, entender e interagir com seus emails e landing pages.
  
-
 ## Garantir a legibilidade do texto {#text-readability}
 
-Use a guia **[!UICONTROL Estilos]** do componente **[!UICONTROL Texto]** para garantir que o texto seja legível, por exemplo, usando contraste de cores adequado e fontes simples. [Saiba mais](content-components.md#text)
+Use a guia **[!UICONTROL Estilos]** do componente **[!UICONTROL Texto]** para garantir que o texto seja legível, por exemplo, usando contraste de cores adequado e fontes simples. Para obter mais informações sobre o estilo do componente de texto, consulte [Componentes de conteúdo](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+![Guia Estilos do componente de Texto mostrando opções de fonte, tamanho e cor](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 Para fontes e texto, siga as diretrizes abaixo:
 
-**Seleção de fonte**
+### Seleção de fonte
 
-* Use fontes sans-serif como Arial, Verdana, Tahoma, Helvetica ou Open Sans.
+* Use fontes sans-serif, como Arial, Verdana, Tahoma, Helvetica ou Open Sans.
 * Evite fontes serif, cursivas ou decorativas no conteúdo do corpo.
 * Use um conjunto de fontes limitado para fins de consistência e fallback (por exemplo: `font-family: Arial, Helvetica, sans-serif;`).
 
-**Dimensionamento de fonte**
+### Dimensionamento de fonte
 
 * Verifique um tamanho de fonte mínimo de 16px para o corpo de texto.
-* Use hierarquia adequada para cabeçalhos.
+* Use uma hierarquia adequada para cabeçalhos.
 
-**Contraste de cores**
+### Contraste de cores
 
 * Mantenha uma taxa de contraste de pelo menos 4,5:1 entre o texto e o plano de fundo.
 * Para textos grandes (≥ 24px ou bold 18px), verifique se há pelo menos um contraste de 3:1.
 * Evite texto cinza-claro ou pastel em planos de fundo brancos.
 * Não confie apenas na cor para transmitir significado, mas em vez disso use sublinhados, ícones etc.
 
-**Acessibilidade de texto**
+### Acessibilidade de texto
 
 * Evite texto em imagens.
 * Não use todas as letras maiúsculas no corpo de texto.
@@ -74,11 +68,11 @@ No [!DNL Journey Optimizer B2B Edition], o tamanho e o espaçamento dos diferent
 
 Por exemplo, você pode atualizar o plano de fundo ou alterar as margens, o preenchimento e o alinhamento para melhorar a acessibilidade visual do seu conteúdo.
 
-![](assets/accessible-styles.png){width="80%"}
+![Painel de estilos com configurações de plano de fundo, margens, preenchimento e alinhamento](assets/accessible-styles.png){width="700" zoomable="yes"}
 
 Além disso, o Designer de email do [!DNL Journey Optimizer B2B Edition] permite que você visualize e otimize o design para diferentes dispositivos e tamanhos de tela. A qualquer momento, você pode **[!UICONTROL Alternar para o modo de exibição ativo]** para verificar como o conteúdo pode ser renderizado em vários tamanhos de dispositivo.
 
-![](assets/accessible-live-view.png){width="80%"}
+![Alternância de exibição em tempo real mostrando as opções de visualização móvel, tablet e desktop](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -86,9 +80,9 @@ Além disso, o Designer de email do [!DNL Journey Optimizer B2B Edition] permite
 
 ## Usar texto alternativo para imagens {#alt-text}
 
-Use o componente **[!UICONTROL Imagem]** para fornecer texto alternativo para imagens. [Saiba mais](content-components.md#image)
+Use o componente **[!UICONTROL Imagem]** para fornecer texto alternativo para imagens. Para obter mais informações sobre configurações do componente de imagem, consulte [Componentes de conteúdo](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![Painel de configurações do componente de Imagem com campo de texto Alternativo realçado](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 Para obter um texto alternativo eficaz em produtos digitais, siga as diretrizes abaixo:
 
@@ -100,7 +94,7 @@ Para obter um texto alternativo eficaz em produtos digitais, siga as diretrizes 
 
 Use a estrutura relevante do Designer de Email e os [componentes do conteúdo](content-components.md), bem como as opções no painel **[!UICONTROL Estilos]**, para organizar o conteúdo de forma clara, lógica e concisa, acessível a todos.
 
-![](assets/accessible-components.png){width="100%"}
+![Email Designer mostrando componentes de estrutura e conteúdo para layouts organizados](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * Use HTML estruturado e semântico com cabeçalhos, parágrafos, listas e tabelas adequados.
 * Garantir que o conteúdo siga um fluxo lógico da esquerda para a direita, de cima para baixo.
@@ -117,7 +111,7 @@ Para ser legível, seu conteúdo deve ser claro, bem estruturado e utilizável p
 * Use a voz ativa para manter a estrutura da frase mais simples.
 * Evite gírias, jargões ou palavras regionais com as quais algumas pessoas possam não estar familiarizadas.
 
-Para avaliar sua legibilidade de email, você pode usar o popular [Teste de Facilidade de Leitura Flesch](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}, que pode ser encontrado no Microsoft Word e calcula como é fácil ler seu conteúdo em uma escala de 0 a 100.
+Para avaliar sua legibilidade de email, use o popular [Teste de facilidade de leitura de Flesch](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} no Microsoft Word. Ele calcula como é fácil ler seu conteúdo em uma escala de 0 a 100.
 
 ## Testar seu conteúdo {#test}
 
@@ -129,7 +123,7 @@ Para verificar a acessibilidade do conteúdo, você pode usar os recursos de tes
 
 * Envie provas para testar a renderização do seu conteúdo antes de enviá-lo para o seu público real.
 
-![](assets/accessible-simulate.png){width="90%"}
+![Interface de simulação de conteúdo com opções de visualização de perfil de teste](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 Para verificar de maneira mais consistente se o conteúdo está acessível de maneira confiável, procure por ferramentas externas específicas, como:
 
@@ -139,13 +133,12 @@ Para verificar de maneira mais consistente se o conteúdo está acessível de ma
 
 ## Usar modo escuro {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 O modo escuro melhora a acessibilidade visual para usuários com sensibilidade à luz ou deficiências visuais, para melhorar a experiência de visualização.
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![Visualização de email comparando renderização em modo claro e modo escuro](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-Entre as práticas recomendadas para projetar conteúdo no modo escuro, use PNGs ou SVGs transparentes, defina metatags e CSS apropriados e forneça um estilo de fallback acessível se o modo escuro não for compatível. Por fim, verifique se os seus emails são renderizados corretamente no modo escuro, testando todo o conteúdo do email e os elementos da interface do usuário nos modos claro e escuro.
+Ao projetar para o modo escuro, use imagens PNG ou SVG transparentes e defina metatags apropriadas e CSS. Fornecer estilo de fallback acessível se o modo escuro não for compatível. Por fim, teste todo o conteúdo de email e elementos da interface do usuário nos modos claro e escuro.
 
 ## Usar atributos específicos para acessibilidade {#attributes}
 
@@ -189,7 +182,7 @@ Ao criar designs, inclua os atributos `lang` (idioma) e `dir` (direção de text
 
   +++
 
-Os leitores de tela dependem do atributo `lang` para aplicar as regras de pronúncia corretas, enquanto a direção do texto garante o fluxo do conteúdo naturalmente para idiomas da esquerda para a direita ou da direita para a esquerda. Sem esses atributos, os usuários podem enfrentar ordem de leitura confusa ou pronúncia incorreta. Consequentemente, sempre envolva seu corpo de email com os atributos `lang` e `dir` apropriados.
+Os leitores de tela dependem do atributo `lang` para aplicar as regras de pronúncia corretas. A direção do texto garante o fluxo do conteúdo naturalmente para os idiomas da esquerda para a direita ou da direita para a esquerda. Sem esses atributos, os usuários podem enfrentar ordem de leitura confusa ou pronúncia incorreta. Consequentemente, sempre envolva seu corpo de email com os atributos `lang` e `dir` apropriados.
 
 >[!TIP]
 >
@@ -197,7 +190,7 @@ Os leitores de tela dependem do atributo `lang` para aplicar as regras de pronú
 
 ### Tabelas {#tables}
 
-No conteúdo do HTML, as tabelas são geralmente usadas para layout. Por padrão, os leitores de tela tratam cada `<table>` como uma tabela de dados, anunciando linhas, colunas e estrutura. Isso pode ser confuso se a tabela for usada apenas para formatação.
+No conteúdo do HTML, as tabelas são geralmente usadas para layout. Por padrão, os leitores de tela tratam cada `<table>` como uma tabela de dados, anunciando linhas, colunas e estrutura. Essa estrutura pode ser confusa se a tabela for usada apenas para formatação.
 
 Adicione `role="presentation"` (ou `role="none"`) às tabelas de layout para garantir que as tecnologias assistivas ignore sua estrutura e se concentre apenas no conteúdo real.
 
@@ -215,7 +208,7 @@ Adicione `role="presentation"` (ou `role="none"`) às tabelas de layout para gar
 ```
 
 Os leitores de tela leem:
-&quot;Olá, Mundo. Bem-vindo ao nosso informativo.&quot; *(Nenhuma menção de linhas, colunas ou tabela)*
+&quot;Olá, Mundo. Bem-vindo a este informativo.&quot; *(Nenhuma menção de linhas, colunas ou tabela)*
 
 +++
 
@@ -253,11 +246,11 @@ Os leitores de tela leem:
 
 ### Texto para links {#links}
 
-Os leitores de tela leem os links usando o texto. Se um link for rotulado apenas como &quot;Clique aqui&quot; ou &quot;Leia mais&quot;, os usuários de tecnologias assistivas não saberão o destino. Para garantir a acessibilidade, eles precisam de um texto descritivo que indique claramente o target ou a ação.
+Os leitores de tela leem os links usando o texto. Se um link for rotulado apenas _Clique aqui_ ou _Leia mais_, os usuários de tecnologias assistivas não saberão o destino. Para garantir a acessibilidade, eles precisam de um texto descritivo que indique claramente o target ou a ação.
 
-Use o Designer de email para adicionar um link ao seu conteúdo e editar o rótulo para torná-lo visível (visível) e descritivo (claro sobre o propósito). Evite rótulos vagos como &quot;aqui&quot; ou &quot;mais&quot;.
+Use o Designer de email para adicionar um link ao seu conteúdo e editar o rótulo para torná-lo visível (visível) e descritivo (claro sobre o propósito). Evite rótulos vagos como _aqui_ ou _mais_.
 
-![](assets/accessible-link.png){width="70%"}
+![Painel de configurações do link mostrando o campo de URL e as opções de rótulo descritivo](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++Exemplo - bom link (descritivo): 
 
@@ -289,7 +282,7 @@ Os leitores de tela leem:
 
 <!--for landing pages-->
 
-Fornecer navegação pelo teclado e suporte de foco permite que as pessoas que não podem usar um mouse acessem e interajam totalmente com o conteúdo. Também melhora a usabilidade geral, oferecendo a todos os usuários uma maneira clara e consistente de percorrer as informações.
+Fornecer navegação pelo teclado e suporte de foco permite que as pessoas que não podem usar um mouse acessem e interajam com o conteúdo. Também melhora a usabilidade geral, oferecendo a todos os usuários uma maneira clara e consistente de percorrer as informações.
 
 * Foco pelo teclado
    * Verifique se todos os elementos interativos (como botões, caixas de seleção, links) têm `tabindex="0"` para que sejam incluídos na ordem de tabulação natural.
