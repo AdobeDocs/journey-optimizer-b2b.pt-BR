@@ -4,9 +4,9 @@ description: Projetar emails, páginas de aterrissagem e fragmentos com componen
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2825'
 ht-degree: 6%
 
 ---
@@ -371,7 +371,7 @@ Personalize o estilo do botão na guia **[!UICONTROL Estilos]**.
 
 ### Texto
 
-Use o componente de Texto para inserir um bloco de texto no conteúdo. Quando o componente de texto for selecionado na tela, insira o texto e use as opções da barra de ferramentas para adicionar formatação e opções em linha, incluindo tokens de personalização e variantes condicionais. Para obter informações detalhadas sobre a criação de texto, incluindo estilo em linha e opções, no espaço de design, consulte Criação de texto.
+Use o componente de Texto para inserir um bloco de texto no conteúdo. Quando o componente de texto for selecionado na tela, insira o texto e use as opções da barra de ferramentas para adicionar formatação e opções em linha, incluindo tokens de personalização e variantes condicionais. <!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 Personalize o estilo do componente de texto na guia **[!UICONTROL Estilos]**.
 

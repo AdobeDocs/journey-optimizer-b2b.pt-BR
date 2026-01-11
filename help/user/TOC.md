@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -32,13 +32,14 @@ ht-degree: 84%
    + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)
    + [Nós de jornada](./journeys/journey-nodes.md)
    + Nós de jornada {#journey-nodes}
-      + [Público-alvo de conta](./journeys/account-audience-nodes.md)
+      + [Público-alvo da conta](./journeys/account-audience-nodes.md)
       + [Realizar uma ação](./journeys/action-nodes.md)
       + [Acompanhar um evento](./journeys/listen-for-event-nodes.md)
       + [Dividir e mesclar caminhos](./journeys/split-merge-paths-nodes.md)
       + [Aguardar](./journeys/wait-nodes.md)
    + [Detalhes da jornada](./journeys/journey-details.md)
 + Conteúdo da jornada {#journey-content}
+   + [Canal de SMS](./content/sms-authoring.md)
    + Canal de email {#email-channel}
       + [Adicionar um email](./content/add-email.md)
       + [Criação de email](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [Modelos controlados](./content/email-authoring-governance.md)
       + [Email de alerta de vendas](./content/sales-alert-email.md)
       + [Desduplicação de email](./content/email-deduplication.md)
+   + Canal da Web (Beta) {#web-channel}
+      + [Visão geral](./content/web-experiences.md)
+      + [Design de experiência online](./content/web-experience-design.md)
+      + [Aplicativos de página única](./content/web-single-page-applications.md)
    + [Tokens de personalização](./content/personalization-my-tokens.md)
-   + [Criação de SMS](./content/sms-authoring.md)
 + Públicos-alvo {#audiences}
    + [Públicos da Experience Platform](./audiences/account-audience-overview.md)
    + [Públicos-alvo externos](./audiences/target-external-audience.md)
@@ -142,7 +146,8 @@ ht-degree: 84%
    + Canais {#channels}
       + [Configurações de email](./admin/configure-channels-emails.md)
       + [Configuração de SMS](./admin/configure-channels-sms.md)
-      + [Configurações da página de destino](./admin/landing-page-settings.md)
+      + [Configurações do canal da Web (Beta)](./admin/configure-channels-web.md)
+      + [Configurações da página de aterrissagem (Beta)](./admin/landing-page-settings.md)
       + [Configurar sequências de dados para a coleção de eventos](./data/aep-event-collection.md)
    + Configurações  {#configurations}
       + [Repositórios do AEM Assets](./admin/configure-aem-repositories.md)

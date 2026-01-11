@@ -4,9 +4,9 @@ description: 'Configure nós de ação para ações de conta e pessoas: envie em
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1773'
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ Use uma ação em pessoas quando quiser aplicar uma alteração a todas as pesso
 | | [!UICONTROL Atribuir ao Grupo de Compras] | Selecionar interesse de solução<br/>Selecionar função |
 | | [!UICONTROL Alterar pontuação] | Nome da pontuação<br/>Alteração na pontuação |
 | | [!UICONTROL Momento Interessante] | Tipo<br/>Descrição |
+| | [!UICONTROL Personalizar experiência da Web] (Beta) | Criar/editar experiência da Web |
 | | [!UICONTROL Remover do Grupo de Compras] | Selecione o interesse na solução |
 | | [!UICONTROL Enviar email] | Criar email |
 | | [!UICONTROL Enviar SMS] | Criar SMS |
@@ -141,7 +142,7 @@ Use esta ação para encaminhar as pessoas para um público-alvo externo que pod
 Ao selecionar essa ação com base em pessoas, é possível criar um novo público-alvo externo ou selecionar na lista de públicos-alvo externos existentes.
 
 * Para públicos-alvo existentes, você pode escolher entre os públicos-alvo de clientes externos que foram criados somente em [!DNL Journey Optimizer B2B Edition].
-* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
+* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista a uma visão geral de vídeo para orquestração de mídia paga](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -187,7 +188,7 @@ Use esta ação para adicionar perfis de pessoas a um [grupo de compras](../buyi
 
 +++[!UICONTROL Alterar pontuação]
 
-Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Realizar uma ação - Alterar pontuação](./assets/node-action-change-score.png){width="300"}
 
@@ -201,6 +202,14 @@ Use esta ação para registrar um momento interessante para as pessoas. Escolha 
 
 +++
 
++++[!UICONTROL Personalizar experiência da Web] (Beta)
+
+Use esta ação para [criar experiências personalizadas](../content/web-experiences.md) diretamente do seu site. O recurso de canal da Web oferece um kit de ferramentas flexível que você pode usar para aprimorar o engajamento com conteúdo personalizado da Web.
+
+![Realizar uma ação - Personalizar experiência da Web](./assets/node-action-person-personalize-web-experience.png){width="300"}
+
++++
+
 +++[!UICONTROL Remover do Grupo de Compras]
 
 Use esta ação para remover perfis de pessoas de um [grupo de compras](../buying-groups/buying-groups-overview.md) com base em um interesse de solução selecionado.
@@ -211,7 +220,7 @@ Use esta ação para remover perfis de pessoas de um [grupo de compras](../buyin
 
 +++[!UICONTROL Enviar email]
 
-Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
+Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
 
 ![Executar uma ação - Enviar email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -255,7 +264,7 @@ Por exemplo, talvez você queira suprimir campanhas no Marketo Engage para pesso
 
 +++[!UICONTROL Adicionar à campanha de solicitação do Marketo Engage]
 
-Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} no Marketo Engage.
+Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da campanha de solicitação.
 
@@ -265,7 +274,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Adicionar à lista do Marketo]
 
-Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
+Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
@@ -275,7 +284,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Remover da lista do Marketo]
 
-Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
+Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
@@ -285,4 +294,4 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443250/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
