@@ -23,7 +23,7 @@ Antes de criar experiências da Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
    * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
@@ -326,7 +326,7 @@ Rastreie as interações do usuário com elementos para medir o engajamento e co
 
 Quando sua experiência na Web é ativada (ativa), você também pode criar relatórios usando o Adobe Customer Journey Analytics (que requer uma assinatura do produto). Para melhorar o monitoramento da experiência online, você também pode rastrear os cliques em qualquer elemento específico do site. O rastreamento permite exibir o número de cliques desse elemento nos relatórios da Web.
 
-Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing).
+Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Selecione um elemento no editor de experiência online, como uma imagem ou link.
 
