@@ -4,7 +4,7 @@ description: Crie, projete e publique experiências personalizadas da Web para j
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
-source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
+source-git-commit: 6eae855a1e20b3a4350353940cb3ea82fd84933b
 workflow-type: tm+mt
 source-wordcount: '1497'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Antes de criar experiências na Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
    * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
@@ -83,7 +83,7 @@ Você pode configurar experiências da Web em uma jornada ao [adicionar um nó _
 
 1. Para a _[!UICONTROL Ação em pessoas]_, escolha **[!UICONTROL Personalizar experiência da Web]**.
 
-![Realizar uma ação - personalizar experiência da Web](./assets/web-experience-add-journey-node.png){width="500"}
+   ![Realizar uma ação - personalizar experiência da Web](./assets/web-experience-add-journey-node.png){width="500"}
 
 1. Clique em **[!UICONTROL Criar experiência na Web]**.
 
@@ -189,13 +189,13 @@ Para habilitar a entrega de experiência online, as seguintes configurações de
 
 * Na Coleção de dados da Adobe Experience Platform, verifique se você tem um fluxo de dados definido com a opção Adobe Journey Optimizer B2B edition ativada no serviço Adobe Experience Platform.
 
-  Essa configuração garante que o Adobe Experience Platform Edge possa lidar corretamente com os eventos de entrada. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
+  Essa configuração garante que o Adobe Experience Platform Edge possa lidar corretamente com os eventos de entrada. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * Na Adobe Experience Platform, verifique se você tem uma política de mesclagem com a _[!UICONTROL Política de mesclagem ativa no Edge]_ ativada.
 
-  Selecione uma política no menu Experience Platform Cliente > Perfis > Mesclar políticas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Selecione uma política no menu Experience Platform Cliente > Perfis > Mesclar políticas. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Essa política de mesclagem é usada pelos canais de entrada do Journey Optimizer B2B edition para ativar e publicar corretamente as experiências de entrada da web na borda. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/ui-guide)
+  Essa política de mesclagem é usada pelos canais de entrada do Journey Optimizer B2B edition para ativar e publicar corretamente as experiências de entrada da web na borda. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Solução de problemas
 
