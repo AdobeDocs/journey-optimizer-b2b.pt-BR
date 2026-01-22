@@ -4,7 +4,7 @@ description: 'Guia de integração para administradores e profissionais de marke
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 93%
@@ -55,7 +55,7 @@ Como profissional de marketing ou _Profissional de jornada de contas_, você é 
 
 Consulte as seções a seguir para configurar sua primeira jornada, adicionar ativos e enviar conteúdo:
 
-1. **Adicione públicos-alvo de contas**. O Journey Optimizer B2B Edition permite criar públicos-alvo de contas por meio de definições de segmentos diretamente do aplicativo e utilizá-los em suas jornadas de conta. [Saiba mais](../audiences/account-audience-overview.md)
+1. **Adicione públicos-alvos das contas**. O Journey Optimizer B2B Edition permite criar públicos-alvos das contas por meio de definições de segmentos diretamente do aplicativo e utilizá-los em suas jornadas de conta. [Saiba mais](../audiences/account-audience-overview.md)
 
 1. **Crie grupos de compra**. Defina os principais componentes para atingir suas metas e objetivos comerciais e crie grupos de compras que identifiquem os membros para suas listas de contas de destino. [Saiba mais](../buying-groups/buying-groups-overview.md)
 
@@ -73,6 +73,6 @@ Consulte as seções a seguir para configurar sua primeira jornada, adicionar at
 
    * No mapa da jornada, crie casos de uso em várias etapas, adicione condições e envie mensagens personalizadas.
 
-[Saiba mais](../journeys/journey-overview.md)
+[Saiba mais](../journeys/journeys-overview.md)
 
 >[!ENDTABS]

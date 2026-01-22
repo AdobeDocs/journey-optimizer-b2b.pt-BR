@@ -3,7 +3,7 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -178,7 +178,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Duplicar jornadas de conta | Uma ação duplicada agora está disponível para jornadas de conta. Você pode duplicar os detalhes da jornada da conta ou apenas um esqueleto simples do fluxo e da estrutura do caminho. <a href="../journeys/journey-overview.md#duplicate-journey">Saiba mais</a> |
+| Recurso | Duplicar jornadas de conta | Uma ação duplicada agora está disponível para jornadas de conta. Você pode duplicar os detalhes da jornada da conta ou apenas um esqueleto simples do fluxo e da estrutura do caminho. <a href="../journeys/journeys-overview.md#duplicate-journey">Saiba mais</a> |
 | Recurso | Meus tokens para jornadas de conta | Agora você pode definir um conjunto de tokens personalizados com valores específicos para a jornada da conta. Este conjunto de tokens personalizados é chamado de _Meus tokens_, e qualquer um desses tokens personalizados serve para personalização ao criar emails de jornada. <a href="../content/personalization-my-tokens.md">Saiba mais</a> |
 | Recurso | Excluir estágios do grupo de compra | Você pode excluir o modelo de estágios do grupo de compra quando ele estiver em estado de rascunho ou publicado. Se for publicado (ao vivo), você poderá excluí-lo somente quando não estiver associado a um interesse de solução. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Saiba mais</a> |
 | Aprimoramento | Contagens de nós de jornada | Visibilidade aprimorada nas contagens de membros de jornadas publicadas no nível do nó. No _Mapa de jornada_, os nós exibem o _[!UICONTROL Total de contas inseridas]_. Ao selecionar um nó de ação, os detalhes à direita também incluem _[!UICONTROL Contas ainda não acionadas]_. Os detalhes de nós _Monitorar um evento_ incluem _[!UICONTROL Contas nesta etapa]_. Use essas informações para validar o progresso da conta nas jornadas ativas, concluídas e canceladas. |
@@ -192,7 +192,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Campos personalizáveis: fragmentos de conteúdo | Durante o design do fragmento visual, é possível designar parâmetros de um componente no fragmento como editáveis. Esse recurso permite que o autor do email ou modelo especifique um valor de campo personalizado específico para suas necessidades. Esse sinalizador de personalização é limitado aos componentes visuais de imagem, texto e botão. <a href="../content/fragment-authoring.md#enable-fragment-customization">Saiba mais</a> |
-| Recurso | Tipos de duplicação de jornada | Ao duplicar uma jornada de conta, você pode incluir detalhes do nó, excluindo emails e mensagens SMS criados no Journey Optimizer B2B Edition. Como alternativa, você pode criar uma cópia da estrutura e dos fluxos de caminho, sem detalhes e configurações do nó. <a href="../journeys/journey-overview.md#duplicate-journey">Saiba mais</a> |
+| Recurso | Tipos de duplicação de jornada | Ao duplicar uma jornada de conta, você pode incluir detalhes do nó, excluindo emails e mensagens SMS criados no Journey Optimizer B2B Edition. Como alternativa, você pode criar uma cópia da estrutura e dos fluxos de caminho, sem detalhes e configurações do nó. <a href="../journeys/journeys-overview.md#duplicate-journey">Saiba mais</a> |
 | Aprimoramento | Quatro modelos de email de exemplo adicionais | A biblioteca de modelos de email agora inclui quatro modelos do SecurFinancial como exemplos de conteúdo de reengajamento, informação, estímulo e feedback |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

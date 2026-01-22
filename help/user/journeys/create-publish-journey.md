@@ -1,25 +1,32 @@
 ---
-title: Criar e publicar uma Jornada de conta
-description: Crie jornadas de conta na tela visual, adicione nós de ação e evento, configure o agendamento e publique para orquestração em tempo real no Journey Optimizer B2B edition.
+title: Criar e publicar uma Jornada
+description: Crie jornadas de conta e pessoa na tela visual, adicione nós de ação e evento, configure o agendamento e publique para orquestração em tempo real no Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
 
-# Criar e publicar uma jornada de conta
+# Criar e publicar uma jornada
 
-Para começar a usar uma jornada de conta, crie a jornada e construa os nós e o fluxo de jornada no mapa de jornadas.
+Para começar a usar uma jornada, crie a jornada e construa os nós e o fluxo da jornada no mapa de jornadas.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
-## Criar uma jornada de conta
+## Criar uma jornada
 
-1. Na navegação à esquerda, clique em **[!UICONTROL Jornadas da conta]**.
+Em **[!UICONTROL Gerenciamento de Jornadas]**, na navegação à esquerda, selecione o tipo de jornada que deseja criar:
+
+* **[!UICONTROL jornadas da conta]**
+* **[!UICONTROL jornadas de pessoas]** (Beta)
+
+_Para adicionar uma nova jornada :_
+
++++Jornada de conta
 
 1. Clique em **[!UICONTROL Criar Jornada de Conta]** na parte superior direita da página.
 
@@ -29,9 +36,26 @@ Para começar a usar uma jornada de conta, crie a jornada e construa os nós e o
 
 1. Clique em **[!UICONTROL Criar]**.
 
-## Blocos de construção de uma jornada
++++
 
-O _mapa de jornadas_ é a zona central no espaço de trabalho de jornada. É nessa zona que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir o painel de propriedades à direita da tela e defina-o de acordo com seu design. Uma jornada de conta sempre começa com um [nó de Público-alvo de Conta](./account-audience-nodes.md), onde é possível adicionar entrada à jornada.
++++Jornada de pessoa (Beta)
+
+1. Clique em **[!UICONTROL Criar Jornada]** na parte superior direita da página.
+
+1. Na caixa de diálogo, insira um **[!UICONTROL Nome]** exclusivo (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
+
+   ![Caixa de diálogo Criar Jornada](./assets/person-journey-create-dialog.png){width="400"}
+
+1. Clique em **[!UICONTROL Criar]**.
+
++++
+
+## Blocos de construção para design de jornada
+
+O _mapa de jornadas_ é a zona central no espaço de trabalho de jornada. É nessa zona que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir o painel de propriedades à direita da tela e defina-o de acordo com seu design. Uma jornada sempre começa com um nó de público-alvo, em que você pode definir a entrada da jornada:
+
+* [Nó de público-alvo da conta](./account-audience-nodes.md)
+* [Nó de público-alvo de pessoa](./person-audience-nodes.md)
 
 Depois de criar uma jornada de conta e adicionar o público-alvo, crie a jornada usando nós. O mapa de jornadas fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar uma jornada de conta:
 
@@ -109,7 +133,7 @@ Ao publicar uma jornada, ela pode começar imediatamente ou em uma data futura p
 
    Quando estiver pronto para publicar sua jornada, você poderá rever essas configurações quando clicar em _[!UICONTROL Publicar]_.
 
-## Publicar uma jornada de conta
+## Publicar uma jornada
 
 Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Ativo_. Se a jornada tiver erros, o botão _[!UICONTROL Publicar]_ ficará esmaecido com as informações de conteúdo: `Resolve errors before publishing`.
 
@@ -141,4 +165,4 @@ Você pode publicar uma jornada se não houver erros de bloqueador. Quando publi
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443224/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

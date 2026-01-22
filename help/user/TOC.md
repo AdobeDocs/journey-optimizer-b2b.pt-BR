@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 78%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 80%
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Agente de Compilação do Jornada B2B](./agents/journey-agent.md)
       + [Qualificador de Vendas](./agents/sales-qualifier.md)
-+ Jornadas da conta {#account-journeys}
-   + [Visão geral](./journeys/journey-overview.md)
++ Gerenciamento de jornadas {#journeys}
+   + [Jornadas de conta e pessoa](./journeys/journeys-overview.md)
    + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)
    + [Nós de jornada](./journeys/journey-nodes.md)
    + Nós de jornada {#journey-nodes}
       + [Público-alvo da conta](./journeys/account-audience-nodes.md)
+      + [Público-alvo de pessoa (Beta)](./journeys/person-audience-nodes.md)
       + [Realizar uma ação](./journeys/action-nodes.md)
       + [Acompanhar um evento](./journeys/listen-for-event-nodes.md)
       + [Dividir e mesclar caminhos](./journeys/split-merge-paths-nodes.md)

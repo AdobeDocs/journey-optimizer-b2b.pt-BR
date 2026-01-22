@@ -1,38 +1,38 @@
 ---
-title: Públicos-alvo da conta
-description: Crie públicos-alvo de conta com segmentação para direcionar contas específicas e habilitar jornadas personalizadas com base na conta no Journey Optimizer B2B Edition.
+title: Públicos-alvos da conta
+description: Crie públicos-alvos da conta com segmentação para direcionar contas específicas e habilitar jornadas personalizadas com base na conta no Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
-# Públicos-alvo da conta
+# Públicos-alvos da conta
 
-Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. O Journey Optimizer B2B Edition usa as funcionalidades de segmentação de conta encontradas nas edições B2B e B2P da Adobe Real-Time Customer Data Platform. Com a segmentação de conta, os usuários podem gerar públicos-alvo de conta aproveitando dados de qualquer uma das entidades B2B no sistema. Esses públicos-alvo de conta servem como entradas para jornadas de conta do Journey Optimizer B2B Edition, facilitando a ativação contínua e o recurso de personalização.
+Um público-alvo é um conjunto de pessoas que compartilham comportamentos e/ou características semelhantes. O Journey Optimizer B2B Edition usa as funcionalidades de segmentação de conta encontradas nas edições B2B e B2P da Adobe Real-Time Customer Data Platform. Com a segmentação de conta, os usuários podem gerar públicos-alvos da conta aproveitando dados de qualquer uma das entidades B2B no sistema. Esses públicos-alvos da conta servem como entradas para jornadas de conta do Journey Optimizer B2B Edition, facilitando a ativação contínua e o recurso de personalização.
 
-Saiba mais sobre públicos-alvo de conta e como defini-los na [documentação do serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+Saiba mais sobre públicos-alvos da conta e como defini-los na [documentação do serviço de segmentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
 ## Fluxo de trabalho do público-alvo da conta
 
-Pense no Journey Optimizer B2B Edition como um destino da Experience Platform (AEP) que não aparece no catálogo de destinos. Ative públicos-alvo da conta para o Journey Optimizer B2B Edition seguindo estas etapas:
+Pense no Journey Optimizer B2B Edition como um destino da Experience Platform (AEP) que não aparece no catálogo de destinos. Ative públicos-alvos da conta para o Journey Optimizer B2B Edition seguindo estas etapas:
 
 1. Crie esquemas para seus dados na AEP.
 1. Assimile os dados na AEP.
 1. Crie um segmento de conta para avaliar os dados.
 1. Ative os dados avaliados no Journey Optimizer B2B Edition.
 
-No Journey Optimizer B2B Edition, os públicos-alvo de conta são usados como uma entrada para jornadas baseadas em conta, permitindo direcionar as pessoas nessas contas. Por exemplo, você pode usar os públicos-alvo de conta para recuperar registros de todas as contas que não têm informações de contato de uma pessoa com o título Diretor(a) de operações (COO) ou Diretor(a) de marketing (CMO).
+No Journey Optimizer B2B Edition, os públicos-alvos da conta são usados como uma entrada para jornadas baseadas em conta, permitindo direcionar as pessoas nessas contas. Por exemplo, você pode usar os públicos-alvos da conta para recuperar registros de todas as contas que não têm informações de contato de uma pessoa com o título Diretor(a) de operações (COO) ou Diretor(a) de marketing (CMO).
 
-O Journey Optimizer B2B Edition permite criar públicos-alvo de conta da Adobe Experience Platform (AEP) diretamente da navegação à esquerda e incorporá-los às jornadas da conta.
+O Journey Optimizer B2B Edition permite criar públicos-alvos da conta da Adobe Experience Platform (AEP) diretamente da navegação à esquerda e incorporá-los às jornadas da conta.
 
-![Acessar públicos-alvo da conta](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
+![Acessar públicos-alvos da conta](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
 
-## Criar um público-alvo de conta
+## Criar um público-alvos da conta
 
 Defina o público-alvo da conta criando uma segmentação de conta. Crie a segmentação de conta diretamente no aplicativo Journey Optimizer B2B Edition ou utilize a [interface do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Veja a seguir as etapas que podem ser usadas para criar uma segmentação de conta no Journey Optimizer B2B Edition.
 
@@ -46,9 +46,9 @@ Defina o público-alvo da conta criando uma segmentação de conta. Crie a segme
 
    >[!TIP]
    >
-   >Ao criar um público-alvo de conta, observe que os eventos são listados em _[!UICONTROL Pessoas]_, porque esses atributos são associados a pessoas.<br/>
+   >Ao criar um público-alvo da conta, observe que os eventos são listados em _[!UICONTROL Pessoas]_, porque esses atributos são associados a pessoas.<br/>
    >
-   >Na guia _[!UICONTROL Públicos-alvo]_, é possível adicionar públicos-alvo baseados em pessoas criados anteriormente como referência para criar seu próprio público-alvo de conta.
+   >Na guia _[!UICONTROL Públicos-alvos]_, é possível adicionar públicos-alvos baseados em pessoas criados anteriormente como referência para criar seu próprio público-alvo da conta.
 
    O exemplo a seguir define o público-alvo criado por meio de `Country Code`, `Revenue Amount` e `Market segment`. A consulta em inglês seria “I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M.” (Busco todas as contas do segmento de Finanças nos EUA cuja receita exceda US$ 1 milhão).
 
@@ -64,4 +64,4 @@ Defina o público-alvo da conta criando uma segmentação de conta. Crie a segme
 
 1. Clique em **[!UICONTROL Salvar e fechar]** na parte superior direita.
 
-Para ativar o público-alvo da sua conta para o Journey Optimizer B2B Edition, você deve [adicioná-lo a uma jornada de conta](../journeys/journey-overview.md#add-the-account-audience-for-your-journey) e [publicar a jornada](../journeys/journey-overview.md).
+Para ativar o público-alvo da conta para o Journey Optimizer B2B Edition, você deve [adicioná-lo a uma jornada de conta](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) e [publicar a jornada](../journeys/journeys-overview.md).

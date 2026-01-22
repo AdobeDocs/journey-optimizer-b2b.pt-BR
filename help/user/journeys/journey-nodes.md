@@ -1,24 +1,28 @@
 ---
-title: Nós de Jornada de conta
-description: Crie jornadas de conta com nós de ação, evento e orquestração - público-alvo, espera, divisão e mesclagem - para marketing entre canais no Journey Optimizer B2B edition.
+title: Jornada nós
+description: Crie jornadas com nós de ação, evento e orquestração - público-alvo, espera, divisão e mesclagem - para marketing entre canais no Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: f5170767a6df14874fab5de203264a5a5e3e245a
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '127'
 ht-degree: 12%
 
 ---
 
-# Nós de Jornada de conta
+# Nós de jornada
 
-Depois de [criar uma jornada de conta](journey-overview.md#create-an-account-journey) e [adicionar o público-alvo](journey-overview.md#add-the-account-audience-for-your-journey), compile a jornada usando nós. O mapa de jornada fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas.
+Depois de criar uma jornada (jornada de conta ou jornada de pessoa), adicione o público-alvo e crie a jornada usando nós. O mapa de jornada fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas.
 
-Crie sua jornada de conta combinando os diferentes nós de ação, evento e orquestração como um cenário em várias etapas e entre canais. Cada nó de uma jornada representa uma etapa ao longo de um caminho lógico. Use os seguintes tipos de nó para criar uma jornada de conta:
+Os nós de público-alvo são automaticamente o primeiro nó na jornada:
 
-* [Público-alvo de conta](./account-audience-nodes.md)
+* [Público-alvo da conta](./account-audience-nodes.md)
+* [Público-alvo de pessoas](./person-audience-nodes.md) (Beta)
+
+Crie sua jornada combinando os diferentes nós de ação, evento e orquestração como um cenário em várias etapas e entre canais. Cada nó de uma jornada representa uma etapa ao longo de um caminho lógico. Use os seguintes tipos de nó para criar uma jornada de conta:
+
 * [Realizar uma ação](./action-nodes.md)
 * [Acompanhar um evento](./listen-for-event-nodes.md)
 * [Dividir caminhos](./split-merge-paths-nodes.md)

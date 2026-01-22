@@ -4,26 +4,26 @@ description: 'Configure nós de eventos para acionadores de conta e de pessoas: 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 12%
 
 ---
 
 # Acompanhar um evento
 
-Adicione o nó _Ouvir um evento_ para mover o público-alvo para a próxima etapa da jornada da conta quando ocorrer um evento.
+Adicione o nó _Ouvir um evento_ para mover o público-alvo para a próxima etapa da jornada quando ocorrer um evento.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Assista ao vídeo de visão geral](#overview-video)
 
 >[!NOTE]
 >
->Não é possível adicionar esse tipo de nó no caminho dividido por pessoas.
+>Para uma jornada de conta, não é possível adicionar esse tipo de nó no caminho dividido por pessoas.
 
 ## Eventos de conta
 
-Analise um evento com base na conta quando quiser mover a conta para frente na jornada de acordo com os eventos acionados pela atividade da conta.
+Em uma jornada de conta, você pode acompanhar um evento com base na conta quando quiser mover a conta para frente na jornada, de acordo com eventos acionados pela atividade da conta.
 
 ### Eventos e restrições
 
@@ -52,7 +52,7 @@ Analise um evento com base na conta quando quiser mover a conta para frente na j
 
 ## Eventos de pessoas
 
-Analise um evento com base em pessoas quando quiser mover a conta para frente na jornada de acordo com os eventos acionados pela atividade de pessoas. Também é possível filtrar eventos de acordo com atributos de pessoas,
+Em uma jornada de conta, você pode acompanhar um evento com base em pessoas quando quiser mover a conta para frente na jornada, de acordo com os eventos acionados pela atividade de pessoas. Também é possível filtrar eventos de acordo com atributos de pessoas,
 
 ### Eventos e restrições
 
@@ -135,7 +135,7 @@ Se você tiver páginas da Web na instância conectada do Marketo Engage, poder�
 
 ### Analise um evento de experiência
 
-Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
+Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
 
 1. Um administrador [seleciona os tipos de evento e campos de interesse](../admin/configure-aep-events.md#select-an-event) para torná-los disponíveis no jornada.
 
@@ -148,19 +148,19 @@ _Para incluir um Evento de Experiência na jornada :_
 
 1. Selecione um nó **[!UICONTROL Ouvir um evento]** no mapa de jornadas.
 
-1. Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o tipo de evento.
-
-1. Clique na seta do seletor **[!UICONTROL Selecionar evento de pessoas]** e role o menu até a seção **[!UICONTROL Adobe Experience Platform]**.
-
-   ![Ouvir um evento de experiência](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (Somente jornada de conta) Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o tipo de evento.
 
 1. Selecione o evento.
 
-   O tipo de evento é exibido como vazio nos detalhes do nó.
+   Para uma **_jornada de conta_**, clique na seta do seletor de **[!UICONTROL Evento Selecionar pessoas]** e role o menu até a seção **[!UICONTROL Adobe Experience Platform]**.
 
-   ![Editar o evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![Ouvir um evento de experiência](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   Para uma jornada de pessoa, clique na seta do seletor **[!UICONTROL Selecionar evento]** e escolha o evento.
 
 1. Clique em **[!UICONTROL Editar evento]** e defina uma ou mais restrições para o evento.
+
+   ![Editar o evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    As restrições disponíveis são definidas como campos gerenciados para a configuração do evento.
 
@@ -182,11 +182,13 @@ _Para incluir um Evento de Experiência na jornada :_
 
 1. No mapa de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
 
-1. Conclua os nós restantes para sua jornada e [publique-a](./journey-overview.md).
+1. Conclua os nós restantes para sua jornada e [publique-a](./journeys-overview.md).
 
    Quando a jornada está ativa (publicada) e atinge o nó _Ouvir um evento_, ela começa a ouvir os Eventos de experiência do AEP.
 
 ### Adicionar filtros ao evento de pessoas
+
+(Somente jornadas de conta)
 
 1. Após definir o evento, selecione a guia **[!UICONTROL Filtros]** na caixa de diálogo _[!UICONTROL Editar Evento]_.
 
@@ -222,4 +224,4 @@ Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. 
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

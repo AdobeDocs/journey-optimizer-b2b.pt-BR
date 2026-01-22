@@ -4,7 +4,7 @@ description: Configure nós de público-alvo de conta com públicos-alvo de cont
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Nós de jornada de público-alvo da conta
 
-O nó de público-alvo da conta especifica quais contas entram na jornada. Quando você [cria uma jornada de conta](./journey-overview.md#create-an-account-journey), a jornada sempre começa com um nó de público-alvo de conta que define sua entrada.
+O nó de público-alvo da conta especifica quais contas entram na jornada. Quando você [cria uma jornada de conta](./create-publish-journey.md#create-a-journey), a jornada sempre começa com um nó de público-alvo de conta que define sua entrada.
 
 Use uma das seguintes opções de entrada para este nó do jornada:
 

@@ -4,7 +4,7 @@ description: Visualize insights da conta com resumos de IA, detecção de inten�
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 6%
@@ -33,7 +33,7 @@ A seção de visão geral da conta inclui as seguintes informações da conta:
 * Número de pessoas na conta
 * Setor
 * Oportunidades abertas
-* As três jornadas de conta mais recentes nas quais a conta está em uso no momento (clique no nome da jornada para abrir a [visão geral da jornada](../journeys/journey-overview.md))
+* As três jornadas de conta mais recentes nas quais a conta está em uso no momento (clique no nome da jornada para abrir a [visão geral da jornada](../journeys/journeys-overview.md))
 * Resumo da conta da IA geral, que inclui informações sobre os principais grupos de compras envolvidos.
 
 ### Dados de intenção
