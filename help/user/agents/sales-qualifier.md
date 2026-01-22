@@ -3,9 +3,9 @@ title: Qualificador de Vendas
 description: Automatize a qualificação de prospecto B2B e o alcance com o Qualificador de vendas. Ele fornece pesquisa alimentada por IA, elaboração de email, integração de CRM e planos de engajamento para BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
+source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Use os plug-ins do navegador e do email para acessar a business intelligence dir
 
 O vídeo a seguir fornece uma breve demonstração do qualificador de vendas e do Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476566?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 O Qualificador de Vendas está incluído na [!UICONTROL Journey Optimizer B2B edition], mas é um aplicativo separado dentro da Experience Platform Experience Cloud.
 
@@ -95,7 +95,7 @@ Para criar um novo plano de Envolvimento, clique em **[!UICONTROL Criar plano de
 
 O painel Caixa de saída de email lista todos os emails automatizados enviados.
 
-## Reservas da reunião
+## Reservas de reunião
 
 Esse painel exibe todas as reuniões configuradas por meio da automação.
 
@@ -209,17 +209,18 @@ O painel _[!UICONTROL Gerenciamento de representantes]_ exibe os representantes 
 
 Este painel apresenta análises sobre as reuniões concluídas.
 
-## Configurar o plug-in do Chrome
+<!-- SHPHR-24341 remove section 
+## Set up the Chrome plugin
 
-O plug-in do Assistente de IA para Chrome está disponível na [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
+The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
-Quando o plug-in é instalado no Chrome, o logotipo do Adobe aparece no meio à direita quando você está em um site integrado:
+When the plugin is installed in Chrome, the Adobe logo appears on the middle right when you are on an integrated site:
 
-* aplicativos web do Adobe
+* Adobe web applications
 * Salesforce
 * Outlook
-* Microsoft Dynamics e aplicativos web
-* aplicativos Google
+* Microsoft Dynamics and web applications
+* Google applications -->
 
 ## Editar a barra de navegação esquerda
 
