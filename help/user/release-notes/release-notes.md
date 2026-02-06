@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4085'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -37,7 +37,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 | Recurso | Kits de marca | (Beta) Defina uma marca no Journey Optimizer B2B edition para fornecer a fonte da verdade para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. |
 | Recurso | Marcas para geração de conteúdo de email | Você pode definir as diretrizes da marca e usar essas informações para gerar conteúdo de email. Com esse recurso, o conteúdo de email está alinhado às diretrizes de redação, estilos e tom específicos da sua marca. |
 | Aprimoramento | Jornada nó _Wait_ - configurações avançadas | Para um nó _Wait_ em uma jornada, agora é possível especificar dias e horários de saída e selecionar fusos horários. Esse aprimoramento oferece melhor controle sobre a orquestração de jornadas e o tempo de campanha. |
-| Aprimoramento | Membro do Filtro de Grupo de Compras - É Removido | Para um nó _dividido por pessoas_, o filtro _[!UICONTROL Membro do Grupo de Compras]_ agora inclui a restrição _É Removido_. Ao selecioná-lo, o filtro pode incluir o membro do grupo de compras removido ou excluí-lo. Também é compatível com as listas inteligentes do Marketo Engage, onde você pode usar essa nova restrição no filtro _[!UICONTROL Membro do grupo de compra]_. |
+| Aprimoramento | Filtro especial Membro do Grupo de Compras - É Removida a restrição | O filtro especial _[!UICONTROL Membro do Grupo de Compras]_ agora inclui a restrição _É Removido_. Ao adicionar essa restrição ao filtro, você pode incluir membros do grupo de compra removidos ou excluí-los. Também é compatível com as listas inteligentes do Marketo Engage, onde você pode usar essa nova restrição no filtro _[!UICONTROL Membro do grupo de compra]_. |
 | Aprimoramento | Design de email - marcadores de vários níveis | As ferramentas do espaço de design de conteúdo de email agora aceitam submarcadores (níveis de marcadores). |
 
 <!--

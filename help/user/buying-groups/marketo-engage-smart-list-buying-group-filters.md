@@ -4,9 +4,9 @@ description: Filtre leads comprando a associação de grupo nas Smart Lists do M
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ Como profissional de marketing, talvez você queira suprimir campanhas no Market
 * Este cliente em potencial faz parte de um grupo de compras?
 * O grupo de compras está completo e envolvido?
 
-Se essas condições forem verdadeiras, você pode optar por pontuar em primeiro lugar. Caso contrário, você pode optar por não marcá-lo como um lead qualificado de marketing (MQL).
+Se essas condições forem verdadeiras, você pode optar por pontuar o lead como maior. Caso contrário, você pode optar por não marcá-lo como um lead qualificado de marketing (MQL).
 
 Na instância do Marketo Engage que está conectada ao Journey Optimizer B2B edition, você pode usar o filtro _[!UICONTROL Membro do Grupo de Compra]_ nas Smart Lists para identificar esses clientes em potencial de acordo com a estratégia de campanha.
 
-1. Depois de [criar uma Smart List no Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selecione a guia **[!UICONTROL Smart List]** para abrir o editor de filtro.
+1. Depois de [criar uma Smart List no Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selecione a guia **[!UICONTROL Smart List]** para abrir o editor de filtro.
 
 1. Na lista de filtros à direita, role para baixo na lista e expanda a pasta **[!UICONTROL Filtros especiais]**.
 
@@ -50,7 +50,11 @@ Na instância do Marketo Engage que está conectada ao Journey Optimizer B2B edi
 
    * Selecione a restrição que deseja adicionar, como _Pontuação da integridade_ ou _Interesse na solução_.
 
-   * Defina a avaliação que deseja usar para uma correspondência. Para uma pontuação, você pode usar uma correspondência exata ou um intervalo que esteja acima ou abaixo do número inserido.
+   * Defina a avaliação que deseja usar para uma correspondência.
+
+     Para uma pontuação, você pode usar uma correspondência exata ou um intervalo que esteja acima ou abaixo do número inserido.
+
+     Para excluir membros que foram removidos de um grupo de compra, use a restrição _[!UICONTROL Is Removed]_ definida como `false`. Também é possível incluir explicitamente membros removidos na lista inteligente definindo essa restrição como `true`.
 
      Para um item discreto, como os interesses da solução definidos no Journey Optimizer B2B edition, é possível selecionar um ou mais itens para a lista.
 
