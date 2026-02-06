@@ -3,7 +3,7 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
+source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
 workflow-type: tm+mt
 source-wordcount: '4087'
 ht-degree: 86%
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -30,7 +30,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 
 ## Notas da versão 2026.1
 
-**Data de implantação**: terça-feira, 3 de fevereiro de 2025
+**Data de implantação**: quarta-feira, 3 de fevereiro de 2026
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
@@ -46,7 +46,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 
 >[!NOTE]
 >
->Estas alterações da versão começam a ser implantadas em terça-feira, 3 de fevereiro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Estas alterações da versão começam a ser implantadas em quarta-feira, 3 de fevereiro de 2026, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas da versão 2025.10
 
