@@ -141,7 +141,7 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
 1. Na caixa de diálogo, altere o valor de **[!UICONTROL Membros necessários]** para cada função definida, conforme necessário.
 
-   Você pode inserir o valor ou clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
+   Você pode inserir o valor ou clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
