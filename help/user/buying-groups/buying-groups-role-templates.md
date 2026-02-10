@@ -4,9 +4,9 @@ description: Crie modelos de função com atribuição automática condicional p
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1329'
 ht-degree: 5%
 
 ---
@@ -64,7 +64,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 | ---- | --------- |
 | Atributos da pessoa | <li>Endereço de email <li>Email inválido <li>Email suspenso <li>Número de fax <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Segundo nome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
 | Filtros especiais | <li>Membro da lista <li>Membro do programa |
-| Dados de intenção | Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave<br/>[Saiba mais sobre dados de intenção](../admin/intent-data.md). |
+| Dados de intenção | <li>Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave<br/>[Saiba mais sobre dados de intenção](../admin/intent-data.md) |
 
 1. Para o primeiro cartão de função, defina as propriedades da função.
 
@@ -115,6 +115,13 @@ No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de progr
 Para usar a associação de lista como uma condição de função, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Em seguida, conclua a definição do filtro para avaliar a associação em uma ou mais listas do Marketo Engage.
 
 ![Condição de modelo de funções para associação à lista de Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**Descontinuação de recursos**</br></br>
+>
+>Com a [arquitetura simplificada](../simplified-architecture.md) para o Journey Optimizer B2B edition, não há suporte para filtragem com base na lista ou associação de programa em uma instância do Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +133,7 @@ Por padrão, a integridade de uma função é definida como um membro atribuído
 
 Por exemplo, fechar um negócio para sua solução _X_ requer que vários tomadores de decisão de marketing sejam identificados e envolvidos, pois várias equipes de marketing em uma organização usariam a solução. Nesse caso, você deseja aumentar o limite para calcular um grupo de compras _concluído_ exigindo pelo menos dois tomadores de decisão de marketing.
 
-Consulte [Pontuações de integridade](./completeness-scores.md) para obter informações detalhadas sobre pontuação de integridade e cálculos.
+Consulte [Pontuações de completude](./completeness-scores.md) para obter informações detalhadas sobre pontuação e cálculos de completude.
 
 1. Na parte superior direita da página de modelo de funções, clique em **[!UICONTROL Configurações de pontuação de integridade]**.
 
@@ -134,7 +141,7 @@ Consulte [Pontuações de integridade](./completeness-scores.md) para obter info
 
 1. Na caixa de diálogo, altere o valor de **[!UICONTROL Membros necessários]** para cada função definida, conforme necessário.
 
-   Você pode inserir o valor ou clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
+   Você pode inserir o valor ou clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -182,4 +189,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
