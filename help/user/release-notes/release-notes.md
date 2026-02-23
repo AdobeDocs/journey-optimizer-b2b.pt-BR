@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fd8b811eb7f4568a92213e7873dc626f572ae519
+source-git-commit: 768820247354cf8eb3da23f118314317f3a1e93c
 workflow-type: tm+mt
-source-wordcount: '4434'
+source-wordcount: '4436'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -25,12 +25,12 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Campos XDM/esquemas relacionais - suporte para objetos personalizados de pessoa | (Beta) Agora, os administradores podem selecionar objetos personalizados relacionados a uma pessoa usando uma relação individualizada e de nível único com uma conta. Esse recurso permite que sua organização de marketing represente uma visualização mais avançada dos dados comerciais do mundo real para direcionar, personalizar e relatar entidades além do nível da pessoa ou da conta. [Saiba mais](../admin/xdm-field-management.md#relational-schemas) |
+| Recurso | Jornada reentrada | Agora você pode enviar contas/pessoas por meio de um fluxo de trabalho do jornada várias vezes. A reentrada aborda vários cenários, como a reavaliação de critérios de qualificação e fluxos de trabalho de criação reutilizáveis. [Saiba mais](../journeys/journey-re-entry.md) |
 | Recurso | Design de email - Suporte para Firefly e modelos personalizados de IA gerativa | Agora é possível habilitar a integração de modelos padrão e personalizados de Firefly, juntamente com modelos de imagem de terceiros aprovados (como NanoBanana). Os profissionais de marketing podem selecionar o melhor modelo para cada caso de uso: Firefly padrão para necessidades gerais, Firefly personalizado para geração na marca ou modelos aprovados de terceiros para cenários especializados ou experimentais. |
 | Aprimoramento | Design de email - validação da qualidade do conteúdo | Além do alinhamento da marca, você pode avaliar a qualidade geral do conteúdo para descobrir problemas em potencial com legibilidade, coesão e eficácia (independentemente das diretrizes da sua marca). Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. |
-| Aprimoramento | Jornada reentrada | Agora você pode enviar contas/pessoas por meio de um fluxo de trabalho do jornada várias vezes. A reentrada aborda vários cenários, como a reavaliação de critérios de qualificação e fluxos de trabalho de criação reutilizáveis. |
-| Aprimoramento | Ativar para destinos - Públicos-alvo reutilizáveis | Agora você pode reutilizar públicos virtuais em _Ações de jornada Ativar para destino_ na mesma jornada e remover contas de públicos virtuais. |
 | Aprimoramento | Jornadas de conta e pessoa - suporte para objetos personalizados de pessoa | (Beta) Aproveite os dados relacionais vinculados às contas para filtrar pessoas em uma jornada de conta ou pessoa. [Saiba mais](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Aprimoramento | (Beta) Personalização de conteúdo — suporte para objetos personalizados de pessoas | Ao definir a personalização de conteúdo usando os objetos personalizados, você pode acessar variáveis para os objetos personalizados da classe baseada em modelo (esquemas relacionais). [Saiba mais](../content/personalization.md#custom-datasets) |
+| Aprimoramento | Ativar para destinos - Públicos-alvo reutilizáveis | Agora você pode reutilizar públicos virtuais em _Ações de jornada Ativar para destino_ na mesma jornada e remover contas de públicos virtuais. |
 
 >[!NOTE]
 >
