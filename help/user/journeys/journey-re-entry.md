@@ -4,19 +4,19 @@ description: Controla quando e com que frequência as contas podem entrar novame
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # Jornada reentrada
 
 _Somente jornadas da conta_
 
-Quando você habilita a reentrada de uma jornada de conta, pode controlar quando e com que frequência uma conta pode entrar novamente na mesma jornada. Use as configurações de reentrada para definir critérios, limites e tempos de espera para que as contas sejam requalificadas de forma controlada.
+Quando você habilita a reentrada de uma jornada de conta, pode controlar quando e com que frequência uma conta pode entrar novamente na mesma jornada. Use as configurações de reentrada para definir critérios, limites e tempos de espera para que as contas se requalifiquem para a jornada de forma controlada.
 
 Uma conta pode se requalificar para uma jornada quando os seguintes itens forem verdadeiros:
 

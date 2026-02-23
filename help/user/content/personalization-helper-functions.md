@@ -6,9 +6,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4857'
+source-wordcount: '4853'
 ht-degree: 6%
 
 ---
@@ -19,7 +20,7 @@ Use as funções Auxiliar no editor de personalização para definir experiênci
 
 >[!AVAILABILITY]
 >
->As funções auxiliares estão disponíveis para ambientes B2B edition do Journey Otimizer que são provisionados na [arquitetura simplificada](../simplified-architecture.md).
+>As funções auxiliares estão disponíveis para ambientes [!DNL Journey Optimizer B2B Edition] que são provisionados na [arquitetura simplificada](../simplified-architecture.md).
 
 ## Funções de agregação
 
@@ -1979,7 +1980,7 @@ A operação a seguir verifica se o endereço residencial da pessoa existe.
 
 +++
 
-## Funções de string {#string-functions}
+## Funções de strings {#string-functions}
 
 Saiba como usar funções de string no editor de personalização.
 

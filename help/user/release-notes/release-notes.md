@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 768820247354cf8eb3da23f118314317f3a1e93c
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4436'
+source-wordcount: '4474'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros. 
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -24,12 +24,12 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Campos XDM/esquemas relacionais - suporte para objetos personalizados de pessoa | (Beta) Agora, os administradores podem selecionar objetos personalizados relacionados a uma pessoa usando uma relação individualizada e de nível único com uma conta. Esse recurso permite que sua organização de marketing represente uma visualização mais avançada dos dados comerciais do mundo real para direcionar, personalizar e relatar entidades além do nível da pessoa ou da conta. [Saiba mais](../admin/xdm-field-management.md#relational-schemas) |
-| Recurso | Jornada reentrada | Agora você pode enviar contas/pessoas por meio de um fluxo de trabalho do jornada várias vezes. A reentrada aborda vários cenários, como a reavaliação de critérios de qualificação e fluxos de trabalho de criação reutilizáveis. [Saiba mais](../journeys/journey-re-entry.md) |
+| Recurso | Campos XDM/esquemas relacionais - suporte para objetos personalizados de pessoa | [!BADGE Os administradores de arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} (Beta) agora podem selecionar objetos personalizados relacionados a uma pessoa usando uma relação individualizada e de nível único com uma conta. Esse recurso permite que sua organização de marketing represente uma visualização mais avançada dos dados comerciais do mundo real para direcionar, personalizar e relatar entidades além do nível da pessoa ou da conta. [Saiba mais](../admin/xdm-field-management.md#relational-schemas) |
+| Recurso | Jornada reentrada | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Agora é possível enviar contas/pessoas por meio de um fluxo de trabalho do jornada várias vezes. A reentrada aborda vários cenários, como a reavaliação de critérios de qualificação e fluxos de trabalho de criação reutilizáveis. [Saiba mais](../journeys/journey-re-entry.md) |
 | Recurso | Design de email - Suporte para Firefly e modelos personalizados de IA gerativa | Agora é possível habilitar a integração de modelos padrão e personalizados de Firefly, juntamente com modelos de imagem de terceiros aprovados (como NanoBanana). Os profissionais de marketing podem selecionar o melhor modelo para cada caso de uso: Firefly padrão para necessidades gerais, Firefly personalizado para geração na marca ou modelos aprovados de terceiros para cenários especializados ou experimentais. |
 | Aprimoramento | Design de email - validação da qualidade do conteúdo | Além do alinhamento da marca, você pode avaliar a qualidade geral do conteúdo para descobrir problemas em potencial com legibilidade, coesão e eficácia (independentemente das diretrizes da sua marca). Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. |
-| Aprimoramento | Jornadas de conta e pessoa - suporte para objetos personalizados de pessoa | (Beta) Aproveite os dados relacionais vinculados às contas para filtrar pessoas em uma jornada de conta ou pessoa. [Saiba mais](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| Aprimoramento | (Beta) Personalização de conteúdo — suporte para objetos personalizados de pessoas | Ao definir a personalização de conteúdo usando os objetos personalizados, você pode acessar variáveis para os objetos personalizados da classe baseada em modelo (esquemas relacionais). [Saiba mais](../content/personalization.md#custom-datasets) |
+| Aprimoramento | Jornadas de conta e pessoa - suporte para objetos personalizados de pessoa | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} (Beta) Aproveite os dados relacionais vinculados às contas para filtrar pessoas em uma jornada de conta ou pessoa. [Saiba mais](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Aprimoramento | (Beta) Personalização de conteúdo — suporte para objetos personalizados de pessoas | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Ao definir a personalização de conteúdo usando os objetos personalizados, você pode acessar variáveis para os objetos personalizados da classe baseada em modelo (esquemas relacionais). [Saiba mais](../content/personalization.md#custom-datasets) |
 | Aprimoramento | Ativar para destinos - Públicos-alvo reutilizáveis | Agora você pode reutilizar públicos virtuais em _Ações de jornada Ativar para destino_ na mesma jornada e remover contas de públicos virtuais. |
 
 >[!NOTE]
@@ -42,10 +42,10 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Kits de marca | (Beta) Defina uma marca no Journey Optimizer B2B edition para fornecer a fonte da verdade para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. |
-| Recurso | Marcas para geração de conteúdo de email | Você pode definir as diretrizes da marca e usar essas informações para gerar conteúdo de email. Com esse recurso, o conteúdo de email está alinhado às diretrizes de redação, estilos e tom específicos da sua marca. |
-| Aprimoramento | Jornada nó _Wait_ - configurações avançadas | Para um nó _Wait_ em uma jornada, agora é possível especificar dias e horários de saída e selecionar fusos horários. Esse aprimoramento oferece melhor controle sobre a orquestração de jornadas e o tempo de campanha. |
-| Aprimoramento | Filtro especial Membro do Grupo de Compras - É Removida a restrição | O filtro especial _[!UICONTROL Membro do Grupo de Compras]_ agora inclui a restrição _É Removido_. Ao adicionar essa restrição ao filtro, você pode incluir membros do grupo de compra removidos ou excluí-los. Também é compatível com as listas inteligentes do Marketo Engage, onde você pode usar essa nova restrição no filtro _[!UICONTROL Membro do grupo de compra]_. |
+| Recurso | Kits de marca | (Beta) Defina uma marca no Journey Optimizer B2B edition para fornecer a fonte da verdade para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. [Saiba mais](../content/brands-overview.md) |
+| Recurso | Marcas para geração de conteúdo de email | Você pode definir as diretrizes da marca e usar essas informações para gerar conteúdo de email. Com esse recurso, o conteúdo de email está alinhado às diretrizes de redação, estilos e tom específicos da sua marca. [Saiba mais](../content/ai-assistant-emails.md) |
+| Aprimoramento | Jornada nó _Wait_ - configurações avançadas | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível para arquitetura simplificada"} Para um nó _Wait_ em uma jornada, agora é possível especificar dias e horas de saída e selecionar fusos horários. Esse aprimoramento oferece melhor controle sobre a orquestração de jornadas e o tempo de campanha. [Saiba mais](../journeys/wait-nodes.md#advanced-wait-settings) |
+| Aprimoramento | Membro do Filtro de Grupo de Compras - É Removido | Para um nó _dividido por pessoas_, o filtro _[!UICONTROL Membro do Grupo de Compras]_ agora inclui a restrição _É Removido_. Ao selecioná-lo, o filtro pode incluir o membro do grupo de compras removido ou excluí-lo. Também é compatível com as listas inteligentes do Marketo Engage, onde você pode usar essa nova restrição no filtro _[!UICONTROL Membro do grupo de compra]_. |
 | Aprimoramento | Design de email - marcadores de vários níveis | As ferramentas do espaço de design de conteúdo de email agora aceitam submarcadores (níveis de marcadores). |
 
 <!--
