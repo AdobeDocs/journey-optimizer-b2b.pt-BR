@@ -4,10 +4,10 @@ description: Crie interesses de solução para produtos de destino, automatize a
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: e914d3a43c40bd6f4c60c7be0a9e91ff4e5838d1
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Antes de criar grupos de compra, você deve saber o que está vendendo e quem de
 
    Por padrão, a lista é classificada pela coluna _[!UICONTROL Última atualização]_. Clique no título da coluna no cabeçalho para alternar a classificação entre decrescente e crescente.
 
-   Insira texto na ferramenta _Search_ na parte superior da lista para filtrar a lista exibida por nome.
+   Insira texto na ferramenta de _pesquisa_ da parte superior da lista para filtrar a lista exibida por nome.
 
    ![Guia Interesse da solução](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
@@ -59,7 +59,7 @@ Antes de criar um interesse de solução, você deve ter um modelo de funções 
 
 1. Habilitar a configuração **[!UICONTROL Atualizar grupos de compra existentes]** (opcional).
 
-   Quando essa opção estiver habilitada, todos os grupos de compras existentes emparelhados com os interesses da solução serão atualizados por meio do ciclo de sincronização de 7 dias.
+   Quando essa opção está habilitada, todos os grupos de compras existentes combinados com os interesses da solução são atualizados por meio do ciclo de sincronização diário.
 
 1. Clique em **[!UICONTROL Criar]** no canto superior direito.
 
@@ -72,7 +72,7 @@ A qualquer momento, você pode alterar o nome e a descrição de um interesse de
 1. Na guia _[!UICONTROL Interesse da solução]_, use um dos métodos a seguir para abrir as propriedades do interesse da solução que deseja editar:
 
    * Clique no nome de interesse da solução.
-   * Clique nas reticências (**...**) ao lado dele e escolha **[!UICONTROL Editar]**.
+   * Clique nas reticências (**...**) ao lado dele, escolha **[!UICONTROL Editar]**.
 
    ![Menu Mais interesses da solução](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -86,7 +86,7 @@ A qualquer momento, você pode alterar o nome e a descrição de um interesse de
 
    * Altere a configuração **[!UICONTROL Atualizar grupos de compra existentes]**.
 
-     Quando essa opção estiver habilitada, todos os grupos de compras existentes emparelhados com os interesses da solução serão atualizados por meio do ciclo de sincronização de 7 dias.
+     Quando essa opção está habilitada, todos os grupos de compras existentes combinados com os interesses da solução são atualizados por meio do ciclo de sincronização diário.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -94,7 +94,7 @@ A qualquer momento, você pode alterar o nome e a descrição de um interesse de
 
 Qualquer interesse de solução que esteja atualmente em uso por qualquer trabalho de grupo de compra ou jornada de conta não pode ser excluído. Além disso, um interesse de solução excluído não pode ser recuperado.
 
-1. Na guia _[!UICONTROL Interesse da solução]_, clique nas reticências (**...**) ao lado do interesse da solução e escolha **[!UICONTROL Excluir]**.
+1. Na guia _[!UICONTROL Interesse na solução]_, clique nas reticências (**...**) ao lado do interesse da solução, escolha **[!UICONTROL Excluir]**.
 
    Essa ação abre uma caixa de diálogo de confirmação.
 
@@ -104,4 +104,4 @@ Qualquer interesse de solução que esteja atualmente em uso por qualquer trabal
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3450118/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
