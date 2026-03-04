@@ -5,9 +5,9 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2220'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas nas jornadas da conta para que seus clientes potenciais e clientes visualizem suas mensagens na Web, além de avançar nas jornadas da conta. Você pode criar, personalizar e visualizar páginas de aterrissagem no espaço de design visual da página de aterrissagem.
 
-Para direcionar seus clientes para uma página da Web definida quando clicarem em um link específico, crie uma página de aterrissagem no Journey Optimizer B2B edition.
+Para direcionar seus clientes para uma página da Web definida quando clicarem em um link específico, crie uma página de aterrissagem no Journey Optimizer B2B edition:
 
 * Criar a página
 * Projetar a página de aterrissagem e o conteúdo do autor
@@ -58,7 +58,7 @@ O status da landing page determina a disponibilidade para vinculação no conte�
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
+| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Editar no espaço de design visual<li>Publicar<li>Duplicar<li>Excluir |
 | Publicado | Ao publicar uma landing page, ela é hospedada na instância do Journey Optimizer B2B edition e fica disponível para vinculação em um conteúdo de mensagem de email ou SMS. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Criar versão de rascunho<li>Duplicar<li>Excluir |
 | Publicado com rascunho | Ao criar um rascunho de uma página de aterrissagem publicada, a versão publicada permanece e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado na página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (exclui ambas as versões)<li>Descartar rascunho (retorna ao status publicado) |
 
@@ -114,11 +114,11 @@ O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HT
 
 Você pode personalizar o conteúdo importado conforme necessário com o espaço de design visual.
 
-### Selecionar um modelo salvo
+### Selecione um modelo salvo ou de amostra
 
 Você pode escolher entre:
 
-* **Modelos de exemplo**. A interface do Journey Optimizer oferece uma coleção de templates de landing page prontos para uso que você pode escolher.
+* **Modelos de exemplo**. A interface do Journey Optimizer B2B edition oferece uma coleção de templates de landing page prontos para uso que você pode usar como ponto de partida para o design da landing page.
 
 * **Modelos salvos**. Use um modelo personalizado salvo criado por um membro de sua organização usando o menu _[!UICONTROL Modelos]_ <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
@@ -271,7 +271,7 @@ Dois tipos de alertas podem ser detectados:
 
 É possível duplicar uma landing page usando um dos seguintes métodos:
 
-* Na página de listagem _[!UICONTROL Página de aterrissagem]_, clique no ícone _Mais_ (**...**) ao lado do nome da página de aterrissagem e escolha **[!UICONTROL Duplicar]**.
+* Na página de listagem _[!UICONTROL Landing page]_, clique no ícone _Mais_ (**...**) ao lado do nome da página de aterrissagem, escolha **[!UICONTROL Duplicar]**.
 * Na parte superior direita da página de detalhes, clique em **[!UICONTROL ... Mais]** e escolha **[!UICONTROL Duplicar]**.
 
 ![Duplicar a página de aterrissagem](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -286,7 +286,7 @@ A página duplicada (nova) aparece na listagem _Landing pages_.
 
 É possível excluir uma landing page usando um dos seguintes métodos:
 
-* Na página de listagem _[!UICONTROL Página de aterrissagem]_, clique no ícone _Mais_ (**...**) ao lado do nome da página de aterrissagem e escolha **[!UICONTROL Excluir]**.
+* Na página de listagem _[!UICONTROL Landing page]_, clique no ícone _Mais_ (**...**) ao lado do nome da página de aterrissagem, escolha **[!UICONTROL Excluir]**.
 * Na parte superior direita da página de detalhes, clique em **[!UICONTROL ... Mais]** e escolha **[!UICONTROL Excluir]**.
 
 Essa ação abre uma caixa de diálogo de confirmação. Você pode anular o processo clicando em **[!UICONTROL Cancelar]** ou em **[!UICONTROL Excluir]** para confirmar a exclusão.

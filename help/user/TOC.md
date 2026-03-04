@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 78%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 78%
    + [Habilitar o acesso ao Assistente de IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Orientação para perguntas](./ai-assistant/question-guidance.md)
    + [Usar o Assistente de IA](./ai-assistant/use-ai-assistant.md)
+   + [IA gerativa para conteúdo](./ai-assistant/generative-ai-content.md)
    + Agentes {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Agente de Compilação do Jornada B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 78%
    + Páginas de destino (beta) {#landing-pages}
       + [Visão geral](./content/landing-pages.md)
       + [Design da página de destino](./content/landing-page-design.md)
+      + [Assistente de IA para conteúdo de página de destino](./content/ai-assistant-landing-pages.md)
    + Ferramentas de design de conteúdo {#content-design}
       + [Componentes da estrutura](./content/structure-components.md)
       + [Componentes do conteúdo](./content/content-components.md)
@@ -151,7 +153,7 @@ ht-degree: 78%
       + [Configurações do canal da Web (Beta)](./admin/configure-channels-web.md)
       + [Configurações da página de aterrissagem (Beta)](./admin/landing-page-settings.md)
       + [Configurar sequências de dados para a coleção de eventos](./data/aep-event-collection.md)
-   + Configurações  {#configurations}
+   + Configurações {#configurations}
       + [Repositórios do AEM Assets](./admin/configure-aem-repositories.md)
       + [Dados de intenção](./admin/intent-data.md)
       + [Ponderação da pontuação de engajamento](./admin/engagement-score-weighting.md)

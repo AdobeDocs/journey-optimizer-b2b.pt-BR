@@ -5,10 +5,10 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 5%
+source-wordcount: '1314'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma
 
 >[!IMPORTANT]
 >
->É necessário um contrato com as [diretrizes de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para que você possa usar o Assistente de IA no Journey Optimizer B2B edition. Este contrato também contém o contrato público beta para que você possa usar os recursos adicionais do Assistente de IA à medida que forem implantados na capacidade beta.
+>É necessário um contrato com as [diretrizes de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar o Assistente de IA no Journey Optimizer B2B edition. Este contrato também contém o contrato público beta para que você possa usar os recursos adicionais do Assistente de IA à medida que forem implantados na capacidade beta.
 
 +++Exibir a interface do contrato do usuário
 
@@ -30,7 +30,7 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma
 
 ## Recursos do Assistente de IA no Journey Optimizer B2B edition
 
-Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Essa resposta é uma representação interna de dados subjacentes e também é conhecida como _&#x200B;**_Gráfico de Conhecimento_**&#x200B;_ — uma Web abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
+Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Essa resposta é uma representação interna de dados subjacentes e também é conhecida como _**_Gráfico de Conhecimento_**_ — uma Web abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
 
 * Documentação do Experience League.
 * Artefatos operacionais, como esquemas, campos, públicos e jornadas.
@@ -66,7 +66,7 @@ Você pode fazer perguntas ao Assistente de IA sobre seus insights operacionais 
 | Destinos | <li>Contagens de destino configuradas <li>Relação destino - público <li>Relação de atributo de destino | <li>Configuração de conta <li>Informações de credencial da conta <li>Perfis únicos ativados |
 | Jornadas (Jornadas de conta) | <li>Contagem <li>Pesquisa de nome e ID <li>Status da jornada <li>Datas de criação/modificação | <li>Atributos - Auditoria de relacionamentos de jornada <li>Criação/modificação <li>Criado por |
 | Esquemas | <li>Contagens de esquema <li>Data de criação/modificação <li>Esquema - Relação de atributo <li>Relação esquema - conjunto de dados <li>Esquema - relacionamento de público <li>Status de habilitação do perfil <li>Pesquisa de nome <li>Pesquisa de nome e ID | <li>Auditoria <li>Criação/modificação <li>Criado por <li>Grupos de campos <li>Identidades <li>Namespaces de identidade <li>Rótulos <li>Número de perfis |
-| Origens | <li>Contagens de conta <li>Status da conta <li>Fluxos de dados ativos/inativos para cada conta <li>Source connector - relação de fluxo de dados <li>Relação conta Source - fluxo de dados | <li>Informações de credenciais da conta <li>Métricas de assimilação de dados de configuração de conta <li>Número de perfisOrigem - relacionamentos em lotes |
+| Fontes | <li>Contagens de conta <li>Status da conta <li>Fluxos de dados ativos/inativos para cada conta <li>Source connector - relação de fluxo de dados <li>Relação conta Source - fluxo de dados | <li>Informações de credenciais da conta <li>Métricas de assimilação de dados de configuração de conta <li>Número de perfisOrigem - relacionamentos em lotes |
 | Modelo do grupo de compra | <li>Contagens <li>Status <li>Funções <li>Pesquisa de nome e ID | <li>Regras de função |
 | Interesse da solução | <li>Contagens <li>Status <li>Interesse da solução - Relacionamento do modelo do grupo de compra <li>Pesquisa de nome e ID | <li>Interesse da solução - Relacionamento do grupo de compra |
 
@@ -92,7 +92,7 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado com privacidade, 
 
 * Você deve ter permissão explícita para interagir com o Assistente de IA.
 
-   * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * As permissões são granulares e o administrador da sandbox pode configurar quais usuários podem fazer diferentes categorias de perguntas (perguntas baseadas em conhecimento do produto com o Assistente de IA ou perguntas sobre insights operacionais).
 
