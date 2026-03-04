@@ -30,7 +30,7 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma
 
 ## Recursos do Assistente de IA no Journey Optimizer B2B edition
 
-Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Essa resposta é uma representação interna de dados subjacentes e também é conhecida como _**_Gráfico de Conhecimento_**_ — uma Web abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
+Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Essa resposta é uma representação interna de dados subjacentes e também é conhecida como _&#x200B;**_Gráfico de Conhecimento_**&#x200B;_ — uma Web abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
 
 * Documentação do Experience League.
 * Artefatos operacionais, como esquemas, campos, públicos e jornadas.
