@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Reutilização, Alinhamento da marca, Design de email
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3107'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,11 @@ Selecione a guia **[!UICONTROL Cores]** e use as configurações para definir a 
 
   Clique na seta _Voltar_ para fechar as ferramentas da paleta de cores.
 
-* Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores, como o modo _light_ e _dark_, em que cada variante tem sua própria paleta de cores e controles de nuance. Você pode ter até seis variantes.
+* Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores, como o modo _light_ e _dark_, em que cada variante tem sua própria paleta de cores e controles de nuance.
+
+  >[!NOTE]
+  >
+  >Para cada tema de marca, é possível definir até quatro variantes.
 
   Para cada variante, clique no ícone _Editar_ ( ![Editar ícone](../assets/do-not-localize/icon-edit.svg) ). É possível usar a paleta padrão ou qualquer cor personalizada.
 
@@ -286,7 +290,7 @@ Se você tiver uma grande lista de temas personalizados, use o campo _Pesquisar_
 
 ### Excluir ou duplicar um tema
 
-Ao localizar o tema, clique no ícone do menu _Mais_ (**...**) no canto inferior direito do cartão de tema e escolha a ação que deseja realizar:
+Ao localizar o tema, clique no menu _Mais_ (**...**) ícone na parte inferior direita do cartão de tema e escolha a ação que deseja realizar:
 
 ![Editar um tema - selecione um tema personalizado para editar](./assets/email-theme-edit-more-menu.png){width="220"}
 
