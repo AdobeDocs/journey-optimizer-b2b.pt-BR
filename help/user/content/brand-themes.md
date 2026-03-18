@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de email, Reutilização, Alinhamento da marca, Design de email
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
+source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Defina o tema da sua própria marca que poderá ser aplicado ao conteúdo do seu
 
 1. Clique em **[!UICONTROL Fechar]** para retornar à página _[!UICONTROL Criar um tema]_ e em **[!UICONTROL Cancelar]** para retornar à página de design.
 
-   Você pode então escolher **[!UICONTROL Criar do zero]** para abrir o espaço de design visual e [usar o tema](#use-your-theme-for-email-content-authoring) para o email ou modelo.
+   Você pode então escolher **[!UICONTROL Criar do zero]** para abrir o espaço de design visual e [usar o tema](#use-email-theme) para o email ou modelo.
 
 ### Configurações gerais
 
@@ -152,7 +152,7 @@ Na guia **[!UICONTROL Configurações de texto]**, é possível definir os tipos
 | ---- | -------- | ----------- |
 | [!UICONTROL Global] | ![Selecionar biblioteca para as configurações globais de texto](./assets/email-theme-text-settings-global-library.png){width="300"} | Defina a **[!UICONTROL Biblioteca de fontes]** como _[!UICONTROL Padrão]_ ou _[!UICONTROL Fontes do Google]_. Em seguida, escolha a família de fontes que deseja usar. Essas configurações de texto global são aplicadas em todo o, a menos que você defina estilos de texto diferentes para os níveis de cabeçalho e tipos de parágrafo. |
 | [!UICONTROL Títulos] | ![Estilos de texto de cabeçalho para H1](./assets/email-theme-text-settings-headings.png){width="300"} | Para o nível de cabeçalho que você deseja definir, selecione **[!UICONTROL H1]**, **[!UICONTROL H2]** e assim por diante. Defina a **[!UICONTROL Biblioteca de fontes]** como _[!UICONTROL Padrão]_ ou _[!UICONTROL Fontes do Google]_. Em seguida, escolha a família, o tamanho e o estilo da fonte. Escolha o **[!UICONTROL Alinhamento do texto]**: _Esquerda_, _Centralizada_, _Direita_ ou _Justificada_. |
-| [!UICONTROL Parágrafos] | ![Estilos de texto de parágrafo para o tipo P1](./assets/email-theme-text-settings-headings.png){width="300"} | Para o nível de cabeçalho que você deseja definir, selecione **[!UICONTROL P1]**, **[!UICONTROL HP]** e assim por diante. Defina a **[!UICONTROL Biblioteca de fontes]** como _[!UICONTROL Padrão]_ ou _[!UICONTROL Fontes do Google]_. Em seguida, escolha a família, o tamanho e o estilo da fonte. Ajuste a **[!UICONTROL Altura da linha]** conforme necessário. Escolha o **[!UICONTROL Alinhamento do texto]**: _Esquerda_, _Centralizada_, _Direita_ ou _Justificada_. |
+| [!UICONTROL Parágrafos] | ![Estilos de texto de parágrafo para o tipo P1](./assets/email-theme-text-settings-paragraphs.png){width="300"} | Para o tipo de parágrafo que você deseja definir, selecione **[!UICONTROL P1]**, **[!UICONTROL P2]** e assim por diante. Defina a **[!UICONTROL Biblioteca de fontes]** como _[!UICONTROL Padrão]_ ou _[!UICONTROL Fontes do Google]_. Em seguida, escolha a família, o tamanho e o estilo da fonte. Ajuste a **[!UICONTROL Altura da linha]** conforme necessário. Escolha o **[!UICONTROL Alinhamento do texto]**: _Esquerda_, _Centralizada_, _Direita_ ou _Justificada_. |
 
 +++
 
@@ -167,7 +167,7 @@ Na guia **[!UICONTROL Espaçamento]**, é possível definir o preenchimento e a 
 | Tipo | Configurações | Descrição |
 | ---- | -------- | ----------- |
 | [!UICONTROL Margens] | ![Configurações de margem](./assets/email-theme-spacing-settings-margins.png){width="300"} | Escolha o ícone _Margem_ para exibir configurações que replicam o parâmetro CSS `margin`, que controla o espaço fora da borda de um componente e o separa de outros componentes/elementos. Ele cria uma lacuna ao redor do componente para influenciar seu posicionamento e o layout do conteúdo ao redor. Defina os valores de margem em pixels de acordo com suas necessidades de design. É possível definir a margem de todos os lados, de cima para baixo, da esquerda para a direita ou de cada lado do componente separadamente. Clique nos ícones _Bloquear_ e _Desbloquear_ para sincronizar ou dessincronizar os valores das margens superior, inferior e esquerda, direita. |
-| [!UICONTROL Preenchimentos] | ![Configurações de preenchimento](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Escolha o ícone _Preenchimento_ para exibir configurações que replicam o parâmetro CSS `padding`, que é o espaço entre o conteúdo de um componente/elemento e sua borda. O preenchimento fornece espaçamento interno que pode ser usado para controlar a distância entre o conteúdo e a borda do componente. Defina os valores de preenchimento em pixels de acordo com suas necessidades de design. É possível definir o preenchimento de todos os lados, do botão superior, da esquerda para a direita ou de cada lado do componente separadamente. Clique nos ícones _Bloquear_ e _Desbloquear_ para sincronizar ou dessincronizar os valores de preenchimento superior-inferior e esquerdo-direito. |
+| [!UICONTROL Preenchimentos] | ![Configurações de preenchimento](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Escolha o ícone _Preenchimento_ para exibir configurações que replicam o parâmetro CSS `padding`, que é o espaço entre o conteúdo de um componente/elemento e sua borda. O preenchimento fornece espaçamento interno que pode ser usado para controlar a distância entre o conteúdo e a borda do componente. Defina os valores de preenchimento em pixels de acordo com suas necessidades de design. É possível definir o preenchimento de todos os lados, de cima para baixo, da esquerda para a direita ou de cada lado do componente separadamente. Clique nos ícones _Bloquear_ e _Desbloquear_ para sincronizar ou dessincronizar os valores de preenchimento superior-inferior e esquerdo-direito. |
 | [!UICONTROL Cantos] | ![Configurações de canto](./assets/email-theme-spacing-settings-corners.png){width="300"} | Escolha o ícone _Cantos_ para exibir configurações que replicam o parâmetro CSS `border-radius`, que define o raio dos cantos do componente/elemento. Defina o valor numérico de acordo com a curva desejada para os cantos. Um valor de 0 (padrão) produz um canto quadrado. |
 
 +++
@@ -212,7 +212,7 @@ Na guia **[!UICONTROL Divider]**, é possível definir o estilo da linha e as co
 
 | Tipo | Configurações | Descrição |
 | ---- | -------- | ----------- |
-| [!UICONTROL Linha] | ![Configurações de linha do divisor](./assets/email-theme-divider-settings-line.png){width="300"} | Defina o **[!UICONTROL Estilo da borda]** escolhendo um valor na lista de valores CSS `border-style` padrão, como _Sólido_, _Pontilhado_ e _Tracejado_. |
+| [!UICONTROL Linha] | ![Configurações de linha de divisão](./assets/email-theme-divider-settings-line.png){width="300"} | Defina o **[!UICONTROL Estilo da borda]** escolhendo um valor na lista de valores CSS `border-style` padrão, como _Sólido_, _Pontilhado_ e _Tracejado_. |
 | [!UICONTROL Tamanho do contêiner] | ![Configurações de tamanho do contêiner de divisão](./assets/email-theme-divider-settings-container-size.png){width="300"} | Para a opção **[!UICONTROL Altura]**, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels do componente/elemento. Um valor vazio (Automático) é o padrão e dimensiona a altura de acordo com seu conteúdo (estilo de linha). Para a **[!UICONTROL Largura]**, use o botão de alternância para definir a largura por pixels ou porcentagem. Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina a largura do elemento com base na caixa de conteúdo do bloco. Por exemplo, um valor de 50 define a largura do divisor como 50% da largura do conteúdo do bloco. Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (_Auto_) é o padrão e dimensiona a largura do divisor de acordo com seu conteúdo. |
 | [!UICONTROL Alinhamento] | ![Configurações de alinhamento do divisor](./assets/email-theme-divider-settings-alignment.png){width="300"} | Escolha o alinhamento horizontal dentro do bloco contêiner: _Esquerda_, _Centralizada_ ou _Direita_. |
 
