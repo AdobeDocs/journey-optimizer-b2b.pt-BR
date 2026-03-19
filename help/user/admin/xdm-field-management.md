@@ -5,10 +5,10 @@ feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Este recurso está atualmente em uma versão beta limitada na arquitetura simplificada"
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
+source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 1%
+source-wordcount: '1230'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Os campos do Experience Data Model (XDM) são elementos de esquema que fornecem 
 
 Os esquemas definem campos com base em classes XDM padrão. As classes XDM padrão incluem Perfil individual, Conta comercial e Evento de experiência. Os esquemas relacionais também definem campos que permitem modelar dados estruturados de forma semelhante aos bancos de dados relacionais tradicionais.
 
-Os esquemas do Adobe Experience Platform (AEP) normalmente contêm muitos campos em hierarquias complexas. Percorrer árvores de esquema XDM leva tempo. O gerenciamento de campo XDM simplifica a seleção de campos ao exibir apenas os campos relevantes para cada jornada. Os administradores controlam quais campos aparecem para os criadores de jornadas. Os administradores também definem os campos como somente leitura ou editáveis. Essas ações melhoram a eficiência durante o design da jornada.
+Os esquemas do Adobe Experience Platform (AEP) normalmente contêm muitos campos em hierarquias complexas. Percorrer árvores de esquema XDM leva tempo. O gerenciamento de campo XDM simplifica a seleção de campos exibindo apenas os campos relevantes para suas jornadas, grupos de compra e personalização.  Os administradores ativam esses campos para uso no Journey Optimizer B2B edition, incluindo os que são somente leitura ou editáveis.
 
 Os administradores que entendem o XDM e colaboram com engenheiros de dados ou participantes da modelagem de dados da CDP (plataforma de dados de clientes B2B) devem usar as etapas a seguir para configurar as classes XDM para [!DNL Journey Optimizer B2B Edition].
 
@@ -90,7 +90,9 @@ Quando você escolhe **[!UICONTROL Campos gerenciados]**, a caixa de diálogo _S
 
 #### Campos atualizáveis
 
-Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
+Defina os campos atualizáveis para escolher quais campos podem ser modificados por meio das ações de jornada **[!UICONTROL Atualizar Perfil da Conta]** ou **[!UICONTROL Atualizar Perfil da Pessoa]**.
+
+Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
 
 >[!IMPORTANT]
 >
@@ -117,7 +119,7 @@ Para obter informações sobre como usar os campos selecionados para personaliza
 
 >[!AVAILABILITY]
 >
->Os [Esquemas relacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. O Data Mirror e esquemas relacionais estão disponíveis para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licença. Os esquemas relacionais também estão disponíveis como uma versão limitada para [!DNL Customer Journey Analytics] usuários, dependendo da sua licença e habilitação de recursos. Entre em contato com o representante da Adobe para obter acesso.
+>Os [Esquemas relacionais](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. O Data Mirror e esquemas relacionais estão disponíveis para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licença. Os esquemas relacionais também estão disponíveis como uma versão limitada para [!DNL Customer Journey Analytics] usuários, dependendo da sua licença e habilitação de recursos. Entre em contato com o representante da Adobe para obter acesso.
 
 >[!NOTE]
 >
@@ -125,14 +127,20 @@ Para obter informações sobre como usar os campos selecionados para personaliza
 
 Você pode criar esquemas relacionais usando o editor de esquemas (vá para **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Esquemas]** na navegação à esquerda).
 
+>[!BEGINSHADEBOX]
+
+**Requisitos do esquema**
+
 Ao criar um esquema para uso com [!DNL Journey Optimizer B2B Edition], os seguintes valores de configuração são obrigatórios:
 
 * Comportamento: Registro
 * Segmentação: ativada
 * Tipo de relacionamento: muitos para um
-* Esquema de referência: Conta B2B
+* Esquema de referência: [Conta B2B](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 * Campos obrigatórios: chave primária, chave estrangeira e descritor de versão
 * Conjunto de dados associado: definido e mapeado para o esquema
+
+>[!ENDSHADEBOX]
 
 Para selecionar campos de esquema relacional a serem usados em [!DNL Journey Optimizer B2B Edition]:
 

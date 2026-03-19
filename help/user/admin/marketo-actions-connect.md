@@ -1,21 +1,25 @@
 ---
 title: Ativar o Marketo Engage para oferecer suporte a ações de Jornada
 description: Ative as conexões do Marketo Engage para oferecer suporte a ações do jornada, para que os profissionais de marketing possam coordenar campanhas entre o Marketo Engage e o Journey Optimizer B2B edition.
-feature: Integrations, Audiences, Buying Groups
-role: User, Admin
+feature: Setup, Integrations
+role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
-source-git-commit: cd11d96c80a8015fedd82d2c4db12e559da37f2c
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 6%
 
 ---
 
-# Ativar instâncias do Marketo Engage para dar suporte a ações
+# Ativar conexões do Marketo Engage para ações de suporte
 
 As ações do Marketo Engage são ações _com base em pessoas_ que permitem coordenar sua orquestração de marketing _com base em conta_ entre o Journey Optimizer B2B edition e seus esforços de marketing _com base em clientes potenciais_ no Marketo Engage. Use essas ações para orquestrar a associação de listas estáticas e colocar pessoas em campanhas.
 
-Para usar as ações de jornada do Marketo Engage, um administrador cria primeiro um [serviço personalizado](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} no Marketo Engage, que fornece as credenciais necessárias para autenticação. Em seguida, um administrador de produto do Journey Optimizer B2B edition usa as credenciais para criar uma conexão com o Marketo Engage. Os usuários do Journey Optimizer B2B edition podem fazer referência à conexão para configurar ações do Marketo Engage em <!-- person and -->jornadas de conta, como adicionar ou remover pessoas de listas do Marketo Engage ou adicioná-las a campanhas de solicitação.
+Para usar as ações de jornada do Marketo Engage, um administrador cria primeiro um [serviço personalizado](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} no Marketo Engage, que fornece as credenciais necessárias para autenticação. Em seguida, um administrador de produto do Journey Optimizer B2B edition usa as credenciais para criar uma conexão com o Marketo Engage. Os usuários do Journey Optimizer B2B edition podem fazer referência à conexão para configurar as ações do Marketo Engage nas jornadas da conta <!-- person and -->:
+
+* [!UICONTROL Adicionar à lista do Marketo]
+* [!UICONTROL Remover da lista do Marketo]
+* [!UICONTROL Adicionar à campanha de solicitação do Marketo]
 
 ## Configurar uma conexão do Marketo Engage {#external-marketo-configure}
 
@@ -28,14 +32,14 @@ Conclua as tarefas a seguir para configurar uma instância externa do Marketo En
 
 ### Criar o serviço personalizado do Marketo Engage
 
-1. Faça logon no Marketo Engage como administrador e [crie um serviço personalizado](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Faça logon no Marketo Engage como administrador e [crie um serviço personalizado](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Copie os seguintes valores para usar na conexão do Journey Optimizer B2B edition:
 
    * ID do Munchkin
    * ID do cliente
    * Segredo do cliente
 
-A visibilidade do espaço de trabalho do Marketo Engage para ativos, como listas e campanhas, é regida pelas [permissões de função atribuídas no serviço personalizado](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Os profissionais de marketing podem usar a mesma conexão várias vezes em uma jornada e usar diferentes conexões do Marketo Engage na mesma jornada.
+A visibilidade do espaço de trabalho do Marketo Engage para ativos, como listas e campanhas, é regida pelas [permissões de função atribuídas no serviço personalizado](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Os profissionais de marketing podem usar a mesma conexão várias vezes em uma jornada e usar diferentes conexões do Marketo Engage na mesma jornada.
 
 ### Adicionar a integração
 

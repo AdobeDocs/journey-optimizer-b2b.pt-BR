@@ -3,14 +3,12 @@ title: Configuração da landing page
 description: Configure subdomínios de página de aterrissagem, configurações de preenchimento prévio de formulário e sequências de dados para ativar a publicação de páginas da Web do Campaign no Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 31%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -31,7 +29,7 @@ Para revisar a configuração da página de aterrissagem, vá para **[!UICONTROL
 >title="String de conta das páginas de destino"
 >abstract="A string da conta identifica a instância do Adobe Journey Optimizer B2B Edition que hospeda as páginas de destino."
 
-A cadeia de caracteres da conta identifica a instância do Adobe Journey Optimizer B2B edition que hospeda as páginas de aterrissagem. Certifique-se de que a equipe de Sistemas adicione e configure a entrada de DNS.
+A string da conta identifica a instância do Adobe Journey Optimizer B2B Edition que hospeda as páginas de destino. Certifique-se de que a equipe de Sistemas adicione e configure a entrada de DNS.
 
 ### Preenchimento prévio do formulário {#form-prefill}
 
@@ -71,7 +69,7 @@ Defina a opção **[!UICONTROL Datastream]** para configurar uma sequência de d
 Um subdomínio de página de aterrissagem deve ajudar a identificar o tipo de conteúdo, o nome do produto ou a campanha e reforçar a autenticidade da página. Antes de configurar os subdomínios, defina um ou mais CNAMEs para usar nas landing pages. Por exemplo:
 
 * **produto**.[DomínioDaEmpresa].com
-* **vá**.[DomínioDaEmpresa].com
+* **ir**.[DomínioDaEmpresa].com
 * **inscrição**.[DomínioDaEmpresa].com
 
 Nesses exemplos, a primeira parte (em negrito) é o `LandingPageCNAME`.

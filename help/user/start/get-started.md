@@ -1,67 +1,37 @@
 ---
 title: Orientação sobre a integração de administradores e profissionais de marketing
 description: 'Guia de integração para administradores e profissionais de marketing: configure sandboxes, canais, crie grupos de compra e projete jornadas de conta no Journey Optimizer B2B Edition.'
-role: Admin, User
+role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 632530569c6247ffbd453578fc8561d17d500283
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 93%
+source-wordcount: '393'
+ht-degree: 72%
 
 ---
 
-# Orientação sobre integração
+# Orientação de integração do usuário
 
 Os recursos e ferramentas que você pode usar no Adobe Journey Optimizer B2B Edition dependem da sua função na equipe. Com base na sua organização, os administradores podem definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das suas permissões.
+
+Depois que um administrador concluir as [tarefas de instalação](../simplified-architecture.md), use essas informações para integração de usuários gerais.
 
 >[!TIP]
 >
 >Verifique também seus direitos de licença e a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondente sobre proteções de desempenho e limitações estáticas.
 
->[!BEGINTABS]
-
->[!TAB Administrador]
-
-Antes que sua equipe possa começar a usar os recursos do Adobe Journey Optimizer B2B Edition, várias etapas são necessárias para preparar seu ambiente. Siga estas etapas para que o engenheiro de dados e o profissional de marketing possam começar a trabalhar com o Adobe Journey Optimizer B2B Edition.
-
-Como administrador do sistema, você precisa entender os perfis de produtos e atribuir permissões para administração da sandbox e configuração de canais. Você também precisa configurar sandboxes e gerenciá-las para os perfis de produto disponíveis. Você pode atribuir membros da equipe aos perfis de produto. Os administradores de produto com acesso ao Adobe Admin Console podem gerenciar esses recursos. [Saiba mais sobre o Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).
-
-Saiba mais sobre o gerenciamento de acesso nas seguintes páginas:
-
-1. **Criar sandboxes** para particionar suas instâncias em ambientes virtuais separados e isolados. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
-
-1. **Colabore com o seu engenheiro de dados** para planejar e implementar a ativação do seu perfil e público-alvo B2B. Confira os blueprints publicados e siga as diretrizes de acordo com as suas necessidades. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
-
-1. **Planeje e implemente as integrações do Marketo Engage** para incorporar o esquema personalizado, a assimilação de perfis e contas e a orquestração de jornadas personalizadas para grupos de compras. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
-
-1. **Configure o perfil de produto**. Um perfil de produto é um conjunto de direitos unitários na Adobe Experience Platform que permite aos usuários acessar determinadas funcionalidades ou objetos na interface. [Saiba mais](../admin/user-management.md#create-the-marketo-engage-product-profile)
-
-1. **Configure permissões de usuário** para perfis de produtos, incluindo sandboxes, e dê acesso aos membros da sua equipe atribuindo-os a diferentes perfis de produtos. Esta tarefa é executada no Admin Console. [Saiba mais](../admin/user-management.md#create-a-user-group)
-
-1. **Configure classes e campos XDM** para controlar os dados disponíveis para a orquestração de jornadas e personalização de conteúdo do Journey Optimizer B2B edition. [Saiba mais](../admin/xdm-field-management.md)
-
-1. **Configure a entrega de email** no Marketo Engage, o que permite que sua equipe envie conteúdo de email de jornadas de conta. [Saiba mais](../admin/configure-channels-emails.md){target="_blank"}
-
-1. **Configure serviços de SMS**. Configure um dos provedores de SMS terceirizados com suporte que oferecem serviços de mensagens de texto de forma independente e configure as credenciais da conta no Adobe Journey Optimizer B2B Edition. [Saiba mais](../admin/configure-channels-sms.md)
-
-1. **Configure e habilite o uso do Adobe Experience Manager Assets** para equipes que usam o Assets as a Cloud Service para o gerenciamento centralizado de ativos digitais. [Saiba mais](../admin/configure-aem-repositories.md)
-
-1. **Configure definições de eventos de experiência da Adobe Experience Platform (AEP)** para equipes responsáveis por criar jornadas de conta que acompanham eventos de experiência da AEP. [Saiba mais](../admin/configure-aep-events.md)
-
->[!TAB Profissional de marketing]
-
 Como profissional de marketing ou _Profissional de jornada de contas_, você é responsável por criar jornadas e criar conteúdo. Você pode começar a trabalhar com o Adobe Journey Optimizer B2B Edition depois que o administrador do sistema e o engenheiro de dados prepararem seu ambiente e concederem acesso.
 
 Consulte as seções a seguir para configurar sua primeira jornada, adicionar ativos e enviar conteúdo:
 
-1. **Adicione públicos-alvos das contas**. O Journey Optimizer B2B Edition permite criar públicos-alvos das contas por meio de definições de segmentos diretamente do aplicativo e utilizá-los em suas jornadas de conta. [Saiba mais](../audiences/account-audience-overview.md)
+1. **Adicione públicos-alvos das contas**. O Journey Optimizer B2B edition permite criar públicos-alvo de conta por meio de definições de segmento diretamente do aplicativo e aproveitá-los nas jornadas de conta. [Saiba mais](../audiences/account-audience-overview.md)
 
-1. **Crie grupos de compra**. Defina os principais componentes para atingir suas metas e objetivos comerciais e crie grupos de compras que identifiquem os membros para suas listas de contas de destino. [Saiba mais](../buying-groups/buying-groups-overview.md)
+1. **Crie grupos de compra**. Defina os componentes-chave para atender às suas metas e objetivos de negócios e crie grupos de compras que identifiquem os membros das listas de contas de destino. [Saiba mais](../buying-groups/buying-groups-overview.md)
 
 1. **Criar e gerenciar ativos**. O Adobe Experience Manager Assets fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens. [Saiba mais](../content/assets-overview.md)
 
-1. **Adicione modelos de email personalizados e dinâmicos**. Aproveite a personalização e os recursos de conteúdo dinâmico do Journey Optimizer B2B Edition para adaptar sua mensagem ao seu público-alvo. [Saiba mais](../content/email-templates.md)
+1. **Adicione modelos de email personalizados e dinâmicos**. Aproveite a personalização do Journey Optimizer B2B edition e os recursos de conteúdo dinâmico para adaptar sua mensagem ao seu público-alvo. [Saiba mais](../content/email-templates.md)
 
 1. **Crie jornadas de conta para oferecer experiências personalizadas e contextuais**. O Journey Optimizer B2B Edition permite criar casos de uso de orquestração em tempo real com dados contextuais armazenados em eventos ou fontes de dados. Crie cenários avançados de várias etapas com os seguintes recursos:
 
@@ -73,6 +43,4 @@ Consulte as seções a seguir para configurar sua primeira jornada, adicionar at
 
    * No mapa da jornada, crie casos de uso em várias etapas, adicione condições e envie mensagens personalizadas.
 
-[Saiba mais](../journeys/journeys-overview.md)
-
->[!ENDTABS]
+   [Saiba mais](../journeys/journeys-overview.md)

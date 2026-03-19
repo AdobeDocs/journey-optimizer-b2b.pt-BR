@@ -1,22 +1,22 @@
 ---
-title: Gerenciamento de usuários
+title: Acesso e permissões do usuário
 description: Gerenciar o acesso do usuário com o Experience Cloud Admin Console - crie grupos de usuários, atribua perfis de produtos e configure permissões com base em funções para o Journey Optimizer B2B edition.
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: de509c4c3678fa55584dda4b6d23035de7641c91
+source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2135'
 ht-degree: 2%
 
 ---
 
-# Gerenciamento de usuários
+# Acesso e permissões do usuário
 
 Após a conclusão do provisionamento e a vinculação das sandboxes, conclua as etapas a seguir para fornecer acesso ao Adobe Journey Optimizer B2B edition para sua equipe e usuários.
 
-1. [Crie um perfil de produto do Marketo Engage](#marketo-engage-profile) no Admin Console (somente nova instância do Marketo Engage).
-1. [Criar um grupo de usuários](#create-user-group) na Admin Console.
+1. [Crie um perfil de produto do Marketo Engage](#create-the-marketo-engage-product-profile) no Admin Console (somente nova instância do Marketo Engage).
+1. [Adicionar um grupo de usuários](#add-a-user-group-for-the-profile) na Admin Console.
 1. [Edite as funções internas](#edit-roles-for-product-permissions) ou [crie uma função personalizada](#create-a-custom-role) com permissões do Journey Optimizer B2B edition.
 1. [Adicionar usuários](#add-users) ou [grupos](#add-user-groups-to-a-role) às funções.
 
@@ -56,13 +56,13 @@ Antes de usar o Admin Console para administrar os usuários da sua equipe, é ne
 
 Ao conceder aos usuários acesso a uma solução da Adobe, você pode não pretender conceder acesso total a eles. Os perfis de produto permitem que cada solução tenha seu próprio conjunto de permissões do usuário. Use o Admin Console para atribuir perfis de produto.
 
-Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [Gerenciar perfis de produto para usuários corporativos](https://helpx.adobe.com/br/enterprise/using/manage-product-profiles.html){target="_blank"} na documentação do Admin Console.
+Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [_Gerenciar perfis de produto para usuários corporativos_](https://helpx.adobe.com/br/enterprise/using/manage-product-profiles.html){target="_blank"} na documentação do Admin Console.
 
 >[!BEGINSHADEBOX]
 
-Ao adicionar um usuário ao perfil de produto do Marketo Engage, ele é subsequentemente adicionado à função _Usuário padrão_ no espaço de trabalho Padrão da assinatura do Marketo Engage. Esta função concede a eles todas as permissões de _Usuário padrão_ para o Marketo Engage nesse espaço de trabalho. Atualmente, todos os usuários do Journey Optimizer B2B edition precisam ser usuários do Marketo Engage. Um administrador do Marketo Engage pode restringir o acesso atualizando as permissões para a função de _Usuário padrão_ ou movendo o usuário para outra função de usuário do Marketo Engage com permissões mais restritivas.
+Ao adicionar um usuário ao perfil de produto do Marketo Engage, ele é subsequentemente adicionado à função _Usuário padrão_ no espaço de trabalho Padrão da assinatura do Marketo Engage. Esta função concede a eles todas as permissões _x_ para o Marketo Engage nesse espaço de trabalho. Atualmente, todos os usuários do Journey Optimizer B2B edition precisam ser usuários do Marketo Engage. Um administrador do Marketo Engage pode restringir o acesso atualizando as permissões para a função de _Usuário padrão_ ou movendo o usuário para outra função de usuário do Marketo Engage com permissões mais restritivas.
 
-Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
+Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -76,13 +76,17 @@ Para obter mais informações sobre o gerenciamento dessas permissões no Market
 
    ![Admin Console - Instância do Marketo Engage - Novo perfil](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
-1. Insira um nome de perfil de produto, como _Usuário Padrão_.
+1. Insira um nome de perfil de produto, como _Usuários B2B_.
 
-1. Clique em **Avançar** e depois em **Salvar**.
+1. Clique em **[!UICONTROL Avançar]** e depois em **[!UICONTROL Salvar]**.
 
-## Criar um grupo de usuários {#create-user-group}
+## Adicionar um grupo de usuários para o perfil {#add-user-group}
 
 Um grupo de usuários é uma coleção de usuários aos quais é concedido um conjunto compartilhado de permissões. Você pode adicionar ou remover usuários em seu grupo de usuários. As permissões do grupo permanecem as mesmas enquanto os usuários no grupo são alterados.
+
+>[!TIP]
+>
+>Se você estiver migrando para a arquitetura simplificada e quiser adicionar usuários existentes do Journey Optimizer B2B edition ao Marketo Engage, ignore as etapas de criação do grupo de usuários, abra o grupo de usuários existente e adicione o perfil de produto do Marketo Engage.
 
 Para obter mais informações sobre como os grupos de usuários são usados para gerenciar permissões, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/enterprise/using/user-groups.html){target="_blank"} na documentação do Admin Console.
 
@@ -96,7 +100,7 @@ Para obter mais informações sobre como os grupos de usuários são usados para
 
 1. Clique em **[!UICONTROL Novo grupo de usuários]** na parte superior direita.
 
-1. Insira um nome para o grupo de usuários, como _Usuários padrão_ e clique em **[!UICONTROL Salvar]**.
+1. Insira um nome para o grupo de usuários, como _Usuários B2B_ e clique em **[!UICONTROL Salvar]**.
 
 1. Clique no grupo de usuários que acabou de criar.
 
@@ -113,7 +117,7 @@ Para obter mais informações sobre como os grupos de usuários são usados para
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Adicionar usuários a um grupo
+## Adicionar usuários a um novo grupo
 
 Para obter informações sobre o gerenciamento de usuários, consulte [usuários do Admin Console](https://helpx.adobe.com/br/enterprise/using/user-groups.html) na documentação do Admin Console.
 
@@ -143,7 +147,7 @@ As permissões são direitos unitários que permitem definir as autorizações a
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
-Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
+Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
 
 ### Permissões de produto B2B
 
