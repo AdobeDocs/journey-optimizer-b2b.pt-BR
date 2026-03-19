@@ -30,7 +30,7 @@ Você pode compartilhar a identidade visual do domínio do caminho de retorno en
 
 >[!PREREQUISITES]
 >
->Antes de editar ou adicionar um domínio na interface do usuário, você deve ter um [CNAME mapeado para um domínio do Marketo Engage fornecido pela Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Antes de editar ou adicionar um domínio na interface do usuário, você deve ter um [CNAME mapeado para um domínio do Marketo Engage fornecido pela Adobe](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Ao adicionar um domínio, o sistema verifica se há SSLs pré-existentes, que podem ter sido criados manualmente antes. Se encontrar essa validação, crie seu domínio sem selecionar a criação de SSL e depois conecte-o como um procedimento separado.
 
