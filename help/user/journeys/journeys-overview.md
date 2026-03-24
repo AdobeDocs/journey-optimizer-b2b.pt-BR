@@ -219,4 +219,4 @@ Ao selecionar o nó, clique no número para visualizar uma lista de contas que e
 
 ## Vídeo de visão geral da jornada de conta {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443212/?captions=por_br&learn=on)
