@@ -4,10 +4,10 @@ description: 'Simplifique a geração de demanda com o jornada: crie, publique e
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 6511f40329df34db665ed6f971fa20670be0ae32
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 44%
+source-wordcount: '1525'
+ht-degree: 43%
 
 ---
 
@@ -70,7 +70,7 @@ Insira texto na ferramenta de _pesquisa_ da parte superior da lista para filtrar
 
 Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de Jornadas]** e clique em **[!UICONTROL jornadas de pessoas]**.
 
-Insira texto na ferramenta _Search_ na parte superior da lista para filtrar a lista exibida por nome.
+Insira texto na ferramenta de _pesquisa_ da parte superior da lista para filtrar a lista exibida por nome.
 
 ![Filtrar a lista de jornadas da pessoa](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
@@ -103,11 +103,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando uma jornada é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
-| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Cancelar](#abort-journey) |
-| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Concluída**&#x200B;_ | Quando todos os membros de conta ou público-alvo de pessoa em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Rascunho**_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Ativa**_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando uma jornada é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Cancelar](#abort-journey) |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Concluída**_ | Quando todos os membros de conta ou público-alvo de pessoa em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
 
 ## Jornada mapas
 
@@ -157,7 +157,7 @@ Se você fechar uma jornada ativa, as contas que estão atualmente na jornada co
 
 1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Fechar para novas entradas]**.
 
-### Duplicar uma jornada
+### Duplicar uma jornada {#duplicate-journey}
 
 Uma ação duplicada é semelhante a uma função de clone, mas uma jornada duplicada não inclui nenhum ativo de conteúdo de jornada criado. Você pode duplicar os detalhes da jornada ou apenas um _esqueleto_ simples da estrutura de fluxo e caminho.
 
@@ -165,7 +165,7 @@ Uma ação duplicada é semelhante a uma função de clone, mas uma jornada dupl
 >
 >Esta ação não está disponível no momento para jornadas de pessoas.
 
-1. Clique no ícone de _Mais_ (**...**) ao lado do nome da jornada e escolha **[!UICONTROL Duplicar]**.
+1. Clique no ícone _Mais_ (**...**) ao lado do nome da jornada e escolha **[!UICONTROL Duplicar]**.
 
    ![Clique no ícone ... e escolha Duplicar](./assets/account-journeys-list-more-menu.png){width="450"}
 
@@ -179,7 +179,7 @@ Uma ação duplicada é semelhante a uma função de clone, mas uma jornada dupl
 
 1. Na caixa de diálogo _Duplicar jornada_, defina o **[!UICONTROL Nome]** e a **[!UICONTROL Descrição]** para a nova jornada.
 
-   Por padrão, a caixa de diálogo usa o nome da jornada duplicada anexada com __cópia_. Insira outro nome exclusivo para a jornada, conforme necessário.
+   Por padrão, a caixa de diálogo usa o nome da jornada duplicada anexada com __ cópia_. Insira outro nome exclusivo para a jornada, conforme necessário.
 
    ![Caixa de diálogo Duplicar jornada](./assets/account-journey-duplicate-dialog.png){width="400"}
 
@@ -197,7 +197,7 @@ Uma ação duplicada é semelhante a uma função de clone, mas uma jornada dupl
 
 Use uma ação de exclusão para excluir uma jornada permanentemente. Não é possível excluir uma jornada ativa ou programada.
 
-1. Clique no ícone _Mais_ (**...**) ao lado do nome da jornada e escolha **[!UICONTROL Excluir]**.
+1. Clique no ícone _Mais_ (**...**) ao lado do nome da jornada, escolha **[!UICONTROL Excluir]**.
 
    Dependendo do status da jornada, você também pode acessar a ação de exclusão nos detalhes da jornada ou no mapa de jornadas:
 
@@ -219,4 +219,4 @@ Ao selecionar o nó, clique no número para visualizar uma lista de contas que e
 
 ## Vídeo de visão geral da jornada de conta {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
