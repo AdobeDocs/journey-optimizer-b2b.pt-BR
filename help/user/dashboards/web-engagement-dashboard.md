@@ -4,9 +4,10 @@ description: Analise o comportamento do visitante da Web com análises de exibi�
 feature: Dashboards, Landing Pages
 level: Beginner
 role: User
-source-git-commit: 8192a9619ca0126125c32c2976482af316c1fc6a
+exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 3%
 
 ---
@@ -15,16 +16,16 @@ ht-degree: 3%
 
 O painel de envolvimento da Web fornece visibilidade sobre como os visitantes da Web interagem com o conteúdo principal. Ele segmenta dados em todos os setores e regiões da conta para ajudar você a entender as tendências de engajamento. Use esse painel para apoiar a tomada de decisões estratégicas, identificando padrões de comportamento na Web que informam a estratégia de conteúdo e o direcionamento de conta.
 
-Para acessar o _painel de Envolvimento da Web_, selecione o item **[!UICONTROL Painel]** na navegação à esquerda. Em seguida, selecione a guia **[!UICONTROL Envolvimento da Web]** na parte superior da página.
+Para acessar o _painel Envolvimento da Web_, selecione o item **[!UICONTROL Painel]** na navegação à esquerda. Em seguida, selecione a guia **[!UICONTROL Web engagement]** na parte superior da página.
 
-![Painel de participação na Web](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
+![painel de envolvimento da Web](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
 
 ## Filtrar os dados
 
-Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar os dados exibidos usando qualquer um dos seguintes atributos:
+Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar os dados exibidos usando um dos seguintes atributos:
 
 * **[!UICONTROL Região da conta]** - Filtra os dados por uma ou mais regiões geográficas selecionadas associadas a contas.
-* **[!UICONTROL Setor de Contas]** - Filtra os dados por uma ou mais classificações de setor selecionadas associadas a contas.
+* **[!UICONTROL Setor de contas]** - Filtra os dados por uma ou mais classificações de setor selecionadas associadas a contas.
 * **[!UICONTROL Intervalo de datas]** - Filtra os dados pelo intervalo de datas selecionado. O intervalo padrão é a data atual.
 
 ![Filtrar os dados exibidos por atributos](./assets/web-engagement-dashboard-filters-dialog.png){width="500"}
@@ -79,7 +80,7 @@ Essa visualização exibe as contagens de visitantes segmentadas pelo setor da c
 
 ## Interagir com os dados
 
-Para se envolver com os dados, use o menu _Mais_ (**...**) na parte superior direita de cada gráfico e escolha **[!UICONTROL Exibir mais]** para exibir dados e insights estendidos.
+Para se envolver com os dados, use _Mais_ (**...**) no canto superior direito de cada gráfico e escolha **[!UICONTROL Exibir mais]** para exibir dados e insights estendidos.
 
 O pop-up exibido inclui um gráfico e uma tabela que mostram o detalhamento dos dados.
 
