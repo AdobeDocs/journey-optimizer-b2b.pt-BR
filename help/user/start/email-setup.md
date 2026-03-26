@@ -1,18 +1,19 @@
 ---
 title: Configuração de email
-description: Espaço reservado
+description: Configure opções do Marketo Engage para delivery de email B2B do Journey Optimizer, incluindo padrões, cancelamento de inscrição, visualização da Web, limites de objetos do Velocity, cabeçalhos de rastreamento e filtragem de bot.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 55ffa7995a8d74d352a52f14bed5dd89d7d1c239
+exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 0%
+source-wordcount: '1346'
+ht-degree: 83%
 
 ---
 
 # Configuração de email
 
-Para oferecer suporte à infraestrutura de entrega de email fornecida pela instância do Marketo Email anexada, defina as seguintes opções de email. Um administrador de produto do Marketo Engage pode definir essas configurações navegando até a área **[!UICONTROL Administrador]** na instância do Marketo Engage e selecionando **[!UICONTROL Email]**.
+Para oferecer suporte à infraestrutura de delivery de email fornecida pela instância do Marketo Engage anexada, defina as seguintes opções de email. Um administrador de produto do Marketo Engage pode definir essas configurações navegando até a área **[!UICONTROL Administrador]** na instância do Marketo Engage e selecionando **[!UICONTROL Email]**.
 
 ## Configurações de email
 
@@ -144,7 +145,7 @@ Altere as _[!UICONTROL Opções de Cabeçalho Personalizadas]_ para email para c
    ![Administrador de email do Marketo Engage - Configurações padrão das Opções de Cabeçalho Personalizado](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
    * **[!UICONTROL Segurança de Transporte Restrita]** - Defina esta opção como Habilitada para garantir que os links de rastreamento sejam sempre servidos por HTTPS (só deve ser definida para assinaturas com links de rastreamento protegidos por SSL).
-   * **[!UICONTROL Idade máxima]** - este campo oferece suporte à diretiva obrigatória para especificar o tempo, em segundos, que o navegador deve lembrar para acessar apenas o domínio por HTTPS.
+   * **[!UICONTROL Idade máxima]** - este campo oferece suporte à diretiva obrigatória para especificar o tempo, em segundos, que o navegador deve lembrar para acessar somente o domínio por HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Use esta opção para incluir a diretiva que aplica a diretiva HSTS a todos os subdomínios do host.
 
    >[!IMPORTANT]
@@ -157,8 +158,8 @@ Altere as _[!UICONTROL Opções de Cabeçalho Personalizadas]_ para email para c
 
 A atividade de bot de email, também chamada de interações não humanas (NHI), pode aumentar os dados de _aberturas_ e _cliques_ do email, distorcendo suas métricas de envolvimento e acionando a progressão da jornada com base em eventos. Use a filtragem de bot por email para manter a integridade das métricas e insights de envolvimento de cliques. Há dois métodos para identificar atividades suspeitas de bot:
 
-* _&#x200B;**[!UICONTROL Corresponder com a Lista de bot IAB]**&#x200B;_ - Atividades que correspondem a qualquer item na [Lista de bot do Interative Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente do usuário/endereço IP) são marcadas como bots.
-* _&#x200B;**[!UICONTROL Corresponder com Padrão de Proximidade]**&#x200B;_ - Duas ou mais atividades que ocorrem ao mesmo tempo (em menos de um segundo) são identificadas como bots. Os atributos considerados durante a comparação são:
+* _**[!UICONTROL Corresponder com a Lista de bot IAB]**_ - Atividades que correspondem a qualquer item na [Lista de bot do Interative Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente do usuário/endereço IP) são marcadas como bots.
+* _**[!UICONTROL Corresponder com Padrão de Proximidade]**_ - Duas ou mais atividades que ocorrem ao mesmo tempo (em menos de um segundo) são identificadas como bots. Os atributos considerados durante a comparação são:
    * ID do lead (deve ser o mesmo)
    * Ativo de email (deve ser o mesmo)
    * Clique em links ou e-mail aberto
@@ -188,11 +189,11 @@ Para atividades de clique em links de email e abertura de email, os atributos s�
 
    ![Administrador de email do Marketo Engage - Opções de identificação da atividade de bot](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
-   Para _[!UICONTROL Corresponder com o Padrão de Proximidade]_, você também pode definir a quantidade de segundos para **[!UICONTROL Duração entre Atividades]** (o padrão é `0`, o máximo é `3`).
+   Para _[!UICONTROL Corresponder com o Padrão de Proximidade]_, você também pode definir o número de segundos para **[!UICONTROL Duração entre Atividades]** (o padrão é `0`, o máximo é `3`).
 
    >[!NOTE]
    >
-   >Com a _Duração Entre Atividades_ definida como `0` segundos, o Marketo Engage identifica atividades de email que estão ocorrendo exatamente no mesmo segundo. Se várias atividades de email ocorrerem dentro da quantidade designada de segundos, elas serão identificadas como atividade de bot.
+   >Com a _Duração Entre Atividades_ definida como `0` segundos, o Marketo Engage identifica as atividades de email que estão ocorrendo exatamente nesse segundo. Se várias atividades de email ocorrerem dentro do número designado de segundos, elas serão identificadas como uma atividade de bot.
 
    Para desativar qualquer método de filtragem, alterne o controle deslizante para a esquerda. Se você fizer isso, os dados não serão redefinidos.
 
@@ -256,7 +257,6 @@ A Adobe identificou uma lista de endereços IP responsáveis por gerar milhões 
 
 >[!NOTE]
 >
->Cada endereço IP é meticulosamente analisado e examinado antes de ser incluído nessa lista, garantindo que apenas os IPs mais críticos e prejudiciais sejam bloqueados.
+>Cada endereço IP é cuidadosamente analisado e examinado antes de ser incluído nessa lista, garantindo que apenas os IPs mais críticos e prejudiciais sejam bloqueados.
 
 +++
-

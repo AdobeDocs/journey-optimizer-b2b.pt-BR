@@ -4,10 +4,10 @@ description: Gerenciar o acesso do usuário com o Experience Cloud Admin Console
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 2%
+source-wordcount: '2161'
+ht-degree: 93%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 2%
 
 Após a conclusão do provisionamento e a vinculação das sandboxes, conclua as etapas a seguir para fornecer acesso ao Adobe Journey Optimizer B2B edition para sua equipe e usuários.
 
-1. [Crie um perfil de produto do Marketo Engage](#create-the-marketo-engage-product-profile) no Admin Console (somente nova instância do Marketo Engage).
-1. [Adicionar um grupo de usuários](#add-a-user-group-for-the-profile) na Admin Console.
+1. [Crie um perfil de produto do Marketo Engage](#marketo-engage-profile) no Admin Console (somente nova instância do Marketo Engage).
+1. [Adicionar um grupo de usuários](#add-user-group) na Admin Console.
 1. [Edite as funções internas](#edit-roles-for-product-permissions) ou [crie uma função personalizada](#create-a-custom-role) com permissões do Journey Optimizer B2B edition.
 1. [Adicionar usuários](#add-users) ou [grupos](#add-user-groups-to-a-role) às funções.
 
@@ -60,9 +60,9 @@ Para obter mais informações sobre como usar perfis de produtos para direitos d
 
 >[!BEGINSHADEBOX]
 
-Ao adicionar um usuário ao perfil de produto do Marketo Engage, ele é subsequentemente adicionado à função _Usuário padrão_ no espaço de trabalho Padrão da assinatura do Marketo Engage. Esta função concede a eles todas as permissões _x_ para o Marketo Engage nesse espaço de trabalho. Atualmente, todos os usuários do Journey Optimizer B2B edition precisam ser usuários do Marketo Engage. Um administrador do Marketo Engage pode restringir o acesso atualizando as permissões para a função de _Usuário padrão_ ou movendo o usuário para outra função de usuário do Marketo Engage com permissões mais restritivas.
+Ao adicionar um usuário ao perfil de produto do Marketo Engage, ele é subsequentemente adicionado à função _Usuário padrão_ no espaço de trabalho Padrão da assinatura do Marketo Engage. Essa função concede a eles todas as permissões padrão para o Marketo Engage nesse espaço de trabalho. Atualmente, todos os usuários do Journey Optimizer B2B edition precisam ser usuários do Marketo Engage. Um administrador do Marketo Engage pode restringir o acesso atualizando as permissões para a função de _Usuário padrão_ ou movendo o usuário para outra função de usuário do Marketo Engage com permissões mais restritivas.
 
-Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
+Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -117,9 +117,9 @@ Para obter mais informações sobre como os grupos de usuários são usados para
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Adicionar usuários a um novo grupo
+## Adicionar usuários a um novo grupo {#add-users}
 
-Para obter informações sobre o gerenciamento de usuários, consulte [usuários do Admin Console](https://helpx.adobe.com/br/enterprise/using/user-groups.html) na documentação do Admin Console.
+Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/enterprise/using/users.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador de sistema ou administrador de produto pode executar as seguintes etapas. Um administrador de produto pode adicionar somente usuários que já existem em sua organização.
 
@@ -131,7 +131,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [usuários
 
    * Insira o endereço de email, o nome e o sobrenome do usuário.
 
-     ![Experience Platform - adicionar perfis para a nova função](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
+     ![Experience Platform - adicionar perfil de usuário para a nova função](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
 
    * Para **[!UICONTROL Grupos de usuários]**, clique em **+**.
 
@@ -147,9 +147,9 @@ As permissões são direitos unitários que permitem definir as autorizações a
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
-Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
+Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
 
-### Permissões de produto B2B
+### Permissões de produto B2B {#b2b-product-permissions}
 
 As seguintes permissões controlam o acesso aos recursos do Journey Optimizer B2B edition:
 
@@ -161,7 +161,8 @@ As seguintes permissões controlam o acesso aos recursos do Journey Optimizer B2
 | Grupos de compra B2B | Configure, gerencie e visualize permissões para grupos de compra B2B. Essas permissões incluem interesses de solução, modelos de funções e status do grupo de compras. | <li>Gerenciar grupos de compra B2B |
 | Configurações do canal B2B | Configure, gerencie e visualize permissões para configurações de canal B2B. Essas permissões incluem configurações para limites de comunicação, credenciais de API e configurações de segurança. | <li>Gerenciar configurações de canais B2B |
 | Painéis B2B | Configure e visualize permissões para painéis B2B. Essas permissões incluem envolvimento de conta, estágios de grupo de compras, contas de surging e cobertura de contato. | <li>Gerenciar painéis B2B |
-| Jornadas B2B | Configure permissões de gerenciamento, visualização e publicação para jornadas B2B. Essas permissões incluem ações de conta e pessoa, ouvintes de eventos e caminhos divididos | <li>Gerenciar Jornadas B2B |
+| Jornadas B2B | Configure, gerencie, visualize e publique permissões para jornadas B2B. Essas permissões incluem ações de conta e pessoa, ouvintes de eventos e caminhos divididos. | <li>Gerenciar Jornadas B2B |
+| Regras do Journey Optimizer | Acessar e configurar regras de frequência (limites de comunicação). Essas permissões devem ser limitadas aos administradores do produto. | <li>Exibir regras de frequência <li>Gerenciar regras de frequência |
 
 ### Funções integradas B2B
 
@@ -244,7 +245,7 @@ _Para alterar as permissões de uma função :_
 
 ### Adicionar grupos de usuários a uma função
 
-Para obter informações sobre o gerenciamento de usuários, consulte [usuários do Admin Console](https://helpx.adobe.com/br/enterprise/using/user-groups.html) na documentação do Admin Console.
+Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/enterprise/using/users.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto do AEP pode executar as seguintes etapas.
 
@@ -254,7 +255,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [usuários
 
 1. Clique em **[!UICONTROL Adicionar grupos]**.
 
-   ![Experience Platform - adicionar usuários à função](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - adicionar grupos à função](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. Na caixa de diálogo _[!UICONTROL Adicionar grupos]_, localize e selecione os grupos que deseja adicionar à função.
 
@@ -264,7 +265,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [usuários
 
    ![Experience Platform - Caixa de diálogo Adicionar grupos](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Salvar]** quando tiver selecionado todos os usuários que deseja adicionar.
+1. Clique em **[!UICONTROL Salvar]** quando tiver selecionado todos os grupos que deseja adicionar.
 
 ## Criar uma função personalizada
 
