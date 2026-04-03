@@ -3,15 +3,13 @@ title: Usar marcas para geração e consistência de conteúdo
 description: Defina as diretrizes da marca para a criação consistente do conteúdo - mantenha a identidade visual, o alinhamento das mensagens e a voz autêntica no Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 9%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 9%
 >title="Selecione sua marca"
 >abstract="Escolha sua marca para garantir que todo o conteúdo gerado por IA seja personalizado para se alinhar às suas especificações e diretrizes."
 
-As marcas ajudam a definir a sua _identidade de marca_ e desempenham um papel crucial para garantir uma criação de conteúdo consistente e eficaz que representa com precisão a identidade, os valores e as mensagens da sua marca. Ao aderir a estilos de marca bem definidos, as organizações podem manter uma presença de marca coesa e reconhecível em todos os canais e pontos de contato e fortalecer o reconhecimento, a confiança e a fidelidade de suas marcas entre os públicos-alvo.
+As marcas ajudam a definir a sua _identidade de marca_ e desempenham um papel crucial para garantir uma criação de conteúdo consistente e eficaz que representa com precisão a identidade, os valores e as mensagens da sua marca. Ao aderir a estilos de marca bem definidos, as organizações podem manter uma presença da marca coesa e reconhecível em todos os canais e pontos de contato e fortalecer o reconhecimento, a confiança e a fidelidade da marca entre os públicos-alvo.
 
 +++Benefícios do uso de marcas
 
@@ -47,9 +45,9 @@ Sua organização pode obter valor significativo usando uma marca na criação e
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está disponível como um beta privado, com disponibilidade progressiva planejada para todos os clientes em versões futuras.
+>No momento, esse recurso está disponível como um beta público.
 >
->É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o representante da Adobe.
+>É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
 Uma marca definida fornece a _fonte da verdade_ para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. Para habilitar a criação de conteúdo na marca no Journey Optimizer B2B edition, conclua estas tarefas:
 

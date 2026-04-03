@@ -1,5 +1,5 @@
 ---
-title: Pontuação de alinhamento da marca
+title: Classificação de alinhamento à marca
 description: Avaliar o conteúdo de email com pontuação de alinhamento de marca - valide cores, fontes, logotipos e estilo de escrita em relação às diretrizes da marca no Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 16%
+source-wordcount: '472'
+ht-degree: 19%
 
 ---
 
@@ -46,9 +46,9 @@ A avaliação do alinhamento da marca e as pontuações ajudam a criar, revisar 
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está disponível como um beta privado, com disponibilidade progressiva planejada para todos os clientes em versões futuras.
+>No momento, esse recurso está disponível como um beta público.
 >
->É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o representante da Adobe.
+>É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
 >
 >Consulte [Permissões relacionadas à marca](./brands-overview.md#brand-related-permissions) para obter informações sobre como administradores de produtos podem habilitar esses recursos.
 

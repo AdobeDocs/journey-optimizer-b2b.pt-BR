@@ -3,15 +3,13 @@ title: Crie marcas para gerar e manter a consistência do conteúdo
 description: Crie e gerencie diretrizes de marca com extração automática de documentos ou entrada manual - defina marcas padrão para um conteúdo consistente no Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '2056'
-ht-degree: 6%
+source-wordcount: '2069'
+ht-degree: 7%
 
 ---
 
@@ -23,11 +21,11 @@ No Journey Optimizer B2B edition, você pode definir e organizar manualmente sua
 
 >[!AVAILABILITY]
 >
->No momento, esse recurso está disponível como um beta privado, com disponibilidade progressiva planejada para todos os clientes em versões futuras.
+>No momento, esse recurso está disponível como um beta público.
 >
 ><br>
 >
->É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o representante da Adobe.
+>É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
 >
 ><br>
 >
