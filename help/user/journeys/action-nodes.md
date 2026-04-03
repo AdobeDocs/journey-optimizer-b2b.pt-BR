@@ -4,9 +4,9 @@ description: 'Configure nós de ação para ações de conta e pessoas: envie em
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
+source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Em uma jornada de conta, use uma ação nas contas quando quiser aplicar uma alt
 
 >[!NOTE]
 >
->A ação _[!UICONTROL Valor de Dados de Alteração de Conta]_ está obsoleta para a versão 2025.10. _[!UICONTROL Atualizar perfil de conta]_ substitui esta ação para a [arquitetura simplificada](../simplified-architecture.md).<br/>
+>A ação _[!UICONTROL Valor de Dados de Alteração de Conta]_ está obsoleta para a versão 2025.10. _[!UICONTROL Atualizar perfil da conta]_ substitui esta ação para a [arquitetura simplificada](../simplified-architecture.md).<br/>
 >
 >Um administrador pode configurar os atributos disponíveis para a conta de negócios XDM atualizando os campos nas _[!UICONTROL Classes XDM]_ > _[!UICONTROL Classes padrão]_. Para obter mais informações, consulte [Classes padrão](../admin/xdm-field-management.md#standard-classes).
 
@@ -102,6 +102,7 @@ Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplic
 | | [!UICONTROL Remover do Grupo de Compras] | <li>Jornada de conta | <li>Selecione o interesse na solução |
 | | [!UICONTROL Enviar email] | <li>Jornada de conta <li>Jornada de pessoa | <li>Criar email <li>Otimização de hora de envio (opcional, somente jornada de pessoa) |
 | | [!UICONTROL Enviar SMS] | <li>Jornada de conta | <li>Criar SMS |
+| | [!UICONTROL Enviar WhatsApp] | <li>Jornada de conta | <li>Criar mensagem do WhatsApp |
 | | [!UICONTROL Atualizar perfil da pessoa] | <li>Jornada de conta <li>Jornada de pessoa | <li>Selecionar atributo de pessoa <li>Definir novo valor |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Adicionar à campanha de solicitação do Marketo] | <li>Jornada de conta <li>Jornada de pessoa | <li>Selecionar espaço de trabalho do Marketo Engage <li>Selecionar campanha de solicitação |
 | | [!UICONTROL Adicionar à lista do Marketo] | <li>Jornada de conta <li>Jornada de pessoa | <li>Nome da conexão externa do Marketo <li>Nome da lista |
@@ -142,7 +143,7 @@ Use esta ação para encaminhar as pessoas para um público-alvo externo que pod
 Ao selecionar essa ação com base em pessoas, é possível criar um novo público-alvo externo ou selecionar na lista de públicos-alvo externos existentes.
 
 * Para públicos-alvo existentes, você pode escolher entre os públicos-alvo de clientes externos que foram criados somente em [!DNL Journey Optimizer B2B Edition].
-* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
+* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista a uma visão geral de vídeo para orquestração de mídia paga](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -188,7 +189,7 @@ Use esta ação para adicionar perfis de pessoas a um [grupo de compras](../buyi
 
 +++[!UICONTROL Alterar pontuação]
 
-Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Use esta ação para alterar a pontuação da pessoa no Marketo Engage. [Saiba mais](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Realizar uma ação - Alterar pontuação](./assets/node-action-change-score.png){width="300"}
 
@@ -220,7 +221,7 @@ Use esta ação para remover perfis de pessoas de um [grupo de compras](../buyin
 
 +++[!UICONTROL Enviar email]
 
-Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
+Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
 
 ![Executar uma ação - Enviar email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -237,6 +238,14 @@ Para jornadas de pessoas, você pode usar a [Otimização de hora de envio](../c
 Use esta ação para enviar uma mensagem SMS. Você pode criar, personalizar e visualizar mensagens SMS no espaço de design visual (consulte [Criação de SMS](../content/sms-authoring.md)).
 
 ![Executar uma ação - Enviar SMS](./assets/node-action-send-sms.png){width="300"}
+
++++
+
++++[!UICONTROL Enviar WhatsApp]
+
+Use esta ação para enviar uma mensagem de WhatsApp. Você pode criar, personalizar e visualizar mensagens do WhatsApp no espaço de design visual (consulte [Criação de WhatsApp](../content/whatsapp-authoring.md).
+
+![Executar uma ação - Enviar WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
 
 +++
 
@@ -266,7 +275,7 @@ Por exemplo, talvez você queira suprimir campanhas no Marketo Engage para pesso
 
 +++[!UICONTROL Adicionar à campanha de solicitação do Marketo]
 
-Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} em uma instância conectada do Marketo Engage.
+Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} em uma instância conectada do Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da campanha de solicitação.
 
@@ -276,7 +285,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Adicionar à lista do Marketo]
 
-Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} em uma instância conectada do Marketo Engage.
+Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} em uma instância conectada do Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
@@ -286,7 +295,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Remover da lista do Marketo]
 
-Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
+Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
@@ -296,4 +305,4 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443250/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
