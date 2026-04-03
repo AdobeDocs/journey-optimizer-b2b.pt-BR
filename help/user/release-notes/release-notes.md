@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 72f0a92db8bf7718c13c25eb6117531505b9d5fd
+source-git-commit: 1b0b8c862a1034be5de833996c8f049bf5f2d3a6
 workflow-type: tm+mt
-source-wordcount: '4890'
+source-wordcount: '4892'
 ht-degree: 70%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 70%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -32,7 +32,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | Marcas | (Beta) As equipes de marketing podem manter a consistência da marca em seus ativos de conteúdo de email armazenando e gerenciando perfis de marca. Ao adicionar ativos, como cores, fontes, logotipos, temas, conteúdo visual e diretrizes de conformidade, é possível usar o perfil da marca para a criação de conteúdo de IA gerativa. Eles também podem medir o alinhamento da marca para garantir a conformidade. |
 | Aprimoramento | Enviar email - Otimização de hora de envio | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Para os nós de ação _Enviar email_ em jornadas de pessoas, você pode usar as opções de _Otimização de tempo de envio_ para personalizar o tempo de entrega de email, prevendo quando cada perfil tem maior probabilidade de participar. [Saiba mais](../content/email-send-time-optimization.md) |
 | Aprimoramento | Ferramentas de design de email - Modo especialista | Com o _Modo especializado_ no espaço de design de email, os usuários podem fazer pequenas edições de HTML/CSS e adicionar marcas de script a um email para resolver problemas de renderização. |
-| Aprimoramento | Objetos personalizados de pessoa - modelos de funções de grupo de compra | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Quando os administradores configuram objetos personalizados relacionados a um perfil empresarial, os profissionais de marketing agora podem definir funções de grupo de compra usando esses objetos personalizados. |
+| Aprimoramento | Objetos personalizados de pessoa - modelos de funções de grupo de compra | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Quando os administradores configuram objetos personalizados relacionados a um perfil empresarial, os profissionais de marketing agora podem definir funções de grupo de compra usando esses objetos personalizados. [Saiba mais](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Aprimoramento | Pontuação de conteúdo de email - validação de qualidade do conteúdo | Além do alinhamento da marca, você pode avaliar a qualidade geral do conteúdo para descobrir problemas em potencial com legibilidade, coesão e eficácia (independentemente das diretrizes da sua marca). Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. |
 
 <!-- wait for later release
