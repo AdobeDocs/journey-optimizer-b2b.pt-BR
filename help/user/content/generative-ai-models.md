@@ -20,7 +20,7 @@ Expanda os recursos de criação de imagens de IA com modelos integrados, modelo
 - O **[!UICONTROL Partner model]**, desenvolvido pelo Gemini 2.5 Flash, oferece recursos especializados para casos de uso específicos.
 - **[!UICONTROL Os modelos personalizados]** são modelos específicos da marca treinados em seus próprios ativos e adicionados pela sua organização.
 
-Saiba mais sobre modelos personalizados na [documentação do Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Saiba mais sobre modelos personalizados na [documentação do Adobe Firefly](https://helpx.adobe.com/br/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Os profissionais de marketing podem selecionar qualquer um dos modelos gerativos ativados ao gerar imagens para seu conteúdo de email ou de página de aterrissagem.
 
@@ -70,7 +70,7 @@ Crie modelos personalizados do Firefly ou conecte provedores de geração de ima
 
 1. Insira a **[!UICONTROL ID do Modelo]**.
 
-   Para encontrar a ID do modelo, acesse o site da Firefly e navegue até os modelos treinados. O identificador exclusivo está disponível na seção de gerenciamento do modelo após a publicação. Para obter mais informações, consulte a [documentação de modelos personalizados do Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Para encontrar a ID do modelo, acesse o site da Firefly e navegue até os modelos treinados. O identificador exclusivo está disponível na seção de gerenciamento do modelo após a publicação. Para obter mais informações, consulte a [documentação de modelos personalizados do Firefly](https://helpx.adobe.com/br/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Opcionalmente, insira uma **[!UICONTROL Descrição]** para ajudar a identificar o modelo e seu uso pretendido.
 
