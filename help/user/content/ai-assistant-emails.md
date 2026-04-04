@@ -4,9 +4,9 @@ description: Gerar conteúdo de email com o Assistente de IA - crie conteúdo de
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: c7c08dc1d9b041bfc83cf8b5766a953fa765f4c9
+source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
 workflow-type: tm+mt
-source-wordcount: '3591'
+source-wordcount: '3632'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Esse novo recurso fornece uma geração de conteúdo com base em prompts para a 
 
 ## Diretrizes e limitações
 
-Antes de começar a usar este recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [A aceitação do contrato de usuário &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
+Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Com o compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado pela Firefly quando ele for baixado ou exportado.
+Com o compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado pela Firefly quando ele for baixado ou exportado.
 
 As limitações e diretrizes a seguir se aplicam aos recursos do Assistente de IA usados para a geração de conteúdo de email no [!DNL Journey Optimizer B2B Edition]:
 
@@ -63,7 +63,7 @@ Selecione o prompt que melhor reflete suas metas e clique em **[!UICONTROL Tenta
 
 Expanda as **[!UICONTROL Configurações de texto]** no painel direito e defina as opções para o texto gerado.
 
-* **[!UICONTROL Grupo de compras]** - Escolha a [função de grupo de compras](../buying-groups/buying-groups-role-templates.md) a ser usada para direcionar suas mensagens. [!DNL Journey Optimizer B2B Edition] O oferece cinco funções padrão de grupo de compra B2B prontas para uso. Cada função de grupo de compras tem um foco de mensagem distinto:
+* **[!UICONTROL Grupo de compras]** - Escolha a [função de grupo de compras](../buying-groups/buying-groups-role-templates.md) a ser usada para direcionar suas mensagens. O [!DNL Journey Optimizer B2B Edition] oferece cinco funções de grupo de compra B2B padrão prontas para uso. Cada função de grupo de compras tem um foco de mensagem distinto:
 
   | Função | Foco da mensagem |
   | ---- | --------------- |
@@ -88,7 +88,7 @@ Para incluir imagens em seu conteúdo gerado, expanda as **[!UICONTROL Configura
 
 A opção **[!UICONTROL Gerar imagens usando IA]** está desabilitada por padrão. Habilite esse recurso e defina as seguintes opções para incluir imagens geradas nas variações de conteúdo propostas:
 
-<!-- * **[!UICONTROL Generative model]**: Select from available built-in models, custom Firefly models trained on your brand assets, or third-party image generation providers to create images that align with your specific needs and brand requirements. -->
+* **[!UICONTROL Modelo gerativo]**: selecione entre o modelo pronto para uso fornecido pela Adobe, o modelo de parceiro para recursos especializados ou modelos personalizados configurados e treinados nos ativos da sua marca. Para obter mais informações sobre modelos gerativos, consulte _[Modelos de IA gerativa para alinhamento de marca](generative-ai-models.md)_.
 * **[!UICONTROL Taxa de proporção]**: quando um componente de imagem é selecionado, esta configuração determina a largura e a altura do ativo. Você tem a opção de escolher entre taxas comuns, como 16:9, 4:3, 3:2 ou 1:1, ou pode inserir um tamanho personalizado.
 * **[!UICONTROL Tipo de conteúdo]**: o tipo categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
 * **[!UICONTROL Intensidade visual]**: controle o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (como 2) cria uma aparência mais suave e restrita, enquanto uma configuração mais alta (como 10) torna a imagem mais vibrante e visualmente poderosa.
@@ -96,7 +96,7 @@ A opção **[!UICONTROL Gerar imagens usando IA]** está desabilitada por padrã
 * **[!UICONTROL Iluminação]**: o estilo de iluminação usado para a imagem, que molda sua atmosfera e realça elementos específicos.
 * **[!UICONTROL Composição]**: a disposição dos elementos dentro do quadro de uma imagem.
 
-![Painel de configurações de imagem exibindo as opções Tipo de conteúdo, Intensidade visual, Cor e Tom, Iluminação e Composição](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![Painel de configurações de imagem exibindo opções de Modelo generativo, Tipo de conteúdo, Intensidade visual, Cor e Tom, Iluminação e Composição](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Clique na seta à esquerda para retornar às _[!UICONTROL Configurações]_ principais.
 

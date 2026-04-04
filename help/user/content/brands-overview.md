@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 12%
 >title="Selecione sua marca"
 >abstract="Escolha sua marca para garantir que todo o conteúdo gerado por IA seja personalizado para se alinhar às suas especificações e diretrizes."
 
-As marcas ajudam a definir a sua _identidade de marca_ e desempenham um papel crucial para garantir uma criação de conteúdo consistente e eficaz que representa com precisão a identidade, os valores e as mensagens da sua marca. Ao aderir a estilos de marca bem definidos, as organizações podem manter uma presença da marca coesa e reconhecível em todos os canais e pontos de contato e fortalecer o reconhecimento, a confiança e a fidelidade da marca entre os públicos-alvo.
+As marcas ajudam a definir uma _identidade da marca_ e desempenham um papel crucial para garantir uma criação de conteúdo consistente e eficaz que representa com precisão a identidade, os valores e as mensagens da sua marca. Ao aderir a estilos de marca bem definidos, as organizações podem manter uma presença da marca coesa e reconhecível em todos os canais e pontos de contato e fortalecer o reconhecimento, a confiança e a fidelidade da marca entre os públicos-alvo.
 
 +++Benefícios do uso de marcas
 
@@ -64,8 +64,8 @@ Uma marca definida fornece a _fonte da verdade_ para sua equipe criativa usar ao
 1. Quando estiver pronto para uso, [publique a marca](./brands-manage-create.md#publish-the-brand).
 
 1. Use a marca para [alinhamento do conteúdo do email](./brand-alignment.md).
-<!-- 
-1. Use the brand to generate content. -->
+
+1. Use a marca para [gerar conteúdo de email](./ai-assistant-emails.md).
 
 >[!BEGINSHADEBOX]
 
