@@ -3,20 +3,20 @@ title: Pontuações de integridade para grupos de compra
 description: Calcule as pontuações de integridade do grupo de compras usando limites baseados em função, requisitos de membro personalizáveis e configurações de integridade no Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
-source-git-commit: 1ebc27a709e1b82029c22950897505f3945a507f
+exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 3%
+source-wordcount: '895'
+ht-degree: 9%
 
 ---
 
-
-# Pontuações de integridade {#completeness-scores}
+# Pontuações de completude {#completeness-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_completeness_score"
 >title="Pontuação de integridade"
->abstract="As pontuações de integridade refletem o quão bem a associação ao grupo de compras está alinhada para um grupo de compras pronto para vendas."
+>abstract="As pontuações de integridade refletem o alinhamento da assinatura de um grupo de compra para um grupo pronto para vendas."
 
 Uma pontuação de integridade é uma porcentagem que indica como um grupo de compra é preenchido com os membros necessários em suas funções definidas. Essas pontuações são baseadas nos limites do membro da função que você configura no modelo de funções e no número real de membros atribuídos a cada função no grupo de compra. As pontuações resultantes ajudam os profissionais de marketing a avaliar a prontidão das vendas e identificar lacunas na composição do grupo de compras. O cálculo de pontuação ocorre automaticamente conforme a associação de grupo de compra é alterada.
 
@@ -69,7 +69,7 @@ The buying group completeness score is available to use for filtering in [journe
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_role_completeness_calculation"
 >title="Cálculo de integridade da função"
->abstract="As pontuações de integridade da função são calculadas como uma porcentagem com base no número de membros atribuídos a uma função."
+>abstract="As pontuações de integridade da função são calculadas como porcentagem, com base no número de membros atribuídos a uma função."
 
 O Journey Optimizer B2B edition calcula a pontuação de integridade para cada função de grupo de compras individual como uma porcentagem. Baseie essa pontuação em quantos membros são atribuídos à função, em comparação ao [número necessário no modelo de funções](./buying-groups-role-templates.md#change-the-completeness-score-settings) para conclusão.
 
@@ -87,7 +87,7 @@ A porcentagem de integridade da função é calculada usando a seguinte fórmula
 Role Completeness % = ((Assigned Members - Threshold) / (Threshold)) × 100
 ```
 
-Onde:
+Em que:
 
 * `Assigned Members` = Número atual de membros na função
 * `Threshold` = Conjunto de valores obrigatórios dos membros no modelo de funções
@@ -123,7 +123,7 @@ A porcentagem de integridade do grupo de compras é calculada usando a seguinte 
 Buying Group Completeness % = Σ(Role Completeness %) / Number of defined roles
 ```
 
-Onde:
+Em que:
 
 * `Role Completeness %` = Porcentagem de conclusão da função individual (0-100%)
 * `Σ` = Soma em todas as funções no grupo de compra

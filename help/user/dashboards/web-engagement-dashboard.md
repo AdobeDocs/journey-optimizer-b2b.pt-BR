@@ -8,7 +8,7 @@ exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
 source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 3%
 
 O painel de envolvimento da Web fornece visibilidade sobre como os visitantes da Web interagem com o conteúdo principal. Ele segmenta dados em todos os setores e regiões da conta para ajudar você a entender as tendências de engajamento. Use esse painel para apoiar a tomada de decisões estratégicas, identificando padrões de comportamento na Web que informam a estratégia de conteúdo e o direcionamento de conta.
 
-Para acessar o _painel Envolvimento da Web_, selecione o item **[!UICONTROL Painel]** na navegação à esquerda. Em seguida, selecione a guia **[!UICONTROL Web engagement]** na parte superior da página.
+Para acessar o _painel de Envolvimento da Web_, selecione o item **[!UICONTROL Painel]** na navegação à esquerda. Em seguida, selecione a guia **[!UICONTROL Envolvimento da Web]** na parte superior da página.
 
-![painel de envolvimento da Web](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
+![Painel de participação na Web](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
 
 ## Filtrar os dados
 
-Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar os dados exibidos usando um dos seguintes atributos:
+Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar os dados exibidos usando qualquer um dos seguintes atributos:
 
 * **[!UICONTROL Região da conta]** - Filtra os dados por uma ou mais regiões geográficas selecionadas associadas a contas.
-* **[!UICONTROL Setor de contas]** - Filtra os dados por uma ou mais classificações de setor selecionadas associadas a contas.
+* **[!UICONTROL Setor de Contas]** - Filtra os dados por uma ou mais classificações de setor selecionadas associadas a contas.
 * **[!UICONTROL Intervalo de datas]** - Filtra os dados pelo intervalo de datas selecionado. O intervalo padrão é a data atual.
 
 ![Filtrar os dados exibidos por atributos](./assets/web-engagement-dashboard-filters-dialog.png){width="500"}
 
 Selecione quantos valores para cada atributo que deseja usar para filtrar os dados e clique em **[!UICONTROL Aplicar]**.
 
-## [!UICONTROL Principais exibições de página] {#top-page-views}
+## [!UICONTROL Principais visualizações de página] {#top-page-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
 >title="Principais visualizações da página"
->abstract="As páginas visualizadas com mais frequência no site, ajudando a identificar qual conteúdo direciona mais tráfego."
+>abstract="As páginas visualizadas com mais frequência no site, o que permite identificar qual conteúdo direciona mais tráfego."
 
 Esta tabela exibe as 10 páginas da Web mais visualizadas, ajudando você a identificar qual conteúdo tem mais correspondência com os visitantes. Os dados incluem:
 
@@ -50,33 +50,33 @@ Esta tabela exibe as 10 páginas da Web mais visualizadas, ajudando você a iden
 
 ![Tabela de principais exibições de página](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
 
-## [!UICONTROL Exibições de página por região de conta] {#page-views-by-region}
+## [!UICONTROL Visualizações de página por região da conta] {#page-views-by-region}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_region"
 >title="Visualizações da página por região da conta"
->abstract="Distribuição de visitante da Web segmentada pela região geográfica de contas associadas."
+>abstract="Distribuição de visitante da web segmentada pela região geográfica das contas associadas."
 
 Essa visualização exibe as contagens de visitantes segmentadas pela região da conta. Ele ilustra como o tráfego da Web varia em diferentes regiões geográficas, permitindo que você adapte conteúdo e campanhas a públicos regionais. Passe o mouse sobre uma barra no gráfico para ver os detalhes, incluindo:
 
 * Região do nome da conta
 * Contagem de exibições de página
 
-![Exibições de página por região de conta](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
+![Visualizações de página por região da conta](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
-## [!UICONTROL Exibições de página por setor de conta] {#page-views-by-industry}
+## [!UICONTROL Visualizações de página por setor da conta] {#page-views-by-industry}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_industry"
 >title="Visualizações da página por setor da conta"
->abstract="Distribuição de visitantes da Web segmentada pela classificação setorial de contas associadas."
+>abstract="Distribuição de visitantes da web segmentada pela classificação do setor das contas associadas."
 
 Essa visualização exibe as contagens de visitantes segmentadas pelo setor da conta. Use este gráfico para entender como o tráfego da Web varia entre diferentes setores, permitindo que você desenvolva estratégias de conteúdo específicas do setor. Passe o mouse sobre uma barra no gráfico para ver os detalhes, incluindo:
 
 * Nome do setor da conta
 * Contagem de exibições de página
 
-![Exibições de página por setor de conta](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
+![Visualizações de página por setor da conta](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
 
 ## Interagir com os dados
 

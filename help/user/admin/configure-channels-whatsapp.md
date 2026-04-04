@@ -3,7 +3,8 @@ title: Configuração do canal do WhatsApp
 description: Conecte sua conta comercial do WhatsApp por meio da API de nuvem do Meta para ativar as mensagens do WhatsApp nas jornadas de conta do Journey Optimizer B2B edition.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 6313d097634af92450e6dd107fc5ba8040170e88
+exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 11%
@@ -71,7 +72,7 @@ Conclua as seguintes tarefas:
    * **[!UICONTROL Token de API]** - Insira seu token de API. Para obter informações, consulte a [Documentação do Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL ID da Conta Comercial]** - Insira o número exclusivo relacionado ao seu portfólio comercial. Para obter informações, consulte a [Documentação do Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenciais da API de configurações do WhatsApp &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenciais da API de configurações do WhatsApp ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Continuar]**.
 
