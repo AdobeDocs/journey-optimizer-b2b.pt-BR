@@ -4,10 +4,10 @@ description: Projetar emails, páginas de aterrissagem e fragmentos com componen
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
+source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
 workflow-type: tm+mt
-source-wordcount: '2825'
-ht-degree: 6%
+source-wordcount: '3057'
+ht-degree: 7%
 
 ---
 
@@ -239,7 +239,7 @@ Se desejar excluir o componente da exibição de desktop ou dispositivo móvel, 
 
 Use um container para aplicar um estilo específico a um grupo de componentes de conteúdo. Adicione um componente [!UICONTROL Contêiner] e adicione outros componentes de conteúdo dentro dele. Este componente é semelhante à forma como você pode usar um elemento `div` no HTML. É possível aplicar um estilo distinto ao contêiner que difere do estilo aplicado aos componentes de conteúdo que ele contém.
 
-Por exemplo, adicione um componente _[!UICONTROL Contêiner]_ e adicione um componente _[!UICONTROL Botão]_ dentro desse contêiner. Você pode usar um estilo de área específico para o contêiner e estilizar o botão e seu plano de fundo conforme necessário.
+Por exemplo, adicione um componente _[!UICONTROL Container]_ e, em seguida, adicione um componente _[!UICONTROL Botão]_ dentro desse container. Você pode usar um estilo de área específico para o contêiner e estilizar o botão e seu plano de fundo conforme necessário.
 
 ![Estilos de componentes de conteúdo do contêiner](./assets/content-components-container.png){width="600" zoomable="yes"}
 
@@ -345,9 +345,13 @@ Personalize o estilo do botão na guia **[!UICONTROL Estilos]**.
 
 +++Alinhamento
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++Margem do botão
+
+{{styles-margin}}
 
 +++
 
@@ -423,8 +427,6 @@ Esses estilos são aplicados ao bloco de texto inteiro. É possível aplicar o e
 
 Adicione um componente _Divider_ para incorporar uma divisão linear entre seções do seu conteúdo.
 
-
-
 +++Histórico
 
 {{styles-background}}
@@ -432,6 +434,22 @@ Adicione um componente _Divider_ para incorporar uma divisão linear entre seç�
 +++
 
 +++Linha
+
+No painel direito, com a guia _[!UICONTROL Estilos]_ selecionada, expanda a seção **[!UICONTROL Linha]** e defina as opções de altura e largura do componente:
+
+* **[!UICONTROL Cor]** - Clique no quadrado colorido para escolher uma cor no seletor. Você pode escolher uma cor inserindo um valor RGB, HSL, HSB ou hexadecimal conhecido. Ou você pode usar o controle deslizante de cores e o campo de cores para selecionar a cor.
+
+* **[!UICONTROL Altura]** - Clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a altura do elemento de acordo com seu conteúdo.
+
+* **[!UICONTROL Largura]** - Use o botão de alternância para definir a largura por pixels ou porcentagem.
+
+   * Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina o tamanho do elemento com base na caixa de conteúdo do bloco, o que exclui o preenchimento e as bordas. Por exemplo, um valor de 50 define a largura do elemento como 50% da largura do conteúdo do bloco.
+
+  ![Definir estilo de linha para um componente divisor](./assets/component-divider-line-options.png){width="250"}
+
+   * Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a largura do elemento de acordo com seu conteúdo.
+
+* **[!UICONTROL Estilo]** - Escolha um valor na lista de valores CSS `line-style` padrão, como _Sólido_, _Pontilhado_ e _Tracejado_.
 
 +++
 
