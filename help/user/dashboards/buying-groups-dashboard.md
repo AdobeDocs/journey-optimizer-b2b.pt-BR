@@ -4,9 +4,9 @@ description: Acompanhe o progresso do grupo de compras com pontuações de concl
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Esta visualização ilustra a distribuição de grupos de compra com base em sua
 
 Para exibir informações mais detalhadas, clique no ícone de menu **...** na parte superior direita.
 
-![Visualização da pontuação do engajamento do grupo de compra](./assets/buying-group-completion-score-chart.png){width="500"}
+![Visualização da pontuação do engajamento do grupo de compra](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Grupos de compra por interesse na solução
 
@@ -74,7 +74,7 @@ Selecione quantos valores para cada atributo que deseja usar para filtrar os dad
 
 ## Interagir com os dados
 
-Para se envolver com os dados, use o menu _Mais_ (**...**) na parte superior direita de cada gráfico.
+Para se envolver com os dados, use _Mais_ (**...**) no canto superior direito de cada gráfico.
 
 ### [!UICONTROL Drill-through]
 
@@ -84,7 +84,7 @@ Escolha **[!UICONTROL Drill-through]** para obter uma análise detalhada de pont
 
 Os filtros globais aplicados ao painel são transferidos. Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para [alterar os filtros de atributo](#filter-the-data) para a exibição de drill-through.
 
-Você pode clicar no menu _Mais_ (**...**) no canto superior direito e escolher **[!UICONTROL Exibir mais]** para [exibir dados estendidos](#view-more).
+Você pode clicar no link _Mais_ (**...**) no canto superior direito e escolha **[!UICONTROL Exibir mais]** para [exibir dados estendidos](#view-more).
 
 ### [!UICONTROL Exibir mais]
 

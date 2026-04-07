@@ -3,10 +3,11 @@ title: Mapeamento de persona
 description: Saiba como configurar o mapeamento pessoal para marketing B2B. Mapeie os atributos de pessoa no Journey Optimizer B2B edition para criar modelos de função e otimizar o direcionamento de grupos de compra.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Definição pessoal e limitações de uso:
 
 Muitas equipes de marketing e vendas usam cargos como uma maneira de identificar diferentes perfis em uma conta. Mas os títulos dos contatos podem ser inconsistentes e usar várias variações para funções semelhantes. Ao criar modelos de funções de grupos de compra, pode ser necessário definir cada título de cargo relacionado possível para uma determinada função. É possível simplificar essas definições e trazer pessoas com títulos de trabalho semelhantes para uma persona inferida, que você pode aproveitar em diferentes modelos de funções para grupos de compra.
 
-Por exemplo, você pode configurar uma persona chamada _Gerenciamento de Produto_ e defini-la usando o atributo de título de trabalho para valores de _Gerente de Produto_, _Sr. Gerente de produto_, _Gerente de produto sênior_, _PM_, _Sr. PM_, _PM Principal_ e _Gerente de Produto Principal_. Em seguida, use esta persona em um modelo de Funções no qual a condição corresponda em _A persona é o Gerenciamento de Produto_. Usando a persona configurada, a criação de cada modelo de função é simplificada e não requer uma condição complicada que possa corresponder a cada título de cargo possível.
+Por exemplo, você pode configurar uma pessoa chamada _Gerenciamento de Produtos_ e defini-la usando o atributo de título de trabalho para os valores de _Gerente de Produtos_, _Gerente de Produtos_, _Gerente de Produtos Sênior_, _PM_, _Sr. PM_, _PM Principal_ e _Gerente de Produtos Principal_. Em seguida, use esta persona em um modelo de Funções no qual a condição corresponda em _A persona é o Gerenciamento de Produto_. Usando a persona configurada, a criação de cada modelo de função é simplificada e não requer uma condição complicada que possa corresponder a cada título de cargo possível.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +46,7 @@ Por exemplo, você pode configurar uma persona chamada _Gerenciamento de Produto
 
    A lista Mapeamento de pessoas está organizada como uma tabela e exibe os perfis atualizados mais recentemente na parte superior (classificado por _[!UICONTROL Última atualização]_). Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
 
-![Colunas a serem exibidas na lista de mapeamento de persona](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![Colunas a serem exibidas na lista de mapeamento de persona](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Para acessar os detalhes de uma persona, clique no nome.
 
@@ -118,6 +119,6 @@ Excluir uma pessoa a remove da lista _Mapeamento de pessoas_ e ela não está ma
 
 1. Na página _[!UICONTROL Mapeamento pessoal]_, localize o perfil que deseja excluir.
 
-1. Ao lado do nome, clique no ícone de reticências (**...**) para e escolha **[!UICONTROL Excluir]**.
+1. Ao lado do nome, clique nas reticências (**...**) ícone para e escolha **[!UICONTROL Excluir]**.
 
 1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
