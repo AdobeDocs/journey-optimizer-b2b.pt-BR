@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Você pode gerar experiências completas de conteúdo para suas páginas de ater
 
 Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Com o compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado pela Firefly quando ele for baixado ou exportado.
+Com o compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado pela Firefly quando ele for baixado ou exportado.
 
 As limitações e diretrizes a seguir se aplicam aos recursos do Assistente de IA usados para gerar conteúdo da página de aterrissagem no [!DNL Journey Optimizer B2B Edition]:
 
@@ -314,6 +314,6 @@ Forneça feedback sobre as variantes geradas clicando no ícone _Polegar para Ci
 
 A avaliação e a pontuação do alinhamento da marca ajudam a garantir a consistência no tom, nas mensagens e na identidade visual em todas as campanhas, além de servir como uma verificação de qualidade antes do conteúdo ser publicado. Quando o conteúdo da página de aterrissagem for concluído, clique no ícone de _Alinhamento da marca_ ( ![Ícone de alinhamento da marca](../assets/do-not-localize/icon-brand-compliance.svg) ) à direita para abrir o painel direito _Alinhamento da marca_ no espaço de design da página de aterrissagem.
 
-![Acessar as ferramentas de alinhamento de marca](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![Acessar as ferramentas de pontuação do alinhamento da marca](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-Para obter informações detalhadas, consulte [Validar o alinhamento da sua marca](./brand-alignment.md#validate-your-brand-alignment)
+Para obter informações detalhadas, consulte [_Pontuação de alinhamento da marca_](./content-evaluation.md#brand-alignment-score).

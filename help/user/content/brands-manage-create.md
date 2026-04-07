@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2070'
 ht-degree: 7%
 
 ---
@@ -156,7 +156,7 @@ Para criar e definir as diretrizes de marca, você pode inserir os detalhes ou f
 
 Quando sua marca incluir um conjunto completo de definições e atender aos seus requisitos, clique em **[!UICONTROL Publicar]** para disponibilizar as diretrizes da sua marca para alinhamento e geração de conteúdo.
 
-As marcas publicadas podem ser acessadas a partir da opção **[!UICONTROL Marca]** no [alinhamento de marca](./brand-alignment.md) da IA e nas ferramentas de geração de conteúdo. <!-- [Learn more about content generation](gs-generative.md) -->
+As marcas publicadas podem ser acessadas pela opção **[!UICONTROL Marca]** na IA [pontuação de alinhamento de marca](./content-evaluation.md#brand-alignment-score) e nas [ferramentas de geração de conteúdo](../ai-assistant/generative-ai-content.md).
 
 ![Opções de marca para conteúdo](./assets/brand-menu-content-ai-tools.png){width="300"}
 
