@@ -3,9 +3,9 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: bcfd4703c2cd4175670df22dc21ed4626db42a1a
+source-git-commit: 1d63c0a2f595a81fc6cb41e9fac628a2ff72d4a1
 workflow-type: tm+mt
-source-wordcount: '4911'
+source-wordcount: '4907'
 ht-degree: 70%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 70%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -28,7 +28,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | Formulários | Os profissionais de marketing agora podem criar e publicar componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem criadas e publicadas no Journey Optimizer B2B edition _(anteriormente um recurso do programa Beta)_. |
 | Recurso | Canal do WhatsApp | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Os profissionais de marketing agora podem enviar mensagens do WhatsApp diretamente das jornadas da conta através do [!DNL Meta Cloud API]. Este recurso permite a integração perfeita de mensagens de WhatsApp para suportar canais de conteúdo de jornada. [Saiba mais](../admin/configure-channels-whatsapp.md) |
 | Recurso | Suporte para [!DNL Firefly] e modelos personalizados de IA de geração | As equipes de marketing agora podem habilitar a integração de modelos [!DNL Firefly] padrão e personalizados, juntamente com modelos de imagem de terceiros aprovados (como [!DNL NanoBanana]). Os designers de email podem selecionar o melhor modelo para cada caso de uso: padrão [!DNL Firefly] para necessidades gerais, personalizado [!DNL Firefly] para geração na marca ou modelos aprovados de terceiros para cenários especializados ou experimentais. [Saiba mais](../content/generative-ai-models.md) |
-| Recurso | Ações externas personalizadas para jornadas | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Os desenvolvedores agora podem usar APIs para criar integrações com seus sistemas primários. Com essas integrações personalizadas, os profissionais de marketing podem adicionar nós de _Ação externa_ e _Caminho dividido externo_ para fazer solicitações de saída para serviços externos durante a execução da jornada de conta. [Saiba mais]&#x200B;(../admin/configure-external-actions.md |
+| Recurso | Ações externas personalizadas para jornadas | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Os desenvolvedores agora podem usar APIs para criar integrações com seus sistemas primários. Com essas integrações personalizadas, os profissionais de marketing podem adicionar nós de _Ação externa_ e _Caminho dividido externo_ para fazer solicitações de saída para serviços externos durante a execução da jornada de conta. [Saiba mais](../admin/configure-external-actions.md) |
 | Recurso | Marcas | (Beta) As equipes de marketing podem manter a consistência da marca em seus ativos de conteúdo de email armazenando e gerenciando perfis de marca. Ao adicionar ativos, como cores, fontes, logotipos, temas, conteúdo visual e diretrizes de conformidade, é possível usar o perfil da marca para a criação de conteúdo de IA gerativa. Eles também podem medir o alinhamento da marca para garantir a conformidade. [Saiba mais](../content/brands-overview.md) |
 | Aprimoramento | Enviar email - Otimização de hora de envio | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Para os nós de ação _Enviar email_ em jornadas de pessoas, você pode usar as opções de _Otimização de tempo de envio_ para personalizar o tempo de entrega de email, prevendo quando cada perfil tem maior probabilidade de participar. [Saiba mais](../content/email-send-time-optimization.md) |
 | Aprimoramento | Ferramentas de design de modelo de email - Modo avançado do HTML | Com o _modo HTML avançado_ no espaço de design do modelo de email, os usuários podem fazer pequenas edições de HTML/CSS e adicionar tags de script a um modelo de email para resolver problemas de renderização. [Saiba mais](../content/email-template-advanced-html.md) |
