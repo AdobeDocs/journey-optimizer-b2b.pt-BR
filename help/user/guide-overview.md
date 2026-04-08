@@ -2,10 +2,10 @@
 title: Documentação do Adobe Journey Optimizer B2B Edition
 description: 'Documentação completa do Journey Optimizer B2B Edition: explore os recursos disponíveis para integração, criação de grupos de compra, criação de jornadas de conta e gerenciamento de conteúdo.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 43%
+source-wordcount: '917'
+ht-degree: 26%
 
 ---
 
@@ -23,11 +23,29 @@ Revise esta amostragem das adições e aprimoramentos mais recentes no aplicativ
 
 >[!TAB Agentes de IA]
 
-Com o [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, a interface do Assistente de IA pode chamar automaticamente agentes especializados para obter as respostas e os insights certos. O Agent Orchestrator lembra seu histórico de conversas, permitindo que você se baseie em perguntas anteriores naturalmente sem repetir o contexto e combina insights de vários agentes para apresentar respostas claras e unificadas. No contexto [!DNL Journey Optimizer B2B Edition], há três agentes criados com propósitos específicos para tarefas e domínios B2B:
+Com o [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, a interface do Assistente de IA pode chamar automaticamente agentes especializados para obter as respostas e os insights certos. O Agent Orchestrator lembra seu histórico de conversas, permitindo que você se baseie em perguntas anteriores naturalmente sem repetir o contexto e combina insights de vários agentes para apresentar respostas claras e unificadas. No contexto [!DNL Journey Optimizer B2B Edition], há três agentes criados com propósitos específicos para tarefas e domínios B2B:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
 * [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB Canal do WhatsApp]
+
+Quando desenvolvedores e administradores de produtos configuram uma integração com uma conta do Meta Business Manager, os profissionais de marketing podem incluir mensagens do WhatsApp como um canal de conteúdo nas jornadas da conta usando a API da Meta Cloud. O WhatsApp se junta ao email e ao SMS como um canal disponível para fornecer conteúdo de jornada diretamente aos membros da conta.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Saiba mais sobre o canal do WhatsApp"}
+
+>[!TAB Modelos de IA de geração]
+
+Agora, os designers de email podem selecionar entre modelos [!DNL Firefly] padrão, modelos [!DNL Firefly] personalizados treinados em ativos específicos da marca e modelos de imagem de terceiros aprovados ao gerar imagens para conteúdo de email. Essa seleção oferece às equipes controle sobre qual modelo se encaixa em seu cenário de design específico, desde necessidades gerais de conteúdo até casos de uso de marca ou especializados.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Saiba mais sobre a seleção de modelo de IA gerativa"}
+
+>[!TAB Otimização de tempo de envio]
+
+Para os nós de ação _Enviar email_ no jornada de pessoas, agora você pode usar a otimização de tempo de envio para personalizar o tempo de entrega de email. O sistema prevê quando cada pessoa tem maior probabilidade de participar e agenda o delivery de acordo, em vez de enviar para todos os recipients ao mesmo tempo.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Saiba mais sobre a otimização de tempo de envio"}
 
 >[!TAB reentrada de Jornada]
 
@@ -43,27 +61,9 @@ Com temas, os designers não técnicos têm a capacidade de criar diretrizes reu
 
 >[!TAB Mapeamento pessoal]
 
-Os profissionais de marketing podem definir perfis detalhados, incluindo histórico, responsabilidades, pontos problemáticos e canais de comunicação preferidos. Com essas definições, os administradores podem configurar personas de acordo com os atributos de pessoa no [!DNL Journey Optimizer B2B Edition], de modo que os modelos de funções possam usar condições de função simplificadas e consistentes que capturem essas personas.
+Os profissionais de marketing podem definir perfis detalhados, incluindo histórico, responsabilidades, pontos problemáticos e canais de comunicação preferidos. Com essas definições, os administradores podem configurar personas de acordo com os atributos de pessoa em [!DNL Journey Optimizer B2B Edition], de modo que os modelos de função possam usar condições de função simplificadas e consistentes que capturem essas personas.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Saiba mais sobre o mapeamento pessoal"}
-
->[!TAB Insights de Vendas no CRM]
-
-Os membros da equipe de vendas agora podem visualizar grupos de compra em amadurecimento e insights relacionados dentro de uma integração do Salesforce ou Dynamics para identificar novas oportunidades. As informações sobre o grupo de compra, como estágio, pontuação e membros relacionados, estão incluídas.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Saiba mais sobre os Insights de vendas no CRM"}
-
->[!TAB Colaboração de conteúdo de email]
-
-O espaço de design de email inclui ferramentas de colaboração para comentários e resolução, para que as equipes de marketing possam analisar, discutir e finalizar ativos de email diretamente no [!DNL Journey Optimizer B2B Edition]. Em vez de compartilhar rascunhos em ferramentas externas (como bate-papos, threads de email ou planilhas), os usuários podem comentar, sugerir edições e resolver feedbacks dentro do espaço de design de email. Você pode marcar membros da sua equipe para que recebam um email ou notificação instantânea com os detalhes do comentário.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Saiba mais sobre as ferramentas de colaboração de conteúdo de email"}
-
->[!TAB Design de email no modo escuro]
-
-O espaço de design de email agora inclui a visualização e as configurações do _modo escuro_. O modo escuro permite que um cliente de email ou aplicativo compatível exiba emails com fundos mais escuros e cores mais claras para texto, botões e outros elementos visuais. Visualize a renderização, personalize as configurações, garanta a acessibilidade e teste em diferentes clientes de email.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Saiba mais sobre design de emails no modo escuro"}
 
 >[!ENDTABS]
 
@@ -71,7 +71,7 @@ O espaço de design de email agora inclui a visualização e as configurações 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão mais recentes
 
@@ -81,7 +81,7 @@ Mantenha-se atualizado com as notas de versão mais recentes, os novos recursos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução
 
@@ -91,7 +91,7 @@ Revise as orientações de integração do Journey Optimizer B2B edition para ad
 :::
 
 :::
-![Ícone Configurar](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR){width="25"}
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar os campos XDM
 
@@ -101,18 +101,19 @@ Implemente as configurações do sistema para ativar os esquemas e campos XDM qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canais de comunicação
 
-Configure e gerencie emails, SMS e outros canais para interações personalizadas com o cliente.
+Configure e gerencie e-mails, SMS, WhatsApp e outros canais para interações personalizadas com o cliente.
 
 [Configurar canal de email](./admin/configure-channels-emails.md)
 [Configurar canal de SMS](./admin/configure-channels-sms.md)
+[Configurar canal do WhatsApp](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criar uma Jornada de conta
 
@@ -122,7 +123,7 @@ Projete, orquestre, gerencie e otimize jornadas personalizadas de conta.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Compreender grupos de compra
 
@@ -135,11 +136,11 @@ Orientação detalhada sobre como criar, gerenciar e otimizar grupos de compras 
 
 <!-- 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
-Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+Learn how to author and manage content for personalized customer experiences orchestrated through journeys.
 
 [Explore Content Components](./content/content-components.md)
 ::: 
@@ -170,7 +171,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Jornadas da conta"><br/>
-      <strong>Jornadas de conta</strong><br/><a href="./journeys/journeys-overview.md">Visão geral das jornadas</a><br/><a href="./journeys/journeys-overview.md#create-an-account-journey">Criar uma jornada de conta</a><br/><a href="./journeys/journey-nodes.md">Nós de jornada</a>
+      <strong>Jornadas de conta</strong><br/><a href="./journeys/journeys-overview.md">Visão geral das jornadas</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Criar uma jornada de conta</a><br/><a href="./journeys/journey-nodes.md">Nós de jornada</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -192,17 +193,17 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 
 ## Recursos adicionais
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<table style="table-layout:fixed">
+<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desenvolvedores</a>
+<a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos do desenvolvedor</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
 

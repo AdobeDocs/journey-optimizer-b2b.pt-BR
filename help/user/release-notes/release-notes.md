@@ -3,7 +3,7 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1d63c0a2f595a81fc6cb41e9fac628a2ff72d4a1
+source-git-commit: ab1462bc8f81c6983e8e4a620f0502e799901c1b
 workflow-type: tm+mt
 source-wordcount: '4907'
 ht-degree: 70%
@@ -14,11 +14,11 @@ ht-degree: 70%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
-## Notas de versão 2026.3
+## Notas de versão 2026.3 {#rel-2026-3}
 
 **Data de implantação**: 27 de março de 2026
 
@@ -43,7 +43,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 >Essas alterações de versão começam a ser implantadas em 27 de março de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 
-## Notas de versão 2026.2
+## Notas de versão 2026.2 {#rel-2026-2}
 
 **Data de implantação**: 20 de fevereiro de 2026
 
@@ -58,7 +58,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 >
 >Essas alterações de versão começam a ser implantadas em 20 de fevereiro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
-## Notas de versão 2026.1
+## Notas de versão 2026.1 {#rel-2026-1}
 
 **Data de implantação**: 3 de fevereiro de 2026
 
@@ -74,7 +74,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 >
 >Essas alterações de versão começam a ser implantadas em 3 de fevereiro de 2026, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
-## Recursos de IA agêntica
+## Recursos de IA agêntica {#rel-agents}
 
 Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey Optimizer B2B Edition na interface do Assistente de IA:
 
@@ -84,7 +84,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 | Audience Agent | Novo | O Audience Agent identifica e cria automaticamente grupos de compra utilizando dados estruturados e não estruturados. Ele ajuda os profissionais de marketing a atingir as pessoas certas com mais rapidez e precisão. [Saiba mais](../agents/audience-agent-b2b.md) |
 | Qualificador de Vendas | Novo | O qualificador de vendas é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](../agents/sales-qualifier.md) |
 
-## Notas da versão 2025.10
+## Notas da versão 2025.10 {#rel-2025-10}
 
 **Data de implantação**: 31 de outubro de 2025
 
@@ -138,7 +138,7 @@ Com a arquitetura simplificada, os novos recursos e aprimoramentos a seguir est�
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
 | | | -->
 
-## Notas da versão 2025.9
+## Notas da versão 2025.9 {#rel-2025-9}
 
 **Data de implantação**: 30 de setembro de 2025
 
@@ -155,7 +155,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 >
 >Estas alterações da versão começam a ser implantadas em 30 de setembro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
-## Notas da versão 2025.8
+## Notas da versão 2025.8 {#rel-2025-8}
 
 **Data de implantação**: 26 de agosto de 2025
 
@@ -170,7 +170,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Aprimoramento | Atualizações da pontuação de engajamento | A lógica da pontuação de engajamento do grupo de compra é atualizada para normalizar as pontuações. Além disso, é possível trabalhar com pontuações de engajamento no nível dos membros, bem como pontuações de engajamento coletivo para todo o grupo de compra. [Saiba mais](../buying-groups/engagement-scores.md) |
 | Aprimoramento | Observabilidade da jornada ativa: contas em cada nó | Para uma jornada de conta ativa, é possível acessar uma lista das contas que atingiram cada nó de conta na jornada. |
 
-## Notas da versão 2025.6
+## Notas da versão 2025.6 {#rel-2025-6}
 
 **Data de implantação**: 15 de julho de 2025
 
@@ -188,7 +188,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Aprimoramento | Simular conteúdo do resumo de email | Agora você pode acessar as ferramentas _Simular conteúdo_ do resumo de email (detalhes e propriedades) ao abrir um email na lista Emails. Esse acesso é uma adição ao espaço de design de email. [Saiba mais](../content/email-simulate-content.md#display-the-email-preview) |
 | Aprimoramento | Exibição da contagem total da lista de modelos de funções | A página da lista _[!UICONTROL Modelos de funções]_ é aprimorada com a exibição da contagem total ao lado da barra de pesquisa. |
 
-## Notas da versão 2025.5
+## Notas da versão 2025.5 {#rel-2025-5}
 
 **Data de implantação**: 3 de junho de 2025
 
@@ -201,7 +201,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Aprimoramento | Formato de token handlebar para email | Os tokens de personalização para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#content-authoring---personalization) |
 | Aprimoramento | Exibição da contagem total de listas | As páginas de lista _[!UICONTROL Interesses da solução]_ e _[!UICONTROL Jornadas da conta]_ foram aprimoradas com a exibição da contagem total ao lado da barra de pesquisa. |
 
-## Notas da versão 2025.4
+## Notas da versão 2025.4 {#rel-2025-4}
 
 **Data de implantação**: 29 de abril de 2025
 
@@ -216,7 +216,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Aprimoramento | Filtro de página da Web visitada | Orquestre jornadas com base na atividade de páginas da web visitadas associadas a campanhas e programas do Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Saiba mais</a> |
 | Aprimoramento | Lista de emails | Exiba uma lista global de emails ativos e de rascunho para pesquisá-los, analisá-los e atualizá-los nas jornadas de conta associadas. <a href="../content/emails-list.md">Saiba mais</a> |
 
-## Notas da versão 2025.3
+## Notas da versão 2025.3 {#rel-2025-3}
 
 **Data de implantação**: 1º de abril de 2025
 
@@ -229,7 +229,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Recurso | Excluir estágios do grupo de compra | Você pode excluir o modelo de estágios do grupo de compra quando ele estiver em estado de rascunho ou publicado. Se for publicado (ao vivo), você poderá excluí-lo somente quando não estiver associado a um interesse de solução. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Saiba mais</a> |
 | Aprimoramento | Contagens de nós de jornada | Visibilidade aprimorada nas contagens de membros de jornadas publicadas no nível do nó. No _Mapa de jornada_, os nós exibem o _[!UICONTROL Total de contas inseridas]_. Quando um profissional de marketing seleciona um nó de ação, os detalhes à direita também incluem _[!UICONTROL Contas ainda não ativadas]_. Os detalhes de nós _Monitorar um evento_ incluem _[!UICONTROL Contas nesta etapa]_. Essas informações são úteis para validar a progressão da conta em jornadas ativas, concluídas e abortadas. |
 
-## Notas da versão 2025.2
+## Notas da versão 2025.2 {#rel-2025-2}
 
 **Data de implantação**: 11 de março de 2025
 
