@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: c0770348a39a9041d3c96ed2b6f379865f3908f0
+source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 96%
 
 ---
@@ -116,6 +116,7 @@ ht-degree: 96%
       + Modelos de email {#email-templates}
          + [Visão geral](./content/email-templates.md)
          + [Criação de modelo de email](./content/email-template-authoring.md)
+         + [Edição avançada de HTML](./content/email-template-advanced-html.md)
          + [Converter imagem em modelo](./content/email-template-image-convert.md)
       + Modelos de página de destino (beta) {#landing-page-templates}
          + [Visão geral](./content/landing-page-templates.md)
