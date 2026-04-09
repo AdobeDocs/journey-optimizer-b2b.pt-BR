@@ -35,7 +35,7 @@ Em que:
 
   >[!NOTE]
   >
-  >A estrutura de atributos está definida em um [Esquema XDM do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+  >A estrutura de atributos está definida em um [Esquema XDM do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Os identificadores podem ser qualquer caractere Unicode, exceto para o seguinte:
 

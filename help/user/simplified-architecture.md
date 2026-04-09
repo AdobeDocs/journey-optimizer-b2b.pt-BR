@@ -274,7 +274,7 @@ Para oferecer suporte aos profissionais de marketing para a inclusão de outros 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Configurar o site da empresa para oferecer suporte ao Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Saiba mais</a></td>
+<td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview">Saiba mais</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
