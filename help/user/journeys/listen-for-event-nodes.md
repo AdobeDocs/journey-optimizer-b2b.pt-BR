@@ -226,5 +226,5 @@ Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. 
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on) 
 -->

@@ -314,4 +314,4 @@ Adicione um nó _Mesclar caminhos_ para combinar diferentes _caminhos divididos 
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443261/?captions=por_br&learn=on)
