@@ -4,10 +4,10 @@ description: Calcule as pontuações de engajamento do grupo de compras e da pes
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 28%
+source-wordcount: '1298'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ Há dois tipos de pontuações de engajamento:
 
 * **Pontuação de engajamento da pessoa** - A pontuação de engajamento da pessoa é baseada nas atividades de um membro de grupo de compras individual.
 
-  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros &#x200B;]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
+  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros ]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
 
   ![Membros mais engajados do grupo de compras](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -61,7 +61,8 @@ Há um limite de frequência diário de 20 para cada atividade. Se um membro de 
 | Page Views | Um membro exibe uma página da Web | Web | 20 | 40 |
 | Inscrever-se em um evento | Um membro registrado para um evento | Evento | 20 | 60 |
 
-<!-- old list
+<!--
+ old list
 
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
@@ -99,7 +100,8 @@ Há um limite de frequência diário de 20 para cada atividade. Se um membro de 
 | [!UICONTROL Interacted with Document in Conversational Flow] | A member interacts with a document in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Engaged with an Agent in Conversational Flow] | A member engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
-| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 | -->
+| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
+-->
 
 >[!NOTE]
 >

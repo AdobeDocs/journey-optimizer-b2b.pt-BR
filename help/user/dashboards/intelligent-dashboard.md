@@ -4,9 +4,9 @@ description: Acesse insights alimentados por IA para grupos de compras e contas 
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1682'
 ht-degree: 16%
 
 ---
@@ -217,8 +217,9 @@ Cada cartão inclui os seguintes dados:
    * A ordem de classificação é alta a baixa para categoria, produto e palavras-chave. Se um ou mais tipos tiverem a mesma intensidade de intenção, a classificação usará a ordem alfabética.
 
   {{intent-data-note}}
-<!-- 
-At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
+<!--
+At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. 
+-->
 
 ### Filtro de atributo {#attribute-filter-acct-highlights}
 

@@ -4,10 +4,10 @@ description: Crie emails com ferramentas de design visual, importação do HTML 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 2%
+source-wordcount: '1175'
+ht-degree: 3%
 
 ---
 
@@ -17,13 +17,13 @@ Depois de [adicionar um ativo de email a um nó de ação de jornada](./add-emai
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
-![Clique em Editar conteúdo do email &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Clique em Editar conteúdo do email ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
 * [Crie o email do zero](#design-your-email-from-scratch) usando a interface Designer de email.
 
-* [Importe conteúdo existente do HTML](#import-existing-html-content) de um arquivo ou de uma pasta .zip.
+* [Importar conteúdo HTML existente](#import-existing-html-content) de um arquivo ou uma pasta .zip.
 
 * [Selecione um modelo existente](#select-a-template) em uma lista de modelos de email predefinidos ou personalizados.
 
@@ -51,11 +51,13 @@ Use o espaço de design de conteúdo visual para definir a estrutura e o conteú
 
 1. [Testar o email](#check-and-test-the-email).
 
-<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
+<!--
+ If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual design space for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. 
+-->
 
 Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 

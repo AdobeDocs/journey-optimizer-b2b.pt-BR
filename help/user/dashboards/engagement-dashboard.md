@@ -4,9 +4,9 @@ description: Monitore métricas de engajamento em tempo real para contas, grupos
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '561'
 ht-degree: 6%
 
 ---
@@ -90,7 +90,7 @@ Escolha **[!UICONTROL Exibir mais]** para dados e insights estendidos.
 Dependendo do gráfico, há dados estendidos para o seguinte:
 
 | Envolvimento por contas / grupos de compra / pessoas | Contas/grupos de compras/pessoas envolvidas ao longo do tempo |
-| ----------------------------------------------- | -------------------------------------------------- | 
+| ----------------------------------------------- | -------------------------------------------------- |
 | <li>Envolvido <li>Não Envolvido | <li>Data <li>Contas / Grupos de compras / Pessoas (número) <li>Envolvido/Não engajado |
 
 Para copiar os dados estendidos, clique em **[!UICONTROL Baixar CSV]** na parte superior direita.

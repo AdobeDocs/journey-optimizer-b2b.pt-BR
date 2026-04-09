@@ -6,7 +6,7 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 7%
@@ -251,7 +251,8 @@ Selecione a guia **[!UICONTROL Estilo de Escrita]** e revise cada categoria.
 |                            | [!UICONTROL Padrões de direitos autorais] | Inclua avisos de direitos autorais nos materiais de marketing. | Não use conteúdo de terceiros sem permissão. |
 |                            | [!UICONTROL Padrões de isenção de responsabilidade] | Exibir avisos de isenção de responsabilidade de forma legível em ativos digitais. | Não oculte isenções de responsabilidade em áreas não visíveis. |
 
-<!-- #### Preferred and avoided terms
+<!--
+ #### Preferred and avoided terms
 
 Supplement your work choice guidelines by adding preferred and avoided terms. 
 
@@ -286,14 +287,14 @@ Selecione a guia **[!UICONTROL Visual content]** e revise cada categoria.
 | [!UICONTROL Padrões de ícones] | Use um sistema de grade de 24px consistente. | Não misture dimensões de ícone, use espessuras de traçado inconsistentes ou desvie das regras de grade. |
 | [!UICONTROL Diretrizes de uso] | Escolha imagens de estilo de vida que reflitam clientes reais usando o produto em ambientes profissionais. | Não use imagens que estejam em contradição com o tom da marca ou que apareçam fora de contexto. |
 
-<!-- #### Styles
+<!--
+ #### Styles
 
 To define the overall style for the category, click **[!UICONTROL Add style]**. In the popup dialog, enter the style type and description. 
 
 ![Add style for visual content category](./assets/brands-visual-content-add-style.png){width="500" zoomable="yes"}
 
 #### Specifications
-
 -->
 
 #### Exemplo de imagens

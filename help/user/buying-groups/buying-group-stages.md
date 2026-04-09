@@ -4,10 +4,10 @@ description: Crie modelos de estágio de grupo de compras personalizados com est
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 1%
+source-wordcount: '2357'
+ht-degree: 2%
 
 ---
 
@@ -181,16 +181,18 @@ Se não houver erros de validação, o modelo poderá ser publicado. Quando publ
    Com o retorno à página de detalhes do modelo, o modelo é designado como _[!UICONTROL Live]_. Clique na seta _Voltar_ na parte superior esquerda para retornar à página de guia _[!UICONTROL Estágios]_.
 
 ![O modelo publicado](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
-<!-- list these later when the Published columns are working correctly
+<!--
+ list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
-Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. 
+-->
 
 ## Excluir o modelo de estágios de grupo de compra
 
-Você pode excluir o modelo de estágios do grupo de compra quando ele estiver em estado de rascunho ou publicado. Se for publicado (em tempo real), você poderá excluí-lo somente quando não estiver associado a um interesse de solução.
+Você pode excluir o modelo de estágios do grupo de compra quando ele estiver em estado de rascunho ou publicado. Se for publicado (ao vivo), você poderá excluí-lo somente quando não estiver associado a um interesse de solução.
 
 1. Na navegação à esquerda, vá para **[!UICONTROL Contas]** > **[!UICONTROL Grupos de Compras]**.
 
@@ -215,7 +217,7 @@ Para cada interesse de solução existente onde você deseja associar o modelo d
 1. Abra o interesse da solução usando um dos métodos a seguir para abrir as propriedades do interesse da solução que deseja editar:
 
    * Clique no nome de interesse da solução.
-   * Clique nas reticências (**...**) ao lado dele e escolha **[!UICONTROL Editar]**.
+   * Clique nas reticências (**...**) ao lado dele, escolha **[!UICONTROL Editar]**.
 
    ![Menu Mais interesses da solução](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -365,4 +367,4 @@ Use a ocorrência de uma alteração de estágio de grupo de compra para mover a
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448699/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

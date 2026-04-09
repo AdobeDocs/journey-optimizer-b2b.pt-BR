@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -27,14 +28,14 @@ Exemplo de expressão simples:
 {{account.accountName}}
 ```
 
-Onde:
+Em que:
 
 * `account` é um namespace.
 * `accountName` é um token composto por atributos.
 
   >[!NOTE]
   >
-  >A estrutura de atributos está definida em um [Esquema XDM do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}.
+  >A estrutura de atributos está definida em um [Esquema XDM do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Os identificadores podem ser qualquer caractere Unicode, exceto para o seguinte:
 
@@ -48,9 +49,11 @@ Onde:
 
 * Em Handlebars, os valores retornados por {\{expression}\} são _HTML-escaped_. Se a expressão contiver `&`, a saída de escape de HTML retornada será gerada como `&amp;`. Se você não quiser que Handlebars escape um valor, use o +triple-stash_.
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
 * Para argumentos de funções literais, o analisador de linguagem de modelo não oferece suporte ao símbolo de barra invertida sem escape único (`\`). Este caractere deve ser evitado com um símbolo adicional de barra invertida (`\`). Por exemplo:
 
@@ -68,9 +71,11 @@ Uma função auxiliar Handlebars é um identificador simples que pode ser anexad
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 Para obter informações mais detalhadas sobre essas funções, consulte [Funções auxiliares](./personalization-helper-functions.md).
 

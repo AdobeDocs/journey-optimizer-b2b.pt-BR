@@ -4,9 +4,9 @@ description: Monitore o desempenho da jornada da conta com taxas de conclusão, 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,13 @@ Colunas da tabela de **[!UICONTROL Desempenho do email]**:
 * _[!UICONTROL Enviado]_ - número de mensagens SMS enviadas
 * _[!UICONTROL Taxa de entrega]_ - número de mensagens SMS entregues dividido pelo número enviado
 * _[!UICONTROL Taxa de click-through]_ - número de mensagens SMS clicadas dividido pelo número entregue
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+<!--
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
+-->
 
 ## Melhor interação
 
-Interaja mais com os dados usando o ícone de ação (**...**) na parte superior direita de cada gráfico ou tabela.
+Interagir mais com os dados usando o ícone de ação (**...**) na parte superior direita de cada gráfico ou tabela.
 
 ### Drill-Through
 
@@ -73,7 +74,8 @@ Para o gráfico _[!UICONTROL status da Jornada]_, escolha **[!UICONTROL Drill-th
 
 ![O drill-through para os dados de gráfico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
+-->
 
 ### Visualizar mais
 

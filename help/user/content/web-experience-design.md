@@ -5,9 +5,9 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2357'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Antes de criar experiências da Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
    * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
@@ -221,16 +221,16 @@ As modificações do seletor de CSS permitem direcionar elementos com precisão 
 
 1. Insira o seletor no campo **[!UICONTROL Seletor de Elemento CSS]**.
 
-<!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
+   <!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
 
-    **Exemplos de seletores:**
-    
-    | Seletor | Targets |
-    | — | — |
-    | `#hero-banner` | Elemento com ID `hero-banner` |
-    | `.cta-button` | Todos os elementos com classe `cta-button` |
-    | `header nav a` | Links dentro da navegação, dentro do cabeçalho |
-    | `[data-offer=&quot;premium&quot;]` | Elementos com um atributo de dados específico |
+   **Exemplo de seletores:**
+
+   | Seletor | Metas |
+   | -------- | ------- |
+   | `#hero-banner` | Elemento com ID `hero-banner` |
+   | `.cta-button` | Todos os elementos com classe `cta-button` |
+   | `header nav a` | Links na navegação, dentro do cabeçalho |
+   | `[data-offer="premium"]` | Elementos com um atributo de dados específico |
 
 1. Escolha um **[!UICONTROL Tipo de ação]** e especifique as informações/conteúdo necessários.
 
@@ -299,11 +299,13 @@ Cada registro de modificação inclui:
 
 1. Confirme a remoção quando solicitado.
 
-<!-- ### Reorder modifications
+<!--
+ ### Reorder modifications
 
 Modifications are applied in the order that they appear in the list. If you have multiple modifications that affect the same element, the order may impact the final result.
 
-Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. -->
+Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. 
+-->
 
 ## Visualizar suas modificações
 
@@ -327,7 +329,7 @@ Rastreie as interações do usuário com elementos para medir o engajamento e co
 
 Quando sua experiência na Web é ativada (ativa), você também pode criar relatórios usando o Adobe Customer Journey Analytics (que requer uma assinatura do produto). Para melhorar o monitoramento da experiência online, você também pode rastrear os cliques em qualquer elemento específico do site. O rastreamento permite exibir o número de cliques desse elemento nos relatórios da Web.
 
-Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing).
+Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Selecione um elemento no editor de experiência online, como uma imagem ou link.
 

@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 7%
 
 ---
 
@@ -54,7 +54,8 @@ Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UI
 
 Clique em **[!UICONTROL Salvar]** a qualquer momento para salvar o modelo de página de destino.
 <!--
-You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). 
+-->
 
 ### Exibir opções
 
@@ -74,5 +75,5 @@ No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design visual, v
 
 * **[!UICONTROL Redefinir página de aterrissagem]** - Clique nesta opção para limpar a tela de design visual para uma folha em branco e reiniciar a criação do conteúdo da página.
 * **[!UICONTROL Alterar seu design]** - Retorne à _[!UICONTROL página inicial principal]_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design ou optar por projetar a página do zero em uma tela em branco.
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.

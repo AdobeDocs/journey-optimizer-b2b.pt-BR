@@ -4,7 +4,7 @@ description: Calcule as pontuações de integridade do grupo de compras usando l
 feature: Buying Groups
 role: User
 exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
-source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 9%
@@ -50,7 +50,8 @@ Em uma grande empresa, você pode identificar uma pessoa por função. No entant
 
 Depois de analisar a integridade atual do grupo de compras, você pode ajustar o número necessário de contatos para cada função no modelo de funções. Esses ajustes permitem ajustar a estratégia do grupo de compras com base em padrões do mundo real e resultados de vendas.
 
-<!-- ## Analyze audiences for journey optimization
+<!--
+ ## Analyze audiences for journey optimization
 
 Marketers can view the starting buying group completeness score of target account audiences to find the best performance indicators for a solution. This visibility enables marketers to:
 
@@ -62,7 +63,8 @@ Marketers can view the starting buying group completeness score of target accoun
 
 The buying group completeness score is available to use for filtering in [journey split-path-by-account nodes](../journeys/split-merge-paths-nodes.md#account-path-filters) and for audience segmentation. Role completeness can be used to create personalized content that addresses specific gaps in buying group composition.
 
->[!ENDSHADEBOX] -->
+>[!ENDSHADEBOX] 
+-->
 
 ## Cálculo de integridade da função {#role-completeness-calculation}
 
@@ -151,5 +153,4 @@ Set up journey events that trigger specific actions when buying groups reach com
 * Trigger an automated assessment when a buying group stalls at the same completeness level for an extended period.
 
 By leveraging completeness scores throughout the journey, you create more targeted, efficient campaigns that align with the actual composition and maturity of your buying groups.
-
 -->

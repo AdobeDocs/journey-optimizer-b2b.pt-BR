@@ -4,9 +4,9 @@ description: Use componentes de estrutura para criar layouts para emails, págin
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1603'
 ht-degree: 7%
 
 ---
@@ -97,7 +97,7 @@ Você pode remover a designação do cabeçalho ou rodapé selecionando o compon
 
 Para telas menores ou janelas de exibição, as colunas no componente de estrutura são exibidas como empilhadas, a menos que você altere a configuração padrão. Com o componente de estrutura de várias colunas selecionado, altere a configuração **[!UICONTROL Não empilhar colunas em dispositivos móveis]** movendo o controle deslizante para a direita.
 
-![Não empilhar colunas no celular &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Não empilhar colunas no celular ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componentes
 

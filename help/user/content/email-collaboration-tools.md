@@ -3,10 +3,11 @@ title: Enviar ferramentas do Collaboration por email
 description: Colabore em emails no Journey Optimizer B2B edition. Adicione comentários, convide revisores, resolva comentários e simplifique os fluxos de trabalho de revisão para equipes.
 feature: Email Authoring, Content
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 3%
+source-wordcount: '1213'
+ht-degree: 4%
 
 ---
 
@@ -24,11 +25,13 @@ O [espaço de design de email](./email-authoring.md) inclui ferramentas de colab
 
 * **_Collaboration no contexto_** - Revise a cópia do corpo do email, as imagens e os elementos do call-to-action (CTA) no layout.
 
-<!-- Enable asynchronous collaboration between team members for an email asset
+<!--
+ Enable asynchronous collaboration between team members for an email asset
 Allow users to attach comments to specific design elements
 Provide a unified interface for viewing and managing all comments within a project
 Support comment placement, editing, deleting, and navigation
-Display visual indicators (badges) for elements with associated comments -->
+Display visual indicators (badges) for elements with associated comments 
+-->
 
 ## Habilitar ferramentas de colaboração por email para revisores
 

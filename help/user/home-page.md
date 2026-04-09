@@ -4,10 +4,10 @@ description: 'Acesse o Journey Optimizer B2B Edition e navegue pelas páginas in
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -15,13 +15,16 @@ ht-degree: 100%
 
 Com o Adobe Journey Optimizer B2B Edition, você pode orquestrar jornadas de conta e de grupo de compra usando a IA generativa integrada e automação líder do setor para maximizar a demanda para ofertas específicas com grupos de compra qualificados para marketing.
 
-<!-- Requirements?
+<!--
+ Requirements?
 -->
+
 Para acessar o [!DNL Adobe Journey Optimizer B2B Edition], conecte-se à Adobe Experience Cloud com sua Adobe ID e selecione [!DNL Journey Optimizer B2B Edition].
 
 ![Aplicativos da Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-Ao fazer logon na Adobe Experience Platform e selecionar o aplicativo Adobe Journey Optimizer B2B Edition, a página inicial é exibida. Esta página oferece uma visão geral do estado atual das iniciativas B2B no Journey Optimizer na forma de<!-- refined insights and--> links de acesso rápido aos recursos relevantes. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+Ao fazer logon na Adobe Experience Platform e selecionar o aplicativo Adobe Journey Optimizer B2B Edition, a página inicial é exibida. Esta página fornece uma visão geral do estado atual de suas iniciativas B2B do Journey Optimizer na forma de links de acesso rápido <!-- refined insights and--> para os recursos relevantes.
+<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Página inicial do Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
@@ -36,7 +39,7 @@ A seção _[!UICONTROL Acessados recentemente]_ fornece uma lista dos ativos ace
 
 A página também inclui acesso ao [Assistente de IA](./ai-assistant/ai-assistant-overview.md), que ajuda os usuários a obter informações rápidas sobre quaisquer perguntas ou tópicos específicos de que precisem.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
-<!-- 
+<!--
 
 ## Marketer - new user
 
@@ -81,5 +84,4 @@ The second row consists of the recent assets used by the B2B marketers in a sing
 The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
 
 The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
-
 -->

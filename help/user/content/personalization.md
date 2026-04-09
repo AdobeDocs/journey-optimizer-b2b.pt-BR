@@ -7,7 +7,7 @@ role: User, Developer
 level: Intermediate
 keywords: expressão, editor, início, personalização
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 6%
@@ -43,7 +43,7 @@ No [!DNL Journey Optimizer B2B Edition], você pode criar seu conteúdo de email
 
 >[!NOTE]
 >
->Saiba mais sobre os esquemas XDM na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}.
+>Saiba mais sobre os esquemas XDM na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## editor do Personalization
 
@@ -65,10 +65,12 @@ Clique no ícone do menu _Mais_ ( **...** ) (ao lado do ícone _Adicionar_ ( **+
 
 ![editor do Personalization - menu Token Mais](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
+
 Você também pode definir uma sequência de texto de fallback padrão que será exibida se um atributo de perfil do tipo sequência estiver vazio. Clique no ícone _Mais menu_ ( **...** ) do atributo e selecione **[!UICONTROL Inserir com texto de fallback]**. Insira o texto a ser exibido quando o valor do atributo estiver vazio para um perfil e clique em **[!UICONTROL Adicionar]**.
 
 É uma prática recomendada validar a expressão antes de inseri-la no conteúdo. Clique em **[!UICONTROL Validar]** na parte inferior do editor para verificar sua sintaxe e garantir que não haja erros.

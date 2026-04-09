@@ -6,7 +6,7 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-source-git-commit: ce4df9a2726cf842c088738521b3e5dd88dd768f
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 2%
@@ -36,7 +36,8 @@ A IA gerativa para conteúdo no [!DNL Adobe Journey Optimizer B2B Edition], viab
 Use os recursos de IA gerativa para criação de conteúdo no [!DNL Journey Optimizer B2B Edition] para aproveitar os recursos de IA gerativa da Adobe. Crie texto e visuais personalizados para emails, mensagens SMS, páginas de aterrissagem e muito mais. Ao criar uma campanha completa ou simplesmente refinar ativos específicos, esses recursos ajudam você a alinhar o conteúdo perfeitamente às diretrizes da sua marca, economizando tempo valioso.
 
 <!--
-Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
+-->
 
 >[!IMPORTANT]
 >
@@ -49,7 +50,7 @@ As ferramentas do Assistente de IA para geração de conteúdo são compatíveis
 
 ## Orientações gerais e limitações {#general-guidelines-and-limitations}
 
-Seu uso de recursos de IA gerativa está sujeito às [Diretrizes de usuário da IA gerativa da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Com o compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa para criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado por [!DNL Firefly] quando ele for baixado ou exportado.
+Seu uso de recursos de IA gerativa está sujeito às [Diretrizes de usuário da IA gerativa da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Com o compromisso da Adobe com a transparência no uso de ferramentas de IA gerativa para criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado por [!DNL Firefly] quando ele for baixado ou exportado.
 
 Revise estas diretrizes gerais para o uso da IA gerativa para conteúdo no [!DNL Journey Optimizer B2B Edition]:
 
@@ -243,7 +244,8 @@ Sempre forneça contexto e a proposta de valor para produzir conteúdo relevante
 </tbody>
 </table>
 
-<!-- channels not yet supported
+<!--
+ channels not yet supported
 <tr>
 <td><strong>SMS</strong></td>
 <td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
@@ -251,9 +253,11 @@ Sempre forneça contexto e a proposta de valor para produzir conteúdo relevante
 <tr>
 <td><strong>Push Notifications</strong></td>
 <td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
-</tr> -->
+</tr> 
+-->
 
-<!-- Wait on more B2B specific examples
+<!--
+ Wait on more B2B specific examples
 
 ### Industry-specific approaches {#industry-approaches}
 
@@ -291,7 +295,8 @@ Sempre forneça contexto e a proposta de valor para produzir conteúdo relevante
 </tr>
 </tbody>
 </table>
- -->
+ 
+-->
 
 ### Novo conteúdo versus modificação de conteúdo existente {#new-vs-modify}
 

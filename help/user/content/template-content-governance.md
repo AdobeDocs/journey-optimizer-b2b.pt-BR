@@ -4,7 +4,7 @@ description: Bloquear componentes de modelo de email para conformidade com a mar
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -48,14 +48,15 @@ Depois de usar o espaço de design visual para [criar os componentes estruturais
    ![Habilitar adições de conteúdo](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    Com esse modo definido no nível raiz, todos os elementos no modelo são bloqueados. A estrutura de árvore à esquerda exibe o ícone _Somente leitura_ ( ![Ícone Somente leitura](../assets/do-not-localize/icon-tree-lock.svg) ) ao lado da raiz e de todos os elementos secundários.
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## Aplicar bloqueio a uma estrutura
 

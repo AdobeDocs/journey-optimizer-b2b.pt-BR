@@ -5,10 +5,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 3%
+source-wordcount: '387'
+ht-degree: 6%
 
 ---
 
@@ -74,5 +74,5 @@ No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design visual, v
 
 * **[!UICONTROL Redefinir página de aterrissagem]** - Clique nesta opção para limpar a tela de design visual para uma folha em branco e reiniciar a criação do conteúdo da página.
 * **[!UICONTROL Alterar seu design]** - Retorne à _[!UICONTROL página inicial principal]_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design ou optar por projetar a página do zero em uma tela em branco.
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Exportar HTML]** - Baixe o conteúdo na tela visual para o sistema local no formato HTML empacotado como um arquivo zip.
