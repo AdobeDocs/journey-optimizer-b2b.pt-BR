@@ -1,12 +1,12 @@
 ---
 title: Modelos de email
-description: Crie modelos de email reutilizáveis do zero, da importação do HTML ou de designs existentes - gerencie modelos para jornadas de conta no Journey Optimizer B2B edition.
+description: Crie modelos de email reutilizáveis do zero, da importação do HTML ou de designs existentes - gerencie modelos para jornadas de conta no Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Use o editor de conteúdo visual para definir a estrutura do conteúdo de email.
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HTML para criar seus modelos de email.
+O Adobe Journey Optimizer B2B Edition permite importar conteúdo existente do HTML para criar seus modelos de email.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -121,7 +121,7 @@ Na página de detalhes dos modelos de email, clique na guia **[!UICONTROL Usado 
 
 ![Clique na guia Usado por para verificar o uso do modelo](./assets/template-details-used-by.png){width="400"}
 
-Os emails no Journey Optimizer B2B edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
+Os emails no Journey Optimizer B2B Edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
 
 * Ao clicar no link, você é direcionado ao email de jornada correspondente onde o template de email é usado.
 
@@ -175,7 +175,7 @@ Na tela _Criar seu email_, use a seção _Selecionar modelo de design_ para come
 
 Para começar a criar o conteúdo com um dos templates de email criados, siga estas etapas:
 
-1. Acesse o Designer de email na página _Editar conteúdo_.
+1. Acesse o espaço de design visual na página _Editar conteúdo_.
 
    Na página _Criar email_, a guia _Modelos de amostra_ é selecionada por padrão.
 

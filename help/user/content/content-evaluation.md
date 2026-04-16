@@ -1,19 +1,19 @@
 ---
-title: Pontuação de conteúdo
+title: Avaliação e pontuação de conteúdo
 description: Avaliar o conteúdo de email com pontuação de alinhamento de marca - valide cores, fontes, logotipos e estilo de escrita em relação às diretrizes da marca no Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 8%
 
 ---
 
-# Pontuação de conteúdo {#content-scoring}
+# Avaliação e pontuação de conteúdo {#content-scoring}
 
 A avaliação e a pontuação do conteúdo ajudam a criar, revisar e gerenciar o conteúdo que segue as diretrizes [definidas na marca selecionada](./brands-manage-create.md#brand-definitions) e os padrões gerais de qualidade. A execução de uma avaliação garante a consistência no tom, nas mensagens e na identidade visual em suas campanhas de email, além de servir como uma verificação de qualidade antes do conteúdo ser publicado.
 
@@ -41,7 +41,7 @@ A avaliação e a pontuação do conteúdo ajudam a criar, revisar e gerenciar o
 
    ![Pontuações de avaliação no painel direito](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## Pontuação de alinhamento da marca {#brand-score}
+## Pontuação de alinhamento da marca {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ A pontuação é calculada de acordo com as violações identificadas no conteú
 * 60-79 = Razoável - Algumas violações significativas
 * Abaixo de 60 = Insatisfatório - As violações graves exigem atenção
 
-Você pode examinar os resultados da avaliação com mais detalhes para ajudá-lo a identificar violações e melhorar suas pontuações de alinhamento de categoria (_Alto_, _Medium_ e _Baixo_) e examinar os detalhes.
+Você pode examinar os resultados da avaliação com mais detalhes para ajudar a identificar violações e melhorar as pontuações de alinhamento da categoria (_Alto_, _Medium_ e _Baixo_).
 
 Para o **[!UICONTROL Estilo de escrita]** ou **[!UICONTROL Conteúdo visual]**, clique na seta _Expandir_ ( ![Expandir seta](../assets/do-not-localize/icon-expand-right.svg) ) para exibir os detalhes da avaliação.
 

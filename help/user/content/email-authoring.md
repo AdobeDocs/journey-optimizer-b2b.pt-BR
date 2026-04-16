@@ -4,7 +4,7 @@ description: Crie emails com ferramentas de design visual, importação do HTML 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 3%
@@ -17,11 +17,11 @@ Depois de [adicionar um ativo de email a um nó de ação de jornada](./add-emai
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
-![Clique em Editar conteúdo do email &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Clique em Editar conteúdo do email ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
-* [Crie o email do zero](#design-your-email-from-scratch) usando a interface Designer de email.
+* [Crie o email do zero](#design-your-email-from-scratch) usando a interface de design visual.
 
 * [Importar conteúdo HTML existente](#import-existing-html-content) de um arquivo ou uma pasta .zip.
 

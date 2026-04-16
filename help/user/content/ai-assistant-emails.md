@@ -4,9 +4,9 @@ description: Gerar conteúdo de email com o Assistente de IA - crie conteúdo de
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '3632'
+source-wordcount: '3633'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Esse novo recurso fornece uma geração de conteúdo com base em prompts para a 
 
 Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Com o compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado pela Firefly quando ele for baixado ou exportado.
+Com o compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado pela Firefly quando ele for baixado ou exportado.
 
 As limitações e diretrizes a seguir se aplicam aos recursos do Assistente de IA usados para a geração de conteúdo de email no [!DNL Journey Optimizer B2B Edition]:
 
@@ -222,7 +222,7 @@ Depois de [criar e personalizar seu email](./email-authoring.md), use o Assisten
 
 No espaço de design de email, o Assistente de IA pode ajudar você a otimizar o impacto de seus deliveries, gerando o corpo completo do email, o conteúdo de texto direcionado e as imagens que refletem no seu público-alvo. Essa otimização de suas campanhas de email foi projetada para produzir um melhor engajamento. Selecione o _Assistente de IA_ ( ![alternância de menu do Assistente de IA](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) para exibir as ferramentas de geração de conteúdo disponíveis para a seleção de conteúdo atual.
 
-![Alternância do Assistente de IA no designer de email](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![Alternância do Assistente de IA no espaço de design de email](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 Use as seguintes etapas de acordo com o tipo de geração de conteúdo de email que você deseja usar:
 
