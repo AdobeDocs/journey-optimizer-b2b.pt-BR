@@ -4,10 +4,10 @@ description: Gerenciar o acesso do usuário com o Experience Cloud Admin Console
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -62,7 +62,7 @@ Para obter mais informações sobre como usar perfis de produtos para direitos d
 
 Ao adicionar um usuário ao perfil de produto do Marketo Engage, ele é subsequentemente adicionado à função _Usuário padrão_ no espaço de trabalho Padrão da assinatura do Marketo Engage. Essa função concede a eles todas as permissões padrão para o Marketo Engage nesse espaço de trabalho. Atualmente, todos os usuários do Journey Optimizer B2B edition precisam ser usuários do Marketo Engage. Um administrador do Marketo Engage pode restringir o acesso atualizando as permissões para a função de _Usuário padrão_ ou movendo o usuário para outra função de usuário do Marketo Engage com permissões mais restritivas.
 
-Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
+Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Um grupo de usuários é uma coleção de usuários aos quais é concedido um co
 
 >[!TIP]
 >
->Se você estiver migrando para a arquitetura simplificada e quiser adicionar usuários existentes do Journey Optimizer B2B edition ao Marketo Engage, ignore as etapas de criação do grupo de usuários, abra o grupo de usuários existente e adicione o perfil de produto do Marketo Engage.
+>Se você estiver migrando de uma implantação herdada e quiser adicionar seus usuários existentes do Journey Optimizer B2B Edition ao Marketo Engage, ignore as etapas de criação do grupo de usuários, abra o grupo de usuários existente e adicione o perfil de produto do Marketo Engage.
 
 Para obter mais informações sobre como os grupos de usuários são usados para gerenciar permissões, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/enterprise/using/user-groups.html){target="_blank"} na documentação do Admin Console.
 
@@ -147,7 +147,7 @@ As permissões são direitos unitários que permitem definir as autorizações a
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
-Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
+Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
 
 ### Permissões de produto B2B {#b2b-product-permissions}
 

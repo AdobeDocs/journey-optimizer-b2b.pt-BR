@@ -1,10 +1,10 @@
 ---
 title: Comprando modelos de função de grupo
-description: Crie modelos de função com atribuição automática condicional para identificar tomadores de decisão e participantes de grupos de compra no Journey Optimizer B2B edition.
+description: Crie modelos de função com atribuição automática condicional para identificar tomadores de decisão e participantes de grupos de compra no Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 5%
@@ -128,7 +128,7 @@ Para usar a associação de lista como uma condição de função, expanda **[!U
 >
 >**Descontinuação de recursos**</br></br>
 >
->Com a [arquitetura simplificada](../simplified-architecture.md) para o Journey Optimizer B2B edition, não há suporte para filtragem com base na lista ou associação de programa em uma instância do Marketo Engage.
+>Na versão atual do Journey Optimizer B2B Edition, a filtragem com base na lista ou associação de programa em uma instância do Marketo Engage não é mais suportada.
 
 >[!ENDSHADEBOX]
 
@@ -146,7 +146,7 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
 1. Na caixa de diálogo, altere o valor de **[!UICONTROL Membros necessários]** para cada função definida, conforme necessário.
 
-   Você pode inserir o valor ou clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
+   Você pode inserir o valor ou clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -194,4 +194,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

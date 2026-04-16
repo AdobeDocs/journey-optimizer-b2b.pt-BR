@@ -7,9 +7,9 @@ role: User, Developer
 level: Intermediate
 keywords: expressão, editor, início, personalização
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '751'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ No [!DNL Journey Optimizer B2B Edition], você pode criar seu conteúdo de email
 
 >[!NOTE]
 >
->Saiba mais sobre os esquemas XDM na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}.
+>Saiba mais sobre os esquemas XDM na [documentação do Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## editor do Personalization
 
@@ -52,10 +52,6 @@ O editor de personalização está disponível em cada contexto em que você pre
 Adicione personalização em qualquer campo ou componente de conteúdo clicando no ícone _Adicionar personalização_ ( ![Adicionar ícone de personalização](../../assets/do-not-localize/icon-personalization-field.svg) ).
 
 ![editor do Personalization](./assets/personalization-editor.png){width="800" zoomable="yes"}
-
->[!NOTE]
->
->As informações a seguir sobre o editor de personalização refletem as alterações disponíveis para [!DNL Journey Optimizer B2B Edition] ambientes provisionados na [arquitetura simplificada](../simplified-architecture.md).
 
 ### Tokens e funções auxiliares
 

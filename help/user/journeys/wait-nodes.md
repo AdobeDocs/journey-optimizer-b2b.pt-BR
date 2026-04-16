@@ -4,9 +4,9 @@ description: Use nós de espera para pausar a progressão da jornada e controlar
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,6 @@ Habilite a opção **[!UICONTROL Deve terminar em]** para configurar uma _etapa 
 Com uma _etapa de espera avançada_, você define **_quando_** a pessoa ou conta deve sair, e não apenas quanto tempo deve esperar.
 
 ![nó de Jornada - etapa de espera avançada](./assets/node-wait-advanced.png){width="500"}
-
->[!AVAILABILITY]
->
->As configurações avançadas de espera estão disponíveis para ambientes [!DNL Journey Optimizer B2B Edition] que são provisionados na [arquitetura simplificada](../simplified-architecture.md).
 
 ### Tipos de espera
 

@@ -1,26 +1,26 @@
 ---
 title: Criação de conteúdo - personalização
 description: Seção reutilizada sobre o uso de personalização para criação de conteúdo
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # Criação de conteúdo - personalização
 
-O Journey Optimizer B2B edition usa uma sintaxe simples em linha que permite criar expressões com conteúdo personalizado delimitado por chaves `{{}}`. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições.
+O Journey Optimizer B2B Edition usa uma sintaxe simples embutida que permite criar expressões com conteúdo personalizado delimitado por chaves `{{}}`. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições.
 
-Por exemplo, você pode adicionar uma expressão de personalização como `Hello {{lead.firstName}} {{lead.lastName}}`. Ao processar o conteúdo, o Journey Optimizer B2B edition substitui a expressão pelos dados contidos no banco de dados do Experience Platform. Assim, o primeiro exemplo torna-se _Olá, John Doe_.
+Por exemplo, você pode adicionar uma expressão de personalização como `Hello {{lead.firstName}} {{lead.lastName}}`. Ao processar o conteúdo, o Journey Optimizer B2B Edition substitui a expressão pelos dados contidos no banco de dados do Experience Platform. Assim, o primeiro exemplo torna-se _Olá, John Doe_.
 
-Consulte [Personalização de conteúdo](../user/content/personalization.md) para obter informações mais abrangentes sobre o uso de ferramentas de personalização no Journey Optimizer B2B edition.
+Consulte [Personalização de conteúdo](../user/content/personalization.md) para obter informações mais abrangentes sobre o uso de ferramentas de personalização no Journey Optimizer B2B Edition.
 
 >[!NOTE]
 >
->O Journey Optimizer B2B edition segue a sintaxe _camel case_ para tokens de personalização em emails a fim de corresponder aos outros aplicativos da Adobe Experience Platform para uma experiência consistente. Este formato de token é totalmente compatível com a [linguagem de modelo Handlebars](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Todos os tokens adicionados antes dessa alteração são atualizados automaticamente.
+>O Journey Optimizer B2B Edition segue a sintaxe _camel case_ para tokens de personalização em emails a fim de corresponder aos outros aplicativos do Adobe Experience Platform para obter uma experiência consistente. Este formato de token é totalmente compatível com a [linguagem de modelo Handlebars](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Todos os tokens adicionados antes dessa alteração são atualizados automaticamente.
 
-O exemplo a seguir descreve as etapas para personalizar o conteúdo usando tokens de pessoa e sistema. Ele reflete as alterações disponíveis para ambientes Journey Optimizer B2B edition que são provisionados na [arquitetura simplificada](../user/simplified-architecture.md).
+O exemplo a seguir descreve as etapas para personalizar o conteúdo usando tokens de pessoa e sistema. Ele reflete a versão atual do Journey Optimizer B2B Edition.
 
 1. Selecione o componente de texto e clique no ícone _Adicionar personalização_ ( ![Adicionar ícone de personalização](../assets/do-not-localize/icon-personalization-field.svg) ) na barra de ferramentas.
 

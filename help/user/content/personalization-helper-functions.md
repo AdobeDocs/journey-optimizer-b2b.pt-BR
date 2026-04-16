@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: expressão, editor, sintaxe, personalização
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # Funções de ajuda
 
 Use as funções Auxiliar no editor de personalização para definir experiências de conteúdo personalizadas com precisão e eficiência manipulando dados, realizando cálculos e formatando conteúdo. Explore e experimente essas funções, operadores e auxiliares para descobrir como eles trabalham juntos para ajudá-lo a criar jornadas personalizadas orientadas por dados.
-
->[!AVAILABILITY]
->
->As funções auxiliares estão disponíveis para ambientes [!DNL Journey Optimizer B2B Edition] que são provisionados na [arquitetura simplificada](../simplified-architecture.md).
 
 ## Funções de agregação
 

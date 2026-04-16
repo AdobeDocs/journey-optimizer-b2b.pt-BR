@@ -4,10 +4,10 @@ description: 'Configurar protocolos de entrega de email: configure DNS, SPF, DKI
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '2393'
-ht-degree: 100%
+source-wordcount: '2396'
+ht-degree: 99%
 
 ---
 
@@ -212,7 +212,7 @@ Se você enviar emails pelo Marketo Engage por um IP dedicado e não tiver imple
 
 >[!BEGINSHADEBOX]
 
-**Migração para a arquitetura simplificada**
+**Migrando IPs dedicados para o Journey Optimizer B2B Edition**
 
 Se você tiver IPs dedicados, deverá ter a nova instância do Journey Optimizer B2B edition criada na mesma região que a instância existente do Marketo Engage. Se a nova instância estiver em uma região diferente, não será possível compartilhar o IP existente. Se a região corresponder, abra um tíquete com o [Suporte da Adobe](https://experienceleague.adobe.com/home?lang=pt-br&support-tab=home#support){target="_blank"} para solicitar que seu IP existente e seus grupos de associação sejam compartilhados com a nova instância. Forneça o prefixo Marketo Engage (Munchkin ID) e o novo prefixo Journey Optimizer B2B edition (Munchkin ID).
 
@@ -241,11 +241,11 @@ Uma conexão de saída é aquela feita pelo Marketo Engage a um servidor na Inte
 <!--
  ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## Blocos de endereço IP de saída

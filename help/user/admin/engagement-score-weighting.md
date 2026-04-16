@@ -4,9 +4,9 @@ description: Crie modelos de pontuação de engajamento personalizados com ativi
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: ff635309749cfb7c065522a34b1228e71b144a9f
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,13 @@ Abra a lista _[!UICONTROL Ponderação de pontuação do engajamento]_ para exib
 
 ### Modelo de pontuação padrão
 
-O sistema cria um modelo de pontuação de envolvimento inicial chamado _Modelo de ponderação de atividade 1_. O status do modelo e as atividades de envolvimento dependem da arquitetura de dados do seu ambiente [!DNL Journey Optimizer B2B Edition]:
+O sistema cria um modelo de pontuação de envolvimento inicial chamado _Modelo de ponderação de atividade 1_. As atividades de engajamento são baseadas em eventos padrão e personalizados do Experience Platform. Os pesos em todas as atividades são 0 por padrão.
 
-* **Arquitetura simplificada** (Beta) - Se o seu ambiente usa a [arquitetura simplificada](../simplified-architecture.md), as atividades de envolvimento serão baseadas em eventos Experience Platform padrão e personalizados. Os pesos em todas as atividades são 0 por padrão.
+![Modelo padrão de ponderação de pontuação de engajamento para eventos do Experience Platform](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-  ![Modelo padrão de ponderação de pontuação de engajamento para a arquitetura simplificada](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
 
-* **Arquitetura padrão** - Se seu ambiente usa a arquitetura padrão, a instância [!DNL Marketo Engage] conectada é a fonte dos dados da atividade de envolvimento. O modelo padrão fica ativo até que você crie uma versão personalizada e a ative.
-
-  ![Modelo padrão de ponderação de pontuação de engajamento para a arquitetura padrão](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 Quando você ativa um modelo personalizado, o modelo ativo muda para um status _Arquivado_. Se você decidir reverter para o modelo de pontuação de engajamento padrão, poderá duplicar o modelo padrão original e ativá-lo ou usá-lo como ponto de partida para outro modelo personalizado.
 
@@ -92,7 +90,7 @@ As configurações de peso definem as faixas que podem ser atribuídas a cada at
 1. Para cada faixa de peso, ajuste o nome ou os valores de acordo com suas necessidades:
 
    * Altere o nome no campo _[!UICONTROL Faixa de ponderação]_.
-   * Insira um novo valor. Você também pode clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
+   * Insira um novo valor. Você também pode clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Configurações de peso da participação](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -110,9 +108,9 @@ As configurações de peso definem as faixas que podem ser atribuídas a cada at
 
 Cada modelo de pontuação inclui a lista completa de atividades de pontuação de engajamento compatíveis.
 
-+++Atividades para uma arquitetura simplificada
++++Atividades para eventos do Experience Platform
 
-O modelo padrão para a arquitetura simplificada inclui as atividades rastreadas do Experience Platform. Cada atividade tem um peso zero (0) (não usado) até que você atribua um peso a ela. Todas as atividades também têm uma frequência diária máxima de 20, que não pode ser alterada.
+O modelo padrão para eventos do Experience Platform inclui as atividades rastreadas do Experience Platform. Cada atividade tem um peso zero (0) (não usado) até que você atribua um peso a ela. Todas as atividades também têm uma frequência diária máxima de 20, que não pode ser alterada.
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
 <tbody>

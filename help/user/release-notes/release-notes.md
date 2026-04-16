@@ -3,10 +3,10 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4891'
-ht-degree: 71%
+source-wordcount: '4838'
+ht-degree: 70%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 71%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -34,13 +34,13 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Canal do WhatsApp | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Os profissionais de marketing agora podem enviar mensagens do WhatsApp diretamente das jornadas da conta através do [!DNL Meta Cloud API]. Este recurso permite a integração perfeita de mensagens de WhatsApp para suportar canais de conteúdo de jornada. [Saiba mais](../admin/configure-channels-whatsapp.md) |
+| Recurso | Canal do WhatsApp | Os profissionais de marketing agora podem enviar mensagens do WhatsApp diretamente das jornadas da conta através do [!DNL Meta Cloud API]. Este recurso permite a integração perfeita de mensagens de WhatsApp para suportar canais de conteúdo de jornada. [Saiba mais](../admin/configure-channels-whatsapp.md) |
 | Recurso | Suporte para [!DNL Firefly] e modelos personalizados de IA de geração | As equipes de marketing agora podem habilitar a integração de modelos [!DNL Firefly] padrão e personalizados, juntamente com modelos de imagem de terceiros aprovados (como [!DNL NanoBanana]). Os designers de email podem selecionar o melhor modelo para cada caso de uso: padrão [!DNL Firefly] para necessidades gerais, personalizado [!DNL Firefly] para geração na marca ou modelos aprovados de terceiros para cenários especializados ou experimentais. [Saiba mais](../content/generative-ai-models.md) |
-| Recurso | Ações externas personalizadas para jornadas | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Os desenvolvedores agora podem usar APIs para criar integrações com seus sistemas primários. Com essas integrações personalizadas, os profissionais de marketing podem adicionar nós de _Ação externa_ e _Caminho dividido externo_ para fazer solicitações de saída para serviços externos durante a execução da jornada de conta. [Saiba mais](../admin/configure-external-actions.md) |
+| Recurso | Ações externas personalizadas para jornadas | Os desenvolvedores agora podem usar APIs para criar integrações com seus sistemas primários. Com essas integrações personalizadas, os profissionais de marketing podem adicionar nós de _Ação externa_ e _Caminho dividido externo_ para fazer solicitações de saída para serviços externos durante a execução da jornada de conta. [Saiba mais](../admin/configure-external-actions.md) |
 | Recurso | Marcas | (Beta) As equipes de marketing podem manter a consistência da marca em seus ativos de conteúdo de email armazenando e gerenciando perfis de marca. Ao adicionar ativos, como cores, fontes, logotipos, temas, conteúdo visual e diretrizes de conformidade, é possível usar o perfil da marca para a criação de conteúdo de IA gerativa. Eles também podem medir o alinhamento da marca para garantir a conformidade. [Saiba mais](../content/brands-overview.md) |
-| Aprimoramento | Enviar email - Otimização de hora de envio | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Para os nós de ação _Enviar email_ em jornadas de pessoas, você pode usar as opções de _Otimização de tempo de envio_ para personalizar o tempo de entrega de email, prevendo quando cada perfil tem maior probabilidade de participar. [Saiba mais](../content/email-send-time-optimization.md) |
+| Aprimoramento | Enviar email - Otimização de hora de envio | Para os nós de ação _Enviar email_ nas jornadas de pessoas, você pode usar as opções _Otimização de hora de envio_ para personalizar o tempo de entrega de email, prevendo quando cada perfil tem maior probabilidade de participar. [Saiba mais](../content/email-send-time-optimization.md) |
 | Aprimoramento | Ferramentas de design de modelo de email - Modo avançado do HTML | Com o _modo HTML avançado_ no espaço de design do modelo de email, os usuários podem fazer pequenas edições de HTML/CSS e adicionar tags de script a um modelo de email para resolver problemas de renderização. [Saiba mais](../content/email-template-advanced-html.md) |
-| Aprimoramento | Objetos personalizados de pessoa - modelos de funções de grupo de compra | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Quando os administradores configuram objetos personalizados relacionados a um perfil empresarial, os profissionais de marketing agora podem definir funções de grupo de compra usando esses objetos personalizados. [Saiba mais](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Aprimoramento | Objetos personalizados de pessoa - modelos de funções de grupo de compra | Quando os administradores configuram objetos personalizados relacionados a um perfil empresarial, os profissionais de marketing agora podem definir funções de grupos de compra usando esses objetos personalizados. [Saiba mais](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Aprimoramento | Pontuação de conteúdo de email - validação de qualidade do conteúdo | Além do alinhamento da marca, você pode avaliar a qualidade geral do conteúdo para descobrir problemas em potencial com legibilidade, coesão e eficácia (independentemente das diretrizes da sua marca). Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. |
 | Aprimoramento | Pontuação de conteúdo de email - avaliação da qualidade do conteúdo | Além do alinhamento da marca, você pode avaliar a qualidade geral do conteúdo para descobrir problemas em potencial com legibilidade, coesão e eficácia (independentemente das diretrizes da sua marca). Essas verificações automatizadas ajudam a identificar mensagens não claras, tom inconsistente ou falhas estruturais. [Saiba mais](../content/content-evaluation.md) |
 
@@ -60,10 +60,10 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Campos XDM/esquemas relacionais - suporte para objetos personalizados de pessoa | [!BADGE Os administradores de arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} (Beta) agora podem selecionar objetos personalizados relacionados a uma pessoa usando uma relação individualizada e de nível único com uma conta. Esse recurso permite que sua organização de marketing represente uma visualização mais avançada dos dados comerciais do mundo real para direcionar, personalizar e relatar entidades além do nível da pessoa ou da conta. [Saiba mais](../admin/xdm-field-management.md#relational-schemas) |
-| Recurso | Jornada reentrada | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Agora é possível enviar contas/pessoas por meio de um fluxo de trabalho do jornada várias vezes. A reentrada aborda vários cenários, como a reavaliação de critérios de qualificação e fluxos de trabalho de criação reutilizáveis. [Saiba mais](../journeys/journey-re-entry.md) |
-| Aprimoramento | Jornadas de conta e pessoa - suporte para objetos personalizados de pessoa | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} (Beta) Aproveite os dados relacionais vinculados às contas para filtrar pessoas em uma jornada de conta ou pessoa. [Saiba mais](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| Aprimoramento | (Beta) Personalização de conteúdo — suporte para objetos personalizados de pessoas | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Quando os profissionais de marketing definem a personalização de conteúdo usando os objetos personalizados, eles podem acessar variáveis para a classe baseada em modelo de objetos personalizados (esquemas relacionais). [Saiba mais](../content/personalization.md#custom-datasets) |
+| Recurso | Campos XDM/esquemas relacionais - suporte para objetos personalizados de pessoa | (Beta) Agora, os administradores podem selecionar objetos personalizados relacionados a uma pessoa usando uma relação individualizada e de nível único com uma conta. Esse recurso permite que sua organização de marketing represente uma visualização mais avançada dos dados comerciais do mundo real para direcionar, personalizar e relatar entidades além do nível da pessoa ou da conta. [Saiba mais](../admin/xdm-field-management.md#relational-schemas) |
+| Recurso | Jornada reentrada | Agora você pode enviar contas/pessoas por meio de um fluxo de trabalho do jornada várias vezes. A reentrada aborda vários cenários, como a reavaliação de critérios de qualificação e fluxos de trabalho de criação reutilizáveis. [Saiba mais](../journeys/journey-re-entry.md) |
+| Aprimoramento | Jornadas de conta e pessoa - suporte para objetos personalizados de pessoa | (Beta) Aproveite os dados relacionais vinculados às contas para filtrar pessoas em uma jornada de conta ou pessoa. [Saiba mais](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Aprimoramento | (Beta) Personalização de conteúdo — suporte para objetos personalizados de pessoas | Quando os profissionais de marketing definem a personalização de conteúdo usando os objetos personalizados, eles podem acessar variáveis para a classe baseada em modelo dos objetos personalizados (esquemas relacionais). [Saiba mais](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | ---- | ---- | ----------- |
 | Recurso | Kits de marca | (Beta) Defina uma marca no Journey Optimizer B2B edition para fornecer a fonte da verdade para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. [Saiba mais](../content/brands-overview.md) |
 | Recurso | Marcas para geração de conteúdo de email | Você pode definir as diretrizes da marca e usar essas informações para gerar conteúdo de email. Com esse recurso, o conteúdo de email está alinhado às diretrizes de redação, estilos e tom específicos da sua marca. [Saiba mais](../content/ai-assistant-emails.md) |
-| Aprimoramento | Jornada nó _Wait_ - configurações avançadas | [!BADGE Arquitetura simplificada]{type=Informative tooltip="Disponível com arquitetura simplificada"} Para um nó _Wait_ em uma jornada, os profissionais de marketing agora podem especificar dias e horas de saída e selecionar fusos horários. Esse aprimoramento permite um melhor controle da orquestração de jornadas e do tempo de campanha. [Saiba mais](../journeys/wait-nodes.md#advanced-wait-settings) |
+| Aprimoramento | Jornada nó _Wait_ - configurações avançadas | Para um nó _Wait_ em uma jornada, os profissionais de marketing agora podem especificar dias e horas de saída e selecionar fusos horários. Esse aprimoramento permite um melhor controle da orquestração de jornadas e do tempo de campanha. [Saiba mais](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Aprimoramento | Membro do Filtro de Grupo de Compras - É Removido | Para um nó _dividido por pessoas_, o filtro _[!UICONTROL Membro do Grupo de Compras]_ agora inclui a restrição _É Removido_. Ao selecioná-lo, o filtro pode incluir o membro do grupo de compras removido ou excluí-lo. Também é compatível com as listas inteligentes do Marketo Engage, onde você pode usar essa nova restrição no filtro _[!UICONTROL Membro do grupo de compra]_. |
 | Aprimoramento | Design de email - marcadores de vários níveis | As ferramentas do espaço de design de conteúdo de email agora aceitam submarcadores (níveis de marcadores). |
 
@@ -117,11 +117,15 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 >
 >Estas alterações da versão começam a ser implantadas em 31 de outubro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
-### Arquitetura simplificada
+### Arquitetura atualizada
 
-Agora, o Adobe Journey Optimizer B2B Edition está disponível com uma arquitetura simplificada. Com essa arquitetura atualizada, o Journey Optimizer B2B Edition e o Marketo Engage não estão mais no mesmo sistema nem no mesmo armazenamento de dados. O Journey Optimizer B2B Edition recebe dados somente da Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
+Com a arquitetura atualizada, o Journey Optimizer B2B Edition e o Marketo Engage não estão no mesmo sistema e no mesmo armazenamento de dados. O Journey Optimizer B2B Edition recebe dados do Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
 
-Essa arquitetura atualizada oferece vários benefícios:
+>[!NOTE]
+>
+>As notas de versão anteriores se referiam a esta implantação como a *arquitetura simplificada*. Esse modelo agora é a implementação padrão do Journey Optimizer B2B Edition.
+
+Essa implementação oferece vários benefícios:
 
 * **Unifique e dimensione os seus dados facilmente**: a plataforma atualizada permite o uso de modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
 * **Conecte várias instâncias do Adobe Marketo Engage**: gerencie e unifique dados de vários ambientes do Adobe Marketo Engage no mesmo lugar.
@@ -130,9 +134,9 @@ Essa arquitetura atualizada oferece vários benefícios:
 
 >[!NOTE]
 >
->Se o ambiente for provisionado nessa arquitetura, revise as [diretrizes para configuração](../simplified-architecture.md).
+>Revise a [lista de verificação de instalação](../setup-ultimate.md) para obter orientação sobre a configuração.
 
-Com a arquitetura simplificada, os novos recursos e aprimoramentos a seguir estão disponíveis na versão 2025.10:
+Os novos recursos e aprimoramentos a seguir estão disponíveis na versão 2025.10 com a arquitetura atualizada:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
@@ -141,15 +145,6 @@ Com a arquitetura simplificada, os novos recursos e aprimoramentos a seguir est�
 | Recurso | Desduplicação de fadiga de email | Agora você pode habilitar a desduplicação de emails para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada.  [Saiba mais](../content/email-deduplication.md) |
 | Aprimoramento | Ponderação de pontuação de engajamento - Eventos do AEP | A ponderação da pontuação do engajamento agora pode incluir qualquer um dos eventos padrão ou personalizados do Experience Platform e ponderada de acordo com suas necessidades. [Saiba mais](../admin/engagement-score-weighting.md) |
 | Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B edition. [Saiba mais](../admin/configure-channels-emails.md#communication-limits) |
-
-<!--
- There are additional functional changes with the simplified architecture:
-
-| Item | Description |
-| ---- | ----------- |
-| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | |
--->
 
 ## Notas da versão 2025.9 {#rel-2025-9}
 
