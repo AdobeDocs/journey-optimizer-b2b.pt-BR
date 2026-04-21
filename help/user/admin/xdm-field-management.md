@@ -4,10 +4,10 @@ description: Use o gerenciamento de campo XDM para controlar os dados disponíve
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 95%
+source-wordcount: '1180'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ As informações de classe exibidas incluem:
 * Número de campos atualizáveis
 * Hora da última atualização
 
-Para selecionar campos do esquema de união para classes XDM padrão, clique no nome da classe para abrir a caixa de diálogo de seleção _Campos gerenciados_ ou clique no ícone _Mais menu_ ( **...** ) para escolher entre _[!UICONTROL Campos gerenciados]_ e _[!UICONTROL Campos atualizáveis]_.
+Para selecionar campos do esquema de união, clique no nome da classe para abrir a caixa de diálogo de seleção Campos gerenciados. Ou clique no _menu Mais_ (**...**) e escolha entre os campos Gerenciado e Atualizável.
 
 ![Clique no ícone do menu Mais para escolher entre campos gerenciados e campos atualizáveis](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
@@ -87,7 +87,7 @@ Quando você escolhe **[!UICONTROL Campos gerenciados]**, a caixa de diálogo _S
 
 Defina os campos atualizáveis para escolher quais campos podem ser modificados por meio das ações de jornada **[!UICONTROL Atualizar Perfil da Conta]** ou **[!UICONTROL Atualizar Perfil da Pessoa]**.
 
-Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
+Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
 
 >[!IMPORTANT]
 >
@@ -108,7 +108,7 @@ Crie um conjunto de dados para um Perfil individual e outro para uma Conta comer
 
 ### Esquemas relacionais
 
-Esquemas relacionais permitem criar classes de dados personalizadas. Com acesso a vários conjuntos de dados, você pode criar classes especificamente personalizadas para suas necessidades de dados. Use esquemas relacionais para entidades de negócios, como compras, licenças e registros de evento em decisões de jornada e personalização de email. Você pode selecionar até 20 esquemas e até 50 campos por esquema.
+Esquemas relacionais permitem criar classes de dados personalizadas. Com acesso a vários conjuntos de dados, você pode criar classes especificamente personalizadas para suas necessidades de dados. Use esquemas relacionais para entidades de negócios, como compras, licenças e registros de eventos, em decisões de jornada e personalização de email. Você pode selecionar até 20 esquemas e até 50 campos por esquema.
 
 Há vários recursos que oferecem suporte ao uso dos esquemas e campos relacionais configurados:
 
@@ -118,7 +118,7 @@ Há vários recursos que oferecem suporte ao uso dos esquemas e campos relaciona
 
 >[!AVAILABILITY]
 >
->Os [esquemas relacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. O Data Mirror e esquemas relacionais estão disponíveis para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licença. Os esquemas relacionais também estão disponíveis como uma versão limitada para [!DNL Customer Journey Analytics] usuários, dependendo da sua licença e habilitação de recursos. Entre em contato com o representante da Adobe para obter acesso.
+>Os [esquemas relacionais](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. O Data Mirror e esquemas relacionais estão disponíveis para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licença. Os esquemas relacionais também estão disponíveis como uma versão limitada para [!DNL Customer Journey Analytics] usuários, dependendo da sua licença e habilitação de recursos. Entre em contato com o representante da Adobe para obter acesso.
 
 >[!NOTE]
 >

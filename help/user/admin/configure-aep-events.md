@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Este recurso está atualmente em uma versão beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1476'
 ht-degree: 13%
 
 ---
 
 # Selecionar eventos de experiência e campos
 
-Os administradores podem selecionar [Eventos de experiência do AEP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos e seus campos associados no esquema de união de Eventos de experiência. Após a seleção, os usuários podem configurar regras de decisão para ouvir esses Eventos de experiência e ativar ações de campanha dinâmicas e direcionadas com base em dados de eventos quase em tempo real.
+Os administradores podem selecionar [Eventos de experiência do AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos e seus campos associados no esquema de união de Eventos de experiência. Após a seleção, os usuários podem configurar regras de decisão para ouvir esses Eventos de experiência e ativar ações de campanha dinâmicas e direcionadas com base em dados de eventos quase em tempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 O uso de eventos de experiência do AEP no jornada é um processo de duas etapas:
@@ -31,13 +31,13 @@ O uso de eventos de experiência do AEP no jornada é um processo de duas etapas
 
 ## Diretrizes e limitações
 
-Ao selecionar eventos para atender às suas metas organizacionais, lembre-se do seguinte:
+Ao selecionar eventos para atender às suas metas organizacionais, considere o seguinte:
 
 * É possível selecionar até 50 eventos e até 100 campos por evento.
 
 * O Jornada pode ouvir eventos de experiência que são assimilados usando os recursos de transmissão do Experience Platform, como o Web SDK ou a API HTTP.
 
-* Você pode usar os Eventos de experiência para fins de decisão em uma jornada, mas eles não são retidos. Portanto, não é possível aproveitar um registro histórico de Eventos de experiência no Journey Optimizer B2B edition.
+* Você pode usar os Eventos de experiência para fins de decisão em uma jornada, mas eles não são retidos. Portanto, não é possível aproveitar um registro histórico de Eventos de experiência no Journey Optimizer B2B Edition.
 
 * Ao usar um Evento de experiência e publicar a jornada, você pode adicionar mais campos, mas não pode remover campos que foram selecionados anteriormente.
 
@@ -53,7 +53,7 @@ Ao selecionar eventos para atender às suas metas organizacionais, lembre-se do 
 
    ![Acessar os Eventos de Experiência selecionados](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   A tabela é classificada pela coluna _[!UICONTROL Última atualização]_, com os eventos atualizados mais recentes no topo por padrão.
+   A lista é exibida de acordo com a coluna _[!UICONTROL Última atualização]_, com os eventos atualizados mais recentes no topo por padrão.
 
    Nesta página, você pode [selecionar](#add-an-event) e [editar](#edit-an-event) eventos para usar no jornada.
 
@@ -465,5 +465,5 @@ Tipo de evento: `leadOperation.interestingMoment `
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448688/?captions=por_br&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

@@ -4,22 +4,22 @@ description: 'Configurar protocolos de entrega de email: configure DNS, SPF, DKI
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '2396'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 89%
 
 ---
 
 # Configuração para rastreamento e entrega de email
 
-O Adobe Journey Optimizer B2B edition aproveita as funções de canal de email e o rastreamento de eventos na instância anexada do Marketo Engage. Para garantir que a entrega de email funcione conforme o esperado para organizações que usam configurações restritivas de firewall ou servidor proxy, o administrador de sistemas deve adicionar determinados domínios e intervalos de endereços IP à lista de permissões.
+O Adobe Journey Optimizer B2B edition aproveita as funções de canal de email e o rastreamento de eventos na instância anexada do Marketo Engage. Para garantir que o delivery de email funcione conforme esperado em organizações que usam configurações restritivas de firewall ou servidor proxy, um administrador de sistemas deve adicionar determinados domínios e intervalos de endereço IP à lista de permissões.
 
 >[!NOTE]
 >
 >Se sua organização já estiver usando a instância conectada do Marketo Engage para executar suas operações de marketing, esses protocolos e configurações já deverão estar em vigor.
 
-Verifique se os seguintes domínios (incluindo o asterisco) foram adicionados à lista de permissões para habilitar todos os recursos e web sockets do Marketo Engage:
+Verifique se os seguintes domínios (incluindo o asterisco) foram adicionados à lista de permissões para ativar todos os recursos e soquetes da Web do Marketo Engage:
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -27,13 +27,13 @@ Verifique se os seguintes domínios (incluindo o asterisco) foram adicionados à
 * `*.marketodesigner.com`
 * `*.mktoweb.com`
 
-Siga as seguintes etapas para garantir o rastreamento e a entrega dos emails:
+Conclua as seguintes etapas para garantir o rastreamento e o delivery de email:
 
 1. [Criar registros DNS para páginas de aterrissagem e email](#create-dns-records-for-landing-pages-and-email)
 1. [Configurar a SPF e o DKIM](#set-up-spf-and-dkim)
 1. [Configurar DMARC](#set-up-dmarc)
 1. [Configurar registros MX para o seu domínio](#set-up-mx-records-for-your-domain)
-1. [Adicionar endereços IP de saída às listas de permissões](#outbound-ip-addresses)
+1. [Adicionar endereços IP de saída ao lista de permissões](#outbound-ip-addresses)
 
 >[!NOTE]
 >
@@ -113,13 +113,13 @@ Para que o DMARC funcione, você deve ter pelo menos um dos seguintes registros 
 * Uma SPF válida
 * Um Registro DKIM Válido para seu FROM: domain (recomendado para [!DNL Marketo Engage] e [!UICONTROL Journey Optimizer B2B edition])
 
-Você também deve ter um registro DNS TXT específico do DMARC para seu domínio `FROM:`. Como opção, você pode definir um endereço de email que especifique para onde os relatórios DMARC devem ir na sua organização para monitoramento de relatórios.
+Além disso, configure um registro TXT de DNS específico do DMARC para seu domínio `FROM:`. Como opção, você pode definir um endereço de email que especifique para onde os relatórios DMARC devem ir na sua organização para monitoramento de relatórios.
 
 ### Exemplo de fluxo de trabalho DMARC
 
 >[!TIP]
 >
->É uma prática recomendada implementar o DMARC como uma _implementação lenta_. Aumente sua política DMARC de `p=none` para `p=quarantine` e depois para `p=reject` conforme você entende o impacto potencial e defina sua política DMARC para alinhamento flexível na SPF e no DKIM.
+>É uma prática recomendada implementar o DMARC como uma _implantação gradual_. Aumente sua política DMARC de `p=none` para `p=quarantine` e depois para `p=reject` conforme você entende o impacto potencial e defina sua política DMARC para alinhamento flexível na SPF e no DKIM.
 
 Se você receber relatórios DMARC, faça o seguinte:
 
@@ -135,7 +135,7 @@ Se você receber relatórios DMARC, faça o seguinte:
 
    Revise os relatórios para garantir que os resultados sejam o esperado.
 
-1. Se estiver satisfeito com o comportamento das mensagens no nível `p=quarantine`, você pode ajustar a política para (`p=reject`).
+1. Se você estiver satisfeito com o comportamento das mensagens no nível `p=quarantine`, poderá ajustar a política para (`p=reject`).
 
    A política de rejeição informa ao destinatário para negar (devolver) qualquer email do domínio com falha na autenticação. Com essa política habilitada, somente emails verificados como 100% autenticados pelo seu domínio terão chance de serem colocados na caixa de entrada.
 
@@ -145,13 +145,13 @@ Se você receber relatórios DMARC, faça o seguinte:
 
 ### Relatórios do DMARC
 
-O DMARC oferece a capacidade de receber relatórios sobre emails com falham na SPF/DKIM. Há dois relatórios diferentes gerados pelos serviços de ISP como parte do processo de autenticação. Os remetentes podem receber esses relatórios por meio das tags RUA/RUF em sua política DMARC.
+O DMARC oferece a capacidade de receber relatórios sobre emails com falham na SPF/DKIM. Há dois relatórios diferentes gerados pelos serviços do ISP como parte do processo de autenticação. Os remetentes podem receber esses relatórios por meio das tags RUA/RUF em sua política DMARC.
 
 * **Relatórios agregados (RUA)**: não contêm PII (informação de identificação pessoal) que possa ser sensível ao RGPD (Regulamento Geral sobre a Proteção de Dados).
 
 * **Relatórios forenses (RUF)**: contém endereços de email que são sensíveis ao RGPD. Antes de implementar este relatório, verifique sua política organizacional para lidar com informações que precisam estar em conformidade com o RGPD.
 
-O principal uso desses relatórios é receber uma visão geral dos emails que são tentativas de falsificação. São relatórios altamente técnicos e são melhor assimilados por meio de uma ferramenta de terceiros.
+O principal uso desses relatórios é receber uma visão geral dos emails que são tentativas de falsificação. São relatórios altamente técnicos e são melhor analisados por meio de uma ferramenta de terceiros.
 
 ### Exemplo de registros do DMARC
 
@@ -216,7 +216,7 @@ Se você enviar emails pelo Marketo Engage por um IP dedicado e não tiver imple
 
 Se você tiver IPs dedicados, deverá ter a nova instância do Journey Optimizer B2B edition criada na mesma região que a instância existente do Marketo Engage. Se a nova instância estiver em uma região diferente, não será possível compartilhar o IP existente. Se a região corresponder, abra um tíquete com o [Suporte da Adobe](https://experienceleague.adobe.com/home?lang=pt-br&support-tab=home#support){target="_blank"} para solicitar que seu IP existente e seus grupos de associação sejam compartilhados com a nova instância. Forneça o prefixo Marketo Engage (Munchkin ID) e o novo prefixo Journey Optimizer B2B edition (Munchkin ID).
 
-Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre sua instância do Marketo Engage e o Journey Optimizer B2B edition, ambos os usam ao mesmo tempo (um envio do Marketo Engage e um envio do Journey Optimizer B2B edition usam os mesmos IPs).
+Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre as instâncias do Marketo Engage e do Journey Optimizer B2B Edition, eles os usam simultaneamente.
 
 >[!ENDSHADEBOX]
 
@@ -228,24 +228,20 @@ IPs confiáveis são um conjunto compartilhado de IPs reservados para usuários 
 
 Os clientes do pool de IPs compartilhados não precisam de configurações adicionais. Você continua a usar os mesmos pools de IP e o mesmo domínio padrão Return-Path de antes.
 
-
-
 ## Configurar registros MX para o seu domínio
 
 Um registro MX permite que você receba emails no domínio de onde está enviando os emails para processar respostas e respostas automáticas. Se estiver enviando do seu domínio corporativo, ele provavelmente já está configurado. Caso contrário, geralmente é possível configurá-lo para mapear para o registro MX do domínio corporativo.
 
 ## Endereços IP de saída
 
-Uma conexão de saída é aquela feita pelo Marketo Engage a um servidor na Internet em seu nome. Sua organização de TI e alguns parceiros/fornecedores podem usar listas de permissões para restringir o acesso aos servidores. Nesse caso, você deve fornecer a eles blocos de endereços IP de saída do Marketo Engage para adicionar às suas listas de permissão.
+O Marketo Engage estabelece em seu nome uma conexão de saída com um servidor da Internet. Sua organização de TI e alguns parceiros/fornecedores podem usar listas de permissões para restringir o acesso aos servidores. Em caso afirmativo, você deve fornecer a eles blocos de endereço IP de saída do Marketo Engage para adicionar às suas listas de permissões.
 
 <!--
- ### Webhooks
-
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## Blocos de endereço IP de saída

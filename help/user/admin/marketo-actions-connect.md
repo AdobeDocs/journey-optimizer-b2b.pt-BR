@@ -4,10 +4,10 @@ description: Ative as conexões do Marketo Engage para oferecer suporte a açõe
 feature: Setup, Integrations
 role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
-source-git-commit: 5607ad407ffba007d174f4427e82b0ca6c162c24
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 92%
+source-wordcount: '541'
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 As ações do Marketo Engage são ações _com base em pessoas_ que permitem coordenar sua orquestração de marketing _com base em conta_ entre o Journey Optimizer B2B edition e seus esforços de marketing _com base em clientes potenciais_ no Marketo Engage. Use essas ações para orquestrar a associação de listas estáticas e colocar pessoas em campanhas.
 
-Para usar as ações de jornada do Marketo Engage, um administrador cria primeiro um [serviço personalizado](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} no Marketo Engage, que fornece as credenciais necessárias para autenticação. Em seguida, um administrador de produto do Journey Optimizer B2B edition usa as credenciais para criar uma conexão com o Marketo Engage. Os usuários do Journey Optimizer B2B Edition podem então fazer referência à conexão para configurar as ações do Marketo Engage nas jornadas de pessoa e conta:
+Para usar as ações de jornada do Marketo Engage, um administrador cria primeiro um [serviço personalizado](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} no Marketo Engage, que fornece as credenciais necessárias para autenticação. Em seguida, um administrador de produto do Journey Optimizer B2B edition usa as credenciais para criar uma conexão com o Marketo Engage. Os usuários do Journey Optimizer B2B Edition podem então fazer referência à conexão para configurar as ações do Marketo Engage nas jornadas de pessoa e conta:
 
 * [!UICONTROL Adicionar à lista do Marketo]
 * [!UICONTROL Remover da lista do Marketo]
@@ -32,21 +32,21 @@ Conclua as tarefas a seguir para configurar uma instância externa do Marketo En
 
 ### Criar o serviço personalizado do Marketo Engage
 
-1. Faça logon no Marketo Engage como administrador e [crie um serviço personalizado](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Faça logon no Marketo Engage como administrador e [crie um serviço personalizado](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Copie os seguintes valores para usar na conexão do Journey Optimizer B2B edition:
 
    * ID do Munchkin
    * ID do cliente
    * Segredo do cliente
 
-A visibilidade do espaço de trabalho do Marketo Engage para ativos, como listas e campanhas, é regida pelas [permissões de função atribuídas no serviço personalizado](https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Os profissionais de marketing podem usar a mesma conexão várias vezes em uma jornada e usar diferentes conexões do Marketo Engage na mesma jornada.
+As [permissões de função atribuídas no serviço personalizado](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} regem a visibilidade do espaço de trabalho do Marketo Engage para ativos, como listas e campanhas. Os profissionais de marketing podem usar a mesma conexão várias vezes em uma jornada e usar diferentes conexões do Marketo Engage na mesma jornada.
 
 ### Adicionar a integração
 
 ![Adicionar detalhes da integração](assets/integration-connection-details.png){width="800" zoomable="yes"}
 
 1. No Journey Optimizer B2B edition, navegue até **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
-1. Selecione para a guia **[!UICONTROL Integrações]**.
+1. Selecione a guia **[!UICONTROL Integrações]**.
 1. Clique em **[!UICONTROL Criar uma conexão]**.
 1. Insira um **[!UICONTROL Nome]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
 1. Selecione a política de atualização usada para aplicar uma ação a um registro de pessoa correspondente.

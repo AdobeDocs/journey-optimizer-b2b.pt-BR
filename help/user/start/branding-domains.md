@@ -3,10 +3,11 @@ title: Configurar domínios de marca
 description: Configure os domínios de marca para que cada uma das marcas tenha seus próprios links de rastreamento de marca.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 1%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ Um domínio de marca no Marketo Engage é um subdomínio personalizado (como `li
 
 **CNAMEs exclusivos para links de rastreamento**
 
-Os links de rastreamento de email devem ser novos e exclusivos para a instância do Marketo Engage anexada. Se você tiver CNAMEs existentes para links de rastreamento que apontam para uma instância do Marketo Engage pré-existente (produção), eles não poderão ser reutilizados _como estão_.
+Os links de rastreamento de email devem ser novos e exclusivos para a instância do Marketo Engage anexada. Se você tiver CNAMEs existentes para rastrear links que apontam para uma instância do Marketo Engage pré-existente (produção), eles não poderão ser reutilizados sem modificação.
 
 Você pode compartilhar a identidade visual do domínio do caminho de retorno entre a instância do Marketo Engage de produção e a instância anexada, mas essa é uma alteração de back-end. Abra um tíquete de suporte e forneça seu prefixo do Marketo Engage (Munchkin ID) e seu novo prefixo do Journey Optimizer B2B edition (Munchkin ID) para solicitar a marca de domínio do caminho de retorno compartilhado.
 
@@ -30,7 +31,7 @@ Você pode compartilhar a identidade visual do domínio do caminho de retorno en
 
 >[!PREREQUISITES]
 >
->Antes de editar ou adicionar um domínio na interface do usuário, você deve ter um [CNAME mapeado para um domínio do Marketo Engage fornecido pela Adobe](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Antes de editar ou adicionar um domínio na interface do usuário, você deve ter um [CNAME mapeado para um domínio do Marketo Engage fornecido pela Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Ao adicionar um domínio, o sistema verifica se há SSLs pré-existentes, que podem ter sido criados manualmente antes. Se encontrar essa validação, crie seu domínio sem selecionar a criação de SSL e depois conecte-o como um procedimento separado.
 
@@ -70,11 +71,11 @@ A primeira etapa ao trabalhar com domínios de marca é editar o domínio de mar
 
 ## Definir um domínio adicional
 
-Após editar o domínio padrão, você pode adicionar outro domínio de marca quando quiser executar várias marcas fora do ambiente do Journey Optimizer B2B edition, onde cada um tem seus próprios links de rastreamento de marca. Ao adicionar um domínio, você tem as seguintes opções:
+Após editar o domínio padrão, é possível adicionar outro domínio de marca para oferecer suporte a várias marcas no ambiente do Journey Optimizer B2B Edition, em que cada um tem seus próprios links de rastreamento de marca. Ao adicionar um domínio, você tem as seguintes opções:
 
 >* _Tornar Domínio Primário_: Tornar este o domínio primário do espaço de trabalho. Ao selecionar essa opção, todos os emails não enviados existentes são definidos como o domínio primário padrão e todos os emails recém-criados são automaticamente padronizados para esse domínio primário. Os profissionais de marketing podem escolher um domínio alternativo de marca onde necessário.
 >
->* _Gerar Certificado SSL_: crie uma SSL (Secure Sockets Layer) com a criação do domínio. O primeiro domínio de rastreamento inicia uma configuração única de infraestrutura que pode levar algumas horas. O sistema envia uma notificação após a conclusão.
+>* _Gerar Certificado SSL_: crie uma SSL (Secure Sockets Layer) com a criação do domínio. O primeiro domínio de rastreamento inicia uma configuração única da infraestrutura que pode levar algumas horas. O sistema envia uma notificação após a conclusão.
 
 _Para adicionar o domínio :_
 
@@ -88,11 +89,11 @@ _Para adicionar o domínio :_
 
    ![Caixa de diálogo Novo Domínio de Identidade Visual](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
-   Se necessário e disponível, você também pode marcar a caixa de seleção _Tornar domínio primário_.
+   Se necessário e disponível, você também pode marcar a caixa de seleção _Tornar Domínio Primário_.
 
    >[!NOTE]
    >
-   >**_SSLs personalizados_**: se você precisar de um SSL personalizado, poderá enviar um [tíquete de suporte](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Não use a caixa de seleção para criação de SSL.
+   >**_SSLs personalizados_**: se você precisar de um SSL personalizado, poderá enviar um [tíquete de suporte](https://experienceleague.adobe.com/en/support){target="_blank"}. Não use a caixa de seleção para criação de SSL.
 
 1. Se você tiver vários espaços de trabalho definidos para sua instância do Marketo Engage, clique em **[!UICONTROL Avançar]**.
 
