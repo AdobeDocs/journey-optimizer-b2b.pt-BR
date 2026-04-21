@@ -158,8 +158,8 @@ Altere as _[!UICONTROL Opções de Cabeçalho Personalizadas]_ para email para c
 
 A atividade de bot de email, também chamada de interações não humanas (NHI), pode aumentar os dados de _aberturas_ e _cliques_ do email, distorcendo suas métricas de envolvimento e acionando a progressão da jornada com base em eventos. Use a filtragem de bot por email para manter a integridade das métricas e insights de envolvimento de cliques. Há dois métodos para identificar atividades suspeitas de bot:
 
-* _**[!UICONTROL Corresponder com a Lista de bot IAB]**_ - Atividades que correspondem a qualquer item na [Lista de bot do Interative Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente do usuário/endereço IP) são marcadas como bots.
-* _**[!UICONTROL Corresponder com Padrão de Proximidade]**_ - Duas ou mais atividades que ocorrem ao mesmo tempo (em menos de um segundo) são identificadas como bots. Os atributos considerados durante a comparação são:
+* _&#x200B;**[!UICONTROL Corresponder com a Lista de bot IAB]**&#x200B;_ - Atividades que correspondem a qualquer item na [Lista de bot do Interative Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente do usuário/endereço IP) são marcadas como bots.
+* _&#x200B;**[!UICONTROL Corresponder com Padrão de Proximidade]**&#x200B;_ - Duas ou mais atividades que ocorrem ao mesmo tempo (em menos de um segundo) são identificadas como bots. Os atributos considerados durante a comparação são:
    * ID do lead (deve ser o mesmo)
    * Ativo de email (deve ser o mesmo)
    * Clique em links ou e-mail aberto
