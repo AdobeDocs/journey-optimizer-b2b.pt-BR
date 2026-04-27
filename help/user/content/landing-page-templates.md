@@ -1,16 +1,16 @@
 ---
 title: Modelos de páginas de destino
-description: Crie, gerencie e reutilize modelos de páginas de aterrissagem — crie do zero, importe o HTML, duplique, exclua e rastreie o uso para equipes de marketing no Journey Optimizer B2B edition.
+description: Crie, gerencie e reutilize modelos de páginas de aterrissagem — crie do zero, importe o HTML, duplique, exclua e rastreie o uso para equipes de marketing na Journey Optimizer B2B Edition.
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 0%
+source-wordcount: '1290'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Para um processo de design acelerado e aprimorado, é possível criar modelos de
 
 ## Acessar e gerenciar modelos de página de aterrissagem
 
-Para acessar modelos de página de aterrissagem no Adobe Journey Optimizer B2B edition, acesse **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos]**. Em _[!UICONTROL WEB]_, no painel de navegação, selecione **[!UICONTROL Modelos de página de aterrissagem]**.
+Para acessar modelos de página de aterrissagem no Adobe Journey Optimizer B2B Edition, acesse **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Modelos]**. Em _[!UICONTROL WEB]_, no painel de navegação, selecione **[!UICONTROL Modelos de página de aterrissagem]**.
 
 A página de listagem exibida inclui todos os templates de landing page criados na instância listada no formato de tabela. A tabela é classificada pela coluna _[!UICONTROL Modificado]_ por padrão, com os modelos atualizados mais recentes na parte superior. Clique no título da coluna para alterar entre crescente e decrescente.
 
@@ -64,7 +64,7 @@ Use o espaço de design visual para definir a estrutura do conteúdo da landing 
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HTML para criar seus modelos de página de aterrissagem.
+O Adobe Journey Optimizer B2B Edition permite importar conteúdo existente do HTML para criar seus modelos de página de aterrissagem.
 
 {{$include /help/_includes/content-design-import.md}}
 

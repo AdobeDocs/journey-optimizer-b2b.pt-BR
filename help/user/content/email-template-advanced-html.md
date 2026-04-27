@@ -1,10 +1,11 @@
 ---
 title: Modo HTML avançado para design de modelo de email
-description: Use o modo HTML avançado para visualizar e editar diretamente a fonte de HTML bruta do seu conteúdo de modelo de email no espaço de design de email no Journey Optimizer B2B edition.
+description: Use o modo HTML avançado para visualizar e editar diretamente a fonte de HTML bruta do seu conteúdo de modelo de email no espaço de design de email no Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -15,10 +16,12 @@ ht-degree: 0%
 
 O _modo HTML avançado_ fornece um modo de exibição que permite aos usuários experientes visualizar e editar diretamente o código fonte bruto para o conteúdo do modelo de email. Esse modo é ideal quando você deseja inserir expressões sofisticadas, como lógica condicional, diretamente na origem. Também é útil para fazer ajustes estruturais que vão além do que as ferramentas de design visual expõem.
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
