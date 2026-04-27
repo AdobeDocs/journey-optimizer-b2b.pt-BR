@@ -4,10 +4,10 @@ description: Use o gerenciamento de campo XDM para controlar os dados disponíve
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+source-git-commit: d07545fbe58d994cf7aa5f4d14deca8d046d1320
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 90%
+source-wordcount: '1189'
+ht-degree: 87%
 
 ---
 
@@ -87,13 +87,13 @@ Quando você escolhe **[!UICONTROL Campos gerenciados]**, a caixa de diálogo _S
 
 Defina os campos atualizáveis para escolher quais campos podem ser modificados por meio das ações de jornada **[!UICONTROL Atualizar Perfil da Conta]** ou **[!UICONTROL Atualizar Perfil da Pessoa]**.
 
-Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
+Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
 
 >[!IMPORTANT]
 >
 >Proteções para campos atualizáveis:
 >
->* Esquemas - Na classe Perfil Individual XDM, todos os campos obrigatórios no esquema devem ser definidos pelo sistema, como `identityMap` ou `personID`.
+>* Esquemas - o esquema deve usar a identidade principal Pessoa B2B (`b2b.personKey.sourceKey`). Na classe Perfil Individual XDM, todos os campos obrigatórios no esquema devem ser definidos pelo sistema, como `identityMap` ou `personID`.
 >* Conjuntos de dados - Não use um conjunto de dados que já esteja em uso para outra finalidade. Como prática recomendada, crie conjuntos de dados dedicados especificamente para armazenar campos atualizáveis. Use um conjunto de dados separado para cada classe XDM.
 
 Crie um conjunto de dados para um Perfil individual e outro para uma Conta comercial. Selecione cada novo conjunto de dados durante o processo de configuração:
@@ -118,7 +118,7 @@ Há vários recursos que oferecem suporte ao uso dos esquemas e campos relaciona
 
 >[!AVAILABILITY]
 >
->Os [esquemas relacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. O Data Mirror e esquemas relacionais estão disponíveis para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licença. Os esquemas relacionais também estão disponíveis como uma versão limitada para [!DNL Customer Journey Analytics] usuários, dependendo da sua licença e habilitação de recursos. Entre em contato com o representante da Adobe para obter acesso.
+>Os [esquemas relacionais](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. O Data Mirror e esquemas relacionais estão disponíveis para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licença. Os esquemas relacionais também estão disponíveis como uma versão limitada para [!DNL Customer Journey Analytics] usuários, dependendo da sua licença e habilitação de recursos. Entre em contato com o representante da Adobe para obter acesso.
 
 >[!NOTE]
 >
