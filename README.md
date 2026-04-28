@@ -29,7 +29,7 @@ Se você estiver contribuindo com uma pequena atualização:
 1. Na _O conteúdo foi útil?_ banner na parte inferior da janela do navegador, clique em **Opções de feedback detalhadas**.
 1. Clique em **Sugerir uma edição** e envie uma solicitação de pull com suas alterações na interface do GitHub.
 
-   Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) para obter mais informações.
+   Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction) para obter mais informações.
 
 As pequenas correções ou esclarecimentos que você envia para a documentação e os exemplos de código deste repositório são abrangidos pelos termos de uso da Adobe.
 
@@ -43,7 +43,7 @@ Se você fizer parte da comunidade da Adobe e quiser criar um novo tópico ou en
 
 Os colaboradores da comunidade podem usar a interface do GitHub para editar ou bifurcar o repositório e fazer grandes contribuições.
 
-Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) para obter mais detalhes.
+Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction) para obter mais detalhes.
 
 ## Colaboradores internos
 
