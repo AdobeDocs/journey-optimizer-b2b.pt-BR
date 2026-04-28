@@ -1,8 +1,8 @@
 ---
 source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 49%
+source-wordcount: '517'
+ht-degree: 46%
 
 ---
 # Contribuir com o artigo
@@ -11,7 +11,7 @@ Contribuições da comunidade e de funcionários da Adobe de fora das equipes de
 
 ## Código de conduta aberto da Adobe
 
-Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md) ou o [Código de conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
+Esse projeto segue o [Código de conduta aberto da Adobe](code-of-conduct.md) ou o [Código de conduta da .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
 
 ## Como contribuir com o conteúdo da Adobe
 
@@ -26,7 +26,7 @@ Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-co
 Se você estiver contribuindo com uma pequena atualização:
 
 1. Navegue até o tópico que deseja editar.
-1. Na _O conteúdo foi útil?Banner_ na parte inferior da janela do navegador, clique em **Opções de feedback detalhadas**.
+1. Na _O conteúdo foi útil?_ banner na parte inferior da janela do navegador, clique em **Opções de feedback detalhadas**.
 1. Clique em **Sugerir uma edição** e envie uma solicitação de pull com suas alterações na interface do GitHub.
 
    Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction) para obter mais informações.
@@ -54,7 +54,7 @@ Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe d
 Todos os artigos neste repositório usam o GitHub Flavored Markdown. Se você não estiver familiarizado com o Markdown, consulte:
 
 * [Noções básicas sobre o Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-* [documentos do GitHub](https://docs.github.com/en)
+* [Documentos do GitHub](https://docs.github.com/en)
 
 ## Rótulos
 
