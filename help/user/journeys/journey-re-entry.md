@@ -5,10 +5,10 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
@@ -60,7 +60,10 @@ Você pode habilitar a reentrada e alterar as configurações de reentrada quand
 
 ## Progressão e atividade da conta
 
-Para uma jornada de conta publicada, o mapa de jornada exibe [progressão de conta](./journeys-overview.md#review-account-progression) para os nós de jornada. Cada nó no mapa exibe o número de contas para alcançar esse nó e, para jornadas ativas, o número de contas atualmente nesse nó. Cada vez que uma conta entra novamente em uma jornada, ela é contada como uma entrada distinta.
-<!-- You can see how many times accounts have entered the journey. ?? -->
+Para uma jornada de conta publicada, o mapa de jornada exibe [progressão de conta](./journeys-overview.md#review-account-progression) para os nós de jornada. Cada nó no mapa exibe o número de contas para chegar a esse nó e, para jornadas ativas, o número de contas atualmente nesse nó. Cada vez que uma conta entra novamente em uma jornada, ela é contada como uma entrada distinta.
 
-Quando você detalha [detalhes da conta](../accounts/account-details.md), a atividade da conta é exibida sempre que a conta entra na jornada. Inclui atividade explícita e uma contagem de recorrências para que você possa ver as reentradas claramente.
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
