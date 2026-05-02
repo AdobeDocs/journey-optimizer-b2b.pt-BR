@@ -7,7 +7,7 @@ exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
 source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -70,7 +70,7 @@ Se você tiver uma licença Enterprise para o Adobe Express, poderá acessar e u
 
 ![Abrir a imagem no editor do Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-O [Guia do Usuário do Adobe Express](https://helpx.adobe.com/br/express/web.html){target="_blank"} fornece informações detalhadas sobre os recursos de edição disponíveis.
+O [Guia do Usuário do Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} fornece informações detalhadas sobre os recursos de edição disponíveis.
 
 ## Ações rápidas no Adobe Express
 
