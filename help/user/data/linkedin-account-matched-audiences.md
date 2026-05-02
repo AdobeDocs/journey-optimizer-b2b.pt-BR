@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 12%
+source-wordcount: '1015'
+ht-degree: 14%
 
 ---
 
 # Públicos correspondentes da conta do LinkedIn
 
-O [!DNL Journey Optimizer B2B Edition] oferece a capacidade de gerar públicos do LinkedIn Ad por meio de Públicos com Conta Correspondente, e foi projetado para ajudar você a preencher funções vazias em seus grupos de compra. Ao definir um conjunto de filtros de grupo de compra, você pode manter um Público-alvo correspondente do LinkedIn para direcionar os prospetos que correspondem aos parâmetros do grupo de compra. Você também pode ativar um público-alvo de uma jornada de conta de um nó _Realizar uma ação_.
+O [!DNL Journey Optimizer B2B Edition] oferece a capacidade de gerar públicos do LinkedIn Ad por meio de Públicos com Conta Correspondente, e foi projetado para ajudar você a preencher funções vazias em seus grupos de compra. Ao definir um conjunto de filtros de grupo de compra, você pode manter um público-alvo correspondente do LinkedIn para direcionar clientes potenciais que correspondem aos parâmetros do grupo de compra. Você também pode ativar um público-alvo de uma jornada de conta de um nó _Realizar uma ação_.
 
 Esse recurso utiliza os destinos da Experience Platform para gerenciar alguns aspectos da integração. Há um limite de dez fluxos de dados.
 
@@ -34,7 +34,7 @@ Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve 
    >
    >Você pode encontrar rapidamente o conector digitando `LinkedIn` na caixa de pesquisa.
 
-1. No cartão do conector, clique no ícone _Mais_ (**...**) e escolha **[!UICONTROL Configurar novo destino]**.
+1. Na placa do conector, clique em _Mais_ (**...**) e escolha **[!UICONTROL Configurar novo destino]**.
 
    ![Acessar o conector de Público-alvo correspondente do LinkedIn (Empresas)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ O nome e a descrição da conta do LinkedIn estão visíveis para grupos de comp
 
 1. Vá para **[!UICONTROL Conexões]** > **[!UICONTROL Destinos]** na navegação à esquerda e selecione a guia **[!UICONTROL Contas]**.
 
-1. Para a nova conta criada, clique no menu _Mais_ (**...**) e escolha **[!UICONTROL Editar detalhes]**.
+1. Para a nova conta que você criou, clique em _Mais_ (**...**) e escolha **[!UICONTROL Editar detalhes]**.
 
    ![Editar detalhes da conta](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 

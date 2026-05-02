@@ -1,6 +1,6 @@
 ---
 title: Modo escuro para conteúdo de email
-description: Saiba mais sobre o design de email no modo escuro no Journey Optimizer B2B Edition. Visualize a renderização, personalize as configurações, garanta a acessibilidade e teste em diferentes clientes de email.
+description: Saiba mais sobre o design de email no modo escuro no Journey Optimizer B2B edition. Visualize a renderização, personalize as configurações, garanta a acessibilidade e teste em diferentes clientes de email.
 feature: Email Authoring
 topic: Content Management
 role: User
