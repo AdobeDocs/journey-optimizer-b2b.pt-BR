@@ -4,10 +4,18 @@ description: Crie, projete e publique experiências personalizadas da Web para j
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
-source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
+exl-id: d04079ce-da51-40d3-ab05-75c26584521f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T22:04:21.575Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 1%
+source-wordcount: 1551
+ht-degree: 3%
 
 ---
 
@@ -30,7 +38,7 @@ Antes de criar experiências na Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
    * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
@@ -71,7 +79,7 @@ O [!DNL Adobe Experience Cloud Visual Editing Helper] agora é habilitado automa
 >
 >Alguns sites podem não abrir de forma confiável no editor da Web do Journey Optimizer B2B edition devido a um dos seguintes motivos:
 >
->* O site tem políticas de segurança rigorosas.
+>* O site tem políticas de segurança estritas.
 >* O site está em um iframe.
 >* O site de controle de qualidade ou preparo do cliente não está disponível externamente (o site é interno).
 
@@ -189,13 +197,13 @@ Para habilitar a entrega de experiência online, as seguintes configurações de
 
 * Na Coleção de dados da Adobe Experience Platform, verifique se você tem um fluxo de dados definido com a opção Adobe Journey Optimizer B2B edition ativada no serviço Adobe Experience Platform.
 
-  Essa configuração garante que o Adobe Experience Platform Edge possa lidar corretamente com os eventos de entrada. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
+  Essa configuração garante que o Adobe Experience Platform Edge possa lidar corretamente com os eventos de entrada. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * Na Adobe Experience Platform, verifique se você tem uma política de mesclagem com a _[!UICONTROL Política de mesclagem ativa no Edge]_ ativada.
 
-  Selecione uma política no menu Experience Platform Cliente > Perfis > Mesclar políticas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Selecione uma política no menu Experience Platform Cliente > Perfis > Mesclar políticas. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Essa política de mesclagem é usada pelos canais de entrada do Journey Optimizer B2B edition para ativar e publicar corretamente as experiências de entrada da web na borda. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/ui-guide)
+  Essa política de mesclagem é usada pelos canais de entrada do Journey Optimizer B2B edition para ativar e publicar corretamente as experiências de entrada da web na borda. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Solução de problemas
 

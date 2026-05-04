@@ -4,9 +4,16 @@ description: Acesse e use imagens do AEM Assets na criação de conteúdo - arra
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d09181b5-a36a-43de-ba01-36641440bc43
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:38:14.175Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 592
 ht-degree: 2%
 
 ---
@@ -23,7 +30,7 @@ Quando o ambiente tem uma ou mais [conexões de repositórios Assets](../admin/c
 
 >[!IMPORTANT]
 >
->Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Um administrador deve adicionar usuários que precisam de acesso ao Assets aos perfis do produto Usuários do cliente do Assets e/ou Usuários do Assets. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Acessar imagens do AEM Assets
 
@@ -33,7 +40,7 @@ No espaço de design de conteúdo, clique no ícone do _[!UICONTROL Experience M
 
 >[!NOTE]
 >
->Atualmente, somente ativos de imagem de [!DNL Adobe Experience Manager Assets] são suportados no [!DNL Adobe Journey Optimizer B2B Edition]. As alterações nos ativos devem ser feitas pelo repositório central [!DNL Adobe Experience Manager Assets]. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Atualmente, somente ativos de imagem de [!DNL Adobe Experience Manager Assets] são suportados no [!DNL Adobe Journey Optimizer B2B Edition]. As alterações nos ativos devem ser feitas pelo repositório central [!DNL Adobe Experience Manager Assets]. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Alterar o repositório exibido
 

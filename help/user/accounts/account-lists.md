@@ -4,9 +4,16 @@ description: Crie listas de contas estáticas e dinâmicas com filtros personali
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: 1358
 ht-degree: 2%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 2%
 No Journey Optimizer B2B edition, uma lista de contas é uma coleção de contas nomeadas que os profissionais de marketing podem usar para a orquestração de jornadas direcionada. Uma lista de contas pode direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. Há dois tipos de listas de contas:
 
 * **Estático** - Com uma lista de contas estáticas, a lista só é alterada quando você adiciona as contas. Você pode adicionar contas manualmente aplicando um conjunto de filtros para preencher a lista com base nos dados atuais da conta, ou adicionar e remover contas por meio de uma jornada de conta.
-* **Dinâmico** - Com uma lista de contas dinâmica, você define um conjunto de filtros para preparar automaticamente a lista. O sistema usa esse conjunto de filtros para adicionar e remover contas de acordo com as alterações nas informações da conta. Este gerenciamento de lista é semelhante à [segmentação de público na Real-time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dinâmico** - Com uma lista de contas dinâmica, você define um conjunto de filtros para preparar automaticamente a lista. O sistema usa esse conjunto de filtros para adicionar e remover contas de acordo com as alterações nas informações da conta. Este gerenciamento de lista é semelhante à [segmentação de público na Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Quando uma lista de contas está em um estado _Live_ (publicada), ela está disponível para [uso em programas de jornada e Marketo Engage](./account-lists-journeys.md).
 
@@ -86,7 +93,7 @@ Depois de criar a lista de contas estáticas, você pode preencher a lista aplic
 
 1. Clique em **[!UICONTROL Adicionar contas]**.
 
-   ![Adicionar um filtro de conta para popular a lista &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Adicionar um filtro de conta para popular a lista ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Você pode acessar essa função na página de lista vazia ou na parte superior direita.
 
@@ -98,7 +105,7 @@ Depois de criar a lista de contas estáticas, você pode preencher a lista aplic
    * Conclua a definição de avaliação de correspondência.
    * Repita essas ações para cada filtro que deseja incluir.
 
-     ![Adicionar filtros para popular a lista de contas &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Adicionar filtros para popular a lista de contas ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Você pode ajustar suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você pode optar por corresponder todas as condições de atributo ou qualquer condição.
 
@@ -116,7 +123,7 @@ Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usa
 
 1. Clique em **[!UICONTROL Selecionar filtros]**.
 
-   ![Selecione os filtros usados para popular a lista dinamicamente &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![Selecione os filtros usados para popular a lista dinamicamente ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. Na caixa de diálogo _[!UICONTROL Adicionar contas por filtro]_, use o menu **[!UICONTROL Filtros de Conta]** para adicionar os atributos e filtros especiais que deseja usar para criar o conjunto de filtros:
 
@@ -126,7 +133,7 @@ Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usa
    * Conclua a definição de avaliação de correspondência.
    * Repita essas ações para cada filtro que deseja incluir.
 
-     ![Adicionar filtros para popular a lista de contas &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Adicionar filtros para popular a lista de contas ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Você pode ajustar suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você pode optar por corresponder todas as condições de atributo ou qualquer condição.
 
@@ -180,4 +187,4 @@ O status da lista de contas dinâmicas é alterado para _[!UICONTROL Live]_ e es
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448654/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

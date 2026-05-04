@@ -4,9 +4,16 @@ description: Saiba como conectar uma conta do LinkedIn e ativar um fluxo de dado
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: '2026-03-30T22:49:08.608Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: 1015
 ht-degree: 14%
 
 ---
@@ -17,7 +24,7 @@ O [!DNL Journey Optimizer B2B Edition] oferece a capacidade de gerar públicos d
 
 Esse recurso utiliza os destinos da Experience Platform para gerenciar alguns aspectos da integração. Há um limite de dez fluxos de dados.
 
-Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
+Antes de iniciar um fluxo de dados do Journey Optimizer B2B edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
 
 ## Configurar uma nova conexão com a conta do LinkedIn {#linkedin-destination-setup}
 
@@ -148,4 +155,4 @@ A partir da versão 2025.10, use a ação _Ativar para destino_ para que as cont
 
 Você pode se envolver com membros da conta por meio de um canal de mídia paga, como públicos-alvo de anúncios do LinkedIn, para adquirir, alimentar e qualificá-los para Vendas. Use um nó _Realizar uma ação_ em uma jornada de conta para automatizar o engajamento com membros-chave de uma conta por meio de um canal externo que seja mais adequado para membros de conta diferentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448677/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

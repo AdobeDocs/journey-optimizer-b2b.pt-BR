@@ -4,9 +4,16 @@ description: 'Configurar protocolos de entrega de email: configure DNS, SPF, DKI
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: '2026-03-30T23:06:01.153Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: 2374
 ht-degree: 89%
 
 ---
@@ -212,11 +219,11 @@ Se você enviar emails pelo Marketo Engage por um IP dedicado e não tiver imple
 
 >[!BEGINSHADEBOX]
 
-**Migrando IPs dedicados para o Journey Optimizer B2B Edition**
+**Migrando IPs dedicados para o Journey Optimizer B2B edition**
 
 Se você tiver IPs dedicados, deverá ter a nova instância do Journey Optimizer B2B edition criada na mesma região que a instância existente do Marketo Engage. Se a nova instância estiver em uma região diferente, não será possível compartilhar o IP existente. Se a região corresponder, abra um tíquete com o [Suporte da Adobe](https://experienceleague.adobe.com/home?lang=pt-br&support-tab=home#support){target="_blank"} para solicitar que seu IP existente e seus grupos de associação sejam compartilhados com a nova instância. Forneça o prefixo Marketo Engage (Munchkin ID) e o novo prefixo Journey Optimizer B2B edition (Munchkin ID).
 
-Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre as instâncias do Marketo Engage e do Journey Optimizer B2B Edition, eles os usam simultaneamente.
+Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre as instâncias do Marketo Engage e do Journey Optimizer B2B edition, eles os usam simultaneamente.
 
 >[!ENDSHADEBOX]
 
@@ -237,11 +244,11 @@ Um registro MX permite que você receba emails no domínio de onde está enviand
 O Marketo Engage estabelece em seu nome uma conexão de saída com um servidor da Internet. Sua organização de TI e alguns parceiros/fornecedores podem usar listas de permissões para restringir o acesso aos servidores. Em caso afirmativo, você deve fornecer a eles blocos de endereço IP de saída do Marketo Engage para adicionar às suas listas de permissões.
 
 <!--
-Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## Blocos de endereço IP de saída

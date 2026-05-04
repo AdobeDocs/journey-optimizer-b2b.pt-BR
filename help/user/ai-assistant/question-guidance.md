@@ -5,9 +5,15 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,7 +31,7 @@ Os exemplos de perguntas a seguir são agrupados de acordo com os objetivos que 
 | Conceitos de aprendizado e fluxos de trabalho contínuos | Como usuário iniciante, você pode usar o AI Assistant para aprender conceitos do Real-Time CDP e do Adobe Journey Optimizer B2B edition e integrar-se a produtos e recursos com os quais não está familiarizado. <br>Como um usuário experiente, você pode usar o Assistente de IA para resolver um caso de borda que possa estar bloqueando seu fluxo de trabalho. | <li>Conte-me alguns casos de uso para o Real-Time CDP. <li>Explique o conceito do Grupo de Compras para mim. |
 | Solução de problemas | Use o Assistente de IA para saber como depurar erros básicos que você pode encontrar no fluxo de trabalho. | <li>O que significa este erro &lt;ERROR_MESSAGE>? <li>Por que não posso excluir o público-alvo chamado &quot;...&quot;? |
 | Higiene da sandbox | Use o Assistente de IA para identificar objetos duplicados ou não utilizados, para que você possa manter sua sandbox com eficiência. | <li>Você pode me mostrar públicos semelhantes da conta? <li>Há esquemas que não tenham um conjunto de dados associado? |
-| Análise de valor | Use o Assistente de IA para identificar os objetos de dados mais usados e avaliar os indicadores de desempenho ou encontrar os objetos de dados mais valiosos. | <li>Quantas contas existem em nossa definição de segmento &quot;...&quot;? <li>Quando os públicos-alvo foram ativados para o destino do Experience Cloud Audiences? |
+| Análise de valor | Use o Assistente de IA para identificar os objetos de dados mais usados e avaliar os indicadores de desempenho ou encontrar os objetos de dados mais valiosos. | <li>Quantas contas existem em nosso &quot;...&quot; definição de segmento? <li>Quando os públicos-alvo foram ativados para o destino do Experience Cloud Audiences? |
 | Pesquisa | Use o AI Assistant para encontrar objetos compatíveis do Experience Platform e do Adobe Journey Optimizer B2B edition, como públicos-alvo de conta, conjuntos de dados, destinos, esquemas, fontes, jornadas de conta, modelos de grupo de compra e interesses de solução | <li>Liste os públicos-alvo que contêm &quot;Luma&quot; no nome que foram usados nas jornadas da conta. <li>Quais atributos estão no esquema XDM &quot;Luma: Ações personalizadas&quot;? |
 | Análise de impacto | Use o Assistente do AI para identificar objetos de dados que foram usados em determinados workflows para que você possa avaliar o impacto de quaisquer alterações. | <li>Quais públicos-alvo de conta usam `workEmail.address` no esquema &quot;Pessoa B2B&quot;? <li>Em quais conjuntos de dados... `jobTitle` são armazenados? |
 

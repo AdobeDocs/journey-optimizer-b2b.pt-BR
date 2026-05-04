@@ -4,9 +4,16 @@ description: Navegue, gerencie e use os ativos do Journey Optimizer B2B edition 
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:14:12.746Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: 1765
 ht-degree: 1%
 
 ---
@@ -120,7 +127,7 @@ Se o arquivo a ser substituído estiver em uso, uma caixa de diálogo o alertar�
 
 * Vá para os detalhes do ativo e clique em **[!UICONTROL Baixar]** na parte superior direita.
 
-* Na página de listagem _[!UICONTROL Assets]_, clique nas _Reticências_ (**[!UICONTROL ...]**) ao lado do item de ativo e escolha **[!UICONTROL Baixar]** nas opções.
+* Na página de listagem _[!UICONTROL Assets]_, clique no ícone de reticências _3} (**[!UICONTROL ...]**)_ ao lado do item de ativo e escolha **[!UICONTROL Baixar]** nas opções.
 
 Na caixa de diálogo de confirmação, clique em **[!UICONTROL Baixar]** para iniciar o download do ativo para o sistema local. Você pode anular o processo clicando em **[!UICONTROL Cancelar]**.
 
@@ -174,7 +181,7 @@ Você pode realizar as seguintes ações em massa para os ativos selecionados qu
 
 ## Aplicar ações no nível da pasta
 
-É possível aplicar ações a uma pasta ou a ativos dentro dela. Clique no ícone _Mais_ (**...**) ao lado da pasta para revelar as ações que você pode aplicar a ela.
+É possível aplicar ações a uma pasta ou a ativos dentro dela. Clique no ícone _Mais_ (**...**) ao lado da pasta para revelar as ações que podem ser aplicadas a ela.
 
 ![Aplicar ações a uma pasta ou a ativos dentro dela](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 

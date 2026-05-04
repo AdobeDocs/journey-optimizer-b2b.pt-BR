@@ -4,9 +4,16 @@ description: Crie, gerencie e reutilize fragmentos de conteúdo visual para emai
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:25:36.421Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: 2748
 ht-degree: 2%
 
 ---
@@ -46,7 +53,7 @@ O status do fragmento determina sua disponibilidade para uso em um email ou mode
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o espaço de design visual, até que você o publique para uso em um email ou modelo de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
+| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o espaço de design visual, até que você o publique para uso em um email ou modelo de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no espaço de design visual<li>Publicar<li>Duplicar<li>Excluir |
 | Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. O conteúdo do fragmento publicado não pode ser modificado no espaço de design visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
 | Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
 
@@ -232,7 +239,7 @@ As edições em um fragmento dependem do status atual:
 
 Há duas maneiras de abrir a versão de rascunho para edição na página de listagem _[!UICONTROL Fragmentos]_:
 
-* Clique no ícone _Mais_ (**...**) ao lado do nome do fragmento e escolha **[!UICONTROL Abrir versão de rascunho]**.
+* Clique no ícone _Mais_ (**...**) ao lado do nome do fragmento, escolha **[!UICONTROL Abrir versão de rascunho]**.
 
   ![Abrir versão de rascunho](./assets/fragments-create-draft-version.png){width="300"}
 
@@ -263,7 +270,7 @@ Para atualizar o conteúdo:
 
 É possível duplicar um fragmento usando um dos seguintes métodos:
 
-* Na página de listagem _[!UICONTROL Fragmentos]_, clique no ícone _Mais_ (**...**) ao lado do nome do fragmento e escolha **[!UICONTROL Duplicar]**.
+* Na página de listagem _[!UICONTROL Fragmentos]_, clique no ícone _Mais_ (**...**) ao lado do nome do fragmento, escolha **[!UICONTROL Duplicar]**.
 * Na parte superior direita da página de detalhes do fragmento, clique em **[!UICONTROL ... Mais]** e escolha **[!UICONTROL Duplicar]**.
 
 ![Duplicar o fragmento](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -302,7 +309,7 @@ Os fragmentos são projetados para reutilização e podem ser inseridos para cri
 
 1. Navegue até **[!UICONTROL Jornadas de conta]** e abra uma jornada existente ou crie uma nova jornada.
 
-1. Criar um nó [_[!UICONTROL Enviar email &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Criar um nó [_[!UICONTROL Enviar email ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Criar ou editar o conteúdo de email [do nó](./email-authoring.md).
 

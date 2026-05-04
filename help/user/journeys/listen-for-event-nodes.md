@@ -4,9 +4,16 @@ description: 'Configure nós de eventos para acionadores de conta e de pessoas: 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: d0031543-532c-4a26-8f90-01af2b91e6d0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:08:46.228Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: 1844
 ht-degree: 12%
 
 ---
@@ -29,7 +36,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base na conta quand
 
 | Evento | Restrições |
 | ----- | ----------- |
-| [!UICONTROL A conta teve um momento interessante] | Tipo (Email, Marco ou Web)<br/>Restrições adicionais (opcional): <li>Descrição</li><li>Origem</li><li>Data da atividade</li> <br/>Tempo limite (opcional) |
+| [!UICONTROL A conta teve um momento interessante] | Tipo (Email, Marco ou Web)<br/>Restrições adicionais (opcional): <li>Descrição</li><li>Fonte</li><li>Data da atividade</li> <br/>Tempo limite (opcional) |
 | [!UICONTROL Alteração no valor dos dados da conta] | Atributo<br/>Restrições adicionais (opcional): <li>Novo valor</li><li>Valor anterior</li><li>Data da atividade</li> <br/>Tempo limite (opcional) |
 | [!UICONTROL Alteração no Estágio de Grupo de Compras] | Interesse da solução<br/>Restrições adicionais (opcional): <li>Novo estágio</li><li>Fase anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
 | [!UICONTROL Alteração no Status do Grupo de Compras] | Interesse da solução<br/>Restrições adicionais (opcional): <li>Novo status</li><li>Status anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
@@ -61,7 +68,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base em pessoas qua
 | Journey Optimizer B2B | [!UICONTROL Atribuído ao Grupo de Compras] | Interesse da solução<br/><br/>Restrições adicionais (opcional): <li>Função</li><li>Data da atividade</li><br/>Tempo limite (opcional) |
 | | [!UICONTROL Link de cliques no email] | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>ID do link</li><li>É um dispositivo móvel</li><li>Dispositivo</li><li>Plataforma</li><li>Navegador</li><li>É conteúdo preditivo</li><li>É atividade de bot</li><li>Padrão de atividade do bot</li><li>Navegador</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
 | | [!UICONTROL Link de cliques no SMS] | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>Dispositivo</li><li>Plataforma</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
-| | [!UICONTROL Alterações no valor dos dados] | Atributo de pessoa<br/><br/>Restrições adicionais (opcional): <li>Novo valor</li><li>Valor anterior</li><li>Motivo</li><li>Origem</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
+| | [!UICONTROL Alterações no valor dos dados] | Atributo de pessoa<br/><br/>Restrições adicionais (opcional): <li>Novo valor</li><li>Valor anterior</li><li>Motivo</li><li>Fonte</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
 | | [!UICONTROL Abre o email] | Email<br/><br/>Restrições adicionais (opcional): <li>Link</li><li>ID do link</li><li>É um dispositivo móvel</li><li>Dispositivo</li><li>Plataforma</li><li>Navegador</li><li>É conteúdo preditivo</li><li>É atividade de bot</li><li>Padrão de atividade do bot</li><li>Navegador</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
 | | [!UICONTROL Removido do Grupo de Compras] | Interesse da solução<br/>Data da atividade (opcional)<br/>Tempo limite (opcional) |
 | | [!UICONTROL A pontuação foi alterada] | Nome da pontuação<br/><br/>Restrições adicionais (opcional):<li>Alterar</li><li>Nova pontuação</li><li>Urgência</li><li>Prioridade</li><li>Pontuação relativa</li><li>Urgência relativa</li><li>Data da atividade</li><li>Número número de vezes</li><br/>Tempo limite (opcional) |
@@ -76,7 +83,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base em pessoas qua
 | ------------ | ----------- |
 | [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado no email] <li>Email aberto <li>Foi entregue por email <li>Email enviado <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).--> |
 | [!UICONTROL Histórico de atividades] > [!UICONTROL Mensagem SMS] | Atividades de SMS com base em condições que são avaliadas usando uma ou mais mensagens SMS selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado em SMS] <li>[!UICONTROL SMS Devolvido] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor<li>Valor anterior<li>Motivo<li>Origem<li>Data da atividade<li>Número número de vezes <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
+| [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor<li>Valor anterior<li>Motivo<li>Fonte<li>Data da atividade<li>Número número de vezes <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância associada do Marketo Engage. As restrições incluem: <li>Data importante<li>Email<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL Histórico de atividades] > [!UICONTROL Página da Web visitada] | Atividade da página da Web que para uma ou mais páginas da Web gerenciadas pela instância do Marketo Engage associada. As restrições incluem: <li>Página da Web (obrigatório)<li>Data da atividade<li>Endereço IP do cliente <li>Cadeia de consulta <li>Responsável pela indicação <li>Agente do usuário <li>Mecanismo de pesquisa <li>Pesquisar consulta <li>URL personalizada <li>Token <li>Navegador <li>Plataforma <li>Dispositivo <li>Número número de vezes <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL Atributos da pessoa] | Atributos do perfil de pessoa, incluindo: <li>Cidade <li>País <li>Data de nascimento <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida<li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
@@ -135,7 +142,7 @@ Se você tiver páginas da Web na instância conectada do Marketo Engage, poder�
 
 ### Analise um evento de experiência
 
-Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
+Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
 
 1. Um administrador [seleciona os tipos de evento e campos de interesse](../admin/configure-aep-events.md#select-an-event) para torná-los disponíveis no jornada.
 
@@ -226,5 +233,5 @@ Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. 
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

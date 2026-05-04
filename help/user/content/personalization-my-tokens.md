@@ -4,9 +4,16 @@ description: Criar e gerenciar Meus tokens personalizados para personalização 
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: '2026-03-30T22:21:17.156Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: 605
 ht-degree: 2%
 
 ---
@@ -59,7 +66,7 @@ _Para acessar os tokens personalizados de uma jornada de conta :_
 
 Embora a jornada da conta permaneça no status de rascunho, é possível editar qualquer um dos Meus tokens definidos.
 
-1. Na página _[!UICONTROL Meus tokens]_, clique no ícone _Mais ações_ (**...**) ao lado do nome do token e escolha **[!UICONTROL Editar]**.
+1. Na página _[!UICONTROL Meus tokens]_, clique no ícone _Mais ações_ (**...**) ao lado do nome do token, escolha **[!UICONTROL Editar]**.
 
    ![Token do menu Mais ações](./assets/my-tokens-more-actions.png){width="430"}
 
@@ -73,7 +80,7 @@ Embora a jornada da conta permaneça no status de rascunho, é possível editar 
 
 É possível excluir um token personalizado da lista _Meus tokens_, mas verifique se ele não está sendo usado no momento no conteúdo de email da jornada.
 
-1. Na página _[!UICONTROL Meus tokens]_, clique no ícone _Mais ações_ (**...**) ao lado do nome do token e escolha **[!UICONTROL Excluir]**.
+1. Na página _[!UICONTROL Meus tokens]_, clique no ícone _Mais ações_ (**...**) ao lado do nome do token, escolha **[!UICONTROL Excluir]**.
 
 1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 

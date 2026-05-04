@@ -4,9 +4,15 @@ description: Crie emails com ferramentas de design visual, importação do HTML 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: '2026-03-30T22:32:53.691Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1175
 ht-degree: 3%
 
 ---
@@ -17,7 +23,7 @@ Depois de [adicionar um ativo de email a um nó de ação de jornada](./add-emai
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
-![Clique em Editar conteúdo do email &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Clique em Editar conteúdo do email ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 

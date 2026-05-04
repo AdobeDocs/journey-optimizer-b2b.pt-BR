@@ -4,10 +4,16 @@ description: Crie públicos-alvos da conta com segmentação para direcionar con
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+autotag-review: '2026-03-30T19:50:18.033Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: 585
+ht-degree: 92%
 
 ---
 
@@ -52,14 +58,14 @@ Defina o público-alvo da conta criando uma segmentação de conta. Crie a segme
 
    O exemplo a seguir define o público-alvo criado por meio de `Country Code`, `Revenue Amount` e `Market segment`. A consulta em inglês seria “I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M.” (Busco todas as contas do segmento de Finanças nos EUA cuja receita exceda US$ 1 milhão).
 
-   ![Exemplo do construtor de segmentos de público-alvo da conta](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ![exemplo do construtor de segmento de público-alvo da conta](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]
    >
    >O atributo `Account Name` para registros de conta deve conter um valor a ser incluído nas jornadas de conta. Se este atributo estiver vazio (nulo), o registro da conta será excluído.<br/>
-   >Para garantir que apenas contas com um nome de conta não vazio sejam incluídas, adicione o atributo **[!UICONTROL Nome de conta]** e selecione _[!UICONTROL Existe]_ como condição de correspondência.<br/>
-   >![O atributo Nome da conta existe](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   >Para garantir que apenas contas com um Nome de Conta não vazio sejam incluídas, adicione o atributo **[!UICONTROL Nome de Conta]** e selecione _[!UICONTROL existe]_ como condição de correspondência.<br/>
+   >![O atributo Nome da Conta existe](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>Se você estiver usando um atributo personalizado como nome da conta, use seu nome de atributo personalizado no lugar de _[!UICONTROL Nome da conta]_.
 
 1. Clique em **[!UICONTROL Salvar e fechar]** na parte superior direita.
