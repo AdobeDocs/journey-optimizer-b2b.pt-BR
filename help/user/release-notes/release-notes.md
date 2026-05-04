@@ -3,9 +3,22 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fcc2d738bd22b7fd38e4d086f36d675945600520
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-30T22:58:45.043Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: 4794
 ht-degree: 71%
 
 ---
@@ -124,11 +137,11 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 
 ### Arquitetura atualizada
 
-Com a arquitetura atualizada, o Journey Optimizer B2B Edition e o Marketo Engage não estão no mesmo sistema e no mesmo armazenamento de dados. O Journey Optimizer B2B Edition recebe dados do Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
+Com a arquitetura atualizada, o Journey Optimizer B2B edition e o Marketo Engage não estão no mesmo sistema e armazenamento de dados. O Journey Optimizer B2B edition recebe dados do Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
 
 >[!NOTE]
 >
->As notas de versão anteriores se referiam a esta implantação como a *arquitetura simplificada*. Esse modelo agora é a implementação padrão do Journey Optimizer B2B Edition.
+>As notas de versão anteriores se referiam a esta implantação como a *arquitetura simplificada*. Esse modelo agora é a implementação padrão do Journey Optimizer B2B edition.
 
 Essa implementação oferece vários benefícios:
 

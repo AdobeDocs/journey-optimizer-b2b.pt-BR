@@ -1,12 +1,26 @@
 ---
 title: Modelos de email
-description: Crie modelos de email reutilizáveis do zero, da importação do HTML ou de designs existentes - gerencie modelos para jornadas de conta no Journey Optimizer B2B Edition.
+description: Crie modelos de email reutilizáveis do zero, da importação do HTML ou de designs existentes - gerencie modelos para jornadas de conta no Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:17:40.055Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: 1538
 ht-degree: 0%
 
 ---
@@ -83,7 +97,7 @@ Use o editor de conteúdo visual para definir a estrutura do conteúdo de email.
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B Edition permite importar conteúdo existente do HTML para criar seus modelos de email.
+O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HTML para criar seus modelos de email.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -121,7 +135,7 @@ Na página de detalhes dos modelos de email, clique na guia **[!UICONTROL Usado 
 
 ![Clique na guia Usado por para verificar o uso do modelo](./assets/template-details-used-by.png){width="400"}
 
-Os emails no Journey Optimizer B2B Edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
+Os emails no Journey Optimizer B2B edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
 
 * Ao clicar no link, você é direcionado ao email de jornada correspondente onde o template de email é usado.
 

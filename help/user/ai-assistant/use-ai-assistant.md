@@ -5,10 +5,25 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 0%
+source-wordcount: 971
+ht-degree: 1%
 
 ---
 
@@ -40,7 +55,7 @@ As perguntas de conhecimento do produto são sobre os conceitos e as informaçõ
 * Como faço para enviar um email em uma jornada?
 * Como posso personalizar meu conteúdo de email?
 
-Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você precisa aprender a usar um grupo de compras em uma jornada. Neste caso, insira _Como usar um grupo de compras em uma jornada?_ Depois de enviar a pergunta, o Assistente de IA consulta sua base de conhecimento e compila uma resposta em alguns segundos.
+Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você precisa aprender a usar um grupo de compras em uma jornada. Nesse caso, você insere _Como usar um grupo de compras em uma jornada?_ Depois de enviar a pergunta, o Assistente de IA consulta sua base de conhecimento e compila uma resposta em alguns segundos.
 
 ![Digite uma pergunta na caixa de texto](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -64,7 +79,7 @@ Você deve estar em uma sandbox ativa para o Assistente de IA para fornecer uma 
 >
 >As únicas perguntas de insights operacionais do Adobe Journey Optimizer B2B edition com suporte pelo Assistente de IA estão listadas na [tabela de domínio de insights operacionais](./ai-assistant-overview.md#operational-insights). Ele pode acessar dados somente para a sandbox em que você está atualmente.
 
-Para fazer uma pergunta sobre insights operacionais, insira-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você deseja saber sobre os públicos-alvo da sandbox. Nesse caso, digite _Quantos públicos-alvo existem?_.  O Assistente de IA fornece uma contagem dos públicos-alvo na sandbox e uma explicação de como ele calculou a resposta. Na resposta de exemplo a seguir, o Assistente de IA fornece um link para acessar os públicos-alvo na interface do usuário e descreve as etapas executadas para identificar o número de públicos-alvo.
+Para fazer uma pergunta sobre insights operacionais, insira-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você deseja saber sobre os públicos-alvo da sandbox. Nesse caso, você insere _Quantos públicos-alvo existem?_.  O Assistente de IA fornece uma contagem dos públicos-alvo na sandbox e uma explicação de como ele calculou a resposta. Na resposta de exemplo a seguir, o Assistente de IA fornece um link para acessar os públicos-alvo na interface do usuário e descreve as etapas executadas para identificar o número de públicos-alvo.
 
 ![Resposta do Assistente de IA para quantos públicos-alvo](./assets/ai-assistant-insights-answer.png){width="420"}
 
