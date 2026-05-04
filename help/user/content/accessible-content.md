@@ -7,12 +7,21 @@ role: User
 level: Beginner, Intermediate
 keywords: email, design, acessibilidade
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 autotag-review: '2026-03-30T22:11:25.228Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -31,6 +40,7 @@ As ferramentas de design do [!DNL Journey Optimizer B2B Edition] permitem que os
 
 As seções a seguir descrevem as práticas recomendadas para criar conteúdo acessível com o [!DNL Journey Optimizer B2B Edition]. Essas informações se concentram no design de conteúdo acessível a todos os recipients, para que as pessoas com deficiência possam ler, entender e interagir com suas mensagens de email e páginas de aterrissagem.
  
+
 ## Garantir a legibilidade do texto {#text-readability}
 
 Use a guia **[!UICONTROL Estilos]** do componente **[!UICONTROL Texto]** para garantir que o texto seja legível, por exemplo, usando contraste de cores adequado e fontes simples. Para obter mais informações sobre o estilo do componente de texto, consulte [_Componentes de conteúdo_](content-components.md#text)

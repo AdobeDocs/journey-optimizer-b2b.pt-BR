@@ -4,11 +4,16 @@ description: Crie modelos de função com atribuição automática condicional p
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -152,7 +157,7 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
 1. Na caixa de diálogo, altere o valor de **[!UICONTROL Membros necessários]** para cada função definida, conforme necessário.
 
-   Você pode inserir o valor ou clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
+   Você pode inserir o valor ou clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
