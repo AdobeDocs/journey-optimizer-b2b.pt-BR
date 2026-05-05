@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1412
 ht-degree: 5%
 
 ---
@@ -74,7 +74,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 | Tipo | Condições |
 | ---- | --------- |
 | [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado |
-| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer critério de objeto personalizado selecionado, conforme configurado nos [esquemas relacionais XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta ou pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer critério de objeto personalizado selecionado, conforme configurado nos [esquemas relacionais XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtros especiais | <li>Membro da lista (desaprovado) <li>Membro do programa (obsoleto) |
 | Dados de intenção | <li>Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave <br/>(consulte [_Dados de intenção_](../admin/intent-data.md)) |
 
