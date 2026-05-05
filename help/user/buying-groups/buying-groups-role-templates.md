@@ -4,20 +4,15 @@ description: Crie modelos de função com atribuição automática condicional p
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1412
 ht-degree: 5%
 
 ---
@@ -74,7 +69,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 | Tipo | Condições |
 | ---- | --------- |
 | [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado |
-| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer critério de objeto personalizado selecionado, conforme configurado nos [esquemas relacionais XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta ou pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer critério de objeto personalizado selecionado, conforme configurado nos [esquemas relacionais XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtros especiais | <li>Membro da lista (desaprovado) <li>Membro do programa (obsoleto) |
 | Dados de intenção | <li>Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave <br/>(consulte [_Dados de intenção_](../admin/intent-data.md)) |
 
@@ -157,7 +152,7 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
 1. Na caixa de diálogo, altere o valor de **[!UICONTROL Membros necessários]** para cada função definida, conforme necessário.
 
-   Você pode inserir o valor ou clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
+   Você pode inserir o valor ou clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -205,4 +200,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
