@@ -19,9 +19,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T22:30:01.860Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 13e00f66e0ca107857e830aef4cc629f1f7cb027
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1192
 ht-degree: 87%
 
 ---
@@ -145,12 +145,12 @@ Você pode criar esquemas relacionais usando o editor de esquemas (vá para **[!
 
 **Requisitos do esquema**
 
-Ao criar um esquema para uso com [!DNL Journey Optimizer B2B Edition], os seguintes valores de configuração são obrigatórios:
+Ao [criar um esquema para uso com [!DNL Journey Optimizer B2B Edition]](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data), os seguintes valores de configuração são obrigatórios:
 
 * Comportamento: Registro
 * Segmentação: ativada
 * Tipo de relacionamento: muitos para um
-* Esquema de referência: [Conta B2B](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+* Esquema de referência: Conta B2B ou pessoa B2B
 * Campos obrigatórios: chave primária, chave estrangeira e descritor de versão
 * Conjunto de dados associado: definido e mapeado para o esquema
 
