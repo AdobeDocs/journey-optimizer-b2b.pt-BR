@@ -4,20 +4,14 @@ description: Use componentes de estrutura para criar layouts para emails, págin
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: '2026-03-30T22:18:21.301Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 7%
@@ -110,7 +104,7 @@ Você pode remover a designação do cabeçalho ou rodapé selecionando o compon
 
 Para telas menores ou janelas de exibição, as colunas no componente de estrutura são exibidas como empilhadas, a menos que você altere a configuração padrão. Com o componente de estrutura de várias colunas selecionado, altere a configuração **[!UICONTROL Não empilhar colunas em dispositivos móveis]** movendo o controle deslizante para a direita.
 
-![Não empilhar colunas no celular &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Não empilhar colunas no celular ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componentes
 
