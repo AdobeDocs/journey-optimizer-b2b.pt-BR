@@ -4,10 +4,16 @@ description: Crie modelos de pontuação de engajamento personalizados com ativi
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -96,7 +102,7 @@ As configurações de peso definem as faixas que podem ser atribuídas a cada at
 1. Para cada faixa de peso, ajuste o nome ou os valores de acordo com suas necessidades:
 
    * Altere o nome no campo _[!UICONTROL Faixa de ponderação]_.
-   * Insira um novo valor. Você também pode clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
+   * Insira um novo valor. Você também pode clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Configurações de peso da participação](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
