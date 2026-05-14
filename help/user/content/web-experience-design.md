@@ -5,23 +5,13 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: '2026-04-29T23:47:13.174Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: 2026-04-29T23:47:13.174Z
+TQID: https://experienceleague.adobe.com/8L1-UpqqSPlLqMwUpwOgOMT4cDzc55tua87M8-X1dKk
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 2357
 ht-degree: 4%
@@ -40,7 +30,7 @@ Antes de criar experiências da Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
    * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
@@ -345,7 +335,7 @@ Rastreie as interações do usuário com elementos para medir o engajamento e co
 
 Quando sua experiência na Web é ativada (ativa), você também pode criar relatórios usando o Adobe Customer Journey Analytics (que requer uma assinatura do produto). Para melhorar o monitoramento da experiência online, você também pode rastrear os cliques em qualquer elemento específico do site. O rastreamento permite exibir o número de cliques desse elemento nos relatórios da Web.
 
-Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing).
+Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Selecione um elemento no editor de experiência online, como uma imagem ou link.
 

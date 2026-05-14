@@ -7,24 +7,14 @@ level: Intermediate
 role: User
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: '2026-03-30T22:24:40.416Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+autotag-review: 2026-03-30T22:24:40.416Z
+TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 862
 ht-degree: 11%
@@ -52,7 +42,7 @@ Por exemplo, um profissional de marketing técnico que usa o Journey Optimizer B
 
 ## Recursos de geração de conteúdo do GenStudio
 
-O [Adobe GenStudio for Performance Marketing](https://business.adobe.com/br/products/genstudio-for-performance-marketing.html){target="_blank"} é um aplicativo generativo de IA que capacita as equipes de marketing a criar anúncios e emails impactantes e personalizados que seguem os padrões da marca e estão em conformidade com as políticas da empresa. Ao utilizar a tecnologia Adobe AI, ele fornece um conjunto abrangente de ferramentas que simplifica as complexidades da criação e do gerenciamento de conteúdo para que os criadores possam se concentrar na inovação.
+O [Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} é um aplicativo generativo de IA que capacita as equipes de marketing a criar anúncios e emails impactantes e personalizados que seguem os padrões da marca e estão em conformidade com as políticas da empresa. Ao utilizar a tecnologia Adobe AI, ele fornece um conjunto abrangente de ferramentas que simplifica as complexidades da criação e do gerenciamento de conteúdo para que os criadores possam se concentrar na inovação.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Criar emails de marketing sobre marcas](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -90,7 +80,7 @@ O GenStudio for Performance Marketing reconhece determinados elementos no HTML d
 
 Use o arquivo HTML para criar um modelo no GenStudio for Performance Marketing.
 
-Para obter informações detalhadas sobre como carregar um modelo do HTML no GenStudio no Adobe GenStudio for Performance Marketing, consulte [Adicionar um modelo](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) na documentação do GenStudio for Performance Marketing.
+Para obter informações detalhadas sobre como carregar um modelo do HTML no GenStudio no Adobe GenStudio for Performance Marketing, consulte [Adicionar um modelo](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) na documentação do GenStudio for Performance Marketing.
 
 Ao fazer upload do HTML exportado como um modelo, o GenStudio for Performance Marketing verifica o arquivo do HTML em busca de campos reconhecidos. Use a visualização para revisar os elementos do modelo e confirmar que você os identificou corretamente com os nomes de campo reconhecidos.
 
@@ -98,7 +88,7 @@ Ao fazer upload do HTML exportado como um modelo, o GenStudio for Performance Ma
 
 No GenStudio for Performance Marketing, use o modelo para criar várias variações de experiência de email e salvá-las.
 
-Para obter informações detalhadas sobre como gerar experiências de email de marca, consulte [Criar uma experiência de email](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) na documentação do GenStudio for Performance Marketing.
+Para obter informações detalhadas sobre como gerar experiências de email de marca, consulte [Criar uma experiência de email](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) na documentação do GenStudio for Performance Marketing.
 
 ## Adicionar experiências de email geradas ao Journey Optimizer B2B edition
 

@@ -4,18 +4,13 @@ description: Crie modelos de função com atribuição automática condicional p
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+autotag-review: 2026-03-30T21:37:51.618Z
+TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1412
 ht-degree: 5%
@@ -157,7 +152,7 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
 1. Na caixa de diálogo, altere o valor de **[!UICONTROL Membros necessários]** para cada função definida, conforme necessário.
 
-   Você pode inserir o valor ou clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
+   Você pode inserir o valor ou clicar em **&amp;plus;** ou **-** para aumentar ou diminuir o valor.
 
    ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -205,4 +200,4 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3453306/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
