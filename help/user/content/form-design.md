@@ -5,22 +5,14 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: '2026-03-30T22:15:18.544Z'
-source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: 2026-03-30T22:15:18.544Z
+TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
+source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
 workflow-type: tm+mt
 source-wordcount: 2066
 ht-degree: 2%
@@ -140,7 +132,7 @@ Você pode mover campos de formulário diretamente no espaço de trabalho visual
 
 Adicione componentes estruturais ao formulário e mova os campos para colunas para agrupá-los e alterar o layout. Clique na ferramenta _Mover_ na borda esquerda do componente de coluna selecionado e arraste-o para um novo local no formulário.
 
-![Mover campos no formulário e usar componentes estruturais para agrupamento e disposição](./assets/form-field-move-tool.png){width="500"}
+![Mover campos no formulário e usar componentes estruturais para agrupamento e layout](./assets/form-field-move-tool.png){width="500"}
 
 ### Excluir ou duplicar um campo {#field-delete-duplicate}
 
