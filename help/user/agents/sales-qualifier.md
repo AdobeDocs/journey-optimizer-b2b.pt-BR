@@ -5,10 +5,17 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: 2026-03-30T15:10:20.350Z
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
@@ -280,10 +287,10 @@ Na página _[!UICONTROL Fluxo de trabalho de saída]_, a guia **[!UICONTROL Proc
 ### Práticas recomendadas de fluxo de trabalho de saída
 
 * **Investir na meta.** Direcionamento downstream, cadência e emails retornam ao objetivo. Metas específicas focadas em resultados superam metas vagas.
-* **Finalizar prompts de ponto de contato antes da geração por cliente potencial.**** Após a geração em massa, as alterações normalmente são feitas um cliente potencial por vez.
+* **Finalizar prompts de ponto de contato antes da geração por cliente potencial.**&#x200B;** Após a geração em massa, as alterações normalmente são feitas um cliente potencial por vez.
 * **Usar o raciocínio como uma verificação de qualidade.** Se o sinal errado for enfatizado, ou se um sinal óbvio estiver ausente, edite o email ou revisite o prompt do ponto de contato e gere novamente a cadência.
-* **Corresponda a ferramenta de edição à alteração.**** Edições diretas de texto e tom; **[!UICONTROL Gerar com IA]** para reestruturação ou redefinição.
-* **Aprove apenas o que você revisou.**** Expanda os pontos de contato, leia o conteúdo e refine quando necessário antes da inscrição.
+* **Corresponda a ferramenta de edição à alteração.**&#x200B;**&#x200B; Edições diretas de texto e tom; &#x200B;** [!UICONTROL Gerar com IA]** para reestruturação ou redefinição.
+* **Aprove apenas o que você revisou.**&#x200B;** Expanda os pontos de contato, leia o conteúdo e refine quando necessário antes da inscrição.
 
 ## Caixa de saída de email
 
