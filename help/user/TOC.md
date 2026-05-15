@@ -1,7 +1,7 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
+source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 92%
@@ -150,7 +150,7 @@ ht-degree: 92%
 + Painéis inteligentes {#dashboards}
    + [Painel de insights](./dashboards/intelligent-dashboard.md)
    + [Painel de engajamento](./dashboards/engagement-dashboard.md)
-   + [Painel de participação na Web](./dashboards/web-engagement-dashboard.md)
+   + [Painel de engajamento na Web](./dashboards/web-engagement-dashboard.md)
    + [Painel Grupos de compra](./dashboards/buying-groups-dashboard.md)
    + [Painel de Jornadas da conta](./dashboards/journeys-dashboard.md)
 + Administração {#admin}
@@ -161,10 +161,10 @@ ht-degree: 92%
       + [Dados de intenção](./admin/intent-data.md)
       + [Ponderação da pontuação de engajamento](./admin/engagement-score-weighting.md)
       + [Ações externas](./admin/configure-external-actions.md)
+      + {hide-from-toc}[Configurar sequências de dados para a coleção de eventos](./data/aep-event-collection.md)
    + Canais {#channels}
       + [Configurações de email](./admin/configure-channels-emails.md)
       + [Configuração de SMS](./admin/configure-channels-sms.md)
       + [Configurações do WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configurações do canal da Web (Beta)](./admin/configure-channels-web.md)
       + [Configurações da página de aterrissagem (Beta)](./admin/landing-page-settings.md)
-      + {hide-from-toc}[Configurar sequências de dados para a coleção de eventos](./data/aep-event-collection.md)
