@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
-source-wordcount: 4757
+source-wordcount: 4594
 ht-degree: 1%
 
 ---
@@ -42,24 +42,6 @@ O Qualificador de Vendas está incluído na [!UICONTROL Journey Optimizer B2B ed
 
 O Account Qualification Agent (AQA) é o coração do qualificador de vendas. O AQA usa IA para ler suas contas e determinar quais estão prontas para a próxima etapa. Ele auxilia na pesquisa, elaboração de emails e contexto informado pelo CRM quando sua organização conecta o CRM (somente leitura).
 
-![Painel do Account Qualification Agent habilitado por IA para prospecto de vendas e pesquisa de conta](./assets/acc-qualification-agent.png){width="800" zoomable="yes"}
-
-* **Pesquisa de cliente potencial**
-
-  Realize pesquisas de clientes potenciais usando a recuperação automática e a exibição de informações importantes de clientes potenciais (como cargo, contratos recentes, associação a grupos de compras) para fornecer uma visão completa em segundos.
-
-* **Pesquisa de conta**
-
-  Realizar pesquisas de conta usando recuperação automática e exibição de informações detalhadas sobre a empresa de um cliente potencial. Essas informações incluem sinais vitais da empresa, notícias recentes, prioridades estratégicas e os principais membros envolvidos.
-
-* **Emails de rascunho**
-
-  Gerar rascunhos de email sintetizando a pesquisa de prospecto e insights de conta para produzir conteúdo de email único relevante e personalizado com base no objetivo de BDR.
-
-* **Emails do plano de engajamento**
-
-  Crie rascunhos de email do plano de engajamento que sejam personalizados para cada etapa de uma cadência de alcance definido pelo BDR, garantindo que toda a sequência seja personalizada.
-
 <!--
 ## Edit the left navigation bar
 
@@ -72,17 +54,15 @@ Os agentes do Adobe AI usam _consultas de linguagem natural_, o que significa qu
 
 Usando a linguagem natural, você pode solicitar que o agente:
 
-* `Show me my assigned leads with no engagement yet`
-* `Show me all my leads that are not part of any autonomous engagement`
-* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
+* `Tell me the latest financial results of Bodea`
+* `Tell me more about hiring at TechNova`
+* `Tell me about the new AI features in Bodea LumaSecure4`
 
-Você pode entender imediatamente quais contas e leads são os mais ativos e mostrar a maior intenção, para que possa concentrar sua energia onde ela tem mais impacto.
+Repita os workflows de saída refinando as solicitações para obter os resultados necessários. Por exemplo:
 
-Repita sua jornada refinando seus prompts para obter os resultados necessários. Por exemplo:
+* _Faça um rascunho de um email de acompanhamento a partir do contexto, como chamadas de ganhos ou relatórios._ Até 120 palavras. Linha de assunto: cativante, incorporando um tema chave. Introdução: gancho com uma cotação direta de fontes de contexto. Corpo: conecte-se aos pontos problemáticos e às propostas de valor. CTA: proponha uma breve chamada para explorar mais detalhes._
 
-* _Faça um rascunho de um email de acompanhamento a partir do contexto, como chamadas de ganhos ou relatórios. Até 120 palavras. Linha de assunto: cativante, incorporando um tema chave. Introdução: gancho com uma cotação direta de fontes de contexto. Corpo: conecte-se aos pontos problemáticos e às propostas de valor. CTA: proponha uma pequena chamada para explorar mais detalhes._
-
-* _O objetivo deste email é iniciar uma conversa e criar credibilidade. Esboçar um e-mail com menos de 120 palavras que tenha um tom consultivo e empático. Evite uma abordagem de vendas muito familiar e não use as frases &quot;espero que você esteja bem&quot;, &quot;apenas fazendo o check-in&quot; ou &quot;por favor&quot;._
+* _O objetivo deste email é iniciar uma conversa e criar credibilidade._ Esboçar um e-mail com menos de 120 palavras que tenha um tom consultivo e empático. Evite uma abordagem de vendas muito familiar e não use as frases &quot;espero que você esteja bem&quot;, &quot;apenas conferindo&quot; ou &quot;por favor&quot;._
 
 ### Acesso ao produto e grupos de usuários
 
@@ -114,21 +94,6 @@ Selecione **[!UICONTROL Clientes potenciais]** na navegação à esquerda para v
 ![Tabela de clientes potenciais exibindo o status do cliente potencial e a última atividade para gerenciamento de clientes potenciais](./assets/prospects.png){width="800" zoomable="yes"}
 
 Clique no ícone _Filtro_ ![Filtro](../../assets/do-not-localize/icon_filter-outline.svg) para filtrar a lista exibida por status de cliente potencial.
-
-<!--
-## Engagement plans
-
-This window provides details about any defined Engagement plans.
-
-![Engagement plan dashboard showing plan details, selected leads, and schedule settings](assets/engagement-plans.png)
-
-To make a new Engagement plan, click **[!UICONTROL Create engagement plan]**.
-
-1. In the _Details_ stage, provide a name and optional description. Click **[!UICONTROL Save and Continue]**.
-1. In the _Select prospects_ stage, select the leads that should belong in this plan.
-1. In the _Define cadence_ stage, set the parameters for the plan.
-1. In the _Preview_ stage, ensure that everything is working as expected.
--->
 
 ## Fluxos de trabalho de saída
 
@@ -167,7 +132,7 @@ As seções a seguir descrevem o ciclo de vida completo: criação de um fluxo d
 
 ### Criar um fluxo de trabalho de saída
 
-A criação do fluxo de trabalho é um assistente de cinco etapas: **Meta**, **Direcionamento**, **Gerar pontos de contato**, **Configurações** e **Adicionar prospetos**. Cada etapa se baseia na última, com a meta que você define primeiro, moldando a cada decisão posterior.
+A criação do fluxo de trabalho é um assistente de cinco etapas: **Meta**, **Direcionamento**, **Gerar pontos de contato**, **Configurações** e **Adicionar prospetos**. Cada etapa se baseia na última; sua meta inicial molda cada decisão subsequente.
 
 1. Na navegação à esquerda, selecione **[!UICONTROL Fluxo de trabalho de saída]**.
 
@@ -189,7 +154,7 @@ As metas funcionam melhor quando declaram um **resultado concreto**, não apenas
 
 #### Etapa 2: configurar filtros de direcionamento
 
-Os filtros de direcionamento definem quais clientes potenciais são qualificados. Ao adicionar prospetos posteriormente, somente os que correspondem a esses filtros são exibidos na lista de seleção.
+Os filtros de direcionamento definem quais clientes potenciais são qualificados. Ao adicionar prospetos posteriormente, somente os prospetos que correspondem a esses filtros são exibidos na lista de seleção.
 
 1. Clique na seta para baixo para exibir a lista **[!UICONTROL Adicionar um filtro]** e selecione um filtro a ser aplicado.
 
@@ -209,7 +174,7 @@ Depois que o direcionamento é definido, a IA cria a **_cadência_**: analisa su
 
 ![Cadência e prompts de ponto de contato gerados pelo fluxo de trabalho de saída](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Expanda um ponto de contato de email para ler seu prompt, que é a instrução que a IA segue ao escrever o email real de cada prospecto (tom, comprimento, foco e call to action).
+Expanda um ponto de contato de email para ler seu prompt. Essa instrução orienta a IA ao escrever o email de cada cliente potencial, incluindo tom, comprimento, foco e call to action.
 
 **Regenerar a cadência**
 
@@ -313,7 +278,7 @@ A aprovação ativa a cadência de um cliente potencial. Até que um cliente pot
 
 ![Fluxo de trabalho de saída selecionar e aprovar prospetos](./assets/outbound-workflow-create-approve-enroll-prospects.png){width="700" zoomable="yes"}
 
-Fila de emails aprovados a enviar durante a **janela de envio** do fluxo de trabalho, no **fuso horário** configurado, em cada dia agendado do ponto de contato relativo à inscrição. Os clientes potenciais que você não aprovar permanecerão em **[!UICONTROL Pronto para revisão]** até que você aja. Após a aprovação, o workflow é executado de acordo com a cadência definida.
+Emails aprovados são enviados durante a **janela de envio** do fluxo de trabalho no **fuso horário** configurado, no dia agendado de cada ponto de contato em relação à inscrição. Os clientes potenciais que você não aprovar permanecerão em **[!UICONTROL Pronto para revisão]** até que você aja. Após a aprovação, o workflow é executado de acordo com a cadência definida.
 
 ### Gerenciar workflows existentes
 
@@ -322,10 +287,10 @@ Na página _[!UICONTROL Fluxo de trabalho de saída]_, a guia **[!UICONTROL Proc
 ### Práticas recomendadas de fluxo de trabalho de saída
 
 * **Investir na meta.** Direcionamento downstream, cadência e emails retornam ao objetivo. Metas específicas focadas em resultados superam metas vagas.
-* **Finalizar prompts de ponto de contato antes de gerar por prospecto.** Após a geração em massa, as alterações normalmente são feitas em um cliente potencial de cada vez.
+* **Finalizar prompts de ponto de contato antes da geração por cliente potencial.**&#x200B;** Após a geração em massa, as alterações normalmente são feitas um cliente potencial por vez.
 * **Usar o raciocínio como uma verificação de qualidade.** Se o sinal errado for enfatizado, ou se um sinal óbvio estiver ausente, edite o email ou revisite o prompt do ponto de contato e gere novamente a cadência.
-* **Corresponder a ferramenta de edição à alteração.** Edições diretas de texto e tom; **[!UICONTROL Gerar com IA]** para reestruturação ou redefinição.
-* **Aprove somente o que você revisou.** Expanda os pontos de contato, leia o conteúdo e refine quando necessário antes da inscrição.
+* **Corresponda a ferramenta de edição à alteração.**&#x200B;**&#x200B; Edições diretas de texto e tom; &#x200B;** [!UICONTROL Gerar com IA]** para reestruturação ou redefinição.
+* **Aprove apenas o que você revisou.**&#x200B;** Expanda os pontos de contato, leia o conteúdo e refine quando necessário antes da inscrição.
 
 ## Caixa de saída de email
 
@@ -348,7 +313,7 @@ You can interact with clients, and see summaries for the contact and the thread 
 
 ## Tarefas
 
-A área _Tarefas_ do Qualificador de Vendas oferece aos Representantes de Desenvolvimento Empresarial (BDRs) um espaço dedicado para gerenciar e processar suas ações de fluxo de trabalho de saída. As tarefas são geradas automaticamente pelo mecanismo de workflow de saída e representam as ações específicas que um BDR precisa realizar com cada prospecto — chamadas telefônicas, LinkedIn InMails e revisões de email.
+A área _Tarefas_ do Qualificador de Vendas oferece aos Representantes de Desenvolvimento Empresarial (BDRs) um espaço dedicado para gerenciar e processar suas ações de fluxo de trabalho de saída. O mecanismo de workflow de saída gera automaticamente tarefas que representam as ações específicas que um BDR precisa realizar com cada prospecto — chamadas telefônicas, LinkedIn InMails e revisões de email.
 
 A experiência de gerenciamento de tarefas foi projetada como uma **fila de processamento**, não apenas uma lista de tarefas pendentes. Você pode abrir uma tarefa, executar uma ação, marcá-la como concluída e passar para a próxima — tudo isso sem sair da página.
 
@@ -393,13 +358,11 @@ Para tarefas de Telefonema e do LinkedIn In InMail, um campo de anotações em l
 
 Use as seguintes ações para gerenciar suas tarefas:
 
-* **[!UICONTROL Marcar como Concluída]** - A ação principal. Use isso depois de executar a tarefa — fez a chamada, enviou o InMail ou revisou e aprovou os emails. Na conclusão, a tarefa é registrada como **Concluída** e a fila avança automaticamente.
+* **[!UICONTROL Marcar como Concluída]** - A ação principal. Use esta ação depois de executar a tarefa — fez a chamada, enviou o InMail ou revisou e aprovou os emails. Na conclusão, a tarefa é registrada como **Concluída** e a fila avança automaticamente.
 
-* **[!UICONTROL Ignorar ponto de contato]** - Disponível no menu de estouro no painel de trabalho. Use essa opção quando não for possível concluir essa etapa específica, mas o cliente potencial ainda for um destino válido e deverá permanecer no fluxo de trabalho.
-
-  Quando você ignora um ponto de contato:
+* **[!UICONTROL Ignorar ponto de contato]** - Disponível no menu de estouro no painel de trabalho. Use essa opção quando não for possível concluir essa etapa, mas o cliente potencial permanecerá um público alvo válido no fluxo de trabalho.
    * O cliente potencial avança para a próxima etapa da sequência. Tarefas futuras ainda são geradas de acordo com o agendamento.
-   * Você deve selecionar um motivo: *Informações de contato incorretas*, *Tempo incorreto*, *Conteúdo não relevante* ou *Outros* (com um campo de texto livre).
+   * Selecione um motivo: *Informações de contato incorretas*, *Tempo incorreto*, *Conteúdo não relevante* ou *Outros* (com um campo de texto livre).
    * O status da tarefa está definido como **Ignorado** e registrado com o motivo e o carimbo de data/hora.
    * Se esta foi a última etapa do fluxo de trabalho, a execução do fluxo de trabalho do cliente potencial termina. A tarefa ainda é registrada como Ignorada (não Removida).
 
@@ -408,13 +371,13 @@ Use as seguintes ações para gerenciar suas tarefas:
   Ao remover um cliente potencial de um fluxo de trabalho:
    * Todas as tarefas pendentes e futuras desse cliente potencial dentro deste fluxo de trabalho são canceladas.
    * O status da inscrição do cliente potencial muda para **Removido pelo BDR**.
-   * Você deve selecionar um motivo: *Empresa à esquerda*, *Duplicado*, *Ajuste incorreto*, *Já convertido* ou *Outros* (com um campo de texto).
-   * Uma caixa de diálogo de confirmação é exibida: *&quot;Isso cancelará todos os pontos de contato restantes para [Prospecto] no [Nome do Fluxo de Trabalho]. Continuar?&quot;*
+   * Selecione um motivo: *Empresa à esquerda*, *Duplicado*, *Ajuste incorreto*, *Já convertido* ou *Outros* (com um campo de texto).
+   * Uma caixa de diálogo de confirmação é exibida: *&quot;Esta ação cancelará todos os pontos de contato restantes para [Prospecto] em [Nome do Fluxo de Trabalho]. Continuar?&quot;*
    * O status da tarefa está definido como **Removido**. Todas as tarefas irmãs canceladas também são marcadas como **Removidas**.
 
 >[!NOTE]
 >
->Ignorar e remover feeds de dados de motivo na análise — ignore a taxa por canal, a taxa de remoção por fluxo de trabalho e os principais motivos. Isso ajuda a melhorar a qualidade do fluxo de trabalho e informa a análise de desempenho ao longo do tempo.
+>Os dados de motivo de Ignorar e Remover informam a análise, incluindo a taxa de salto por canal, a taxa de remoção por fluxo de trabalho e os principais motivos. Isso ajuda a melhorar a qualidade do fluxo de trabalho e informa a análise de desempenho ao longo do tempo.
 
 ### Status da tarefa
 
@@ -437,9 +400,9 @@ Use as guias na parte superior da lista de tarefas para alternar entre exibiçõ
 
 * **Hoje** *(padrão)* — Tarefas com vencimento hoje que não foram concluídas.
 
-* **Vencidas** — Tarefas cuja data de conclusão já passou e ainda estão abertas. Resolva-os primeiro.
+* **Vencidas** — Tarefas cuja data de conclusão já passou e ainda estão abertas. Resolva essas tarefas primeiro.
 
-* **Próximos** — Tarefas com data de vencimento futura em que a etapa anterior do fluxo de trabalho já foi concluída. Elas são visíveis com antecedência, para que você possa planejar com antecedência ou agir com antecedência se o momento for adequado (por exemplo, se já estiver lidando com um cliente potencial). A data de vencimento agendada é exibida para que você saiba o tempo pretendido.
+* **Próximos** — Tarefas com data de vencimento futura em que a etapa anterior do fluxo de trabalho já foi concluída. Essas tarefas são visíveis com antecedência, portanto você pode planejar com antecedência ou agir com antecedência se o cronograma estiver certo (por exemplo, se já estiver lidando com um cliente potencial). A data de vencimento agendada é exibida para que você saiba o tempo pretendido.
 
 * **Concluídas** — Um registro de tarefas que você concluiu, ignorou ou removeu. Útil para fins de revisão e auditoria.
 
@@ -477,7 +440,7 @@ Uma tarefa se torna vencida no dia seguinte à data de vencimento se não tiver 
 
 ### Próximas tarefas
 
-As tarefas futuras serão criadas no momento em que um cliente potencial concluir uma etapa do fluxo de trabalho, mesmo que a próxima etapa ainda esteja no futuro. Isso oferece visibilidade antecipada do pipeline para que você possa planejar com antecedência ou agir antecipadamente quando a oportunidade surgir.
+As tarefas futuras serão criadas no momento em que um cliente potencial concluir uma etapa do fluxo de trabalho, mesmo que a próxima etapa ainda esteja no futuro. Essa visibilidade oferece um insight antecipado no pipeline, para que você possa planejar com antecedência ou agir antecipadamente quando a oportunidade surgir.
 
 As tarefas futuras terão seus prazos agendados, para que você sempre saiba quando devem ser resolvidas. A conclusão antecipada de uma tarefa futura é totalmente suportada — o mecanismo de workflow registra a data de conclusão real e avança o cliente potencial normalmente.
 
@@ -522,7 +485,7 @@ Trabalhe com seu administrador de CRM antes de conectar o Qualificador de Vendas
 
 1. Atribua uma função de segurança que conceda acesso de **leitura** às necessidades do Qualificador de Vendas das entidades (por exemplo, clientes potenciais, contatos, contas, oportunidades e atividades).
 
-   Sem uma função, o aplicativo não pode ler dados.
+   O aplicativo requer uma função de segurança com acesso de leitura aos dados de leitura.
 
 **Informações a serem fornecidas ao conectar o Dynamics:**
 
@@ -533,7 +496,7 @@ Trabalhe com seu administrador de CRM antes de conectar o Qualificador de Vendas
 
 #### Salesforce
 
-No Salesforce, [crie um Aplicativo Cliente Externo](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm) (ou um _Aplicativo Conectado_) com OAuth habilitado e escopos que permitam o acesso da API à identidade e aos dados, seguindo os padrões de segurança da organização. O usuário que está integrando (por exemplo, ao usar uma configuração de estilo de credenciais de cliente) deve ter acesso de leitura a objetos como clientes potenciais, contas, contatos, tarefas, eventos, oportunidades e objetos de oportunidade relacionados. As tarefas administrativas geralmente exigem um usuário com **[!UICONTROL Gerenciar Aplicativos Conectados]** (entre outras permissões) para exibir uma chave do consumidor e um segredo após a criação.
+No Salesforce, [crie um Aplicativo Cliente Externo](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (ou um _Aplicativo Conectado_) com OAuth habilitado e escopos que permitam o acesso da API à identidade e aos dados, seguindo os padrões de segurança da organização. O usuário que está integrando (por exemplo, ao usar uma configuração de estilo de credenciais de cliente) deve ter acesso de leitura a objetos como clientes potenciais, contas, contatos, tarefas, eventos, oportunidades e objetos de oportunidade relacionados. As tarefas administrativas geralmente exigem um usuário com **[!UICONTROL Gerenciar Aplicativos Conectados]** (entre outras permissões) para exibir uma chave do consumidor e um segredo após a criação.
 
 >[!PREREQUISITES]
 >
@@ -686,7 +649,7 @@ Na guia **[!UICONTROL Configuração do calendário]**, defina o fuso horário e
 Se você desconectar seu calendário:
 
 * Os links de reserva ativos são efetivamente desativados.
-* A página de reserva mostra um estado amigável temporariamente indisponível.
+* A página de reserva mostra um estado amigável e temporariamente indisponível.
 * A reconexão preserva as configurações.
 
 ### Disponibilidade do calendário
