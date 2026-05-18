@@ -4,21 +4,16 @@ description: 'Simplifique a geração de demanda com o jornada: crie, publique e
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
 workflow-type: tm+mt
-source-wordcount: 1520
+source-wordcount: 1511
 ht-degree: 44%
 
 ---
@@ -114,11 +109,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando uma jornada é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
-| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Abortar](#abort-journey) |
-| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Concluída**&#x200B;_ | Quando todos os membros de conta ou público-alvo de pessoa em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Rascunho**_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Ativa**_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando uma jornada é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Abortar](#abort-journey) |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Concluída**_ | Quando todos os membros de conta ou público-alvo de pessoa em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
 
 ## Jornada mapas
 
@@ -171,10 +166,6 @@ Se você fechar uma jornada ativa, as contas que estão atualmente na jornada co
 ### Duplicar uma jornada {#duplicate-journey}
 
 Uma ação duplicada é semelhante a uma função de clone, mas uma jornada duplicada não inclui nenhum ativo de conteúdo de jornada criado. Você pode duplicar os detalhes da jornada ou apenas um _esqueleto_ simples da estrutura de fluxo e caminho.
-
->[!NOTE]
->
->Esta ação não está disponível no momento para jornadas de pessoas.
 
 1. Clique no ícone _Mais_ (**...**) ao lado do nome da jornada e escolha **[!UICONTROL Duplicar]**.
 
@@ -230,4 +221,4 @@ Ao selecionar o nó, clique no número para visualizar uma lista de contas que e
 
 ## Vídeo de visão geral da jornada de conta {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
