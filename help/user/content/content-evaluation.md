@@ -18,7 +18,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 755
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -60,7 +60,7 @@ A avaliação e a pontuação do conteúdo ajudam a criar, revisar e gerenciar o
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Pontuação de alinhamento da marca"
->abstract="A pontuação do alinhamento da marca mede o desempenho do conteúdo em seguir as diretrizes da marca para garantir a consistência nas cores, fontes, logotipo, imagem e estilo de escrita."
+>abstract="A pontuação de alinhamento da marca mede o quanto o conteúdo segue as diretrizes da marca para garantir a consistência nas cores, fontes, logotipo, imagem e estilo de escrita."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -109,7 +109,7 @@ Você pode fazer alterações no conteúdo e clicar em **[!UICONTROL Reavaliar p
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="Qualidade do conteúdo"
->abstract="Avalie a qualidade do conteúdo geral para identificar possíveis problemas de legibilidade, coesão do conteúdo e eficácia. A avaliação da qualidade é independente das diretrizes da sua marca."
+>abstract="Avalie a qualidade geral do conteúdo para identificar possíveis problemas de legibilidade, coesão do conteúdo e eficácia. A avaliação da qualidade é independente das diretrizes da marca."
 
 >[!NOTE]
 >

@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1606
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro, que permite pré-visualizar a renderização e definir configurações personalizadas. <br>A renderização final depende do cliente de email do destinatário. Esteja ciente de que todos os clientes de email não suportam o modo escuro personalizado."
+>abstract="Alterne para o modo escuro, que permite pré-visualizar a renderização e definir configurações personalizadas. <br>A renderização final depende do cliente de email do destinatário. Atente-se que nem todos os clientes de email são compatíveis com o modo escuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
@@ -135,7 +135,7 @@ Para obter os melhores resultados, teste seu conteúdo com os clientes de email 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Usar uma imagem específica para o modo escuro"
->abstract="Você pode selecionar outra imagem para exibir quando o modo escuro estiver ativado. <br>A adição de uma imagem específica para o modo escuro não garante que ela seja renderizada corretamente em todos os clientes de email. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
+>abstract="É possível selecionar outra imagem para exibir quando o modo escuro estiver ativado. <br>A adição de uma imagem específica para o modo escuro não garante que ela será renderizada corretamente em todos os clientes de email. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
 
 Depois de alternar para o modo escuro, você pode optar por editar elementos de estilo específicos do seu conteúdo, que são exibidos somente quando o modo escuro está ativado no cliente de email do recipient (desde que seja compatível com esse recurso).
 

@@ -19,7 +19,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1491
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -138,12 +138,12 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Categoria de palavra-chave de entrada"
->abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia sua resposta automática de fallback quando nenhuma palavra-chave é correspondente."
+>abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia a resposta automática substituta quando nenhuma palavra-chave é correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="Insira as palavras-chave"
->abstract="É possível definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas (stop e STOP são tratados da mesma forma)."
+>abstract="É possível definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas (parar e PARAR são tratadas da mesma forma)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"
