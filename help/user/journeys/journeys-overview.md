@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
 workflow-type: tm+mt
-source-wordcount: 1520
+source-wordcount: 1511
 ht-degree: 44%
 
 ---
@@ -171,10 +171,6 @@ Se você fechar uma jornada ativa, as contas que estão atualmente na jornada co
 ### Duplicar uma jornada {#duplicate-journey}
 
 Uma ação duplicada é semelhante a uma função de clone, mas uma jornada duplicada não inclui nenhum ativo de conteúdo de jornada criado. Você pode duplicar os detalhes da jornada ou apenas um _esqueleto_ simples da estrutura de fluxo e caminho.
-
->[!NOTE]
->
->Esta ação não está disponível no momento para jornadas de pessoas.
 
 1. Clique no ícone _Mais_ (**...**) ao lado do nome da jornada e escolha **[!UICONTROL Duplicar]**.
 
