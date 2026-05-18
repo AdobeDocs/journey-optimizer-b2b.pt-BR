@@ -6,19 +6,15 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 755
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -60,7 +56,7 @@ A avaliação e a pontuação do conteúdo ajudam a criar, revisar e gerenciar o
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Pontuação de alinhamento da marca"
->abstract="A pontuação do alinhamento da marca mede o desempenho do conteúdo em seguir as diretrizes da marca para garantir a consistência nas cores, fontes, logotipo, imagem e estilo de escrita."
+>abstract="A pontuação de alinhamento da marca mede o quanto o conteúdo segue as diretrizes da marca para garantir a consistência nas cores, fontes, logotipo, imagem e estilo de escrita."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -109,7 +105,7 @@ Você pode fazer alterações no conteúdo e clicar em **[!UICONTROL Reavaliar p
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="Qualidade do conteúdo"
->abstract="Avalie a qualidade do conteúdo geral para identificar possíveis problemas de legibilidade, coesão do conteúdo e eficácia. A avaliação da qualidade é independente das diretrizes da sua marca."
+>abstract="Avalie a qualidade geral do conteúdo para identificar possíveis problemas de legibilidade, coesão do conteúdo e eficácia. A avaliação da qualidade é independente das diretrizes da marca."
 
 >[!NOTE]
 >

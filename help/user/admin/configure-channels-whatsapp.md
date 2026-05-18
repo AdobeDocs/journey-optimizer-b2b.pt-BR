@@ -4,22 +4,16 @@ description: Conecte sua conta comercial do WhatsApp por meio da API de nuvem do
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2:
-  - id: a7692144-1dc6-426f-b00f-fe187797f61d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: a7692144-1dc6-426f-b00f-fe187797f61d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1491
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -84,7 +78,7 @@ Conclua as seguintes tarefas:
    * **[!UICONTROL Token de API]** - Insira seu token de API. Para obter informações, consulte a [Documentação do Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL ID da Conta Comercial]** - Insira o número exclusivo relacionado ao seu portfólio comercial. Para obter informações, consulte a [Documentação do Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenciais da API de configurações do WhatsApp &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenciais da API de configurações do WhatsApp ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Continuar]**.
 
@@ -138,12 +132,12 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Categoria de palavra-chave de entrada"
->abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia sua resposta automática de fallback quando nenhuma palavra-chave é correspondente."
+>abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia a resposta automática substituta quando nenhuma palavra-chave é correspondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="Insira as palavras-chave"
->abstract="É possível definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas (stop e STOP são tratados da mesma forma)."
+>abstract="É possível definir palavras-chave para acionar respostas automáticas específicas com base no texto dos usuários. As palavras-chave não diferenciam maiúsculas de minúsculas (parar e PARAR são tratadas da mesma forma)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"
