@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 418
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ O Journey Optimizer B2B edition é um aplicativo Adobe Experience Platform integ
 
 ## Privacidade - GDPR
 
-O Journey Optimizer B2B edition usa os recursos de governança do GDPR da Marketo Engage fornecidos pelo Privacy Service e pelo Serviço de agente de privacidade da Marketo.
+O Journey Optimizer B2B edition usa os recursos de governança do GDPR da Marketo Engage fornecidos pelo Serviço de Agente de Privacidade da Privacy Service e da Marketo.
 
 ## Controle de acesso baseado em função (RBAC)
 
@@ -37,19 +37,21 @@ Com o Journey Optimizer B2B edition e acesso ao Adobe Admin Console, os administ
 
 ## Criptografia de dados
 
-**_Criptografia para dados em repouso_** - Todos os dados de contas e perfis de pessoas transferidos do Adobe Experience Platform para o Journey Optimizer B2B edition são criptografados para manter a conformidade existente do Experience Platform. Todas as entidades originárias do Journey Optimizer B2B edition, como jornadas e grupos de compra, também são criptografadas.
+**_Criptografia para dados em repouso_** - Todos os dados de conta e perfil de pessoa transferidos do Adobe Experience Platform para o Journey Optimizer B2B edition são criptografados para manter a conformidade existente do Experience Platform. Todas as entidades originárias do Journey Optimizer B2B edition, como jornadas e grupos de compra, também são criptografadas.
 
 **_Criptografia para dados em trânsito_** (em uma rede pública) - Todas as APIs e entidades do Journey Optimizer B2B edition são criptografadas em trânsito usando TLS 1.2.
 
 ## Aceitação/recusa de consentimento
 
-Aceitação/recusa de consentimento é uma forma de governança em que um perfil pode recusar um canal de comunicação, como email ou SMS, e um perfil é excluído do canal de comunicação.
+O Journey Optimizer B2B edition lê as preferências de consentimento por pessoa armazenadas nos perfis XDM do Adobe Experience Platform e as aplica no momento da entrega de mensagens para canais de email, SMS e WhatsApp. As pessoas que optaram por não participar de um canal são excluídas da entrega antes que o conteúdo seja enviado do canal ou do provedor de mensagens downstream.
 
-Com o Journey Optimizer B2B edition, você pode criar e gerenciar casos de uso de assinatura/cancelamento de assinatura para seus casos de uso de delivery de email e SMS. Essas preferências de consentimento são armazenadas no Grupo de campos de consentimento do perfil XDM e são sincronizadas de e para o Journey Optimizer B2B edition como parte da Estrutura de sincronização de dados. Essas preferências são usadas no momento do delivery para excluir perfis que optaram por não participar.
+O consentimento é avaliado no momento do delivery usando campos XDM do Grupo de campos de consentimento de perfil. O comportamento de consentimento padrão difere por canal — o padrão do email é aceitar quando nenhuma preferência é definida, enquanto o SMS e o WhatsApp assumem o padrão de recusar.
+
+Para obter detalhes sobre os atributos XDM avaliados para cada canal e seus comportamentos padrão, consulte [Preferências de consentimento](../content/channels-consent-preferences.md).
 
 ## Redefinição de área restrita
 
-A redefinição da sandbox **não é suportada no momento** para o Adobe Journey Optimizer B2B edition. Redefinir ou excluir uma sandbox mapeada para o Journey Optimizer B2B edition pode resultar em perda permanente de dados no Journey Optimizer B2B edition e exigir o provisionamento de uma nova instância do Journey Optimizer B2B edition.
+A redefinição da sandbox **não é suportada no momento** para o Adobe Journey Optimizer B2B edition. Redefinir ou excluir uma sandbox mapeada para o Journey Optimizer B2B edition pode causar perda permanente de dados e exigir o provisionamento de uma nova instância.
 
 ## Ainda não disponível
 
