@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 92%
+source-wordcount: '440'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 92%
    + [Canal do WhatsApp](./content/whatsapp-authoring.md)
    + Canal de email {#email-channel}
       + [Adicionar um email](./content/add-email.md)
-      + [Otimização de hora de envio](./content/email-send-time-optimization.md)
+      + [Otimização do horário de envio](./content/email-send-time-optimization.md)
       + [Criação de email](./content/email-authoring.md)
       + [Assistente de IA para criação de email](./content/ai-assistant-emails.md)
       + [Fluxos de trabalho do GenStudio](./content/genstudio-email-workflow.md)
@@ -69,6 +69,7 @@ ht-degree: 92%
       + [Design de experiência online](./content/web-experience-design.md)
       + [Aplicativos de página única](./content/web-single-page-applications.md)
    + [Tokens de personalização](./content/personalization-my-tokens.md)
+   + [Preferências de consentimento](./content/channels-consent-preferences.md)
 + Públicos-alvo {#audiences}
    + [Públicos da Experience Platform](./audiences/account-audience-overview.md)
    + [Públicos-alvo externos](./audiences/target-external-audience.md)

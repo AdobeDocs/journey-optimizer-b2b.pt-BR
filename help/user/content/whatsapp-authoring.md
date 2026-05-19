@@ -4,19 +4,14 @@ description: Crie mensagens de WhatsApp para jornadas de conta usando modelos ap
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 828
 ht-degree: 1%
 
 ---
@@ -92,7 +87,7 @@ Você pode configurar entregas de mensagens do WhatsApp em uma jornada de conta 
 
 >[!IMPORTANT]
 >
->**Gerenciamento de consentimento do WhatsApp**: de acordo com as políticas e os regulamentos aplicáveis da Meta, todas as mensagens de marketing do WhatsApp devem ser enviadas apenas aos destinatários que optaram por receber comunicações. Os destinatários do WhatsApp podem recusar a qualquer momento respondendo com uma palavra-chave de recusa. As respostas de recusa são atendidas automaticamente e os perfis correspondentes são removidos dos futuros públicos-alvo de mensagens de marketing.
+>**Gerenciamento de consentimento do WhatsApp**: de acordo com as políticas e os regulamentos aplicáveis da Meta, todas as mensagens de marketing do WhatsApp devem ser enviadas apenas aos destinatários que optaram por receber comunicações. Os destinatários do WhatsApp podem recusar a qualquer momento respondendo com uma palavra-chave de recusa. As respostas de recusa são atendidas automaticamente e os perfis correspondentes são removidos dos futuros públicos-alvo de mensagens de marketing. Para obter detalhes sobre como as preferências de consentimento do WhatsApp são avaliadas no momento da entrega, consulte [Preferências de consentimento](./channels-consent-preferences.md).
 
 As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los no Journey Optimizer B2B edition. Trabalhe com o administrador da sua conta do [!DNL Meta Business Manager] para gerenciar e enviar modelos para aprovação.
 
