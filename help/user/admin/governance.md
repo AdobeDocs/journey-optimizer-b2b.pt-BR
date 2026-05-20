@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Com o Journey Optimizer B2B edition e acesso ao Adobe Admin Console, os administ
 
 ## Aceitação/recusa de consentimento
 
-O Journey Optimizer B2B edition lê as preferências de consentimento por pessoa armazenadas nos perfis XDM do Adobe Experience Platform e as aplica no momento da entrega de mensagens para canais de email, SMS e WhatsApp. As pessoas que optaram por não participar de um canal são excluídas da entrega antes que o conteúdo seja enviado do canal ou do provedor de mensagens downstream.
+O Journey Optimizer B2B edition lê as preferências de consentimento por pessoa armazenadas nos perfis XDM do Adobe Experience Platform e as aplica no momento da entrega de mensagens para canais de email, SMS e WhatsApp. Uma pessoa que recusou a participação em um canal é excluída da entrega antes que o conteúdo seja enviado do canal ou do provedor de mensagens downstream.
 
 O consentimento é avaliado no momento do delivery usando campos XDM do Grupo de campos de consentimento de perfil. O comportamento de consentimento padrão difere por canal — o padrão do email é aceitar quando nenhuma preferência é definida, enquanto o SMS e o WhatsApp assumem o padrão de recusar.
 

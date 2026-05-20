@@ -17,7 +17,7 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 3%
@@ -29,6 +29,12 @@ ht-degree: 3%
 Use o Adobe Journey Optimizer B2B edition para enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
 
 Antes de criar mensagens SMS para jornadas de conta, verifique se o [provedor de serviços SMS está configurado](../admin/configure-channels-sms.md) nas configurações do _[!UICONTROL Administrador]_.
+
+>[!IMPORTANT]
+>
+>**Gerenciamento de consentimento de SMS**<br/>
+>
+>De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas. Além disso, qualquer palavra-chave personalizada configurada para sua conta de provedor de serviços SMS é compatível e respeitada. Para obter detalhes sobre como as preferências de consentimento de SMS são avaliadas no momento da entrega, consulte [Preferências de consentimento](./channels-consent-preferences.md).
 
 ## Adicionar uma ação de SMS em uma jornada de conta
 
@@ -51,12 +57,6 @@ Você pode configurar entregas de mensagens de texto em uma jornada de conta ao 
    O _mapa de Jornadas_ é aberto e você pode criar a mensagem e definir as propriedades de SMS para enviar a mensagem.
 
 ### Criar a mensagem SMS
-
->[!IMPORTANT]
->
->**Gerenciamento de consentimento de SMS**<br/>
->
->De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas. Além disso, qualquer palavra-chave personalizada configurada para sua conta de provedor de serviços SMS é compatível e respeitada. Para obter detalhes sobre como as preferências de consentimento de SMS são avaliadas no momento da entrega, consulte [Preferências de consentimento](./channels-consent-preferences.md).
 
 Digite o texto que deseja enviar no campo **[!UICONTROL Mensagem]**.
 
