@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 4cc24ff8a19aa1ec6888c7ef35c1a4c6ac93f344
+source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
 workflow-type: tm+mt
-source-wordcount: 5096
+source-wordcount: 5099
 ht-degree: 67%
 
 ---
@@ -43,8 +43,8 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | Páginas de destino | Agora os profissionais de marketing podem criar e publicar páginas de aterrissagem no Journey Optimizer B2B edition para oferecer suporte a jornadas e programas _(antes um recurso do programa Beta)_. |
 | Recurso | Formulários | Agora os profissionais de marketing podem criar e publicar componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem criadas e publicadas no Journey Optimizer B2B edition _(anteriormente um recurso do programa Beta)_. |
 | Recurso | Filtro Membro da Lista de Contas | Use a associação de Listas de Contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
-| Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. |
-| Recurso | Jornada decisão de caminho dividido | Você pode otimizar a decisão de caminho dividido para jornadas de conta e pessoa, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. |
+| Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. [Saiba mais](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
+| Recurso | Próximos nós de jornada de melhor caminho | Você pode otimizar a decisão de caminho dividido para jornadas de pessoas, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. [Saiba mais](../journeys/next-best-path-node.md) |
 | Aprimoramento | Habilidades B2B do Audience Agent | As habilidades B2B do Audience Agent são atualizadas, incluindo a criação de modelos de compra alimentados por IA. Use o mapeamento de personalidade e intenção própria para gerar modelos de grupo de compra, revisar mapeamentos de função para pessoa recomendados pela IA e refinar modelos com linguagem natural antes de publicá-los. [Saiba mais](../agents/audience-agent-b2b.md) |
 | Aprimoramento | Relatório de desempenho de engajamento de email | O relatório de Desempenho do engajamento de email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. |
 | Aprimoramento | Painel Visão geral das Jornadas de pessoa | Esse painel fornece uma visão geral abrangente das jornadas de pessoas ativas. |
