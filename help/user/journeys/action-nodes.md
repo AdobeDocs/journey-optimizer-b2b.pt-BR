@@ -17,7 +17,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 2037
 ht-degree: 3%
@@ -53,7 +53,7 @@ Em uma jornada de conta, use uma ação nas contas quando quiser aplicar uma alt
 >
 >A ação _[!UICONTROL Valor de Dados de Alteração de Conta]_ está obsoleta para a versão 2025.10. _[!UICONTROL Atualizar perfil da conta]_ substitui esta ação no Journey Optimizer B2B edition.<br/>
 >
->Um administrador pode configurar os atributos disponíveis para a conta de negócios XDM atualizando os campos nas _[!UICONTROL Classes XDM]_ > _[!UICONTROL Classes padrão]_. Para obter mais informações, consulte [Classes padrão](../admin/xdm-field-management.md#standard-classes).
+>Um administrador pode configurar os atributos disponíveis para a conta de negócios XDM atualizando os campos nas _[!UICONTROL Configurações XDM]_ > _[!UICONTROL Classes padrão]_. Para obter mais informações, consulte [Classes padrão](../admin/xdm-field-management.md#standard-classes).
 
 ### Adicionar uma ação baseada em conta
 
@@ -272,7 +272,7 @@ Use esta ação para alterar o valor de um [atributo de perfil de pessoas](../ad
 >
 >O _[!UICONTROL Atualizar perfil da pessoa]_ substitui a ação _[!UICONTROL Alterar Valor dos Dados]_ na versão atual do Journey Optimizer B2B edition.<br/>
 >
->Um administrador pode configurar os atributos disponíveis para o Perfil individual XDM atualizando os campos nas _[!UICONTROL Classes XDM]_ > [!UICONTROL Classes padrão]. Para obter mais informações, consulte [Classes padrão](../admin/xdm-field-management.md#standard-classes).
+>Um administrador pode configurar os atributos disponíveis para o Perfil individual XDM atualizando os campos nas _[!UICONTROL Configurações XDM]_ > [!UICONTROL Classes padrão]. Para obter mais informações, consulte [Classes padrão](../admin/xdm-field-management.md#standard-classes).
 
 +++
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 TQID: https://experienceleague.adobe.com/79OalHOVUw0jEO-mFXa76-sQFE36zguoBwpmdg0TUB4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: cb8dacee0c668c8048193fb0d4ee38d742a38f71
 workflow-type: tm+mt
 source-wordcount: 4930
 ht-degree: 6%
@@ -1572,7 +1572,7 @@ Some edu specific content
 
 Use o auxiliar `each` para iterar sobre uma matriz.
 
-A estrutura auxiliar é ```{{#each ArrayName}}``` SeuConteúdo `{{/each}}`
+A estrutura auxiliar é `{{#each ArrayName}}` SeuConteúdo `{{/each}}`
 
 Você pode usar a palavra-chave `this` dentro do bloco para fazer referência a itens de matriz individuais. Use `{{@index}}` para renderizar o índice do elemento da matriz.
 

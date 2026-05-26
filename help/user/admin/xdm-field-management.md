@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 87%
+source-wordcount: 1191
+ht-degree: 79%
 
 ---
 
@@ -31,21 +31,21 @@ ht-degree: 87%
 
 Os campos do Experience Data Model (XDM) são elementos de esquema que fornecem dados para o aplicativo [!DNL Journey Optimizer B2B Edition]. Use campos XDM como filtros e restrições em nós de jornada, grupos de compra e para recursos de conteúdo, como personalização de email e conteúdo condicional.
 
-Os esquemas definem campos com base em classes XDM padrão. As classes XDM padrão incluem Perfil individual, Conta comercial e Evento de experiência. Os esquemas relacionais também definem campos que permitem modelar dados estruturados de forma semelhante aos bancos de dados relacionais tradicionais.
+Os esquemas definem campos com base em perfis XDM padrão. As configurações XDM padrão incluem Perfil individual, Conta comercial e Evento de experiência. Os esquemas relacionais também definem campos que permitem modelar dados estruturados de forma semelhante aos bancos de dados relacionais tradicionais.
 
 Os esquemas do Adobe Experience Platform (AEP) normalmente contêm muitos campos em hierarquias complexas. Percorrer árvores de esquema XDM leva tempo. O gerenciamento de campo XDM simplifica a seleção de campos exibindo apenas os campos relevantes para suas jornadas, grupos de compra e personalização.  Os administradores ativam esses campos para uso no Journey Optimizer B2B edition, incluindo os que são somente leitura ou editáveis.
 
-Os administradores que entendem o XDM e colaboram com engenheiros de dados ou participantes da modelagem de dados da CDP (plataforma de dados de clientes B2B) devem usar as etapas a seguir para configurar as classes XDM para [!DNL Journey Optimizer B2B Edition].
+Os administradores que entendem o XDM e colaboram com engenheiros de dados ou participantes da modelagem de dados da Plataforma de dados do cliente (CDP) B2B devem usar as etapas a seguir para configurar campos XDM para [!DNL Journey Optimizer B2B Edition].
 
-## Acessar classes XDM
+## Acessar configurações XDM
 
 1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configuração]**.
 
-1. Clique em **[!UICONTROL Classes XDM]** no painel intermediário.
+1. Clique em **[!UICONTROL Configurações XDM]** no painel intermediário.
 
    * Use as guias **[!UICONTROL Padrão]** e **[!UICONTROL Relacional]** para adicionar novos campos e disponibilizá-los no Journey Optimizer B2B edition.
 
-   * Use a guia **Eventos** para [selecionar Eventos de Experiência do AEP específicos e seus campos associados](./configure-aep-events.md) a serem usados para nós de eventos de jornada.
+   * Use a guia **[!UICONTROL Eventos]** para [selecionar Eventos de Experiência do AEP específicos e seus campos associados](./configure-aep-events.md) a serem usados para nós de eventos de jornada.
 
 ## Seleções de campo
 
@@ -66,7 +66,7 @@ Na guia _[!UICONTROL Padrão]_, você pode editar _Campos gerenciados_ e _Campos
 * Os campos gerenciados são exibidos em jornadas, grupos de compra e recursos de personalização.
 * Os campos atualizáveis servem como restrições para os nós de jornada _Atualizar Perfil de Conta_ e _Atualizar Perfil de Pessoa_.
 
-![Guia Classes padrão mostrando a configuração de classe XDM](assets/xdm-standard.png){width="600" zoomable="yes"}
+![Guia Classes padrão mostrando a configuração XDM](./assets/xdm-standard.png){width="600" zoomable="yes"}
 
 A lista inclui duas classes:
 
@@ -91,11 +91,11 @@ Para selecionar campos do esquema de união, clique no nome da classe para abrir
 
 Quando você escolhe **[!UICONTROL Campos gerenciados]**, a caixa de diálogo _Selecionar campos_ lista todos os campos configuráveis.
 
-1. Selecione até 100 campos para cada classe XDM.
+1. Selecione até 100 campos para cada esquema XDM.
 
    Use o campo _[!UICONTROL Pesquisa]_ para filtrar a lista exibida por nome. Use o controle deslizante **[!UICONTROL Mostrar apenas campos selecionados]** para revisar as seleções atuais.
 
-   ![Caixa de diálogo de seleção de campos gerenciados para classes XDM padrão exibindo opções de campos configuráveis](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   ![Caixa de diálogo de seleção de campos gerenciados para esquemas XDM padrão exibindo opções de campos configuráveis](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar as seleções.
 
@@ -110,7 +110,7 @@ Antes de configurar campos atualizáveis, eles devem residir em um conjunto de d
 >Proteções para campos atualizáveis:
 >
 >* Esquemas - o esquema deve usar a identidade principal Pessoa B2B (`b2b.personKey.sourceKey`). Na classe Perfil Individual XDM, todos os campos obrigatórios no esquema devem ser definidos pelo sistema, como `identityMap` ou `personID`.
->* Conjuntos de dados - Não use um conjunto de dados que já esteja em uso para outra finalidade. Como prática recomendada, crie conjuntos de dados dedicados especificamente para armazenar campos atualizáveis. Use um conjunto de dados separado para cada classe XDM.
+>* Conjuntos de dados - Não use um conjunto de dados que já esteja em uso para outra finalidade. Como prática recomendada, crie conjuntos de dados dedicados especificamente para armazenar campos atualizáveis. Use um conjunto de dados separado para cada esquema XDM.
 
 Crie um conjunto de dados para um Perfil individual e outro para uma Conta comercial. Selecione cada novo conjunto de dados durante o processo de configuração:
 
