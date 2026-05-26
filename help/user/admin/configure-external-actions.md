@@ -4,19 +4,14 @@ description: Saiba como desenvolvedores, administradores e profissionais de mark
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -76,9 +71,7 @@ Uma ação deve ser configurada e ativada antes que os profissionais de marketin
 
    ![Insira a URL do serviço](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >Seu serviço externo deve estar ativo e acessível para que esta etapa seja bem-sucedida.
+   O serviço externo deve estar ativo e acessível para que esta etapa seja bem-sucedida. Se houver um erro de validação, a caixa de diálogo exibirá uma mensagem para descrever o erro e uma sugestão para resolvê-lo. Para obter mais informações, consulte [_Solução de problemas_](#troubleshooting).
 
 1. Quando a URL for resolvida com êxito, revise os **[!UICONTROL Detalhes do serviço]**.
 
@@ -127,7 +120,7 @@ Uma ação deve ser configurada e ativada antes que os profissionais de marketin
 
    * **[!UICONTROL Campos de Saída]** - Mapeie cada campo da tabela para um [campo XDM](../admin/xdm-field-management.md). Esses campos são enviados no corpo da solicitação para o serviço externo. Propriedades de definição de serviço: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
-   ![Mapear campos de saída de ação externa](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![Mapear campos de saída de ação externa](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Campos de Entrada]** - Mapeie cada campo da tabela para um [campo XDM atualizável](../admin/xdm-field-management.md#updatable-fields). Esses campos são preenchidos a partir da resposta do serviço externo. Propriedades de definição de serviço: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Atualizável após a criação.
 
@@ -137,11 +130,50 @@ Uma ação deve ser configurada e ativada antes que os profissionais de marketin
 
    * **[!UICONTROL Atributos globais]** - Insira um valor para cada linha a ser incluída como um campo estático no corpo da solicitação. Propriedade de definição de serviço: `invocationPayloadDef.globalAttributes`.
 
-   ![Parâmetros de cabeçalho de ação externa, tempo limite e atributos globais](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+     ![Parâmetros de cabeçalho de ação externa, tempo limite e atributos globais](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. Clique na _Seta para trás_ para retornar à lista e manter a ação no estado _Rascunho_.
 
    Ou clique em **[!UICONTROL Ativar]** para alterar a configuração da ação para o estado _Ativo_. A ação externa configurada deve estar ativa para torná-la disponível para uso nas jornadas da conta.
+
+### Solução de problemas {#troubleshooting}
+
+Quando você insere a URL para a especificação OpenAPI do seu serviço externo e clica em **[!UICONTROL Criar]**, o sistema executa a validação do serviço. Ao encontrar um erro, a caixa de diálogo exibe uma mensagem para descrevê-lo.
+
+![Mensagem de erro de validação do serviço de URL da ação externa](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Muitos dos erros a seguir exigem que você trabalhe com o desenvolvedor que criou e publicou o serviço Web voltado para o público para resolver.
+
+#### Detalhes do erro de validação
+
+| Erro exibido | Por que aconteceu | O que fazer |
+|---|---|---|
+| `This URL is already used by another external action` | Este URL de especificação já está registrado para uma ação diferente em sua organização. | Use um URL de especificação diferente ou exclua a ação existente que já o utiliza. |
+| `An action with this name already exists` | O `info.title` na sua especificação corresponde a uma ação que já existe | Altere o título do campo `info.title` da sua especificação para algo exclusivo. |
+| `Duplicate operation ID found in the specification` | Duas ou mais operações em sua especificação compartilham o mesmo `operationId`. | Atribua a cada operação um `operationId` exclusivo. |
+| `Field in the specification exceeds the maximum allowed length` | Um campo de texto na sua especificação (como um título ou descrição) é muito longo. | Encurte o campo sinalizado. |
+| `The entity type value is invalid` | Uma extensão `x-` específica do Adobe para o tipo de entidade tem um valor não reconhecido | Corrija o tipo de entidade para um valor compatível. Consulte a [documentação do desenvolvedor](https://developer.adobe.com/journey-optimizer-b2b-apis/) para conhecer as opções válidas. |
+| `The provided document is not a valid OpenAPI specification` | A especificação não pode ser analisada estruturalmente. | Valide sua especificação em relação ao esquema OpenAPI 3.0 e corrija quaisquer problemas. |
+| `Required OpenAPI field is missing` | Um campo obrigatório padrão OpenAPI está ausente (como `info` ou `paths`). | Adicione o campo ausente. |
+| `Required endpoint is missing from the specification` | Um endpoint exigido pelo Adobe Journey Optimizer B2B edition não está definido em sua especificação. | Adicione o endpoint necessário. Consulte a [documentação do desenvolvedor](https://developer.adobe.com/journey-optimizer-b2b-apis/) para saber quais pontos de extremidade são necessários. |
+| `Required extension field is missing` | Um campo de extensão obrigatório do Adobe `x-` está ausente da sua especificação. | Adicione o campo de extensão ausente conforme descrito na documentação. |
+| `Security schemes are missing from the specification` | Sua especificação não tem `securitySchemes` definido em `components`. | Defina pelo menos um esquema de segurança. |
+| `Multiple authentication types are not supported` | Sua especificação define mais de um esquema de autenticação. | Atualize sua especificação para usar um único tipo de autenticação. |
+| `The authentication type is not supported` | O tipo de esquema de segurança que você usou (como `oauth2` ou `openIdConnect`) não é suportado. | Alternar para um tipo de autenticação compatível. Consulte a documentação do desenvolvedor para conhecer as opções compatíveis. |
+| `The OpenAPI version is not supported` | Incompatibilidade de versão no nível de especificação | Atualize sua especificação para usar o OpenAPI 3.0.x. |
+| `An unexpected error occurred` | Um problema não classificado foi encontrado na sua especificação. | Verifique se há algo incomum em sua especificação e tente novamente. Se o erro persistir, entre em contato com o suporte. |
+
+<!--
+## Errors you'll see if something goes wrong with the request itself
+
+This error appears below the URL field (not in the alert banner) and means there was a network problem or an unexpected server response — not a problem with your URL or spec.
+
+| What you'll see | Why it happened | What to do |
+|---|---|---|
+| `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
+-->
 
 ## Adicionar um nó externo a uma jornada {#add-journey-node}
 
