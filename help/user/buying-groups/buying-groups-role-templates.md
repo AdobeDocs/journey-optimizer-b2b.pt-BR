@@ -14,26 +14,50 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 1412
-ht-degree: 5%
+source-wordcount: 1571
+ht-degree: 4%
 
 ---
 
 # Modelos de função do grupo de compra
 
-Em um mercado B2B, as decisões de compra geralmente são tomadas por vários indivíduos. Essas pessoas participam do processo de tomada de decisões de acordo com sua função na organização. Crie modelos de função de grupo de compras que contenham um grupo de definições de função de acordo com cada tipo de oferta de produto ou caso de uso de conta.
+Em um mercado B2B, vários indivíduos geralmente tomam decisões de compra. Essas pessoas participam do processo de tomada de decisões de acordo com sua função na organização. Crie modelos de função de grupo de compras que contenham um grupo de definições de função de acordo com cada tipo de oferta de produto ou caso de uso de conta.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
-## Acessar e procurar modelos de função
+>[!BEGINSHADEBOX]
+
+## Audience Agent B2B
+
+[O Audience Agent B2B](../agents/audience-agent-b2b.md) pode gerar um modelo de funções de grupo de compra a partir da detecção de intenção própria e do mapeamento de persona. No fluxo guiado, é possível identificar perfis vinculados a um produto, revisar mapeamentos de função para pessoa recomendados pela IA e refinar o modelo com linguagem natural antes de publicá-lo.
+
+**Solicitações para tentar:**
+
+* Criar um modelo de grupo de compra para `<product>`
+* Adicionar `<role>` mapeado a `<persona>`
+* Remover `<role>` / `<persona>`
+
+![Modelo de funções de grupo de compra B2B do Audience Agent](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+>[!PREREQUISITES]
+>
+>Antes de criar um modelo de funções, configure os dados que as condições de função podem usar:
+>
+>* [Mapeamento de campo de perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes) para filtros de atributo de pessoa
+>* [Dados de intenção](../admin/intent-data.md) se você usar filtros de intenção em condições de função
+>* [Funções personalizadas de grupos de compras](./default-custom-roles.md#custom-roles) (opcional) se você precisar de funções além dos seis padrões
+
+## Acessar e procurar modelos de função {#access-and-browse-role-templates}
 
 1. Na navegação à esquerda, clique em **[!UICONTROL Grupos de compra]**.
 
 1. Na página _[!UICONTROL Grupos de compras]_, selecione a guia **[!UICONTROL Modelos de Funções]**.
 
-   ![guia Modelos de Funções](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![Guia de inventário de modelos de funções](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    A guia fornece uma lista de inventário de todos os modelos de funções existentes e exibe as seguintes informações no formato da coluna:
 
@@ -64,9 +88,11 @@ Em um mercado B2B, as decisões de compra geralmente são tomadas por vários in
 
 1. Clique em **[!UICONTROL Criar]**.
 
-### Adicionar as funções de modelo
+### Adicionar as funções de modelo {#add-the-template-roles}
 
-Após criar o modelo, ele será aberto no espaço de trabalho e você receberá uma solicitação para adicionar as funções. O primeiro cartão de função é exibido por padrão.
+Após criar o modelo, ele será aberto no espaço de trabalho e você receberá uma solicitação para adicionar as funções. O sistema exibe o primeiro cartão de função por padrão.
+
+#### Tipos de filtro de condição de função
 
 Cada função definida para o modelo usa um conjunto de filtros, ou _condições_, para determinar os membros atribuídos à função. Use os seguintes tipos de filtro para definir as condições para uma função:
 
@@ -76,6 +102,8 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 | [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta ou pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer critério de objeto personalizado selecionado, conforme configurado nos [esquemas relacionais XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtros especiais | <li>Membro da lista (desaprovado) <li>Membro do programa (obsoleto) |
 | Dados de intenção | <li>Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave <br/>(consulte [_Dados de intenção_](../admin/intent-data.md)) |
+
+#### Definir propriedades da função
 
 1. Para o primeiro cartão de função, defina as propriedades da função.
 
@@ -89,11 +117,13 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
      O valor de cada opção é convertido em uma porcentagem para o cálculo de pontuação: [!UICONTROL Trivial] = 20, [!UICONTROL Menor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80 e [!UICONTROL Vital] = 100.
 
-     Por exemplo, um modelo de função com funções que usam Vital, Importante e Normal é convertido como 100/240, 80/240, 60/240.
+     Por exemplo, um modelo de função com as funções Vital, Importante e Normal converte para 100, 80 e 60 de 240.
 
    * **[!UICONTROL Adicionar condições para atribuição automática]** - marque esta caixa de seleção para adicionar condições para atribuir automaticamente membros ao grupo de compras que correspondem à condição. Se a caixa de seleção não estiver marcada, a adição de condições NÃO será necessária.
 
    * **[!UICONTROL Obrigatório para pontuação de integridade]** - Marque esta caixa de seleção para a função se desejar que ela seja um requisito para o cálculo de uma pontuação de integridade.
+
+#### Adicionar condições para atribuição automática
 
 1. Clique em **[!UICONTROL Adicionar Condição]** e defina a regra condicional para a função.
 
@@ -103,7 +133,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
      >[!NOTE]
      >
-     >Se você tiver campos de pessoa personalizados definidos no esquema de pessoa de negócios no Experience Platform, esses campos também estarão disponíveis para uso como atributos de pessoa em condições.
+     >Se você tiver campos de pessoa personalizados definidos no esquema de pessoa de negócios do Experience Platform, poderá usar esses campos como atributos de pessoa em condições.
 
      Use o atributo para criar um filtro correspondente usando um ou mais valores.
 
@@ -119,7 +149,9 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
    * Clique em **[!UICONTROL Concluído]**.
 
-1. Para cada função adicional que você deseja incluir no modelo, clique em **[!UICONTROL Adicionar outra função]** e repita as etapas 1 e 2 para definir a função.
+#### Adicionar mais funções
+
+1. Para cada função adicional que você deseja incluir no modelo, clique em **[!UICONTROL Adicionar outra função]** e repita as etapas em **Definir propriedades da função** e **Adicionar condições para atribuição automática** para definir a função.
 
    ![Modelo de funções com várias funções definidas](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -136,15 +168,15 @@ Para usar a associação de lista como uma condição de função, expanda **[!U
 
 >[!NOTE]
 >
->**Descontinuação de recursos**</br></br>
+>**Descontinuação de recursos**
 >
 >Na versão atual do Journey Optimizer B2B edition, a filtragem com base na lista ou associação de programa em uma instância do Marketo Engage não é mais suportada.
 
 >[!ENDSHADEBOX]
 
-### Alterar as configurações de pontuação de integridade
+### Alterar as configurações de pontuação de integridade {#change-the-completeness-score-settings}
 
-Por padrão, a integridade de uma função é definida como um membro atribuído à função. Quando quiser usar a integridade do grupo de compras como um indicador de disponibilidade para vendas ou sucesso <!-- journey decisioning coming later-->, você poderá usar essas configurações para alinhar a pontuação com o número de membros por função necessários para fechar uma oportunidade.
+Por padrão, a integridade de uma função é definida como um membro atribuído à função. Ao usar a integridade do grupo de compras para indicar disponibilidade de vendas, use essas configurações para alinhar a pontuação com o número de membros necessários para fechar uma oportunidade.
 
 Por exemplo, fechar um negócio para sua solução _X_ requer que vários tomadores de decisão de marketing sejam identificados e envolvidos, pois várias equipes de marketing em uma organização usariam a solução. Nesse caso, você deseja aumentar o limite para calcular um grupo de compras _concluído_ exigindo pelo menos dois tomadores de decisão de marketing.
 
@@ -158,7 +190,7 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
    Você pode inserir o valor ou clicar em **&plus;** ou **-** para aumentar ou diminuir o valor.
 
-   ![Modelo de funções - botão de configurações de pontuação de integridade](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![Caixa de diálogo de configurações de pontuação de integridade do modelo de funções](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -166,13 +198,15 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
 Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publicar]** no canto superior direito.
 
-A publicação do modelo define o status como _Ativo_ e o disponibiliza para associação com um interesse de solução. Deve haver pelo menos uma função definida para publicar o modelo de funções.
+A publicação do modelo define o status como _Live_ e o disponibiliza para associação com um interesse de solução. Deve haver pelo menos uma função definida para publicar o modelo de funções.
+
+Após a publicação, o status do modelo é _Live_ na guia **[!UICONTROL Modelos de Funções]** e você pode selecioná-lo quando [criar um interesse de solução](./solution-interests.md).
 
 ## Editar um modelo de funções de rascunho
 
 Quando um modelo de funções está em um estado de _Rascunho_, você pode continuar a editar as funções definidas. Todas as alterações feitas são salvas automaticamente.
 
-Altere qualquer uma das configurações no cabeçalho do cartão de função, incluindo a função do grupo de compra, ponderação, atribuição automática e requisito de pontuação de integridade.
+Altere as configurações de cabeçalho do cartão de função, como a função do grupo de compra, ponderação, atribuição automática ou requisito de pontuação de integridade.
 
 ![Alterar propriedades de função de grupo de compra](./assets/roles-template-role-properties.png){width="600"}
 
@@ -198,10 +232,12 @@ Você pode excluir um modelo de funções se ele estiver no status _Rascunho_.
 
 1. Clique em **[!UICONTROL Excluir]** na parte superior direita.
 
-   ![Alterar prioridade de função](./assets/roles-template-delete.png){width="700"}
+   ![Excluir caixa de diálogo de confirmação do modelo de funções](./assets/roles-template-delete.png){width="700"}
 
 1. Na caixa de diálogo, clique em **[!UICONTROL Excluir]** para confirmar.
 
-## Vídeo de visão geral
+   Após confirmar, o modelo de funções é removido da lista de inventário **[!UICONTROL Modelos de Funções]**.
+
+## Vídeo de visão geral {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3453306/?captions=por_br&learn=on)

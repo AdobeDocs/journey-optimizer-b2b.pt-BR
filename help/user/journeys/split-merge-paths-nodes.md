@@ -1,6 +1,6 @@
 ---
 title: Dividir e mesclar caminhos
-description: Crie nós de caminho de divisão e mesclagem para segmentar contas e pessoas com lógica condicional, filtrar por grupos de compra e recombinar caminhos no Journey Optimizer B2B edition.
+description: Divida e mescle caminhos de jornada para segmentar contas ou pessoas por condições, grupos de compra e histórico de eventos no Journey Optimizer B2B edition.
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -18,14 +18,14 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
 workflow-type: tm+mt
-source-wordcount: 2744
-ht-degree: 4%
+source-wordcount: 2550
+ht-degree: 3%
 
 ---
 
-# Dividir e mesclar caminhos
+# Dividir e mesclar caminhos {#split-paths}
 
 Use os nós de caminho de divisão e intercalação para segmentar pessoas ou contas de acordo com as condições definidas. Crie caminhos para a lista de público ou contas de acordo com as condições, defina cada caminho com nós de ação e evento para o segmento, depois combine os caminhos e continue a jornada.
 
@@ -37,9 +37,9 @@ Um nó _Split paths_ define um ou mais caminhos segmentados com base em **_accou
 >
 >Há suporte para, no máximo, 25 caminhos.
 
-## Dividir caminhos por contas
+## Dividir caminhos por contas {#split-paths-by-accounts}
 
-_(Somente jornadas de Conta)_
+**_(Somente jornadas de Conta)_**
 
 Dividir por caminhos de contas pode incluir ações e eventos de contas e pessoas. Esses caminhos podem ser divididos ainda mais.
 
@@ -53,18 +53,13 @@ _&#x200B;**Como funciona um caminho dividido por nó de contas**&#x200B;_
 
 Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-### Condições de caminho da conta
+### Condições de caminho da conta {#account-path-filters}
 
 | Condições de caminho | Descrição |
 | --------------- | ----------- |
 | [!UICONTROL Atributos da conta] | Atributos do perfil da conta, incluindo: <li>Receita anual <li>Cidade <li>País <li>Tamanho do funcionário <li>Setor <li>Nome <li>Código SIC <li>Estado |
-| [!UICONTROL Atributos da Conta] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering).) |
+| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering).) |
 | [!UICONTROL Filtros especiais] > [!UICONTROL A conta corresponde ao grupo de compras] | A conta corresponde a um ou mais grupos de compra. Ele pode ser avaliado em relação a uma ou mais das seguintes restrições para um grupo de compras correspondente: <li>Interesse da solução <li>Estágio do Grupo de Compras <li>Status do Grupo de Compras <li>Pontuação de envolvimento <li>Pontuação de integridade <li> Número de pessoas na função de grupo de compra |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Tem Grupo de Compras] | A conta tem ou não membros de grupos de compra. Ele também pode ser avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução <li>Estágio do Grupo de Compras <li>Status do Grupo de Compras <li>Pontuação de envolvimento <li>Pontuação de integridade |
-
->[!NOTE]
->
->O filtro _[!UICONTROL Tem Grupo de Compra]_ está marcado para descontinuação futura. Para novas jornadas, use o filtro _[!UICONTROL A conta corresponde ao grupo de compras]_, que inclui todas as mesmas restrições.
 
 ### Adicionar um caminho dividido pelo nó da conta
 
@@ -150,17 +145,13 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 ![Nó de jornada de conta - caminhos divididos por pessoas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Filtros de caminho de pessoas
+### Filtros de caminho de pessoas {#people-path-filters}
 
 | Filtros | Descrição |
 | ------------ | ----------- |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Email] | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado no email] <li>Email aberto <li>Email entregue <li>Email enviado <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de email). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Mensagem SMS] | Atividades de SMS com base em condições que são avaliadas usando uma ou mais mensagens SMS selecionadas anteriormente na jornada: <li>[!UICONTROL Link clicado em SMS] <li>[!UICONTROL SMS Devolvido] <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não tinha a atividade de SMS). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Valor dos dados alterado] | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor<li>Valor anterior<li>Motivo<li>Fonte<li>Data da atividade<li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não teve uma alteração no valor de dados). |
-| [!UICONTROL Histórico de Atividades] > [!UICONTROL Teve Um Momento Interessante] | Atividade de momento interessante definida na instância [!DNL Marketo Engage] associada. As restrições incluem: <li>Data importante<li>Email<li>Web <br>**[!UICONTROL Alternar para filtro de inatividade &#x200B;]**- Use esta opção para filtrar com base na falta de atividade (uma pessoa não teve um momento interessante). |
-| [!UICONTROL Histórico de atividades] > [!UICONTROL Página da Web visitada] | Atividade da página da Web que para uma ou mais páginas da Web gerenciadas pela instância [!DNL Marketo Engage] associada. As restrições incluem: <li>Página da Web (obrigatório)<li>Data da atividade<li>Endereço IP do cliente <li>Cadeia de consulta <li>Responsável pela indicação <li>Agente do usuário <li>Mecanismo de pesquisa <li>Pesquisar consulta <li>URL personalizada <li>Token <li>Navegador <li>Plataforma <li>Dispositivo <li>Número número de vezes <br>**[!UICONTROL Alternar para o filtro de inatividade &#x200B;]**- Use essa opção para filtrar com base na falta de atividade (uma pessoa não visitou a página da web). |
+| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering)) |
+| [!UICONTROL Histórico de eventos] | Divide as pessoas com base nos eventos de experiência ocorridos antes da entrada da jornada. Expanda a pasta para ver todos os tipos de evento configurados em [Admin > Configuração de evento XDM](../admin/configure-aep-events.md) e selecione um para adicionar como filtro. As restrições incluem campos do evento selecionado, uma janela de tempo de lookback medida a partir de quando a pessoa informa a jornada e um número mínimo opcional de vezes. |
 | [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado |
-| [!UICONTROL Atributos Da Pessoa] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering)) |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | (Obsoleto) A pessoa é ou não um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de envolvimento</li><li>Foi Removido</li><li>Função</li> |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | (Obsoleto) A pessoa é ou não membro de uma ou mais listas [!DNL Marketo Engage]. |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do programa] | (Obsoleto) A pessoa é ou não membro de um ou mais programas do [!DNL Marketo Engage]. |
@@ -171,7 +162,7 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 | --------------- | ----------- |
 | [!UICONTROL Função na conta] | Uma função na conta é atribuída ou não à pessoa. Restrições opcionais: <li>Nome da função |
 
-### Adicionar um caminho dividido pelo nó de pessoas
+### Adicionar um caminho dividido pelo nó de pessoas {#add-a-split-path-by-people-node}
 
 >[!NOTE]
 >
@@ -224,21 +215,27 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
    Quando você tem condições definidas para cada caminho para dividir o público no nível das pessoas, é possível adicionar ações que deseja realizar nas pessoas.
 
-### Filtragem de atividade
+### Filtragem do histórico de eventos de experiência {#experience-event-history-filtering}
 
-Para um caminho dividido por pessoas, você pode definir um caminho de acordo com a atividade da pessoa relacionada a:
+Para um caminho dividido por pessoas, você pode definir um caminho com base nos eventos de experiência que ocorreram antes da pessoa entrar na jornada. No editor de condições, expanda a pasta **[!UICONTROL Histórico de eventos]** para ver uma lista de todos os tipos de eventos configurados pelo administrador. Selecione um tipo de evento para adicioná-lo como uma condição de filtro.
 
-* Mensagens de email de antes na jornada
-* Mensagens SMS de versões anteriores na jornada
-* Alteração no valor dos dados no perfil da pessoa
-* Um momento interessante (rastreado em [!DNL Marketo Engage]) associado a um email, página da Web ou marco
-* Visita a uma página da Web (rastreada em [!DNL Marketo Engage])
+A janela de tempo de lookback para o histórico de eventos é medida retroativamente a partir do momento em que a pessoa entra na jornada. Por exemplo, uma janela de 30 dias avalia se o evento de qualificação ocorreu nos 30 dias anteriores à entrada da jornada.
+
+É possível refinar ainda mais o filtro usando restrições específicas aos campos do evento selecionado. As restrições opcionais de **[!UICONTROL Número mínimo de vezes]** e **[!UICONTROL Data da atividade]** são avaliadas na janela de pesquisa definida. Como os dados do histórico de eventos são sincronizados do Adobe Experience Platform, pode haver um breve atraso antes que um evento recente se torne visível para esse filtro.
+
+>[!NOTE]
+>
+>Os eventos disponíveis na pasta [!UICONTROL Histórico de eventos] são determinados pelas [configurações de eventos e campos de experiência](../admin/configure-aep-events.md).
+
+**Exemplo:** para encaminhar as pessoas que clicaram em um link em um email de marketing antes de entrar na jornada, selecione o evento de clique de email na pasta [!UICONTROL Histórico de eventos], defina a janela de pesquisa para cobrir o período relevante e aplique quaisquer restrições de nível de campo (como uma URL de link específica), conforme necessário.
+
+![Dividir caminho por condição de pessoas para o histórico de eventos](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX &quot;Filtragem de inatividade&quot;]
 
-Para cada filtro de _[!UICONTROL Histórico de atividades]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Por exemplo, adicione o filtro _[!UICONTROL Email]_ > _[!UICONTROL Email aberto]_ para criar um caminho para as pessoas que _&#x200B;**não**&#x200B;_ abriram um email anteriormente na jornada. Ative a opção de inatividade e especifique o email. É uma prática recomendada usar a restrição _[!UICONTROL Data da atividade]_ para definir um período de tempo para a inatividade.
+Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Por exemplo, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_ para criar um caminho para pessoas que _&#x200B;**não**&#x200B;_ abriram um email. Ative a opção de inatividade e especifique o email.
 
-![Dividir caminho por condição de pessoas para comprar associação de grupo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![Condição de inatividade de divisão de caminho por pessoas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -279,39 +276,21 @@ Para usar a associação de lista em uma condição de divisão, expanda **[!UIC
 
 >[!ENDSHADEBOX]
 
-## Filtragem de dados personalizada
+## Filtragem de dados personalizada {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"}
 
 Você pode usar esquemas relacionais (classes baseadas em modelo) para dividir caminhos por conta ou pessoas. Os objetos personalizados são definidos em _esquemas relacionais_, e um administrador de produto pode [configurar campos de esquemas relacionais](../admin/xdm-field-management.md#relational-schemas) em [!DNL Journey Optimizer B2B Edition]. Os campos de esquema selecionados estão disponíveis no editor de condições para uso nos nós _caminho dividido por conta_ e _caminho dividido por pessoas_.
 
-Para uma condição **[!UICONTROL Split path by account]**, use o campo de pesquisa para filtrar a lista pelo nome do objeto personalizado em _[!UICONTROL Atributos da Conta]_. Adicione a condição e defina o valor como `true` ou `false`.
+Para uma condição **[!UICONTROL Dividir caminho por conta]** ou **[!UICONTROL Dividir caminho por pessoas]**, expanda _[!UICONTROL Objetos Personalizados]_. Adicione a condição e defina o valor como `true` ou `false`. Clique em **[!UICONTROL Adicionar restrição]** para usar os valores de campo para filtragem.
 
-![Exemplo de condições de atributos de pessoa para o objeto personalizado de esquema relacional](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+![Exemplo de condições de conta para o objeto personalizado de esquema relacional](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
-Para uma condição **[!UICONTROL Split path by people]**, use o campo de pesquisa para filtrar a lista pelo nome do objeto personalizado em _[!UICONTROL Atributos da pessoa]_.
-
-![Exemplo de condições de atributos de pessoa para o objeto personalizado de esquema relacional](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
-
-<!--
- SPHR-21734
-
-Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
--->
-
-## Mesclar caminhos
+## Mesclar caminhos {#merge-paths}
 
 Adicione um nó _Mesclar caminhos_ para combinar diferentes _caminhos divididos por conta_ em sua jornada.
 
-1. Navegue até o mapa de jornadas.
-
-1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Dividir caminhos]**.
-
-1. Clique no nó dividido para abrir as propriedades à direita.
-
-1. Clique em [!UICONTROL Adicionar caminho] para criar três caminhos.
-
-1. Adicione uma combinação de ações e eventos a cada caminho.
+1. Em um mapa de jornadas com um nó dividido que tem três ou mais caminhos, adicione uma combinação de ações e eventos a cada caminho.
 
 1. Clique no ícone de adição ( **+** ) de qualquer um desses caminhos e escolha **[!UICONTROL Mesclar]** nas opções exibidas.
 
@@ -325,6 +304,6 @@ Adicione um nó _Mesclar caminhos_ para combinar diferentes _caminhos divididos 
 
 1. Se necessário, você pode desfazer a mesclagem de caminhos navegando de volta para as propriedades do nó dos caminhos de mesclagem e desmarcando a caixa de seleção de todos os caminhos que deseja remover.
 
-## Vídeo de visão geral
+## Vídeo de visão geral {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443261/?captions=por_br&learn=on)

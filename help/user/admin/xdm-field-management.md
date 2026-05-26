@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
 source-wordcount: 1191
 ht-degree: 79%
@@ -59,7 +59,7 @@ Use a diretriz a seguir para fazer seleções de campo:
 * Excluir, renomear ou alterar tipos de campo pode causar problemas de funcionalidade de jornada. Tenha cuidado ao manipular esquemas.
 * Não renomeie ou exclua esquemas nem modifique chaves em esquemas relacionais.
 
-### Classes padrão
+### Esquemas padrão
 
 Na guia _[!UICONTROL Padrão]_, você pode editar _Campos gerenciados_ e _Campos atualizáveis_ para as classes padrão:
 

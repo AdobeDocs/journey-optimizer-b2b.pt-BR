@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: b52b85ffa6f81bc05ebde6d9171c85a65802e616
+source-git-commit: 4cc24ff8a19aa1ec6888c7ef35c1a4c6ac93f344
 workflow-type: tm+mt
 source-wordcount: 5096
 ht-degree: 67%
@@ -45,7 +45,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | Filtro Membro da Lista de Contas | Use a associação de Listas de Contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
 | Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. |
 | Recurso | Jornada decisão de caminho dividido | Você pode otimizar a decisão de caminho dividido para jornadas de conta e pessoa, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. |
-| Aprimoramento | Habilidades do Audience Agent | As habilidades do Audience Agent são atualizadas, incluindo a criação de modelos de grupo de compras alimentados por IA. Use o mapeamento de personalidade e intenção própria para gerar modelos de grupo de compra, revisar mapeamentos de função para pessoa recomendados pela IA e refinar modelos com linguagem natural antes de publicá-los. |
+| Aprimoramento | Habilidades B2B do Audience Agent | As habilidades B2B do Audience Agent são atualizadas, incluindo a criação de modelos de compra alimentados por IA. Use o mapeamento de personalidade e intenção própria para gerar modelos de grupo de compra, revisar mapeamentos de função para pessoa recomendados pela IA e refinar modelos com linguagem natural antes de publicá-los. [Saiba mais](../agents/audience-agent-b2b.md) |
 | Aprimoramento | Relatório de desempenho de engajamento de email | O relatório de Desempenho do engajamento de email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. |
 | Aprimoramento | Painel Visão geral das Jornadas de pessoa | Esse painel fornece uma visão geral abrangente das jornadas de pessoas ativas. |
 | Aprimoramento | Suporte para conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
@@ -245,8 +245,8 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Recurso | Listas de contas | Agora você pode criar uma lista de contas estáticas ou dinâmicas para segmentar contas nomeadas de acordo com seus critérios definidos, como setor, localização ou tamanho da empresa. <a href="../accounts/account-lists.md">Saiba mais</a> |
 | Recurso | Orquestração de jornada da lista de contas | Use os nós de ação de jornada para adicionar e remover contas de listas de contas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Saiba mais</a> |
 | Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B Edition para o público-alvo da jornada e, em seguida, use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Saiba mais</a> |
-| Recurso | Filtros de inatividade | Orquestre jornadas com base na inatividade em campanhas e programas do Marketo Engage, incluindo inatividade de email, momentos interessantes, alterações no valor de dados e páginas da Web visitadas. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Saiba mais</a> |
-| Aprimoramento | Filtro de página da Web visitada | Orquestre jornadas com base na atividade de páginas da web visitadas associadas a campanhas e programas do Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Saiba mais</a> |
+| Recurso | Filtros de inatividade | Orquestre jornadas com base na inatividade em campanhas e programas do Marketo Engage, incluindo inatividade de email, momentos interessantes, alterações no valor de dados e páginas da Web visitadas. |
+| Aprimoramento | Filtro de página da Web visitada | Orquestre jornadas com base na atividade de páginas da web visitadas associadas a campanhas e programas do Marketo Engage. |
 | Aprimoramento | Lista de emails | Exiba uma lista global de emails ativos e de rascunho para pesquisá-los, analisá-los e atualizá-los nas jornadas de conta associadas. <a href="../content/emails-list.md">Saiba mais</a> |
 
 ## Notas da versão 2025.3 {#rel-2025-3}

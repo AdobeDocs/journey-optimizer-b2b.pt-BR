@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1844
+source-wordcount: 1879
 ht-degree: 12%
 
 ---
@@ -65,6 +65,10 @@ Em uma jornada de conta, você pode acompanhar um evento com base na conta quand
 ## Eventos de pessoas
 
 Em uma jornada de conta, você pode acompanhar um evento com base em pessoas quando quiser mover a conta para frente na jornada, de acordo com os eventos acionados pela atividade de pessoas. Você também pode filtrar eventos de acordo com atributos de pessoas.
+
+>[!TIP]
+>
+>Para encaminhar pessoas com base em eventos de experiência ocorridos _antes_, elas entraram na jornada (como um clique de email ou uma interação na Web anterior), use o filtro [!UICONTROL Histórico de eventos] em um nó [Dividir caminhos por pessoas](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
 ### Eventos e restrições
 
@@ -145,7 +149,7 @@ Se você tiver páginas da Web na instância conectada do Marketo Engage, poder�
 
 1. No mapa de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
 
-### Analise um evento de experiência
+### Analise um evento de experiência {#listen-for-an-experience-event}
 
 Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
 
