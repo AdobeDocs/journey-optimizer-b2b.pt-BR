@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
+source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
 workflow-type: tm+mt
-source-wordcount: 5099
-ht-degree: 67%
+source-wordcount: 5116
+ht-degree: 66%
 
 ---
 
@@ -47,7 +47,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | Próximos nós de jornada de melhor caminho | Você pode otimizar a decisão de caminho dividido para jornadas de pessoas, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. [Saiba mais](../journeys/next-best-path-node.md) |
 | Aprimoramento | Habilidades B2B do Audience Agent | As habilidades B2B do Audience Agent são atualizadas, incluindo a criação de modelos de compra alimentados por IA. Use o mapeamento de personalidade e intenção própria para gerar modelos de grupo de compra, revisar mapeamentos de função para pessoa recomendados pela IA e refinar modelos com linguagem natural antes de publicá-los. [Saiba mais](../agents/audience-agent-b2b.md) |
 | Aprimoramento | Relatório de desempenho de engajamento de email | O relatório de Desempenho do engajamento de email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. |
-| Aprimoramento | Painel Visão geral das Jornadas de pessoa | Esse painel fornece uma visão geral abrangente das jornadas de pessoas ativas. |
+| Aprimoramento | Painel de visão geral do Jornada - jornadas de pessoa | As jornadas de pessoa (Beta) agora incluem uma guia _[!UICONTROL Visão geral]_ com as mesmas análises que as jornadas de conta, incluindo a distribuição da taxa de conclusão da jornada, jornadas por tipo de compromisso e ações de drill-through e exportação. <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |
 | Aprimoramento | Suporte para conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
 
 >[!NOTE]
@@ -288,7 +288,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Recurso | Destinos de mídia paga | Qualifique pessoas conhecidas para campanhas de mídia paga de uma jornada de conta para que você possa engajá-las em plataformas de publicidade, como o LinkedIn. Use um nó de divisão de caminho para segmentar públicos-alvos da conta com base em comportamentos específicos e identificar contas que exigem engajamento adicional. Em seguida, adicione pessoas dessas contas a um público-alvo de clientes externo por meio da Real-time CDP para um destino de mídia paga compatível. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Saiba mais</a> |
 | Recurso | Painel inteligente | Visualize a progressão dos grupos de compra por meio das jornadas de conta, incluindo insights gerados por IA, a fim de obter análises mais inteligentes e uma priorização precisa da conta. <a href="../dashboards/intelligent-dashboard.md">Saiba mais</a> |
 | Recurso | Detalhes do grupo de compra e da conta | Visualize insights no grupo de compra e no nível da conta para ter mais dados históricos e de contexto ao iniciar o engajamento de um cliente.<p>Os detalhes do grupo de compra incluem qualquer intenção própria detectada. <a href="../buying-groups/buying-group-details.md">Saiba mais</a><p>A página de detalhes da conta destaca o aumento da intenção de engajamento detectada, para que os profissionais de marketing possam alertar as vendas sobre contas que estão prontas para engajamento focado em vendas personalizado.  <a href="../accounts/account-details.md">Saiba mais</a> |
-| Recurso | Visão geral da jornada | Ao acessar as jornadas de conta, a guia Visão geral fornece um instantâneo abrangente das jornadas de conta ativas, detalhando o progresso da conta usando gráficos de círculo e de barra que categorizam e quantificam conclusões e atividades de engajamento.  <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |
+| Recurso | Painel de visão geral do Jornada | Para jornadas de conta, a guia **[!UICONTROL Visão geral]** fornece um instantâneo abrangente de suas jornadas ativas, com gráficos de círculo e de barra que categorizam e quantificam conclusões e atividades de envolvimento. <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |
 | Recurso | Edição de imagens do Adobe Express | As ações rápidas do Adobe Express permitem fazer edições simples (como cortar e redimensionar) em imagens para obter uma aparência mais refinada para o conteúdo. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">Saiba mais</a>  <p>Para obter um conjunto mais abrangente de ferramentas de design, essa integração habilita uma licença completa do Adobe Express no Journey Optimizer B2B Edition. Com essa configuração, a interface completa do Adobe Express fica acessível no espaço de trabalho de ativos local. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">Saiba mais</a> |
 | Recurso | Filtros de intenção para funções de grupo de compra | Quando você envia as palavras-chave de intenção, o modelo de Detecção de intenção prevê uma solução/produto de interesse de alta confiança com base na atividade de um lead. <a href="../admin/intent-data.md">Saiba mais</a> <p>Estes dados de intenção estão disponíveis para definir as condições de função do grupo de compra <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Saiba mais</a> |
 | Aprimoramento | Suporte a eventos do Marketo Engage nas jornadas | O nó de jornada _Ouvir Evento_ agora dá suporte a dois eventos Marketo Engage no nível de pessoas: _Página da Web de visitas_ e _Preenche o formulário_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Saiba mais</a> |
