@@ -3,7 +3,6 @@ title: Selecionar eventos de experiência e campos
 description: Selecione eventos e campos do Experience Platform para acionar a decisão em tempo real nas jornadas com base no comportamento do cliente.
 feature: Setup, Integrations
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="Este recurso está atualmente em uma versão beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 product_v2:
@@ -20,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
 workflow-type: tm+mt
-source-wordcount: 1608
+source-wordcount: 1605
 ht-degree: 12%
 
 ---
@@ -48,7 +47,7 @@ O uso de eventos de experiência do AEP no jornada é um processo de duas etapas
 
 >[!BEGINSHADEBOX]
 
-## Diretrizes e limitações
+## Diretrizes e limitações {#guidelines-and-limitations}
 
 Ao selecionar eventos para atender às suas metas organizacionais, considere o seguinte:
 
@@ -62,11 +61,11 @@ Ao selecionar eventos para atender às suas metas organizacionais, considere o s
 
 * Ao usar um Evento de experiência e publicar a jornada, você pode adicionar mais campos, mas não pode remover campos que foram selecionados anteriormente.
 
-* Você pode fazer referência a um Evento de experiência em várias jornadas ou usar o mesmo evento mais de uma vez na mesma jornada.
+* Você pode referenciar um Evento de experiência em várias jornadas ou usá-lo mais de uma vez na mesma jornada.
 
 >[!ENDSHADEBOX]
 
-## Gerenciar eventos de experiência
+## Gerenciar eventos de experiência {#manage-experience-events}
 
 1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
 
@@ -80,7 +79,7 @@ Ao selecionar eventos para atender às suas metas organizacionais, considere o s
 
    Para acessar os detalhes de um evento selecionado, clique no nome do evento.
 
-### Filtrar a lista de eventos
+### Filtrar a lista de eventos {#filter-the-event-list}
 
 Digite texto no campo _[!UICONTROL Pesquisa]_ para filtrar os eventos exibidos para uma correspondência do nome do evento.
 
@@ -89,10 +88,6 @@ Digite texto no campo _[!UICONTROL Pesquisa]_ para filtrar os eventos exibidos p
 ### Adicionar um evento {#add-an-event}
 
 Para disponibilizar um Evento de Experiência para um nó _Ouvir um evento_ em uma jornada, selecione o evento e os campos com suporte.
-
->[!NOTE]
->
->Na versão beta, não é possível remover eventos da lista. Certifique-se de que cada evento adicionado seja aquele que sua organização pretende usar.
 
 1. Clique em **[!UICONTROL Selecionar evento de experiência]** na parte superior direita.
 
@@ -142,19 +137,23 @@ Edite os detalhes do evento para alterar os campos.
 
 1. Clique em **[!UICONTROL Selecionar]** para salvar suas seleções.
 
-### Remover um evento
+### Remover um evento {#remove-an-event}
 
->[!NOTE]
->
->Na versão Beta desse recurso, não é possível remover um evento da lista de eventos selecionados. A remoção do evento está planejada para a versão do GA.
+Para impedir que um Evento de Experiência seja usado em um nó _Ouvir um evento_ em uma jornada, remova o evento. Não é possível remover um evento se uma jornada no status _Agendado_, _Em tempo real_ ou _Concluído_ o utilizar.
 
-## Eventos e campos
+1. Clique no ícone _Mais menu_ ( **...** ) ao lado do nome do evento e escolha **[!UICONTROL Remover]**.
+
+1. No diálogo de confirmação, clique em **[!UICONTROL Remover]**.
+
+   ![Confirmar a remoção do evento](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
+
+## Eventos e campos {#events-and-fields}
 
 Para [!DNL Journey Optimizer B2B Edition], determinadas atividades no nível de pessoas são capturadas como [!DNL Experience Platform] Eventos de experiência. Esses eventos são armazenados em um conjunto de dados do sistema que usa o esquema de Evento de experiência XDM e inclui grupos de campos específicos da jornada. Você pode usar esses eventos no [!UICONTROL Journey Optimizer B2B edition] como qualquer outro Evento de Experiência.
 
 Cada evento expõe um conjunto definido de campos que podem ser usados nos nós _Ouvir um evento_ da jornada (decisões baseadas em eventos). Revise os tipos de evento disponíveis e seus campos para determinar qual evento e campos usar nesses nós de jornada:
 
-### E-mail enviado
+### E-mail enviado {#email-sent}
 
 Esse evento rastreia quando um email de marketing foi enviado a uma pessoa.
 
@@ -182,7 +181,7 @@ Tipo de evento: `directMarketing.emailSent`
 
 +++
 
-### E-mail enviado
+### E-mail enviado {#email-delivered}
 
 Esse evento rastreia quando um email foi entregue com êxito ao serviço de email de uma pessoa.
 
@@ -210,7 +209,7 @@ Tipo de evento: `directMarketing.emailDelivered`
 
 +++
 
-### E-mail aberto
+### E-mail aberto {#email-opened}
 
 Esse evento rastreia quando uma pessoa abriu um email de marketing.
 
@@ -242,7 +241,7 @@ Tipo de evento: `directMarketing.emailOpened`
 
 +++
 
-### Email clicado
+### Email clicado {#email-clicked}
 
 Esse evento é rastreado quando uma pessoa clica em um link em um email de marketing.
 
@@ -275,7 +274,7 @@ Tipo de evento: `directMarketing.emailClicked`
 
 +++
 
-### Email devolvido
+### Email devolvido {#email-bounced}
 
 Esse evento rastreia quando um email para uma pessoa é rejeitado.
 
@@ -306,7 +305,7 @@ Tipo de evento: `directMarketing.emailBounced`
 
 +++
 
-### Rejeição temporária de email
+### Rejeição temporária de email {#email-bounced-soft}
 
 Esse evento rastreia quando um email para uma pessoa é rejeitado temporariamente.
 
@@ -337,7 +336,7 @@ Tipo de evento: `directMarketing.emailBouncedSoft`
 
 +++
 
-### Email cancelado
+### Email cancelado {#email-unsubscribed}
 
 Esse evento é rastreado quando uma pessoa cancela a assinatura de um email de marketing.
 
@@ -365,7 +364,7 @@ Tipo de evento: `directMarketing.emailUnsubscribed`
 
 +++
 
-### Visitar página da Web
+### Visitar página da Web {#visit-web-page}
 
 Esse tipo de evento é o método padrão para marcar a ocorrência como uma exibição de página.
 
@@ -396,7 +395,7 @@ Tipo de evento: `web.webpagedetails.pageViews`
 
 +++
 
-### Formulário preenchido
+### Formulário preenchido {#form-filled-out}
 
 Esse evento rastreia quando uma pessoa preenche um formulário em uma página da Web.
 
@@ -427,7 +426,7 @@ Tipo de evento: `web.formFilledOut`
 
 +++
 
-### Link da Web clicado
+### Link da Web clicado {#web-link-clicked}
 
 O evento sinaliza que o Web SDK registrou automaticamente um clique de link.
 
@@ -458,7 +457,7 @@ Tipo de evento: `web.webinteraction.linkClicks`
 
 +++
 
-### Momento interessante
+### Momento interessante {#interesting-moment}
 
 Este evento rastreia quando um momento interessante foi gravado para uma pessoa.
 
