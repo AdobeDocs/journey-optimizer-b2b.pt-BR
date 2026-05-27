@@ -4,20 +4,15 @@ description: Monitore o desempenho da jornada da conta com taxas de conclusão, 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 0%
 
 Ao clicar no nome de uma jornada de conta ativa, os detalhes da jornada são exibidos. A guia _[!UICONTROL Visão geral]_ fornece informações úteis sobre a jornada, incluindo resumos de IA generativos.
 
-Esse painel fornece uma visão geral abrangente de uma jornada de conta selecionada, detalhando o progresso da conta usando gráficos de círculo e de linha que categorizam e quantificam conclusões, atividades em andamento e anulações ao longo do tempo. Ele ajuda os profissionais de marketing a avaliar a eficiência dos canais de email e SMS por meio das principais métricas de entrega e engajamento.
+Esse painel fornece uma visão geral abrangente de uma jornada de conta selecionada, detalhando o progresso da conta usando gráficos de círculo e de linha que categorizam e quantificam conclusões, atividades em andamento e anulações ao longo do tempo. Ele ajuda os profissionais de marketing a avaliar a eficácia de canais de email e SMS por meio das principais métricas de entrega e engajamento. Para métricas de email agregadas em todas as jornadas, consulte o [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 Essa visão geral está disponível para jornadas de conta publicadas e leva aproximadamente quatro horas para que os dados comecem a preencher os gráficos e as tabelas.
 
@@ -55,7 +50,7 @@ Esta seção apresenta duas métricas vitais:
 
 ## Desempenho de email e SMS
 
-As tabelas de desempenho fornecem uma visão detalhada da eficácia dos canais de email e SMS. Cada tabela mostra métricas, como taxas de delivery e taxas de click-through, que ajudam a avaliar o impacto de cada ponto de contato de comunicação.
+As tabelas de desempenho fornecem uma visão detalhada da eficácia dos canais de email e SMS. Cada tabela mostra métricas, como taxas de delivery e taxas de click-through, que ajudam a avaliar o impacto de cada ponto de contato de comunicação. As tabelas abaixo mostram métricas de email e SMS somente para esta jornada. Para as mesmas métricas de email em todas as jornadas, use o [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 Colunas da tabela de **[!UICONTROL Desempenho do email]**:
 

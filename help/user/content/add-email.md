@@ -4,29 +4,23 @@ description: Adicionar nós de ação de email às jornadas de conta - crie novo
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # Adicionar um email à sua jornada
 
-Use o Adobe Journey Optimizer B2B edition para enviar mensagens de email aos seus clientes por meio de jornadas de conta. Você pode optar por criar, personalizar e visualizar mensagens no espaço de design de email. Como alternativa, você pode optar por enviar um email que já está definido na instância conectada do Marketo Engage.
+Use o Adobe Journey Optimizer B2B edition para enviar mensagens de email aos seus clientes por meio de jornadas de conta. Você pode optar por criar, personalizar e visualizar mensagens no espaço de design de email. Como alternativa, você pode optar por enviar um email que já está definido na instância conectada do Marketo Engage. Depois que os emails estiverem no jornada, monitore o envio, a entrega e o envolvimento no [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >
@@ -115,7 +109,7 @@ Com a guia **[!UICONTROL Detalhes]** selecionada no painel _Resumo_ à direita, 
 | [!UICONTROL Endereço para resposta] | O endereço do remetente usado no cabeçalho do email. O valor padrão é preenchido a partir das [configurações de entrega de canal de email](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Do Rótulo]). Insira o endereço de email que você deseja preencher se o recipient usar a função de resposta (pode ser diferente ou igual ao endereço do remetente). Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização no campo. |
 | [!UICONTROL Linha de assunto] | O texto exibido no campo de assunto do email. O valor padrão é preenchido com base no texto inserido na caixa de diálogo _[!UICONTROL Criar novo email]_. Você pode alterar o texto, se necessário. Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização no campo.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL Domínio de marca] | Se você tiver mais de um [domínio de identidade visual](../admin/configure-channels-emails.md#branding-domains) definido no sistema, selecione o domínio de identidade visual a ser usado para enviar o email. Use um domínio de marca específico para enviar emails que parecem vir da sua marca, em vez da empresa como um todo. Ele cria confiança com a marca, personaliza a experiência de email e aumenta as taxas de abertura e resposta. |
-| [!UICONTROL IP dedicado] | Se tiver mais de um endereço IP dedicado definido, selecione um endereço IP dedicado para usar ao enviar o email. Ao usar um IP dedicado específico para seus programas, você pode rastrear e monitorar a capacidade de entrega com mais precisão e responder rapidamente a qualquer alteração em suas métricas de entrega. Para obter mais informações sobre como adicionar um IP dedicado para a instância conectada do Marketo Engage, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
+| [!UICONTROL IP dedicado] | Se tiver mais de um endereço IP dedicado definido, selecione um endereço IP dedicado para usar ao enviar o email. Ao usar um IP dedicado específico para seus programas, você pode rastrear e monitorar a capacidade de entrega com mais precisão e responder rapidamente a qualquer alteração em suas métricas de entrega. Para obter mais informações sobre como adicionar um IP dedicado para a instância conectada do Marketo Engage, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL Email operacional] | Marque a caixa de seleção se desejar designar o email como operacional. Os emails operacionais são excluídos das listas de recusa/cancelamento de inscrição e dos limites de comunicação. Selecione essa opção somente quando o recipient não puder considerar a mensagem de email como uma mensagem comercial não solicitada (SPAM). |
 | [!UICONTROL Incluir exibição como página da Web] | Marque a caixa de seleção para incluir um link para uma página da Web gerada a partir do conteúdo da mensagem de email. As mensagens de email têm recursos mais limitados do que as páginas da Web, portanto, são úteis para o JavaScript, CSS estendido e formulários. O texto usado para gerar o link está configurado nas [configurações de entrega de canal de email](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Exibir como página da Web do HTML] e [!UICONTROL Exibir como texto da página da Web]). |
 | [!UICONTROL Desabilitar o rastreamento de aberturas] | Marque a caixa de seleção quando não quiser rastrear a atividade de abertura de emails. Com a função desativada, as contagens de atividades de email abertas são aumentadas somente quando uma pessoa única abre o email. Você pode [gerenciar o rastreamento de link do conteúdo de email](./email-authoring.md#content-authoring---link-tracking) ao criar o conteúdo do corpo do email. |

@@ -3,21 +3,14 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
+source-git-commit: e1d68e75c6bcbab943f3ddf8326f4f9ffb4922c4
 workflow-type: tm+mt
 source-wordcount: 5116
 ht-degree: 66%
@@ -28,7 +21,7 @@ ht-degree: 66%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -45,8 +38,8 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | Filtro Membro da Lista de Contas | Use a associação de Listas de Contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
 | Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. [Saiba mais](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Recurso | Próximos nós de jornada de melhor caminho | Você pode otimizar a decisão de caminho dividido para jornadas de pessoas, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. [Saiba mais](../journeys/next-best-path-node.md) |
+| Recurso | Painel de desempenho do email | O painel Desempenho do email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. [Saiba mais](../dashboards/email-performance-dashboard.md) |
 | Aprimoramento | Habilidades B2B do Audience Agent | As habilidades B2B do Audience Agent são atualizadas, incluindo a criação de modelos de compra alimentados por IA. Use o mapeamento de personalidade e intenção própria para gerar modelos de grupo de compra, revisar mapeamentos de função para pessoa recomendados pela IA e refinar modelos com linguagem natural antes de publicá-los. [Saiba mais](../agents/audience-agent-b2b.md) |
-| Aprimoramento | Relatório de desempenho de engajamento de email | O relatório de Desempenho do engajamento de email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. |
 | Aprimoramento | Painel de visão geral do Jornada - jornadas de pessoa | As jornadas de pessoa (Beta) agora incluem uma guia _[!UICONTROL Visão geral]_ com as mesmas análises que as jornadas de conta, incluindo a distribuição da taxa de conclusão da jornada, jornadas por tipo de compromisso e ações de drill-through e exportação. <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |
 | Aprimoramento | Suporte para conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
 
