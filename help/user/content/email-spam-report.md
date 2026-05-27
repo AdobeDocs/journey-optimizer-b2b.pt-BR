@@ -19,16 +19,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 0%
 
 ---
 
 # Revisar o relatório de spam
 
-Muitos provedores de caixa de entrada de email e a maioria dos sistemas corporativos usam um processo de filtragem de spam. O envio de emails que acionam esses filtros pode afetar seriamente a capacidade de entrega. No Journey Optimizer B2B edition, você pode verificar a pontuação de spam do conteúdo de email gerando um relatório de Spam. Este relatório usa [[!DNL SpamAssassin]](https://spamassassin.apache.org/) para testar o email e ajuda a determinar se uma mensagem pode ser considerada spam pelas ferramentas antisspam. Você pode usar as informações no relatório para realizar ações que melhoram a pontuação do conteúdo do email e a capacidade de delivery.
+Muitos provedores de caixa de entrada de email e a maioria dos sistemas corporativos usam um processo de filtragem de spam. O envio de emails que acionam esses filtros pode afetar seriamente a capacidade de entrega. No Journey Optimizer B2B edition, você pode verificar a pontuação de spam do conteúdo de email gerando um relatório de Spam. Este relatório usa [[!DNL SpamAssassin]](https://spamassassin.apache.org/) para testar o email e ajuda a determinar se uma mensagem pode ser considerada spam pelas ferramentas antisspam. Você pode usar as informações no relatório para realizar ações que melhoram a pontuação do conteúdo do email e a capacidade de delivery. Depois de ajustar o conteúdo, rastreie a taxa de rejeição e a entrega no [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 Ao revisar suas configurações de email ou editar o conteúdo, abra a página _[!UICONTROL Simular]_ e gere um _Relatório de spam_ para analisar a pontuação e os elementos sinalizados que podem acionar a filtragem antisspam.
 

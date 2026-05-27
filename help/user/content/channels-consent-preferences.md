@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cba977f62f3d2a83bcf2487a8ec612b76a655954
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: 424
 ht-degree: 1%
 
 ---
@@ -45,6 +45,8 @@ Lembre-se das seguintes considerações para obter o consentimento por email:
 
 * As pessoas que optaram por não participar do email globalmente podem receber emails marcados como operacionais.
 * As preferências de nível de assinatura não são compatíveis.
+
+Para analisar a atividade de cancelamento de inscrição para emails enviados, consulte o [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 ## SMS {#sms}
 

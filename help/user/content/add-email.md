@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # Adicionar um email à sua jornada
 
-Use o Adobe Journey Optimizer B2B edition para enviar mensagens de email aos seus clientes por meio de jornadas de conta. Você pode optar por criar, personalizar e visualizar mensagens no espaço de design de email. Como alternativa, você pode optar por enviar um email que já está definido na instância conectada do Marketo Engage.
+Use o Adobe Journey Optimizer B2B edition para enviar mensagens de email aos seus clientes por meio de jornadas de conta. Você pode optar por criar, personalizar e visualizar mensagens no espaço de design de email. Como alternativa, você pode optar por enviar um email que já está definido na instância conectada do Marketo Engage. Depois que os emails estiverem no jornada, monitore o envio, a entrega e o envolvimento no [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >
