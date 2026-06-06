@@ -4,20 +4,14 @@ description: Criar e gerenciar Meus tokens personalizados para personalização 
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:21:17.156Z
 TQID: https://experienceleague.adobe.com/PhcREmr9HfV-uGyGUB6YRATemaGn0du0VWaGaBHUmxY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 605
 ht-degree: 2%
@@ -32,7 +26,7 @@ Além de _Meus tokens_, que são específicos para a jornada da conta, você pod
 
 ## Gerenciar meus tokens {#my-tokens}
 
-Os _Meus tokens_ são variáveis personalizadas que você cria ou modifica para uma jornada de conta no status Rascunho. Atualmente, esse conjunto de tokens personalizado oferece suporte a definições de token de texto e número.
+Os _Meus tokens_ são variáveis personalizadas que você cria ou modifica para uma jornada de conta no status Rascunho. Este conjunto de tokens personalizado atualmente oferece suporte a definições de token de texto e número.
 
 Ao adicionar um token personalizado a um email, ele é exibido como `{{my.TokenName}}`. Por exemplo, você pode ter `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` tokens criados para gerenciar conteúdo de email relacionado a webinários futuros.
 
@@ -100,7 +94,7 @@ Ao criar conteúdo de email para sua jornada de conta, você pode usar qualquer 
 
    Esta ação abre a caixa de diálogo _Editar Personalization_. A caixa de diálogo inclui uma pasta _[!UICONTROL Meus tokens]_ na biblioteca _[!UICONTROL Tokens do Personalization]_ se houver tokens personalizados definidos para a jornada de conta.
 
-1. Expanda a pasta **[!UICONTROL Meus tokens]** e clique em **+** ou **...** para adicionar um de seus tokens personalizados ao espaço em branco.
+1. Para adicionar um de seus tokens personalizados ao espaço em branco, expanda a pasta **[!UICONTROL Meus tokens]** e clique em **+** ou **...**.
 
    É possível adicionar qualquer texto estático adicional, conforme necessário.
 

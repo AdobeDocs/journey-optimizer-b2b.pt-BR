@@ -5,23 +5,16 @@ feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 678
 ht-degree: 1%
 
 ---
@@ -42,11 +35,11 @@ Use uma das seguintes opções de entrada para o nó de jornada do público-alvo
 
 ## Ingestão de perfil
 
-No Journey Optimizer B2B edition, uma tarefa de assimilação de público-alvo noturna mantém os perfis em sincronia com o Experience Platform. Embora as jornadas de pessoas baseadas em eventos possam qualificar perfis que não fazem parte de um perfil ou público-alvo de conta assimilado/em uso pelo Journey Optimizer B2B edition, elas resultam em perfis assimilados que permanecem obsoletos, a menos que façam parte de um público-alvo usado por uma jornada de pessoa, jornada de conta ou grupo de compras. Se um perfil for assimilado e posteriormente adicionado a um público-alvo, a compilação de perfil será executada e o perfil permanecerá sincronizado com o Experience Platform. As melhorias na sincronização de dados deste perfil estão planejadas para versões futuras.
+No Journey Optimizer B2B edition, uma tarefa de assimilação de público-alvo noturna sincroniza perfis com o Experience Platform. As jornadas de pessoas baseadas em eventos podem qualificar perfis que não estão em um público-alvo usado pelo Journey Optimizer B2B edition, mas esses perfis permanecem obsoletos, a menos que se unam a um público-alvo usado por uma jornada de pessoas, jornada de conta ou grupo de compras. Se um perfil for assimilado e adicionado posteriormente a um público-alvo, a compilação de perfil será executada e o perfil permanecerá sincronizado com o Experience Platform. As melhorias na sincronização de dados deste perfil estão planejadas para versões futuras.
 
-Um perfil recém-criado assimilado por uma jornada de pessoa com base em eventos pode não ter as informações de perfil atualizadas no momento da assimilação. Por exemplo, se um perfil for criado por meio de um evento de preenchimento de formulário e uma jornada de pessoa os assimilar do evento de preenchimento de formulário qualificado, os dados enviados no formulário talvez ainda não sejam sincronizados com o perfil quando a jornada os assimilar. O resultado pode ser dados incompletos para personalização (como no conteúdo de email). As melhorias na sincronização de dados do evento deste perfil estão planejadas para versões futuras.
+Um perfil recém-criado assimilado por uma jornada de pessoa com base em eventos pode não ter as informações de perfil atualizadas no momento da assimilação. Por exemplo, se um perfil for criado por meio de um evento de preenchimento de formulário, os dados enviados talvez não sejam sincronizados com o perfil quando a jornada o assimilar. O resultado pode ser dados incompletos para personalização (como no conteúdo de email). As melhorias na sincronização de dados do evento deste perfil estão planejadas para versões futuras.
 
-As jornadas de pessoas baseadas em eventos podem qualificar perfis que ainda são anônimos/sem endereços de email e que contêm apenas ECIDs. Isso acontece com mais frequência quando você tem lógica de qualificação para atividade de página da Web. Lógica de público-alvo baseada em eventos muito ampla pode resultar na ocorrência de 40 milhões de perfis no limite se muitos perfis forem qualificados. Limite o escopo possível do público-alvo para evitar esse cenário.
+As jornadas de pessoas baseadas em eventos podem qualificar perfis que ainda são anônimos/sem endereços de email e que contêm apenas ECIDs. Isso ocorre com mais frequência quando você tem lógica de qualificação para atividade de página da Web. Lógica de público-alvo baseada em eventos muito ampla pode resultar na instância atingir o limite de 40 milhões de perfis se muitos perfis forem qualificados. Para evitar esse cenário, limite o escopo possível do público-alvo.
 
 >[!IMPORTANT]
 >

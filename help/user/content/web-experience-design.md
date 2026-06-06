@@ -5,24 +5,15 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-04-29T23:47:13.174Z
 TQID: https://experienceleague.adobe.com/8L1-UpqqSPlLqMwUpwOgOMT4cDzc55tua87M8-X1dKk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2339
 ht-degree: 4%
 
 ---
@@ -39,17 +30,17 @@ Antes de criar experiências da Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
    * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
-   * _[!UICONTROL Campanhas]_ > _[!UICONTROL Exibir campanhas]_ - Necessário para exibir detalhes de nós de ação de personalização da Web.
+   * _[!UICONTROL Campanhas]_ > _[!UICONTROL Exibir campanhas]_ - Necessário para exibir detalhes de um nó de ação de personalização da Web.
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Antes de criar uma experiência da web, verifique se você tem a extensão de navegador Auxiliar de edição visual do Adobe Experience Cloud instalada para o seu navegador da web. Esta extensão é necessária para abrir, criar e visualizar suas páginas da Web de forma confiável no espaço de design da experiência na Web do Journey Optimizer B2B edition.<br/>
+>Antes de criar uma experiência da Web, verifique se você tem a extensão de navegador Adobe Experience Cloud Visual Editing Helper instalada para o seu navegador da Web. Esta extensão é necessária para abrir, criar e visualizar suas páginas da Web de forma confiável no espaço de design da experiência na Web do Journey Optimizer B2B edition.<br/>
 >
 >Atualmente, o Google Chrome e o Microsoft Edge são os únicos navegadores compatíveis com a extensão e a criação de experiências da Web no Journey Optimizer B2B edition. Para obter mais informações, consulte [Instalar a extensão Auxiliar de Edição Visual](./web-experiences.md#install-the-visual-editing-helper-extension).
 
@@ -99,11 +90,11 @@ O editor visual carrega as páginas da Web em um iframe, onde é possível selec
 
    * [Insira novos componentes](#insert-new-components) (divisor, HTML, imagem, cabeçalho, parágrafo ou link) na página da experiência online.
 
-   * Selecione qualquer elemento existente da página, como uma imagem, botão, parágrafo, texto, contêiner, cabeçalho ou link, e [modifique-o para a experiência online](#modify-elements).
+   * Selecione qualquer elemento existente da página e [modifique-o para a experiência online](#modify-elements).
 
    * [Adicionar rastreamento de cliques](#click-tracking-for-web-experiences) para elementos para medir o engajamento e coletar insights.
 
-1. Repita a etapa 2 para carregar outras páginas que deseja incluir na experiência da Web e repita a etapa 3 para definir as modificações da página.
+1. Repita a etapa 2 para carregar outras páginas que deseja incluir na experiência da Web. Repita a etapa 3 para definir as modificações da página.
 
 1. [Revise suas modificações](#manage-modifications) e faça os ajustes necessários.
 
@@ -186,7 +177,7 @@ Ao selecionar o ícone **+** na navegação à esquerda do design para o editor 
 * **[!UICONTROL Imagem]** - Use este componente para inserir um arquivo de imagem na página. Você pode ajustar atributos de estilo, como largura e altura, nas propriedades no painel direito. Consulte [Imagem](./content-components.md#image) em _Componentes de conteúdo_ para obter mais informações.
 * **[!UICONTROL Cabeçalho]** - Use este componente para inserir texto de classe de cabeçalho. Você pode ajustar atributos de estilo, como cor do texto, estilo, fonte e tamanho nas propriedades no painel direito. Consulte [Texto](./content-components.md#text) em _Componentes de conteúdo_ para obter mais informações.
 * **[!UICONTROL Parágrafo]** - Use este componente para inserir um elemento de texto padrão. Você pode ajustar atributos de estilo, como cor do texto, estilo, fonte e tamanho nas propriedades no painel direito. Consulte [Texto](./content-components.md#text) em _Componentes de conteúdo_ para obter mais informações.
-* **[!UICONTROL Link]** - Use este componente para inserir um link de texto independente em uma URL especificada. Você pode ajustar atributos de estilo, como cor do texto, estilo, alinhamento e tamanho nas propriedades no painel direito.
+* **[!UICONTROL Link]** - Use este componente para inserir um link de texto independente em uma URL especificada. Você pode ajustar os atributos de estilo nas propriedades no painel direito.
 
 Selecione um tipo de componente à esquerda e passe o mouse sobre um elemento adjacente ao local em que deseja adicioná-lo.
 
@@ -251,7 +242,7 @@ As modificações do seletor de CSS permitem direcionar elementos com precisão 
 
    * **[!UICONTROL Definir Conteúdo]** - Insira o texto no campo **[!UICONTROL Conteúdo]** para o elemento identificado pelo valor _[!UICONTROL Seletor de Elemento CSS]_.
 
-   * **[!UICONTROL Definir Atributo]** - Especifique um atributo a ser associado ao seletor de CSS atual para que o elemento possa ser identificado por este atributo. Insira um nome no campo **[!UICONTROL Nome do atributo]** e um valor no campo **[!UICONTROL Conteúdo]**. Se o atributo já existir, o valor será atualizado; caso contrário, um novo atributo será adicionado com o nome e o valor especificados.
+   * **[!UICONTROL Definir Atributo]** - Especifique um atributo para associar ao seletor de CSS atual para que você possa identificar o elemento por este atributo. Insira um nome no campo **[!UICONTROL Nome do atributo]** e um valor no campo **[!UICONTROL Conteúdo]**. Se o atributo já existir, o valor será atualizado; caso contrário, um novo atributo será adicionado com o nome e o valor especificados.
 
    ![Modificação do seletor de css do editor não visual](./assets/web-experience-design-non-visual-editor-modification-css-selector.png){width="800" zoomable="yes"}
 
@@ -336,7 +327,7 @@ Use as opções de visualização de dispositivo na parte superior do editor vis
 
 A visualização é atualizada para mostrar como as modificações são renderizadas em cada tamanho de dispositivo.
 
-Use a barra de URL para navegar para páginas diferentes na configuração do canal da Web. Em seguida, verifique se as modificações se aplicam corretamente às páginas direcionadas com base nas regras de correspondência de URL.
+Use a barra de URL para navegar para páginas diferentes na configuração do canal da Web. Em seguida, verifique se as modificações se aplicam da maneira correta às páginas direcionadas com base nas regras de correspondência de URL.
 
 ## Rastreamento de cliques para experiências da Web {#web-click-tracking}
 
@@ -344,7 +335,7 @@ Rastreie as interações do usuário com elementos para medir o engajamento e co
 
 Quando sua experiência na Web é ativada (ativa), você também pode criar relatórios usando o Adobe Customer Journey Analytics (que requer uma assinatura do produto). Para melhorar o monitoramento da experiência online, você também pode rastrear os cliques em qualquer elemento específico do site. O rastreamento permite exibir o número de cliques desse elemento nos relatórios da Web.
 
-Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing).
+Para obter mais informações sobre o Customer Journey Analytics e a criação de relatórios da Web, consulte a [documentação do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Selecione um elemento no editor de experiência online, como uma imagem ou link.
 

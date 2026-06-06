@@ -5,27 +5,23 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
 
 # Orientação de pergunta para o Assistente de IA no Journey Optimizer B2B edition
 
-Analise o seguinte conjunto de perguntas de exemplo para consultar o Assistente de IA no Journey Optimizer B2B edition. Essas informações também incluem dicas sobre como formular suas perguntas para obter respostas ideais do Assistente de IA.
+Analise as seguintes perguntas de exemplo para consultar o Assistente de IA no Journey Optimizer B2B edition. Essas informações também incluem dicas sobre como formular suas perguntas para obter respostas ideais do Assistente de IA.
 
 ## Perguntas baseadas em objetivos
 
@@ -36,19 +32,19 @@ Os exemplos de perguntas a seguir são agrupados de acordo com os objetivos que 
 | Conceitos de aprendizado e fluxos de trabalho contínuos | Como usuário iniciante, você pode usar o AI Assistant para aprender conceitos do Real-Time CDP e do Adobe Journey Optimizer B2B edition e integrar-se a produtos e recursos com os quais não está familiarizado. <br>Como um usuário experiente, você pode usar o Assistente de IA para resolver um caso de borda que possa estar bloqueando seu fluxo de trabalho. | <li>Conte-me alguns casos de uso para o Real-Time CDP. <li>Explique o conceito do Grupo de Compras para mim. |
 | Solução de problemas | Use o Assistente de IA para saber como depurar erros básicos que você pode encontrar no fluxo de trabalho. | <li>O que significa este erro &lt;ERROR_MESSAGE>? <li>Por que não posso excluir o público-alvo chamado &quot;...&quot;? |
 | Higiene da sandbox | Use o Assistente de IA para identificar objetos duplicados ou não utilizados, para que você possa manter sua sandbox com eficiência. | <li>Você pode me mostrar públicos semelhantes da conta? <li>Há esquemas que não tenham um conjunto de dados associado? |
-| Análise de valor | Use o Assistente de IA para identificar os objetos de dados mais usados e avaliar os indicadores de desempenho ou encontrar os objetos de dados mais valiosos. | <li>Quantas contas existem em nosso &quot;...&quot; definição de segmento? <li>Quando os públicos-alvo foram ativados para o destino do Experience Cloud Audiences? |
+| Análise de valor | Use o Assistente de IA para identificar os objetos de dados mais usados e avaliar os indicadores de desempenho ou encontrar os objetos de dados mais valiosos. | <li>Quantas contas existem em nosso &quot;...&quot; definição de segmento? <li>Quando os públicos-alvo foram ativados para o destino da Experience Cloud Audiences? |
 | Pesquisa | Use o AI Assistant para encontrar objetos compatíveis do Experience Platform e do Adobe Journey Optimizer B2B edition, como públicos-alvo de conta, conjuntos de dados, destinos, esquemas, fontes, jornadas de conta, modelos de grupo de compra e interesses de solução | <li>Liste os públicos-alvo que contêm &quot;Luma&quot; no nome que foram usados nas jornadas da conta. <li>Quais atributos estão no esquema XDM &quot;Luma: Ações personalizadas&quot;? |
 | Análise de impacto | Use o Assistente do AI para identificar objetos de dados que foram usados em determinados workflows para que você possa avaliar o impacto de quaisquer alterações. | <li>Quais públicos-alvo de conta usam `workEmail.address` no esquema &quot;Pessoa B2B&quot;? <li>Em quais conjuntos de dados... `jobTitle` são armazenados? |
 
 ## Formular suas perguntas
 
-Você deve enviar suas perguntas ao Assistente de IA com clareza e contexto para obter uma resposta o mais precisa possível. Consulte a seguinte lista de dicas para obter orientação sobre como fazer uma pergunta clara com contexto:
+Para obter uma resposta o mais precisa possível, escreva suas perguntas para o Assistente de IA com clareza e contexto. Consulte a seguinte lista de dicas para obter orientação sobre como fazer uma pergunta clara com contexto:
 
 * Apresente sua tarefa e/ou pergunta de maneira concisa.
 * Evite linguagem ambígua ou sintaxe excessivamente complexa para facilitar a compreensão.
 * Forneça contexto relevante em relação à sua tarefa e/ou pergunta, pois o contexto pode ajudar o Assistente de IA a gerar respostas mais relevantes.
 
-As tabelas a seguir fornecem algumas práticas recomendadas que você pode seguir ao usar o Assistente de IA:
+As tabelas a seguir fornecem algumas recomendações que você pode seguir ao usar o Assistente de IA:
 
 | Fazer | Exemplo |
 | --- | --- |
@@ -69,11 +65,11 @@ As tabelas a seguir fornecem algumas práticas recomendadas que você pode segui
 A lista a seguir inclui exemplos de perguntas que o Assistente de IA no Journey Optimizer B2B edition não é compatível no momento:
 
 * Quais públicos-alvo de conta usam o campo workEmail.address do grupo de campos ... em sua condição? 
-* Mostre-me o número de jornadas ativas usando públicos-alvo de conta com tamanho superior a 10.000, 5000-10.000, 1000-5000 e abaixo de 1000, em um visual de distribuição
+* Mostrar o número de jornadas ativas usando públicos-alvo de conta com tamanho acima de 10.000, 5000-10.000, 1000-5000 e abaixo de 1000, em um visual de distribuição
 * Quem fez a última atualização na jornada da conta x?
 * Quantas jornadas ativas adicionam membros do grupo de compras para o interesse da solução x?
 * Quais jornadas ativas adicionam membros do grupo de compra para o interesse de solução x?
-* Qual é o título mais comum de tomador de decisão de modelos de grupo de compras?
+* Qual é o título de responsável por decisões mais comum dos modelos de grupo de compras?
 * Quem são os tomadores de decisão para comprar o modelo x do grupo?
 
 ## Próximas etapas

@@ -4,22 +4,17 @@ description: Automatize a qualificação de prospecto B2B e o alcance com o Qual
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-autotag-review: 2026-03-30T15:10:20.350Z
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
+autotag-review: '2026-06-05T16:42:16.451Z'
+TQID: 'https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2: id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 4594
+source-wordcount: 4580
 ht-degree: 1%
 
 ---
@@ -30,7 +25,7 @@ O Qualificador de vendas é um aplicativo orientado por IA que pode ser usado co
 
 Os BDRs podem usar os plug-ins de navegador e email para acessar a inteligência empresarial diretamente nos CRMs ou no Outlook. O vídeo a seguir fornece uma breve demonstração do qualificador de vendas e do Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476566?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Página inicial do aplicativo
 
@@ -40,7 +35,7 @@ O Qualificador de Vendas está incluído na [!UICONTROL Journey Optimizer B2B ed
 
 ### Account Qualification Agent
 
-O Account Qualification Agent (AQA) é o coração do qualificador de vendas. O AQA usa IA para ler suas contas e determinar quais estão prontas para a próxima etapa. Ele auxilia na pesquisa, elaboração de emails e contexto informado pelo CRM quando sua organização conecta o CRM (somente leitura).
+O Account Qualification Agent (AQA) é o núcleo do qualificador de vendas. O AQA usa IA para ler suas contas e determinar quais estão prontas para a próxima etapa. Ele auxilia na pesquisa, elaboração de emails e contexto informado pelo CRM quando sua organização conecta o CRM (somente leitura).
 
 <!--
 ## Edit the left navigation bar
@@ -50,7 +45,7 @@ At the bottom left of the application, click the _Edit_ ( ![Edit icon](../assets
 
 ### Uso básico do agente
 
-Os agentes do Adobe AI usam _consultas de linguagem natural_, o que significa que eles usam o mesmo idioma no prompt de texto que você usaria ao falar com uma pessoa. Quanto mais detalhado você for, melhores serão os resultados.
+Os agentes do Adobe AI usam _consultas de linguagem natural_, o que significa que eles usam o mesmo idioma no prompt de texto que você usa ao falar com uma pessoa. Quanto mais detalhado você for, melhores serão os resultados.
 
 Usando a linguagem natural, você pode solicitar que o agente:
 
@@ -62,7 +57,7 @@ Repita os workflows de saída refinando as solicitações para obter os resultad
 
 * _Faça um rascunho de um email de acompanhamento a partir do contexto, como chamadas de ganhos ou relatórios._ Até 120 palavras. Linha de assunto: cativante, incorporando um tema chave. Introdução: gancho com uma cotação direta de fontes de contexto. Corpo: conecte-se aos pontos problemáticos e às propostas de valor. CTA: proponha uma breve chamada para explorar mais detalhes._
 
-* _O objetivo deste email é iniciar uma conversa e criar credibilidade._ Esboçar um e-mail com menos de 120 palavras que tenha um tom consultivo e empático. Evite uma abordagem de vendas muito familiar e não use as frases &quot;espero que você esteja bem&quot;, &quot;apenas conferindo&quot; ou &quot;por favor&quot;._
+* _O objetivo deste email é iniciar uma conversa e criar credibilidade._ Esboçar um e-mail com menos de 120 palavras que tenha um tom consultivo e empático. Evite uma abordagem muito familiar ou de vendas e não use as frases &quot;espero que você esteja bem&quot;, &quot;apenas conferindo&quot; ou &quot;por favor&quot;._
 
 ### Acesso ao produto e grupos de usuários
 
@@ -89,7 +84,7 @@ Usuários BDR padrão devem ser membros do grupo de usuários `Sales Qualifier u
 
 ## Clientes potenciais
 
-Selecione **[!UICONTROL Clientes potenciais]** na navegação à esquerda para ver uma lista de todos os clientes potenciais que você pode acessar. Ele fornece uma verificação rápida em itens, como status de lead e última atividade.
+Selecione **[!UICONTROL Clientes potenciais]** na navegação à esquerda para ver uma lista de todos os clientes potenciais que você pode acessar. Ele fornece uma análise rápida das informações, como status do lead e última atividade.
 
 ![Tabela de clientes potenciais exibindo o status do cliente potencial e a última atividade para gerenciamento de clientes potenciais](./assets/prospects.png){width="800" zoomable="yes"}
 
@@ -174,7 +169,7 @@ Depois que o direcionamento é definido, a IA cria a **_cadência_**: analisa su
 
 ![Cadência e prompts de ponto de contato gerados pelo fluxo de trabalho de saída](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Expanda um ponto de contato de email para ler seu prompt. Essa instrução orienta a IA ao escrever o email de cada cliente potencial, incluindo tom, comprimento, foco e call to action.
+Expanda um ponto de contato de email para ler seu prompt. Esta instrução orienta a IA ao gravar o email de cada cliente potencial, incluindo tom, comprimento, foco e _call to action_.
 
 **Regenerar a cadência**
 
@@ -238,7 +233,7 @@ Quando a geração termina, a exibição detalhada do fluxo de trabalho mostra u
 
 #### Leia o raciocínio sobre IA
 
-Para cada email gerado, o **[!UICONTROL Raciocínio]** explica como a IA criou essa mensagem, incluindo os sinais, atributos e fontes que moldaram o conteúdo e o call to action. Revise essas informações para validar a personalização antes de aprovar.
+Para cada email gerado, o **[!UICONTROL Raciocínio]** explica como a IA criou essa mensagem, incluindo os sinais, atributos e fontes que moldaram o conteúdo e o call to action. Revise essas informações e valide a personalização antes de aprovar.
 
 ![Raciocínio de IA de email gerado pelo fluxo de trabalho de saída](./assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
 
@@ -287,10 +282,10 @@ Na página _[!UICONTROL Fluxo de trabalho de saída]_, a guia **[!UICONTROL Proc
 ### Práticas recomendadas de fluxo de trabalho de saída
 
 * **Investir na meta.** Direcionamento downstream, cadência e emails retornam ao objetivo. Metas específicas focadas em resultados superam metas vagas.
-* **Finalizar prompts de ponto de contato antes da geração por cliente potencial.**&#x200B;** Após a geração em massa, as alterações normalmente são feitas um cliente potencial por vez.
+* **Finalizar prompts de ponto de contato antes de gerar por prospecto.** Após a geração em massa, as alterações normalmente são feitas em um cliente potencial de cada vez.
 * **Usar o raciocínio como uma verificação de qualidade.** Se o sinal errado for enfatizado, ou se um sinal óbvio estiver ausente, edite o email ou revisite o prompt do ponto de contato e gere novamente a cadência.
-* **Corresponda a ferramenta de edição à alteração.**&#x200B;**&#x200B; Edições diretas de texto e tom; &#x200B;** [!UICONTROL Gerar com IA]** para reestruturação ou redefinição.
-* **Aprove apenas o que você revisou.**&#x200B;** Expanda os pontos de contato, leia o conteúdo e refine quando necessário antes da inscrição.
+* **Corresponder a ferramenta de edição à alteração.** Edições diretas de texto e tom; **[!UICONTROL Gerar com IA]** para reestruturação ou redefinição.
+* **Aprove somente o que você revisou.** Expanda os pontos de contato, leia o conteúdo e refine quando necessário antes da inscrição.
 
 ## Caixa de saída de email
 
@@ -317,7 +312,7 @@ A área _Tarefas_ do Qualificador de Vendas oferece aos Representantes de Desenv
 
 A experiência de gerenciamento de tarefas foi projetada como uma **fila de processamento**, não apenas uma lista de tarefas pendentes. Você pode abrir uma tarefa, executar uma ação, marcá-la como concluída e passar para a próxima — tudo isso sem sair da página.
 
-Selecione **[!UICONTROL Tarefas]** na barra de navegação esquerda para abrir a página Tarefas completa. Este é o espaço de trabalho principal para o processamento de tarefas, uma por uma.
+Selecione **[!UICONTROL Tarefas]** na barra de navegação esquerda para abrir a página de tarefas completa. Esta página é o espaço de trabalho principal para processar tarefas uma por uma.
 
 ![Página Tarefas mostrando a fila de tarefas e o painel de detalhes](./assets/tasks.png){width="800" zoomable="yes"}
 
@@ -366,7 +361,7 @@ Use as seguintes ações para gerenciar suas tarefas:
    * O status da tarefa está definido como **Ignorado** e registrado com o motivo e o carimbo de data/hora.
    * Se esta foi a última etapa do fluxo de trabalho, a execução do fluxo de trabalho do cliente potencial termina. A tarefa ainda é registrada como Ignorada (não Removida).
 
-* **[!UICONTROL Remover do Fluxo de Trabalho]** - Disponível no menu de estouro no painel de trabalho. Use esta opção quando o cliente potencial não estiver mais neste fluxo de trabalho.
+* **[!UICONTROL Remover do Fluxo de Trabalho]** - Disponível no menu de estouro no painel de trabalho. Use esta opção quando o cliente potencial não pertencer mais a este fluxo de trabalho.
 
   Ao remover um cliente potencial de um fluxo de trabalho:
    * Todas as tarefas pendentes e futuras desse cliente potencial dentro deste fluxo de trabalho são canceladas.
@@ -463,7 +458,7 @@ Com integrações, o Sales Qualifier pode usar seu CRM para que o Account Qualif
 
 >[!IMPORTANT]
 >
->O acesso às integrações no Qualificador de Vendas requer a associação ao grupo de usuários `Sales Qualifier Admins`.
+>O acesso às integrações no Qualificador de Vendas requer `Sales Qualifier Admins` associação de grupo de usuários.
 
 ### Escopo de acesso do CRM
 
@@ -500,7 +495,7 @@ No Salesforce, [crie um Aplicativo Cliente Externo](https://help.salesforce.com/
 
 >[!PREREQUISITES]
 >
->Para criar um aplicativo cliente externo, você deve ser um Administrador do sistema e verificar se tem o seguinte ativado (a partir do Perfil ou do Conjunto de permissões):
+>Para criar um aplicativo cliente externo, um administrador de produto deve verificar se você tem o seguinte ativado (no Perfil ou no Conjunto de permissões):
 >
 >* Personalizar aplicativo
 >* Exibir instalação e configuração
@@ -545,7 +540,7 @@ Certifique-se de que o usuário configurado tenha acesso de leitura aos seguinte
 
 1. Na navegação à esquerda, expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Integrações]**.
 
-   Você deve ver cartões para o Salesforce e o Microsoft Dynamics.
+   A página exibe cartões para o Salesforce e o Microsoft Dynamics.
 
    ![Página de integrações com os cartões de conexão do Salesforce e do Dynamics](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}
 
@@ -644,7 +639,7 @@ Na guia **[!UICONTROL Configuração do calendário]**, defina o fuso horário e
 
 * **[!UICONTROL Email de confirmação da reunião]** - Quando um cliente confirma uma reunião com você, ele recebe o email de confirmação como resposta. Use essas configurações para definir o assunto e o corpo do email.
 
-* **[!UICONTROL Preferências]** - Defina a duração da reunião padrão e o tempo que você deseja entre reuniões consecutivas.
+* **[!UICONTROL Preferências]** - Defina a duração da reunião padrão e o tempo entre reuniões consecutivas.
 
 Se você desconectar seu calendário:
 

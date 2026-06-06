@@ -4,33 +4,21 @@ description: Configurar o Journey Optimizer B2B edition. Configure esquemas XDM,
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 80%
+source-wordcount: 849
+ht-degree: 74%
 
 ---
 
 # Lista de verificação de configuração
 
-O Adobe Journey Optimizer B2B edition é fundamentado no Adobe Experience Platform. Com essa implementação, o Journey Optimizer B2B edition e o Marketo Engage não estão no mesmo sistema e no mesmo armazenamento de dados. O Journey Optimizer B2B edition recebe dados do Adobe Experience Platform. No entanto, ele continua a depender de direitos do Marketo Engage e alguns recursos de back-end, como entrega de email, para provisionar e configurar o sistema.
+O Adobe Journey Optimizer B2B edition é fundamentado no Adobe Experience Platform. Com essa implementação, o Journey Optimizer B2B edition e o Marketo Engage não estão no mesmo sistema ou armazenamento de dados. O Journey Optimizer B2B edition recebe dados do Adobe Experience Platform. No entanto, ele continua a depender de direitos do Marketo Engage e alguns recursos de back-end, como entrega de email, para provisionar e configurar o sistema.
 
 <!-- 
 >>[!NOTE]
@@ -38,15 +26,15 @@ O Adobe Journey Optimizer B2B edition é fundamentado no Adobe Experience Platfo
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-Essa implementação é a base que desbloqueia recursos no Journey Optimizer B2B edition:
+Essa implementação é a base que habilita os recursos no Journey Optimizer B2B edition:
 
-* **Unifique e dimensione facilmente seus dados:** A plataforma oferece suporte a modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
+* **Unifique e dimensione seus dados:** O sistema oferece suporte a modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
 
-* **Conecte várias instâncias do Adobe Marketo Engage:** gerencie e unifique dados de vários ambientes do Marketo Engage em um único local.
+* **Conecte várias instâncias do Adobe Marketo Engage:** Gerencie e unifique dados de vários ambientes do Marketo Engage.
 
-* **Mantenha seus dados seguros:** recursos avançados de privacidade e segurança que ajudam a proteger as informações de seus clientes. (_Em breve_)
+* **Proteja seus dados** Recursos avançados de privacidade e segurança que ajudam a proteger as informações de seus clientes. (_Em breve_)
 
-* **Criado para o futuro:** esta configuração oferece suporte a melhorias e inovações contínuas.
+* **Design para escalabilidade:** esta configuração oferece suporte a melhorias e inovações contínuas.
 
 Use as diretrizes a seguir para configuração.
 
@@ -262,7 +250,7 @@ Para enviar emails de [!DNL Journey Optimizer B2B Edition], configure o rastream
 
 ## &#x200B;4. Configurar canais de conteúdo adicionais
 
-Para oferecer suporte aos profissionais de marketing para a inclusão de outros canais em suas jornadas, configure canais adicionais.
+Para dar suporte a equipes de marketing que incluem outros canais em suas jornadas, configure canais adicionais.
 
 <table>
 <thead>
@@ -297,7 +285,7 @@ Para oferecer suporte aos profissionais de marketing para a inclusão de outros 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Configurar o site da empresa para oferecer suporte ao Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview">Saiba mais</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Saiba mais</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
@@ -314,7 +302,7 @@ Para oferecer suporte aos profissionais de marketing para a inclusão de outros 
 
 ## &#x200B;5. Conectar a instância do Marketo Engage para oferecer suporte a ações de jornada (opcional)
 
-Se você planeja complementar os recursos do Journey Optimizer B2B edition com campanhas e programas no Marketo Engage, configure o suporte para ações do Marketo Engage. Essas ações permitem que suas equipes de marketing coordenem o marketing _baseado em conta_ no Journey Optimizer B2B edition e os esforços de marketing _baseado em lead_ no Marketo Engage.
+Se você planeja complementar os recursos do Journey Optimizer B2B edition com campanhas e programas no Marketo Engage, configure o suporte para ações do Marketo Engage. Essas ações permitem que as equipes de marketing coordenem o marketing _baseado em conta_ no Journey Optimizer B2B edition e os esforços de marketing _baseado em lead_ no Marketo Engage.
 
 <table>
 <thead>

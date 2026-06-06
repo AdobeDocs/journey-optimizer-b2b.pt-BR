@@ -4,20 +4,15 @@ description: Crie emails de modelos governados com conteúdo bloqueado - identif
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:35:16.900Z
 TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 273
 ht-degree: 1%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 1%
 
 Os designers de conteúdo podem habilitar a [governança (_bloqueio de conteúdo_)](./template-content-governance.md) ao criar modelos de email. Os recursos de governança permitem designar as partes do design que não podem ser alteradas quando usadas em uma jornada de conta. Quando você [seleciona um modelo salvo](./email-authoring.md#select-a-template) para criar um email, o espaço de design visual carrega o modelo para que você possa usá-lo como base para seu email.
 
-Se o modelo tiver o controle ativado, um alerta será exibido no painel de propriedades à direita. Você pode ativar as **[!UICONTROL Realçar áreas editáveis]** na parte superior da tela para ver quais componentes e elementos de conteúdo são editáveis para uso na jornada.
+Se o modelo tiver o controle ativado, um alerta será exibido no painel de propriedades à direita. Selecione **[!UICONTROL Realçar áreas editáveis]** na parte superior da tela para ver quais componentes e elementos de conteúdo são editáveis para uso na jornada.
 
 ![Exibir áreas editáveis em um modelo controlado](./assets/email-designer-governed-highlight.png){width="800" zoomable="yes"}
 
