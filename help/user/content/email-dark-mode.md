@@ -20,10 +20,10 @@ topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1606
-ht-degree: 9%
+source-wordcount: 1564
+ht-degree: 4%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro, que permite pré-visualizar a renderização e definir configurações personalizadas. <br>A renderização final depende do cliente de email do destinatário. Atente-se que nem todos os clientes de email são compatíveis com o modo escuro personalizado."
+>abstract="Alterne para o modo escuro para visualizar a renderização e definir configurações personalizadas. <br>A renderização depende do cliente de email do destinatário. Nem todos os clientes de email permitem o modo escuro."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro para visualizar a renderização nos clientes de email compatíveis. <br>A renderização final depende do cliente de email do destinatário. Observe que todos os clientes de email não são compatíveis com o modo escuro."
+>abstract="Alterne para o modo escuro para visualizar a renderização em clientes de email compatíveis. <br>A renderização final depende do cliente de email do destinatário. Observe que nem todos os clientes de e-mail suportam o modo escuro."
 
 _Modo escuro_ permite que um cliente ou aplicativo de email de suporte exiba emails com planos de fundo mais escuros e cores mais claras para texto, botões e outros elementos visuais. Esse tipo de monitor pode reduzir a tensão ocular, economizar bateria e melhorar a legibilidade em ambientes com pouca luminosidade, proporcionando uma experiência de visualização mais confortável. Como uma tendência crescente nos principais sistemas operacionais e aplicativos, agora é uma consideração importante no design de email moderno para garantir que o conteúdo permaneça legível e visualmente atraente para todos os usuários.
 
@@ -47,7 +47,7 @@ _Modo escuro_ permite que um cliente ou aplicativo de email de suporte exiba ema
 
 ## Considerações do cliente de email {#email-client-considerations}
 
-Há uma variação significativa na maneira como diferentes clientes de email e aplicativos aplicam o modo escuro. Por isso, você deve considerar as expectativas para a renderização no modo escuro com cuidado. Antes de usar o modo escuro no espaço de design de email, considere os seguintes casos de uso de cliente de email:
+Há uma variação significativa na maneira como diferentes clientes de email e aplicativos aplicam o modo escuro. Por isso, considere com cuidado as expectativas de renderização no modo escuro. Antes de usar o modo escuro no espaço de design de email, considere os seguintes casos de uso de cliente de email:
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
@@ -67,7 +67,7 @@ Se você definir configurações personalizadas de modo escuro no design de emai
 
 +++Clientes aplicando seu próprio modo escuro {#default-support}
 
-Alguns clientes de email aplicam sistematicamente seu próprio modo escuro padrão a todos os emails recebidos. Eles ajustam automaticamente cores, planos de fundo, imagens e outros elementos de acordo com suas configurações de modo escuro e configurações externas não são possíveis. Esses clientes incluem:
+Alguns clientes de email aplicam sistematicamente seu próprio modo escuro padrão a todos os emails recebidos. Eles ajustam automaticamente cores, planos de fundo, imagens e outros elementos de acordo com suas configurações de modo escuro e as configurações externas não são possíveis. Esses clientes incluem:
 
 * Gmail (Webmail Para Desktop, iOS, Android™, Webmail Para Dispositivos Móveis)
 * Outlook Windows
@@ -128,14 +128,14 @@ Para obter os melhores resultados, teste seu conteúdo com os clientes de email 
 
 >[!CAUTION]
 >
->A renderização final pode variar de acordo com o cliente de email do recipient. Para ver uma simulação que se aproxime o máximo possível do resultado final para cada cliente de email, use a integração [Renderização de email de teste Litmus](./email-test-rendering.md).
+>A renderização final pode variar de acordo com o cliente de email do recipient. Para ver uma simulação que se aproxime o máximo possível do resultado final de cada cliente de email, use a integração [Renderização de teste de email Litmus](./email-test-rendering.md).
 
 ### Definir as configurações personalizadas do modo escuro {#custom-dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Usar uma imagem específica para o modo escuro"
->abstract="É possível selecionar outra imagem para exibir quando o modo escuro estiver ativado. <br>A adição de uma imagem específica para o modo escuro não garante que ela será renderizada corretamente em todos os clientes de email. Observe que todos os clientes de email não são compatíveis com o modo escuro personalizado."
+>abstract="Selecione outra imagem para o modo escuro. <br>A adição de uma imagem específica não garante a renderização correta em todos os clientes de email. Nem todos os clientes de email permitem o modo escuro."
 
 Depois de alternar para o modo escuro, você pode optar por editar elementos de estilo específicos do seu conteúdo, que são exibidos somente quando o modo escuro está ativado no cliente de email do recipient (desde que seja compatível com esse recurso).
 
@@ -143,7 +143,7 @@ Depois de alternar para o modo escuro, você pode optar por editar elementos de 
 >
 >A renderização final no modo escuro depende de cada cliente de email, portanto, os resultados podem variar de um para o outro. Revise as [considerações sobre o cliente de email](#email-client-considerations) para obter mais informações.
 
-O estilo de modo escuro personalizado no espaço de design de email usa o <!-- `@media (prefers-color-scheme: dark)` method--> Consulta CSS `@media (prefers-color-scheme: dark)`, que detecta se o cliente de email está definido para o modo escuro e aplica o design de tema escuro definido no seu email.
+O estilo de modo escuro personalizado usa a consulta CSS `@media (prefers-color-scheme: dark)` para detectar se o cliente de email está definido para o modo escuro e aplicar o design de tema escuro definido.
 
 _Para definir configurações personalizadas do modo escuro :_
 
