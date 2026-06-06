@@ -35,7 +35,7 @@ O Qualificador de vendas é um aplicativo orientado por IA que pode ser usado co
 
 Os BDRs podem usar os plug-ins de navegador e email para acessar a inteligência empresarial diretamente nos CRMs ou no Outlook. O vídeo a seguir fornece uma breve demonstração do qualificador de vendas e do Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476566?captions=por_br)
 
 ## Página inicial do aplicativo
 
