@@ -22,10 +22,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +55,7 @@ Altere os valores do email de origem e do rótulo para que novos emails sejam pr
 
 ### Cancelar inscrição de mensagens
 
-Para emails de marketing não operacionais, o texto de cancelamento de inscrição e os links são anexados na parte inferior. Como administrador de produto, você deve configurar o HTML padrão e o texto que é preenchido quando um profissional de marketing não marca o email como operacional.
+Para emails de marketing não operacionais, o texto de cancelamento de inscrição e os links são anexados na parte inferior. Como administrador de produto, configure o HTML padrão e o texto que é preenchido quando um profissional de marketing não marca o email como operacional.
 
 1. Vá para a área **[!UICONTROL Administrador]** na instância do Marketo Engage anexada e selecione **[!UICONTROL Email]**.
 
@@ -89,7 +89,7 @@ Se precisar reverter para o conteúdo padrão do sistema, copie e cole o seguint
 
 ### Exibir como página da Web
 
-O conteúdo de email tem recursos de exibição limitados (CSS limitado e sem JavaScript ou formulários). Os profissionais de marketing podem usar a opção _Exibir como página da Web_ para aplicar um cookie ao destinatário de email usando o Marketo Munchkin. Como administrador de produto, você deve configurar o HTML padrão e o texto que é preenchido quando um profissional de marketing escolhe essa opção.
+O conteúdo de email tem recursos de exibição limitados (CSS limitado e sem JavaScript ou formulários). Os profissionais de marketing podem usar a opção _Exibir como página da Web_ para aplicar um cookie ao destinatário de email usando o Marketo Munchkin. Como administrador de produto, configure o HTML padrão e o texto que é preenchido quando um profissional de marketing escolhe essa opção.
 
 1. Vá para a área **[!UICONTROL Administrador]** na instância do Marketo Engage anexada e selecione **[!UICONTROL Email]**.
 
@@ -163,7 +163,7 @@ Altere as _[!UICONTROL Opções de Cabeçalho Personalizadas]_ para email para c
    ![Administrador de email do Marketo Engage - Configurações padrão das Opções de Cabeçalho Personalizado](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Segurança de Transporte Restrita]** - Defina esta opção como _Habilitada_ para garantir que os links de rastreamento sempre sejam servidos por HTTPS. Habilite essa opção somente para assinaturas com links de rastreamento protegidos por SSL.
-   * **[!UICONTROL Idade máxima]** - este campo oferece suporte à diretiva obrigatória para especificar o tempo, em segundos, que o navegador deve lembrar para acessar somente o domínio por HTTPS.
+   * **[!UICONTROL Idade máxima]** - este campo oferece suporte à diretiva obrigatória para especificar o tempo, em segundos, que o navegador se lembra de acessar somente o domínio por HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Use esta opção para incluir a diretiva que aplica a diretiva HSTS a todos os subdomínios do host.
 
    >[!IMPORTANT]

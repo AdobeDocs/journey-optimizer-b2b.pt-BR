@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:11:12.994Z
 TQID: https://experienceleague.adobe.com/a-dPU6YNtDv86OD-i35749QY4HCDFtVIVn9F6jm0zEA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -40,10 +40,10 @@ Há duas maneiras de definir o tempo de espera:
 
    ![Adicionar nó de jornada - espera](./assets/add-node-wait.png){width="440"}
 
-1. Nas propriedades do nó à direita, defina o **[!UICONTROL Type]** de tempo a ser aguardado antes que a jornada continue para o próximo nó no caminho.
+1. Para definir o tempo de espera antes que a jornada continue para o próximo nó no caminho, use as propriedades do nó à direita para definir o **[!UICONTROL Tipo]**.
 
    * **[!UICONTROL Duração]** - Defina um número específico de dias, horas ou minutos decorridos entre a entrada e a saída do nó de espera.
-   * **[!UICONTROL Data]** - Especifique uma data e hora específicas para a saída.
+   * **[!UICONTROL Data]** - Especifique uma data e hora para a saída.
 
    ![Nó de Jornada - espera](./assets/node-wait.png){width="500"}
 
@@ -51,7 +51,7 @@ Há duas maneiras de definir o tempo de espera:
 
 Habilite a opção **[!UICONTROL Deve terminar em]** para configurar uma _etapa de espera avançada_ e garantir que suas mensagens cheguem às pessoas e aos membros da conta no momento ideal. Essa configuração oferece controle preciso sobre quando uma pessoa ou conta sai de uma etapa de espera e prossegue para o próximo nó na jornada. Em vez de um número fixo de horas ou dias, desde a entrada até a saída, você pode agendar ações para que ocorram em horários e dias específicos da semana.
 
-Com uma _etapa de espera avançada_, você define **_quando_** a pessoa ou conta deve sair, e não apenas quanto tempo deve esperar.
+Com uma _etapa de espera avançada_, você define **_quando_** a pessoa ou a conta sai, e não apenas quanto tempo ela espera.
 
 ![nó de Jornada - etapa de espera avançada](./assets/node-wait-advanced.png){width="500"}
 
@@ -66,11 +66,11 @@ Com uma _etapa de espera avançada_, você define **_quando_** a pessoa ou conta
 
 ### Cenários comuns
 
-Os cenários a seguir ilustram como você pode aplicar cenários típicos à configuração do nó de espera:
+Os cenários a seguir ilustram como você pode aplicar exemplos típicos à configuração do nó de espera:
 
 +++Chegada de email durante o horário comercial
 
-**Cenário:** você comercializa para clientes B2B que leem emails no trabalho. Você deseja que todos os emails cheguem durante o horário comercial.
+**Cenário:** você comercializa para clientes B2B que leem emails durante seus dias úteis. Você deseja que todos os emails cheguem durante o horário comercial.
 
 **Solução:** configure sua etapa de espera para liberar clientes potenciais às 9:00 da manhã nos dias da semana (de segunda a sexta-feira). Não importa quando um lead entra no nó de espera, ele recebe seu email durante o horário comercial.
 
@@ -86,7 +86,7 @@ Os cenários a seguir ilustram como você pode aplicar cenários típicos à con
 
 +++Tarefas de acompanhamento em conformidade com a SLA
 
-**Cenário:** sua equipe de vendas tem uma SLA de dois dias úteis para acompanhar clientes em potencial qualificados para marketing. Finais de semana não contam.
+**Cenário:** sua equipe de vendas tem uma SLA de dois dias úteis para acompanhar clientes em potencial qualificados para marketing. Os finais de semana são excluídos.
 
 **Solução:** configure a etapa de espera para liberar clientes potenciais somente em dias úteis. Um lead qualificado na sexta-feira é encaminhado para acompanhamento na segunda ou terça-feira, não durante o fim de semana.
 

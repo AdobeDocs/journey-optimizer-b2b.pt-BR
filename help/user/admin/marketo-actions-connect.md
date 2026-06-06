@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ Para usar as ações de jornada do Marketo Engage, um administrador cria primeir
 >title="Conexões externas do Marketo Engage"
 >abstract="Admins de produtos podem configurar conexões com instâncias externas do Marketo Engage, tornando-as disponíveis para ações de jornada."
 
-Conclua as tarefas a seguir para configurar uma instância externa do Marketo Engage para uso com ações de jornada.
+Para configurar uma instância externa do Marketo Engage para ser usada com ações de jornada, conclua as tarefas a seguir.
 
 ### Criar o serviço personalizado do Marketo Engage
 
@@ -86,6 +86,6 @@ Quando um profissional de marketing usa uma ação do Marketo Engage em uma jorn
 >
 >As ações do Marketo Engage executadas a partir de uma jornada não se aplicam aos limites da API REST para a instância conectada do Marketo Engage.
 
-Com a integração concluída, as ações do Marketo Engage estão disponíveis em **Ações em:** nas propriedades do nó.
+Com a integração concluída, as ações do Marketo Engage estão disponíveis em **_Actions em:_** nas propriedades do nó.
 
 ![lista de ações do Marketo](assets/marketo-actions-list.png){width="800" zoomable="yes"}

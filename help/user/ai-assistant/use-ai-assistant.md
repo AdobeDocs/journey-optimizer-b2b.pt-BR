@@ -5,11 +5,14 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -17,11 +20,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-04-29T23:21:59.633Z
-TQID: https://experienceleague.adobe.com/nLvepx6T0xVR0KZqO-8zRgf2z63sJtGJLCVCCpYoNYk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 970
 ht-degree: 1%
 
 ---
@@ -32,13 +33,13 @@ No Journey Optimizer B2B edition, o Assistente de IA é um recurso da interface 
 
 >[!IMPORTANT]
 >
->É necessário um contrato para as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud para que você possa usar o Assistente de IA. Para obter mais informações sobre este contrato e diretrizes de uso, consulte as [Diretrizes de usuário da IA gerativa da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>É necessário um contrato para as Diretrizes de usuário da IA gerada da Adobe Experience Cloud para que você possa usar o Assistente de IA. Para obter mais informações sobre este contrato e diretrizes de uso, consulte as [Diretrizes de usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 Para acessar o Assistente de IA, clique no ícone no cabeçalho. O Assistente de IA é aberto em um painel à direita.
 
 ![Clique no ícone para acessar o Assistente de IA](./assets/ai-assistant-icon-displayed.png){width="420"}
 
-A interface do Assistente de IA é exibida, fornecendo imediatamente informações para começar. Você pode usar as opções fornecidas em _Ideias para começar_ para responder a perguntas e comandos, como:
+A interface do Assistente de IA é exibida, fornecendo imediatamente informações para começar. Você pode usar as opções fornecidas em _[!UICONTROL Ideias para começar]_ para responder a perguntas e comandos, como:
 
 * Quais jornadas foram publicadas?
 * Quais interesses de solução foram criados?
@@ -54,7 +55,7 @@ As perguntas de conhecimento do produto são sobre os conceitos e as informaçõ
 * Como faço para enviar um email em uma jornada?
 * Como posso personalizar meu conteúdo de email?
 
-Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você precisa aprender a usar um grupo de compras em uma jornada. Nesse caso, você insere _Como usar um grupo de compras em uma jornada?_ Depois de enviar a pergunta, o Assistente de IA consulta sua base de conhecimento e compila uma resposta em alguns segundos.
+Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você precisa aprender a usar um grupo de compras em uma jornada. Nesse caso, você insere _Como usar um grupo de compras em uma jornada?_ Depois de enviar a pergunta, o Assistente de IA consulta sua base de conhecimento e gera uma resposta em alguns segundos.
 
 ![Digite uma pergunta na caixa de texto](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -66,13 +67,13 @@ Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do
 
 ## Faça perguntas sobre insights operacionais
 
-As perguntas sobre insights operacionais são sobre os objetos do jornada na sandbox da sua organização. Você pode fazer perguntas sobre artefatos operacionais, como público-alvo da conta, jornada da conta, interesse da solução e modelo de grupo de compras. Alguns exemplos de perguntas ou prompts de insights operacionais incluem:
+As perguntas sobre insights operacionais são sobre os objetos do jornada na sandbox da sua organização. Você pode fazer perguntas sobre artefatos operacionais, como públicos-alvo da conta, jornadas, interesses da solução e modelos de grupo de compras. Alguns exemplos de perguntas ou prompts de insights operacionais incluem:
 
 * Quantas jornadas ativas eu tenho no Adobe Journey Optimizer B2B edition?
 * Fornecer uma lista de todas as jornadas agendadas
 * Quantas jornadas foram criadas nos últimos sete dias?
 
-Você deve estar em uma sandbox ativa para o Assistente de IA para fornecer uma resposta suficiente a uma pergunta sobre seus insights operacionais.
+Certifique-se de estar em uma sandbox ativa para o Assistente de IA para fornecer uma resposta suficiente a uma pergunta sobre seus insights operacionais.
 
 >[!NOTE]
 >
@@ -106,13 +107,13 @@ O Assistente de IA fornece links para a documentação que confirma a resposta i
 
 Depois de receber uma resposta para uma pergunta de insights operacionais, clique em **[!UICONTROL Mostrar origem]** e selecione **[!UICONTROL Exibir consulta de origem]**.
 
-Você pode verificar cada resposta relacionada às perguntas dos insights operacionais usando uma consulta SQL fornecida pelo Assistente de IA. Quando consultado sobre uma pergunta de insights operacionais, o Assistente de IA fornece uma consulta SQL que pode ser usada para verificar o processo necessário para calcular a resposta. Esta consulta de origem é somente para fins de verificação e não tem suporte no Serviço de consulta.
+Você pode verificar cada resposta relacionada às perguntas dos insights operacionais usando uma consulta SQL fornecida pelo Assistente de IA. Quando consultado sobre uma pergunta de insights operacionais, o Assistente de IA fornece uma consulta SQL. Você pode usá-la para verificar o processo necessário para calcular a resposta. Esta consulta de origem é somente para fins de verificação e não tem suporte no Serviço de consulta.
 
 ![Resultados da consulta do Assistente de IA](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
 ## Fornecer feedback
 
-Use os ícones de _Polegar para cima_ ( ![Polegar para cima](../assets/do-not-localize/icon-thumb-up.svg) ) ou _Polegar para baixo_ ( ![Polegar para baixo](../assets/do-not-localize/icon-thumb-down.svg) ) para classificar a utilidade e a qualidade da resposta. Preencha o breve formulário de pesquisa de acordo com sua experiência e clique em **[!UICONTROL Enviar]**. As informações fornecidas são usadas para fazer melhorias no Assistente de IA.
+Use os ícones de _Classificação positiva_ ( ![Miniatura](../assets/do-not-localize/icon-thumb-up.svg) ) ou _Classificação negativa_ ( ![Miniatura](../assets/do-not-localize/icon-thumb-down.svg) ) para classificar a utilidade e a qualidade da resposta. Preencha o breve formulário de pesquisa de acordo com sua experiência e clique em **[!UICONTROL Enviar]**. As informações fornecidas são usadas para fazer melhorias no Assistente de IA.
 
 Se você notar algo problemático na resposta, clique no ícone _Sinalizador_ ( ![Sinalizador](../assets/do-not-localize/icon-flag.svg) ). Use o formulário para descrever o problema e clique em **[!UICONTROL Enviar]** para relatar o problema.
 

@@ -17,16 +17,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:05:00.531Z
 TQID: https://experienceleague.adobe.com/3gCGyaNUShU2ZHvIqc4FwsH7floQjrSy9fcdfevRYlE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 386
-ht-degree: 95%
+source-wordcount: 388
+ht-degree: 72%
 
 ---
 
 # Orientação de integração do usuário
 
-Os recursos e ferramentas que você pode usar no Adobe Journey Optimizer B2B Edition dependem da sua função na equipe. Com base na sua organização, os administradores podem definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das suas permissões.
+Os recursos e as ferramentas que você deseja usar no Adobe Journey Optimizer B2B edition dependem da sua função na equipe. Com base na sua organização, os administradores podem definir vários tipos de usuários e conceder a eles acesso a determinados recursos, dependendo das suas permissões.
 
 Depois que um administrador concluir as [tarefas de instalação](../setup-ultimate.md), use essas informações para integração de usuários gerais.
 
@@ -38,17 +38,17 @@ Como profissional de marketing ou _Profissional de jornada de contas_, você é 
 
 Consulte as seções a seguir para configurar sua primeira jornada, adicionar ativos e enviar conteúdo:
 
-1. **Adicione públicos-alvos das contas**. O Journey Optimizer B2B Edition permite criar públicos-alvos das contas por meio de definições de segmentos diretamente do aplicativo e utilizá-los em suas jornadas de conta. [Saiba mais](../audiences/account-audience-overview.md)
+1. **Adicione públicos-alvos das contas**. O Journey Optimizer B2B edition permite criar públicos-alvo de conta por meio de definições de segmento diretamente do aplicativo e aproveitá-los em suas jornadas de conta. [Saiba mais](../audiences/account-audience-overview.md)
 
 1. **Crie grupos de compra**. Defina os principais componentes para atingir suas metas e objetivos comerciais e crie grupos de compras que identifiquem os membros para suas listas de contas de destino. [Saiba mais](../buying-groups/buying-groups-overview.md)
 
-1. **Criar e gerenciar ativos**. O Adobe Experience Manager Assets fornece um repositório único e centralizado de ativos que você pode usar para preencher suas mensagens. [Saiba mais](../content/assets-overview.md)
+1. **Criar e gerenciar ativos**. O Adobe Experience Manager Assets fornece um repositório único e centralizado de ativos que você pode usar em suas mensagens. [Saiba mais](../content/assets-overview.md)
 
-1. **Adicione modelos de email personalizados e dinâmicos**. Aproveite a personalização e os recursos de conteúdo dinâmico do Journey Optimizer B2B Edition para adaptar sua mensagem ao seu público-alvo. [Saiba mais](../content/email-templates.md)
+1. **Adicionar modelos de email personalizados e dinâmicos**. Aproveite a personalização e os recursos de conteúdo dinâmico do Journey Optimizer B2B Edition para adaptar sua mensagem ao seu público-alvo. [Saiba mais](../content/email-templates.md)
 
 1. **Crie jornadas de conta para oferecer experiências personalizadas e contextuais**. O Journey Optimizer B2B Edition permite criar casos de uso de orquestração em tempo real com dados contextuais armazenados em eventos ou fontes de dados. Crie cenários avançados de várias etapas com os seguintes recursos:
 
-   * Envie uma entrega unitária em tempo real acionada quando um evento é recebido ou em lote usando públicos-alvo da Adobe Experience Platform.
+   * Envie entregas unitárias em tempo real que são acionadas quando um evento é recebido, ou em um lote usando públicos da Adobe Experience Platform.
 
    * Use dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros.
 

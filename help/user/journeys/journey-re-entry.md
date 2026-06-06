@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: bb44a295784fbdeab2583cf7c759b15c0808d7d5
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 419
 ht-degree: 9%
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 # Jornada reentrada
 
-_Somente jornadas da conta_
+_&#x200B;**Somente jornadas da conta**&#x200B;_
 
 Quando você habilita a reentrada de uma jornada de conta, pode controlar quando e com que frequência uma conta pode entrar novamente na mesma jornada. Use as configurações de reentrada para definir critérios, limites e tempos de espera para que as contas se requalifiquem para a jornada de forma controlada.
 

@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 93%
+source-wordcount: 415
+ht-degree: 83%
 
 ---
 
@@ -30,7 +30,7 @@ Com o Adobe Journey Optimizer B2B Edition, você pode orquestrar jornadas de con
  Requirements?
 -->
 
-Para acessar o [!DNL Adobe Journey Optimizer B2B Edition], conecte-se à Adobe Experience Cloud com sua Adobe ID e selecione [!DNL Journey Optimizer B2B Edition].
+Para acessar o [!DNL Adobe Journey Optimizer B2B Edition], conecte-se à Adobe Experience Cloud com sua Adobe ID e selecione [!DNL Journey Optimizer B2B Edition].
 
 ![Aplicativos da Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Ao fazer logon na Adobe Experience Platform e selecionar o aplicativo Adobe Jour
 
 O Journey Optimizer B2B Edition tem duas personas de usuário principais: _&#x200B;**profissional de marketing**&#x200B;_ e _&#x200B;**admin**&#x200B;_. Cada persona tem uma página inicial específica para diferentes estágios de maturidade (novos ou avançados). O conteúdo da página é baseado no que cada persona precisa em termos de informações e as próximas ações a serem tomadas.
 
-* **Profissional de marketing – novo usuário**: a página inicial de _Profissional de marketing_ para novos usuários ajuda-os a se acostumarem com o Journey Optimizer B2B e seus recursos. Inclui um guia detalhado com um passo a passo de integração para que o novo profissional de marketing possa entender as nuances do sistema e se tornar eficiente no desenvolvimento de estratégias e iniciativas de marketing B2B.
+* **Profissional de marketing – novo usuário**: a página inicial de _Profissional de marketing_ para novos usuários ajuda-os a se acostumarem com o Journey Optimizer B2B e seus recursos. Ele inclui uma apresentação guiada para o novo profissional de marketing, para que ele possa entender as nuances do sistema e se tornar eficiente no desenvolvimento de estratégias e iniciativas de marketing B2B.
 * **Profissional de marketing – usuário avançado**: a página inicial de _Profissional de marketing_ de um profissional de marketing avançado exibe o progresso da iniciativa atual, as próximas ações recomendadas e fornece acesso rápido às seções relevantes.
 * **Administrador – novo usuário**: a página inicial de _Administrador_ para novos administradores ajuda-os a se acostumarem com o Journey Optimizer B2B Edition e seus recursos. Inclui um guia detalhado com uma jornada de integração passo a passo para que o novo administrador possa entender as nuances do sistema e se tornar eficiente no desenvolvimento de estratégias e iniciativas de marketing B2B.
 * **Administrador – usuário avançado**: A página inicial de _Administrador_ de um administrador avançado exibe o status da instância atual e as etapas acionáveis para melhorar sua eficiência e a eficácia.

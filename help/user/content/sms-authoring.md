@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1306
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
 1. Adicione um token clicando no sinal de adição ( **+** ) ao lado dele.
 
-   Para adicionar o token com um fallback (padrão exibido caso o campo não esteja disponível para um cliente potencial), clique no ícone _Mais_ ( **...** ) e escolha **[!UICONTROL Inserir com texto de fallback]**.
+   Se quiser adicionar o token com um fallback, clique no ícone _Mais_ ( **...** ) e escolha **[!UICONTROL Inserir com texto de fallback]**. O fallback é o padrão que aparece caso esse campo não esteja disponível para um cliente potencial.
 
    ![Clique nas reticências para usar um fallback para o token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
      >[!NOTE]
      >
-     >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento das atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desative essa opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
+     >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento das atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desabilite esta opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
      >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
@@ -175,9 +175,9 @@ Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para
 
 ## Gerenciamento de consentimento por SMS
 
-Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca e honrar essa escolha é um requisito legal. O não cumprimento desses regulamentos traz riscos legais para sua marca. Essa função também ajuda a evitar o envio de comunicações não solicitadas para seus recipients, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
+Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca e honrar essa escolha é um requisito legal. O não cumprimento desses regulamentos traz riscos legais para sua marca. Essa função ajuda a evitar o envio de comunicações não solicitadas para seus recipients, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
 
-Quando você fornece essa opção, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas, bem como todas as palavras-chave personalizadas configuradas com o provedor de serviços SMS. Quando a assinatura é cancelada, os perfis são removidos automaticamente do público-alvo de futuras mensagens de marketing.
+Quando você fornece essa opção, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas, assim como todas as palavras-chave personalizadas configuradas com o provedor de serviços SMS. Quando a assinatura é cancelada, os perfis são removidos automaticamente do público-alvo de futuras mensagens de marketing.
 
 O Journey Optimizer B2B edition fornece a capacidade de gerenciar a opção de não participação em mensagens SMS usando a seguinte lógica:
 

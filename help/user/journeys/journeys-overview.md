@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 44%
+source-wordcount: 1512
+ht-degree: 42%
 
 ---
 
@@ -110,7 +110,7 @@ Para personalizar (mostrar/ocultar) as colunas exibidas na tabela, clique no íc
 
 ### Status da jornada
 
-O status de uma jornada pode mudar com base nas ações que você aplica. Com base no status de uma jornada, certas ações estão/não estão disponíveis no lado direito do cabeçalho.
+O status de uma jornada pode mudar com base nas ações que você aplica. Com base no status de uma jornada, determinadas ações estão ou não disponíveis no lado direito do cabeçalho.
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
@@ -170,7 +170,7 @@ Se você fechar uma jornada ativa, as contas que estão atualmente na jornada co
 
 ### Duplicar uma jornada {#duplicate-journey}
 
-Uma ação duplicada é semelhante a uma função de clone, mas uma jornada duplicada não inclui nenhum ativo de conteúdo de jornada criado. Você pode duplicar os detalhes da jornada ou apenas um _esqueleto_ simples da estrutura de fluxo e caminho.
+Uma ação duplicada é semelhante a uma função de clone, mas uma jornada duplicada não inclui nenhum ativo de conteúdo de jornada criado. Você pode duplicar os detalhes da jornada ou uma _estrutura_ simples da estrutura de fluxo e caminho.
 
 1. Clique no ícone _Mais_ (**...**) ao lado do nome da jornada e escolha **[!UICONTROL Duplicar]**.
 
@@ -194,7 +194,7 @@ Uma ação duplicada é semelhante a uma função de clone, mas uma jornada dupl
 
    * **[!UICONTROL Duplicação parcial de conteúdo]**: use este tipo para copiar tudo na jornada, excluindo emails ou mensagens SMS criados. Os nós que fazem referência a um email ou mensagem SMS do Marketo Engage ficam totalmente intactos.
 
-   * **[!UICONTROL Duplicar sem detalhes]**: use esse tipo para copiar apenas a estrutura e os caminhos do nó. Todas as configurações de nó e condições de caminho ficam indefinidas (padrão), de modo que você pode reutilizar o fluxo básico com diferentes configurações de público-alvo, ações e segmentação de caminho. Todos os nós _Wait_ usam o padrão de cinco dias.
+   * **[!UICONTROL Duplicar sem detalhes]** - Use este tipo para copiar somente a estrutura e os caminhos do nó. Todas as configurações de nó e condições de caminho ficam indefinidas (padrão), de modo que você pode reutilizar o fluxo básico com diferentes configurações de público-alvo, ações e segmentação de caminho. Todos os nós _Wait_ usam o padrão de cinco dias.
 
 1. Clique em **[!UICONTROL Duplicar]**.
 

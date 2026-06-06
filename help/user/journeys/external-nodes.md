@@ -16,9 +16,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 866
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ O nó _Ação externa_ chama um serviço externo e continua ao longo de um únic
 
 1. Continue criando a jornada a partir dos caminhos de saída do nó.
 
-   O caminho _[!UICONTROL Timeout ou error]_ é criado automaticamente. Se o período de timeout (conforme configurado no serviço) decorrer antes que uma resposta seja recebida, a conta ou pessoa avançará por esse caminho. É o mesmo se uma resposta de erro for recebida. Você pode adicionar nós de jornada a esse caminho para lidar com esses cenários, ou a jornada termina para o membro do público-alvo.
+   O caminho _[!UICONTROL Timeout ou error]_ é criado automaticamente. Se o período de timeout (conforme configurado no serviço) decorrer antes que uma resposta seja recebida, a conta ou pessoa avançará por esse caminho. O mesmo se aplica se uma resposta de erro for recebida. Para lidar com esses cenários, você pode adicionar nós de jornada a esse caminho ou a jornada termina para o membro do público-alvo.
 
 ## Nó de caminhos divididos externos {#external-split-paths}
 
-O nó Caminhos divididos externos chama um serviço externo e usa a resposta para determinar qual caminho as contas seguirão. Cada caminho é definido por uma condição baseada em uma variável (acessadora) retornada pelo serviço externo. A jornada avalia a resposta em relação às condições de caminho definidas e encaminha cada conta ao longo do primeiro caminho correspondente. As condições do caminho são avaliadas em ordem decrescente. Cada conta continua ao longo do primeiro caminho cuja condição corresponde ao valor retornado pelo serviço externo.
+O nó Caminhos divididos externos chama um serviço externo e usa a resposta para determinar qual caminho as contas seguirão. Uma condição baseada em uma variável (acessadora) retornada pelo serviço externo define cada caminho. A jornada avalia a resposta em relação às condições de caminho definidas e encaminha cada conta ao longo do primeiro caminho correspondente. As condições do caminho são avaliadas em ordem decrescente. Cada conta continua ao longo do primeiro caminho cuja condição corresponde ao valor retornado pelo serviço externo.
 
 1. Navegue até o mapa de jornada de conta.
 
@@ -101,6 +101,6 @@ O nó Caminhos divididos externos chama um serviço externo e usa a resposta par
 
 1. Continue criando a jornada a partir de cada caminho de saída do nó.
 
-   O caminho _[!UICONTROL Timeout ou error]_ é criado automaticamente. Se o período de timeout (conforme configurado no serviço) decorrer antes que uma resposta seja recebida, a conta ou pessoa avançará por esse caminho. É o mesmo se uma resposta de erro for recebida. Você pode adicionar nós de jornada a esse caminho para lidar com esses cenários, ou a jornada termina para o membro do público-alvo.
+   O caminho _[!UICONTROL Timeout ou error]_ é criado automaticamente. Se o período de timeout (conforme configurado no serviço) decorrer antes que uma resposta seja recebida, a conta ou pessoa avançará por esse caminho. O mesmo se aplica se uma resposta de erro for recebida. Para lidar com esses cenários, você pode adicionar nós de jornada a esse caminho ou a jornada termina para o membro do público-alvo.
 
-1. Para _Dividir por contas_, você pode adicionar um [nó de caminhos de mesclagem](./split-merge-paths-nodes.md#merge-paths) para combinar dois ou mais caminhos, conforme necessário.
+1. Para combinar dois ou mais caminhos, conforme necessário, para _Dividir por contas_, é possível adicionar um [nó de caminhos de mesclagem](./split-merge-paths-nodes.md#merge-paths).

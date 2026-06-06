@@ -18,24 +18,24 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T22:08:16.582Z
 TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 327
 ht-degree: 1%
 
 ---
 
 # Desduplicação de email
 
-Use a desduplicação de email em jornadas de conta para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço de email em uma jornada. Quando você habilita esse recurso, endereços de email duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. Depois que uma conta terminar uma jornada, uma pessoa pode se qualificar para receber emails novamente como parte de uma nova conta que entra na jornada.
+Para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço de email em uma jornada, use a desduplicação de email em jornadas de conta. Quando você habilita esse recurso, endereços de email duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada. Depois que uma conta terminar uma jornada, uma pessoa pode se qualificar para receber emails novamente como parte de uma nova conta que entra na jornada.
 
 ## Quando usar a desduplicação de email
 
-Há alguns cenários principais em que você deve considerar a ativação da desduplicação de email:
+Há alguns cenários principais a serem considerados para ativar a desduplicação de e-mail:
 
 * **O email não é usado como identidade no Real-Time CDP** - O mesmo endereço de email pode aparecer em vários perfis de pessoa. Se esses perfis duplicados se qualificarem para a mesma jornada e você quiser impedir o envio de email mais de uma vez, ative esse recurso.
 
-* **Pessoa única associada a várias contas** - Se o modelo de dados do Real-Time CDP permitir que uma única pessoa seja associada a várias contas e você quiser evitar enviar o mesmo email duas vezes para essa pessoa quando várias contas (incluindo perfis com o mesmo endereço de email) se qualificarem para a mesma jornada, habilite esse recurso.
+* **Pessoa única associada a várias contas** - Se o modelo de dados do [!DNL Real-Time CDP] associar uma única pessoa a várias contas, habilite esse recurso para evitar o envio do mesmo email duas vezes quando vários perfis com o mesmo endereço de email forem qualificados para a mesma jornada.
 
 >[!NOTE]
 >
@@ -59,4 +59,4 @@ Para ativar a desduplicação de email para uma jornada de conta:
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-Quando a desduplicação de email está habilitada, o jornada verifica cada endereço de email antes de enviar o email. Se um registro com o mesmo endereço de email já tiver sido inserido nesse nó de jornada, a nova entrada será bloqueada até que o primeiro registro conclua a jornada.
+Quando a desduplicação de email está habilitada, o jornada verifica cada endereço de email antes de enviar o email. Se um registro com o mesmo endereço de email já tiver entrado nesse nó de jornada, a nova entrada será bloqueada até que o primeiro registro conclua a jornada.

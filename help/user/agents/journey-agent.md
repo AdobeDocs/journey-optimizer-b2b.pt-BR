@@ -4,6 +4,8 @@ description: Saiba como usar o Journey Agent alimentado por IA e suas habilidade
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
+autotag-review: '2026-06-05T16:42:46.785Z'
+TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -16,11 +18,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -59,7 +63,7 @@ Para usar a habilidade do Journey Agent Build, digite na janela do prompt o que 
 
 ![Solicitação B2B do agente de Jornada para a habilidade de compilação](./assets/journey-agent-tasks.png)
 
-Quanto mais detalhes puder fornecer, melhor será a resposta. Se você tiver material de marketing existente que descreva o evento, seu produto etc., cole-o no prompt para que o agente tenha um melhor senso do objetivo.
+Quanto mais detalhes você fornecer, melhor será a resposta. Se você tiver material de marketing existente que descreva o evento, seu produto etc., cole-o no prompt para que o agente entenda melhor a meta.
 
 &quot;Atue como um estrategista de jornada B2B para criar uma jornada de conta de cliente em vários estágios que nutre e envolva tomadores de decisão e profissionais de marketing na fase inicial de exploração do `<Solution Name>`. O objetivo é converter visitantes anônimos em contatos conhecidos, aprofundar o engajamento com conteúdo relevante no `<domain>`.com e fornecer clientes potenciais qualificados para `<Product Name>` alcance de vendas. Use canais como email e mídia paga, aproveitando o conteúdo e os segmentos de público-alvo existentes. Estruturar a jornada em estágios de conscientização, consideração e avaliação ao longo de 4 a 6 semanas, com acionadores, ações e metas claros para cada estágio. Inclua KPIs como taxas de conversão, pontuações de engajamento e solicitações de demonstração e retorne a saída como um fluxo de jornada estruturado.&quot;
 
@@ -85,8 +89,7 @@ Exemplos completos de prompt de Jornada:
 
 ### Jornadas em vários estágios
 
-Você pode agir como um designer de jornada B2B para criar uma jornada de conta de cliente em vários estágios que informa os tomadores de decisão e os profissionais de marketing antecipadamente na fase de exploração.
-O objetivo é converter visitantes anônimos em contatos conhecidos, aprofundar o engajamento com conteúdo relevante e fornecer leads qualificados para alcance de vendas.
+Você pode agir como um designer de jornada B2B para criar uma jornada de conta de cliente em vários estágios que informa os tomadores de decisão e os profissionais de marketing antecipadamente na fase de exploração. O objetivo é converter visitantes anônimos em contatos conhecidos, aprofundar o engajamento com conteúdo relevante e fornecer leads qualificados para alcance de vendas.
 
 * Use canais como `Email`, `Paid media`, `Personalized web experiences` para aproveitar os segmentos e o conteúdo de público existentes.
 * Estruturar a jornada nos estágios `awareness`, `consideration` e `evaluation` de 4 a 6 semanas, com acionadores, ações e metas claros para cada estágio.
@@ -145,7 +148,7 @@ No caso de jornadas enviadas para canais externos, como LinkedIn, é possível v
 
 ### Sincronização de dados e observabilidade do pipeline
 
-A habilidade Observability também pode exibir informações de integridade da sincronização de dados para ajudar a solucionar problemas por que uma conta ou um lead pode não ter sido incluído em uma jornada:
+A habilidade Observability também pode exibir informações de integridade da sincronização de dados para ajudar a solucionar por que uma conta ou um lead não foi incluído em uma jornada:
 
 * Métricas e status do trabalho de exportação de público externo
 * Agendamentos de segmentação em lote e horários de conclusão

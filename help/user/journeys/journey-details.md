@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Ao clicar no nome de uma jornada de conta ativa, os detalhes da jornada são exibidos. A guia _[!UICONTROL Visão geral]_ fornece informações úteis sobre a jornada, incluindo resumos de IA generativos.
 
-Esse painel fornece uma visão geral abrangente de uma jornada de conta selecionada, detalhando o progresso da conta usando gráficos de círculo e de linha que categorizam e quantificam conclusões, atividades em andamento e anulações ao longo do tempo. Ele ajuda os profissionais de marketing a avaliar a eficácia de canais de email e SMS por meio das principais métricas de entrega e engajamento. Para métricas de email agregadas em todas as jornadas, consulte o [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
+Esse painel fornece uma visão geral abrangente de uma jornada de conta selecionada, detalhando o progresso da conta usando gráficos de círculo e de linha que categorizam e quantificam conclusões, atividades em andamento e anulações ao longo do tempo. Ele ajuda as equipes de marketing a avaliar a eficácia de canais de email e SMS por meio de métricas principais de entrega e engajamento. Para métricas de email agregadas em todas as jornadas, consulte o [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 Essa visão geral está disponível para jornadas de conta publicadas e leva aproximadamente quatro horas para que os dados comecem a preencher os gráficos e as tabelas.
 
@@ -41,9 +41,9 @@ Esta seção apresenta duas métricas de conclusão:
 
 ## Jornada envolvimento
 
-Esta seção apresenta duas métricas de conclusão:
+Esta seção apresenta duas métricas de engajamento:
 
-* **[!UICONTROL Envolvimento por contas]** - Este gráfico de círculo segmenta as contas em uma jornada em _Envolvido_ e _Não envolvido_ categorias. A figura central exibe a contagem total. Essa visualização fornece uma compreensão rápida do envolvimento geral com a conta.
+* **[!UICONTROL Envolvimento por contas]** - Este gráfico de círculo segmenta as contas em uma jornada em _Envolvido_ e _Não envolvido_ categorias. A figura central exibe a contagem total. Essa visualização fornece uma rápida compreensão do envolvimento geral com a conta.
 * **Participação de pessoas** - Esta visualização exibe o número total de pessoas qualificadas como _envolvidas_ em uma jornada.
 
 ## Desempenho da jornada
@@ -55,29 +55,29 @@ Esta seção apresenta duas métricas vitais:
 
 ## Desempenho de email e SMS
 
-As tabelas de desempenho fornecem uma visão detalhada da eficácia dos canais de email e SMS. Cada tabela mostra métricas, como taxas de delivery e taxas de click-through, que ajudam a avaliar o impacto de cada ponto de contato de comunicação. As tabelas abaixo mostram métricas de email e SMS somente para esta jornada. Para as mesmas métricas de email em todas as jornadas, use o [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
+As tabelas de desempenho fornecem informações detalhadas sobre a eficácia dos canais de email e SMS. Cada tabela mostra métricas, como taxas de delivery e taxas de click-through, que ajudam a avaliar o impacto de cada ponto de contato de comunicação. As tabelas abaixo mostram métricas de email e SMS somente para esta jornada. Para as mesmas métricas de email em todas as jornadas, use o [Relatório de desempenho de email](../dashboards/email-performance-dashboard.md).
 
 Colunas da tabela de **[!UICONTROL Desempenho do email]**:
 
-* _[!UICONTROL Nome do ativo]_ - nome do ativo
-* _[!UICONTROL Enviado]_ - número de emails enviados
-* _[!UICONTROL Taxa de entrega]_ - número de emails entregues dividido pelo número enviado
-* _[!UICONTROL Taxa de Abertura]_ - número de emails abertos dividido pelo número entregue
-* _[!UICONTROL Taxa de click-through]_ - número de emails clicados dividido pelo número entregue
+* _[!UICONTROL Nome do ativo]_ - Nome do ativo
+* _[!UICONTROL Enviado]_ - Número de emails enviados
+* _[!UICONTROL Taxa de entrega]_ - Número de emails entregues dividido pelo número enviado
+* _[!UICONTROL Taxa de Abertura]_ - Número de emails abertos dividido pelo número entregue
+* _[!UICONTROL Taxa de click-through]_ - Número de emails clicados dividido pelo número entregue
 
 **[!UICONTROL Colunas da tabela de desempenho de SMS]**:
 
-* _[!UICONTROL Nome do ativo]_ - nome do ativo
-* _[!UICONTROL Enviado]_ - número de mensagens SMS enviadas
-* _[!UICONTROL Taxa de entrega]_ - número de mensagens SMS entregues dividido pelo número enviado
-* _[!UICONTROL Taxa de click-through]_ - número de mensagens SMS clicadas dividido pelo número entregue
+* _[!UICONTROL Nome do ativo]_ - Nome do ativo
+* _[!UICONTROL Enviado]_ - Número de mensagens SMS enviadas
+* _[!UICONTROL Taxa de entrega]_ - Número de mensagens SMS entregues dividido pelo número enviado
+* _[!UICONTROL Taxa de click-through]_ - Número de mensagens SMS clicadas dividido pelo número entregue
 <!--
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
 ## Melhor interação
 
-Interagir mais com os dados usando o ícone de ação (**...**) na parte superior direita de cada gráfico ou tabela.
+Interaja com os dados usando o ícone de ação (**...**) na parte superior direita de cada gráfico ou tabela.
 
 ### Drill-Through
 

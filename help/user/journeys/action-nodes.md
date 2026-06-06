@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2037
+source-wordcount: 2031
 ht-degree: 3%
 
 ---
 
 # Realizar uma ação
 
-Na sua jornada, você pode adicionar um nó _[!UICONTROL Realizar uma ação]_ para executar uma ação, como enviar um email, alterar uma pontuação, atribuir a um grupo de compra e assim por diante. As ações normalmente são o que você deseja que aconteça como resultado de algum tipo de acionador, como um evento ou uma ação anterior.
+Para executar uma ação, como enviar um email, alterar uma pontuação, atribuir a um grupo de compras e assim por diante, você pode adicionar um nó _[!UICONTROL Realizar uma ação]_ em sua jornada. As ações normalmente são o que você deseja que aconteça como resultado de algum tipo de acionador, como um evento ou uma ação anterior.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -101,7 +101,7 @@ Para obter mais informações sobre como usar públicos correspondentes à conta
 
 ## Ações de pessoas
 
-Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplicar uma alteração a todas as pessoas no caminho de nó. Para uma jornada de conta, esse tipo de nó pode ser usado no _caminho dividido por pessoas_ ou _caminho dividido por contas_.
+Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplicar uma alteração a todas as pessoas no caminho de nó. Para uma jornada de conta, você pode usar este tipo de nó no _caminho dividido por pessoas_ ou _caminho dividido por contas_.
 
 ### Ações e restrições {#people-action-constraints}
 
@@ -145,7 +145,7 @@ As ações com base em pessoas B2B do Journey Optimizer são projetadas para ger
 
 +++[!UICONTROL Adicionar ao público-alvo externo do cliente]
 
-Use esta ação para encaminhar as pessoas para um público-alvo externo que pode ser ativado em um canal de mídia pago para direcionar ainda mais os membros de grupos de compra. Essa ação é executada por meio do Real-Time CDP B2B edition.
+Use esta ação para encaminhar as pessoas para um público-alvo externo que pode ser ativado em um canal de mídia paga para direcionar ainda mais os membros de grupos de compra. Essa ação é executada por meio do Real-Time CDP B2B edition.
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ Use esta ação para enviar um email. Depois de [criar o email](../content/add-e
 
 ![Executar uma ação - Enviar email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-Para jornadas de pessoas, você pode usar a [Otimização de hora de envio](../content/email-send-time-optimization.md) para personalizar o tempo de entrega de emails prevendo quando cada perfil tem maior probabilidade de ser acionado.
+Para jornadas de pessoas, use a [Otimização de hora de envio](../content/email-send-time-optimization.md) para personalizar o tempo de entrega de emails prevendo quando cada perfil tem maior probabilidade de ser acionado.
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ As ações com base em pessoas do Marketo Engage foram projetadas para coordenar
 >
 >As ações do Marketo Engage exigem integração configurada com uma ou mais instâncias externas do Marketo Engage. Para obter informações detalhadas sobre essa configuração, consulte [_Ativar conexões do Marketo Engage para ações de suporte_](../admin/marketo-actions-connect.md).
 
-Por exemplo, talvez você queira suprimir campanhas no Marketo Engage para pessoas que fazem parte de grupos de compra no Journey Optimizer B2B edition. Nesse caso, é possível criar uma lista estática no Marketo Engage especificamente para o interesse da solução. Em seguida, em um caminho dividido por grupo de compras, use a ação _Adicionar à lista do Marketo_ de um nó de jornada. Essa ação adiciona membros do grupo de compra a uma lista estática específica em uma instância conectada do Marketo Engage. Em seguida, use a lista estática focada no interesse da solução para um filtro de lista inteligente no Marketo Engage.
+Por exemplo, suprimir campanhas no Marketo Engage para pessoas que fazem parte de grupos de compra no Journey Optimizer B2B edition. Nesse caso, é possível criar uma lista estática no Marketo Engage especificamente para o interesse da solução. Em seguida, em um caminho dividido por grupo de compras, use a ação _Adicionar à lista do Marketo_ de um nó de jornada. Essa ação adiciona membros do grupo de compra a uma lista estática específica em uma instância conectada do Marketo Engage. Em seguida, use a lista estática focada no interesse da solução para um filtro de lista inteligente no Marketo Engage.
 
 +++[!UICONTROL Adicionar à campanha de solicitação do Marketo]
 

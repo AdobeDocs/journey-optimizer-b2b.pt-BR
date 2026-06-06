@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 79%
+source-wordcount: 1186
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Os esquemas definem campos com base em perfis XDM padrão. As configurações XD
 
 Os esquemas do Adobe Experience Platform (AEP) normalmente contêm muitos campos em hierarquias complexas. Percorrer árvores de esquema XDM leva tempo. O gerenciamento de campo XDM simplifica a seleção de campos exibindo apenas os campos relevantes para suas jornadas, grupos de compra e personalização.  Os administradores ativam esses campos para uso no Journey Optimizer B2B edition, incluindo os que são somente leitura ou editáveis.
 
-Os administradores que entendem o XDM e colaboram com engenheiros de dados ou participantes da modelagem de dados da Plataforma de dados do cliente (CDP) B2B devem usar as etapas a seguir para configurar campos XDM para [!DNL Journey Optimizer B2B Edition].
+Os administradores que entendem o XDM e colaboram com engenheiros de dados ou partes interessadas da modelagem de dados da Plataforma de dados de clientes (CDP) B2B usam as seguintes etapas para configurar campos XDM para [!DNL Journey Optimizer B2B Edition].
 
 ## Acessar configurações XDM
 
@@ -51,7 +51,7 @@ Os administradores que entendem o XDM e colaboram com engenheiros de dados ou pa
 
 >[!IMPORTANT]
 >
->Você pode atualizar a seleção de campo a qualquer momento selecionando novos campos ou desmarcando campos que não são mais necessários. Ao publicar uma jornada usando esse esquema, você bloqueia a estrutura do esquema. A exclusão ou renomeação do esquema, a adição de novos campos ou a alteração dos tipos de campo não são compatíveis e podem causar falhas de jornada.
+>Você pode atualizar a seleção de campo a qualquer momento selecionando novos campos ou desmarcando campos que não são mais necessários. Ao publicar uma jornada usando esse esquema, você bloqueia a estrutura do esquema. Excluir ou renomear o esquema, adicionar novos campos ou alterar tipos de campo não é compatível e pode causar falhas de jornada.
 
 Use a diretriz a seguir para fazer seleções de campo:
 
@@ -101,7 +101,7 @@ Quando você escolhe **[!UICONTROL Campos gerenciados]**, a caixa de diálogo _S
 
 #### Campos atualizáveis
 
-Defina os campos atualizáveis para escolher quais campos podem ser modificados por meio das ações de jornada **[!UICONTROL Atualizar Perfil da Conta]** ou **[!UICONTROL Atualizar Perfil da Pessoa]**.
+Para escolher quais campos são modificados por meio das ações de jornada **[!UICONTROL Atualizar perfil da conta]** ou **[!UICONTROL Atualizar perfil da pessoa]**, defina os campos atualizáveis.
 
 Antes de configurar campos atualizáveis, eles devem residir em um conjunto de dados personalizado. Para obter uma apresentação do fluxo de trabalho do conjunto de dados personalizado, consulte [Criar conjuntos de dados e assimilar dados](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e use a opção **[!UICONTROL Criar conjunto de dados do esquema]**. Esse conjunto de dados é usado para isolar campos atualizáveis. Todos os campos atualizáveis devem estar nesse conjunto de dados.
 
@@ -138,7 +138,7 @@ Há vários recursos que oferecem suporte ao uso dos esquemas e campos relaciona
 
 >[!NOTE]
 >
->Atualmente, esse recurso oferece suporte a casos de uso de objetos personalizados relacionados a contas e pessoas, com planos para oferecer suporte a mais casos de uso de objetos prontos para uso no futuro.
+>Atualmente, esse recurso oferece suporte a casos de uso de objetos personalizados relacionados a contas e pessoas, com planos para oferecer suporte a mais casos de uso de objetos padrão no futuro.
 
 Você pode criar esquemas relacionais usando o editor de esquemas (vá para **[!UICONTROL Gerenciamento de dados]** > **[!UICONTROL Esquemas]** na navegação à esquerda).
 

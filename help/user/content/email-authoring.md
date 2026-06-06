@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1164
 ht-degree: 3%
 
 ---
@@ -44,11 +44,11 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 
 >[!TIP]
 >
->Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa, para elevar seu conteúdo ao próximo nível. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
+>Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa para melhorar o conteúdo. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
 
 ## Criar email do zero {#design-from-scratch}
 
-Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode criar a forma do conteúdo de email reutilizável em segundos.
+Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, é possível projetar o layout e a organização do conteúdo de email em segundos.
 
 1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
 
@@ -156,9 +156,9 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
 
 * Aumentar/diminuir o zoom do conteúdo nas opções de zoom predefinidas.
 
-* Alternar a exibição do conteúdo na área de trabalho, dispositivo móvel ou somente texto/texto sem formatação.
+* Alterne entre a visualização do conteúdo na área de trabalho, no dispositivo móvel ou somente texto/texto sem formatação.
    * Clique no ícone _Exibir_ para visualizar o conteúdo entre dispositivos.
-   * Selecione um dos dispositivos prontos para uso ou insira dimensões personalizadas para visualizar o conteúdo.
+   * Selecione um dos dispositivos predefinidos ou insira dimensões personalizadas para visualizar o conteúdo.
 
 ## Mais opções
 
@@ -166,7 +166,7 @@ No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design visual, v
 
 ![Clique em Mais para acessar as ações do modelo](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Redefinir email]** - Clique nesta opção para limpar a tela de design de email em branco e reiniciar a criação do conteúdo.
+* **[!UICONTROL Redefinir email]** - Clique nesta opção para limpar a tela de design de email e reiniciar a criação de conteúdo.
 * **[!UICONTROL Salvar como fragmento]** - Salve todo o email ou partes dele como um fragmento a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o fragmento e salve-o na lista de fragmentos disponíveis.
 * **[!UICONTROL Alterar seu design]** - Retorne à página _Criar seu email_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design. Você também pode optar por criar o conteúdo do zero com uma tela em branco (_Modo clássico_) ou usar um [Tema da marca](./brand-themes.md) (_Modo do tema_).
 * **[!UICONTROL Salvar como modelo de conteúdo]** - Salve o corpo do email como um modelo de email a ser reutilizado em vários emails ou modelos de email. Forneça um nome e uma descrição para o modelo e salve-o na lista de modelos de email salvos.
@@ -180,7 +180,7 @@ Para [visualizar o conteúdo do email](./email-simulate-content.md), clique em *
 
 ![Simular o conteúdo do email para verificar seu design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-É possível acessar ferramentas adicionais para validar e revisar o conteúdo do email:
+Para validar e revisar o conteúdo do email, acesse as ferramentas adicionais:
 
 * [Enviar uma prova](./email-simulate-content.md#send-proofs)
 * [Testar renderização em clientes de email](./email-test-rendering.md)

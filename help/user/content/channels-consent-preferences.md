@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 415
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ O Journey Optimizer B2B edition avalia o seguinte atributo XDM para consentiment
 | --- | --- | --- | --- |
 | `consents.marketing.email.val` | Optado | Recusado | Optado |
 
-Lembre-se das seguintes considerações para obter o consentimento por email:
+Considere o seguinte para consentimento por email:
 
 * As pessoas que optaram por não participar do email globalmente podem receber emails marcados como operacionais.
 * As preferências de nível de assinatura não são compatíveis.
@@ -58,7 +58,7 @@ O Journey Optimizer B2B edition avalia os seguintes atributos XDM para consentim
 | `consents.marketing.subscriptions.<senderID>` | Optado | Recusado | Recusado |
 | `consents.marketing.sms.subscriptions.<senderId>.subscribers.<phoneNumber>` | Optado | Recusado | Recusado |
 
-Lembre-se das seguintes considerações para o consentimento do SMS:
+Considere o seguinte para consentimento do SMS:
 
 * Quando um registro de cliente potencial (pessoa) é recusado pelo SMS, ele é totalmente excluído e não é transmitido aos provedores de SMS downstream.
 * Quando disponível, o consentimento no nível da assinatura é avaliado. A recusa global é usada como um fallback quando o consentimento no nível da assinatura não está disponível.
@@ -74,7 +74,7 @@ O Journey Optimizer B2B edition avalia os seguintes atributos XDM para consentim
 | `consents.marketing.whatsApp.val` | Optado | Recusado | Recusado |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | Optado | Recusado | Recusado |
 
-Lembre-se das seguintes considerações para o consentimento do WhatsApp:
+Considere o seguinte para consentimento do WhatsApp:
 
 * Se o valor de atributo global do WhatsApp (`consents.marketing.whatsApp.val`) estiver presente, ele será usado para avaliação de consentimento.
 * Se o valor do atributo global não estiver presente, mas uma entrada específica do remetente estiver presente, a entrada específica do remetente será usada para avaliação de consentimento.

@@ -16,10 +16,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Após a conclusão do provisionamento e a vinculação das sandboxes, conclua as
 1. [Edite as funções internas](#edit-roles-for-product-permissions) ou [crie uma função personalizada](#create-a-custom-role) com permissões do Journey Optimizer B2B edition.
 1. [Adicionar usuários](#add-users) ou [grupos](#add-user-groups-to-a-role) às funções.
 
-Como administrador, você pode concluir essas tarefas no Adobe Admin Console, que é um local central para administrar e gerenciar licenças e usuários de produtos da Adobe. No Admin Console, é possível criar e gerenciar usuários em um único local em vez de em várias soluções individuais. Consulte a página [Visão geral do Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html) para saber mais sobre suas funções e recursos.
+Como administrador, você pode concluir essas tarefas no Adobe Admin Console, que é um local central para administrar e gerenciar licenças e usuários de produtos da Adobe. No Admin Console, é possível criar e gerenciar usuários em um único local em vez de em várias soluções individuais. Para saber mais sobre suas funções e recursos, consulte a página [visão geral do Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).
 
 ## Acessar o Admin Console
 
@@ -317,7 +317,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 1. Adicionar permissões de produto B2B:
 
-   Consulte a lista de [permissões de produto B2B](#b2b-product-permissions) para determinar quais recursos de produto você deseja para a função.
+   Para determinar quais recursos de produto você deseja para a função, consulte a lista de [permissões de produto B2B](#b2b-product-permissions).
 
    Na lista _[!UICONTROL Recursos]_ à esquerda, localize os itens **[!UICONTROL B2B]** e clique no ícone _Adicionar_ (**+**) para adicionar cada atributo que você deseja habilitar para a função.
 

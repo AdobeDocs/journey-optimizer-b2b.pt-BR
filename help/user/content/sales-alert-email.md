@@ -17,18 +17,18 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 6%
 
 ---
 
 # Email de alerta de vendas
 
-Um _email de alerta de vendas_ sinaliza a entrega de grupos de compras para Vendas. O email contém um resumo do grupo de compra e informações sobre os membros do grupo de compra e suas atividades.
+Um _email de alerta de vendas_ sinaliza a transferência dos grupos de compras para Vendas. O email contém um resumo do grupo de compra e informações sobre os membros do grupo de compra e suas atividades.
 
-Como profissional de marketing, você pode configurar um nó de email de alerta de vendas nas jornadas da conta para alertar sua equipe de vendas sobre a conclusão da jornada para grupos de compra específicos. No nó, é possível especificar os endereços de email da equipe de vendas ou um alias de distribuição que atinge um conjunto de contas.
+Para alertar sua equipe de vendas sobre a conclusão da jornada para grupos de compra específicos, você pode configurar um nó de email de alerta de vendas nas jornadas da conta. No nó, é possível especificar os endereços de email da equipe de vendas ou um alias de distribuição que atinge um conjunto de contas.
 
 >[!IMPORTANT]
 >

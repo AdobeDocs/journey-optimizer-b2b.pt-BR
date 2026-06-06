@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -91,11 +91,11 @@ Você pode configurar entregas de mensagens do WhatsApp em uma jornada de conta 
 
    ![Criar WhatsApp - guia Ações](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Editar conteúdo]** para seguir para os parâmetros e o texto da mensagem.
+1. Clique em **[!UICONTROL Editar conteúdo]** para continuar com os parâmetros e o texto da mensagem.
 
 ### Selecionar um modelo de mensagem
 
-As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los no Journey Optimizer B2B edition. Trabalhe com o administrador da sua conta do [!DNL Meta Business Manager] para gerenciar e enviar modelos para aprovação.
+As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los no Journey Optimizer B2B edition. Para gerenciar e enviar modelos para aprovação, trabalhe com o administrador da conta [!DNL Meta Business Manager].
 
 1. Para **[!UICONTROL Selecionar categoria do modelo]**, escolha uma das seguintes opções:
 
@@ -109,7 +109,7 @@ As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados
 
    ![Modelo de mensagem do WhatsApp selecionado com mensagem carregada na janela de visualização](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Os modelos são organizados por categoria (_Marketing_, _Utilitário_ e _Autenticação_) e status. Somente modelos **_Aprovados_** estão disponíveis para seleção. Para obter mais informações sobre como criar modelos do WhatsApp, consulte [_Criar modelos de mensagem para sua conta do WhatsApp Business_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) na documentação do Meta.
+   O sistema organiza modelos por categoria (_Marketing_, _Utilitário_ e _Autenticação_) e status. Somente modelos **_Aprovados_** estão disponíveis para seleção. Para obter mais informações sobre como criar modelos do WhatsApp, consulte [_Criar modelos de mensagem para sua conta do WhatsApp Business_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) na documentação do Meta.
 
 ### URLs de imagem
 

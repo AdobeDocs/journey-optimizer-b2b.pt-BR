@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 483
 ht-degree: 0%
@@ -61,7 +61,7 @@ Você pode configurar a otimização de hora de envio ao [adicionar um nó _[!UI
 
 1. Use a opção **[!UICONTROL Otimização de Tempo de Envio]** para habilitar o recurso.
 
-1. Defina as opções de STO para especificar a janela e a distribuição de teste:
+1. Para especificar a janela e a distribuição de teste, defina as opções STO:
 
    * **[!UICONTROL Enviar no próximo]** - Esse valor determina a janela de otimização (em dias), que é o intervalo de tempo no qual os emails podem ser entregues. Por exemplo, para um webinário que ocorre em cinco dias, você pode definir uma janela de quatro ou cinco dias. O STO seleciona o melhor tempo de envio previsto para cada perfil nessa janela.
 

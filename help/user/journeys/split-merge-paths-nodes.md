@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2550
+source-wordcount: 2542
 ht-degree: 3%
 
 ---
@@ -75,11 +75,11 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
    ![Nó de caminho dividido - adicionar condição](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
-1. No editor de condições, adicione um ou mais filtros para definir o caminho dividido.
+1. Para definir o caminho dividido, adicione um ou mais filtros no editor de condições.
 
    * Arraste e solte atributos de filtro da navegação à esquerda e conclua a definição de correspondência.
 
-   * Ajuste as condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você escolhe corresponder todos os filtros ou qualquer filtro.
+   * Refine suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você escolhe corresponder todos os filtros ou qualquer filtro.
 
      ![Nó de caminho dividido - lógica de filtro de contas de condições](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
 Você pode definir um caminho para contas associadas a grupos de compra e filtrar o caminho usando critérios de grupo de compra. Use o filtro **[!UICONTROL A conta corresponde ao grupo de compras]** para definir o segmento de caminho usando um grupo de compras correspondente. Esse filtro também inclui a opção para identificar contas com base no número de funções atribuídas em um grupo de compras correspondente.
 
-Por exemplo, você pode querer avaliar a prontidão do grupo de compras com base na profundidade (número de pessoas) que ele tem em diferentes funções, como três tomadores de decisão e dois influenciadores. Nesse caso, defina a condição para direcionar contas com um mínimo de três (3) tomadores de decisão e dois (2) influenciadores em um grupo de compras correspondente:
+Por exemplo, você pode avaliar a disponibilidade do grupo de compras com base na profundidade (número de pessoas) que ele tem em diferentes funções, como três tomadores de decisão e dois influenciadores. Nesse caso, defina a condição para direcionar contas com um mínimo de três (3) tomadores de decisão e dois (2) influenciadores em um grupo de compras correspondente:
 
 1. Clique em **[!UICONTROL Adicionar filtro]** e escolha o filtro **[!UICONTROL Número de pessoas na função de grupo de compras]**.
 
@@ -127,7 +127,7 @@ Por exemplo, você pode querer avaliar a prontidão do grupo de compras com base
 
 1. Clique em **[!UICONTROL Concluído]** quando tiver todas as condições definidas para o caminho.
 
-Para as contas identificadas, você pode adicionar um nó de ação no caminho para atualizar o status do grupo de compras ou estágio, ou para enviar um email de alerta de vendas.
+Para as contas identificadas, você pode adicionar um nó de ação no caminho para atualizar o status do grupo de compras ou do estágio, ou para enviar um email de alerta de vendas.
 
 ## Dividir caminhos por pessoas
 
@@ -152,7 +152,7 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 | [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering)) |
 | [!UICONTROL Histórico de eventos] | Divide as pessoas com base nos eventos de experiência ocorridos antes da entrada da jornada. Expanda a pasta para ver todos os tipos de evento configurados em [Admin > Configuração de evento XDM](../admin/configure-aep-events.md) e selecione um para adicionar como filtro. As restrições incluem campos do evento selecionado, uma janela de tempo de lookback medida a partir de quando a pessoa informa a jornada e um número mínimo opcional de vezes. |
 | [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | (Obsoleto) A pessoa é ou não um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de envolvimento</li><li>Foi Removido</li><li>Função</li> |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | (Obsoleto) A pessoa é ou não um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi Removido</li><li>Função</li> |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | (Obsoleto) A pessoa é ou não membro de uma ou mais listas [!DNL Marketo Engage]. |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do programa] | (Obsoleto) A pessoa é ou não membro de um ou mais programas do [!DNL Marketo Engage]. |
 
@@ -191,7 +191,7 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
      >
      >Se você tiver campos de pessoa personalizados definidos no esquema de público-alvo da conta na Experience Platform, esses campos também estarão disponíveis para uso como atributos de pessoa nas condições.
 
-   * Ajuste as condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você escolhe corresponder todas as condições de atributo ou qualquer condição.
+   * Refine suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior. Você escolhe corresponder todas as condições de atributo ou qualquer condição.
 
      ![Nó de caminho dividido - lógica de filtro de pessoa de condições](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

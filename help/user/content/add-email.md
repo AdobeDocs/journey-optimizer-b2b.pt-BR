@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
    * Escolha **[!UICONTROL Selecionar email do Adobe Marketo Engage]** para usar um dos emails pré-criados no Marketo Engage e enviá-lo como parte da jornada.
 
-     Se você tiver mais de um espaço de trabalho disponível na instância conectada do Market Engage, selecione o espaço de trabalho. Em seguida, selecione o email aprovado que deseja enviar para o nó do jornada.
+     Se você tiver mais de um espaço de trabalho disponível na instância conectada do Marketo Engage, selecione o espaço de trabalho. Em seguida, selecione o email aprovado que deseja enviar para o nó do jornada.
 
      ![Selecionar email do Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ Dois tipos de alertas podem ser detectados:
      >
      >As mensagens de email de estilo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais.
 
-   * `Text version of HTML is empty`: não se esqueça de definir uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
+   * `Text version of HTML is empty`: defina uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
 
    * `Empty link is present in email body`: verifique se todos os links no seu email estão corretos.
 
