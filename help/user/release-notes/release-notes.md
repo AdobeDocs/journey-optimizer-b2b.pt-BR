@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: e1d68e75c6bcbab943f3ddf8326f4f9ffb4922c4
+source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
 workflow-type: tm+mt
-source-wordcount: 5116
+source-wordcount: 5167
 ht-degree: 66%
 
 ---
@@ -40,14 +40,14 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Páginas de destino | Agora os profissionais de marketing podem criar e publicar páginas de aterrissagem no Journey Optimizer B2B edition para oferecer suporte a jornadas e programas _(antes um recurso do programa Beta)_. |
-| Recurso | Formulários | Agora os profissionais de marketing podem criar e publicar componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem criadas e publicadas no Journey Optimizer B2B edition _(anteriormente um recurso do programa Beta)_. |
+| Recurso | Páginas de destino | As páginas de aterrissagem estão disponíveis no Journey Optimizer B2B edition para oferecer suporte a jornadas e programas _(anteriormente um recurso de programa do Beta)_. <ul><li>Os administradores podem configurar subdomínios e predefinições de página de aterrissagem para permitir a publicação dessa página. [Saiba mais](../admin/configure-channels-landing-pages.md)</li><li>Os profissionais de marketing podem criar, projetar e publicar páginas de aterrissagem para oferecer suporte às suas jornadas com conteúdo personalizado da Web. [Saiba mais](../content/landing-pages.md)</li></ul> |
+| Recurso | Formulários | O Journey Optimizer B2B edition agora oferece suporte a componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem _(anteriormente um recurso do programa Beta)_. <ul><li>Os administradores podem configurar várias predefinições de formulário usando diferentes combinações de conjuntos de dados e conexões de transmissão. [Saiba mais](../admin/configure-channels-forms.md)</li><li>Agora, os profissionais de marketing podem definir componentes de formulário reutilizáveis para capturar informações de visitantes de páginas da Web. [Saiba mais](../content/forms.md)</li></ul> |
 | Recurso | Filtro Membro da Lista de Contas | Use a associação de Listas de Contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
 | Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. [Saiba mais](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Recurso | Próximos nós de jornada de melhor caminho | Você pode otimizar a decisão de caminho dividido para jornadas de pessoas, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. [Saiba mais](../journeys/next-best-path-node.md) |
 | Recurso | Painel de desempenho do email | O painel Desempenho do email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. [Saiba mais](../dashboards/email-performance-dashboard.md) |
 | Aprimoramento | Habilidades B2B do Audience Agent | As habilidades B2B do Audience Agent são atualizadas, incluindo a criação de modelos de compra alimentados por IA. Use o mapeamento de personalidade e intenção própria para gerar modelos de grupo de compra, revisar mapeamentos de função para pessoa recomendados pela IA e refinar modelos com linguagem natural antes de publicá-los. [Saiba mais](../agents/audience-agent-b2b.md) |
-| Aprimoramento | Painel de visão geral do Jornada - jornadas de pessoa | As jornadas de pessoa (Beta) agora incluem uma guia _[!UICONTROL Visão geral]_ com as mesmas análises que as jornadas de conta, incluindo a distribuição da taxa de conclusão da jornada, jornadas por tipo de compromisso e ações de drill-through e exportação. <a href="../dashboards/journeys-dashboard.md">Saiba mais</a> |
+| Aprimoramento | Painel de visão geral do Jornada - jornadas de pessoa | As jornadas de pessoa (Beta) agora incluem uma guia _[!UICONTROL Visão geral]_ com as mesmas análises que as jornadas de conta, incluindo a distribuição da taxa de conclusão da jornada, jornadas por tipo de compromisso e ações de drill-through e exportação. [Saiba mais](../dashboards/journeys-dashboard.md) |
 | Aprimoramento | Suporte para conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
 
 >[!NOTE]
@@ -296,7 +296,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Aprimoramento | Filtro de associação à lista do Marketo Engage para jornadas e funções | No Journey Optimizer B2B, verifique sobre a condição de associação à lista do Marketo Engage para um nó _de divisão de caminho por pessoas_ para ajudar a eliminar a duplicação em atividades de jornada. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Saiba mais</a> <p> Para modelos de funções de grupo de compra, use a associação à lista como uma condição de função. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Saiba mais</a> |
 | Aprimoramento | Painel de visão geral do engajamento | Esse painel foi atualizado para fornecer uma visão abrangente do engajamento. Ele mostra métricas de conta e interações individuais em tempo real por meio de instantâneos de gráficos de círculo e gráficos de linha que revelam tendências ao longo do tempo. <a href="../dashboards/engagement-dashboard.md">Saiba mais</a> |
 
-## Versões de 2024
+## Versões de 2024 {#2024-releases}
 
 Expanda as listas a seguir para obter os recursos e aprimoramentos do Journey Optimizer B2B Edition lançados em 2024.
 

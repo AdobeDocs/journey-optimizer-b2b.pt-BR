@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [Públicos-alvo externos](./audiences/target-external-audience.md)
    + [Públicos correspondentes da conta do LinkedIn](./data/linkedin-account-matched-audiences.md)
    + [Campos XDM padrão](./admin/field-mapping.md)
+   + [Perfis de teste](./audiences/test-profiles.md)
 + Contas {#accounts}
    + Grupos de compra {#buying-groups}
       + [Visão geral](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [Edição avançada de HTML](./content/email-template-advanced-html.md)
          + [Converter imagem em modelo](./content/email-template-image-convert.md)
       + Modelos de página de destino (beta) {#landing-page-templates}
-         + {hide-from-toc}[Visão geral](./content/landing-page-templates.md)
+         + [Visão geral](./content/landing-page-templates.md)
          + [Design de modelo de página de destino](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Visão geral](./content/fragments.md)
       + [Criação de fragmentos](./content/fragment-authoring.md)
-   + Formulários (beta) {#forms}
+   + Formulários {#forms}
       + [Visão geral](./content/forms.md)
       + [Design de formulário](./content/form-design.md)
-   + Páginas de destino (beta) {#landing-pages}
+   + Páginas de destino {#landing-pages}
       + [Visão geral](./content/landing-pages.md)
+      + [Criar e publicar](./content/landing-pages-create-publish.md)
       + [Design da página de destino](./content/landing-page-design.md)
       + [Assistente de IA para conteúdo de página de destino](./content/ai-assistant-landing-pages.md)
    + Ferramentas de design de conteúdo {#content-design}
@@ -170,4 +172,5 @@ ht-degree: 92%
       + [Configuração de SMS](./admin/configure-channels-sms.md)
       + [Configurações do WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configurações do canal da Web (Beta)](./admin/configure-channels-web.md)
-      + [Configurações da página de aterrissagem (Beta)](./admin/landing-page-settings.md)
+      + [Configurações da página de aterrissagem](./admin/configure-channels-landing-pages.md)
+      + [Configurações do Forms](./admin/configure-channels-forms.md)

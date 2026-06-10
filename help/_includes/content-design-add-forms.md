@@ -1,9 +1,9 @@
 ---
 title: Criação de conteúdo - adicionar formulários
 description: Seção Reutilizada sobre adição de formulários em páginas de aterrissagem e modelos
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ O exemplo a seguir descreve as etapas para adicionar um formulário à medida qu
 
      >[!TIP]
      >
-     >Se quiser que o use o formulário para baixar um arquivo, você pode especificar uma URL para o arquivo hospedado. Com essa configuração, o botão Submit funciona como um botão de download.
+     >Se quiser usar o formulário para baixar um arquivo, você poderá especificar uma URL para o arquivo hospedado. Com essa configuração, o botão de envio funciona como um botão de download.
 
    ![Alterar a configuração de acompanhamento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 

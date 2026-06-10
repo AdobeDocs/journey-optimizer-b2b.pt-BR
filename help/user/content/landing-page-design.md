@@ -3,7 +3,6 @@ title: Design da landing page
 description: Criar páginas de aterrissagem com ferramentas visuais - adicione componentes de conteúdo, formulários, CSS personalizado, personalização e pré-visualização de dispositivo para jornadas de conta no Journey Optimizer B2B edition.
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -19,16 +18,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
+source-wordcount: 411
+ht-degree: 3%
 
 ---
 
 # Design da página de destino
 
-Depois de [criar uma página de aterrissagem](./landing-pages.md#create-a-landing-page), use o espaço de design visual para criar os componentes estruturais e de conteúdo na sua página.
+Depois de [criar uma página de aterrissagem](./landing-pages-create-publish.md#create-landing-page), use o espaço de design visual para criar os componentes estruturais e de conteúdo na sua página.
 
 ## Adicionar estrutura e conteúdo {#structure-content-landing-page}
 
@@ -64,6 +63,18 @@ Com pelo menos um componente de conteúdo na tela, selecione o componente **[!UI
 
 {{$include /help/_includes/content-design-links.md}}
 
+![Clique no ícone Editar para acessar o rastreamento de links](./assets/landing-page-link-tracking.png){width="400"}
+
+Use o **[!UICONTROL Tipo de Rastreamento]** para controlar o rastreamento do link:
+
+* **[!UICONTROL Rastreado]** - Ativa o rastreamento na URL do link.
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL Nunca]** - Nunca ativa o rastreamento da URL do link.
+
 ### Salve o trabalho
 
 Clique em **[!UICONTROL Salvar]** a qualquer momento para salvar a landing page de rascunho.
@@ -84,7 +95,7 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
 
 No menu _[!UICONTROL Mais...]_, na parte superior do espaço de design visual, você pode realizar as seguintes ações:
 
-![Clique em Mais para acessar as ações do modelo](./assets/landing-page-designer-more-menu.png){width="500"}
+![Clique em Mais para acessar ações de página de aterrissagem](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Redefinir página de aterrissagem]** - Clique nesta opção para limpar a tela de design visual para uma folha em branco e reiniciar a criação do conteúdo da página.
 * **[!UICONTROL Alterar seu design]** - Retorne à _[!UICONTROL página inicial principal]_. A partir daí, você pode escolher outro modelo para reiniciar o processo de design ou optar por projetar a página do zero em uma tela em branco.

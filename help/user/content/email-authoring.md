@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 3%
+source-wordcount: 1381
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ Use o espaço de design de conteúdo visual para definir a estrutura e o conteú
 
    * **[!UICONTROL Estilo Manual]** - Escolha esta opção para criar o email no _Modo manual_. Nesse modo, você define manualmente o estilo de todos os componentes de estrutura e conteúdo adicionados à tela em branco.
 
-1. [Adicionar estrutura e conteúdo](./email-authoring.md#add-structure-and-content) ao modelo.
+1. [Adicionar estrutura e conteúdo](./email-authoring.md#structure-content) ao modelo.
 
 1. [Examinar e atualizar links](#preview-and-edit-linked-urls).
 
@@ -141,6 +141,20 @@ Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento
 ### Editar rastreamento de URL vinculado
 
 {{$include /help/_includes/content-design-links.md}}
+
+![Clique no ícone Editar para acessar o rastreamento de links](./assets/email-link-tracking.png){width="400"}
+
+O sistema de delivery de email (por meio do Marketo Engage) envolve automaticamente todos os URLs em emails do HTML com um redirecionamento de rastreamento exclusivo quando enviados. Use o **[!UICONTROL Tipo de Rastreamento]** para controlar o rastreamento do link:
+
+* **[!UICONTROL Rastrear sem token]** - O sistema registra o clique, mas rastreia o que o usuário faz a seguir na página da Web. Isso pode ser importante em certos casos técnicos, como ao lidar com sistemas de terceiros que podem não manipular mkt_tok corretamente. No entanto, o rastreamento web subsequente é limitado.
+
+* **[!UICONTROL Rastrear com mkt-tok]** - Use o token de rastreamento (mkt_tok) para rastrear atividades subsequentes da Web por meio do Munchkin. Quando um destinatário clica no link, ele registra um evento de _Clique em Email_ no log de atividades, rastreia com segurança suas atividades e aplica um cookie para monitorar futuras interações no site.
+
+* **[!UICONTROL Não rastrear]** - O sistema não rastreia atividades associadas ao link. Isso é útil quando a página de destino não suporta parâmetros de URL e pode resultar em um link quebrado.
+
+  >[!NOTE]
+  >
+  >Se um email tiver sido enviado há mais de 365 dias e ninguém tiver clicado em nenhum de seus links nos últimos 180 dias, o sistema removerá a rota para o URL do banco de dados. Essa remoção causa a quebra do link. Se desejar que o link seja permanente, desative o rastreamento.
 
 ### Aplicar estilo de modo escuro
 

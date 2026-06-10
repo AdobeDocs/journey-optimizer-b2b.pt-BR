@@ -3,12 +3,16 @@ title: Design de formulário
 description: Crie formulários com tipos de campo, validação, estilo e atributos de esquema XDM para a coleta de dados de negócios no Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
+autotag-review: '2026-05-27T16:10:55.800Z'
+TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -16,12 +20,10 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T22:15:18.544Z
-TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 2%
+source-wordcount: 2190
+ht-degree: 1%
 
 ---
 
@@ -29,31 +31,37 @@ ht-degree: 2%
 
 Depois que você [cria um formulário](./forms.md#create-forms), o espaço de design visual abre um rascunho com uma definição de formulário básica padrão. No painel _[!UICONTROL Resumo]_ à direita, clique em **[!UICONTROL Editar formulário]** e use o espaço de design visual para definir o estilo do formulário e os componentes do campo.
 
-![Acessar a biblioteca de formulários](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![Espaço para design do formulário](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+
+O botão _&#x200B;**Enviar**&#x200B;_ (campo de rodapé) faz parte do formulário por padrão e não pode ser removido. Você pode selecionar o componente de botão/rodapé no formulário para [alterar o texto e o estilo do botão](#submit-button).
 
 ## Campos
 
-Os campos de formulário são usados para capturar dados de perfil de pessoas que podem ser usados para segmentar pessoas e associá-los a contas e grupos de compras. Todos os novos formulários começam com os seguintes campos em um layout de coluna única:
-
-* Nome
-* Sobrenome
-* Endereço de email
-
-Use as ferramentas de design de campo para criar o conjunto de campos e o layout necessários para coletar os dados necessários para suas atividades de marketing baseadas em conta.
+Os campos de formulário são usados para capturar dados de perfil de pessoas que podem ser usados para segmentar pessoas e associá-los a contas e grupos de compras. Use as ferramentas de design de campo para criar o conjunto de campos e o layout necessários para coletar os dados necessários para suas atividades de marketing baseadas em conta.
 
 ### Adicionar um campo {#add-field}
 
 1. No painel _[!UICONTROL Componentes]_ à esquerda, arraste o componente de conteúdo **[!UICONTROL Campo]** e solte-o na tela.
 
-   ![Adicionar um componente de campo ao formulário](./assets/form-content-add-field.png){width="700" zoomable="yes"}
+   ![Adicionar um componente de campo ao formulário](./assets/form-content-add-field.png){width="800" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Selecionar atributo de campo]**.
+1. Para _[!UICONTROL Selecionar atributo de campo]_, escolha uma opção e defina o atributo do campo.
 
-1. Na caixa de diálogo _[!UICONTROL Selecionar atributo de campo]_, marque a caixa de seleção do atributo de perfil de pessoa que você deseja usar para o campo e clique em **[!UICONTROL Selecionar]**.
+   * **[!UICONTROL Selecionar atributo de campo]** - Use essa opção para selecionar um atributo com base no esquema do conjunto de dados definido na predefinição do seu formulário.
 
-   Os [esquemas de negócios XDM](../admin/field-mapping.md#xdm-business-person-attributes) determinam os atributos disponíveis.  Todos os campos personalizados definidos para a instância do Journey Optimizer B2B edition também estão disponíveis. Use a caixa de texto Pesquisar para filtrar a lista por nome ou clique no ícone Filtrar para filtrar a lista por esquema/tipo de dados.
+     Na caixa de diálogo _[!UICONTROL Selecionar atributo de campo]_, marque a caixa de seleção do atributo que deseja usar para o campo e clique em **[!UICONTROL Selecionar]**.
 
-   ![Adicionar um componente de campo ao formulário](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+     ![Adicionar um componente de campo de atributo selecionado ao formulário](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+
+     Por exemplo, você pode definir o Email e a Empresa. Quando os usuários preenchem e enviam o formulário, as informações inseridas são salvas no conjunto de dados selecionado.
+
+     Para mapear os dados coletados com um Perfil, selecione um campo de identidade de perfil. Os campos de identidade estão marcados como **[!UICONTROL Obrigatório]** na lista de atributos - você pode filtrá-los.
+
+   * **[!UICONTROL Adicionar campo personalizado]**
+
+     Com essa opção, é possível definir um campo livre sem mapeá-lo para um campo no conjunto de dados vinculado.
+
+     ![Adicionar componente de campo personalizado ao formulário](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
 
    Na tela de desenho, o rótulo de campo padrão para o atributo selecionado é preenchido na tela de desenho. Os **[!UICONTROL Detalhes do campo]** são exibidos no painel à direita.
 
@@ -63,26 +71,28 @@ Use as ferramentas de design de campo para criar o conjunto de campos e o layout
 
 1. Defina **[!UICONTROL Tipo de campo]** de acordo com o tipo de dados do campo:
 
-   | Tipo de campo | Uso | Exemplo |
-   | ---------- | ----- | ------- |
-   | **[!UICONTROL Caixa de seleção]** | Use este tipo para que os visitantes possam selecionar um valor de _true_ (marcado) ou _false_ (desmarcado). | |
-   | **[!UICONTROL Grupo de caixas de seleção]** | Use este tipo para que os visitantes possam selecionar um valor de _true_ (marcado) ou _false_ (desmarcado) para vários itens. | |
-   | **[!UICONTROL Moeda]** | Use esse tipo para permitir um campo flutuante que represente o tipo de moeda padrão selecionado para a instância do Journey Optimizer B2B edition. | |
-   | **[!UICONTROL Data]** | Use esse tipo para restringir a entrada a um formato de data e fornecer um seletor de calendário no campo. | |
-   | **[!UICONTROL Duplo]** |  | |
-   | **[!UICONTROL Email]** | Use esse tipo para restringir a entrada em um formato de endereço de email. | |
-   | **[!UICONTROL Número]** | Use esse tipo para restringir o campo a um valor numérico. | |
-   | **[!UICONTROL Grupo de opções]** | Use esse tipo para permitir que os visitantes selecionem uma de um conjunto de opções. | |
-   | **[!UICONTROL Selecionar]** | Use esse tipo para permitir que os visitantes selecionem uma de um conjunto de opções usando uma lista suspensa. | |
-   | **[!UICONTROL Controle deslizante]** | Use esse tipo para permitir que os visitantes definam um valor numérico usando um controle deslizante. | |
-   | **[!UICONTROL Telefone]** | Use esse tipo para um campo de entrada de número de telefone. | |
-   | **[!UICONTROL Texto]** | Use este tipo para um campo de entrada de texto padrão (sequência de caracteres). | |
-   | **[!UICONTROL Área de texto]** | Use este tipo para suportar entradas de texto mais longas. | |
-   | **[!UICONTROL URL]** | Use esse tipo para restringir a entrada de texto a um URL, incluindo o protocolo de URL padrão. | |
+   | Tipo de campo | Uso |
+   | ---------- | ----- |
+   | **[!UICONTROL Caixa de seleção]** | Use este tipo para que os visitantes possam selecionar um valor de _true_ (marcado) ou _false_ (desmarcado). |
+   | **[!UICONTROL Grupo de caixas de seleção]** | Use este tipo para que os visitantes possam selecionar um valor de _true_ (marcado) ou _false_ (desmarcado) para vários itens. |
+   | **[!UICONTROL Moeda]** | Use esse tipo para permitir um campo flutuante que represente o tipo de moeda padrão selecionado para a instância do Journey Optimizer B2B edition. |
+   | **[!UICONTROL Data]** | Use esse tipo para restringir a entrada a um formato de data e fornecer um seletor de calendário no campo. |
+   | **[!UICONTROL Duplo]** | Variável dupla (ponto flutuante de precisão dupla) armazenada como números de ponto flutuante IEEE de 64 bits (8 bytes). |
+   | **[!UICONTROL Email]** | Use esse tipo para restringir a entrada em um formato de endereço de email. |
+   | **[!UICONTROL Número]** | Use esse tipo para restringir o campo a um valor numérico. |
+   | **[!UICONTROL Grupo de opções]** | Use esse tipo para permitir que os visitantes selecionem uma de um conjunto de opções. |
+   | **[!UICONTROL Selecionar]** | Use esse tipo para permitir que os visitantes selecionem uma de um conjunto de opções usando uma lista suspensa. |
+   | **[!UICONTROL Controle deslizante]** | Use esse tipo para permitir que os visitantes definam um valor numérico usando um controle deslizante. |
+   | **[!UICONTROL Telefone]** | Use esse tipo para um campo de entrada de número de telefone. |
+   | **[!UICONTROL Texto]** | Use este tipo para um campo de entrada de texto padrão (sequência de caracteres). |
+   | **[!UICONTROL Área de texto]** | Use este tipo para suportar entradas de texto mais longas. |
+   | **[!UICONTROL URL]** | Use esse tipo para restringir a entrada de texto a um URL, incluindo o protocolo de URL padrão. |
 
-1. Dependendo do tipo de campo selecionado, defina as outras opções para a entrada e validação do campo:
+1. Dependendo do tipo de campo selecionado, defina as outras opções para a entrada e validação do campo.
 
-   ![Definir opções para o campo de acordo com o tipo de campo selecionado](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![Definir opções para o campo de acordo com o tipo de campo selecionado](./assets/form-field-details-text-type.png){width="800" zoomable="yes"}
+
+   Por exemplo, o tipo de campo _Texto_ tem as seguintes opções para entrada e validação de campo:
 
    * **[!UICONTROL Espaço reservado]** - O valor do espaço reservado para o campo que dá ao visitante um exemplo do que é esperado para o campo.
 
@@ -98,15 +108,21 @@ Use as ferramentas de design de campo para criar o conjunto de campos e o layout
 
    * **[!UICONTROL Mensagem de validação]** - Use esta opção para especificar uma mensagem de validação para o campo. Essa mensagem será exibida se o visitante inserir um valor inválido no campo. A mensagem _[!UICONTROL Padrão]_ está definida por padrão. Escolha **[!UICONTROL Personalizar]** e insira sua própria mensagem.
 
-   * **Comprimento máximo** - Insira o número máximo de caracteres que podem ser inseridos no campo.
+   * **[!UICONTROL Comprimento máximo]** - Insira o número máximo de caracteres que podem ser inseridos no campo.
 
 1. Defina os **[!UICONTROL Comportamentos do campo]** conforme necessário:
 
-   * **Obrigatório** - Marque a caixa de seleção para criar a entrada de campo necessária para enviar o formulário.
+   * **[!UICONTROL Obrigatório]** - Marque a caixa de seleção para criar a entrada de campo necessária para enviar o formulário.
 
-   * **Habilitar máscara de entrada** - Marque a caixa de seleção para restringir a entrada do visitante usando uma máscara de entrada. Por exemplo, talvez você queira que os visitantes insiram números de telefone em um formato específico. Na caixa de diálogo, insira a máscara usando `9` para qualquer número, `a` para qualquer letra e `*` para qualquer um. Clique em Salvar para ativar a máscara de entrada especificada.
+   * **[!UICONTROL Sensível]** - Marque a caixa de seleção para diferenciar maiúsculas de minúsculas no campo.
 
-     ![Definir uma máscara de entrada para o campo](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+   * **[!UICONTROL Preenchimento prévio Habilitado]** - Marque a caixa de seleção para preencher o campo com base nas informações de perfil, se disponíveis.
+
+   * **[!UICONTROL Habilitar máscara de entrada]** - Marque a caixa de seleção para restringir a entrada do visitante usando uma máscara de entrada. Por exemplo, talvez você queira que os visitantes insiram números de telefone em um formato específico. Na caixa de diálogo, insira a máscara usando `9` para qualquer número, `a` para qualquer letra e `*` para qualquer um.
+
+     ![Definir uma máscara de entrada para o campo](./assets/form-field-mask-input-dialog.png){width="550" zoomable="yes"}
+
+     Clique em **[!UICONTROL Salvar]** para habilitar a máscara de entrada especificada.
 
 ### Alterar estilo do campo {#field-styling}
 
@@ -128,7 +144,7 @@ Selecione a guia **[!UICONTROL Estilos]** no painel direito para alterar o estil
 
 * **[!UICONTROL Margem]** - Defina as margens (em pixels) ao redor do campo. Você pode definir a mesma margem em todos os quatro lados ou marcar a caixa de seleção **[!UICONTROL Margem diferente para cada lado]** para definir as margens horizontal e vertical separadamente.
 
-* **[!UICONTROL Preenchimento]** - Defina o preenchimento (em pixels) ao redor do campo. Você pode definir a mesma margem em todos os quatro lados ou marcar a caixa de seleção **[!UICONTROL Diferente para cada lado]** para definir as margens horizontal e vertical separadamente.
+* **[!UICONTROL Preenchimento]** - Defina o preenchimento (em pixels) ao redor do campo. Você pode definir o mesmo preenchimento nos quatro lados, ou marcar a caixa de seleção **[!UICONTROL Diferente para cada lado]** para definir o preenchimento horizontal e vertical separadamente.
 
   ![Definir o tamanho, a margem e os estilos de preenchimento do campo de formulário](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
@@ -156,7 +172,7 @@ Por padrão, o botão Enviar (campo de rodapé) faz parte do formulário e não 
 
 Com a guia _[!UICONTROL Conteúdo]_ exibida no painel direito, altere o texto no campo **[!UICONTROL Texto do botão]**. O dimensionamento do botão é ajustado para acomodar o comprimento do texto.
 
-![Alterar o texto do botão no formulário](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![Alterar o texto do botão no formulário](./assets/form-field-button-text.png){width="600" zoomable="yes"}
 
 ### Estilo do botão de envio {#button-styles}
 
@@ -176,15 +192,15 @@ Selecione a guia **[!UICONTROL Estilos]** no painel direito para alterar o estil
 
 * **[!UICONTROL Alinhamento do Botão]** - Quando você escolher um tamanho de _Meia largura_ ou _Automático_ para o botão, defina o alinhamento à esquerda, à direita ou ao centro. O preenchimento se ajusta de acordo com as configurações de tamanho e alinhamento.
 
-* **[!UICONTROL Margem]** - Defina as margens (em pixels) ao redor do campo. Você pode definir a mesma margem em todos os quatro lados ou marcar a caixa de seleção **[!UICONTROL Margem diferente para cada lado]** para definir as margens horizontal e vertical separadamente.
+* **[!UICONTROL Margem]** - Defina as margens (em pixels) ao redor do botão. Você pode definir a mesma margem em todos os quatro lados ou marcar a caixa de seleção **[!UICONTROL Margem diferente para cada lado]** para definir as margens horizontal e vertical separadamente.
 
-* **[!UICONTROL Preenchimento]** - Defina o preenchimento (em pixels) ao redor do campo. Você pode definir a mesma margem em todos os quatro lados ou marcar a caixa de seleção **[!UICONTROL Diferente para cada lado]** para definir as margens horizontal e vertical separadamente. O preenchimento será ajustado se você alterar as configurações de tamanho e alinhamento.
+* **[!UICONTROL Preenchimento]** - Defina o preenchimento (em pixels) ao redor do botão. Você pode definir o mesmo preenchimento nos quatro lados, ou marcar a caixa de seleção **[!UICONTROL Diferente para cada lado]** para definir o preenchimento horizontal e vertical separadamente. O preenchimento será ajustado se você alterar as configurações de tamanho e alinhamento.
 
   ![Definir os estilos de alinhamento, margem e preenchimento do botão de formulário](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## Estilo do formulário {#form-styling}
 
-É possível alterar estilos para a área de formulário ao clicar fora dos componentes estruturais ou de formulário. Os componentes de formulário (campos e botões) herdam os estilos _Corpo_ definidos como os estilos de nível superior, a menos que outros estilos sejam definidos no nível de campo ou botão/rodapé.
+É possível alterar estilos para a área de formulário ao clicar fora dos componentes estruturais ou de formulário. Os componentes de formulário (campos e botões) herdam os estilos _Corpo_ definidos no nível superior, a menos que outros estilos sejam definidos no nível de campo ou botão/rodapé.
 
 ![Definir os estilos de nível superior para o corpo do formulário](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
@@ -196,7 +212,7 @@ _Para definir um CSS personalizado para o formulário :_
 
 1. Clique em **[!UICONTROL Exibir CSS]** no painel direito para examinar o código CSS.
 
-   ![Definir as cores do plano de fundo do formulário](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![Exibir CSS para o formulário](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. Selecione o código CSS na janela de rolagem e copie-o para a área de transferência.
 
@@ -208,7 +224,7 @@ _Para definir um CSS personalizado para o formulário :_
 
 1. Cole o código CSS na janela.
 
-   ![Definir as cores do plano de fundo do formulário](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![Adicionar CSS personalizado para o formulário](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    Você pode editar o texto colado nesta janela.
 

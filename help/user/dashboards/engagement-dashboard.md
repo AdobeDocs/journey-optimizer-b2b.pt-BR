@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +57,7 @@ Use o _[!UICONTROL Filtro de intervalo de datas]_ na parte superior direita para
 
 ![Filtrar os dados exibidos por intervalo de datas](./assets/engagement-date-filter.png){width="380"}
 
-Para o intervalo **[!UICONTROL Personalizado]**, você pode usar a ferramenta de calendário para especificar uma data de início e término. A data final é padronizada para o dia atual.
+Para o intervalo **[!UICONTROL Personalizado]**, clique no ícone _Calendário_ ( ![Calendário](../assets/do-not-localize/icon-calendar.svg) ) para especificar uma data de início e término. A data final é padronizada para o dia atual.
 
 ![Filtrar os dados exibidos por atributos](./assets/engagement-date-filter-custom.png){width="380"}
 
