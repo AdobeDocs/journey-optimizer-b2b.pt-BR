@@ -90,7 +90,7 @@ Ao criar uma predefinição:
 
    >[!NOTE]
    >
-   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
+   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
 
    Marque a caixa de seleção do conjunto de dados e clique em **[!UICONTROL Selecionar]**.
 
