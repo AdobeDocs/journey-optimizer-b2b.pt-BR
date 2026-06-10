@@ -4,19 +4,15 @@ description: Crie, gerencie e reutilize fragmentos de conteúdo visual para emai
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:25:36.421Z
-TQID: https://experienceleague.adobe.com/uSnmvOt0QVY4GbYxIfC0byCqvCZO8F4rMHmyoo3zIJ0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+autotag-review: '2026-05-27T16:13:50.677Z'
+TQID: 'https://experienceleague.adobe.com/Jvf48iWEQ2aOznKw2QEy33-X-q8cMfUQkbPAjgmgZqw'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 2748
 ht-degree: 2%
@@ -58,7 +54,7 @@ O status do fragmento determina sua disponibilidade para uso em um email ou mode
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o espaço de design visual, até que você o publique para uso em um email ou modelo de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no espaço de design visual<li>Publicar<li>Duplicar<li>Excluir |
+| Rascunho | Quando você cria um fragmento, ele está no status de rascunho. Ele permanece nesse status à medida que você define ou edita o espaço de design visual, até que você o publique para uso em um email ou modelo de email. Ações disponíveis:<br/><ul><li>Editar todos os detalhes<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
 | Publicado | Ao publicar um fragmento, ele fica disponível para uso em um email ou template de email. O conteúdo do fragmento publicado não pode ser modificado no espaço de design visual. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Criar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
 | Publicado com rascunho | Ao criar um rascunho de um fragmento publicado, a versão publicada permanece disponível para uso em um modelo de email ou de email e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado nos emails e templates de email em que está em uso. Ações disponíveis:<br/><ul><li>Edite a descrição<li>Adicionar a um email ou modelo<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (se não estiver em uso) |
 
@@ -106,7 +102,7 @@ Você pode criar novos fragmentos visuais no Journey Optimizer B2B edition clica
 
 1. Use as ferramentas de design de conteúdo para criar o conteúdo visual do fragmento:
 
-   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#design-fragment)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
    * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
@@ -198,7 +194,7 @@ As edições em um fragmento dependem do status atual:
 
    Use as ferramentas de design visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#design-fragment)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
    * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
@@ -227,7 +223,7 @@ As edições em um fragmento dependem do status atual:
 
    Use as ferramentas de design visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#design-fragment)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
    * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
@@ -256,7 +252,7 @@ Para atualizar o conteúdo:
 
 1. Clique em **[!UICONTROL Editar fragmento]** na parte superior direita. Use as ferramentas de design visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#add-structure-and-content)
+   * [Adicionar estrutura e conteúdo](./fragment-authoring.md#design-fragment)
    * [Adicionar o Assets](./fragment-authoring.md#add-assets)
    * [Navegar pelas camadas, configurações e estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./fragment-authoring.md#personalize-content)
@@ -314,7 +310,7 @@ Os fragmentos são projetados para reutilização e podem ser inseridos para cri
 
 1. Navegue até **[!UICONTROL Jornadas de conta]** e abra uma jornada existente ou crie uma nova jornada.
 
-1. Criar um nó [_[!UICONTROL Enviar email &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Criar um nó [_[!UICONTROL Enviar email ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Criar ou editar o conteúdo de email [do nó](./email-authoring.md).
 

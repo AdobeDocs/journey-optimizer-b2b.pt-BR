@@ -1,10 +1,10 @@
 ---
 title: Snippets
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2343'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->As licenças do AEM Assets as a Cloud Service e do Dynamic Media são pré-requisitos para a integração. Verifique se a [Mídia dinâmica com API aberta](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} está habilitada. A integração é limitada a repositórios da _Camada de entrega_. Se você usa a _camada do Autor_ e deseja convertê-la, contate o Suporte da Adobe Experience Manager.<br/>
->Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition ao projetar conteúdo visual.
+>As licenças do AEM Assets as a Cloud Service e do Dynamic Media são pré-requisitos para a integração. Verifique se a [Mídia dinâmica com API aberta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} está habilitada. A integração é limitada a repositórios da _Camada de entrega_. Se você usa a _camada do Autor_ e deseja convertê-la, contate o Suporte da Adobe Experience Manager.<br/>
+>Dependendo do contrato e da configuração, o Adobe Experience Manager Assets as a Cloud Service pode ser acessado diretamente do Adobe Journey Optimizer B2B edition durante a criação de conteúdo visual.
 
 ## Criação de conteúdo - Componentes - etapa de estruturas {#structures-step}
 
@@ -141,7 +141,7 @@ Marque a caixa de seleção e clique no quadrado de cores para escolher uma cor 
 
 No painel direito com a guia _[!UICONTROL Estilos]_ selecionada, expanda a seção **[!UICONTROL Margem]** e defina as opções de espaçamento de margem dentro do componente estrutural. Esse estilo replica o parâmetro CSS `margin`, que controla o espaço fora da borda de um componente, separando-o de outros componentes. Ele cria uma lacuna ao redor do componente para influenciar seu posicionamento e o layout do conteúdo ao redor.
 
-Defina os valores de margem em pixels de acordo com suas necessidades de design. É possível definir a margem de todos os lados, de cima para baixo, da esquerda para a direita ou de cada lado do componente independentemente:
+Defina os valores de margem em pixels de acordo com suas necessidades de design. É possível definir a margem de todos os lados, de cima para baixo, da esquerda para a direita ou de cada lado do componente separadamente:
 
 * **Todos os lados** - Para definir um valor a ser aplicado a todos os lados, desmarque a caixa de seleção **[!UICONTROL Margem diferente para cada lado]**. Clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels.
 
@@ -161,7 +161,7 @@ Defina os valores de margem em pixels de acordo com suas necessidades de design.
 
 No painel direito com a guia _[!UICONTROL Estilos]_ selecionada, expanda a seção **[!UICONTROL Preenchimento]** e defina as opções de preenchimento dentro do componente estrutural. Esse estilo replica o parâmetro CSS `padding`, que é o espaço entre o conteúdo de um componente e sua borda. O preenchimento fornece espaçamento interno que pode ser usado para controlar a distância entre o conteúdo e a borda do componente.
 
-Defina os valores de preenchimento em pixels de acordo com suas necessidades de design. Você pode definir o preenchimento de todos os lados, o botão superior, o esquerdo direito ou cada lado do componente independentemente:
+Defina os valores de preenchimento em pixels de acordo com suas necessidades de design. É possível definir o preenchimento de todos os lados, de cima para baixo, da esquerda para a direita ou de cada lado do componente separadamente:
 
 * **Todos os lados** - Para definir um valor a ser aplicado a todos os lados, desmarque a caixa de seleção **[!UICONTROL Preenchimento diferente para cada lado]**. Clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels.
 

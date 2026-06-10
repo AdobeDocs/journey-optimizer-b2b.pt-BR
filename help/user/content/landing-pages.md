@@ -3,23 +3,18 @@ title: Páginas de destino
 description: Criar, projetar e publicar páginas de aterrissagem para jornadas de conta - crie do zero, importe o HTML, adicione formulários, personalize o conteúdo e vincule a partir de emails no Journey Optimizer B2B edition.
 feature: Landing Pages, Content
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T21:57:18.444Z
-TQID: https://experienceleague.adobe.com/vrsWEm-DjB2IuI4ghEBKhQAlbYRgnWgddPCDV4a2mmI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+autotag-review: '2026-05-27T16:16:24.088Z'
+TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2220
+source-wordcount: 1637
 ht-degree: 2%
 
 ---
@@ -28,28 +23,34 @@ ht-degree: 2%
 
 Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas nas jornadas da conta para que seus clientes potenciais e clientes visualizem suas mensagens na Web, além de avançar nas jornadas da conta. Você pode criar, personalizar e visualizar páginas de aterrissagem no espaço de design visual da página de aterrissagem.
 
-Para direcionar seus clientes para uma página da Web definida quando clicarem em um link específico, crie uma página de aterrissagem no Journey Optimizer B2B edition:
+Casos de uso comuns para landing pages:
 
-* Criar a página
-* Projetar a página de aterrissagem e o conteúdo do autor
-* Testar a página
-* Publicar a página
-* Link para a página do conteúdo da jornada
+* Forneça aceitar ou recusar comunicações de marketing ou um serviço específico. Use um link em um email ou outra comunicação para uma lista direcionada.
+* Colete o consentimento antes de enviar comunicações e envie um email de confirmação ao aceitar ou recusar.
+* Capture ou atualize os dados de perfil (criação de perfil progressiva, preferências, registros e cenários semelhantes) usando formulários nas páginas de aterrissagem.
+* Direcione pessoas para informações específicas de campanha criadas para a orquestração de jornadas.
+* Redirecionar pessoas para um formulário web dedicado sem criar uma página externa fora do Journey Optimizer B2B edition.
+
+## Fluxo de trabalho da página de aterrissagem
+
+Para direcionar membros de um público-alvo do jornada para uma página da Web definida ao clicar em um link específico, crie uma landing page no Journey Optimizer B2B edition:
+
+1. [Criar a página](./landing-pages-create-publish.md) - Selecione uma predefinição, configure a página principal e adicione as subpáginas necessárias.
+1. [Criar o conteúdo da página de aterrissagem](./landing-page-design.md) - Criar o conteúdo da página usando componentes de design visual de arrastar e soltar.
+1. [Testar e publicar a página de aterrissagem](./landing-pages-create-publish.md) - Visualizar a página, testar o comportamento do formulário e publicar para ativá-la.
+1. [Link para a página da sua jornada](#link-to-a-landing-page) - Adicione a URL da página de aterrissagem a um email, SMS ou ação de jornada para que os destinatários possam acessá-la.
 
 Por exemplo, você pode criar e projetar páginas de aterrissagem para direcionar seus usuários para informações online. A página pode incluir um formulário no qual eles possam aceitar ou recusar receber suas comunicações. Ou pode ser uma oportunidade de assinar uma comunicação recorrente, como um boletim informativo.
 
 Você pode criar, personalizar e pré-visualizar páginas de aterrissagem no espaço de design visual.
-<!--
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. 
--->
 
 ## Acessar e gerenciar páginas de destino
 
-Para acessar páginas de aterrissagem no Adobe Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Páginas de aterrissagem]**. Essa ação abre uma página de listagem com todas as landing pages criadas na instância listada em uma tabela.
+Para acessar páginas de aterrissagem no Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Páginas de aterrissagem]**. Essa ação exibe uma lista de todas as landing pages criadas na instância.
 
 ![Acessar a biblioteca de páginas de aterrissagem](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
-A tabela é classificada pela coluna _[!UICONTROL Modificado]_, com os itens atualizados mais recentes no topo por padrão. Clique no título da coluna para alterar entre crescente e decrescente.
+A lista é classificada de acordo com a coluna _[!UICONTROL Modificado]_, com os itens atualizados mais recentes no topo. Clique no título da coluna para alterar entre crescente e decrescente.
 
 ### Filtrar a lista de páginas de destino
 
@@ -57,13 +58,15 @@ Para procurar uma página de aterrissagem por nome, digite uma string de texto n
 
 ![Filtrar as páginas de aterrissagem exibidas](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
 
-### Personalizar a exibição da coluna
+<!-- 
+This is going away? ### Customize the column display
 
-Personalize as colunas que deseja exibir na tabela clicando no ícone _Personalizar tabela_ ( ![Ícone Personalizar tabela](../assets/do-not-localize/icon-column-settings.svg) ) na parte superior direita.
+Customize the columns that you want to display in the table by clicking the _Customize table_ icon ( ![Customize table icon](../assets/do-not-localize/icon-column-settings.svg) ) at the top right. 
 
-Na caixa de diálogo, selecione as colunas a serem exibidas e clique em **[!UICONTROL Aplicar]**.
+In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
-![Selecione as colunas que deseja exibir](./assets/landing-pages-customize-table-dialog.png){width="300"}
+![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
+-->
 
 ### Status e ciclo de vida da página de destino
 
@@ -71,105 +74,11 @@ O status da landing page determina a disponibilidade para vinculação no conte�
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Editar no espaço de design visual<li>Publicar<li>Duplicar<li>Excluir |
+| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
 | Publicado | Ao publicar uma landing page, ela é hospedada na instância do Journey Optimizer B2B edition e fica disponível para vinculação em um conteúdo de mensagem de email ou SMS. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Criar versão de rascunho<li>Duplicar<li>Excluir |
 | Publicado com rascunho | Ao criar um rascunho de uma página de aterrissagem publicada, a versão publicada permanece e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado na página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (exclui ambas as versões)<li>Descartar rascunho (retorna ao status publicado) |
 
 ![Ciclo de vida do status da página de aterrissagem](./assets/status-lifecycle-diagram.png){zoomable="yes"}
-
-## Criar uma página de destino
-
-Você pode adicionar uma nova página de aterrissagem no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar página de aterrissagem]** na parte superior direita.
-
-1. Na caixa de diálogo _[!UICONTROL Criar página de aterrissagem]_, digite um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** úteis (opcional).
-
-   Requisitos da landing page:
-
-   * Nome - Máximo de 100 caracteres; deve ser exclusivo, não diferencia maiúsculas de minúsculas
-
-   * Descrição - Máximo de 300 caracteres
-
-   * São permitidos caracteres Alpha, numéricos e especiais
-
-   * Os caracteres reservados **_não são permitidos_**: `\ / : * ? " < > |`
-
-   ![Caixa de diálogo Criar página de aterrissagem](./assets/landing-page-create-dialog.png){width="400"}
-
-1. Se necessário e se houver vários subdomínios configurados, altere o **[!UICONTROL Subdomínio]** para usar como página de aterrissagem.
-
-1. Clique em **[!UICONTROL Criar]**.
-
-   A página inicial _[!UICONTROL Criar página de aterrissagem primária]_ é aberta e fornece várias opções para a criação da página: _[!UICONTROL Criar do zero]_, _[!UICONTROL Importar HTML]_ ou usar um modelo salvo.
-
-   ![Escolha como deseja começar com o design da sua página de aterrissagem](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
-
-   Após selecionar o método que deseja usar para iniciar o design da página de aterrissagem, use o espaço de design visual para [criar a página](./landing-page-design.md).
-
-### Criar do zero
-
-Use o editor de conteúdo visual para definir a estrutura do conteúdo da página de destino. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, você pode projetar a forma do conteúdo da página em segundos.
-
-1. Na página inicial _[!UICONTROL Criar sua página de aterrissagem primária]_, selecione a opção **[!UICONTROL Criar do zero]**.
-
-1. [Adicionar estrutura e conteúdo](./landing-page-design.md#add-structure-and-content) à página.
-
-### Importar HTML
-
-O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HTML para criar suas páginas de aterrissagem.
-
-{{$include /help/_includes/content-design-import.md}}
-
-![importar conteúdo html em um arquivo zip](./assets/templates-import-zip-file.png){width="500"}
-
->[!NOTE]
->
->Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
-
-Você pode personalizar o conteúdo importado conforme necessário com o espaço de design visual.
-
-### Selecione um modelo salvo ou de amostra
-
-Você pode escolher entre:
-
-* **Modelos de exemplo**. A interface do Journey Optimizer B2B edition oferece uma coleção de templates de landing page prontos para uso que você pode usar como ponto de partida para o design da landing page.
-
-* **Modelos salvos**. Use um modelo personalizado salvo criado por um membro de sua organização usando o menu _[!UICONTROL Modelos]_ <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
-
-Use a seção _[!UICONTROL Selecionar modelo de design]_ para começar a criar o conteúdo a partir de um modelo. Você pode usar um modelo de amostra ou um modelo de página de aterrissagem personalizado salvo na instância do Journey Optimizer B2B edition.
-
->[!BEGINTABS]
-
->[!TAB Modelos salvos]
-
-Na página inicial _Criar sua página de aterrissagem primária_, a guia _Modelos de amostra_ é selecionada por padrão. Para usar um modelo personalizado, selecione a guia **[!UICONTROL Modelos salvos]**.
-
-A lista de todos os modelos de página de aterrissagem salvos é exibida. Você pode classificá-los por _[!UICONTROL Nome]_, _[!UICONTROL Última modificação]_ e _[!UICONTROL Última criação]_.
-
-![Escolher um modelo salvo](./assets/landing-page-design-saved-templates-sort-by.png){width="700" zoomable="yes"}
-
-Selecione o template desejado na lista.
-
-Após a seleção, é exibida uma pré-visualização do modelo. No modo de visualização, você pode navegar entre todos os modelos de uma categoria (amostra ou salva, dependendo da seleção) usando as setas para a direita e para a esquerda.
-
-![Visualizar o modelo salvo](./assets/landing-page-design-saved-template-preview.png){width="800" zoomable="yes"}
-
-Quando a exibição corresponder ao que você deseja usar, clique em **[!UICONTROL Usar este modelo]** na parte superior direita da janela de visualização.
-
-Essa ação copia o conteúdo para o espaço de design visual, onde você pode editar o conteúdo conforme necessário.
-
->[!TAB Modelos de exemplo]
-
-O Adobe Journey Optimizer B2B edition oferece uma seleção de _modelos de página de aterrissagem_ prontos para uso, que podem ser usados para criar suas próprias páginas de aterrissagem e modelos de página de aterrissagem.
-
-<!-- ![Choose a template provided by Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"} -->
-
->[!ENDTABS]
-
-<!--
->[!NOTE]
->
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
--->
 
 ## Editar uma landing page
 
@@ -195,7 +104,7 @@ As edições em uma landing page dependem do status atual:
 
    Use as ferramentas de design visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](./landing-page-design.md#add-structure-and-content)
+   * [Adicionar estrutura e conteúdo](./landing-page-design.md#structure-content-landing-page)
    * [Adicionar o Assets](./landing-page-design.md#add-assets)
    * [Navegar pelas camadas, configurações e estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./landing-page-design.md#personalize-content)
@@ -207,7 +116,7 @@ As edições em uma landing page dependem do status atual:
 
 >[!TAB Publicado]
 
-1. Na página de listagem _[!UICONTROL Landing page]_, clique no nome da página para abri-la.
+1. Na página de listagem _[!UICONTROL Landing pages]_, clique no nome da página para abri-la.
 
    Uma visualização do conteúdo visual é exibida, com os detalhes da landing page à direita.
 
@@ -223,7 +132,7 @@ As edições em uma landing page dependem do status atual:
 
    Use as ferramentas de design visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](./landing-page-design.md#add-structure-and-content)
+   * [Adicionar estrutura e conteúdo](./landing-page-design.md#structure-content-landing-page)
    * [Adicionar o Assets](./landing-page-design.md#add-assets)
    * [Navegar pelas camadas, configurações e estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./landing-page-design.md#personalize-content)
@@ -237,7 +146,7 @@ As edições em uma landing page dependem do status atual:
 
 >[!TAB Publicado com rascunho]
 
-Ao abrir a landing page, a versão de rascunho é exibida por padrão. As guias na parte superior do espaço de visualização permitem alternar a exibição entre as versões publicada e de rascunho. Os rascunhos de ações e detalhes são exibidos à direita.
+Ao abrir a landing page, a versão de rascunho é exibida. As guias na parte superior do espaço de visualização permitem alternar a exibição entre as versões publicada e de rascunho. Os rascunhos de ações e detalhes são exibidos à direita.
 
 ![Visualização e detalhes da versão de rascunho da página de aterrissagem](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
@@ -245,7 +154,7 @@ Para atualizar o conteúdo:
 
 1. Clique em **[!UICONTROL Editar página de aterrissagem]** na parte superior direita. Use as ferramentas de design visual conforme necessário:
 
-   * [Adicionar estrutura e conteúdo](./landing-page-design.md#add-structure-and-content)
+   * [Adicionar estrutura e conteúdo](./landing-page-design.md#structure-content-landing-page)
    * [Adicionar o Assets](./landing-page-design.md#add-assets)
    * [Navegar pelas camadas, configurações e estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalizar conteúdo](./landing-page-design.md#personalize-content)
@@ -258,28 +167,6 @@ Para atualizar o conteúdo:
    Ao publicar a versão de rascunho, ela substitui a versão publicada atual e o conteúdo é atualizado na página hospedada.
 
 >[!ENDTABS]
-
-### Verificar alertas
-
-À medida que você cria o conteúdo da página de aterrissagem, os alertas são exibidos na interface (canto superior direito) quando as principais configurações estão ausentes.
-
-![Alertas de problemas de conteúdo da página](./assets/alerts-button.png){width="250"}
-
-Se você não vir esse botão, não há problemas detectados.
-
-Dois tipos de alertas podem ser detectados:
-
-* **_Avisos_** que se referem a recomendações e práticas recomendadas, como:
-
-   * `Placeholder links are present in the landing page body`: não se esqueça de substituir os espaços reservados por links válidos.
-
-   * `Text version of HTML is empty`: não se esqueça de definir uma versão de texto do corpo da página, que é usada quando o conteúdo do HTML não pode ser exibido.
-
-   * `Empty link is present in page body`: verifique se todos os links na sua página estão corretos.
-
-* **_Erros_** que impedem que você teste ou ative a jornada/campanha enquanto não forem resolvidos, como:
-
-   * `The landing page content is empty`: o conteúdo da página é obrigatório.
 
 ## Duplicação de uma landing page
 
@@ -327,11 +214,11 @@ Como profissional de marketing ou Designer que cria conteúdo de email, fragment
 
 1. Para a opção **[!UICONTROL Target]**, escolha o comportamento de destino do link:
 
-   * **[!UICONTROL Nenhum]** - abre o link usando o comportamento padrão do navegador.
-   * **[!UICONTROL Em branco]** - abre o link em uma nova janela ou guia.
-   * **[!UICONTROL Self]** - abre o link no mesmo quadro.
+   * **[!UICONTROL Nenhum]** - Abre o link usando o comportamento padrão do navegador.
+   * **[!UICONTROL Em branco]** - Abre o link em uma nova janela ou guia.
+   * **[!UICONTROL Self]** - Abre o link no mesmo quadro.
    * **[!UICONTROL Pai]** - abre o link no quadro pai.
-   * **[!UICONTROL Superior]** - abre o link no corpo inteiro da janela.
+   * **[!UICONTROL Superior]** - Abre o link no corpo inteiro da janela.
 
 1. (Somente link de texto) Se quiser sublinhar o texto vinculado, marque a caixa de seleção **[!UICONTROL Sublinhar link]**.
 
