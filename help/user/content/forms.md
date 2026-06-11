@@ -103,7 +103,7 @@ Há vários aspectos a serem considerados antes de começar a criar formulários
 >id="ajo-b2b_lp_form_preset"
 >title="Selecionar uma predefinição"
 >abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Criar uma predefinição de formulário"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Criar uma predefinição de formulário"
 
 Você pode criar um formulário no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista do _[!UICONTROL Forms]_.
 
