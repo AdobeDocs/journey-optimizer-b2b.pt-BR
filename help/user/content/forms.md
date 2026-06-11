@@ -6,21 +6,15 @@ role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
 autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
-source-wordcount: 2466
+source-wordcount: 2504
 ht-degree: 1%
 
 ---
@@ -98,6 +92,12 @@ Há vários aspectos a serem considerados antes de começar a criar formulários
   Quando você permite um bypass de formulário para uma pessoa conhecida que visita sua landing page, ela pode simplesmente acessar o conteúdo diretamente. Ignorar o formulário fornece uma experiência do visitante mais simplificada.
 
 ### Adicionar um novo formulário {#new-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_lp_form_preset"
+>title="Selecionar uma predefinição"
+>abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Criar uma predefinição de formulário"
 
 Você pode criar um formulário no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista do _[!UICONTROL Forms]_.
 
