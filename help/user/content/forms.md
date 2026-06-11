@@ -18,9 +18,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
-source-wordcount: 2466
+source-wordcount: 2504
 ht-degree: 1%
 
 ---
@@ -98,6 +98,12 @@ Há vários aspectos a serem considerados antes de começar a criar formulários
   Quando você permite um bypass de formulário para uma pessoa conhecida que visita sua landing page, ela pode simplesmente acessar o conteúdo diretamente. Ignorar o formulário fornece uma experiência do visitante mais simplificada.
 
 ### Adicionar um novo formulário {#new-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_lp_form_preset"
+>title="Selecionar uma predefinição"
+>abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Criar uma predefinição de formulário"
 
 Você pode criar um formulário no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista do _[!UICONTROL Forms]_.
 
