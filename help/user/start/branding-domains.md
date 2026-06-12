@@ -4,22 +4,16 @@ description: Configure os domínios de marca para que cada uma das marcas tenha 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -43,7 +37,7 @@ Você pode compartilhar a marca de domínio do caminho de retorno entre a instâ
 
 >[!PREREQUISITES]
 >
->Antes de editar ou adicionar um domínio na interface do usuário, você deve ter um [CNAME mapeado para um domínio do Marketo Engage fornecido pela Adobe](https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Antes de editar ou adicionar um domínio na interface do usuário, você deve ter um [CNAME mapeado para um domínio do Marketo Engage fornecido pela Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Ao adicionar um domínio, o sistema verifica se há SSLs pré-existentes, que foram criados manualmente antes. Se encontrar essa validação, crie seu domínio sem selecionar a criação de SSL e depois conecte-o como um procedimento separado.
 
@@ -105,7 +99,7 @@ _Para adicionar o domínio :_
 
    >[!NOTE]
    >
-   >**_SSLs personalizados_**: se você precisar de um SSL personalizado, poderá enviar um [tíquete de suporte](https://experienceleague.adobe.com/pt-br/support){target="_blank"}. Não use a caixa de seleção para criação de SSL.
+   >**_SSLs personalizados_**: se você precisar de um SSL personalizado, poderá enviar um [tíquete de suporte](https://experienceleague.adobe.com/en/support){target="_blank"}. Não use a caixa de seleção para criação de SSL.
 
 1. Se você tiver vários espaços de trabalho definidos para sua instância do Marketo Engage, clique em **[!UICONTROL Avançar]**.
 
@@ -144,7 +138,7 @@ Siga estas etapas para habilitar o SSL nos domínios existentes.
 
 >[!NOTE]
 >
->Para excluir o domínio primário de marca (em um ou mais espaços de trabalho), primeiro selecione um domínio de marca diferente para ser o principal de cada espaço de trabalho.
+>Se quiser excluir o domínio primário de marca (em um ou mais espaços de trabalho), selecione primeiro um domínio de marca diferente para ser o principal de cada espaço de trabalho.
 >
 >A exclusão de um domínio **_não_** exclui o certificado SSL. Essa proteção evita erros de usuário que resultam na ausência de certificados SSL em um site. Se você quiser remover os certificados SSL, entre em contato com o suporte da Adobe.
 
