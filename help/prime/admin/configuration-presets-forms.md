@@ -18,7 +18,7 @@ Quando os dados chegam ao endpoint de transmissão, eles são vinculados às inf
 
 ## Pré-requisitos
 
-Para usar formulários web, você deve ter uma ou mais _&#x200B;**conexões de transmissão da API HTTP**&#x200B;_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
+Para usar formulários web, você deve ter uma ou mais _**conexões de transmissão da API HTTP**_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
 
 * O tipo de dados deve ser definido como XDM (não dados brutos)
 * A autenticação deve ser desabilitada (conexão não autenticada)
@@ -90,7 +90,7 @@ Ao criar uma predefinição:
 
    >[!NOTE]
    >
-   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
+   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
 
    Marque a caixa de seleção do conjunto de dados e clique em **[!UICONTROL Selecionar]**.
 
