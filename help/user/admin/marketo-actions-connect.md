@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 75%
+source-wordcount: 540
+ht-degree: 71%
 
 ---
 
@@ -80,7 +80,7 @@ As [permissões de função atribuídas no serviço personalizado](https://exper
 
 ## Usar a conexão em uma ação de jornada
 
-Quando um profissional de marketing usa uma ação do Marketo Engage em uma jornada, é possível configurar o nó usando o nome da conexão.
+Quando um profissional de marketing usa uma ação do Marketo Engage em uma jornada, ele configura o nó usando o nome da conexão.
 
 >[!NOTE]
 >

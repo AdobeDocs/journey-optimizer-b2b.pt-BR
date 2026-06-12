@@ -19,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1603
 ht-degree: 12%
 
 ---
@@ -121,7 +121,7 @@ Para disponibilizar um Evento de Experiência para um nó _Ouvir um evento_ em u
 
 1. Na página de detalhes do evento, clique em **[!UICONTROL Salvar]**.
 
-O evento salvo é exibido na lista da guia _[!UICONTROL Eventos]_.
+A lista na guia _[!UICONTROL Eventos]_ exibe o evento salvo.
 
 ### Editar um evento {#edit-an-event}
 

@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Siga estas etapas para habilitar o SSL nos domínios existentes.
 
 >[!NOTE]
 >
->Para excluir o domínio primário de marca (em um ou mais espaços de trabalho), primeiro selecione um domínio de marca diferente para ser o principal de cada espaço de trabalho.
+>Se quiser excluir o domínio primário de marca (em um ou mais espaços de trabalho), selecione primeiro um domínio de marca diferente para ser o principal de cada espaço de trabalho.
 >
 >A exclusão de um domínio **_não_** exclui o certificado SSL. Essa proteção evita erros de usuário que resultam na ausência de certificados SSL em um site. Se você quiser remover os certificados SSL, entre em contato com o suporte da Adobe.
 

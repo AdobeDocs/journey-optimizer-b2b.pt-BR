@@ -16,16 +16,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 # Acesso e permissões do usuário
 
-Após a conclusão do provisionamento e a vinculação das sandboxes, conclua as etapas a seguir para fornecer acesso ao Adobe Journey Optimizer B2B edition para sua equipe e usuários.
+Após a conclusão do provisionamento e a vinculação das sandboxes, use as seguintes etapas para fornecer acesso ao Adobe Journey Optimizer B2B edition para sua equipe e usuários.
 
 1. [Crie um perfil de produto do Marketo Engage](#marketo-engage-profile) no Admin Console (somente nova instância do Marketo Engage).
 1. [Adicionar um grupo de usuários](#add-user-group) na Admin Console.

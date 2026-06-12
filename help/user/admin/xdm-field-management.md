@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1186
-ht-degree: 72%
+source-wordcount: 1185
+ht-degree: 71%
 
 ---
 
@@ -55,7 +55,7 @@ Os administradores que entendem o XDM e colaboram com engenheiros de dados ou pa
 
 Use a diretriz a seguir para fazer seleções de campo:
 
-* Você pode adicionar novos campos somente depois que um esquema estiver sendo usado ativamente em uma jornada.
+* Você pode adicionar novos campos somente depois que um esquema estiver sendo usado em uma jornada.
 * Excluir, renomear ou alterar tipos de campo pode causar problemas de funcionalidade de jornada. Tenha cuidado ao manipular esquemas.
 * Não renomeie ou exclua esquemas nem modifique chaves em esquemas relacionais.
 

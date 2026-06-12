@@ -18,10 +18,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 2362
-ht-degree: 80%
+source-wordcount: 2333
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ Conclua as seguintes etapas para garantir o rastreamento e o delivery de email:
 
 ## Criar registros DNS para páginas de aterrissagem e email
 
-Conectar um registro CNAME permite que os profissionais de marketing hospedem versões web de emails, páginas de destino e blogs com uma marca consistente que melhora o tráfego e as conversões. É altamente recomendável que você adicione os CNAMEs ao seu host de domínio raiz para que o Marketo Engage hospede seus ativos da web focados em marketing. Para planejar e implementar um registro CNAME para os links de rastreamento incluídos nos emails enviados pelo Marketo Engage, trabalhe com sua equipe de marketing como administrador.
+Conectar um registro CNAME permite que os profissionais de marketing hospedem versões web de emails, páginas de destino e blogs com uma marca consistente que melhora o tráfego e as conversões. É altamente recomendável que você adicione os CNAMEs ao seu host de domínio raiz para que o Marketo Engage hospede seus ativos da web focados em marketing.
 
 Para planejar e implementar dois registros CNAME, trabalhe com sua equipe de marketing como administrador. O primeiro é para URLs de página de aterrissagem, para que as páginas de aterrissagem apareçam em URLs que refletem seu domínio, não o Adobe Marketo Engage (o host real). O segundo é para os links de rastreamento incluídos nos emails enviados pelo Marketo Engage.
 
