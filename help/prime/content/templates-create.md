@@ -1,11 +1,23 @@
 ---
 title: Criar modelos de email
-description: Saiba como criar modelos de email no Journey Optimizer B2B Prime — criar do zero, salvar um email de uma jornada como modelo ou converter uma imagem de design em um modelo de email.
+description: Saiba como criar modelos de email no Journey Optimizer B2B Prime — crie novo, salve um email de uma jornada como modelo ou converta uma imagem de design em um modelo de email.
 badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:55:41.432Z'
+TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 0%
+source-wordcount: 875
+ht-degree: 1%
 
 ---
 
@@ -14,42 +26,55 @@ ht-degree: 0%
 
 Você pode criar um modelo de email no [!DNL Journey Optimizer B2B Edition Prime] de três maneiras:
 
-* **Criar do zero** — crie um novo modelo na biblioteca de modelos usando o espaço de design visual de email.
+* **Criar um novo modelo** — Crie um modelo na biblioteca de modelos usando o espaço de design de email visual.
 * **Salvar de um email de jornada** — Salve um email criado em uma jornada como um modelo reutilizável.
 * **Converter uma imagem** — carregue uma imagem de design e use a IA gerativa para convertê-la em um modelo de email editável.
 
->[!NOTE]
->
->Nesta versão do Beta, somente os modelos de email são compatíveis.
-
-## Criar um modelo do zero {#design-from-scratch}
+## Criar um novo modelo {#build-new}
 
 1. Navegue até **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Modelos]**.
 1. Clique em **[!UICONTROL Criar modelo]**.
 1. Insira um **[!UICONTROL Nome do modelo]** e uma **[!UICONTROL Descrição]** opcional.
-1. Opcionalmente, adicione tags para categorizar o modelo.
+1. Defina o **[!UICONTROL Canal]** (tipo) para o modelo.
+
+   >[!NOTE]
+   >
+   >Nesta versão do Beta, somente os modelos de email são compatíveis.
+
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 1. Clique em **[!UICONTROL Criar]** para abrir o espaço de design de email.
-1. Crie o layout do email usando estruturas e componentes de conteúdo. Para obter uma referência completa sobre as ferramentas disponíveis, consulte [Criação de email](email-authoring.md).
-1. Opcionalmente, configure o [bloqueio de conteúdo](template-content-locking.md) para restringir quais partes dos autores de modelo podem editar ao usá-lo em uma jornada.
+
+1. Clique em **[!UICONTROL Editar corpo do email]** para acessar o espaço de design de conteúdo.
+
+   Consulte [Criação de email](email-authoring.md) para obter informações detalhadas sobre o design de conteúdo.
+
+1. Habilite opcionalmente a **[!UICONTROL Governança]** e configure o [bloqueio de conteúdo](template-content-governance.md) para restringir quais partes dos autores de modelo podem editar ao aplicar o modelo.
+
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Salvar um email de jornada como modelo {#save-as-template}
+## Salvar um email como modelo {#save-as-template}
 
-Ao criar um email em uma jornada que deseja reutilizar, salve-o diretamente na biblioteca de modelos dentro do espaço de design de email.
+Ao abrir o conteúdo de email que deseja reutilizar, salve-o diretamente na biblioteca de modelos na página de conteúdo de email.
 
-1. No espaço de design de email, abra a lista suspensa **[!UICONTROL Salvar]** na parte superior do editor.
+1. Clique em **[!UICONTROL Modelo de conteúdo]** na parte superior da página.
 1. Selecione **[!UICONTROL Salvar como modelo de conteúdo]**.
-1. Insira um **[!UICONTROL Nome do modelo]** e uma **[!UICONTROL Descrição]** opcional.
-1. Opcionalmente, adicione tags e configure o [bloqueio de conteúdo](template-content-locking.md).
-1. Clique em **[!UICONTROL Salvar]**.
+1. Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** opcional.
+1. Opcionalmente, adicione **[!UICONTROL Marcas]**.
+1. Clique em **[!UICONTROL Criar]**.
 
-O email original da jornada não é afetado. O modelo salvo está disponível na biblioteca de modelos para todos os usuários na sandbox.
+O email original da jornada não é afetado. O modelo salvo está disponível na biblioteca de modelos para todos os usuários na sandbox. É possível atualizar o template criado para otimizar a reutilização:
+
+* Editar texto e adicionar tokens de [personalização](email-authoring.md#personalization).
+* Atualize ou substitua imagens e adicione links.
+* Configurar [bloqueio de conteúdo](template-content-governance.md).
 
 ## Converter uma imagem em um modelo {#image-to-template}
 
-O [!DNL Journey Optimizer B2B Edition Prime] pode converter uma imagem estática — como um modelo do Figma ou do Photoshop — em um modelo de email editável usando IA gerativa. Isso elimina a necessidade de recriar manualmente os layouts dos arquivos de design.
+O [!DNL Journey Optimizer B2B Edition Prime] pode converter uma imagem estática — como um modelo do Figma ou do Photoshop — em um modelo de email editável usando IA gerativa. Isso elimina a necessidade de recriar manualmente os layouts dos arquivos de design e é ideal para migrar designs de email existentes de outras plataformas. Esse recurso está disponível somente para modelos de conteúdo de email.
 
-### Requisitos
+>[!BEGINSHADEBOX]
+
+### Pré-requisitos
 
 Antes de começar:
 
@@ -65,34 +90,57 @@ Antes de começar:
 >
 >A imagem não deve conter informações de identificação pessoal (PII) ou dados confidenciais.
 
-### Converter uma imagem
+>[!ENDSHADEBOX]
+
+### Criar o modelo
 
 1. Navegue até **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Modelos]**.
-1. Clique em **[!UICONTROL Converter imagem em modelo]** no cabeçalho.
+1. Clique em **[!UICONTROL Criar modelo]**.
 1. Insira um **[!UICONTROL Nome do modelo]** e uma **[!UICONTROL Descrição]** opcional.
-1. Opcionalmente, selecione um **[!UICONTROL Tema da marca]** para aplicar as cores, fontes e espaçamento da sua marca na saída gerada.
-1. Faça upload da imagem usando a função arrastar e soltar ou o navegador de arquivos.
-1. Confirme se a imagem não contém dados pessoais.
-1. Revise e aceite as Diretrizes de usuário da IA gerativa da Adobe (somente primeira vez).
-1. Clique em **[!UICONTROL Converter]**.
+1. Defina o **[!UICONTROL Canal]** como Email.
 
-   A conversão normalmente é concluída em cinco minutos. Imagens complexas ou grandes podem levar até dez minutos. Você pode navegar para fora do escritório — o processo continua em segundo plano.
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+1. Clique em **[!UICONTROL Criar]**.
 
-1. Quando a conversão estiver concluída, clique no nome do template para pré-visualizar e editar o conteúdo gerado.
+### Gerar o conteúdo do modelo
 
->[!NOTE]
->
->O resultado não é exibido automaticamente. Atualize a página ou retorne à biblioteca de modelos para ver o modelo concluído.
+1. Na seção **[!UICONTROL Converter imagem em modelo]**:
 
-### Editar após a conversão
+   * Opcionalmente, selecione um **[!UICONTROL Tema da marca]** para aplicar as cores, fontes e espaçamento da sua marca na saída gerada.
+   * Marque a caixa de seleção de confirmação para confirmar que a imagem não contém informações pessoalmente identificáveis (PII) ou outros dados confidenciais.
+   * Clique em **[!UICONTROL Carregar imagem]** e selecione seu arquivo de imagem.
 
-O modelo convertido é aberto no espaço de design de email como um email totalmente editável. Use as ferramentas de design padrão para:
+   >[!CAUTION]
+   >
+   >O upload de uma imagem exclui qualquer conteúdo atualmente no email e a substitui pelo modelo gerado.
+
+1. Se solicitado, revise e aceite as Diretrizes do usuário da IA gerativa da Adobe.
+
+1. Clique em **[!UICONTROL Abrir]** para iniciar o processo de conversão.
+
+   A conversão normalmente é concluída em cerca de cinco minutos. Imagens complexas ou grandes podem levar até dez minutos. A conversão é executada em segundo plano — você pode sair e o modelo de rascunho é salvo automaticamente quando a conversão é concluída.
+
+1. Atualize a página para ver o modelo concluído.
+
+   >[!NOTE]
+   >
+   >O resultado não é exibido automaticamente. Atualize a página ou retorne à biblioteca de modelos para ver o modelo concluído.
+
+1. Opcionalmente, use a seção **[!UICONTROL Feedback do conversor de imagem a modelo]** para compartilhar sugestões com a Adobe.
+
+1. Clique em **[!UICONTROL Editar corpo do email]** para abrir o modelo convertido no espaço de design de email para edição.
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+### Editar o conteúdo convertido
+
+O conteúdo do modelo convertido é aberto no espaço de design como um modelo de email totalmente editável. Use as ferramentas padrão de design de conteúdo para:
 
 * Editar texto e adicionar tokens de [personalização](email-authoring.md#personalization).
 * Atualize ou substitua imagens e adicione links.
 * Ajustar cores, fontes e espaçamento.
 * Adicione, remova ou reorganize componentes de conteúdo.
-* Configurar [bloqueio de conteúdo](template-content-locking.md).
+* Habilitar governança e configurar [bloqueio de conteúdo](template-content-governance.md).
 
 >[!IMPORTANT]
 >
