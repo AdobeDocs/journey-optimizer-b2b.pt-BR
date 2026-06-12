@@ -7,23 +7,17 @@ role: User
 level: Beginner, Intermediate
 keywords: modo escuro, email, cor, design
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 1564
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -32,18 +26,18 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro para visualizar a renderização e definir configurações personalizadas. <br>A renderização depende do cliente de email do destinatário. Nem todos os clientes de email permitem o modo escuro."
+>abstract="Alterne para o modo escuro para visualizar a renderização e definir configurações personalizadas. <br>A renderização final depende do cliente de email do destinatário. Nem todos os clientes de email permitem o modo escuro."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Alternar para o modo escuro"
->abstract="Alterne para o modo escuro para visualizar a renderização em clientes de email compatíveis. <br>A renderização final depende do cliente de email do destinatário. Observe que nem todos os clientes de e-mail suportam o modo escuro."
+>abstract="Alterne para o modo escuro para visualizar a renderização em clientes de email compatíveis. <br>A renderização final depende do cliente de email do destinatário. Observe que nem todos os clientes de email oferecem suporte ao modo escuro."
 
 _Modo escuro_ permite que um cliente ou aplicativo de email de suporte exiba emails com planos de fundo mais escuros e cores mais claras para texto, botões e outros elementos visuais. Esse tipo de monitor pode reduzir a tensão ocular, economizar bateria e melhorar a legibilidade em ambientes com pouca luminosidade, proporcionando uma experiência de visualização mais confortável. Como uma tendência crescente nos principais sistemas operacionais e aplicativos, agora é uma consideração importante no design de email moderno para garantir que o conteúdo permaneça legível e visualmente atraente para todos os usuários.
 
 ![Diagrama de conceito dos modos claro e escuro mostrando a renderização de conteúdo em temas claros e escuros](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Journey Optimizer B2B Edition], é possível alternar para o modo de exibição _&#x200B;**[!UICONTROL Escuro]**&#x200B;_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
+À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Journey Optimizer B2B Edition], é possível alternar para o modo de exibição _**[!UICONTROL Escuro]**_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
 
 ## Considerações do cliente de email {#email-client-considerations}
 
@@ -135,7 +129,7 @@ Para obter os melhores resultados, teste seu conteúdo com os clientes de email 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Usar uma imagem específica para o modo escuro"
->abstract="Selecione outra imagem para o modo escuro. <br>A adição de uma imagem específica não garante a renderização correta em todos os clientes de email. Nem todos os clientes de email permitem o modo escuro."
+>abstract="Selecione outra imagem para o modo escuro. <br>Adicionar uma imagem específica não garante que ela seja renderizada corretamente em todos os clientes de email. Nem todos os clientes de email permitem o modo escuro."
 
 Depois de alternar para o modo escuro, você pode optar por editar elementos de estilo específicos do seu conteúdo, que são exibidos somente quando o modo escuro está ativado no cliente de email do recipient (desde que seja compatível com esse recurso).
 
