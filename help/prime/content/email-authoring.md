@@ -1,30 +1,34 @@
 ---
 title: Criação de email
-description: Use as ferramentas de design de email do Journey Optimizer B2B Prime, incluindo modelos de email, fragmentos, personalização, temas, modo escuro e validação.
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+description: Use as ferramentas de design de email do Journey Optimizer B2B Prime, incluindo modelos de email, fragmentos, personalização, modo escuro e validação.
+autotag-review: '2026-06-12T22:51:19.543Z'
+TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2775
 ht-degree: 1%
 
 ---
 
 # Criação de email
 
-No Prime [!DNL Adobe Journey Optimizer B2B Edition], o espaço de design de email fornece uma tela visual onde os profissionais de marketing compõem o email. As ferramentas de design de email nos painéis à esquerda e na parte superior (estruturas, componentes de conteúdo, modelos, fragmentos e muito mais) oferecem suporte à criação do zero com arrastar e soltar. Você também pode optar por iniciar com base em um modelo, colar HTML bruto ou reunir mensagens de fragmentos visuais reutilizáveis.
+No [!DNL Adobe Journey Optimizer B2B Prime], o espaço de design de email fornece uma tela visual onde os profissionais de marketing compõem emails. As ferramentas de design de email nos painéis à esquerda e na parte superior (estruturas, componentes de conteúdo, modelos, fragmentos e muito mais) oferecem suporte à criação do zero com arrastar e soltar. Você também pode optar por iniciar com base em um modelo, colar HTML bruto ou reunir mensagens de fragmentos visuais reutilizáveis.
 
 >[!IMPORTANT]
 >
 >Para obter a configuração do administrador de subdomínios, autenticação, pools de IP e configurações de canal de email, consulte [Entregabilidade de email e configuração de canal](../admin/configuration-email-deliverability.md).
 
-No Prime [!DNL Journey Optimizer B2B Edition], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ em uma jornada. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar email_](../marketing/person-journey-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo de design de conteúdo de email.
+No [!DNL Journey Optimizer B2B Prime], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ em uma jornada. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar email_](../marketing/person-journey-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo de design de conteúdo de email.
 
-
-
-Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
+Essa ação inicia o espaço de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
 * [Crie o email do zero](#design-your-email-from-scratch) usando a interface de design visual. Crie o componente de layout de email por componente usando a função arrastar e soltar em uma tela em branco. Esse método é melhor para criar novos modelos ou emails únicos.
 
-* [Codifique ou cole sua HTML bruta](#html) no editor de código ou trabalhe lado a lado com a tela visual.
+* [Importe o HTML](#html) para o editor de código ou trabalhe lado a lado com a tela visual.
 
   <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
 
@@ -38,6 +42,20 @@ Essa ação inicia as ferramentas de design de email, onde você pode escolher c
 * **Painel esquerdo:** Estruturas (layouts de coluna), Conteúdo (texto, botão, imagem, divisor, social, HTML), Fragmentos, Modelos, Árvore de navegação (hierarquia de estilo DOM do email).
 * **Tela do Centro:** editor do WYSIWYG com visualização móvel e de área de trabalho.
 * **Painel direito:** configurações e estilos do componente selecionado no momento, incluindo propriedades de conteúdo, plano de fundo, borda, preenchimento e personalização.
+
+## Práticas recomendadas de design de email {#design-best-practices}
+
+Seguir as práticas recomendadas do HTML e do CSS ajuda a garantir a renderização consistente entre os clientes de email.
+
+| Abordagem | Orientação |
+| -------- | -------- |
+| **Recomendado** | Layouts estáticos baseados em tabela · Tabelas HTML e tabelas aninhadas · Larguras de modelo de 600 a 800 px · CSS simples em linha · Fontes seguras para a Web |
+| **Use com cuidado** | Imagens de plano de fundo (suporte limitado ao cliente) · Fontes personalizadas da Web (sempre definir uma fonte de fallback) · Layouts com mais de 800 px · Mapas de imagem |
+| **Evitar** | JavaScript, iframes ou Flash · Áudio ou vídeo incorporado · Formulários HTML · Layouts baseados em Div |
+
+>[!NOTE]
+>
+>O conteúdo do email também deve atender aos requisitos de acessibilidade digital aplicáveis. Cabeçalhos de estrutura logicamente, fornecem texto alternativo para todas as imagens e verificam o contraste de cores nos modos claro e escuro.
 
 ## Criar um email a partir de uma jornada {#email-from-journey}
 
@@ -119,7 +137,7 @@ Os modelos são layouts de email reutilizáveis. Eles aceleram a criação de e-
 * **Modelos de exemplo (prontos para uso).** Cerca de 20 modelos prontos que abrangem casos de uso comuns (alcance com base em conta, convites para eventos, criação, anúncios de produtos). Disponível imediatamente para todos os clientes.
 * **Modelos salvos (personalizados).** Modelos criados pela sua equipe — criados do zero em **[!UICONTROL Gerenciamento de conteúdo]** → **[!UICONTROL Modelos]**, ou salvos de um email existente usando a opção &quot;Salvar como modelo&quot;.
 
-### Passo a passo: criar um email com base em um modelo {#create-from-template}
+### Criar um email a partir de um modelo {#create-from-template}
 
 1. No nó de email da jornada, clique em **[!UICONTROL Editar conteúdo]** → **[!UICONTROL Editar corpo do email]**.
 1. Na tela Criar seu email, a guia **[!UICONTROL Modelos de amostra]** é selecionada por padrão.
@@ -130,7 +148,7 @@ Os modelos são layouts de email reutilizáveis. Eles aceleram a criação de e-
 1. Personalizar texto, imagens e links. A estrutura herdada do template pode ser modificada como um email do zero.
 1. Clique em **[!UICONTROL Salvar]** → **[!UICONTROL Voltar]** para retornar às propriedades de email.
 
-### Passo a passo: criar um modelo reutilizável {#create-reusable-template}
+### Criar um modelo reutilizável {#create-reusable-template}
 
 1. Navegue até **[!UICONTROL Gerenciamento de conteúdo]** → **[!UICONTROL Modelos]**.
 1. Clique em **[!UICONTROL Criar modelo]**.
@@ -142,7 +160,7 @@ Os modelos são layouts de email reutilizáveis. Eles aceleram a criação de e-
    * Bloquear componentes específicos — torne os componentes individuais somente leitura quando usados em um email.
 1. Clique em **[!UICONTROL Salvar]**. O modelo agora está disponível para todos os usuários na galeria Modelos salvos.
 
-### Passo a passo: salvar um email como modelo {#save-as-template}
+### Salvar um email como modelo {#save-as-template}
 
 1. Abra um email existente no espaço de design de email.
 1. No menu suspenso **[!UICONTROL Salvar]**, clique em **[!UICONTROL Salvar como modelo]**.
@@ -158,7 +176,7 @@ Os modelos são layouts de email reutilizáveis. Eles aceleram a criação de e-
 
 Um fragmento visual é um bloco de conteúdo reutilizável — um cabeçalho, rodapé, CTA, aviso legal, conjunto de links sociais — que pode ser inserido em muitos emails. Ao atualizar um fragmento, a alteração se propaga automaticamente para cada email que o utiliza. Os fragmentos são a maneira recomendada de aplicar a consistência da marca e centralizar as atualizações de conteúdo.
 
-### Passo a passo: criar um fragmento visual {#create-fragment}
+### Criar um fragmento visual {#create-fragment}
 
 1. Navegue até **[!UICONTROL Gestão de conteúdo]** → **[!UICONTROL Fragmentos]**.
 1. Clique em **[!UICONTROL Criar fragmento]**.
@@ -171,7 +189,7 @@ Um fragmento visual é um bloco de conteúdo reutilizável — um cabeçalho, ro
    * Os autores de email que usam o fragmento podem substituir esses campos sem quebrar a estrutura do fragmento.
 1. Clique em **[!UICONTROL Salvar]**.
 
-### Passo a passo: inserir um fragmento em um email {#insert-fragment}
+### Inserir um fragmento em um email {#insert-fragment}
 
 1. Abra o email no espaço de design de email.
 1. No painel à esquerda, clique em **[!UICONTROL Fragmentos]**.
@@ -199,7 +217,7 @@ O Prime usa a sintaxe Handlebars para personalização. Os tokens são substitu�
 >
 >Somente atributos de perfil estão disponíveis no Editor do Personalization nesta versão.
 
-### Passo a passo: inserir um token de personalização {#insert-token}
+### Inserir um token de personalização {#insert-token}
 
 1. No espaço de design de email (ou na tela de propriedades de email da linha de assunto), clique no campo onde deseja inserir um token.
 1. Clique no ícone de personalização (geralmente rotulado como **[!UICONTROL Abrir caixa de diálogo de personalização]** ou **[!UICONTROL Adicionar expressão]**).
@@ -217,6 +235,18 @@ Use expressões Handlebars como a seguir (a personalização usa a mesma sintaxe
 * **`{{profile.firstName}}, ready to take the next step?`** — Combinar token e texto estático embutido.
 
 Para uma saudação de nome com um fallback quando o valor estiver ausente, use o auxiliar do `default` como mostrado nas etapas de personalização anteriores (por exemplo, nome com padrão `"there"`).
+
+### Handlebars helpers {#handlebars-helpers}
+
+Além de `default`, o editor de personalização inclui auxiliares Handlebars integrados para lógica condicional, transformação de texto e formatação de data. Use o navegador de função do editor para explorar os auxiliares disponíveis e inseri-los com a sintaxe correta.
+
+>[!TIP]
+>
+>No espaço de design de email, digite `{{` diretamente em qualquer campo de texto para acionar uma lista suspensa de preenchimento automático em linha listando os atributos de perfil disponíveis. Não é necessário abrir a caixa de diálogo de personalização completa para inserções rápidas.
+
+### Expressões assistidas por IA {#ai-personalization}
+
+O Assistente de IA no editor de personalização pode gerar expressões Handlebars a partir de uma descrição em linguagem simples, explicar o que uma expressão existente faz e identificar possíveis problemas. Use-a para acelerar a criação de expressões, especialmente para lógica condicional ou auxiliares de formatação de data.
 
 ## Adicionar ativos do Marketo Design Studio {#marketo-assets}
 
@@ -245,29 +275,11 @@ O Prime disponibiliza seus ativos existentes do Marketo Design Studio no espaço
    * Destino do link — tornar a imagem clicável.
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Temas e modo escuro {#themes-dark-mode}
+## Modo escuro {#dark-mode}
 
-### Temas {#themes}
+A renderização no modo escuro tem suporte por meio de consultas de mídia `prefers-color-scheme` CSS. As ferramentas de design de email incluem uma pré-visualização no modo escuro e opções para definir o estilo personalizado para clientes de email, ajudando você a validar se o texto permanece legível, se os logotipos são visíveis e se as cores da marca se mantêm contra planos de fundo escuros.
 
-Um tema é uma predefinição de estilo reutilizável que define cores, tipografia, espaçamento, estilos de botão e divisores. Aplique um tema a um email para aplicar instantaneamente o estilo da marca em cada componente.
-
-Para aplicar ou editar temas:
-
-1. No espaço de design de email, clique em **[!UICONTROL Temas]** (na barra de ferramentas superior ou no painel direito, dependendo da sua exibição).
-1. Escolha **[!UICONTROL Aplicar tema]** para selecionar um tema existente, ou **[!UICONTROL Criar novo tema]** para definir uma paleta de marcas.
-1. Personalizar cores, fontes e estilos no nível do componente. Ambas as variantes claras/escuras são compatíveis.
-1. Aplicar globalmente; as substituições locais por componente permanecem possíveis.
-1. Alterne o tema posteriormente para uma nova marca sem ter que criar novamente.
-
-### Modo escuro {#dark-mode}
-
-A renderização no modo escuro tem suporte por meio de consultas de mídia `prefers-color-scheme` CSS. As ferramentas de design de email incluem uma visualização em modo escuro por cliente de email para ajudar os autores a validar se o texto permanece legível, se os logotipos não desaparecem e se as cores da marca se mantêm contra planos de fundo escuros.
-
-Para visualizar o modo escuro, clique no botão de alternância modo escuro nos controles de visualização da tela de desenho.
-
->[!TIP]
->
->Armadilhas comuns no modo escuro: logotipos escuros desaparecendo em planos de fundo escuros, texto de baixo contraste e cores invertidas em imagens transparentes. Sempre visualize o email no modo escuro antes de salvar a versão final.
+Para obter orientações detalhadas sobre visualização, definição de configurações personalizadas do modo escuro, suporte a clientes de email e práticas recomendadas de teste, consulte [Modo escuro para conteúdo de email](./email-dark-mode.md).
 
 ## Validação de conteúdo de email {#validation}
 
@@ -285,7 +297,7 @@ Antes de ativar a jornada, o conteúdo do email deve ser válido. O Prime exibe 
 | **Token de personalização não resolvido** | Um token Handlebars faz referência a um atributo de perfil sem fallback e o atributo pode estar ausente para alguns destinatários. | Adicione um fallback usando o auxiliar Handlebars `default`, conforme descrito em [Personalization](#personalization). Como alternativa, restrinja o público-alvo da jornada aos perfis em que o atributo é garantido. |
 | **Imagem não carregada** | Um componente de imagem faz referência a um ativo que não está mais disponível. | Clique na imagem, abra o seletor de ativos e selecione novamente o ativo no Marketo Design Studio. |
 
-### Passo a passo: revisar e resolver alertas {#resolve-alerts}
+### Revisar e resolver alertas {#resolve-alerts}
 
 1. Abra a jornada que contém o nó de email. Os nós de email com alertas não resolvidos são sinalizados com um emblema vermelho na tela.
 1. Clique no nó email para abrir o painel de propriedades.
