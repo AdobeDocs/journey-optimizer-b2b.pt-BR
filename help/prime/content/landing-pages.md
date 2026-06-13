@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
 workflow-type: tm+mt
 source-wordcount: 1461
 ht-degree: 6%
@@ -137,16 +137,6 @@ As edições em uma landing page dependem do status atual:
 
 1. Para fazer alterações no conteúdo do espaço de design visual, clique em **[!UICONTROL Editar página de aterrissagem]**.
 
-   <!-- 
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes da página de aterrissagem.
 
 1. Quando a página atender aos seus critérios e você desejar disponibilizá-la para exibição, clique em **[!UICONTROL Publicar]**.
@@ -165,18 +155,6 @@ As edições em uma landing page dependem do status atual:
 
    Clique em **[!UICONTROL Criar versão de rascunho]** na caixa de diálogo para abrir a versão de rascunho no espaço de design visual.
 
-   <!-- 
-   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes da página de aterrissagem.
 
 1. Quando a landing page de rascunho atender aos seus critérios e você quiser disponibilizar as alterações na página publicada, clique em **[!UICONTROL Publicar]**.
@@ -192,18 +170,6 @@ Ao abrir a landing page, a versão de rascunho é exibida. As guias na parte sup
 Para atualizar o conteúdo:
 
 1. Clique em **[!UICONTROL Editar página de aterrissagem]** na parte superior direita.
-
-   <!--
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-
-   -->
 
 1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e fechar]** para retornar aos detalhes da página de aterrissagem.
 
