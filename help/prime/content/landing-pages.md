@@ -13,16 +13,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
+source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
-source-wordcount: 1461
-ht-degree: 6%
+source-wordcount: 2180
+ht-degree: 4%
 
 ---
 
 # Páginas de destino
 
-Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas nas jornadas da conta para que seus clientes potenciais e clientes visualizem suas mensagens na Web, além de avançar nas jornadas da conta. Você pode criar, personalizar e visualizar páginas de aterrissagem no espaço de design visual da página de aterrissagem.
+Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas em suas jornadas para que seus clientes potenciais e de terceiros visualizem suas mensagens na Web e avancem com suas jornadas. Você pode criar, personalizar e visualizar páginas de aterrissagem no espaço de design visual da página de aterrissagem.
 
 Casos de uso comuns para landing pages:
 
@@ -40,7 +40,7 @@ To direct members of a journey audience to a defined web page when they click a 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
 1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
-1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
+1. [Test the landing page](./landing-pages-create.md) - Preview the page, test form behavior, and then publish to make it live.
 1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
 
@@ -49,15 +49,15 @@ For example, you can create and design landing pages to direct your users to onl
 You can create, personalize, and preview landing pages in the visual design space.
 -->
 
-## Acessar e gerenciar páginas de destino
+## Acessar e gerenciar páginas de destino {#access-manage-landing-pages}
 
 Para acessar páginas de aterrissagem no Journey Optimizer B2B Prime, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Páginas de aterrissagem]**. Essa ação exibe uma lista de todas as landing pages criadas na instância.
 
 A lista é classificada de acordo com a coluna _[!UICONTROL Modificado]_, com os itens atualizados mais recentes no topo. Clique no título da coluna para alterar entre crescente e decrescente.
 
-### Filtrar a lista de páginas de destino
+### Filtrar a lista de páginas de destino {#filter-list}
 
-Para procurar uma página de aterrissagem por nome, digite uma string de texto na barra de pesquisa para uma correspondência. Clique no ícone _Filtro_ <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) --> para mostrar as opções de filtro disponíveis e alterar as configurações para filtrar os itens exibidos de acordo com seus critérios especificados.
+Para procurar uma página de aterrissagem por nome, digite uma string de texto na barra de pesquisa para uma correspondência. Clique no ícone _Filtro_ ( ![Ícone Mostrar ou ocultar filtros](../../user/assets/do-not-localize/icon-filter.svg) ) para mostrar as opções de filtro disponíveis e alterar as configurações para filtrar os itens exibidos de acordo com seus critérios especificados.
 
 ![Filtrar as páginas de aterrissagem exibidas](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
@@ -71,15 +71,15 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 ![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
 -->
 
-### Status e ciclo de vida da página de destino
+### Status e ciclo de vida da página de destino {#landing-page-status}
 
 O status da landing page determina a disponibilidade para vinculação no conteúdo de email e SMS e as alterações que você pode fazer nela.
 
 | Status | Descrição |
 | -------------------- | ----------- |
-| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Editar no espaço de design visual<li>Publicação<li>Duplicar<li>Excluir |
-| Publicado | Ao publicar uma landing page, ela é hospedada na instância do Journey Optimizer B2B Prime e fica disponível para vinculação em um conteúdo de mensagem de email ou SMS. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Criar versão de rascunho<li>Duplicar<li>Excluir |
-| Publicado com rascunho | Ao criar um rascunho de uma página de aterrissagem publicada, a versão publicada permanece e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado na página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição<li>Editar URL do link<li>Adicionar link no conteúdo do email ou da mensagem SMS<li>Editar versão de rascunho no espaço de design visual<li>Publicar versão de rascunho<li>Duplicar<li>Excluir (exclui ambas as versões)<li>Descartar rascunho (retorna ao status publicado) |
+| Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição</li><li>Editar URL do link</li><li>Editar no espaço de design visual</li><li>Publicação</li><li>Duplicar</li><li>Excluir</li></ul> |
+| Publicado | Ao publicar uma landing page, ela é hospedada na instância do Journey Optimizer B2B Prime e fica disponível para vinculação em um conteúdo de mensagem de email ou SMS. Ações disponíveis:<br/><ul><li>Editar nome ou descrição</li><li>Editar URL do link</li><li>Adicionar link no conteúdo do email ou da mensagem SMS</li><li>Criar versão de rascunho</li><li>Duplicar</li><li>Excluir</li></ul> |
+| Publicado com rascunho | Ao criar um rascunho de uma página de aterrissagem publicada, a versão publicada permanece e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado na página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição</li><li>Editar URL do link</li><li>Adicionar link no conteúdo do email ou da mensagem SMS</li><li>Editar versão de rascunho no espaço de design visual</li><li>Publicar versão de rascunho</li><li>Duplicar</li><li>Excluir (exclui ambas as versões)</li><li>Descartar rascunho (retorna ao status publicado)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
 
@@ -90,7 +90,46 @@ O status da landing page determina a disponibilidade para vinculação no conte�
 >title="Definir e configurar a página de destino"
 >abstract="Para criar uma página de destino, você precisa selecionar uma predefinição, configurar a página principal e as subpáginas e, por fim, testar a página antes de publicá-la."
 
-A ser definido
+Para direcionar membros de um público-alvo da jornada de pessoas para uma página da Web definida quando clicarem em um link específico, crie uma página de aterrissagem no [!DNL Journey Optimizer B2B Prime]. Você seleciona uma predefinição, configura a página principal e todas as subpáginas, [testa a página](#test-landing-page) e a publica.
+
+>[!IMPORTANT]
+>
+>Antes de criar sua primeira landing page, conclua a configuração da landing page. Isso inclui configurar um subdomínio para hospedar suas páginas de aterrissagem e definir pelo menos uma predefinição que especifique o subdomínio e outras configurações de canal. Selecione uma predefinição ao criar a landing page. Para obter a configuração do administrador, consulte [Configuração da página de aterrissagem](../admin/configuration-presets-landing-pages.md).
+>
+>Para casos de uso de captura de dados, crie um [formulário](./forms.md) antes de incorporá-lo a uma página de aterrissagem.
+
+Para criar uma landing page, siga estas etapas:
+
+1. Vá para a navegação à esquerda e selecione **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Páginas de aterrissagem]**.
+
+1. Na lista de páginas de aterrissagem, clique em **[!UICONTROL Criar página de aterrissagem]**.
+
+1. Insira um **[!UICONTROL Título]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
+
+   Critérios de título e descrição:
+
+   * **Título** — Máximo de 100 caracteres. Deve ser exclusivo (não diferencia maiúsculas de minúsculas).
+   * **Descrição** — Máximo de 300 caracteres.
+   * São permitidos caracteres Alpha, numéricos e especiais.
+   * Os caracteres reservados **_não são permitidos_**: `\ / : * ? " < > |`
+
+1. Selecione uma **[!UICONTROL Predefinição]**.
+
+   Um administrador [cria predefinições de página de aterrissagem](../admin/configuration-presets-landing-pages.md#lp-presets) para definir o subdomínio e outras configurações usadas para páginas de aterrissagem. Selecione uma predefinição e clique em **[!UICONTROL Exibir predefinição]** para revisar suas configurações e confirmar se elas correspondem aos requisitos da página de aterrissagem.
+
+1. Clique em **[!UICONTROL Criar]**.
+
+   A página principal e suas propriedades são exibidas. Saiba como [definir as configurações da página principal](#configure-primary-page).
+
+1. Para adicionar uma subpágina (por exemplo, uma página de agradecimento ou de erro), clique no ícone **+**.
+
+   É possível adicionar até duas subpáginas por página de aterrissagem.
+
+Depois de configurar e projetar a página principal e quaisquer subpáginas, [teste sua página de aterrissagem](#test-landing-page) antes de publicá-la.
+
+>[!CAUTION]
+>
+>Você não pode acessar sua landing page copiando e colando o URL definido em um navegador da Web, mesmo que a página seja publicada. Teste a página usando a função de visualização conforme descrito em [Testar a página de aterrissagem](#test-landing-page).
 
 ## Configurar a página principal {#configure-primary-page}
 
@@ -104,7 +143,30 @@ A ser definido
 >title="Definir o URL da página de destino"
 >abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL exige a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
 
-A ser definido
+A página principal é a página imediatamente exibida quando um recipient clica no link da página de aterrissagem, como de um email ou site.
+
+Para definir as configurações da página principal, siga estas etapas:
+
+1. Altere o **[!UICONTROL Nome da página]** de acordo com suas necessidades, que é a _Página principal_ por padrão.
+
+1. Defina a parte final do URL da página.
+
+   A predefinição selecionada determina a primeira parte do URL. Um administrador configura o [subdomínio da página de aterrissagem](../admin/configuration-presets-landing-pages.md#lp-subdomains) como parte da predefinição.
+
+   >[!CAUTION]
+   >
+   >O URL da landing page deve ser exclusivo.
+   >
+   >Você não pode acessar sua landing page copiando e colando esse URL em um navegador da Web, mesmo que a página seja publicada. Teste-o usando a função de visualização, conforme descrito em [Testar a página de aterrissagem](#test-landing-page).
+
+1. Se quiser uma página de aterrissagem anônima, desabilite a opção **[!UICONTROL Requer usuários identificados]**.
+
+1. Clique no ícone _Calendário_ para definir a **[!UICONTROL Expiração da página]**.
+
+   Após selecionar uma data de expiração, escolha a ação após a expiração da página:
+
+   * **[!UICONTROL URL de redirecionamento]** - Digite a URL da página para usar como redirecionamento.
+   * **[!UICONTROL Erro do navegador]** - Digite o texto do erro a ser exibido no lugar da página.
 
 ## Testar a página de destino {#test-landing-page}
 
@@ -113,9 +175,39 @@ A ser definido
 >title="Visualizar e testar a página de destino"
 >abstract="Depois de definir as configurações e o conteúdo da página de aterrissagem, use perfis de teste para visualizar a página."
 
-A ser definido
+Quando as configurações e o conteúdo da landing page são definidos, você pode usar perfis de teste para visualizar a página. Se você inseriu [conteúdo personalizado](email-authoring.md#personalization), é possível verificar como esse conteúdo é exibido na página de aterrissagem usando os dados do perfil de teste.
 
-## Editar uma landing page
+>[!PREREQUISITES]
+>
+>Para visualizar e testar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Publicar mensagens]** e um conjunto de dados definido que contenha perfis de teste.
+
+1. Clique em **[!UICONTROL Visualizar e testar]** para abrir a seleção de perfil de teste.
+
+   >[!NOTE]
+   >
+   >Você também pode usar **[!UICONTROL Simular conteúdo]** quando estiver no espaço de design visual.
+
+1. Na tela _[!UICONTROL Simular]_, selecione um perfil de teste.
+
+   Se os perfis necessários não estiverem listados, clique em **[!UICONTROL Gerenciar perfis de teste]** para usar um endereço de email de perfil de teste conhecido e adicioná-lo à lista.
+
+   +++Adicionar perfis de teste
+
+   Para o **[!UICONTROL Namespace de identidade]**, clique no ícone _Selecionar_ ( ![Selecionar ícone](../../user/assets/do-not-localize/icon-select-data.svg) ) e escolha o namespace `Email` a ser usado para testar perfis.
+
+   No campo **[!UICONTROL Valor de identidade]**, insira o endereço de email para identificar o perfil de teste e clique em **[!UICONTROL Adicionar perfil]**. Você pode repetir isso para adicionar vários perfis.
+
+   Clique na seta para trás na parte superior esquerda para retornar à página _[!UICONTROL Simular]_.
+
+   +++
+
+1. Selecione **[!UICONTROL Abrir visualização]** para testar a página de aterrissagem.
+
+   A pré-visualização da landing page é aberta em uma nova guia. Os dados do perfil de teste selecionado substituem os elementos personalizados.
+
+1. Selecione outros perfis de teste para visualizar a renderização de cada variante da página de aterrissagem.
+
+## Editar uma landing page {#edit-landing-page}
 
 As edições em uma landing page dependem do status atual:
 
@@ -179,7 +271,7 @@ Para atualizar o conteúdo:
 
 >[!ENDTABS]
 
-## Duplicação de uma landing page
+## Duplicação de uma landing page {#duplicate-landing-page}
 
 É possível duplicar uma landing page usando um dos seguintes métodos:
 
@@ -194,7 +286,7 @@ Na caixa de diálogo, digite um nome útil (exclusivo) e uma descrição (opcion
 
 A página duplicada (nova) aparece na listagem _Landing pages_.
 
-## Excluir uma página de destino
+## Excluir uma página de destino {#delete-landing-page}
 
 É possível excluir uma landing page usando um dos seguintes métodos:
 
@@ -205,7 +297,7 @@ Essa ação abre uma caixa de diálogo de confirmação. Você pode anular o pro
 
 <!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
 
-## Link para uma landing page
+## Link para uma landing page {#link-to-landing-page}
 
 Como profissional de marketing ou criador que produz conteúdo de email, fragmento e página, você pode incorporar links às páginas de aterrissagem publicadas (ativas) criadas na instância do Journey Optimizer B2B Prime.
 
@@ -217,7 +309,7 @@ Como profissional de marketing ou criador que produz conteúdo de email, fragmen
 
    <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. Para a opção **[!UICONTROL Página de aterrissagem]**, clique no ícone <!-- ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) --> da _Página de seleção_.
+1. Na opção **[!UICONTROL Página de aterrissagem]**, clique no ícone _Selecionar página_ ( ![Ícone Mostrar links](../../user/assets/do-not-localize/icon-landing-page-select.svg) ).
 
 1. Na caixa de diálogo Selecionar página de aterrissagem, defina a **[!UICONTROL Origem da página de aterrissagem]** como **[!UICONTROL Journey Optimizer B2B edition]**, marque a caixa de seleção da página de aterrissagem na lista de páginas publicadas e clique em **[!UICONTROL Selecionar]**.
 

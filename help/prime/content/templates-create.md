@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +41,8 @@ Você pode criar um modelo de email no [!DNL Journey Optimizer B2B Edition Prime
    >
    >Nesta versão do Beta, somente os modelos de email são compatíveis.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Clique em **[!UICONTROL Criar]** para abrir o espaço de design de email.
 
 1. Clique em **[!UICONTROL Editar corpo do email]** para acessar o espaço de design de conteúdo.
@@ -99,7 +100,8 @@ Antes de começar:
 1. Insira um **[!UICONTROL Nome do modelo]** e uma **[!UICONTROL Descrição]** opcional.
 1. Defina o **[!UICONTROL Canal]** como Email.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Clique em **[!UICONTROL Criar]**.
 
 ### Gerar o conteúdo do modelo

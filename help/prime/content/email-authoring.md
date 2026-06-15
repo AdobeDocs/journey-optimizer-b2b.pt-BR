@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 1%
 
 ---
@@ -34,17 +34,15 @@ No [!DNL Journey Optimizer B2B Prime], cada email está associado a uma ação _
 
 Essa ação inicia o espaço de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
-* [Crie o email do zero](#design-your-email-from-scratch) usando a interface de design visual. Crie o componente de layout de email por componente usando a função arrastar e soltar em uma tela em branco. Esse método é melhor para criar novos modelos ou emails únicos.
+* [Crie o email do zero](#build-from-scratch) usando a interface de design visual. Crie o componente de layout de email por componente usando a função arrastar e soltar em uma tela em branco. Esse método é melhor para criar novos modelos ou emails únicos.
 
-* [Importe o HTML](#html) para o editor de código ou trabalhe lado a lado com a tela visual.
+* Importe o HTML para o editor de código ou trabalhe lado a lado com a tela visual. O fluxo de trabalho completo de importação do HTML com uploads de .html e .zip está no roteiro do Beta.
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [Selecione um modelo existente](#select-a-template) em uma lista de modelos de email predefinidos ou personalizados. Esse método é mais adequado para casos de uso de email repetíveis.
+* [Selecione um modelo existente](#create-from-template) em uma lista de modelos de email predefinidos ou personalizados. Esse método é mais adequado para casos de uso de email repetíveis.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## Ferramentas de design de email
+## Ferramentas de design de email {#email-design-tools}
 
 * **Barra de ferramentas superior:** Salvar, Voltar, Alternar para o editor de código, controles de visualização.
 * **Painel esquerdo:** Estruturas (layouts de coluna), Conteúdo (texto, botão, imagem, divisor, social, HTML), Fragmentos, Modelos, Árvore de navegação (hierarquia de estilo DOM do email).
@@ -140,7 +138,7 @@ O pré-cabeçalho é o trecho de texto exibido após a linha de assunto nas visu
 
 Os modelos são layouts de email reutilizáveis. Eles aceleram a criação de e-mails, reforçam a consistência da marca e facilitam a colaboração em equipe.
 
-### Tipos de modelo
+### Tipos de modelo {#template-types}
 
 * **Modelos de exemplo (prontos para uso).** Cerca de 20 modelos prontos que abrangem casos de uso comuns (alcance com base em conta, convites para eventos, criação, anúncios de produtos). Disponível imediatamente para todos os clientes.
 * **Modelos salvos (personalizados).** Modelos criados pela sua equipe — criados do zero em **[!UICONTROL Gerenciamento de conteúdo]** → **[!UICONTROL Modelos]**, ou salvos de um email existente usando a opção &quot;Salvar como modelo&quot;.
@@ -214,7 +212,7 @@ Um fragmento visual é um bloco de conteúdo reutilizável — um cabeçalho, ro
 
 O Prime usa a sintaxe Handlebars para personalização. Os tokens são substituídos no momento do envio por valores dos dados de perfil de cada recipient.
 
-### Onde você pode personalizar
+### Onde você pode personalizar {#where-you-can-personalize}
 
 * **Linha de assunto** — ponto de personalização mais comum.
 * **Pré-cabeçalho** — definido dentro da tela visual; oferece suporte a tokens de atributos de perfil.

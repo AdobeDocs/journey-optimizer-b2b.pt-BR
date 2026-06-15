@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
+source-wordcount: 541
 ht-degree: 10%
 
 ---
@@ -65,7 +65,7 @@ Ao criar uma predefinição:
    * _Conexão de destino_ - onde os dados são armazenados ou consumidos.
    * _Fluxo do Source_ - o pipeline que move dados da conexão de origem para o Experience Platform. Ela lida com mapeamento, transformação e validação.
 
-## Criar uma predefinição de formulário
+## Criar uma predefinição de formulário {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +96,7 @@ Ao criar uma predefinição:
 
    Essa conexão é o ponto de extremidade de transmissão usado para enviar os dados quando um visualizador da Web envia um formulário. Se a conexão de transmissão necessária não for exibida na lista, verifique se os requisitos foram atendidos.
 
-1. Clique no ícone _Selecionar conjunto de dados_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) --> para vincular um conjunto de dados ao formulário.
+1. Clique no ícone _Selecionar conjunto de dados_ ( ![Selecionar ícone do conjunto de dados](../../user/assets/do-not-localize/icon-select-data.svg) ) para vincular um conjunto de dados ao formulário.
 
    O conjunto de dados é onde as respostas do formulário são armazenadas e refletidas. Você pode inserir uma string de texto para procurar um conjunto de dados específico ou selecioná-lo na lista.
 
@@ -104,7 +104,7 @@ Ao criar uma predefinição:
 
    >[!NOTE]
    >
-   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. Um conjunto de dados pode ser selecionado de cada vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
+   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. É possível selecionar um conjunto de dados por vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
 
    Marque a caixa de seleção do conjunto de dados e clique em **[!UICONTROL Selecionar]**.
 

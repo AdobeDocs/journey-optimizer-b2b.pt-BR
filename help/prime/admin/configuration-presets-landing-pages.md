@@ -15,7 +15,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
 ht-degree: 8%
@@ -249,7 +249,9 @@ Clique em qualquer nome de predefinição para acessar os detalhes da predefini�
 
    As configurações correspondentes ao subdomínio selecionado são exibidas.
 
-1. Você pode selecionar o subdomínio da página de aterrissagem para a **[!UICONTROL URL de Acompanhamento]** marcando a opção **[!UICONTROL Igual ao subdomínio da página de aterrissagem]**.<!-- [Learn more about tracking](../email/message-tracking.md) -->
+1. Você pode selecionar o subdomínio da página de aterrissagem para a **[!UICONTROL URL de rastreamento]** marcando a opção **[!UICONTROL Igual ao subdomínio da página de aterrissagem]**.
+
+   <!-- [Learn more about tracking](../email/message-tracking.md) -->
 
    <!-- ![Landing page preset with subdomain settings](./assets/config-channels-landing-pages-preset-subdomain-settings.png){width="500" zoomable="yes"} -->
 
