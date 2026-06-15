@@ -4,17 +4,11 @@ description: Saiba como criar modelos de email no Journey Optimizer B2B Prime �
 badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
 autotag-review: '2026-06-12T22:55:41.432Z'
 TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +35,8 @@ Você pode criar um modelo de email no [!DNL Journey Optimizer B2B Edition Prime
    >
    >Nesta versão do Beta, somente os modelos de email são compatíveis.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Clique em **[!UICONTROL Criar]** para abrir o espaço de design de email.
 
 1. Clique em **[!UICONTROL Editar corpo do email]** para acessar o espaço de design de conteúdo.
@@ -99,7 +94,8 @@ Antes de começar:
 1. Insira um **[!UICONTROL Nome do modelo]** e uma **[!UICONTROL Descrição]** opcional.
 1. Defina o **[!UICONTROL Canal]** como Email.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Clique em **[!UICONTROL Criar]**.
 
 ### Gerar o conteúdo do modelo
