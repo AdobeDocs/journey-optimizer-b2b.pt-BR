@@ -105,7 +105,7 @@ Há vários aspectos a serem considerados antes de começar a criar formulários
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Você pode criar um formulário no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista do _[!UICONTROL Forms]_.
