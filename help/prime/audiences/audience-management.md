@@ -3,25 +3,18 @@ title: Gerenciamento de público-alvo
 description: Página de espaço reservado para públicos-alvo.
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 4%
+source-wordcount: 474
+ht-degree: 3%
 
 ---
 
 # Gerenciamento de públicos-alvo
-
-Como os públicos-alvo são reproduzidos no AJO B2B Prime?
 
 No hub de Gerenciamento de marketing, clique em **[!UICONTROL Listas de pessoas]** na navegação à direita.
 
@@ -74,9 +67,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## Criar uma lista de pessoas
 
 
-Para criar uma nova lista dinâmica ou estática:
+Para criar uma lista dinâmica ou estática:
 
-1. Clique em **Criar lista** na parte superior direita da página _[!UICONTROL Listas de pessoas]_.
+1. Clique em **[!UICONTROL Criar lista]** na parte superior direita da página _[!UICONTROL Listas de pessoas]_.
 1. Selecione um programa como **[!UICONTROL Pai]** para a lista.
 1. Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** da lista (opcional).
 1. Escolha e liste **[!UICONTROL Type]**:
@@ -93,6 +86,10 @@ Para criar uma nova lista dinâmica ou estática:
 ## Listas estáticas
 
 A associação de lista estática é definida por filtros simples que fazem referência a atributos e atividades de pessoas. A associação não é alterada, a menos que você qualifique ou desqualifique membros manualmente.
+
+>[!NOTE]
+>
+>As definições de filtro de Lista Estática são aplicadas apenas uma vez quando você adiciona ou remove membros da lista. O filtro definido não fica disponível posteriormente. Se quiser manter uma definição de público-alvo consistente usando filtros, use uma lista dinâmica.
 
 ### Adicionar membros
 

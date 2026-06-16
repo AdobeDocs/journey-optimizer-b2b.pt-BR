@@ -1,0 +1,36 @@
+---
+title: Nó de Jornada de público-alvo de pessoa
+description: Página de espaço reservado para jornadas de pessoas.
+autotag-review: '2026-06-16T21:21:01.614Z'
+TQID: 'https://experienceleague.adobe.com/pk1NGg3M67oRieuCOZFdaguKl2bVkiZyEPVnJDTUBJs'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46bid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+workflow-type: tm+mt
+source-wordcount: 212
+ht-degree: 0%
+
+---
+
+# Nó de público-alvo de pessoa
+
+O nó _person audience_ especifica quais perfis de pessoa entram na jornada. Quando você [cria uma jornada de pessoa](./person-journeys.md), a jornada sempre começa com um nó de público-alvo de pessoa que define sua entrada. O nó de público-alvo pessoa pode ter um dos dois tipos de entrada de público-alvo: uma lista estática de pessoas ou uma lista dinâmica de pessoas.
+
+Se a lista de pessoas necessária para a jornada de pessoas ainda não existir, [crie a lista de pessoas](../audiences/audience-management.md#create-a-people-list) e configure o nó de público-alvo Pessoa.
+
+## Definir o público do nó de público-alvo pessoa
+
+1. Clique no nó **[!UICONTROL Público-alvo de pessoa]**.
+
+   Essa ação exibe as propriedades do nó à direita.
+
+   <!-- ![Person audience journey node](./assets/person-journey-person-audience-node.png){width="700" zoomable="yes"} -->
+
+1. No painel de propriedades do nó à direita, use uma das seguintes opções de entrada para o nó de jornada do público-alvo de pessoa:
+
+   * **[!UICONTROL Lista dinâmica]** - Use uma lista dinâmica de pessoas baseada em regras. As regras de lista são avaliadas no tempo de execução da jornada para qualificar membros da jornada. As pessoas que depois se desqualificam para a lista dinâmica não são removidas da jornada.
+
+   * **[!UICONTROL Lista estática]** - Use uma lista estática de pessoas como membro da sua jornada. A associação de lista atual é avaliada no tempo de execução da jornada para qualificar membros para a jornada. As pessoas removidas posteriormente da lista estática não são removidas da jornada.
+

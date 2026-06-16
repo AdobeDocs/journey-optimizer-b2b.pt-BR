@@ -2,10 +2,10 @@
 user-guide-title: Documentação do Journey Optimizer B2B Prime
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B edition Prime e como usá-lo para ?.
 hide: true
-source-git-commit: 5342db511380b4aedcbbd5798800d3900e03045c
+source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 37%
+source-wordcount: '116'
+ht-degree: 38%
 
 ---
 
@@ -15,18 +15,19 @@ ht-degree: 37%
 + [Documentação do Adobe Journey Optimizer B2B Prime](guide-overview.md)
 + [Configuração](./start/setup-prime.md)
 + [Página inicial e insights](./home-insights/home-insights.md)
++ [Agentes](./agents/agents.md)
 + Gerenciamento de marketing {#marketing-management}
    + {hide-from-toc}[Visão geral](./marketing/marketing-management.md)
    + [Programas](./marketing/programs.md)
    + [Jornadas de pessoas](./marketing/person-journeys.md)
    + Nós de jornada {#journey-nodes}
       + [Visão geral dos nós](./marketing/person-journey-nodes.md)
+      + [Público-alvo de pessoa](./marketing/person-audience-node.md)
       + [Realizar uma ação](./marketing/action-nodes.md)
       + [Acompanhar um evento](./marketing/listen-for-event-nodes.md)
       + [Aguardar](./marketing/wait-nodes.md)
       + [Dividir e mesclar caminhos](./marketing/split-merge-paths-nodes.md)
       + [Próximo caminho recomendado](./marketing/next-best-path.md)
-+ [Agentes](./agents/agents.md)
 + Públicos-alvo {#audiences}
    + [Gerenciamento de públicos-alvo](./audiences/audience-management.md)
    + [Qualificação dinâmica do público](./audiences/dynamic-audience-qualification.md)
