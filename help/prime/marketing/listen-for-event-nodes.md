@@ -14,13 +14,38 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
 workflow-type: tm+mt
-source-wordcount: 12
-ht-degree: 16%
+source-wordcount: 165
+ht-degree: 11%
 
 ---
 
 # Ouvir um nó de evento
 
-TBD
+Adicione o nó _Ouvir um evento_ para mover o público-alvo para a próxima etapa da jornada quando ocorrer um evento.
+
+## Filtros de evento de pessoas
+
+| Filtros | Descrição |
+| ------- | ----------- |
+| Histórico de atividades > Email | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas: <li>Clicou em um link no email <li>Email aberto |
+| Histórico de atividades > Valor de dados alterado | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor <li>Valor anterior <li>Motivo <li>Fonte <li>Data da atividade <li> Número número de vezes |
+
+## Adicionar um nó de evento
+
+1. Navegue até o mapa de jornadas.
+
+1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Ouvir um evento]**.
+
+1. Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o tipo de evento.
+
+   <!-- ![Journey node - listen to events on people](./assets/node-listen-events-people.png){width="700" zoomable="yes"} -->
+
+1. Selecione um evento na lista.
+
+1. Clique em **[!UICONTROL Editar evento]** e defina os detalhes do evento.
+
+>[!NOTE]
+>
+>No momento, a funcionalidade de tempo limite do Listen para um nó de evento não funciona e será ativada em uma fase posterior.

@@ -1,6 +1,6 @@
 ---
 title: Jornadas de pessoas
-description: Página de espaço reservado para jornadas de pessoas.
+description: Criar, publicar e gerenciar jornadas de pessoas no Journey Optimizer B2B edition Prime - navegue pela lista de jornadas, crie fluxos de várias etapas e duplique ou exclua jornadas.
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
 product_v2:
@@ -12,79 +12,106 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 1426
 ht-degree: 21%
 
 ---
 
 # Jornadas de pessoas
 
-No Journey Optimizer B2B edition Prime, as jornadas pessoais são planos de marketing automatizados com base em clientes potenciais em várias etapas, usando dados do Marketo Engage que orquestram experiências personalizadas em canais em resposta a engajamento, eventos comerciais ou campanhas programadas.
+No [!DNL Adobe Journey Optimizer B2B Edition Prime], as jornadas pessoais são planos de marketing automatizados, baseados em clientes potenciais em várias etapas, que orquestram experiências personalizadas entre canais. Essas jornadas usam dados do Marketo Engage para executar esses planos de marketing em resposta a engajamento, eventos comerciais ou campanhas programadas.
 
-Para começar a usar a jornada em primeira pessoa:
+>[!NOTE]
+>
+>Cada jornada reside em um [programa](./programs.md) definido. Você deve ter pelo menos um programa para usar como pai antes de criar uma jornada.
 
-1. Criar uma jornada de pessoa.
+_Para criar uma nova jornada de pessoa :_
+
+1. Crie a jornada de pessoa.
 1. Adicione os nós e defina o fluxo da jornada no mapa de jornadas.
-1. Publique a jornada.
+1. [Publique a jornada](#publish-a-journey).
 
-## Acessar e procurar jornadas de pessoas
+## Acessar e procurar jornadas de pessoas {#access-and-browse-person-journeys}
 
-Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de marketing]** e selecione **[!UICONTROL jornadas de pessoa]**.
+1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de marketing]**.
 
-Você pode digitar texto na ferramenta _Pesquisa_ na parte superior da lista para filtrar a lista exibida por nome.
+1. À direita na lista de recursos de **[!UICONTROL Marketing]**, selecione **[!UICONTROL jornadas de pessoas]**.
 
-### Jornada colunas da lista
+   A lista _jornadas de pessoas_ é exibida como uma página com guias no espaço de trabalho principal.
+
+   Você pode digitar texto na ferramenta _Pesquisa_ na parte superior da lista para filtrar a lista exibida por nome.
+
+   ![Lista de jornadas da pessoa](./assets/person-journeys-list-search.png){width="800" zoomable="yes"}
+
+1. Use as ferramentas de lista para personalizar a lista exibida:
+
+   * Clique no ícone _Filtro_ ( ![Ícone Filtro](../../assets/do-not-localize/icon-react-filter.svg) ) para filtrar a lista por status.
+   * Clique no ícone _Personalizar tabela_ ( ![Personalizar ícone de tabela](../../assets/do-not-localize/icon-falco-customize-table.svg) ) para controlar as colunas exibidas.
+   * Clique no ícone _Redefinir colunas_ ( ![Redefinir ícone de largura da coluna](../../assets/do-not-localize/icon-falco-reset-columns.svg) ) para redefinir as larguras da coluna.
+
+### Jornada colunas da lista {#journey-list-columns}
 
 A página Lista de jornadas inclui as seguintes colunas:
 
-Nome (clique no nome para abrir o mapa de jornadas para edição)
-Status
-Data de criação
-Criado por
-Última atualização
-Última atualização por
-Publicado em
-Publicado por
-Data inicial
-Data final
+* [!UICONTROL Nome] (clique no nome para abrir o mapa de jornadas para edição)
+* [!UICONTROL Status]
+* [!UICONTROL Data de criação]
+* [!UICONTROL Criado por]
+* [!UICONTROL Última atualização]
+* [!UICONTROL Última atualização por]
+* [!UICONTROL Publicado em]
+* [!UICONTROL Publicado por]
+* [!UICONTROL Data de início]
+* [!UICONTROL Data final]
 
-Você pode classificar a lista por Status, Data de criação ou Última atualização clicando no cabeçalho da coluna.
+Você pode classificar a lista por _[!UICONTROL Status]_, _[!UICONTROL Data de criação]_ ou _[!UICONTROL Última atualização]_ clicando no cabeçalho da coluna. Você pode segurar e arrastar as bordas de cabeçalho para alterar as larguras de coluna exibidas. Na caixa de diálogo _Personalizar tabela_, marque ou desmarque as caixas de seleção e clique em **[!UICONTROL Aplicar]**.
 
-Para personalizar (mostrar/ocultar) as colunas exibidas na tabela, clique no ícone Personalizar tabela ( ) no canto superior direito. Marque ou desmarque as caixas de seleção na caixa de diálogo e clique em Aplicar.
+### Status da jornada {#journey-status}
 
-### Status da jornada
-
-O status de uma jornada pode mudar com base nas ações que você aplica. Com base no status de uma jornada, certas ações estão/não estão disponíveis no lado direito do cabeçalho.
+O status de uma jornada pode mudar com base nas ações que você aplica. Com base no status de uma jornada, determinadas ações estão disponíveis no lado direito do cabeçalho.
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| Rascunho | Uma jornada não publicada que é editável. | <li>Publicar <li>Duplicar <li>Excluir |
-| Ativo | O status da jornada muda de Rascunho para Em tempo real quando uma jornada é publicada. Nesse estado, ela não é mais editável. | <li>Duplicar |
-| Concluído | Quando todos os membros do público-alvo de conta ou pessoa em uma jornada concluírem a jornada, o status mudará de Ativo ou Fechado para novas entradas e concluídas. | <li>Duplicar <li>Excluir |
+| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando você publica uma jornada. Nesse estado, ela não é mais editável. | [Duplicar](#duplicate-a-journey), [Fechar para novas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
+| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em **[!UICONTROL Fechar para novas entradas]** no cabeçalho da jornada. | [Duplicar](#duplicate-a-journey), [Anular](#abort-a-journey) |
+| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _&#x200B;**Concluída**&#x200B;_ | Quando todos os membros do público-alvo de uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
 
-## Criar uma jornada de pessoa
+## Criar uma jornada de pessoa {#create-a-person-journey}
 
 1. Clique em **[!UICONTROL Criar Jornada]** no canto superior direito da lista de jornadas.
 
-1. Na caixa de diálogo, insira um **[!UICONTROL Nome]** exclusivo (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
+1. Na caixa de diálogo, selecione o programa **[!UICONTROL Pai]** para a jornada de pessoa.
 
-<!-- 
-   ![Create Journey dialog](./assets/person-journey-create-dialog.png){width="400"}
--->
+1. Insira um **[!UICONTROL Nome]** exclusivo (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
+
+   ![Criar caixa de diálogo de jornada de pessoa](./assets/person-journey-create-dialog.png){width="400"}
 
 1. Clique em **[!UICONTROL Criar]**.
 
-### Design da jornada
+   A tela de jornada é aberta com o nó inicial de público-alvo Pessoa.
 
-O _mapa de jornadas_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó _[!UICONTROL Audiência de pessoa]_, onde é possível definir a entrada da jornada.
+   ![Tela de Jornada para nova jornada de pessoa](./assets/person-journey-new.png){width="600" zoomable="yes"}
 
-<!--
-   ![Journey map for newly created journey](./assets/person-journey-create-dialog.png){width="400"}
--->
+### Jornada cabeçalho {#journey-header}
 
-Depois de criar uma jornada de pessoa e adicionar o público-alvo de pessoa, crie a jornada usando nós. O mapa de jornada fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar a jornada:
+O cabeçalho de cada mapa de jornada inclui o nome, o status e o agendamento da jornada.
+
+![Cabeçalho de jornada da pessoa](./assets/person-journey-header.png){width="600" zoomable="yes"}
+
+* Clique no ícone _Editar_ ( ![Ícone Editar](../../assets/do-not-localize/icon-react-edit.svg) ) para alterar o nome da jornada ou as informações de descrição.
+* Clique em **[!UICONTROL Configurações de Jornada]** para alterar o início e a recorrência da jornada.
+* Clique em **[!UICONTROL Mais]** para aplicar uma ação de jornada ou para habilitar/desabilitar o controle de tráfego e a reentrada.
+* Se todos os erros forem resolvidos e você quiser ativar a jornada, clique em **[!UICONTROL Publicar]**.
+
+### Design da jornada {#journey-design}
+
+O _mapa de jornadas_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó [_[!UICONTROL Audiência de pessoa &#x200B;]_](./person-audience-node.md), onde é possível definir a entrada da jornada.
+
+Depois de criar uma jornada de pessoa e definir o público-alvo de pessoa, crie a jornada usando nós. O mapa de jornada fornece uma tela, onde você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar a jornada:
 
 * [Realizar uma ação](./action-nodes.md)
 * [Acompanhar um evento](./listen-for-event-nodes.md)
@@ -93,62 +120,107 @@ Depois de criar uma jornada de pessoa e adicionar o público-alvo de pessoa, cri
 * [Próximo caminho recomendado](./next-best-path.md)
 * [Mesclar caminhos](./split-merge-paths-nodes.md)
 
+## Gerenciamento de jornadas {#journey-management}
 
-## Gerenciamento de jornadas
+Abra a lista jornadas para revisar o status da jornada, fazer alterações e realizar ações.
 
+### Jornada ações {#journey-actions}
 
+A página Lista de jornadas inclui todas as jornadas de pessoas na instância do Journey Optimizer B2B Prime. Na página da lista, é possível aplicar várias ações a uma jornada.
 
-## Mapa da jornada
+#### Publicar uma jornada {#publish-a-journey}
 
-Clique no nome (exibido como um link) na lista jornadas para revisar os detalhes, fazer alterações e realizar ações.
+Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Ativo_. Se a jornada tiver erros, o botão **[!UICONTROL Publicar]** ficará esmaecido com a mensagem `Resolve errors before publishing`.
 
-O cabeçalho de cada mapa de jornada inclui:
+1. Abra a jornada de rascunho na lista _[!UICONTROL jornadas de pessoas]_.
 
-Nome da jornada
-Editar ferramenta para o nome da jornada (ícone Editar)
-Status da jornada
-No mapa de jornadas, é possível Adicionar os nós e definir o fluxo de jornadas.
+1. Na parte superior direita do mapa de jornadas, clique em **[!UICONTROL Publicar]**.
 
-### Jornada ações
+1. Na caixa de diálogo _[!UICONTROL Revisar configurações da jornada]_, defina as opções de início da jornada.
 
-A página da lista de jornadas inclui todas as jornadas de conta ou pessoa na instância do Journey Optimizer B2B edition. Na página da lista, é possível aplicar várias ações a uma jornada.
+   Se você já definiu um agendamento em **[!UICONTROL configurações do Jornada]**, verifique as configurações.
 
+   Se precisar definir a ativação do jornada, escolha um tipo de agendamento:
 
+   * Para ativar a jornada no momento da publicação, escolha **[!UICONTROL Imediatamente]**.
+   * Para ativar a jornada em uma data futura, escolha **[!UICONTROL Em uma data específica]** e clique no ícone _Calendário_ para selecionar a data.
 
-#### Duplicar uma jornada
+1. Se necessário, especifique a **[!UICONTROL Data final]** para a jornada.
+
+   ![Caixa de diálogo Revisar configurações do jornada](./assets/journey-settings.png){width="400" zoomable="no"}
+
+   Pode ser um máximo de três anos a partir da data de início. Este campo é necessário para publicar.
+
+1. Clique em **[!UICONTROL Next]**.
+
+1. No diálogo de confirmação, clique em **[!UICONTROL Publicar]**.
+
+#### Anular uma jornada {#abort-a-journey}
+
+Se você abortar (interromper) uma jornada em tempo real ou uma jornada programada para uma data de início futura, as pessoas na jornada interromperão imediatamente seu progresso e nenhuma entrada adicional na jornada poderá ocorrer. Uma jornada cancelada não pode ser reiniciada.
+
+1. Abra a jornada na lista _[!UICONTROL jornadas de pessoas]_.
+
+1. Clique no menu **[!UICONTROL Mais...]** no canto superior direito e escolha **[!UICONTROL Cancelar]**.
+
+   ![Cabeçalho de jornada de pessoa ao vivo](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
+
+1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Cancelar]**.
+
+#### Fechar para novas entradas {#close-to-new-entries}
+
+Se você fechar uma jornada em tempo real a novas entradas, as pessoas que estão atualmente na jornada continuarão seu caminho nessa jornada e nenhuma outra entrada de jornada poderá ocorrer. Uma jornada fechada não pode ser reiniciada. É possível duplicar uma jornada fechada.
+
+1. Abra a jornada na lista _[!UICONTROL jornadas de pessoas]_.
+
+1. Clique no menu **[!UICONTROL Mais...]** no canto superior direito e escolha **[!UICONTROL Fechar para novas entradas]**.
+
+1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Fechar para novas entradas]**.
+
+#### Duplicar uma jornada {#duplicate-a-journey}
 
 Uma ação duplicada é semelhante a uma função de clone, mas uma jornada duplicada não inclui nenhum ativo de conteúdo de jornada criado. Você pode duplicar os detalhes da jornada ou apenas um esqueleto simples da estrutura de fluxo e caminho.
 
-NOTA
+1. Na lista _[!UICONTROL jornadas da Pessoa]_, clique no ícone _Mais_ ( **...** ) ao lado do nome da jornada e escolha **[!UICONTROL Duplicar]**.
 
-Clique no ícone More (...) ao lado do nome da jornada e escolha Duplicate.
+   ![Menu Mais de jornada de pessoa de rascunho](./assets/person-journey-draft-more-menu.png){width="400"}
 
-Dependendo do status da jornada, você também pode acessar a ação duplicar nos detalhes da jornada ou no mapa de jornadas:
+   Dependendo do status da jornada, você também pode acessar a ação duplicar nos detalhes da jornada ou no mapa de jornadas:
 
-Para uma jornada de rascunho, clique no menu Mais... na parte superior direita e escolha Duplicar.
-Para todos os outros status da jornada, clique em Duplicar na parte superior direita.
-Na caixa de diálogo Duplicar Jornada, defina o Nome e a Descrição da nova jornada.
-Por padrão, a caixa de diálogo usa o nome da jornada duplicada anexada com _copy. Insira outro nome exclusivo para a jornada, conforme necessário.
+   * Para uma jornada de rascunho, clique no menu **[!UICONTROL Mais]** na parte superior direita e escolha **[!UICONTROL Duplicar]**.
+   * Para todos os outros status de jornada, clique em **[!UICONTROL Duplicar]** na parte superior direita.
 
-Escolha o Tipo de duplicação:
-Duplicação parcial de conteúdo - use esse tipo para copiar tudo na jornada, excluindo emails ou mensagens SMS criados. Os nós que fazem referência a um email ou mensagem SMS do Marketo Engage estão totalmente intactos.
-Duplicar sem detalhes - Use esse tipo para copiar somente a estrutura e os caminhos do nó. Todas as configurações de nó e condições de caminho são indefinidas (padrão), de modo que você pode reutilizar o fluxo básico com diferentes configurações de público-alvo, ações e segmentação de caminho. Todos os nós de espera usam o padrão de cinco dias.
-Clique em Duplicate.
-A jornada duplicada é aberta no mapa de jornadas, onde você pode definir os detalhes e criar conteúdo da jornada conforme necessário.
+1. Na caixa de diálogo, selecione o programa **[!UICONTROL Pai]** para a jornada duplicada.
 
-Excluir uma jornada
+1. Insira um **[!UICONTROL Nome]** exclusivo (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
 
-Use uma ação de exclusão para excluir uma jornada permanentemente. Não é possível excluir uma jornada ativa ou programada.
+   Por padrão, a caixa de diálogo usa o nome da jornada de origem anexada com `_copy`. Insira um nome exclusivo diferente para a jornada, conforme necessário.
 
-Clique no ícone Mais (...) ao lado do nome da jornada e escolha Excluir.
-Dependendo do status da jornada, você também pode acessar a ação de exclusão nos detalhes da jornada ou no mapa de jornadas:
+   ![Caixa de diálogo de jornada duplicada](./assets/journey-duplicate-dialog.png){width="370"}
 
-Para uma jornada de rascunho, clique no menu Mais... na parte superior direita e escolha Excluir.
-Para outros status de jornada, como Concluído ou Abortado, clique em Excluir na parte superior direita.
-Na caixa de diálogo de confirmação, clique em Excluir.
+1. Selecione o **[!UICONTROL tipo]** de duplicação:
 
+   * **[!UICONTROL Duplicação parcial de conteúdo]**: use este tipo para copiar tudo na jornada, excluindo emails ou mensagens SMS criados. Os nós que fazem referência a um email ou mensagem SMS do Marketo Engage ficam totalmente intactos.
 
+   * **[!UICONTROL Duplicar sem detalhes]** - Use este tipo para copiar somente a estrutura e os caminhos do nó. Todas as configurações de nó e condições de caminho ficam indefinidas (padrão), de modo que você pode reutilizar o fluxo básico com diferentes configurações de público-alvo, ações e segmentação de caminho. Todos os nós de espera usam o padrão de cinco dias.
 
+1. Clique em **[!UICONTROL Duplicar]**.
 
+   A jornada duplicada é aberta na tela de jornada, onde você pode definir os detalhes e criar conteúdo da jornada conforme necessário.
 
+#### Excluir uma jornada {#delete-a-journey}
 
+Use uma ação de exclusão para excluir uma jornada permanentemente. Não é possível excluir uma jornada em tempo real ou uma jornada agendada para uma data de início futura.
+
+>[!WARNING]
+>
+>A exclusão de uma jornada é permanente e não pode ser desfeita.
+
+1. Na lista _[!UICONTROL jornadas de pessoas]_, clique no ícone _Mais_ ( **...** ) ao lado do nome da jornada e escolha **[!UICONTROL Excluir]**.
+
+   Dependendo do status da jornada, você também pode acessar a ação de exclusão no cabeçalho da jornada:
+
+   * Para uma jornada de rascunho, clique em **[!UICONTROL Mais...]** na parte superior direita e escolha **[!UICONTROL Excluir]**.
+   * Para outros status de jornada, como _Concluído_ ou _Cancelado_, clique em **[!UICONTROL Excluir]** no canto superior direito.
+
+1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.

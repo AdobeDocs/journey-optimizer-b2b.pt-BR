@@ -16,10 +16,10 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
 workflow-type: tm+mt
-source-wordcount: 2205
-ht-degree: 0%
+source-wordcount: 1528
+ht-degree: 1%
 
 ---
 
@@ -114,119 +114,11 @@ As atribuições de caminho orientadas por IA não entrarão em vigor até que v
 
 Os exemplos a seguir mostram como gravar prompts de caminho efetivos em casos de uso comuns de marketing B2B. Use-os como pontos de partida e adapte o idioma para corresponder ao contexto da jornada e aos dados do público-alvo.
 
-+++Sinais ativos de pesquisa e compra
+* &quot;Identifique pessoas que tiveram envolvimento em sites de RH (shrm.org, hbr.org/topic/human-resource-management), interessadas no Journey Optimizer nos últimos 30 dias, que provavelmente participarão de um webinário sobre IA em Operações de RH. Eles também deveriam ter mostrado algum interesse em produtos de IA.&quot;
 
-**Caminho 1 - Pesquisadores ativos de produtos**
-*Identifique pessoas que estão pesquisando ativamente o software CRM. Procure visitas repetidas à página do produto, envolvimento com o conteúdo de comparação, visitas de retorno frequentes e sinais elevados de intenção de terceiros nos últimos 30 dias.*
+* Identifique pessoas que têm envolvimento em sites de finanças (wsj.com/finance,investopedia.com), interessadas no Marketo nos últimos 30 dias, que provavelmente participarão de um webinário sobre IA no Financial Planning. Eles também deveriam ter mostrado algum interesse em produtos de IA.&quot;
 
-**Caminho 2 - Comportamento de comparação de preços**
-*Identifique os usuários que visualizaram páginas de comparação de preços ou planos várias vezes nos últimos 14 dias, especialmente aqueles que alternaram entre páginas de documentação de preços e recursos.*
-
-**Caminho 3 - Alta intenção, sem conversão**
-*Identifique visitantes de alta intenção que participaram de demonstrações de produtos, páginas de preços ou documentação de integração nos últimos 21 dias, mas que não enviaram um formulário ou não converteram.*
-
-**Caminho 4 - Comportamento de check-out hesitante**
-*Identifique os usuários que iniciaram o check-out ou os fluxos de reserva de demonstração, mas não os concluíram e que retornaram pelo menos uma vez depois sem conversão.*
-
-+++
-
-+++Risco de churn e retenção
-
-**Caminho 1 - Sinais de risco de churn**
-*Identifique os clientes que mostraram sinais de churn com base no uso decrescente do produto, na redução da frequência de logon, nos picos de tíquetes de suporte e na diminuição do engajamento de marketing nos últimos 60 dias.*
-
-**Caminho 2 - Desvinculando usuários avançados**
-*Identifique os usuários engajados anteriormente cuja velocidade de engajamento caiu significativamente nos últimos 30 dias em comparação com sua linha de base histórica.*
-
-+++
-
-+++Educação para lacunas de avaliação
-
-**Caminho 1 - Pesquisar na sequência de preços**
-*Identifique os usuários que baixaram um ebook e visitaram a página de preços dentro de 7 dias, mas não solicitaram uma demonstração.*
-
-**Caminho 2 - Webinário sem acompanhamento**
-*Identifique as pessoas que participaram de um webinário e que retornaram posteriormente às páginas de produto, mas nunca reservaram uma demonstração ou contataram as vendas.*
-
-**Caminho 3 - Avaliação baseada em comparação**
-*Identifique os visitantes que visualizaram um artigo de comparação com concorrentes e, em seguida, visitaram a documentação de integração ou migração dentro de 14 dias.*
-
-+++
-
-+++Sequências de engajamento de email
-
-**Caminho 1 - Aberturas sem cliques**
-*Identifique os clientes potenciais que abriram três ou mais emails de marketing em 30 dias, mas nunca clicaram no site.*
-
-**Caminho 2 - Clicado, mas sem engajamento mais profundo**
-*Identifique os usuários que clicaram de um email para uma página de produto, mas não exploraram páginas adicionais ou retornaram em 7 dias.*
-
-+++
-
-+++Padrões de avaliação e conversão
-
-**Caminho 1 - Conversores rápidos**
-*Identifique os clientes que atualizaram dentro de 30 dias do início de uma avaliação e que demonstraram alto engajamento no produto durante o período de avaliação.*
-
-**Caminho 2 - Usuários paralisados da avaliação**
-*Identifique os usuários de avaliação que fizeram logon durante a primeira semana, mas que mostraram atividade mínima depois disso, e que não foram convertidos antes da expiração da avaliação.*
-
-+++
-
-+++Compradores de vários canais
-
-**Caminho 1 - Convergência de anúncio e orgânica**
-*Identifique os usuários que participaram pela primeira vez por meio de anúncios pagos e que retornaram posteriormente por canais diretos ou orgânicos em 14 dias.*
-
-**Caminho 2 - Avaliação de evento para produto**
-*Identifique as contas que participaram de um evento presencial ou virtual e subsequentemente aumentaram o comportamento de pesquisa do produto em 30 dias.*
-
-**Caminho 3 - Pesquisadores entre sites**
-*Identifique os usuários que se envolveram com conteúdo social e visitaram páginas de alta intenção posteriormente, como preços ou reservas de demonstração.*
-
-+++
-
-+++Sinais de compra regionais
-
-**Caminho 1 - Sobretensão em uma região específica**
-*Identifique as contas na América do Norte que mostraram maior atividade de pesquisa de produtos e sinais elevados de intenção de terceiros nos últimos 30 dias em comparação com sua linha de base histórica.*
-
-**Caminho 2 - Impulso do mercado emergente**
-*Identifique contas na APAC em que a velocidade do envolvimento aumentou significativamente nos últimos 14 dias, mesmo que o volume geral de envolvimento ainda seja moderado.*
-
-**Caminho 3 - Interesse empresarial específico da região**
-*Identifique contas de empresas na EMEA que estejam se envolvendo com documentação de conformidade, residência de dados ou segurança nos últimos 21 dias.*
-
-**Caminho 4 - Território subpenetrado**
-*Identifique contas de alta adequação nos territórios de vendas atribuídos que tenham mostrado sinais de intenção, mas que as vendas ainda não tenham contatado.*
-
-+++
-
-+++Direcionamento de público do webinário
-
-**Caminho 1 - Líderes de RH interessados em IA**
-*Identifique pessoas que tenham envolvimento em sites de RH (shrm.org, hbr.org/topic/human-resource-management), interessadas no Journey Optimizer nos últimos 30 dias, que provavelmente participarão de um webinário sobre &quot;IA em Operações de RH&quot;. Eles também devem ter mostrado algum interesse em produtos de IA.*
-
-**Caminho 2 - Profissionais financeiros interessados em IA**
-*Identifique as pessoas que têm envolvimento em sites de Finanças (wsj.com/finance, investopedia.com), interessadas em Marketo nos últimos 30 dias, que provavelmente participarão de um webinário sobre &quot;IA no Financial Planning&quot;. Eles também devem ter mostrado algum interesse em produtos de IA.*
-
-**Caminho 3 - Profissionais de risco e pesquisa interessados em IA**
-*Identifique pessoas que tenham envolvimento em sites de Risco/Pesquisa (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interessados no GenStudio nos últimos 30 dias, que provavelmente participarão de um webinário sobre &quot;IA no Gerenciamento de Riscos&quot;. Eles também devem ter mostrado algum interesse em produtos de IA.*
-
-+++
-
-+++Sinais comportamentais de cronometragem
-
-**Caminho 1 - Pesquisadores fora do horário**
-*Identifique usuários que estejam interagindo repetidamente com páginas de produtos e preços fora do horário comercial normal em seu fuso horário local.*
-
-**Caminho 2 - Janela de pesquisa compactada**
-*Identifique contas que mostrem uma densidade de engajamento excepcionalmente alta em uma janela curta de 72 horas em várias áreas de produtos.*
-
-**Caminho 3 - Pico de atividade no fim do trimestre**
-*Identifique as contas com um aumento na atividade dos estágios de avaliação durante os últimos 30 dias do trimestre fiscal.*
-
-+++
+* &quot;Identifique pessoas que tenham envolvimento em sites de Risco/Pesquisa (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interessados no GenStudio nos últimos 30 dias, que provavelmente participarão de um webinário sobre IA no Gerenciamento de riscos. Eles também deveriam ter mostrado algum interesse em produtos de IA.&quot;
 
 ## Simular decisão antes de publicar {#simulate}
 

@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 1%
@@ -55,7 +55,7 @@ Crie pastas para agrupar modelos por equipe, campanha, marca ou qualquer estrutu
 
 **Para mover um modelo para uma pasta:**
 
-1. Clique no ícone **[!UICONTROL Mais]** () ao lado do modelo.
+1. Clique no ícone **[!UICONTROL Mais]** ( ... ) ao lado do modelo.
 1. Selecione **[!UICONTROL Mover para a pasta]**.
 1. Selecione a pasta de destino e clique em **[!UICONTROL Mover]**.
 
@@ -67,15 +67,15 @@ Clique em um nome de modelo para abrir a página de detalhes. Aqui é possível 
 
 ### Editar um modelo
 
-Clique em um nome de modelo para abrir a página de detalhes, em seguida, clique em **[!UICONTROL Editar modelo de email]**. Você também pode clicar no ícone **[!UICONTROL Mais]** () na lista de modelos e selecionar **[!UICONTROL Editar]**.
+Clique em um nome de modelo para abrir a página de detalhes, em seguida, clique em **[!UICONTROL Editar modelo de email]**. Você também pode clicar no ícone **[!UICONTROL Mais]** ( ... ) na lista de modelos e selecionar **[!UICONTROL Editar]**.
 
 ### Duplicação de um template
 
-Clique no ícone **[!UICONTROL Mais]** () ao lado do modelo e selecione **[!UICONTROL Duplicar]**. A cópia é aberta para que você possa renomeá-la e fazer ajustes.
+Clique no ícone **[!UICONTROL Mais]** ( ... ) ao lado do modelo e selecione **[!UICONTROL Duplicar]**. A cópia é aberta para que você possa renomeá-la e fazer ajustes.
 
 ### Excluir um modelo
 
-Clique no ícone **[!UICONTROL Mais]** () ao lado do modelo e selecione **[!UICONTROL Excluir]**. Confirme a exclusão quando solicitado.
+Clique no ícone **[!UICONTROL Mais]** ( ... ) ao lado do modelo e selecione **[!UICONTROL Excluir]**. Confirme a exclusão quando solicitado.
 
 >[!NOTE]
 >

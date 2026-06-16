@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 1%
@@ -30,7 +30,7 @@ No [!DNL Adobe Journey Optimizer B2B Prime], o espaço de design de email fornec
 >
 >Para obter a configuração do administrador de subdomínios, autenticação, pools de IP e configurações de canal de email, consulte [Entregabilidade de email e configuração de canal](../admin/configuration-email-deliverability.md).
 
-No [!DNL Journey Optimizer B2B Prime], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ em uma jornada. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar email_](../marketing/person-journey-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo de design de conteúdo de email.
+No [!DNL Journey Optimizer B2B Prime], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ em uma jornada. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar email_](../marketing/action-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo de design de conteúdo de email.
 
 Essa ação inicia o espaço de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
