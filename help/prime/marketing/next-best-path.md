@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +62,7 @@ Se nenhum caminho for uma correspondência forte ou se o prompt fizer referênci
 
 ## Adicionar um próximo nó de melhor caminho {#add-node}
 
-1. Abra a jornada de pessoa e navegue até o mapa de jornadas.
+1. Abra a jornada de pessoa e navegue até a tela de jornada.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **Próximo melhor caminho**.
 
@@ -169,7 +169,7 @@ Após validar os resultados da simulação:
 
 Depois que a jornada estiver ativa, o nó do próximo melhor caminho será executado no tempo de execução. À medida que cada pessoa atinge o nó, a IA os avalia em tempo real usando os sinais mais recentes e os direciona para o caminho mais relevante.
 
-Para uma jornada publicada, abra o mapa de jornadas e selecione o próximo nó de melhor caminho para exibir a seção **_[!UICONTROL Resultados ao vivo]_** no painel direito. Os resultados ao vivo mostram:
+Para uma jornada publicada, abra a tela de jornada e selecione o próximo nó de melhor caminho para exibir a seção **_[!UICONTROL Resultados ao vivo]_** no painel direito. Os resultados ao vivo mostram:
 
 * A distribuição percentual dos perfis em cada caminho
 * A pontuação de confiança para cada atribuição de caminho

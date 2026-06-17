@@ -1,6 +1,6 @@
 ---
 title: Esperar nó
-description: Espaço reservado
+description: Configure nós de espera no Journey Optimizer B2B edition Prime - pause a progressão da jornada por duração, data ou agendamento avançado de dia e hora.
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
 product_v2:
@@ -12,10 +12,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 1%
+source-wordcount: 690
+ht-degree: 0%
 
 ---
 
@@ -28,30 +28,30 @@ Há duas maneiras de definir o tempo de espera:
 * Uma data específica na qual você deseja avançar para o próximo nó na jornada
 * Uma duração relativa (número de minutos, horas, dias, semanas ou meses)
 
-## Adicionar o nó de espera
+## Adicionar o nó de espera {#add-wait-node}
 
-1. Navegue até o mapa de jornadas.
+1. Navegue até a tela de jornada.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Aguardar]**.
 
-<!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![Clique em adicionar ícone no caminho da jornada](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Para definir o tempo de espera antes que a jornada continue para o próximo nó no caminho, use as propriedades do nó à direita para definir o **[!UICONTROL Tipo]**.
 
    * **[!UICONTROL Duração]** - Defina um número específico de dias, horas ou minutos decorridos entre a entrada e a saída do nó de espera.
    * **[!UICONTROL Data]** - Especifique uma data e hora para a saída.
 
-<!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![Nó de Jornada - espera](./assets/wait-node.png){width="500"}
 
-## Configurações avançadas de espera
+## Configurações avançadas de espera {#advanced-wait-settings}
 
 Habilite a opção **[!UICONTROL Deve terminar em]** para configurar uma _etapa de espera avançada_ e garantir que suas mensagens cheguem às pessoas e aos membros da conta no momento ideal. Essa configuração oferece controle preciso sobre quando uma pessoa ou conta sai de uma etapa de espera e prossegue para o próximo nó na jornada. Em vez de um número fixo de horas ou dias, desde a entrada até a saída, você pode agendar ações para que ocorram em horários e dias específicos da semana.
 
 Com uma _etapa de espera avançada_, você define **_quando_** a pessoa ou a conta sai, e não apenas quanto tempo ela espera.
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![nó de Jornada - etapa de espera avançada](./assets/wait-node-advanced.png){width="500"}
 
-### Tipos de espera
+### Tipos de espera {#wait-types}
 
 | Tipo de espera | Descrição | Configuração |
 | --------- | ----------- | ------------- |
@@ -60,7 +60,7 @@ Com uma _etapa de espera avançada_, você define **_quando_** a pessoa ou a con
 | **Intervalo ou combinação de dias** | Manter até qualquer dia dentro de um intervalo (como segunda a sexta-feira) ou em qualquer um dos dias especificados | Selecione os dias de destino. Se nenhuma hora for especificada, o sai à meia-noite (para o fuso horário selecionado) no próximo dia correspondente. |
 | **Combinação de tempo + dia** | Combine ambos para um agendamento preciso (como terça-feira às 10h):00 | Selecione os dias de destino e defina o horário de destino. Sai na próxima ocorrência de dia/hora (para o fuso horário selecionado). |
 
-### Cenários comuns
+### Cenários comuns {#common-scenarios}
 
 Os cenários a seguir ilustram como você pode aplicar exemplos típicos à configuração do nó de espera:
 
@@ -88,7 +88,7 @@ Os cenários a seguir ilustram como você pode aplicar exemplos típicos à conf
 
 +++
 
-### Exemplos de entrada e saída
+### Exemplos de entrada e saída {#entry-exit-examples}
 
 | Aguardar configuração | Entradas de conta/cliente potencial | Saídas da conta/lead |
 | ------------------ | ------------------- | ------------------ |
