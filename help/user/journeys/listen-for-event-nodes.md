@@ -4,19 +4,14 @@ description: 'Configure nós de eventos para acionadores de conta e de pessoas: 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 12%
@@ -50,7 +45,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base na conta quand
 
 ### Adicionar um evento de conta
 
-1. Navegue até o mapa de jornadas.
+1. Navegue até a tela de jornada.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Ouvir um evento]**.
 
@@ -102,7 +97,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base em pessoas qua
 
 ### Adicionar um evento de pessoas
 
-1. Navegue até o mapa de jornadas.
+1. Navegue até a tela de jornada.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Ouvir um evento]**.
 
@@ -118,7 +113,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base em pessoas qua
 
 Se você tiver páginas da Web na instância conectada do Marketo Engage, poderá acionar um evento com base em uma visita/sem visita a essas páginas da Web, bem como formulários do Marketo Engage que não foram/foram preenchidos.
 
-1. Selecione um nó **[!UICONTROL Ouvir um evento]** no mapa de jornadas.
+1. Selecione um nó **[!UICONTROL Ouvir um evento]** na tela de jornada.
 
 1. Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o tipo de evento.
 
@@ -147,11 +142,11 @@ Se você tiver páginas da Web na instância conectada do Marketo Engage, poder�
 
 1. Se necessário, defina a opção **[!UICONTROL Tempo limite]** para limitar o período de tempo para ouvir o evento (consulte [Adicionar um tempo limite a um nó de evento](#add-a-timeout-to-an-event-node)).
 
-1. No mapa de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
+1. Na tela de jornada, adicione o próximo nó a ser executado quando o evento ocorrer.
 
 ### Analise um evento de experiência {#listen-for-an-experience-event}
 
-Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
+Os administradores podem selecionar [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real. O uso de Eventos de experiência no jornada é um processo de duas etapas:
 
 1. Um administrador [adiciona os tipos de evento e campos de interesse](../admin/configure-aep-events.md#add-an-event) para torná-los disponíveis no jornada.
 
@@ -163,7 +158,7 @@ Os administradores podem selecionar [Eventos de experiência do Adobe Experience
 
 _Para incluir um Evento de Experiência na jornada :_
 
-1. Selecione um nó **[!UICONTROL Ouvir um evento]** no mapa de jornadas.
+1. Selecione um nó **[!UICONTROL Ouvir um evento]** na tela de jornada.
 
 1. (Somente jornada de conta) Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o tipo de evento.
 
@@ -197,7 +192,7 @@ _Para incluir um Evento de Experiência na jornada :_
 
 1. Se necessário, defina a opção **[!UICONTROL Tempo limite]** para limitar o período de tempo para ouvir o evento (consulte [Adicionar um tempo limite a um nó de evento](#add-a-timeout-to-an-event-node)).
 
-1. No mapa de jornadas, adicione o próximo nó a ser executado quando o evento ocorrer.
+1. Na tela de jornada, adicione o próximo nó a ser executado quando o evento ocorrer.
 
 1. Conclua os nós restantes para sua jornada e [publique-a](./journeys-overview.md).
 
@@ -242,5 +237,5 @@ Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. 
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

@@ -4,19 +4,11 @@ description: Use o nó Próximo melhor caminho no Journey Optimizer B2B Prime pa
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +54,7 @@ Se nenhum caminho for uma correspondência forte ou se o prompt fizer referênci
 
 ## Adicionar um próximo nó de melhor caminho {#add-node}
 
-1. Abra a jornada de pessoa e navegue até o mapa de jornadas.
+1. Abra a jornada de pessoa e navegue até a tela de jornada.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **Próximo melhor caminho**.
 
@@ -169,7 +161,7 @@ Após validar os resultados da simulação:
 
 Depois que a jornada estiver ativa, o nó do próximo melhor caminho será executado no tempo de execução. À medida que cada pessoa atinge o nó, a IA os avalia em tempo real usando os sinais mais recentes e os direciona para o caminho mais relevante.
 
-Para uma jornada publicada, abra o mapa de jornadas e selecione o próximo nó de melhor caminho para exibir a seção **_[!UICONTROL Resultados ao vivo]_** no painel direito. Os resultados ao vivo mostram:
+Para uma jornada publicada, abra a tela de jornada e selecione o próximo nó de melhor caminho para exibir a seção **_[!UICONTROL Resultados ao vivo]_** no painel direito. Os resultados ao vivo mostram:
 
 * A distribuição percentual dos perfis em cada caminho
 * A pontuação de confiança para cada atribuição de caminho

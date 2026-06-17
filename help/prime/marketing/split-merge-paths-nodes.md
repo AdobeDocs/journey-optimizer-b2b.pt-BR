@@ -1,28 +1,22 @@
 ---
 title: Nós Dividir e Mesclar Caminhos
-description: Espaço reservado
+description: Saiba como usar nós de caminhos divididos e mesclados em jornadas de pessoas para segmentar pessoas em caminhos distintos com base em condições definidas e, em seguida, reuni-los em um ponto comum downstream.
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 658
 ht-degree: 0%
 
 ---
 
 # Dividir e mesclar nós de caminhos
 
-
+Use os nós dividir e mesclar caminhos nas jornadas de pessoa para segmentar pessoas em caminhos distintos com base nas condições definidas e, em seguida, reúna esses caminhos novamente para que a jornada possa continuar. Caminhos divididos permitem personalizar ações e eventos para segmentos de público-alvo específicos, enquanto caminhos de mesclagem reúnem esses segmentos em um ponto comum downstream.
 
 ## Nós de caminhos divididos
 
@@ -32,8 +26,7 @@ Um nó Caminhos divididos define um ou mais caminhos segmentados com base em fil
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-
-_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
+_**Como funciona um caminho dividido por nó de pessoas**_
 
 * A avaliação de cada caminho é de cima para baixo. Se uma pessoa corresponder ao primeiro e ao segundo caminhos, ela continuará somente pelo primeiro caminho.
 * O nó oferece suporte à definição de um caminho _Outras pessoas_, em que você pode adicionar ações ou eventos para pessoas que não correspondem a um dos segmentos/caminhos definidos.
@@ -51,17 +44,11 @@ Para cada caminho definido para o nó, use os seguintes tipos de filtro para cor
 
 ### Adicionar um nó de caminhos divididos
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. Navegue até o mapa de jornadas.
+1. Navegue até a tela de jornada.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Dividir caminhos]**.
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![Clique em adicionar ícone no caminho da jornada](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Para definir uma condição aplicável ao _[!UICONTROL Caminho 1]_, clique em **[!UICONTROL Aplicar condição]**.
 
@@ -95,13 +82,11 @@ Quando você tem condições definidas para cada caminho, pode adicionar nós de
 
 ## Nós dos caminhos de mesclagem
 
-1. Navegue até o mapa de jornadas e localize o nó de caminhos divididos com dois ou mais caminhos.
+1. Navegue até a tela de jornada e localize o nó dos caminhos divididos com dois ou mais caminhos.
 
    Cada caminho deve ter uma combinação de ações e eventos em cada caminho.
 
 1. Clique no ícone de adição ( **+** ) ao final de qualquer um desses caminhos e escolha **[!UICONTROL Mesclar caminhos]** nas opções exibidas.
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. Nas propriedades do nó à direita, selecione os caminhos que deseja mesclar.
 
