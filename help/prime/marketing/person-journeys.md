@@ -12,7 +12,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 19%
@@ -128,7 +128,7 @@ Abra a lista jornadas para revisar o status da jornada, fazer alterações e rea
 
 A página Lista de jornadas inclui todas as jornadas de pessoas na instância do Journey Optimizer B2B Prime. Na página da lista, é possível aplicar várias ações a uma jornada.
 
-#### Publicar uma jornada {#publish-a-journey}
+#### Publicar uma jornada {#publish}
 
 Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Ativo_. Se a jornada tiver erros, o botão **[!UICONTROL Publicar]** ficará esmaecido com a mensagem `Resolve errors before publishing`.
 
