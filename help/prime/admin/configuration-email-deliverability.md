@@ -1,5 +1,5 @@
 ---
-title: Capacidade de entrega de email e configuração de canal
+title: Entregabilidade por email e configuração de canal
 description: Defina configurações de delegação de subdomínio, DMARC, SPF, DKIM, pools de IP e canais de email para o Journey Optimizer B2B Prime.
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
@@ -14,46 +14,28 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
-source-wordcount: 3414
-ht-degree: 0%
+source-wordcount: 3095
+ht-degree: 1%
 
 ---
 
 # Capacidade de entrega de email e configuração de canal
 
-O Prime [!DNL Adobe Journey Optimizer B2B Edition] traz uma experiência moderna de criação e entrega de email de nível empresarial para os profissionais de marketing B2B. Esta versão apresenta ferramentas de design de email reprojetadas e um conjunto completo de controles de capacidade de entrega de email.
-
 As informações a seguir são para administradores que configuram a infraestrutura de envio para oferecer suporte a profissionais de marketing e autores de email. Ele descreve recursos, funções e permissões de entrega e como configurar subdomínios, autenticação, pools de IP e configurações de canal.
 
 Para obter informações detalhadas sobre como criar emails e conteúdo de email no espaço de design de email, consulte [Criação de email](../content/email-authoring.md).
 
-## Visão geral do canal de email {#overview}
-
-* **Ferramentas visuais de design de email de arrastar e soltar** - Projete o conteúdo de email com estruturas, componentes de conteúdo, temas, suporte para o modo escuro e fragmentos visuais reutilizáveis.
-* **Configurações de canal de email** - Gerencie a identidade do remetente, o comportamento de resposta, os tipos de mensagem de marketing vs. transacional e o rastreamento.
-* **Controles de capacidade de entrega de email** - Configure seu canal de capacidade de entrega de email, incluindo delegação de subdomínio (métodos totalmente delegados e CNAME), DMARC, configuração automática SPF/DKIM e suporte a pool de IP compartilhado.
-* **Ação Enviar email** - De uma jornada, adicione uma ação Enviar email, incluindo personalização usando atributos de perfil (sintaxe Handlebars).
-* **Ativos do Marketo Design Studio** — escolha imagens e ativos de uma cópia única da biblioteca de ativos do Marketo Engage diretamente na tela de email.
-* **Modelos e fragmentos reutilizáveis** — Salve cabeçalhos, rodapés, CTAs e layouts completos de email comuns e reutilize-os no jornada.
-* **Controle de Acesso com Base em Função (RBAC)** — aplique permissões granulares para criar, editar, aprovar e enviar email.
-
 ## Principais conceitos {#key-concepts}
 
-Antes de configurar o email, analise esses conceitos, que se aplicam aos recursos do canal de email em todo o produto.
+Antes de configurar o email, analise esses conceitos que se aplicam aos recursos de capacidade de entrega de canal de email:
 
 | Conceito | O que significa no Prime [!DNL Journey Optimizer B2B Edition] |
 | ------- | ---------------------- |
 | **_Configuração de canal_** | Um conjunto reutilizável de configurações de envio de email — incluindo identidade do remetente, endereço de resposta, subdomínio, pool de IPs, tipo de email (marketing ou transacional) e rastreamento — que você anexa às ações de email no jornada. É possível ter várias configurações de canal nomeadas para diferentes marcas, unidades de negócios ou tipos de envio. |
 | **_Subdomínio_** | Uma parte delegada do seu domínio de envio (por exemplo, `mail.contoso.com`) usada para enviar emails pelo Prime. Os subdomínios isolam sua reputação de marketing B2B do correio corporativo ou transacional. |
 | **_Pool de IPs_** | Um grupo de endereços IP associados a um ou mais subdomínios. A Prime oferece suporte a um pool de IPs compartilhados gerenciado pela Adobe nesta versão; os pools de IP dedicados estão no roteiro de disponibilidade geral. |
-| **_Espaço de design de email_** | A tela visual e as ferramentas de design usadas para compor conteúdo de email. Ele inclui componentes de layout de arrastar e soltar, templates, fragmentos, temas e um editor de personalização. |
-| **_Modelo_** | Um layout de email reutilizável que está disponível para criar um novo email. Ele pode ser um modelo integrado fornecido pelo Adobe ou um modelo personalizado criado pela sua equipe. |
-| **_Fragmento visual_** | Um bloco reutilizável de conteúdo (como cabeçalho, rodapé, CTA, aviso de isenção legal) que pode ser inserido em vários emails. A atualização de um fragmento propaga a alteração para cada email que o utiliza. |
-| **_Tema_** | Uma predefinição de estilo reutilizável (cores, tipografia, espaçamento, estilos de botão) aplicada em um email. |
-| **_token do Personalization_** | Uma expressão Handlebars — por exemplo, `{{profile.firstName}}` — resolvida no momento do envio usando os dados de perfil de cada recipient. |
-| **_Ação Enviar email_** | O nó de ação de jornada que usa uma configuração de canal e conteúdo de email para entregar um email. |
 
 ## Funções e permissões {#roles-permissions}
 
@@ -84,7 +66,7 @@ A maioria dos recursos de email segue um padrão `view-*` (leitura) e `manage-*`
 | **Gerenciar ativos** | `manage-b2b-assets` | Todo o acesso de leitura e futuras ações de gerenciamento de ativos (escopo do Beta). |
 | **Exportar dados da mensagem** | `manage-b2b-message-export` | Exportar dados e relatórios de mensagens no nível de email. |
 
-Em uma jornada, a ação **Enviar email** requer `manage-b2b-person-journeys` (para adicionar a ação e ativar a jornada). Um usuário com permissões somente de email pode criar conteúdo, mas não pode adicionar um email a uma jornada.
+Em uma jornada de pessoa, a ação **Enviar email** requer `manage-b2b-person-journeys` (para adicionar a ação e ativar a jornada). Um usuário com permissões somente de email pode criar conteúdo, mas não pode adicionar um email a uma jornada.
 
 ### Permissões de entregabilidade de email {#email-deliverability-permissions}
 

@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 2%
@@ -155,7 +155,7 @@ Use esta ação para enviar um email para as pessoas que aceitaram. As pessoas q
 
 ![Executar uma ação - Enviar email](./assets/person-action-node-send-email.png){width="450"}
 
-Você pode criar um email, editar um email existente ou usar um email personalizado por IA. Para obter informações sobre como criar e editar emails, consulte [Criação de emails](../content/email-authoring.md).
+Você pode criar um email, editar um email existente ou usar um email personalizado por IA. Para obter informações sobre como criar e editar emails, consulte [Canal de email](../marketing/email-channel.md).
 
 Você pode usar a [Otimização de hora de envio](../marketing/email-send-time-optimization.md) para personalizar o tempo de entrega de email prevendo quando cada perfil tem maior probabilidade de participar.
 
