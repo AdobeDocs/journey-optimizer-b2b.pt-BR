@@ -16,7 +16,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
 ht-degree: 3%
@@ -93,3 +93,4 @@ Selecione qualquer ativo na exibição de lista ou galeria para abrir a exibiç�
 Após a conclusão do upload, o sistema gera automaticamente uma descrição, atribui tags e palavras-chave e extrai atributos visuais, como assunto e configuração. Não é necessária nenhuma marcação manual. A nova imagem será exibida com o status _[!UICONTROL PROCESSING]_ até que o processo seja concluído.
 
 ![Novo ativo de imagem no status de processamento](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+<!-- -->

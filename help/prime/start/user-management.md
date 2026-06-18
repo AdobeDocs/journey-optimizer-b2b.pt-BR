@@ -1,7 +1,7 @@
 ---
 title: Acesso e permissões do usuário
 description: 'Gerenciar o acesso do usuário no Adobe Admin Console: crie grupos de usuários, atribua perfis de produtos e defina permissões com base em funções para o Journey Optimizer B2B edition Prime.'
-source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -305,3 +305,4 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 1. Clique em **[!UICONTROL Salvar]**.
 
 Sua função personalizada está configurada e os usuários no grupo atribuído agora podem acessar os recursos do Journey Optimizer B2B edition selecionados.
+<!-- -->
