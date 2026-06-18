@@ -3,14 +3,9 @@ title: Configuração do canal do WhatsApp
 description: Conecte sua conta comercial do WhatsApp por meio da API da nuvem do Meta para ativar as mensagens do WhatsApp nas jornadas de pessoas B2B do Journey Optimizer Prime.
 autotag-review: '2026-06-12T22:42:51.072Z'
 TQID: 'https://experienceleague.adobe.com/eXXIyzNkDD-54QcqkT2xR8qVB5pLyUByCc0NwBViV-Q'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
 workflow-type: tm+mt
 source-wordcount: 1487
@@ -79,7 +74,7 @@ Conclua as seguintes tarefas:
    * **[!UICONTROL Token de API]** - Insira seu token de API. Para obter informações, consulte a [Documentação do Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL ID da Conta Comercial]** - Insira o número exclusivo relacionado ao seu portfólio comercial. Para obter informações, consulte a [Documentação do Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenciais da API de configurações do WhatsApp &#x200B;](../../user/admin/assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenciais da API de configurações do WhatsApp ](../../user/admin/assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Continuar]**.
 
