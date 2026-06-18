@@ -3,10 +3,18 @@ title: Configuração do Forms
 description: Espaço reservado
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 541
@@ -24,7 +32,7 @@ Quando os dados chegam ao endpoint de transmissão, eles são vinculados às inf
 
 ## Pré-requisitos
 
-Para usar formulários web, você deve ter uma ou mais _**conexões de transmissão da API HTTP**_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
+Para usar formulários web, você deve ter uma ou mais _&#x200B;**conexões de transmissão da API HTTP**&#x200B;_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
 
 * O tipo de dados deve ser definido como XDM (não dados brutos)
 * A autenticação deve ser desabilitada (conexão não autenticada)
