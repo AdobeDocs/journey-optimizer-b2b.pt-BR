@@ -3,16 +3,11 @@ title: Jornadas de pessoas
 description: Criar, publicar e gerenciar jornadas de pessoas no Journey Optimizer B2B edition Prime - navegue pela lista de jornadas, crie fluxos de várias etapas e duplique ou exclua jornadas.
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 19%
@@ -74,11 +69,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
-| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando você publica uma jornada. Nesse estado, ela não é mais editável. | [Duplicar](#duplicate-a-journey), [Fechar para novas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
-| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em **[!UICONTROL Fechar para novas entradas]** no cabeçalho da jornada. | [Duplicar](#duplicate-a-journey), [Anular](#abort-a-journey) |
-| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
-| _&#x200B;**Concluída**&#x200B;_ | Quando todos os membros do público-alvo de uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _**Rascunho**_ | Uma jornada não publicada que é editável. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _**Ativa**_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando você publica uma jornada. Nesse estado, ela não é mais editável. | [Duplicar](#duplicate-a-journey), [Fechar para novas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em **[!UICONTROL Fechar para novas entradas]** no cabeçalho da jornada. | [Duplicar](#duplicate-a-journey), [Anular](#abort-a-journey) |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _**Concluída**_ | Quando todos os membros do público-alvo de uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
 
 ## Criar uma jornada de pessoa {#create-a-person-journey}
 
@@ -109,7 +104,7 @@ O cabeçalho de cada tela de jornada inclui o nome, o status e a programação d
 
 ### Design da jornada {#journey-design}
 
-A _tela de jornada_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó [_[!UICONTROL Audiência de pessoa &#x200B;]_](./person-audience-node.md), onde é possível definir a entrada da jornada.
+A _tela de jornada_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó [_[!UICONTROL Audiência de pessoa ]_](./person-audience-node.md), onde é possível definir a entrada da jornada.
 
 Depois de criar uma jornada de pessoa e definir o público-alvo de pessoa, crie a jornada usando nós. A tela de jornada fornece um espaço de design visual em que você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar a jornada:
 
@@ -128,7 +123,7 @@ Abra a lista jornadas para revisar o status da jornada, fazer alterações e rea
 
 A página Lista de jornadas inclui todas as jornadas de pessoas na instância do Journey Optimizer B2B Prime. Na página da lista, é possível aplicar várias ações a uma jornada.
 
-#### Publicar uma jornada {#publish-a-journey}
+#### Publicar uma jornada {#publish}
 
 Você pode publicar uma jornada se não houver erros de bloqueador. Quando publicado, o status da jornada muda para _Ativo_. Se a jornada tiver erros, o botão **[!UICONTROL Publicar]** ficará esmaecido com a mensagem `Resolve errors before publishing`.
 
