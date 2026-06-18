@@ -3,19 +3,11 @@ title: Configuração do Forms
 description: Espaço reservado
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
 workflow-type: tm+mt
 source-wordcount: 541
 ht-degree: 10%
@@ -32,7 +24,7 @@ Quando os dados chegam ao endpoint de transmissão, eles são vinculados às inf
 
 ## Pré-requisitos
 
-Para usar formulários web, você deve ter uma ou mais _&#x200B;**conexões de transmissão da API HTTP**&#x200B;_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
+Para usar formulários web, você deve ter uma ou mais _**conexões de transmissão da API HTTP**_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
 
 * O tipo de dados deve ser definido como XDM (não dados brutos)
 * A autenticação deve ser desabilitada (conexão não autenticada)
@@ -42,7 +34,7 @@ Para obter informações detalhadas sobre como criar conexões de origem de tran
 <!-- 
 permissions coming in GA
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following permissions](../admin/user-management.md#b2b-product-permissions):
+Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 
 * _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
 * _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
@@ -104,7 +96,7 @@ Ao criar uma predefinição:
 
    >[!NOTE]
    >
-   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. É possível selecionar um conjunto de dados por vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
+   >Atualmente, apenas os [conjuntos de dados do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) habilitados para perfil e não habilitados estão disponíveis para seleção. É possível selecionar um conjunto de dados por vez. Os conjuntos de dados do sistema não podem ser usados para salvar dados de formulário.
 
    Marque a caixa de seleção do conjunto de dados e clique em **[!UICONTROL Selecionar]**.
 

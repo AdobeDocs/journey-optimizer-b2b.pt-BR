@@ -2,10 +2,10 @@
 user-guide-title: Documentação do Journey Optimizer B2B Prime
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B edition Prime e como usá-lo para ?.
 hide: true
-source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 39%
+source-wordcount: '131'
+ht-degree: 42%
 
 ---
 
@@ -30,17 +30,19 @@ ht-degree: 39%
       + [Aguardar](./marketing/wait-nodes.md)
       + [Dividir e mesclar caminhos](./marketing/split-merge-paths-nodes.md)
       + [Próximo caminho recomendado](./marketing/next-best-path.md)
-   + [Otimização do tempo de envio de email](./marketing/email-send-time-optimization.md)
+   + Canal de email {#email-channel}
+      + [Visão geral](./marketing/email-channel.md)
+      + [Otimização do tempo de envio de email](./marketing/email-send-time-optimization.md)
+      + [Criação de email](./content/email-authoring.md)
+      + [Design no modo escuro](./content/email-dark-mode.md)
+   + [Canal do WhatsApp](./content/whatsapp-authoring.md)
 + Públicos-alvo {#audiences}
    + [Listas de pessoas](./audiences/people-lists.md)
    + [Destinos](./audiences/destinations.md)
    + [Qualificação dinâmica do público](./audiences/dynamic-audience-qualification.md)
    + [Públicos-alvo baseados em eventos](./audiences/event-based-audiences.md)
 + Conteúdo {#content}
-   + Emails {#emails}
-      + [Criação de email](./content/email-authoring.md)
-      + [Design de modo escuro](./content/email-dark-mode.md)
-   + [Mensagens do WhatsApp](./content/whatsapp-authoring.md)
+   + [Ativos](./content/digital-asset-management.md)
    + Modelos {#templates}
       + [Visão geral](./content/templates.md)
       + [Criar modelos](./content/templates-create.md)
