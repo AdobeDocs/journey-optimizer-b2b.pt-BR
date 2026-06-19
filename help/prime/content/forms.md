@@ -3,16 +3,10 @@ title: Formulários
 description: Crie e gerencie formulários reutilizáveis para a coleta de dados corporativos - crie campos, defina páginas de agradecimento, publique e rastreie o uso no Journey Optimizer B2B Prime.
 autotag-review: '2026-06-12T22:53:03.357Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 2281
 ht-degree: 2%
@@ -105,7 +99,7 @@ Há vários aspectos a serem considerados antes de começar a criar formulários
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Você pode criar um formulário no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista do _[!UICONTROL Forms]_.
@@ -349,4 +343,3 @@ Quando um formulário é incluído em uma página de aterrissagem ou modelo de p
 Quando você seleciona o formulário no espaço de design da página de aterrissagem, essas ações estão disponíveis na barra de ferramentas de contexto e no painel de propriedades à direita.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-<!-- -->
