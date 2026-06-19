@@ -2,10 +2,10 @@
 user-guide-title: Documentação do Journey Optimizer B2B Prime
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B edition Prime e como usá-lo para ?.
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 42%
 + Introdução {#start}
    + [Lista de verificação de configuração](./start/setup-prime.md)
    + [Gerenciamento de usuários](./start/user-management.md)
+   + [Capacidade de entrega de email](./start/email-deliverability.md)
 + [Página inicial e insights](./home-insights/home-insights.md)
 + [Agentes](./agents/agents.md)
 + Gerenciamento de marketing {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 42%
    + Canal de email {#email-channel}
       + [Visão geral](./marketing/email-channel.md)
       + [Otimização do tempo de envio de email](./marketing/email-send-time-optimization.md)
-      + [Criação de email](./content/email-authoring.md)
+      + [Criação de conteúdo](./content/email-authoring.md)
       + [Design no modo escuro](./content/email-dark-mode.md)
    + [Canal do WhatsApp](./content/whatsapp-authoring.md)
 + Públicos-alvo {#audiences}
@@ -54,9 +55,9 @@ ht-degree: 42%
 + Administração {#admin}
    + {hide-from-toc}[Administração](./admin/admin.md)
    + Canais {#channels}
-      + [Capacidade de entrega de email e configuração de canal](./admin/configuration-email-deliverability.md)
-      + [Configuração do canal de SMS](./admin/configuration-channels-sms.md)
-      + [Configuração do canal da Web](./admin/configuration-channels-web.md)
+      + [Configuração do canal de email](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[Configuração do canal de SMS](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[Configuração do canal da Web](./admin/configuration-channels-web.md)
       + [Configuração de canal do WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuração da landing page](./admin/configuration-presets-landing-pages.md)
       + [Configuração da predefinição do formulário](./admin/configuration-presets-forms.md)
