@@ -1,9 +1,9 @@
 ---
 title: Acesso e permissões do usuário
 description: 'Gerenciar o acesso do usuário no Adobe Admin Console: crie grupos de usuários, atribua perfis de produtos e defina permissões com base em funções para o Journey Optimizer B2B edition Prime.'
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: f1449f734b5d93dc9bd4d7b4c1292a50cbc338b7
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1719'
 ht-degree: 70%
 
 ---
@@ -14,14 +14,14 @@ Após a conclusão do provisionamento e a vinculação das sandboxes, conclua as
 
 1. [Crie um perfil de produto do Adobe Journey Optimizer B2B edition](#create-profile) no Admin Console (apenas uma vez/configuração inicial).
 1. [Adicionar um grupo de usuários](#add-user-group) na Admin Console.
-1. [Edite as funções internas](#edit-roles-for-product-permissions) ou [crie uma função personalizada](#create-a-custom-role) com permissões do Journey Optimizer B2B edition em permissões do Adobe Experience Platform.
+1. [Edite as funções internas](#edit-role-permissions) ou [crie uma função personalizada](#create-a-custom-role) com permissões do Journey Optimizer B2B edition em permissões do Adobe Experience Platform.
 1. [Adicionar usuários](#add-users-to-a-role) ou [grupos](#add-user-groups-to-a-role) a funções no Adobe Experience Platform.
 
 ## Configurar o perfil do produto {#config-profile}
 
 Como administrador, você pode concluir essas tarefas no Adobe Admin Console, que é um local central para administrar e gerenciar licenças e usuários de produtos da Adobe. No Admin Console, é possível criar e gerenciar usuários em um único local em vez de em várias soluções individuais. Para saber mais sobre suas funções e recursos, consulte a página [visão geral do Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).
 
-### Acessar o Admin Console
+### Acessar o Admin Console {#admin-console}
 
 Antes de usar o Admin Console para administrar os usuários da sua equipe, é necessário garantir que você possa acessar o Admin Console e ter as permissões apropriadas.
 
@@ -138,9 +138,9 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
    * Clique em **[!UICONTROL Salvar]** para ver as alterações do usuário.
 
-## Editar funções para permissões de produto {#edit-roles-for-product-permissions}
+## Atribuir permissões do produto {#assign-product-permissions}
 
-As permissões são direitos unitários que permitem definir as autorizações atribuídas a um perfil de produto. Cada permissão é agrupada em um recurso, como jornadas ou grupos de compras, representando funcionalidades no Journey Optimizer B2B edition.
+As permissões são direitos unitários que permitem definir as autorizações atribuídas a um perfil de produto. Cada permissão é agrupada em um recurso, como jornadas ou grupos de compras, representando funcionalidades no [!DNL Journey Optimizer B2B Prime].
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
