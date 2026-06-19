@@ -1,7 +1,8 @@
 ---
-title: Canal de email
-description: Adicionar nós de ação de email às jornadas de conta - crie novos emails ou use emails existentes do Marketo Engage para comunicações direcionadas no Journey Optimizer B2B edition.
-feature: Email Authoring, Account Journeys
+title: Adicionar emails ao Jornada
+description: Adicione nós de ação de email a jornadas de pessoas e crie novos emails para comunicações direcionadas no Journey Optimizer B2B Prime.
+badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
+feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
@@ -16,36 +17,44 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 2%
+source-wordcount: 1037
+ht-degree: 1%
 
 ---
 
-# Canal de email
+# Adicionar emails ao jornada
 
-O [!DNL Adobe Journey Optimizer B2B Prime] traz uma experiência moderna de criação e entrega de email de nível empresarial para os profissionais de marketing B2B. Esta versão apresenta ferramentas de design de email reprojetadas e um conjunto completo de controles de capacidade de entrega de email.
+O [!DNL Adobe Journey Optimizer B2B Prime] traz uma experiência moderna de criação e entrega de email de nível empresarial para os profissionais de marketing B2B.
 
 >[!NOTE]
 >
->Se você estiver enviando um email pela primeira vez, verifique se o [canal de email e a capacidade de entrega](../admin/configuration-email-deliverability.md) estão configurados.
+>Se você estiver enviando um email pela primeira vez, verifique se a [capacidade de entrega de emails](../start/email-deliverability.md) e o [canal de email](../admin/email-channel-configuration.md) necessário estão configurados.
 
-## Visão geral do canal de email {#overview}
+<!-- 
+* **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
+* **Email deliverability controls** - Set up your email deliverability channel, including subdomain delegation (Fully Delegated and CNAME methods), DMARC, SPF/DKIM auto-configuration, and shared IP pool support.
+* **Send Email action** - From a journey, add a _Send email_ action node, including personalization using profile attributes (Handlebars syntax).
+* **Visual drag-and-drop email design tools** -  Design your email content with structures, content components, themes, dark-mode support, and reusable visual fragments.
+* **Marketo Design Studio assets** — Choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas.
+* **Reusable templates and fragments** — Save common headers, footers, CTAs, and full email layouts and reuse them across journeys.
+* **Role-Based Access Control (RBAC)** — Apply granular permissions for creating, editing, approving, and sending email. 
+-->
 
-* **Configurações de canal de email** - Gerencie a identidade do remetente, o comportamento de resposta, os tipos de mensagem de marketing vs. transacional e o rastreamento.
-* **Controles de capacidade de entrega de email** - Configure seu canal de capacidade de entrega de email, incluindo delegação de subdomínio (métodos totalmente delegados e CNAME), DMARC, configuração automática SPF/DKIM e suporte a pool de IP compartilhado.
-* **Ação Enviar email** - De uma jornada, adicione um nó de ação _Enviar email_, incluindo a personalização usando atributos de perfil (sintaxe Handlebars).
-* **Ferramentas visuais de design de email de arrastar e soltar** - Projete o conteúdo de email com estruturas, componentes de conteúdo, temas, suporte para o modo escuro e fragmentos visuais reutilizáveis.
-* **Ativos do Marketo Design Studio** — escolha imagens e ativos de uma cópia única da biblioteca de ativos do Marketo Engage diretamente na tela de email.
-* **Modelos e fragmentos reutilizáveis** — Salve cabeçalhos, rodapés, CTAs e layouts completos de email comuns e reutilize-os no jornada.
-* **Controle de Acesso com Base em Função (RBAC)** — Aplique permissões granulares para criar, editar, aprovar e enviar email.
+## Limitações atuais {#limitations}
+
+* **Perfis de teste, Simular conteúdo e Enviar prova** não estão disponíveis nesta versão. A renderização do Litmus e os relatórios de spam baseados no SpamAssassin estão no roteiro do GA.
+* **A personalização em nível de conta e os dados de objeto personalizado** não estão disponíveis nesta versão. Use atributos de perfil.
+* A **migração automatizada do Velocity para Handlebars** dos modelos existentes do Marketo Engage é enviada na data de disponibilidade geral.
+* **Comentários e colaboração em emails** (comentários incorporados, @mentions, fluxo de trabalho de solicitação-revisão) enviados em uma versão futura.
+* As integrações **AEM Assets, AEM Content Fragments e Adobe Express** estão no roteiro de _Acompanhamento Rápido_.
 
 ## Principais conceitos {#key-concepts}
 
 Antes de criar emails para jornadas de pessoas e criar conteúdo de email, analise estes conceitos:
 
-| Conceito | No Prime [!DNL Journey Optimizer B2B Prime] |
+| Conceito | Em [!DNL Adobe Journey Optimizer B2B Prime] |
 | ------- | ---------------------- |
 | **_Espaço de design de email_** | A tela visual e as ferramentas de design usadas para compor conteúdo de email. Ele inclui componentes de layout de arrastar e soltar, templates, fragmentos, temas e um editor de personalização. |
 | **_Modelo_** | Um layout de email reutilizável que está disponível para criar um novo email. Ele pode ser um modelo integrado fornecido pelo Adobe ou um modelo personalizado criado pela sua equipe. |
@@ -56,68 +65,67 @@ Antes de criar emails para jornadas de pessoas e criar conteúdo de email, anali
 
 ## Adicionar um email de uma jornada
 
-Para enviar email de uma jornada, adicione um nó _Faça uma ação_ e configure-o para enviar email.
+Para enviar email de uma jornada, [adicione um nó _Faça uma ação_](action-nodes.md#add-an-action-node) e configure-o para enviar email.
 
 1. Na tela de jornada, clique no ícone **+** e selecione **[!UICONTROL Realizar uma ação]**.
 
 1. Nas propriedades do nó à direita, defina a ação como **[!UICONTROL Enviar email]**.
 
-   ![Executar uma ação - Enviar email](./assets/person-action-node-send-email.png){width="450"}
+   ![Executar uma ação - Enviar email](./assets/person-action-node-send-email.png){width="500"}
 
 1. Escolha a fonte do e-mail:
 
    * **Criar/editar email** - Escolha esta opção para definir o conteúdo do email, incluindo a linha de assunto, as informações do remetente e o corpo do email no espaço de design do email.
 
-   * **[!UICONTROL Usar um email personalizado para IA]** - Escolha esta opção para refinar um email gerado para IA no espaço de design de email. Esses emails são otimizados para que os clientes da caixa de entrada assistida por IA fundamentem seus resumos e respostas em suas ofertas e planos de ação.
+   * **[!UICONTROL Usar um email personalizado para IA]** - (_Não disponível para o Beta_) Escolha esta opção para refinar um email gerado para IA no espaço de design de email. Esses emails são otimizados para que os clientes da caixa de entrada assistida por IA fundamentem seus resumos e respostas em suas ofertas e planos de ação.
 
 1. Clique em **[!UICONTROL Criar email]**.
 
 1. Na caixa de diálogo _[!UICONTROL Criar email]_, digite um **[!UICONTROL Nome]** exclusivo (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
 
+   ![Caixa de diálogo Criar email](./assets/email-channel-create-email-dialog.png){width="400"}
+
 1. Clique em **[!UICONTROL Criar]**.
 
-## Definir as propriedades e ações do email
+Para a [otimização de tempo de envio](email-send-time-optimization.md) opcional, configure o nó de ação de jornada depois de criar o email.
 
-1. Com o nó _[!UICONTROL Enviar email]_ selecionado na tela de jornada, clique em **[!UICONTROL Editar email]** nas propriedades do nó à direita.
+## Definir as propriedades e ações do email {#define-email-properties}
 
-<!-- Staging environment broken -->
+A página de e-mail é aberta quando você cria um e-mail para um nó _[!UICONTROL Enviar e-mail]_. Você também pode acessar esta página após a criação do email clicando em **[!UICONTROL Editar email]** nas propriedades do nó à direita.
 
-para o email e uma **[!UICONTROL linha de assunto]**.
+1. (Opcional) Na guia **[!UICONTROL Propriedades]**, digite qualquer informação descritiva que você deseja capturar para o email.
 
-Isso abre a guia **[!UICONTROL Ações]**, na qual você pode selecionar ou criar a configuração de email a ser usada.
+1. Selecione a guia **[!UICONTROL Ações]** e conclua as configurações funcionais do email:
 
-1. (Opcional) Selecione um conjunto de regras nas Regras de negócio para aplicar regras de limitação à sua ação de email.
+   * **[!UICONTROL Email]** - Selecione ou crie uma **[!UICONTROL Configuração de canal de email]** para usar.
 
-Você pode usar a [opção de otimização de tempo de envio](./email-send-time-optimization.md) para prever o melhor momento para enviar a mensagem e maximizar o engajamento com base no histórico de taxas de abertura e de clique. Saiba como
+     Esse é o conjunto reutilizável de configurações de entrega de email que define a identidade do remetente, o endereço de resposta, o subdomínio, o pool de IPs, o tipo de email (marketing ou transacional) e o rastreamento. Clique no ícone _Exibir_ para examinar as configurações da configuração selecionada.
 
-Selecione o botão Editar conteúdo e crie seu conteúdo conforme desejado usando o Designer de email.
+     Os administradores criam configurações em [Configuração do canal de email](../admin/email-channel-configuration.md).
 
-Volte para a tela de jornada. Se necessário, conclua o fluxo de jornada arrastando e soltando ações ou eventos adicionais.
+   * **[!UICONTROL Regras de negócio]** - (Opcional) Aplique regras de limitação à sua ação de email selecionando um Conjunto de regras.
 
-Para obter mais informações sobre como criar, configurar e publicar uma jornada, consulte esta página.
+   * **[!UICONTROL Rastreamento de ação]** - Marque as caixas de seleção das ações que deseja rastrear para o email.
 
+   ![Canal de email - guia Ações](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
-### Definir configurações de email {#email-settings}
+1. Clique em **[!UICONTROL Editar conteúdo]** ou selecione a guia **[!UICONTROL Conteúdo]**.
 
-Defina as configurações na guia **[!UICONTROL Detalhes]** do painel de resumo do nó.
+1. Insira o texto da **[!UICONTROL Linha de assunto]** que você deseja exibir no campo de assunto do email.
 
-| Configuração | Descrição |
-| ------- | ----------- |
-| **[!UICONTROL De nome]** | Nome do remetente exibido no cabeçalho do email. Suporta tokens de personalização. |
-| **[!UICONTROL Do email]** | Endereço de email do remetente. Padrões da configuração do canal. Aceita personalização. |
-| **[!UICONTROL Endereço para resposta]** | Endereço que recebe respostas dos destinatários. Aceita personalização. |
-| **[!UICONTROL Linha de assunto]** | Linha de assunto do email. Editável a partir do valor inserido na criação. |
-| **[!UICONTROL Domínio de marca]** | Domínio usado para envio específico da marca. |
-| **[!UICONTROL IP dedicado]** | Endereço IP específico para rastreamento da capacidade de entrega. |
-| **[!UICONTROL Email operacional]** | Quando ativado, ignora a supressão de recusa e cancelamento de inscrição. Use apenas para mensagens operacionais legítimas. |
-| **[!UICONTROL Incluir exibição como página da Web]** | Gera um link de página da Web para o conteúdo de email. |
-| **[!UICONTROL Desabilitar o rastreamento de aberturas]** | Impede o rastreamento da atividade de email aberta. |
-| **[!UICONTROL Pré-cabeçalho]** | Texto resumido exibido após a linha de assunto nas visualizações da caixa de entrada. |
-| **[!UICONTROL Endereços CC]** | Adicione até 25 campos de email de cliente potencial ou Empresa para receber uma cópia. |
+   Clique no ícone _Personalizar_ ( ![Ícone Personalizar](../../user/assets/do-not-localize/icon-personalize.svg) ) para usar um token de personalização no campo.
+
+1. (Opcional) Marque a caixa de seleção **[!UICONTROL Otimizar o tamanho do HTML]** para reduzir o tamanho do HTML de email durante o processo de publicação.
+
+   Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB. Consulte [_Otimizar o tamanho do HTML de email_](#optimize-html-size) para obter mais informações.
+
+1. Clique em **[!UICONTROL Editar corpo do email]** para acessar as ferramentas de design visual e começar a [criar seu conteúdo](../content/email-authoring.md).
+
+   Como alternativa, você pode clicar em **[!UICONTROL Editor de código]** para codificar seu próprio conteúdo em HTML simples. Se você tiver um HTML existente para reutilizar em seu design de email, é possível copiá-lo e colá-lo no editor.
 
 ### Verificar alertas {#alerts}
 
-[!DNL Journey Optimizer B2B Prime] apresenta problemas no canto superior direito do editor de email. Resolva todos os erros antes de ativar a jornada — os avisos são somente recomendações.
+[!DNL Adobe Journey Optimizer B2B Prime] apresenta problemas no canto superior direito da página de email. Resolva todos os erros antes de ativar a jornada. Os avisos são somente recomendações.
 
 **Erros** (impedir ativação de jornada):
 
@@ -131,3 +139,62 @@ Defina as configurações na guia **[!UICONTROL Detalhes]** do painel de resumo 
 * A versão de texto do HTML está vazia
 * Links vazios detectados
 * Email excede 100 K
+
+## Otimizar o tamanho do HTML de email {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_email_minification"
+>title="Reduzir tamanho do HTML"
+>abstract="Ative essa opção para compactar seu HTML de email durante a publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB."
+
+O [!DNL Journey Optimizer B2B Prime] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Manter o tamanho pequeno do HTML ajuda a:
+
+* Evite **recorte de email** — alguns clientes, como o Gmail, truncam mensagens com mais de ~100 KB, impedindo que os destinatários visualizem o conteúdo completo.
+* Melhore o **tempo de carregamento do email** na caixa de entrada do destinatário.
+* Melhore a **deliverability** e reduza o uso da largura de banda.
+
+Essa otimização não é aplicada automaticamente — você deve habilitá-la na guia _[!UICONTROL Conteúdo]_.
+
+<!-- ![](assets/email-optimize-html-size.png) -->
+
+>[!IMPORTANT]
+>
+> A redução de tamanho do HTML é aplicada somente no momento da publicação.
+
+A otimização é segura para o cliente de email:
+
+* Preserva comentários condicionais do MSO/Outlook.
+* Isso não altera seu conteúdo, imagens ou vídeos reais.
+
+>[!NOTE]
+>
+>A redução no tamanho do email depende da estrutura original do HTML do email. Se o conteúdo já estiver compacto ou a carga do email for muito grande, a redução pode ser mínima e talvez não impeça totalmente o recorte em todos os casos.
+
+<!-- 
+Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
+
+### Test HTML size optimization {#optimize-html-proof}
+
+If you have enabled the [HTML size optimization](#optimize-html-size) option, you can evaluate its impact before publishing when sending proofs. Follow the following steps.
+
+1. In the email design space, click the _Issues_ icon on the top right. If the rendered email size exceeds 100 KB, a message is displayed to warn you that this may cause truncation in some email clients.
+
+1. Click **[!UICONTROL Simulate content]**.
+
+1. To test the optimized version, click the **[!UICONTROL Send proof]** button and select the **[!UICONTROL Optimize HTML size]** option. This will send a proof with the reduced HTML size to your test recipients.
+
+    >[!NOTE]
+    >
+    >This setting is independent from the email editor — the proof reflects what you select in the proof, regardless of whether the option is enabled or disabled in the email itself.
+
+1. Select the test recipients and click **[!UICONTROL Send proof]**.
+
+1. Back in the **[!UICONTROL Simulate]** screen, click the **[!UICONTROL View Proof]** button.
+
+1. Click the _Information_ icon next to the status of the proof.
+
+   The optimization details are displayed in a pop-up window, including the original HTML size, the optimized HTML size, and the size reduction percentage.
+    
+    Use this information to validate the optimized output and confirm the email stays within the recommended 100 KB threshold before publishing.
+
+-->

@@ -1,6 +1,7 @@
 ---
 title: Lista de verificação de configuração
 description: Conclua as tarefas de configuração iniciais para sua instância do Journey Optimizer B2B Prime, incluindo a configuração de acesso do usuário e a infraestrutura de capacidade de entrega de email.
+badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
 product_v2:
@@ -14,9 +15,9 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: de83abd4ca48e2dfda8a1900f7c8074232bb9d8e
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: 228
 ht-degree: 11%
 
 ---
@@ -83,21 +84,21 @@ Antes que os profissionais de marketing possam enviar emails do jornada, configu
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Delegar um subdomínio à Adobe (totalmente delegado ou CNAME)</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Totalmente delegado</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><a href="./email-deliverability.md#delegate-fully-delegated">Totalmente delegado</a> <br/> <a href="./email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Configurar o DMARC para o subdomínio</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Configurar DMARC</a></td>
+<td><a href="./email-deliverability.md#configure-dmarc">Configurar DMARC</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Revisar e atribuir um pool de IPs</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Revisar pool de IPs</a></td>
+<td><a href="./email-deliverability.md#review-ip-pool">Revisar pool de IPs</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Criar uma configuração de canal de email</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configurar canal de email</a></td>
+<td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Configurar canal de email</a></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Criação de email
+title: Conteúdo do email
 description: Use as ferramentas de design de email do Journey Optimizer B2B Prime, incluindo modelos de email, fragmentos, personalização, modo escuro e validação.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
@@ -15,22 +15,22 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 2738
 ht-degree: 1%
 
 ---
 
-# Criação de email
+# Criação de conteúdo de email
 
 No [!DNL Adobe Journey Optimizer B2B Prime], o espaço de design de email fornece uma tela visual onde os profissionais de marketing compõem emails. As ferramentas de design de email nos painéis à esquerda e na parte superior (estruturas, componentes de conteúdo, modelos, fragmentos e muito mais) oferecem suporte à criação do zero com arrastar e soltar. Você também pode optar por iniciar com base em um modelo, colar HTML bruto ou reunir mensagens de fragmentos visuais reutilizáveis.
 
 >[!IMPORTANT]
 >
->Para obter a configuração do administrador de subdomínios, autenticação, pools de IP e configurações de canal de email, consulte [Entregabilidade de email e configuração de canal](../admin/configuration-email-deliverability.md).
+>Para obter a configuração do administrador de subdomínios, autenticação, pools de IP e configurações de canal de email, consulte [Entregabilidade de email](../start/email-deliverability.md) e [Configuração de canal de email](../admin/email-channel-configuration.md).
 
-No [!DNL Journey Optimizer B2B Prime], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ em uma jornada. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar email_](../marketing/action-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo de design de conteúdo de email.
+No [!DNL Adobe Journey Optimizer B2B Prime], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ em uma jornada. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar Email_](../marketing/action-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo de design de conteúdo de email.
 
 Essa ação inicia o espaço de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
@@ -65,16 +65,13 @@ Seguir as práticas recomendadas do HTML e do CSS ajuda a garantir a renderizaç
 
 ## Criar um email a partir de uma jornada {#email-from-journey}
 
-1. Clique no botão **[!UICONTROL Editar email]** para prosseguir para a etapa de configuração de email.
-1. Na próxima tela, selecione uma configuração de canal criada anteriormente no menu suspenso **[!UICONTROL Configuração de email]**. Somente as configurações Ativas são listadas.
-1. Insira um Rótulo para a ação (visível na tela de jornada) e um Nome de email interno.
-1. Insira a linha Assunto.
-1. Opcionalmente, alterne **[!UICONTROL Habilitar o rastreamento de URL]** para este nó de email.
-1. Clique em **[!UICONTROL Editar conteúdo]** para abrir o espaço de design de email.
+Para adicionar uma ação _[!UICONTROL Enviar Email]_ a uma jornada de pessoa, criar o email e definir as configurações de canal na guia **[!UICONTROL Ações]**, consulte [Adicionar emails ao jornada](../marketing/email-channel.md).
+
+Após configurar o email nas guias **[!UICONTROL Propriedades]**, **[!UICONTROL Ações]** e **[!UICONTROL Conteúdo]**, use as seções deste tópico para criar o corpo do email no espaço de design de email.
 
 ### A tela Editar conteúdo {#edit-content-screen}
 
-Nessa tela, você confirma os detalhes do remetente (herdados da configuração do canal), define a linha de assunto e abre o espaço de design de email para criar o corpo. O pré-cabeçalho é configurado no espaço de design de email (consulte [Configuração do pré-cabeçalho](#preheader)).
+Na guia **[!UICONTROL Conteúdo]**, confirme os detalhes do remetente (herdados da [configuração do canal de email](../admin/email-channel-configuration.md)), defina a linha de assunto e abra o espaço de design de email para criar o corpo. O pré-cabeçalho é configurado no espaço de design de email (consulte [Configuração do pré-cabeçalho](#preheader)).
 
 * **Do Nome, Do Email, Cco:** Herdado da configuração de canal. Somente leitura nesta tela.
 * **Linha de assunto:** Necessária. O Personalization é compatível.
@@ -295,10 +292,10 @@ Antes de ativar a jornada, o conteúdo do email deve ser válido. O Prime exibe 
 
 | Alerta | O que significa | Como resolver |
 | ----- | ------------- | -------------- |
-| **Linha de assunto ausente** | O campo Linha de assunto está vazio. | Abra o email e insira uma linha de assunto na tela Editar conteúdo. Os tokens do Personalization são permitidos, mas o campo não pode estar vazio. |
+| **Linha de assunto ausente** | O campo Linha de assunto está vazio. | Abra o email e insira uma linha de assunto na guia **[!UICONTROL Conteúdo]**. Os tokens do Personalization são permitidos, mas o campo não pode estar vazio. |
 | **O corpo do email está vazio** | A tela no espaço de design de email não tem conteúdo. | Clique em **[!UICONTROL Editar corpo do email]** para abrir o espaço de design de email. Arraste pelo menos uma Estrutura e um componente Conteúdo para a tela e clique em Salvar. |
-| **Configuração de canal não selecionada** | Nenhuma configuração de email foi escolhida para o nó de email. | Na tela de propriedades do email, selecione uma configuração de canal ativo na lista suspensa **[!UICONTROL Configuração de email]**. |
-| **Configuração de canal excluída** | A configuração de canal selecionada anteriormente foi excluída ou não está mais ativa. | Abra as propriedades de email e selecione outra configuração de canal ativo. Se nenhum estiver disponível, um administrador deverá criar ou reativar um. |
+| **Configuração de canal não selecionada** | Nenhuma configuração de canal de email foi escolhida para o nó de email. | Na guia **[!UICONTROL Ações]**, selecione uma **[!UICONTROL Configuração de canal de email]** ativa. |
+| **Configuração de canal excluída** | A configuração de canal selecionada anteriormente foi excluída ou não está mais ativa. | Na guia **[!UICONTROL Ações]**, selecione outra **[!UICONTROL Configuração do canal de email]** ativa. Se nenhum estiver disponível, um administrador deverá criar ou reativar um na [Configuração do canal de email](../admin/email-channel-configuration.md). |
 | **O tamanho do email excede 100 KB** | O tamanho total do email (HTML, CSS em linha, conteúdo codificado) é maior que o limite de 100 KB das práticas recomendadas do ISP. | Reduzir o tamanho do email: substitua imagens grandes em linha por imagens hospedadas externamente do Marketo Design Studio, remova o CSS em linha não usado e simplifique as estruturas aninhadas. |
 | **Token de personalização não resolvido** | Um token Handlebars faz referência a um atributo de perfil sem fallback e o atributo pode estar ausente para alguns destinatários. | Adicione um fallback usando o auxiliar Handlebars `default`, conforme descrito em [Personalization](#personalization). Como alternativa, restrinja o público-alvo da jornada aos perfis em que o atributo é garantido. |
 | **Imagem não carregada** | Um componente de imagem faz referência a um ativo que não está mais disponível. | Clique na imagem, abra o seletor de ativos e selecione novamente o ativo no Marketo Design Studio. |
