@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ O Prime disponibiliza seus ativos existentes do Marketo Design Studio no espaço
 
 >[!IMPORTANT]
 >
->A disponibilidade do ativo no Prime é baseada em uma **cópia única** dos seus ativos do Marketo Design Studio. Recarregar ou modificar ativos no Marketo após a cópia inicial **não** será refletido no Prime. Os uploads de imagem diretamente no Prime também não são compatíveis com esta versão. O gerenciamento de ativos digitais nativos no Prime — incluindo upload, navegação de pastas, pesquisa e edição de imagens — faz parte do escopo do Beta.
+>A disponibilidade do ativo no Prime é baseada em uma **cópia única** dos seus ativos do Marketo Design Studio. Modificar ativos no Marketo Engage após a cópia inicial **não** refletido em [!DNL Journey Optimizer B2B Prime].
 
 ### Tipos de arquivo compatíveis {#asset-file-types}
 

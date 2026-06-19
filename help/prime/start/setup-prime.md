@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ Quando o provisionamento estiver concluído, as sandboxes serão vinculadas e as
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Criar um perfil de produto do Marketo Engage na Adobe Admin Console (somente nova instância do Marketo Engage)</td>
 <td><a href="./user-management.md#create-profile">Saiba mais</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Adicionar um grupo de usuários para o perfil</td>
 <td><a href="./user-management.md#add-user-group">Saiba mais</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Configurar funções de usuário B2B</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">Saiba mais</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Adicionar usuários ou grupos às funções</td>
 <td><a href="./user-management.md#add-users-to-a-role">Saiba mais</a></td>
 </tr>
@@ -81,26 +81,25 @@ Antes que os profissionais de marketing possam enviar emails do jornada, configu
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Delegar um subdomínio à Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Totalmente Delegado</a> ou <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Configurar o DMARC para o subdomínio</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Saiba mais</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Revisar e atribuir um pool de IPs</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Saiba mais</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Criar uma configuração de canal de email</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Saiba mais</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 
