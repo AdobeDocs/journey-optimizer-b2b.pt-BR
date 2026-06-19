@@ -1,33 +1,26 @@
 ---
-title: Configuração
+title: Lista de verificação de configuração
 description: Conclua as tarefas de configuração iniciais para sua instância do Journey Optimizer B2B Prime, incluindo a configuração de acesso do usuário e a infraestrutura de capacidade de entrega de email.
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ceid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: de83abd4ca48e2dfda8a1900f7c8074232bb9d8e
 workflow-type: tm+mt
-source-wordcount: 190
-ht-degree: 55%
+source-wordcount: 218
+ht-degree: 11%
 
 ---
 
-# Configuração
+# Lista de verificação de configuração
 
-Conclua essas tarefas para ativar a funcionalidade na instância provisionada do Jornada B2B Prime.
+Conclua essas tarefas para habilitar a funcionalidade na instância [!DNL Journey Optimizer B2B Prime] provisionada.
 
-## Habilitar acesso do usuário
+## Habilitar acesso do usuário {#enable-user-access}
 
-Quando o provisionamento estiver concluído, as sandboxes serão vinculadas e as tarefas de configuração iniciais serão concluídas, configure o Journey Optimizer B2B edition e o Marketo Engage Access para sua equipe e usuários.
+Quando o provisionamento estiver concluído e as sandboxes estiverem vinculadas, configure o acesso do [!DNL Journey Optimizer B2B Edition] para sua equipe e usuários.
 
 <table>
 <thead>
@@ -42,29 +35,29 @@ Quando o provisionamento estiver concluído, as sandboxes serão vinculadas e as
 <td></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
-<td>Criar um perfil de produto do Marketo Engage na Adobe Admin Console (somente nova instância do Marketo Engage)</td>
-<td><a href="./user-management.md#create-profile">Saiba mais</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
+<td>Criar um perfil de produto do Journey Optimizer B2B edition na Admin Console (configuração única/inicial apenas)</td>
+<td><a href="./user-management.md#create-profile">Criar perfil</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
-<td>Adicionar um grupo de usuários para o perfil</td>
-<td><a href="./user-management.md#add-user-group">Saiba mais</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
+<td>Adicionar um grupo de usuários na Admin Console</td>
+<td><a href="./user-management.md#add-user-group">Adicionar grupo de usuários</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
-<td>Configurar funções de usuário B2B</td>
-<td><a href="./user-management.md#edit-roles-for-product-permissions">Saiba mais</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
+<td>Editar funções integradas ou criar uma função personalizada com permissões de produto</td>
+<td><a href="./user-management.md#edit-role-permissions">Editar funções</a> <br/> <a href="./user-management.md#create-a-custom-role">Criar uma função personalizada</a></td>
 </tr>
 <tr>
-<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
-<td>Adicionar usuários ou grupos às funções</td>
-<td><a href="./user-management.md#add-users-to-a-role">Saiba mais</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
+<td>Adicionar usuários ou grupos a funções no Adobe Experience Platform</td>
+<td><a href="./user-management.md#add-users-to-a-role">Adicionar usuários</a> <br/><a href="./user-management.md#add-user-groups-to-a-role">Adicionar grupos</a></td>
 </tr>
 </tbody>
 </table>
 
-## Capacidade de entrega de email
+## Capacidade de entrega de email {#email-deliverability}
 
 Antes que os profissionais de marketing possam enviar emails do jornada, configure a infraestrutura de envio para sua organização, incluindo a delegação de subdomínio, a autenticação de email e as configurações de canal.
 
@@ -81,25 +74,23 @@ Antes que os profissionais de marketing possam enviar emails do jornada, configu
 <td></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
-<td>Delegar um subdomínio à Adobe</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Totalmente Delegado</a> ou <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
+<td>Delegar um subdomínio à Adobe (totalmente delegado ou CNAME)</td>
+<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Totalmente delegado</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Configurar o DMARC para o subdomínio</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Saiba mais</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Configurar DMARC</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Revisar e atribuir um pool de IPs</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Saiba mais</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Revisar pool de IPs</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Criar uma configuração de canal de email</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Saiba mais</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configurar canal de email</a></td>
 </tr>
 </tbody>
-</table>
-
