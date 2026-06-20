@@ -3,19 +3,13 @@ title: Páginas de destino
 description: 'Criar, projetar e publicar páginas de aterrissagem para jornadas de pessoas: crie do zero, importe o HTML, adicione formulários, personalize o conteúdo e crie links de emails no Journey Optimizer B2B Prime.'
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2180
+source-wordcount: 2164
 ht-degree: 4%
 
 ---
@@ -30,12 +24,12 @@ Casos de uso comuns para landing pages:
 * Colete o consentimento antes de enviar comunicações e envie um email de confirmação ao aceitar ou recusar.
 * Capture ou atualize os dados de perfil (criação de perfil progressiva, preferências, registros e cenários semelhantes) usando formulários nas páginas de aterrissagem.
 * Direcione pessoas para informações específicas de campanha criadas para a orquestração de jornadas.
-* Redirecionar pessoas para um formulário web dedicado sem criar uma página externa fora do Journey Optimizer B2B Prime.
+* Redirecionar pessoas para um formulário web dedicado sem criar uma página externa fora de [!DNL Journey Optimizer B2B Prime].
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +45,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## Acessar e gerenciar páginas de destino {#access-manage-landing-pages}
 
-Para acessar páginas de aterrissagem no Journey Optimizer B2B Prime, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Páginas de aterrissagem]**. Essa ação exibe uma lista de todas as landing pages criadas na instância.
+Para acessar as páginas de aterrissagem em [!DNL Journey Optimizer B2B Prime], vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Páginas de aterrissagem]**. Essa ação exibe uma lista de todas as landing pages criadas na instância.
 
 A lista é classificada de acordo com a coluna _[!UICONTROL Modificado]_, com os itens atualizados mais recentes no topo. Clique no título da coluna para alterar entre crescente e decrescente.
 
@@ -78,7 +72,7 @@ O status da landing page determina a disponibilidade para vinculação no conte�
 | Status | Descrição |
 | -------------------- | ----------- |
 | Rascunho | Quando você cria uma página de aterrissagem, ela está no status de rascunho. Ele permanece nesse status conforme você define ou edita o conteúdo visual e até que você o publique como uma página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição</li><li>Editar URL do link</li><li>Editar no espaço de design visual</li><li>Publicação</li><li>Duplicar</li><li>Excluir</li></ul> |
-| Publicado | Ao publicar uma landing page, ela é hospedada na instância do Journey Optimizer B2B Prime e fica disponível para vinculação em um conteúdo de mensagem de email ou SMS. Ações disponíveis:<br/><ul><li>Editar nome ou descrição</li><li>Editar URL do link</li><li>Adicionar link no conteúdo do email ou da mensagem SMS</li><li>Criar versão de rascunho</li><li>Duplicar</li><li>Excluir</li></ul> |
+| Publicado | Ao publicar uma página de aterrissagem, ela fica hospedada na instância do [!DNL Journey Optimizer B2B Prime] e fica disponível para vinculação em um conteúdo de mensagem de email ou SMS. Ações disponíveis:<br/><ul><li>Editar nome ou descrição</li><li>Editar URL do link</li><li>Adicionar link no conteúdo do email ou da mensagem SMS</li><li>Criar versão de rascunho</li><li>Duplicar</li><li>Excluir</li></ul> |
 | Publicado com rascunho | Ao criar um rascunho de uma página de aterrissagem publicada, a versão publicada permanece e o conteúdo do rascunho pode ser modificado no espaço de design visual. Se você publicar a versão de rascunho, ela substituirá a versão publicada atual e o conteúdo será atualizado na página hospedada. Ações disponíveis:<br/><ul><li>Editar nome ou descrição</li><li>Editar URL do link</li><li>Adicionar link no conteúdo do email ou da mensagem SMS</li><li>Editar versão de rascunho no espaço de design visual</li><li>Publicar versão de rascunho</li><li>Duplicar</li><li>Excluir (exclui ambas as versões)</li><li>Descartar rascunho (retorna ao status publicado)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -175,7 +169,7 @@ Para definir as configurações da página principal, siga estas etapas:
 >title="Visualizar e testar a página de destino"
 >abstract="Depois de definir as configurações e o conteúdo da página de aterrissagem, use perfis de teste para visualizar a página."
 
-Quando as configurações e o conteúdo da landing page são definidos, você pode usar perfis de teste para visualizar a página. Se você inseriu [conteúdo personalizado](email-authoring.md#personalization), é possível verificar como esse conteúdo é exibido na página de aterrissagem usando os dados do perfil de teste.
+Quando as configurações e o conteúdo da landing page são definidos, você pode usar perfis de teste para visualizar a página. Se você inseriu [conteúdo personalizado](email-authoring.md#personalize-content), é possível verificar como esse conteúdo é exibido na página de aterrissagem usando os dados do perfil de teste.
 
 >[!PREREQUISITES]
 >
@@ -299,7 +293,7 @@ Essa ação abre uma caixa de diálogo de confirmação. Você pode anular o pro
 
 ## Link para uma landing page {#link-to-landing-page}
 
-Como profissional de marketing ou criador que produz conteúdo de email, fragmento e página, você pode incorporar links às páginas de aterrissagem publicadas (ativas) criadas na instância do Journey Optimizer B2B Prime.
+Como profissional de marketing ou criador que produz conteúdo de email, fragmento e página, você pode incorporar links às páginas de aterrissagem publicadas (online) que são criadas na instância do [!DNL Journey Optimizer B2B Prime].
 
 1. Conforme você trabalha no espaço de design visual de um fragmento, email, página de aterrissagem ou modelo, selecione um trecho de texto, um componente de botão ou um componente de imagem para o link.
 

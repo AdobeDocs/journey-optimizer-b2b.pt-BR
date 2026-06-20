@@ -4,19 +4,13 @@ description: Saiba como criar modelos de email no Journey Optimizer B2B Prime �
 badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
 autotag-review: '2026-06-12T22:55:41.432Z'
 TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 880
+source-wordcount: 885
 ht-degree: 1%
 
 ---
@@ -24,7 +18,7 @@ ht-degree: 1%
 
 # Criar modelos de email
 
-Você pode criar um modelo de email no [!DNL Journey Optimizer B2B Edition Prime] de três maneiras:
+Você pode criar um modelo de email no [!DNL Adobe Journey Optimizer B2B Prime] de três maneiras:
 
 * **Criar um novo modelo** — Crie um modelo na biblioteca de modelos usando o espaço de design de email visual.
 * **Salvar de um email de jornada** — Salve um email criado em uma jornada como um modelo reutilizável.
@@ -65,13 +59,13 @@ Ao abrir o conteúdo de email que deseja reutilizar, salve-o diretamente na bibl
 
 O email original da jornada não é afetado. O modelo salvo está disponível na biblioteca de modelos para todos os usuários na sandbox. É possível atualizar o template criado para otimizar a reutilização:
 
-* Editar texto e adicionar tokens de [personalização](email-authoring.md#personalization).
+* Editar texto e adicionar tokens de [personalização](email-authoring.md#personalize-content).
 * Atualize ou substitua imagens e adicione links.
 * Configurar [bloqueio de conteúdo](template-content-governance.md).
 
 ## Converter uma imagem em um modelo {#image-to-template}
 
-O [!DNL Journey Optimizer B2B Edition Prime] pode converter uma imagem estática — como um modelo do Figma ou do Photoshop — em um modelo de email editável usando IA gerativa. Isso elimina a necessidade de recriar manualmente os layouts dos arquivos de design e é ideal para migrar designs de email existentes de outras plataformas. Esse recurso está disponível somente para modelos de conteúdo de email.
+O [!DNL Adobe Journey Optimizer B2B Prime] pode converter uma imagem estática — como um modelo do Figma ou do Photoshop — em um modelo de email editável usando IA gerativa. Isso elimina a necessidade de recriar manualmente os layouts dos arquivos de design e é ideal para migrar designs de email existentes de outras plataformas. Esse recurso está disponível somente para modelos de conteúdo de email.
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +89,7 @@ Antes de começar:
 
 ### Criar o modelo
 
-1. Navegue até **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Modelos]**.
+1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de conteúdo]** e selecione **[!UICONTROL Modelos]**.
 1. Clique em **[!UICONTROL Criar modelo]**.
 1. Insira um **[!UICONTROL Nome do modelo]** e uma **[!UICONTROL Descrição]** opcional.
 1. Defina o **[!UICONTROL Canal]** como Email.
@@ -138,7 +132,7 @@ Antes de começar:
 
 O conteúdo do modelo convertido é aberto no espaço de design como um modelo de email totalmente editável. Use as ferramentas padrão de design de conteúdo para:
 
-* Editar texto e adicionar tokens de [personalização](email-authoring.md#personalization).
+* Editar texto e adicionar tokens de [personalização](email-authoring.md#personalize-content).
 * Atualize ou substitua imagens e adicione links.
 * Ajustar cores, fontes e espaçamento.
 * Adicione, remova ou reorganize componentes de conteúdo.

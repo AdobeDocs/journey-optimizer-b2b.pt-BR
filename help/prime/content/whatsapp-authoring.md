@@ -3,34 +3,27 @@ title: Criação no WhatsApp
 description: Crie mensagens de WhatsApp para jornadas de pessoas usando modelos aprovados do Meta, tokens de personalização e configurações de entrega no Journey Optimizer B2B Prime.
 autotag-review: '2026-06-17T03:12:08.373Z'
 TQID: 'https://experienceleague.adobe.com/HijiC-uJ1rz5yl6bzsZRuFLJb7VWE38f-aqAGWLd2rQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 803
 ht-degree: 1%
 
 ---
 
 # Criação no WhatsApp
 
-Use o Journey Optimizer B2B Prime para enviar mensagens do WhatsApp para pessoas em seus dispositivos móveis. Você pode criar, personalizar e pré-visualizar mensagens usando modelos de mensagem aprovados do Meta no editor do WhatsApp.
+Use o [!DNL Adobe Journey Optimizer B2B Prime] para enviar mensagens do WhatsApp para pessoas em seus dispositivos móveis. Você pode criar, personalizar e pré-visualizar mensagens usando modelos de mensagem aprovados do Meta no editor do WhatsApp.
 
 Antes de criar mensagens do WhatsApp para jornadas de pessoas, verifique se você tem um [canal do WhatsApp configurado](../admin/configuration-channels-whatsapp.md) nas configurações do _[!UICONTROL Administrador]_.
 
 >[!NOTE]
 >
->Somente _elementos de mensagem de saída_ do WhatsApp são suportados no Journey Optimizer B2B Prime.
+>Somente _elementos de mensagem de saída_ do WhatsApp têm suporte no [!DNL Journey Optimizer B2B Prime].
 
 +++ Elementos de mensagem compatíveis e opções do call-to-action
 
@@ -91,7 +84,7 @@ Você pode configurar entregas de mensagens do WhatsApp em uma jornada de pessoa
 
 ### Selecionar um modelo de mensagem {#select-message-template}
 
-As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los no Journey Optimizer B2B Prime. Para gerenciar e enviar modelos para aprovação, trabalhe com o administrador da conta [!DNL Meta Business Manager].
+As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los em [!DNL Journey Optimizer B2B Prime]. Para gerenciar e enviar modelos para aprovação, trabalhe com o administrador da conta [!DNL Meta Business Manager].
 
 1. Para **[!UICONTROL Selecionar categoria do modelo]**, escolha uma das seguintes opções:
 

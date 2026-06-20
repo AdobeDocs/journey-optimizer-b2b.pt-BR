@@ -1,9 +1,9 @@
 ---
 title: Criação de conteúdo - Importar HTML
 description: Seção reutilizada sobre importação da criação de conteúdo do HTML
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 17%
 
 ---
@@ -21,6 +21,6 @@ O conteúdo importado pode ser:
 
 _Para importar um arquivo com conteúdo HTML :_
 
-1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Importar HTML]**.
+1. Na página inicial de design, selecione a opção **[!UICONTROL Importar HTML]**.
 
 1. Arraste e solte o HTML ou arquivo .zip contendo seu conteúdo HTML e clique em **[!UICONTROL Importar]**.
