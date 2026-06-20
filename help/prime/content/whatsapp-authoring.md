@@ -15,22 +15,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 803
 ht-degree: 1%
 
 ---
 
 # Criação no WhatsApp
 
-Use o Journey Optimizer B2B Prime para enviar mensagens do WhatsApp para pessoas em seus dispositivos móveis. Você pode criar, personalizar e pré-visualizar mensagens usando modelos de mensagem aprovados do Meta no editor do WhatsApp.
+Use o [!DNL Adobe Journey Optimizer B2B Prime] para enviar mensagens do WhatsApp para pessoas em seus dispositivos móveis. Você pode criar, personalizar e pré-visualizar mensagens usando modelos de mensagem aprovados do Meta no editor do WhatsApp.
 
 Antes de criar mensagens do WhatsApp para jornadas de pessoas, verifique se você tem um [canal do WhatsApp configurado](../admin/configuration-channels-whatsapp.md) nas configurações do _[!UICONTROL Administrador]_.
 
 >[!NOTE]
 >
->Somente _elementos de mensagem de saída_ do WhatsApp são suportados no Journey Optimizer B2B Prime.
+>Somente _elementos de mensagem de saída_ do WhatsApp têm suporte no [!DNL Journey Optimizer B2B Prime].
 
 +++ Elementos de mensagem compatíveis e opções do call-to-action
 
@@ -91,7 +91,7 @@ Você pode configurar entregas de mensagens do WhatsApp em uma jornada de pessoa
 
 ### Selecionar um modelo de mensagem {#select-message-template}
 
-As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los no Journey Optimizer B2B Prime. Para gerenciar e enviar modelos para aprovação, trabalhe com o administrador da conta [!DNL Meta Business Manager].
+As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los em [!DNL Journey Optimizer B2B Prime]. Para gerenciar e enviar modelos para aprovação, trabalhe com o administrador da conta [!DNL Meta Business Manager].
 
 1. Para **[!UICONTROL Selecionar categoria do modelo]**, escolha uma das seguintes opções:
 

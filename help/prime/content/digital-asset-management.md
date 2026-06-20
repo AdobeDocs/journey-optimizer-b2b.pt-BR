@@ -1,6 +1,6 @@
 ---
 title: Ativos
-description: Gerencie ativos de imagem do Journey Optimizer B2B edition para emails, modelos e fragmentos visuais.
+description: Gerencie ativos de imagem do Journey Optimizer B2B Prime para emails, modelos e fragmentos visuais.
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 5%
+source-wordcount: 786
+ht-degree: 18%
 
 ---
 
@@ -91,3 +91,29 @@ Selecione qualquer ativo na exibição de lista ou galeria para abrir a exibiç�
 Após a conclusão do upload, o sistema gera automaticamente uma descrição, atribui tags e palavras-chave e extrai atributos visuais, como assunto e configuração. Não é necessária nenhuma marcação manual. A nova imagem será exibida com o status _[!UICONTROL PROCESSING]_ até que o processo seja concluído.
 
 ![Novo ativo de imagem no status de processamento](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## Usar ativos para criação de conteúdo {#assets-authoring}
+
+Use ativos ao criar emails, modelos de email e fragmentos visuais. O editor de conteúdo visual fornece acesso às imagens na biblioteca _Assets_. Também é possível fazer upload de um ativo de imagem, que o coloca no repositório de ativos interno.
+
+Você pode escolher o ativo de imagem ao editar as configurações de um componente de imagem ou diretamente na tela:
+
+* **_Componente vazio_** - Quando você adiciona um componente de imagem à tela, ele fica vazio e fornece acesso fácil para selecionar ou importar um arquivo de imagem.
+
+  ![Escolha uma fonte e selecione um arquivo de imagem para o componente de imagem vazio](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_Barra de ferramentas do componente de Imagem_** - Quando você tem um componente de Imagem selecionado na tela, a barra de ferramentas fornece acesso fácil para escolher uma fonte e selecionar o arquivo de imagem.
+
+  ![Use a barra de ferramentas para escolher uma fonte e selecionar um arquivo de imagem para o componente de imagem](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_Configurações do componente de imagem_** - Quando um componente de imagem está selecionado na tela, você pode exibi-las e editá-las no painel direito. Para adicionar ou alterar o arquivo de imagem exibido no componente, escolha o tipo de origem e selecione um arquivo de imagem.
+
+  ![Editar as configurações do componente de imagem no painel direito](./assets/dam-assets-image-settings.png){width="350"}
+
+Clique em **[!UICONTROL Selecionar ativo]** para abrir o seletor de ativos, onde é possível escolher uma imagem do repositório de ativos [!DNL Journey Optimizer B2B Prime].
+
+![Selecione um ativo de imagem](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+É possível usar a pesquisa e filtros para localizar o ativo de imagem desejado. Selecione o ativo e clique em **[!UICONTROL Selecionar]** para usá-lo no componente de imagem.
+
+Você também pode escolher um ativo de imagem nas configurações de plano de fundo de um componente de estrutura.
