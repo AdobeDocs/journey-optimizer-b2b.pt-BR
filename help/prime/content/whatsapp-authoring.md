@@ -1,6 +1,7 @@
 ---
 title: Criação no WhatsApp
 description: Crie mensagens de WhatsApp para jornadas de pessoas usando modelos aprovados do Meta, tokens de personalização e configurações de entrega no Journey Optimizer B2B Prime.
+badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
 autotag-review: '2026-06-17T03:12:08.373Z'
 TQID: 'https://experienceleague.adobe.com/HijiC-uJ1rz5yl6bzsZRuFLJb7VWE38f-aqAGWLd2rQ'
 product_v2:
@@ -15,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 813
 ht-degree: 1%
 
 ---
