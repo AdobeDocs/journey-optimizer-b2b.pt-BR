@@ -4,21 +4,13 @@ description: Saiba como compor e projetar conteúdo de email no Adobe Journey Op
 badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2192
+source-wordcount: 2209
 ht-degree: 1%
 
 ---
@@ -136,7 +128,7 @@ Para obter orientações detalhadas sobre visualização, definição de configu
 
 ### Adicionar componentes de estrutura e conteúdo {#components}
 
-<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+Crie seu layout de email adicionando [componentes de estrutura](./structure-components.md) e [componentes de conteúdo](./content-components.md) à tela.
 
 Arraste os itens das seções **[!UICONTROL Estruturas]** e **[!UICONTROL Conteúdo]** no painel esquerdo e configure cada componente nas guias _[!UICONTROL Configurações]_ e _[!UICONTROL Estilos]_ à direita.
 
@@ -221,7 +213,7 @@ Para obter mais informações sobre o uso de ativos, consulte [_Usar ativos para
 
 ### Navegar pelas camadas, configurações e estilos {#navigation-layers}
 
-Use a árvore de navegação para selecionar componentes e colunas e, em seguida, ajuste suas configurações e estilos no painel direito. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
+Use a árvore de navegação para selecionar componentes e colunas e, em seguida, ajuste suas configurações e estilos no painel direito. Consulte [árvore de navegação](./structure-components.md#navigation-tree).
 
 ### Personalizar conteúdo {#personalize-content}
 
