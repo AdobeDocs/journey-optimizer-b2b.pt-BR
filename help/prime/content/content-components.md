@@ -16,9 +16,9 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: 2820
 ht-degree: 7%
 
 ---
@@ -45,7 +45,9 @@ ht-degree: 7%
 >title="Sobre os componentes do conteúdo"
 >abstract="Componentes do conteúdo são espaços reservados vazios do conteúdo que podem ser usados para criar um modelo."
 
-Ao criar conteúdo para emails, páginas de aterrissagem, modelos e fragmentos visuais, use os [!UICONTROL Componentes de conteúdo] para adicionar elementos de design visual. Você pode adicionar quantos componentes de conteúdo forem necessários dentro de um ou mais [componentes de estrutura](./structure-components.md), que definem o layout.
+Ao criar conteúdo para emails, páginas de aterrissagem, modelos e fragmentos visuais, use os [!UICONTROL Componentes de conteúdo] para adicionar elementos de design visual.
+
+<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
 
 ## Biblioteca de conteúdo
 

@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2209
+source-wordcount: 2192
 ht-degree: 1%
 
 ---
@@ -136,7 +136,9 @@ Para obter orientações detalhadas sobre visualização, definição de configu
 
 ### Adicionar componentes de estrutura e conteúdo {#components}
 
-Crie seu layout de email adicionando [componentes de estrutura](./structure-components.md) e [componentes de conteúdo](./content-components.md) à tela. Arraste os itens das seções **[!UICONTROL Estruturas]** e **[!UICONTROL Conteúdo]** no painel esquerdo e configure cada componente nas guias _[!UICONTROL Configurações]_ e _[!UICONTROL Estilos]_ à direita.
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+Arraste os itens das seções **[!UICONTROL Estruturas]** e **[!UICONTROL Conteúdo]** no painel esquerdo e configure cada componente nas guias _[!UICONTROL Configurações]_ e _[!UICONTROL Estilos]_ à direita.
 
 ### Adicionar CSS personalizado {#custom-css}
 
@@ -219,7 +221,7 @@ Para obter mais informações sobre o uso de ativos, consulte [_Usar ativos para
 
 ### Navegar pelas camadas, configurações e estilos {#navigation-layers}
 
-Use a árvore de navegação para selecionar componentes e colunas e, em seguida, ajuste suas configurações e estilos no painel direito. Consulte [árvore de navegação](./structure-components.md#navigation-tree).
+Use a árvore de navegação para selecionar componentes e colunas e, em seguida, ajuste suas configurações e estilos no painel direito. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### Personalizar conteúdo {#personalize-content}
 
@@ -281,7 +283,7 @@ Para obter detalhes sobre as ferramentas e a sintaxe do editor de expressões, c
 
 Use os controles de visualização móvel e de desktop na barra de ferramentas do espaço de design de email para revisar o layout de email antes de salvar. Alterne para a visualização do modo escuro para validar a legibilidade e o contraste (consulte [Modo escuro para conteúdo de email](./email-dark-mode.md)).
 
-Perfis de teste, **[!UICONTROL Simular conteúdo]** e enviar fluxos de trabalho de prova não estão disponíveis nesta versão do Beta. Consulte [Limitações atuais](../marketing/email-channel.md#limitations) na visão geral do canal de email.
+Perfis de teste, [!UICONTROL Simular conteúdo] e enviar fluxos de trabalho de prova não estão disponíveis nesta versão do Beta. Consulte [Limitações atuais](../marketing/email-channel.md#limitations) na visão geral do canal de email.
 
 Revise [Validando conteúdo de email](#validation) para obter alertas de conteúdo que você deve resolver antes da ativação da jornada.
 

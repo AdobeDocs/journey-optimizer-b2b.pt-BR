@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 5%
 >title="Sobre os componentes da estrutura"
 >abstract="Componentes da estrutura são elementos do layout que podem ser usados para criar a estrutura de um modelo."
 
-Use os _Componentes da estrutura_ no espaço de design visual para definir a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, é possível definir rapidamente a forma do layout de conteúdo. Cada componente da estrutura abrange o espaço horizontal e você pode empilhá-los para criar o layout verticalmente. Divida cada componente em colunas para formar cada bloco de conteúdo necessário e, em seguida, adicione [componentes de conteúdo](./content-components.md) dentro delas para preencher o layout.
+Use os _Componentes da estrutura_ no espaço de design visual para definir a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, é possível definir rapidamente a forma do layout de conteúdo. Cada componente da estrutura abrange o espaço horizontal e você pode empilhá-los para criar o layout verticalmente. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## Biblioteca de estrutura {#structure-library}
 
