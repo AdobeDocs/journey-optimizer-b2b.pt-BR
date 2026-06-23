@@ -3,20 +3,14 @@ title: Páginas de destino
 description: 'Criar, projetar e publicar páginas de aterrissagem para jornadas de pessoas: crie do zero, importe o HTML, adicione formulários, personalize o conteúdo e crie links de emails no Journey Optimizer B2B Prime.'
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -136,12 +130,12 @@ Depois de configurar e projetar a página principal e quaisquer subpáginas, [te
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="Definir as configurações da página principal"
->abstract="Defina a página principal, que é exibida imediatamente quando um recipient clica no link da página de aterrissagem, como de um email ou site."
+>abstract="Defina a página principal, que é exibida imediatamente quando um destinatário clica no link da página de destino, como de um email ou site."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="Definir o URL da página de destino"
->abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL exige a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
+>abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL requer que você configure anteriormente um subdomínio da página de destino como parte da predefinição selecionada."
 
 A página principal é a página imediatamente exibida quando um recipient clica no link da página de aterrissagem, como de um email ou site.
 
@@ -173,7 +167,7 @@ Para definir as configurações da página principal, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="Visualizar e testar a página de destino"
->abstract="Depois de definir as configurações e o conteúdo da página de aterrissagem, use perfis de teste para visualizar a página."
+>abstract="Após definir as configurações e o conteúdo da página de destino, use perfis de teste para visualizar a página."
 
 Quando as configurações e o conteúdo da landing page são definidos, você pode usar perfis de teste para visualizar a página. Se você inseriu [conteúdo personalizado](email-authoring.md#personalize-content), é possível verificar como esse conteúdo é exibido na página de aterrissagem usando os dados do perfil de teste.
 
