@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -76,7 +76,7 @@ Ao criar uma predefinição:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="Selecionar um conjunto de dados"
->abstract="Defina um conjunto de dados em que as respostas do formulário sejam armazenadas e refletidas. Insira o texto para pesquisar um conjunto de dados específico ou selecione-o na lista."
+>abstract="Defina um conjunto de dados em que as respostas do formulário são armazenadas e refletidas. Insira texto para pesquisar um conjunto de dados específico ou selecioná-lo na lista."
 
 1. Na navegação à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]**.
 

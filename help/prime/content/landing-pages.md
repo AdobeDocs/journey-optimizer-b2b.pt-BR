@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -136,12 +136,12 @@ Depois de configurar e projetar a página principal e quaisquer subpáginas, [te
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="Definir as configurações da página principal"
->abstract="Defina a página principal, que é exibida imediatamente quando um recipient clica no link da página de aterrissagem, como de um email ou site."
+>abstract="Defina a página principal, que é exibida imediatamente quando um destinatário clica no link da página de destino, como de um email ou site."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="Definir o URL da página de destino"
->abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL exige a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
+>abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL requer que você configure anteriormente um subdomínio da página de destino como parte da predefinição selecionada."
 
 A página principal é a página imediatamente exibida quando um recipient clica no link da página de aterrissagem, como de um email ou site.
 
@@ -173,7 +173,7 @@ Para definir as configurações da página principal, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="Visualizar e testar a página de destino"
->abstract="Depois de definir as configurações e o conteúdo da página de aterrissagem, use perfis de teste para visualizar a página."
+>abstract="Após definir as configurações e o conteúdo da página de destino, use perfis de teste para visualizar a página."
 
 Quando as configurações e o conteúdo da landing page são definidos, você pode usar perfis de teste para visualizar a página. Se você inseriu [conteúdo personalizado](email-authoring.md#personalize-content), é possível verificar como esse conteúdo é exibido na página de aterrissagem usando os dados do perfil de teste.
 

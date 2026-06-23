@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -84,12 +84,12 @@ Para que os profissionais de marketing possam criar páginas de aterrissagem par
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="Definir as configurações da página principal"
->abstract="Defina a página principal, que é exibida imediatamente quando um recipient clica no link da página de aterrissagem, como de um email ou site."
+>abstract="Defina a página principal, que é exibida imediatamente quando um destinatário clica no link da página de destino, como de um email ou site."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="Definir o URL da página de destino"
->abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL exige a configuração prévia de um subdomínio de página de aterrissagem como parte da predefinição selecionada."
+>abstract="Nesta seção, defina um URL de página de destino exclusivo. A primeira parte do URL requer que você configure anteriormente um subdomínio da página de destino como parte da predefinição selecionada."
 
 1. Altere o **[!UICONTROL Nome da página]** de acordo com suas necessidades, que é a _Página principal_ por padrão.
 
@@ -246,7 +246,7 @@ Há dois tipos de alertas:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="Visualizar e testar a página de destino"
->abstract="Depois de definir as configurações e o conteúdo da página de aterrissagem, use perfis de teste para visualizar a página."
+>abstract="Após definir as configurações e o conteúdo da página de destino, use perfis de teste para visualizar a página."
 
 Quando as configurações e o conteúdo da landing page são definidos, você pode usar perfis de teste para visualizar a página. Se você inseriu [conteúdo personalizado](./personalization.md), é possível verificar como esse conteúdo é exibido na página de aterrissagem, usando os dados do perfil de teste.
 

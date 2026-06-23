@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -35,17 +35,17 @@ Os administradores devem garantir que as configurações de página de aterrissa
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp_header"
 >title="Delegar um subdomínio de página de destino"
->abstract="Configure um subdomínio para uso da landing page. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
+>abstract="Configure um subdomínio para o uso da página de destino. Você pode usar um subdomínio que já tenha sido delegado à Adobe ou configurar outro subdomínio."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp"
 >title="Delegar um subdomínio de página de destino"
->abstract="É necessário configurar um subdomínio de página de aterrissagem antes de criar uma predefinição de página de aterrissagem. Você pode usar um subdomínio já delegado à Adobe ou configurar um novo subdomínio."
+>abstract="É necessário configurar um subdomínio de página de destino antes de criar uma predefinição dessa página. É possível usar um subdomínio já delegado à Adobe ou configurar um novo."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain"
 >title="Criar uma predefinição de página de destino"
->abstract="Para criar uma predefinição de página de aterrissagem, verifique se você tem pelo menos um subdomínio de página de aterrissagem configurado para escolher na lista Nome de subdomínio."
+>abstract="Para criar uma predefinição de página de destino, verifique se há pelo menos um subdomínio de página de destino configurado para selecionar na lista Nome do subdomínio."
 
 Para revisar os subdomínios configurados da página de aterrissagem, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]**. Em _[!UICONTROL Páginas de aterrissagem]_ no painel de navegação, selecione **[!UICONTROL Subdomínios de página de aterrissagem]**.
 
@@ -119,7 +119,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_lp_subdomain_dns"
 >title="Gerar o registro DNS correspondente"
->abstract="Para configurar um novo subdomínio de página de aterrissagem, é necessário copiar as informações do servidor de nomes do Adobe exibidas na interface B2B do Journey Optimizer e colá-las na solução de hospedagem de domínio para gerar o registro DNS correspondente. Quando as verificações são bem-sucedidas, o subdomínio está pronto para ser usado para criar predefinições de página de destino."
+>abstract="Para configurar um novo subdomínio de página de destino, é necessário copiar as informações do servidor de nomes da Adobe exibidas na interface do Journey Optimizer B2B e colá-las na solução de hospedagem de domínio para gerar o registro DNS correspondente. Quando as verificações são bem-sucedidas, o subdomínio está pronto para ser usado para criar predefinições de página de destino."
 
 1. Clique em **[!UICONTROL Configurar subdomínio da página de aterrissagem]**.
 
@@ -219,7 +219,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain_header"
 >title="Criar uma predefinição de página de destino"
->abstract="Para criar uma página de aterrissagem e aproveitá-la por meio do Journey Optimizer B2B edition, é necessário criar uma predefinição de página de aterrissagem que inclua o subdomínio que será usado."
+>abstract="Para criar uma página de destino e aproveitá-la no Journey Optimizer B2B Edition, é necessário criar uma predefinição de página de destino que inclua o subdomínio a ser usado."
 
 Quando os profissionais de marketing criam uma página de aterrissagem, eles devem selecionar uma predefinição de página de aterrissagem para poderem criar a página de aterrissagem e aproveitá-la até [!DNL Journey Optimizer B2B Edition]. A predefinição inclui o subdomínio a ser usado para a página de aterrissagem.
 
