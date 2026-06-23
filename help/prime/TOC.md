@@ -2,10 +2,10 @@
 user-guide-title: Documentação do Journey Optimizer B2B Prime
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Prime e como usá-lo para ?.
 hide: true
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 53%
+source-wordcount: '138'
+ht-degree: 51%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 53%
 + [Qualificador de Vendas](./sales-qualifier/sales-qualifier.md)
 + Gerenciamento de marketing {#marketing-management}
    + [Visão geral](./marketing/marketing-management.md)
-   + [Programas](./marketing/programs.md)
+   + Programas {#programs}
+      + [Visão geral](./marketing/programs.md)
+      + [Tokens personalizados para personalização](./marketing/personalization-my-tokens.md)
    + [Jornadas de pessoas](./marketing/person-journeys.md)
    + Nós de jornada {#journey-nodes}
       + [Visão geral dos nós](./marketing/person-journey-nodes.md)
@@ -36,7 +38,7 @@ ht-degree: 53%
       + [Visão geral](./marketing/email-channel.md)
       + [Otimização do tempo de envio de email](./marketing/email-send-time-optimization.md)
       + [Criação de conteúdo](./content/email-authoring.md)
-      + [Design no modo escuro](./content/email-dark-mode.md)
+      + [Design de modo escuro](./content/email-dark-mode.md)
    + [Canal do WhatsApp](./content/whatsapp-authoring.md)
 + Públicos-alvo {#audiences}
    + [Listas de pessoas](./audiences/people-lists.md)
@@ -62,10 +64,10 @@ ht-degree: 53%
       + [Configuração de canal do WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuração da landing page](./admin/configuration-presets-landing-pages.md)
       + [Configuração da predefinição do formulário](./admin/configuration-presets-forms.md)
+   + [Tipos de programas](./admin/program-types.md)
 
 <!--
    + Business rules
-   + Program types
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
