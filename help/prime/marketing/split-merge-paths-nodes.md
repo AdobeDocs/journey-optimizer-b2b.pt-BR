@@ -4,19 +4,13 @@ description: Saiba como usar nós de caminhos divididos e mesclados em jornadas 
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
 workflow-type: tm+mt
-source-wordcount: 668
+source-wordcount: 670
 ht-degree: 2%
 
 ---
@@ -33,7 +27,7 @@ Um nó Caminhos divididos define um ou mais caminhos segmentados com base em fil
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
+_**Como funciona um caminho dividido por nó de pessoas**_
 
 * A avaliação de cada caminho é de cima para baixo. Se uma pessoa corresponder ao primeiro e ao segundo caminhos, ela continuará somente pelo primeiro caminho.
 * O nó oferece suporte à definição de um caminho _Outras pessoas_, em que você pode adicionar ações ou eventos para pessoas que não correspondem a um dos segmentos/caminhos definidos.
@@ -47,7 +41,7 @@ Para cada caminho definido para o nó, use os seguintes tipos de filtro para cor
    * Mensagens de email
    * Alteração no valor dos dados
 
-* Atributos de pessoa - Defina uma condição de acordo com os atributos de uma pessoa, como país, cargo ou associação à lista.
+* Atributos de pessoa - Defina uma condição de acordo com os atributos de uma pessoa, como país, cargo, personalidade derivada ou associação a listas.
 
 ### Adicionar um nó de caminhos divididos
 
