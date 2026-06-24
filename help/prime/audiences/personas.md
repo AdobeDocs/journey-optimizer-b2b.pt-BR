@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: 650
 ht-degree: 2%
 
 ---
@@ -53,15 +53,15 @@ Para a versão Beta do Journey Optimizer B2B Prime, as seguintes personas padrã
 
 ## Filtrar por persona derivada {#derived-persona-filter}
 
-O Journey Optimizer B2B Prime deriva uma persona para cada registro de pessoa avaliando os atributos do registro em relação às personas definidas. Você pode usar o resultado inferido — a _Pessoa derivada_ — como filtro ao definir o público-alvo para uma lista de pessoas ou uma jornada de pessoa.
+O Journey Optimizer B2B Prime deriva uma persona para cada registro de pessoa avaliando os atributos do registro em relação às personas definidas. Você pode usar o resultado inferido — a _Pessoa derivada_ — como filtro ao definir o público-alvo para uma lista de pessoas ou para segmentação em uma jornada de pessoa.
 
 O filtro _[!UICONTROL Persona Derivada]_ aparece no painel de filtro na categoria **[!UICONTROL Atributos de pessoa]**.
-
-![Acessar as personalidades configuradas](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
 ### Listas de pessoas {#people-lists}
 
 Ao adicionar ou remover membros de uma [lista estática de pessoas](./people-lists.md#static-list) ou ao definir as regras de associação para uma [lista dinâmica de pessoas](./people-lists.md#dynamic-lists), você pode filtrar por Persona Derivada para direcionar todas as pessoas cujos atributos correspondam a uma persona configurada específica.
+
+![Filtragem de persona derivada para uma lista de pessoas](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
 
 **Lista estática — Adicionar membros**
 
@@ -90,6 +90,8 @@ Ao adicionar ou remover membros de uma [lista estática de pessoas](./people-lis
 ### Jornadas de pessoas {#person-journeys}
 
 Ao configurar a segmentação para uma jornada de pessoa em um nó [_Dividir caminhos_](../marketing/split-merge-paths-nodes.md), você pode usar uma pessoa derivada como um filtro de perfil de pessoa para controlar quais pessoas entram no caminho de jornada.
+
+![Filtragem de persona derivada para uma condição de caminho dividido](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
 
 1. Clique no nó **[!UICONTROL Split paths]** na tela de jornada.
 

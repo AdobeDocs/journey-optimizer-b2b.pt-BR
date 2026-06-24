@@ -13,16 +13,16 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
 workflow-type: tm+mt
-source-wordcount: 358
+source-wordcount: 365
 ht-degree: 2%
 
 ---
 
 # Nós de jornada de pessoa
 
-Depois de criar uma jornada de pessoa, adicione o público-alvo e crie a jornada usando nós. A tela de jornada fornece um espaço de design visual, onde você pode criar seus casos de uso de marketing B2B em várias etapas.
+Depois de criar uma jornada de pessoa, use as ferramentas na tela para adicionar o público-alvo e criar a jornada usando nós. A tela de jornada fornece um espaço de design visual, onde você pode criar seus casos de uso de marketing B2B em várias etapas.
 
 O nó _[!UICONTROL Audiência da pessoa]_ é automaticamente o primeiro nó na jornada. Depois de selecionar o público-alvo, crie sua jornada combinando os diferentes nós de ação, evento e decisão como um cenário multicanal. Cada nó de uma jornada representa uma etapa ao longo de um caminho lógico.
 
