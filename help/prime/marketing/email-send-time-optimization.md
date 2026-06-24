@@ -1,22 +1,26 @@
 ---
 title: Otimização do tempo de envio de email
-description: A Otimização de tempo de envio (STO) no Adobe Journey Optimizer B2B Prime personaliza a entrega de email para jornadas de pessoas. Saiba como habilitar o STO e melhorar o engajamento.
-autotag-review: '2026-06-17T20:52:02.535Z'
+description: Configure a otimização de tempo de envio nas jornadas de pessoas do Journey Optimizer B2B Prime. Defina janelas de envio, adicione nós de espera e exiba relatórios STO no Assistente do AI.
+badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
+autotag-review: '2026-06-24T00:17:58.032Z'
 TQID: 'https://experienceleague.adobe.com/wlxhS7E8DnbThm5ge-wzTkMcn-eBzFUXfw3ZGrfcRHA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1fa72c956678cddcecd1b50a13c42ef9eada05fc
 workflow-type: tm+mt
-source-wordcount: 403
-ht-degree: 0%
+source-wordcount: 785
+ht-degree: 1%
 
 ---
 
@@ -26,7 +30,7 @@ Use o recurso de Otimização de hora de envio (STO) para personalizar o tempo d
 
 O STO analisa o engajamento histórico de cada perfil usando um grande modelo de linguagem. Ele prevê e classifica os possíveis tempos de envio e, em seguida, agenda o delivery no momento com a classificação mais alta na janela de otimização.
 
-<!-- Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant. -->
+Os insights de desempenho, como uso, aumento de engajamento e comparações STO versus não STO, estão disponíveis por meio de consultas de linguagem natural no Assistente de IA.
 
 >[!BEGINSHADEBOX]
 
@@ -64,6 +68,55 @@ Você pode configurar a otimização de hora de envio ao [adicionar um nó _[!UI
 
 1. Após concluir o restante da jornada de pessoas, prossiga para [publicar](./person-journeys.md#publish).
 
-## Relatório
+## Relatórios {#reporting}
 
+Os dados de desempenho do STO estão disponíveis por meio do [Assistente de IA](../agents/chat-interface.md) usando a habilidade `send-time-report`. Você pode exibir um relatório em nível de jornada que resume todos os nós de e-mail ou detalhar um relatório em nível de nó para uma ação de e-mail específica.
 
+O relatório exibe cada nó de email na jornada e indica se o STO está ativado para ele. Ele também mostra uma comparação tabular entre emails habilitados para STO e não STO, para que você possa avaliar o aumento de engajamento.
+
+### Gerar o relatório STO {#generate-sto-report}
+
+Há três maneiras de gerar um relatório STO usando o Assistente de IA:
+
+**Usar o comando de barra**
+
+1. No painel Assistente de IA, digite `/` para exibir a lista de habilidades disponíveis.
+1. Selecione **[!UICONTROL enviar-relatório-de-tempo]** na lista e clique na seta para cima para enviar a consulta.
+
+   ![Consulta de habilidade de relatório de hora de envio do Assistente de IA](./assets/email-sto-reporting-ai-assistant.png){width="700" zoomable="yes"}
+
+   Se uma jornada for aberta no editor, o assistente de IA a usará como contexto automaticamente. Caso contrário, o assistente solicitará que você especifique a jornada.
+
+   O assistente de IA carrega o relatório e exibe um cartão de resumo.
+
+1. Clique em **[!UICONTROL Abrir relatório]** para exibir o relatório completo com detalhes em nível de nó.
+
+**Clique em um nó de email**
+
+1. Na tela de jornada, clique no nó **[!UICONTROL Enviar email]**.
+
+1. No painel Assistente de IA, solicite o relatório STO.
+
+   Como o nó é selecionado, o AI Assistant o usa como contexto e retorna um relatório com escopo somente para esse nó.
+
+   Ele carrega o relatório e exibe um cartão de resumo.
+
+1. Clique em **[!UICONTROL Abrir relatório]** para exibir o relatório completo.
+
+**Consulta de linguagem natural**
+
+1. No painel Assistente de IA, insira uma solicitação como _Dê-me o relatório STO para [nome da jornada]_.
+
+   O assistente interpreta a solicitação, carrega a habilidade `send-time-report`, gera o relatório e exibe um cartão de resumo.
+
+1. Clique em **[!UICONTROL Abrir relatório]** para exibir o relatório completo.
+
+### Exibir os dados do relatório de email {#sto-report-data}
+
+Você pode reduzir o painel Assistente de IA para aumentar o tamanho do relatório exibido ou rolar a tela para ver a largura total.
+
+![Relatório de otimização de hora de envio - resumo do desempenho do email](./assets/email-sto-reporting-summary-report.png){width="700" zoomable="yes"}
+
+Na coluna _[!UICONTROL Detalhes]_, clique em **[!UICONTROL Exibir resultados STO]** para abrir uma janela pop-up. A janela fornece visualizações de dados de email para _Comparação de desempenho_, _Distribuição de tempo de envio_ e _Integridade de dados_.
+
+![Relatório de otimização de hora de envio - dados de desempenho de email](./assets/email-sto-reporting-data.png){width="500" zoomable="yes"}
