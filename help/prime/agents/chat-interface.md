@@ -4,19 +4,13 @@ description: Use o painel de bate-papo do Assistente de IA no Journey Optimizer 
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 878
 ht-degree: 1%
 
 ---
@@ -85,9 +79,11 @@ Os conectores abrem uma modal em vez de inserir texto. Os atalhos de navegação
 
 Uma habilidade é um fluxo de trabalho empacotado que o agente sabe executar — os blocos fundamentais por trás das solicitações do menu `/` e de linguagem natural. Cada habilidade contém instruções passo a passo e as ferramentas específicas necessárias para um trabalho (por exemplo, &quot;publicar uma jornada&quot;, &quot;comparar duas listas de pessoas&quot;, &quot;criar um modelo de pontuação&quot;).
 
+Consulte _[Habilidades do assistente de IA](./skills.md)_ para obter uma lista completa das habilidades atualmente permitidas.
+
 Principais informações sobre habilidades:
 
-* **As habilidades têm escopo de produto.** No AJO B2B Prime, você verá as habilidades B2B do AJO (jornadas, listas de pessoas, pontuação, canais, otimização de tempo de envio e assim por diante). Algumas habilidades são exclusivas do Marketo e algumas trabalham em ambos os produtos (importação de clientes potenciais, conhecimento do produto). Você só vê habilidades relevantes para onde você está.
+* **As habilidades têm escopo de produto.** No [!DNL Journey Optimizer B2B Prime] você verá várias habilidades específicas do produto (jornadas, listas de pessoas, pontuação, canais, otimização de tempo de envio etc.). Algumas habilidades são somente [!DNL Marketo Engage] e algumas trabalham nos dois produtos (importação de clientes potenciais, conhecimento do produto). Você só vê habilidades relevantes para onde você está.
 * **Não é necessário decorar nomes de habilidades.** Descreva sua meta e o agente escolhe a habilidade correspondente. O menu `/` é um atalho mais rápido e detectável para os mesmos fluxos de trabalho.
 * **Algumas habilidades só são lidas; outras mudam as coisas.** Habilidades de investigação e de relatório (por exemplo, investigação de cliente potencial, consulta de intenção, relatório de hora de envio) somente leitura de dados. Crie e configure habilidades (por exemplo, criação de jornada, pontuação) para criar ou alterar dados.
 

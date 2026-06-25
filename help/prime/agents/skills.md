@@ -1,0 +1,97 @@
+---
+title: Habilidades do assistente de IA
+description: Revise as habilidades do Assistente de IA no Journey Optimizer B2B Prime — fluxos de trabalho empacotados para programas, jornadas, públicos, pontuação, conteúdo e otimização de tempo de envio.
+badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
+autotag-review: '2026-06-24T23:55:36.649Z'
+TQID: 'https://experienceleague.adobe.com/iIi07OBWKxxa-oW-A6VrlkoTS02kmCx8kfMaCe-C-4o'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+workflow-type: tm+mt
+source-wordcount: 565
+ht-degree: 8%
+
+---
+
+# Habilidades do assistente de IA
+
+Uma _habilidade_ é um fluxo de trabalho empacotado que o agente sabe executar — os blocos fundamentais por trás das solicitações de menu `/` e em linguagem natural. Cada habilidade contém instruções passo a passo e as ferramentas específicas necessárias para um trabalho (por exemplo, &quot;publicar uma jornada&quot;, &quot;comparar duas listas de pessoas&quot;, &quot;criar um modelo de pontuação&quot;).
+
+>[!NOTE]
+>
+>Cada habilidade é classificada de acordo com a habilidade sofrer mutação no estado [!DNL Journey Optimizer B2B Prime] ou [!DNL Marketo Engage] (**Gravação**), somente consultas/análises/gerações (**Leitura**) ou com funções de consulta + mutação iguais (**Leitura+Gravação**).
+
+## Programas e planejamento {#programs-planning}
+
+| Habilidade | O que faz | Acesso | Superfície do produto | Impacto / fluxo de dados |
+|---|---|---|---|---|
+| `falco-program-creation` | Criação completa do programa [!DNL Journey Optimizer B2B Prime] — programa, subpastas, tokens, listas, jornadas. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `adapt-program` | Gerar histórias de migração dos programas [!DNL Marketo Engage] para a adaptação [!DNL Journey Optimizer B2B Prime]. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Marketo Engage], escreve [!DNL Journey Optimizer B2B Prime] |
+| `folder-creation` | Criar pastas organizacionais na árvore de ativos. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `program-creation` *(Programas de Compilação)* | Criar programas do Marketo a partir de um resumo da campanha. | Gravar | [!DNL Marketo Engage] | Leituras + gravações [!DNL Marketo Engage] |
+| `program-planning` *(Campanhas de Plano)* | Transforme os resumos em documentos de configuração/implementação. | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
+| `program-qa` *(Validar Programas)* | Validar/auditar programas (somente regras, plano de teste ou resumo). | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
+
+## Jornadas {#journeys}
+
+| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
+|---|---|---|---|---|
+| `journey-creation` | Crie e edite jornadas de pessoas a partir do idioma natural. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `journey-edit-dates` | Alterar a data de início/término de uma jornada sem publicar. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `journey-publish` | Publicar/iniciar/agendar jornadas de pessoas. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `journey-stop` | Interromper, fechar, parar, parar ou matar jornadas. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `journey-reentry` | Configurar reentrada: permitir/não permitir, lista suspensa, máximo de entradas. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `journey-trafficcontrol` | Execute uma simulação de controle de tráfego mostrando o roteamento de perfis. | Ler | [!DNL Journey Optimizer B2B Prime] | Leituras [!DNL Journey Optimizer B2B Prime] (simulação) |
+| `journey-observability` | Progressão de depuração/monitor — caminhos, sincronização, divisões, paralisações e ressonância. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Journey Optimizer B2B Prime] + [!DNL Marketo Engage] (verificação da lista estática) |
+
+## Públicos e pessoas {#audiences-people}
+
+| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
+|---|---|---|---|---|
+| `audience-creation` | Adapte uma lista inteligente [!DNL Marketo Engage], crie uma lista de pessoas ou adicione/atualize regras. | Gravar | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Marketo Engage] + lê/grava [!DNL Journey Optimizer B2B Prime] |
+| `people-list-comparison` | Comparar duas listas de pessoas e mostrar membros sobrepostos. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Journey Optimizer B2B Prime] |
+| `import-leads` | Inspecione a qualidade dos dados de CSV e confirme as importações para [!DNL Marketo Engage]. | Leitura+Gravação | Ambos | Leituras + gravações [!DNL Marketo Engage] |
+| `lead-investigation` *(Investigar Clientes Potenciais)* | Investigar a atividade, a pontuação, a qualificação e o ciclo de vida de um lead. | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
+
+## Conteúdo e canais {#content-channels}
+
+| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
+|---|---|---|---|---|
+| `content-personalization` | Procurar/visualizar modelos e editar conteúdo/gerar variantes. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `asset-tokens` | CRUD de token completo em programas/pastas/jornadas. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `fcs-channels` | Pesquisas de canal e CRUD + publicar/parar/excluir. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+
+## Pontuação e sinais {#scoring-signals}
+
+| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
+|---|---|---|---|---|
+| `scoring-studio` | Liste/obtenha modelos de pontuação e crie/publique-os. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] (serviço de pontuação); lê [!DNL Marketo Engage] campos de clientes potenciais/tipos de atividade |
+| `engagementconfiguration` | Mostrar configuração de envolvimento e editar/atualizar pesos. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `intentconfiguration` | Mostrar configuração de intenção e definir/atualizar pesos. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `intent-query` | Pontuações de intenção de consulta e explicação por pessoa/segmento/lista. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Journey Optimizer B2B Prime] |
+
+## Otimização do horário de envio {#sto}
+
+| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
+|---|---|---|---|---|
+| `send-time-optimization` | Verifique o status STO e ative/desative em um nó de email. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `send-time-report` | Buscar/exibir o relatório de desempenho STO. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Journey Optimizer B2B Prime] |
+
+## Conhecimento {#knowledge}
+
+| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
+|---|---|---|---|---|
+| `product-knowledge` | Responda às perguntas de instrução/conceito da documentação do [!DNL Journey Optimizer B2B Prime] no Experience League. | Ler | Ambos | Lê documentos externos — nenhum dado do produto |
+
+## Cross-backend {#cross-backend}
+
+Essas habilidades abrangem mais de um back-end:
+
+- **`adapt-program`** — `gather_program_assets` lê [!DNL Marketo Engage] (`get_program`, `get_smart_campaign`, `list_emails`) e grava via `falcomcp_create_journey` — back-end clássico.
+- **`audience-creation`** — lê [!DNL Marketo Engage] listas inteligentes (`get_smart_list` / `get_smart_campaign`) e grava [!DNL Journey Optimizer B2B Prime] listas de pessoas.
+- **`journey-observability`** — [!DNL Journey Optimizer B2B Prime] leituras mais `check_lead_in_marketo_static_list` [!DNL Marketo Engage] leituras.
+- **`scoring-studio`** — lê [!DNL Marketo Engage] campos de cliente potencial/tipos de atividade junto com o serviço de pontuação [!DNL Journey Optimizer B2B Prime].
+
+Todas as ferramentas `falco-mcp_*` e jornada/token/scoring/STO/FCS atingem [!DNL Journey Optimizer B2B Prime] serviços; ferramentas CSV/programa/lead atingem [!DNL Marketo Engage].
