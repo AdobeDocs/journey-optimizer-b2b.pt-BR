@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 1910
+source-wordcount: 1918
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Ele usa os seguintes blocos fundamentais, configurados por um administrador, nor
 1. [Configurar registros do DMARC, SPF e DKIM](#dmarc-spf-dkim) em cada subdomínio.
 1. [Confirme o pool de IPs](#ip-pools) usado para enviar emails para o subdomínio.
 1. [Crie uma ou mais configurações de canal de email](../admin/email-channel-configuration.md#create-email-channel-configuration) que associam um subdomínio, um pool de IPs e uma identidade de remetente.
+
+![Configuração da capacidade de entrega de email para o Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
 
 >[!TIP]
 >
