@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b92782904da5c01c3dc1b3fb44ef02729723015a
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: 1119
 ht-degree: 4%
 
 ---
@@ -158,7 +158,7 @@ Os programas estão **permanentemente vinculados** a um tipo de programa definid
 | **Associação de lista assíncrona** | As listas estáticas (de critérios) são preenchidas ao longo de vários minutos, não instantaneamente |
 | **Tratamento de erros** | Falhas de ferramenta são relatadas com o erro exato; o assistente solicita a confirmação da entrada e a tentativa |
 | **Colisões de nome** | Não resolvido automaticamente — um nome diferente será solicitado |
-| **Escopo** | Somente Prime B2B do Journey Optimizer; os usuários do Marketo devem usar as habilidades separadas de criação/planejamento de programas |
+| **Escopo** | Somente Prime B2B do Journey Optimizer; [!DNL Marketo Engage] usuários devem usar as habilidades separadas de criação/planejamento de programas |
 
 
 ## Verificação de controle de qualidade
