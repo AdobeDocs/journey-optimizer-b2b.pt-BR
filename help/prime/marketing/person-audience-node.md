@@ -15,16 +15,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: 225
 ht-degree: 4%
 
 ---
 
 # Nó de público-alvo de pessoa
 
-O nó _person audience_ especifica quais perfis de pessoa entram na jornada. Quando você [cria uma jornada de pessoa](./person-journeys.md), a jornada sempre começa com um nó de público-alvo de pessoa que define sua entrada. O nó de público-alvo pessoa pode ter um dos dois tipos de entrada de público-alvo: uma lista estática de pessoas ou uma lista dinâmica de pessoas.
+O nó _person audience_ especifica quais perfis de pessoa entram na jornada. Quando você [cria uma jornada de pessoa](./person-journeys.md), a jornada sempre começa com um nó de público-alvo de pessoa que define sua entrada. O nó de público-alvo pessoa pode ter um dos dois tipos de entrada de público-alvo: uma lista dinâmica de pessoas ou um acionador de evento.
 
 Se a lista dinâmica de pessoas de que você precisa para a jornada de pessoa ainda não existir, [crie a lista de pessoas](../audiences/people-lists.md#create-a-people-list) e configure o nó de público-alvo Pessoa.
 

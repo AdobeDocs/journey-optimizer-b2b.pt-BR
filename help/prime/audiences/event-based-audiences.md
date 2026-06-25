@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 Em [!DNL Adobe Journey Optimizer B2B Prime], os _públicos-alvo baseados em eventos_ permitem que você adicione membros do público-alvo a uma [jornada de pessoa](../marketing/person-journeys.md) em tempo quase real, quando ocorrer uma atividade [!DNL Marketo Engage]. Você configura públicos-alvo baseados em eventos no nó Público-alvo da tela de jornada:
 
-* Selecione uma ou mais atividades do Marketo (padrão ou personalizadas) como os eventos qualificados.
+* Selecione uma ou mais [!DNL Marketo Engage] atividades (padrão ou personalizadas) como os eventos qualificados.
 * Opcionalmente, adicione filtros de perfil de pessoa (como setor, região ou estágio do ciclo de vida) para restringir quais pessoas podem informar.
 * Opcionalmente, defina restrições de atributo de atividade (como um formulário, URL ou programa específico) para restringir quais ocorrências de cada atividade se qualificam.
 

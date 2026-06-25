@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 1918
+source-wordcount: 1920
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Ele usa os seguintes blocos fundamentais, configurados por um administrador, nor
 
 ## Limitações atuais {#limitations}
 
-* **O método de Delegação personalizado** para delegação de subdomínio ainda não está disponível — use Totalmente Delegado ou CNAME. A delegação personalizada está direcionada para disponibilidade geral.
+* **O método de Delegação personalizado** para delegação de subdomínio ainda não está disponível — use Totalmente Delegado ou CNAME. A delegação personalizada está direcionada para a versão do GA.
 * **Pools de IP dedicados** não estão disponíveis na Beta. O pool de IPs compartilhados é a única opção. IPs dedicados enviados na GA, incluindo planejamento de aquecimento de IP e gerenciamento de registros PTR.
 
 ## Principais conceitos {#key-concepts}
