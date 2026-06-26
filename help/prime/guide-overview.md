@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 1940cd62ab63243382637c1e60bb4df02ba2d56e
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 12%
+source-wordcount: 505
+ht-degree: 10%
 
 ---
 
@@ -36,8 +36,7 @@ Introdução
 
 Conclua a instalação e a configuração iniciais e saiba como navegar no aplicativo e usar a home page.
 
-[Configuração do administrador](./start/setup-prime.md)
-
+[Configuração do administrador](./start/setup-prime.md) <br/>
 [Página inicial](./home-insights/home-page.md)
 :::
 
@@ -48,8 +47,7 @@ Assistente de IA
 
 Use a linguagem natural para planejar programas, criar jornadas, gerenciar públicos-alvo e criar conteúdo com habilidades de IA orgânica.
 
-[Interface de chat](./agents/chat-interface.md)
-
+[Interface de chat](./agents/chat-interface.md) <br/>
 [Competências disponíveis](./agents/skills.md)
 :::
 
@@ -70,9 +68,8 @@ Gerenciamento de marketing
 
 Organize campanhas em programas, projete jornadas de pessoas com conteúdo multicanal e personalize com tokens personalizados.
 
-[Visão geral de marketing](./marketing/marketing-management.md)
-
-[Jornadas de pessoas](./marketing/person-journeys.md)
+[Visão geral de marketing](./marketing/marketing-management.md) <br/>
+[jornadas de pessoas](./marketing/person-journeys.md)
 :::
 
 :::
@@ -82,8 +79,7 @@ Públicos-alvo
 
 Crie e mantenha listas de pessoas, defina públicos com base em eventos e rastreie o engajamento com pontuação com base em persona.
 
-[Listas de pessoas](./audiences/people-lists.md)
-
+[Listas de pessoas](./audiences/people-lists.md) <br/>
 [Pontuações de engajamento](./audiences/engagement-scores.md)
 :::
 
@@ -94,11 +90,9 @@ Conteúdo
 
 Crie emails e mensagens de WhatsApp, gerencie modelos e ativos, crie páginas de aterrissagem e formulários e aplique a personalização.
 
-[Criação de email](./content/email-authoring.md)
-
-[Modelos](./content/templates.md)
-
-[Páginas de destino](./content/landing-pages.md)
+[Criação de email](./content/email-authoring.md) <br/>
+[Modelos](./content/templates.md) <br/>
+[Páginas de aterrissagem](./content/landing-pages.md)
 :::
 
 ::::
@@ -113,7 +107,7 @@ Crie emails e mensagens de WhatsApp, gerencie modelos e ativos, crie páginas de
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Assistente de IA"><br/>
-      <strong>Assistente de IA</strong><br/><a href="./agents/chat-interface.md">Interface de chat</a><br/><a href="./agents/skills.md">Habilidades</a><br/><a href="./agents/program-from-brief.md">Criar programa a partir de resumo</a>
+      <strong>Assistente de IA</strong><br/><a href="./agents/chat-interface.md">Interface de chat</a><br/><a href="./agents/skills.md">Habilidades</a><br/><a href="./agents/program-from-brief.md">Criar programa a partir de resumo</a><br/><a href="./agents/audience-creation.md">Criar públicos para programas</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Gerenciamento de marketing"><br/>

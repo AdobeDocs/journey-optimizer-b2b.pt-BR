@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -39,7 +39,7 @@ Ele usa os seguintes blocos fundamentais, configurados por um administrador, nor
 1. [Confirme o pool de IPs](#ip-pools) usado para enviar emails para o subdomínio.
 1. [Crie uma ou mais configurações de canal de email](../admin/email-channel-configuration.md#create-email-channel-configuration) que associam um subdomínio, um pool de IPs e uma identidade de remetente.
 
-![Configuração da capacidade de entrega de email para o Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
+![Configuração da capacidade de entrega de email para o Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
 >[!TIP]
 >

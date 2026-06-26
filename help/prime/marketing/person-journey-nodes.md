@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 9711cdf8f172523a32d8b64f0597d5ee14e7722b
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ O nó _[!UICONTROL Audiência da pessoa]_ é automaticamente o primeiro nó na j
 :::: landing-cards-container
 
 :::
-![Nó de público-alvo de pessoa](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR) -->
 
 Nó de público-alvo de pessoa
 
@@ -39,7 +39,7 @@ A jornada sempre começa com um nó de público-alvo de pessoa. Defina o públic
 :::
 
 :::
-![Nós de ação](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR) -->
 
 Nós de ação
 
@@ -49,7 +49,7 @@ Aplique as alterações a cada pessoa em um caminho, como enviar um email ou atu
 :::
 
 :::
-![Nós de eventos](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR) —>
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR) -->
 
 Nós de evento
 
@@ -59,7 +59,7 @@ Avance as pessoas para a próxima etapa da jornada quando ocorrer uma atividade 
 :::
 
 :::
-![Esperar nós](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR) -->
 
 Esperar nós
 
@@ -69,7 +69,7 @@ Pausar a progressão da jornada por uma duração definida ou até uma data e ho
 :::
 
 :::
-![Dividir e mesclar nós de caminhos](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR) -->
 
 Dividir e mesclar nós de caminhos
 
@@ -79,7 +79,7 @@ Segmente pessoas em caminhos separados com base em condições, aplique ações 
 :::
 
 :::
-![Próximo nó de melhor caminho](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR) -->
 
 Próximo nó de melhor caminho
 

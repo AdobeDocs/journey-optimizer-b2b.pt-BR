@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 8%
+source-wordcount: 582
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Uma _habilidade_ é um fluxo de trabalho empacotado que o agente sabe executar �
 
 | Habilidade | O que faz | Acesso | Superfície do produto | Impacto / fluxo de dados |
 |---|---|---|---|---|
-| `falco-program-creation` | Criação completa do programa [!DNL Journey Optimizer B2B Prime] — programa, subpastas, tokens, listas, jornadas. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
+| `falco-program-creation` | Criação completa do programa [!DNL Journey Optimizer B2B Prime] — programa, subpastas, tokens, listas, jornadas. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime]. Consulte _[Criar um programa a partir de um resumo](./program-from-brief.md)_. |
 | `adapt-program` | Gerar histórias de migração dos programas [!DNL Marketo Engage] para a adaptação [!DNL Journey Optimizer B2B Prime]. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Marketo Engage], escreve [!DNL Journey Optimizer B2B Prime] |
 | `folder-creation` | Criar pastas organizacionais na árvore de ativos. | Gravar | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
 | `program-creation` *(Programas de Compilação)* | Criar programas do Marketo a partir de um resumo da campanha. | Gravar | [!DNL Marketo Engage] | Leituras + gravações [!DNL Marketo Engage] |
@@ -56,7 +56,7 @@ Uma _habilidade_ é um fluxo de trabalho empacotado que o agente sabe executar �
 
 | Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
 |---|---|---|---|---|
-| `audience-creation` | Adapte uma lista inteligente [!DNL Marketo Engage], crie uma lista de pessoas ou adicione/atualize regras. | Gravar | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Marketo Engage] + lê/grava [!DNL Journey Optimizer B2B Prime] |
+| `audience-creation` | Adapte uma lista inteligente [!DNL Marketo Engage], crie uma lista de pessoas ou adicione/atualize regras. | Gravar | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Marketo Engage] + lê/grava [!DNL Journey Optimizer B2B Prime].  Consulte _[Criar públicos-alvo para programas](./audience-creation.md)_. |
 | `people-list-comparison` | Comparar duas listas de pessoas e mostrar membros sobrepostos. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Journey Optimizer B2B Prime] |
 | `import-leads` | Inspecione a qualidade dos dados de CSV e confirme as importações para [!DNL Marketo Engage]. | Leitura+Gravação | Ambos | Leituras + gravações [!DNL Marketo Engage] |
 | `lead-investigation` *(Investigar Clientes Potenciais)* | Investigar a atividade, a pontuação, a qualificação e o ciclo de vida de um lead. | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
@@ -73,7 +73,7 @@ Uma _habilidade_ é um fluxo de trabalho empacotado que o agente sabe executar �
 
 | Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
 |---|---|---|---|---|
-| `scoring-studio` | Liste/obtenha modelos de pontuação e crie/publique-os. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] (serviço de pontuação); lê [!DNL Marketo Engage] campos de clientes potenciais/tipos de atividade |
+| `scoring-studio` | Liste/obtenha modelos de pontuação e crie/publique-os. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Lê + grava [!DNL Journey Optimizer B2B Prime] (serviço de pontuação); lê [!DNL Marketo Engage] campos de cliente potencial/tipos de atividade. Consulte _[Criar modelos de pontuação personalizados](./lead-scoring-model.md)_. |
 | `engagementconfiguration` | Mostrar configuração de envolvimento e editar/atualizar pesos. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
 | `intentconfiguration` | Mostrar configuração de intenção e definir/atualizar pesos. | Leitura+Gravação | [!DNL Journey Optimizer B2B Prime] | Leituras + gravações [!DNL Journey Optimizer B2B Prime] |
 | `intent-query` | Pontuações de intenção de consulta e explicação por pessoa/segmento/lista. | Ler | [!DNL Journey Optimizer B2B Prime] | Lê [!DNL Journey Optimizer B2B Prime] |
