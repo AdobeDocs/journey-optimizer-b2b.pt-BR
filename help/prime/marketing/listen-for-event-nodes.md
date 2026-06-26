@@ -3,21 +3,14 @@ title: Ouvir um nó de evento
 description: Configurar o Listen para nós de evento no Journey Optimizer B2B edition Prime - definir acionadores de evento, aplicar filtros opcionais e avançar as pessoas quando ocorrerem atividades ou alterações de dados.
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d0031543-532c-4a26-8f90-01af2b91e6d0id: ba367494-9862-4596-bd6f-299c7e10a46bid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +20,17 @@ Adicione o nó _Ouvir um evento_ para mover o público-alvo para a próxima etap
 
 ## Acionadores de eventos {#event-triggers}
 
-Obter lista do PM
+Você pode criar acionadores para [!DNL Marketo Engage] atividades, como:
+
+* Preenche o formulário - Acionado quando uma pessoa envia um formulário do [!DNL Marketo Engage] na sua página de aterrissagem.
+* Visitas à página da Web - acionado quando um cliente potencial exibe uma página da Web rastreada (você pode especificar URLs exatos ou usar curingas).
+* Link de cliques - acionado quando um link rastreado em um email de marketing é clicado.
+* Alterações no valor de dados - Acionado quando um campo específico (como Status do lead, Pontuação ou Setor) é atualizado no registro de uma pessoa.
+* Campanha solicitada - geralmente usado para integrações de API ou webhook, esse acionador inicia uma campanha quando outro programa ou serviço da Web a chama.
+* Pontuação alterada - Acionado quando a pontuação de um lead individual aumenta ou diminui após um determinado limite.
+* Com toque por push em dispositivo móvel - Acionado em campanhas inteligentes de marketing móvel quando uma notificação por push recebe interação em um dispositivo.
 
 ## Filtros de evento {#event-filters}
-
-Obter lista atualizada do PM
 
 | Filtros | Descrição |
 | ------- | ----------- |

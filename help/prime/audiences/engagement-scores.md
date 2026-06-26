@@ -4,19 +4,11 @@ description: Calcular as pontuações de engajamento da pessoa para clientes pot
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 7%
@@ -151,15 +143,13 @@ Ao configurar a segmentação para uma jornada de pessoa em um nó [_Dividir cam
 
 No [!DNL Journey Optimizer B2B Prime], você pode configurar a ponderação da pontuação de engajamento diretamente da [interface de chat do Assistente de IA](../agents/chat-interface.md).
 
-Para obter informações sobre modelos de pontuação de envolvimento, faixas de ponderação e pesos da atividade, consulte [Configurar ponderação de pontuação de envolvimento personalizada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Para obter informações sobre modelos de pontuação de envolvimento, faixas de ponderação e pesos da atividade, consulte [Configurar ponderação de pontuação de envolvimento personalizada](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Abra o painel de chat do **[!UICONTROL Assistente de IA]** no lado esquerdo da tela (ícone de chat).
 
 1. No campo de entrada do chat, digite o comando de barra inclinada seguido da intenção. Por exemplo:
 
-   ```text
-   /engagement-configuration Configure activity weights for the person engagement score model
-   ```
+   `/engagement-configuration Configure activity weights for the person engagement score model`
 
    À medida que você digita `/`, o Assistente de IA exibe uma lista de comandos e habilidades de barra disponíveis. O comando de configuração de engajamento é roteado diretamente para a página Ponderação de engajamento.
 
