@@ -3,17 +3,11 @@ title: Nós de Jornada de pessoa
 description: Saiba mais sobre os nós de jornada de pessoas no Journey Optimizer B2B edition Prime - público-alvo, ações, eventos, esperas, divisões de caminho e o próximo melhor roteamento de caminho orientado por IA.
 autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -29,7 +23,7 @@ O nó _[!UICONTROL Audiência da pessoa]_ é automaticamente o primeiro nó na j
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Nó de público-alvo de pessoa
 
@@ -39,7 +33,7 @@ A jornada sempre começa com um nó de público-alvo de pessoa. Defina o públic
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Nós de ação
 
@@ -49,7 +43,7 @@ Aplique as alterações a cada pessoa em um caminho, como enviar um email ou atu
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Nós de evento
 
@@ -59,7 +53,7 @@ Avance as pessoas para a próxima etapa da jornada quando ocorrer uma atividade 
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Esperar nós
 
@@ -69,7 +63,7 @@ Pausar a progressão da jornada por uma duração definida ou até uma data e ho
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Dividir e mesclar nós de caminhos
 
@@ -79,7 +73,7 @@ Segmente pessoas em caminhos separados com base em condições, aplique ações 
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Próximo nó de melhor caminho
 
@@ -89,3 +83,4 @@ Use a decisão orientada por IA para direcionar cada pessoa para o caminho mais 
 :::
 
 ::::
+
