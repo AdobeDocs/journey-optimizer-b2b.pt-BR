@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 20%
+source-wordcount: 494
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,7 @@ Introdução
 Conclua a instalação e a configuração iniciais e saiba como navegar no aplicativo e usar a home page.
 
 [Configuração do administrador](./start/setup-prime.md)
+
 [Página inicial](./home-insights/home-page.md)
 :::
 
@@ -48,6 +49,7 @@ Assistente de IA
 Use a linguagem natural para planejar programas, criar jornadas, gerenciar públicos-alvo e criar conteúdo com habilidades de IA orgânica.
 
 [Interface de chat](./agents/chat-interface.md)
+
 [Competências disponíveis](./agents/skills.md)
 :::
 
@@ -69,7 +71,8 @@ Gerenciamento de marketing
 Organize campanhas em programas, projete jornadas de pessoas com conteúdo multicanal e personalize com tokens personalizados.
 
 [Visão geral de marketing](./marketing/marketing-management.md)
-[jornadas de pessoas](./marketing/person-journeys.md)
+
+[Jornadas de pessoas](./marketing/person-journeys.md)
 :::
 
 :::
@@ -80,6 +83,7 @@ Públicos-alvo
 Crie e mantenha listas de pessoas, defina públicos com base em eventos e rastreie o engajamento com pontuação com base em persona.
 
 [Listas de pessoas](./audiences/people-lists.md)
+
 [Pontuações de engajamento](./audiences/engagement-scores.md)
 :::
 
@@ -91,8 +95,10 @@ Conteúdo
 Crie emails e mensagens de WhatsApp, gerencie modelos e ativos, crie páginas de aterrissagem e formulários e aplique a personalização.
 
 [Criação de email](./content/email-authoring.md)
+
 [Modelos](./content/templates.md)
-[Páginas de aterrissagem](./content/landing-pages.md)
+
+[Páginas de destino](./content/landing-pages.md)
 :::
 
 ::::
