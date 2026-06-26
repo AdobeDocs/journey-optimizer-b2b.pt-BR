@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -41,3 +41,4 @@ _Para configurar o público-alvo da jornada :_
    * **[!UICONTROL Lista dinâmica]** - Use uma lista dinâmica de pessoas baseada em regras. As regras de lista são avaliadas no tempo de execução da jornada para qualificar membros da jornada. As pessoas que depois se desqualificam para a lista dinâmica não são removidas da jornada. Consulte _[Listas dinâmicas](../audiences/people-lists.md#dynamic-lists)_.
 
    * **[!UICONTROL Público-alvo do evento]** - Use um público-alvo de evento para definir o público-alvo de jornada com base em eventos qualificados. Defina membros do público usando a filtragem de perfil de pessoa e acione a entrada de jornada usando critérios de evento. Consulte _[Públicos-alvo baseados em eventos](../audiences/event-based-audiences.md)_.
+
