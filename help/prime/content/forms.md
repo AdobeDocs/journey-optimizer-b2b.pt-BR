@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: 5905973b2fc677d6e6d9a24ac68691237c837037
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -283,13 +283,11 @@ As alterações em um formulário dependem do status atual:
 1. Use as ferramentas de design visual conforme necessário para atualizar o conteúdo do formulário:
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Clique em **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do formulário.
@@ -310,13 +308,11 @@ As alterações em um formulário dependem do status atual:
 1. Clique em **[!UICONTROL Editar formulário]** no painel _[!UICONTROL Resumo]_ à direita e use as ferramentas de design visual conforme necessário:
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Clique em **[!UICONTROL Salvar e fechar]** para retornar aos detalhes do formulário.
