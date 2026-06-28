@@ -1,7 +1,7 @@
 ---
 title: Criação de conteúdo - adicionar formulários
 description: Seção Reutilizada sobre adição de formulários em páginas de aterrissagem e modelos
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -40,7 +40,7 @@ O exemplo a seguir descreve as etapas para adicionar um formulário à medida qu
      >
      >Se quiser usar o formulário para baixar um arquivo, você poderá especificar uma URL para o arquivo hospedado. Com essa configuração, o botão de envio funciona como um botão de download.
 
-   ![Alterar a configuração de acompanhamento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![Alterar a configuração de acompanhamento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. Se quiser limitar a exibição de formulário por tipo de dispositivo, altere a configuração **[!UICONTROL Opções de Exibição]**:
 
