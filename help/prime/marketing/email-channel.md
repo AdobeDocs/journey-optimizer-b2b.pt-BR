@@ -20,7 +20,7 @@ role_v2:
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -117,7 +117,7 @@ A página de e-mail é aberta quando você cria um e-mail para um nó _[!UICONTR
 
 1. (Opcional) Marque a caixa de seleção **[!UICONTROL Otimizar o tamanho do HTML]** para reduzir o tamanho do HTML de email durante o processo de publicação.
 
-   Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB. Consulte [_Otimizar o tamanho do HTML de email_](#optimize-html-size) para obter mais informações.
+   Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB. Consulte [_Otimizar o tamanho do HTML de email_](#optimize-html-size) para obter mais informações.
 
 1. Clique em **[!UICONTROL Editar corpo do email]** para acessar as ferramentas de design visual e começar a [criar seu conteúdo](../content/email-authoring.md).
 
@@ -145,7 +145,7 @@ A página de e-mail é aberta quando você cria um e-mail para um nó _[!UICONTR
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="Reduzir tamanho do HTML"
->abstract="Ative essa opção para compactar seu HTML de email durante a publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB."
+>abstract="Ative esta opção para compactar o código HTML do seu email durante a publicação, removendo espaços em branco desnecessários, recuos e comentários não essenciais. Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB."
 
 O [!DNL Journey Optimizer B2B Prime] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Manter o tamanho pequeno do HTML ajuda a:
 

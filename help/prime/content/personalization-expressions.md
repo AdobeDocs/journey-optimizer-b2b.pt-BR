@@ -19,11 +19,11 @@ role_v2:
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 1015
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# editor do Personalization
+# Editor de personalização
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
@@ -81,7 +81,7 @@ Ao criar uma [configuração de canal de email](../admin/email-channel-configura
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="Preenchimento automático"
->abstract="Ativar essa opção permite que o sistema sugira e conclua automaticamente o código à medida que você digita. Esse recurso está disponível somente para formatos de HTML e Texto e é compatível com atributos de perfil. Se desabilitado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo."
+>abstract="Ativar essa opção permite que o sistema sugira e conclua automaticamente o código à medida que você digita. Esse recurso está disponível apenas para os formatos HTML e Texto e é compatível com atributos de perfil. Se desabilitado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo."
 
 O espaço de trabalho central é onde você cria sua sintaxe de personalização. Para usar um atributo para personalizar sua mensagem, localize-o no painel de navegação esquerdo e clique no botão `+` para adicioná-lo à expressão.
 
@@ -109,7 +109,7 @@ As opções disponíveis são:
 
 1. **[!UICONTROL Localizar]** / **[!UICONTROL Localizar e substituir]**: pesquise pela expressão e substitua automaticamente partes do código.
 1. **[!UICONTROL Desfazer]** / **[!UICONTROL Refazer]**: Desfazer / Refazer a última operação.
-1. **[!UICONTROL Preenchimento automático]**: sugere e conclui automaticamente o código à medida que você digita. Esse recurso está disponível somente para formatos de HTML e Texto e é compatível com atributos de perfil. Se desabilitado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo.
+1. **[!UICONTROL Preenchimento automático]**: sugere e conclui automaticamente o código à medida que você digita. Esse recurso está disponível apenas para os formatos HTML e Texto e é compatível com atributos de perfil. Se desabilitado por meio do botão de alternância, o editor fornecerá preenchimento automático do código HTML nativo.
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 

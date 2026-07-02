@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
 workflow-type: tm+mt
 source-wordcount: 1634
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_fragment"
 >title="Sobre os componentes da estrutura"
->abstract="Os componentes da estrutura são elementos de layout que podem ser usados para projetar a estrutura de um fragmento."
+>abstract="Componentes da estrutura são elementos do layout que podem ser usados para criar a estrutura de um fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_template"
