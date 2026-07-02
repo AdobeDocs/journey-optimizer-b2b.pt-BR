@@ -6,21 +6,14 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -117,7 +110,7 @@ A página de e-mail é aberta quando você cria um e-mail para um nó _[!UICONTR
 
 1. (Opcional) Marque a caixa de seleção **[!UICONTROL Otimizar o tamanho do HTML]** para reduzir o tamanho do HTML de email durante o processo de publicação.
 
-   Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB. Consulte [_Otimizar o tamanho do HTML de email_](#optimize-html-size) para obter mais informações.
+   Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB. Consulte [_Otimizar o tamanho do HTML de email_](#optimize-html-size) para obter mais informações.
 
 1. Clique em **[!UICONTROL Editar corpo do email]** para acessar as ferramentas de design visual e começar a [criar seu conteúdo](../content/email-authoring.md).
 
@@ -145,7 +138,7 @@ A página de e-mail é aberta quando você cria um e-mail para um nó _[!UICONTR
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="Reduzir tamanho do HTML"
->abstract="Ative essa opção para compactar seu HTML de email durante a publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Isso ajuda a impedir o recorte de emails em clientes como o Gmail, que trunca mensagens com mais de 100 KB."
+>abstract="Ative esta opção para compactar o código HTML do seu email durante a publicação, removendo espaços em branco desnecessários, recuos e comentários não essenciais. Isso ajuda a evitar o corte de emails em clientes como o Gmail, que truncam mensagens com mais de 100 KB."
 
 O [!DNL Journey Optimizer B2B Prime] permite compactar a versão do HTML de email durante o processo de publicação removendo espaços em branco, recuos e comentários não essenciais desnecessários. Manter o tamanho pequeno do HTML ajuda a:
 
