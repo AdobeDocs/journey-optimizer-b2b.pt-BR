@@ -3,24 +3,17 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
+source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
 workflow-type: tm+mt
-source-wordcount: 5167
-ht-degree: 66%
+source-wordcount: 5271
+ht-degree: 65%
 
 ---
 
@@ -28,9 +21,25 @@ ht-degree: 66%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
+
+## Notas de versão 2026.6 {#rel-2026-6}
+
+**Data de implantação**: 10 de julho de 2026
+
+<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Aprimoramento | Nós de jornada de caminho dividido - Variantes | Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
+| Aprimoramento | Nós de jornada de caminho dividido externos - jornadas de pessoa | O suporte para nós de jornada de caminho dividido externos agora está disponível para jornadas de pessoas. |
+| Aprimoramento | Nós de jornada de ação externa - jornadas de pessoa | O suporte para nós de jornada de ação externa agora está disponível para jornadas de pessoas. |
+
+>[!NOTE]
+>
+>Essas alterações de versão começam a ser implantadas em 10 de julho de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas de versão 2026.5 {#rel-2026-5}
 
@@ -42,7 +51,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | ---- | ---- | ----------- |
 | Recurso | Páginas de destino | As páginas de aterrissagem estão disponíveis no Journey Optimizer B2B edition para oferecer suporte a jornadas e programas _(anteriormente um recurso de programa do Beta)_. <ul><li>Os administradores podem configurar subdomínios e predefinições de página de aterrissagem para permitir a publicação dessa página. [Saiba mais](../admin/configure-channels-landing-pages.md)</li><li>Os profissionais de marketing podem criar, projetar e publicar páginas de aterrissagem para oferecer suporte às suas jornadas com conteúdo personalizado da Web. [Saiba mais](../content/landing-pages.md)</li></ul> |
 | Recurso | Formulários | O Journey Optimizer B2B edition agora oferece suporte a componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem _(anteriormente um recurso do programa Beta)_. <ul><li>Os administradores podem configurar várias predefinições de formulário usando diferentes combinações de conjuntos de dados e conexões de transmissão. [Saiba mais](../admin/configure-channels-forms.md)</li><li>Agora, os profissionais de marketing podem definir componentes de formulário reutilizáveis para capturar informações de visitantes de páginas da Web. [Saiba mais](../content/forms.md)</li></ul> |
-| Recurso | Filtro Membro da Lista de Contas | Use a associação de Listas de Contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
+| Recurso | Filtro Membro da lista de contas | Use a associação à lista de contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
 | Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. [Saiba mais](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Recurso | Próximos nós de jornada de melhor caminho | Você pode otimizar a decisão de caminho dividido para jornadas de pessoas, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. [Saiba mais](../journeys/next-best-path-node.md) |
 | Recurso | Painel de desempenho do email | O painel Desempenho do email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. [Saiba mais](../dashboards/email-performance-dashboard.md) |
