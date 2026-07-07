@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c260820ff5e4ce44759bb9c74aef877dfc6267b8
+source-git-commit: 64ff7b95a5d96376be096ba4d957fdb8020d4e7e
 workflow-type: tm+mt
-source-wordcount: 505
-ht-degree: 10%
+source-wordcount: 436
+ht-degree: 5%
 
 ---
 
@@ -25,105 +25,142 @@ ht-degree: 10%
 
 O [!DNL Adobe Journey Optimizer B2B Prime] é uma solução de automação de marketing baseada em IA que capacita profissionais de marketing e representantes de desenvolvimento de negócios a planejar programas, organizar jornadas de pessoas personalizadas e qualificar clientes potenciais. Use a IA de conversação para criar campanhas, gerenciar públicos e fornecer conteúdo por email e canais do WhatsApp.
 
-## Explore os principais recursos do produto {#section-explore}
+## Comece com as noções básicas {#basics}
 
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR"  alt="Lista de verificação de configuração"></a> </td>
+  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="https://cdn.experienceleague.adobe.com/icons/home.svg?lang=pt-BR"  alt="Página inicial"></a> </td>
+  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR"  alt="Interface de bate-papo do assistente do AI"></a> </td>
+  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/users-gear.svg?lang=pt-BR"  alt="Hub de atividades de marketing"></a> </td>
+  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/images.svg?lang=pt-BR"  alt="Gerenciamento de ativos digitais"></a> </td>
+  <tr style="border: 0;">
+    <td valign="top">
+    <div><strong>Instalação</strong><br/><br/>Conclua a instalação e a configuração iniciais para que sua equipe de marketing possa começar.</div>
+    </td>
+    <td valign="top">
+    <div><strong>Página inicial</strong><br/><br/>Explore o essencial de navegação no aplicativo centralizado em torno da página inicial.</div>
+    </td>
+    <td valign="top">
+    <div><strong>Assistente de IA</strong><br/><br/>Use a linguagem natural para planejar programas, criar jornadas, gerenciar públicos e criar conteúdo com habilidades de IA de agente.
+    </div>
+    </td>
+    <td valign="top">
+    <div><strong>Hub de marketing</strong><br/><br/>Organize campanhas em programas, crie jornadas de pessoas com conteúdo multicanal e personalize com tokens personalizados.</div>
+    </td>
+    <td valign="top">
+    <div><strong>Gerenciamento de ativos</strong><br/><br/>Use ativos de imagens locais e do Marketo Engage em seus emails, modelos e fragmentos visuais.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="/help/prime/setup-prime.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="/help/prime/content/digital-asset-management.md"><img src="../assets/learn-more.svg"></a></td>
+    </tr>
+</table>
+
+<!-- 
 :::: landing-cards-container
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
 
-Introdução
+Get Started
 
-Conclua a instalação e a configuração iniciais e saiba como navegar no aplicativo e usar a home page.
+Complete initial setup and configuration, then learn how to navigate the application and use the home page.
 
-[Configuração do administrador](./start/setup-prime.md) <br/>
-[Página inicial](./home-insights/home-page.md)
+[Administrator setup](./start/setup-prime.md) <br/>
+[Home page](./home-insights/home-page.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR)
 
-Assistente de IA
+AI Assistant
 
-Use a linguagem natural para planejar programas, criar jornadas, gerenciar públicos-alvo e criar conteúdo com habilidades de IA orgânica.
+Use natural language to plan programs, build journeys, manage audiences, and create content with agentic AI skills.
 
-[Interface de chat](./agents/chat-interface.md) <br/>
-[Competências disponíveis](./agents/skills.md)
+[Chat interface](./agents/chat-interface.md) <br/>
+[Available skills](./agents/skills.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
 
-Qualificador de Vendas
+Sales Qualifier
 
-Qualifique clientes potenciais com IA, execute fluxos de trabalho de saída e conecte tarefas do CRM a atividades de BDR.
+Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BDR activities.
 
-[Saiba mais sobre qualificadores de vendas](./sales-qualifier/sales-qualifier.md)
+[Learn about Sales Qualifier](./sales-qualifier/sales-qualifier.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
 
-Gerenciamento de marketing
+Marketing Management
 
-Organize campanhas em programas, projete jornadas de pessoas com conteúdo multicanal e personalize com tokens personalizados.
+Organize campaigns into programs, design person journeys with multi-channel content, and personalize with custom tokens.
 
-[Visão geral de marketing](./marketing/marketing-management.md) <br/>
-[jornadas de pessoas](./marketing/person-journeys.md)
+[Marketing overview](./marketing/marketing-management.md) <br/>
+[Person journeys](./marketing/person-journeys.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
 
-Públicos-alvo
+Audiences
 
-Crie e mantenha listas de pessoas, defina públicos com base em eventos e rastreie o engajamento com pontuação com base em persona.
+Build and maintain people lists, define event-based audiences, and track engagement with persona-based scoring.
 
-[Listas de pessoas](./audiences/people-lists.md) <br/>
-[Pontuações de engajamento](./audiences/engagement-scores.md)
+[People lists](./audiences/people-lists.md) <br/>
+[Engagement scores](./audiences/engagement-scores.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
 
-Conteúdo
+Content
 
-Crie emails e mensagens de WhatsApp, gerencie modelos e ativos, crie páginas de aterrissagem e formulários e aplique a personalização.
+Author emails and WhatsApp messages, manage templates and assets, create landing pages and forms, and apply personalization.
 
-[Criação de email](./content/email-authoring.md) <br/>
-[Modelos](./content/templates.md) <br/>
-[Páginas de aterrissagem](./content/landing-pages.md)
+[Email authoring](./content/email-authoring.md) <br/>
+[Templates](./content/templates.md) <br/>
+[Landing pages](./content/landing-pages.md)
 :::
 
 ::::
+
+-->
 
 ## Explorar a documentação
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introdução"><br/>
       <strong>Introdução</strong><br/><a href="./start/setup-prime.md">Lista de verificação de configuração</a><br/><a href="./start/user-management.md">Gerenciamento de usuários</a><br/><a href="./start/email-deliverability.md">Capacidade de entrega de email</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Assistente de IA"><br/>
       <strong>Assistente de IA</strong><br/><a href="./agents/chat-interface.md">Interface de chat</a><br/><a href="./agents/skills.md">Habilidades</a><br/><a href="./agents/program-from-brief.md">Criar programa a partir de resumo</a><br/><a href="./agents/audience-creation.md">Criar públicos para programas</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Gerenciamento de marketing"><br/>
       <strong>Gerenciamento de marketing</strong><br/><a href="./marketing/programs.md">Programas</a><br/><a href="./marketing/person-journeys.md">jornadas de pessoas</a><br/><a href="./marketing/email-channel.md">Canal de email</a><br/><a href="./content/whatsapp-authoring.md">Canal do WhatsApp</a>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Públicos-alvo"><br/>
       <strong>Públicos-alvo</strong><br/><a href="./audiences/people-lists.md">Listas de pessoas</a><br/><a href="./audiences/event-based-audiences.md">Públicos-alvo baseados em eventos</a><br/><a href="./audiences/engagement-scores.md">Pontuações de engajamento</a><br/><a href="./audiences/personas.md">Personas derivadas</a><br/><a href="./audiences/destinations.md">Destinos</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Conteúdo"><br/>
       <strong>Conteúdo</strong><br/><a href="./content/email-authoring.md">Criação de email</a><br/><a href="./content/templates.md">Modelos</a><br/><a href="./content/landing-pages.md">Páginas de aterrissagem</a><br/><a href="./content/forms.md">Forms</a><br/><a href="./content/personalization-expressions.md">Personalization</a>
     </td>
-    <td>
+    <td valign="top">
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px" alt="Administração"><br/>
       <strong>Administração</strong><br/><a href="./admin/email-channel-configuration.md">Configuração de email</a><br/><a href="./admin/configuration-channels-whatsapp.md">Configuração do WhatsApp</a><br/><a href="./admin/program-types.md">Tipos de programa</a>
     </td>
