@@ -1,57 +1,50 @@
 ---
 title: Criar públicos-alvo para programas
-description: Use a habilidade Criação de público no Journey Optimizer B2B Prime para criar listas de pessoas, adaptar listas inteligentes do Marketo e editar regras de lista no chat.
+description: Use a habilidade Criação de público no Journey Optimizer B2B Prime para criar listas de pessoas, adaptar as Smart Lists do Marketo Engage e editar as regras da lista no chat.
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
-autotag-review: '2026-06-25T19:19:21.361Z'
+autotag-review: '2026-07-06T16:19:54.563Z'
 TQID: 'https://experienceleague.adobe.com/l3xd0u8LR0UDLfeGMXPEEJ9qwXPJX5DxkaH41W4Q7PE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0f014bd931324eb41e841a788ee4cf2058522455
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1499
 ht-degree: 1%
 
 ---
 
 # Criar públicos-alvo para programas
 
-Em [!DNL Adobe Journey Optimizer B2B Prime], [_listas de pessoas_](../audiences/people-lists.md) definem o público-alvo para jornadas de pessoas — como listas dinâmicas baseadas em filtros que são atualizadas automaticamente ou listas estáticas com associação fixa. Na [interface do chat](./chat-interface.md), a _Criação de Público-Alvo_ cria, adapta e edita listas de pessoas por meio de uma conversa guiada.
+Em [!DNL Adobe Journey Optimizer B2B Prime], [_listas de pessoas_](../audiences/people-lists.md) definem o público-alvo para jornadas de pessoas — como listas dinâmicas baseadas em filtros que são atualizadas automaticamente ou listas estáticas com associação fixa. Na [interface do chat](./chat-interface.md), a _Criação de Público-Alvo_ [habilidade](./skills.md) cria, adapta e edita listas de pessoas por meio de uma conversa guiada.
 
 * **Habilidades** - `audience-creation` e `people-list-comparison`
-* **Chamada** - Descreva os critérios de público diretamente, carregue uma lista inteligente [!DNL Marketo Engage] ou nomeie uma lista existente para editar
-* **Leituras/gravações em** - [!DNL Journey Optimizer B2B Prime]; lê [!DNL Marketo Engage] ao adaptar listas inteligentes
+* **Chamada** - Descreva os critérios de público diretamente, carregue uma Lista Inteligente [!DNL Marketo Engage] ou nomeie uma lista existente para editar
+* **Leituras/gravações em** - [!DNL Journey Optimizer B2B Prime]; lê [!DNL Marketo Engage] ao adaptar Smart Lists
 
 ## Fluxos de trabalho compatíveis {#workflows}
 
-O assistente suporta três fluxos de trabalho e determina qual se aplica a partir da sua solicitação. Se a intenção for ambígua, ele pergunta antes de continuar.
+O Assistente de IA é compatível com três fluxos de trabalho de criação de público-alvo e determina qual deles se aplica à sua solicitação. Se a intenção for ambígua, ele pergunta antes de continuar.
 
 | Fluxo de trabalho (WRK) | Quando usá-lo | Exemplo de prompt |
 |---|---|---|
 | **Criar do zero** | Você deseja uma nova lista de pessoas definida por critérios ou associação. | _&quot;Crie uma lista dinâmica de VPs de Marketing em empresas SaaS na América do Norte.&quot;_ |
-| **Adaptar uma lista inteligente [!DNL Marketo Engage]** | Você já tem uma lista inteligente [!DNL Marketo Engage] ou campanha inteligente e deseja uma lista de pessoas equivalente. | _&quot;Adapte esta lista inteligente do Marketo a uma lista de pessoas.&quot;_ (anexar o ativo) |
+| **Adaptar uma Lista Inteligente [!DNL Marketo Engage]** | Você já tem uma lista inteligente [!DNL Marketo Engage] ou campanha inteligente e deseja uma lista de pessoas equivalente. | _&quot;Adapte esta lista inteligente do Marketo a uma lista de pessoas.&quot;_ (anexar o ativo) |
 | **Editar uma lista existente** | Você deseja adicionar ou substituir as regras em uma lista que já possui. | _&quot;Adicione uma regra à minha lista de &#39;Avaliações da Empresa&#39; para uma pontuação de lead superior a 50.&quot;_ |
 
 ## Criar uma lista de pessoas do zero {#create-from-scratch}
 
-Antes de gerar qualquer coisa, o assistente confirma todos os quatro itens a seguir. Ele solicita qualquer item que esteja faltando — em uma única mensagem.
+Antes de gerar qualquer coisa, o Assistente de IA confirma todos os quatro itens a seguir. Ele solicita qualquer item que esteja faltando — em uma única mensagem.
 
 1. **Regras/critérios** — uma descrição em linguagem simples de quem pertence à lista.
 1. **Nome** — Como chamar a lista.
-1. **Local** — Em qual programa a lista deve estar. Forneça um nome de programa e o assistente o encontrará; se houver várias correspondências, ele solicitará que você o escolha.
-1. **Tipo** — Dinâmico (baseado em filtro, atualização automática) ou estático (associação fixa). Isso é obrigatório — o assistente não adivinhará; se você não especificar, ele perguntará.
+1. **Local** — Em qual programa a lista deve estar. Forneça um nome de programa e o Assistente de IA o encontrará; se houver várias correspondências, ele solicitará que você o escolha.
+1. **Tipo** — Dinâmico (baseado em filtro, atualização automática) ou estático (associação fixa). Isso é obrigatório — o Assistente de IA não adivinhará; se você não especificar, ele perguntará.
 
-### Listas dinâmicas
+### Listas dinâmicas {#dynamic-lists}
 
-Para listas dinâmicas, o assistente sugere proativamente a inclusão de atributos de personalização para tornar o direcionamento mais rico. Estes atributos estão **_incluídos por padrão — você opta por não participar_**:
+Para listas dinâmicas, o Assistente de IA sugere proativamente incluir atributos de personalização para tornar o direcionamento mais rico. Estes atributos estão **_incluídos por padrão — você opta por não participar_**:
 
 | Atributo | Por que ajuda |
 |---|---|
@@ -59,16 +52,16 @@ Para listas dinâmicas, o assistente sugere proativamente a inclusão de atribut
 | **Intenção Derivada** | Sinais de intenção de compra inferidos que são exibidos nas contas do mercado. |
 | **Nível de participação** | Nível de envolvimento calculado que prioriza os contatos envolvidos. |
 
-Informe o assistente se deseja remover qualquer um desses itens antes de continuar.
+Informe o Assistente de IA se quiser remover qualquer um desses itens antes de continuar.
 
-### Listas estáticas
+### Listas estáticas {#static-lists}
 
 * **Estático, sem critérios** — A lista é criada vazia, pronta para você adicionar membros manualmente.
-* **Estático a partir dos critérios (um instantâneo)** — O Assistente de IA cria o conjunto correspondente e copia essas pessoas em. O público é assíncrono — o assistente confirma que a lista foi criada, mas observa que pode levar alguns minutos para que as pessoas apareçam. Ele não irá alegar que a lista está pronta imediatamente.
+* **Estático a partir dos critérios (um instantâneo)** — O Assistente de IA cria o conjunto correspondente e copia essas pessoas em. O público é assíncrono — O Assistente de IA confirma que a lista foi criada, mas observa que pode levar alguns minutos para que as pessoas apareçam. Ele não irá alegar que a lista está pronta imediatamente.
 
 ## Revisar cartão {#review-card}
 
-Nada é criado até que você o aprove. Depois que você descreve seus critérios, o assistente apresenta o cartão interativo _Análise de Criação da Lista de Pessoas_ (para adaptações de listas [!DNL Marketo Engage], o cartão é intitulado _Análise de Conversão da Lista de Pessoas_).
+Nada é criado até que você o aprove. Depois de descrever seus critérios, o AI Assistant apresenta um cartão interativo _Análise de Criação da Lista de Pessoas_ (para adaptações de listas [!DNL Marketo Engage], o cartão é intitulado _Análise de Conversão da Lista de Pessoas_).
 
 Cada linha no cartão representa uma condição:
 
@@ -95,13 +88,13 @@ Você também pode digitar um acompanhamento a qualquer momento (por exemplo, _&
 
 ## Mapeamento de atributos {#attribute-mapping}
 
-Quando você descreve um critério, o assistente traduz cada condição em um atributo real de nível de pessoa conhecido. Três resultados podem aparecer no cartão Revisão:
+Quando você descreve os critérios, o Assistente de IA traduz cada condição em um atributo real de nível de pessoa conhecido. Três resultados podem aparecer no cartão Revisão:
 
 1. **Correspondente (alta confiança)** — Sua condição mapeia diretamente para um atributo (por exemplo, _&quot;email é acme.com&quot;_ mapeia para o atributo `email`). Marcado por padrão.
 1. **Aproximado (baixa confiança)** — O atributo mais próximo disponível difere no nome ou no modelo de dados (por exemplo, um filtro _Quantidade_ do Marketo aproximado como _Pontuação de lead_). Mostrado com uma nota explicando a diferença; desmarcado por padrão.
 1. **Não encontrado** — A condição não pôde ser mapeada para nenhum atributo conhecido. Mostrado como _&quot;Nenhum equivalente encontrado&quot;_; nenhuma regra é gerada.
 
-É por isso que uma lista que você descreve pode voltar com menos regras do que as condições especificadas — condições sem correspondência são exibidas explicitamente em vez de serem descartadas silenciosamente. Se critérios importantes forem exibidos como &quot;não encontrado&quot;, reescreva-os usando o nome real do atributo e o assistente tentará novamente.
+É por isso que uma lista que você descreve pode voltar com menos regras do que as condições especificadas — condições sem correspondência são exibidas explicitamente em vez de serem descartadas silenciosamente. Se os critérios importantes forem exibidos como &quot;não encontrado&quot;, reescreva-os usando o nome real do atributo e as tentativas do Assistente do AI.
 
 >[!NOTE]
 >
@@ -109,12 +102,12 @@ Quando você descreve um critério, o assistente traduz cada condição em um at
 
 ## Editar regras de uma lista existente {#edit-rules}
 
-Quando você solicita a alteração de regras em uma lista já existente, o assistente estabelece qual lista e qual modo de edição:
+Quando você solicita a alteração de regras em uma lista que já possui, o Assistente de IA estabelece qual lista e qual modo de edição:
 
 * **Adicionar/acrescentar** (padrão para _&quot;adicionar regras&quot;_, _&quot;adicionar mais regras&quot;_) — as novas regras são mescladas com as existentes.
 * **Substituir** (padrão para _&quot;substituir regras&quot;_, _&quot;alterar regras para&quot;_) — novas regras substituem todas as regras existentes na lista.
 
-O assistente resume o que será aplicado e indica claramente se ele está adicionando ou substituindo e solicita que você confirme antes de confirmar. Após a aplicação, ele relata a contagem total de regras e quantas foram adicionadas ou substituídas.
+O Assistente de IA resume o que será aplicado e indica claramente se ele está adicionando ou substituindo e solicita que você confirme antes de confirmar. Após a aplicação, ele relata a contagem total de regras e quantas foram adicionadas ou substituídas.
 
 >[!NOTE]
 >
@@ -136,8 +129,8 @@ Peça ao Assistente de IA para comparar duas listas de pessoas (por exemplo, _&q
 |---|---|
 | **Tamanho da tabela** | Mostra até 200 membros; além disso, observa _&quot;Mostrando 200 de N — peça-me para refinar a consulta para restringir os resultados.&quot;_ |
 | **Computação de sobreposição** | Calculado no endereço de email; as pessoas sem um email são excluídas da interseção. |
-| **Tamanho da lista** | Lê aproximadamente os primeiros ~1.000 membros de cada lista. Para listas maiores, o assistente informa que os resultados são parciais. |
-| **Listas dinâmicas de rascunhos** | Não pode ser comparado — uma lista que não foi publicada não tem um segmento ativo. O assistente solicita que você publique primeiro ou use uma lista estática. |
+| **Tamanho da lista** | Lê aproximadamente os primeiros ~1.000 membros de cada lista. Para listas maiores, o Assistente de IA informa que os resultados são parciais. |
+| **Listas dinâmicas de rascunhos** | Não pode ser comparado — uma lista que não foi publicada não tem um segmento ativo. O Assistente de IA solicita que você publique-o primeiro ou use uma lista estática. |
 
 ## Validação de controle de qualidade {#qa-validation}
 
@@ -155,10 +148,10 @@ Depois de criar ou atualizar uma lista, o Assistente de IA oferece: _&quot;Desej
 
 | Limitação | Detalhe |
 |---|---|
-| **Adaptação da lista estática de[!DNL Marketo Engage]** | Você não pode adaptar uma lista estática [!DNL Marketo Engage] (ou um email ou outro ativo que não seja de filtro) em uma lista de pessoas. As listas estáticas são IDs de membro explícitas e não podem ser expressas como filtros; em vez disso, o assistente solicita uma Smart List ou uma Campanha Inteligente. |
+| **Adaptação da lista estática de[!DNL Marketo Engage]** | Você não pode adaptar uma lista estática [!DNL Marketo Engage] (ou um email ou outro ativo que não seja de filtro) em uma lista de pessoas. As listas estáticas são IDs de membro explícitas e não podem ser expressas como filtros; o Assistente de IA solicita uma Smart List ou Campanha inteligente. |
 | **Filtros baseados em atividade e associação** | Ao adaptar de [!DNL Marketo Engage], filtros como _Email Aberto_, _Página da Web Visitada_, _Formulário Preenchido_, _Membro da Lista_ e _Membro da Campanha Inteligente_ não têm equivalente na lista de pessoas e retornam como &quot;Nenhum equivalente encontrado.&quot; |
 | **Condições no nível da empresa** | Traduzido para o atributo de nível de pessoa mais próximo, quando possível (as listas de pessoas operam em atributos de pessoa) e sinalizado de baixa confiança quando o ajuste está solto. |
-| **Lógica AND/OR profundamente aninhada** | A lógica aninhada complexa pode ser reduzida a um AND/OR de nível superior; o assistente observa isso quando isso ocorre. |
-| **Colisões de nome** | Não resolvido automaticamente — se o nome for usado, o assistente solicitará um diferente em vez de anexar um sufixo silenciosamente. |
-| **Aprovação necessária** | O assistente não criará ou modificará uma lista até que você clique em **[!UICONTROL Continuar]**, confirme ou forneça uma visão geral clara (_&quot;aprovado&quot;_, _&quot;parece bom&quot;_, _&quot;criar&quot;_). |
+| **Lógica AND/OR profundamente aninhada** | A lógica aninhada complexa pode ser reduzida a um AND/OR de nível superior; o Assistente de IA observa isso quando ocorre. |
+| **Colisões de nome** | Não resolvido automaticamente — se o nome for usado, o Assistente de IA solicitará um diferente em vez de anexar um sufixo silenciosamente. |
+| **Aprovação necessária** | O Assistente de IA não criará ou modificará uma lista até que você clique em **[!UICONTROL Continuar]**, confirme ou forneça uma visão geral clara (_&quot;aprovado&quot;_, _&quot;parece bom&quot;_, _&quot;criar&quot;_). |
 | **População de instantâneos estáticos** | A associação a listas estáticas criadas a partir de critérios preenche mais de alguns minutos — não instantaneamente. |
