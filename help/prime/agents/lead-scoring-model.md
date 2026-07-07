@@ -4,20 +4,14 @@ description: Crie, visualize e publique modelos de pontuação de lead personali
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-25T21:20:26.754Z'
 TQID: 'https://experienceleague.adobe.com/-D5EaJ-3GQ5iwaE6hChscZGEdflKmZ3tdp6VUNuPjWk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Use a habilidade Scoring Studio para criar, configurar e publicar modelos de pontuação de lead personalizados por meio da interface de bate-papo do Assistente de IA."
+>abstract="Use a habilidade Scoring Studio para criar, configurar e publicar modelos de pontuação de leads personalizados por meio da interface de chat do Assistente de IA."
 
 A habilidade [_Scoring Studio_](./skills.md#scoring-signals) em [!DNL Adobe Journey Optimizer B2B Prime] fornece uma solução de pontuação de cliente potencial nativa de IA que permite criar, configurar e publicar modelos de pontuação de cliente potencial. O estúdio combina um fluxo de trabalho orientado por agente com uma interface visual — você pode criar modelos de pontuação por meio de prompts de linguagem natural na [interface de chat do Assistente de IA](./chat-interface.md) ou interagindo diretamente com os controles da interface.
 
