@@ -17,7 +17,7 @@ role_v2:
 source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Use a habilidade Scoring Studio para criar, configurar e publicar modelos de pontuação de lead personalizados por meio da interface de bate-papo do Assistente de IA."
+>abstract="Use a habilidade Scoring Studio para criar, configurar e publicar modelos de pontuação de leads personalizados por meio da interface de chat do Assistente de IA."
 
 A habilidade [_Scoring Studio_](./skills.md#scoring-signals) em [!DNL Adobe Journey Optimizer B2B Prime] fornece uma solução de pontuação de cliente potencial nativa de IA que permite criar, configurar e publicar modelos de pontuação de cliente potencial. O estúdio combina um fluxo de trabalho orientado por agente com uma interface visual — você pode criar modelos de pontuação por meio de prompts de linguagem natural na [interface de chat do Assistente de IA](./chat-interface.md) ou interagindo diretamente com os controles da interface.
 

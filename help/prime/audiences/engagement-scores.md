@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="Pontuação de engajamento da pessoa"
+>title="Pontuação de engajamento de pessoa"
 >abstract="As pontuações de engajamento da pessoa refletem o nível de engajamento de leads individuais com base em suas atividades recentes."
 
 A pontuação de engajamento de uma pessoa é um número que reflete o nível de engajamento de um lead individual. As pontuações são baseadas nas atividades que uma pessoa realiza, com cada tipo de atividade carregando um valor ponderado. As pontuações são normalizadas em sua instância (locatário) para permitir comparação consistente e insights acionáveis.
