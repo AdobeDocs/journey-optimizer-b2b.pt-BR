@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 582
 ht-degree: 7%
@@ -101,3 +101,4 @@ Essas habilidades abrangem mais de um back-end:
 - **`scoring-studio`** — lê [!DNL Marketo Engage] campos de cliente potencial/tipos de atividade junto com o serviço de pontuação [!DNL Journey Optimizer B2B Prime].
 
 Todas as ferramentas `falco-mcp_*` e jornada/token/scoring/STO/FCS atingem [!DNL Journey Optimizer B2B Prime] serviços; ferramentas CSV/programa/lead atingem [!DNL Marketo Engage].
+

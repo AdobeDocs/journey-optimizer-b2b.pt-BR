@@ -15,7 +15,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -102,3 +102,4 @@ Ao configurar a segmentação para uma jornada de pessoa em um nó [_Dividir cam
 1. Na condição de filtro, escolha **[!UICONTROL é]** e selecione uma ou mais personalidades na lista.
 
 1. Clique em **[!UICONTROL Concluído]** para salvar o filtro para o caminho.
+
