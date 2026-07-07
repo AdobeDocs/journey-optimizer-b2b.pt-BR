@@ -18,7 +18,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
+source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
 workflow-type: tm+mt
 source-wordcount: 2504
 ht-degree: 2%
@@ -329,3 +329,4 @@ Quando um formulário é incluído em uma página de aterrissagem ou modelo de p
 Quando você seleciona o formulário no espaço de design da página de aterrissagem, essas ações estão disponíveis na barra de ferramentas de contexto e no painel de propriedades à direita.
 
 ![Aplicar ações ao formulário selecionado](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"}
+
