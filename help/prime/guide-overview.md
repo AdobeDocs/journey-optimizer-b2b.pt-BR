@@ -4,17 +4,11 @@ description: Documentação completa para o Journey Optimizer B2B Prime - explor
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 64ff7b95a5d96376be096ba4d957fdb8020d4e7e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: f467931a-9b22-4ca8-869f-adfbd64061ce
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 966789b4ea702ab057da6dec419f6128b1d0c093
 workflow-type: tm+mt
 source-wordcount: 436
 ht-degree: 5%
@@ -29,11 +23,11 @@ O [!DNL Adobe Journey Optimizer B2B Prime] é uma solução de automação de ma
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
-  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR"  alt="Lista de verificação de configuração"></a> </td>
-  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="https://cdn.experienceleague.adobe.com/icons/home.svg?lang=pt-BR"  alt="Página inicial"></a> </td>
-  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=pt-BR"  alt="Interface de bate-papo do assistente do AI"></a> </td>
-  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/users-gear.svg?lang=pt-BR"  alt="Hub de atividades de marketing"></a> </td>
-  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/images.svg?lang=pt-BR"  alt="Gerenciamento de ativos digitais"></a> </td>
+  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="../assets/do-not-localize/setup-teal.svg"  alt="Lista de verificação de configuração"></a> </td>
+  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/do-not-localize/home-page-teal.svg"  alt="Página inicial"></a> </td>
+  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/do-not-localize/ai-assistant-teal.svg"  alt="Interface de bate-papo do assistente do AI"></a> </td>
+  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/do-not-localize/marketing-hub-teal.svg"  alt="Hub de atividades de marketing"></a> </td>
+  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="../assets/do-not-localize/asset-management-teal.svg"  alt="Gerenciamento de ativos digitais"></a> </td>
   <tr style="border: 0;">
     <td valign="top">
     <div><strong>Instalação</strong><br/><br/>Conclua a instalação e a configuração iniciais para que sua equipe de marketing possa começar.</div>
@@ -65,7 +59,7 @@ O [!DNL Adobe Journey Optimizer B2B Prime] é uma solução de automação de ma
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Get Started
 
@@ -76,7 +70,7 @@ Complete initial setup and configuration, then learn how to navigate the applica
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 AI Assistant
 
@@ -87,7 +81,7 @@ Use natural language to plan programs, build journeys, manage audiences, and cre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Sales Qualifier
 
@@ -97,7 +91,7 @@ Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BD
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Marketing Management
 
@@ -108,7 +102,7 @@ Organize campaigns into programs, design person journeys with multi-channel cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Audiences
 
@@ -119,7 +113,7 @@ Build and maintain people lists, define event-based audiences, and track engagem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Content
 
@@ -172,15 +166,15 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
 
