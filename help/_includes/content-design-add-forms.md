@@ -1,18 +1,18 @@
 ---
 title: Criação de conteúdo - adicionar formulários
 description: Seção Reutilizada sobre adição de formulários em páginas de aterrissagem e modelos
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Criação de conteúdo - adicionar formulários
 
-Um formulário é um componente reutilizável que pode ser referenciado por várias páginas de aterrissagem e modelos de página de aterrissagem no Adobe Journey Optimizer B2B edition. É um bloco de campos e um botão de envio que pode ser pré-criado e inserido rapidamente para tornar o design da página mais rápido e consistente.
+Um formulário é um componente reutilizável que pode ser referenciado por várias páginas de aterrissagem e modelos de página de aterrissagem. É um bloco de campos e um botão de envio que pode ser pré-criado e inserido rapidamente para tornar o design da página mais rápido e consistente.
 
-O exemplo a seguir descreve as etapas para adicionar um formulário à medida que você cria a página.
+O exemplo a seguir descreve as etapas para adicionar um formulário à medida que você cria a página de aterrissagem.
 
 1. Na seção **[!UICONTROL Conteúdo]**, arraste o item **[!UICONTROL Formulário]** e solte-o em um componente estrutural no espaço de design da página.
 
@@ -32,7 +32,7 @@ O exemplo a seguir descreve as etapas para adicionar um formulário à medida qu
 
    * **[!UICONTROL Permanecer na página]** - Escolha essa opção para manter o visitante na mesma página quando o formulário for enviado.
 
-   * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer página de aterrissagem do Journey Optimizer B2B edition ou do Marketo Engage como acompanhamento.
+   * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer outra página de aterrissagem como acompanhamento.
 
    * **[!UICONTROL URL Externa]** - Escolha esta opção para especificar qualquer URL como página de acompanhamento. Depois que o visitante envia o formulário, o navegador carrega o URL designado.
 
