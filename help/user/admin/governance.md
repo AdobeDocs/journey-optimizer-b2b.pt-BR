@@ -1,5 +1,5 @@
 ---
-title: Recursos de governança
+title: Recursos de governança e privacidade
 description: Saiba mais sobre os recursos de governança disponíveis atualmente no Journey Optimizer B2B edition.
 feature: Setup
 role: Admin
@@ -16,20 +16,36 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: 697
 ht-degree: 0%
 
 ---
 
-# Recursos de governança
+# Recursos de governança e privacidade
 
-O Journey Optimizer B2B edition é um aplicativo Adobe Experience Platform integrado. Ela emprega várias ferramentas e serviços que fornecem controle dos dados de experiência coletados em conformidade com as práticas comerciais, as obrigações legais e os processos de desenvolvimento. As seções abaixo fornecem um resumo de cada um desses recursos de governança.
+[!DNL Journey Optimizer B2B Edition] é um aplicativo Adobe Experience Platform integrado. Ela emprega várias ferramentas e serviços que fornecem controle dos dados de experiência coletados em conformidade com as práticas comerciais, as obrigações legais e os processos de desenvolvimento. As seções abaixo fornecem um resumo de cada um desses recursos de governança.
 
-## Privacidade - GDPR
+## Privacidade
 
-O Journey Optimizer B2B edition usa os recursos de governança do GDPR da Marketo Engage fornecidos pelo Serviço de Agente de Privacidade da Privacy Service e da Marketo.
+Há várias regulamentações que se aplicam a clientes do [!DNL Journey Optimizer B2B Edition] que detêm dados para residentes nas respectivas regiões ou países mencionados acima (UE, Califórnia, Tailândia, Brasil, Nova Zelândia). Estas informações nesta página não são um aconselhamento jurídico e não garantem a sua conformidade com a legislação aplicável.
+
+### RGPD
+
+O Regulamento Geral sobre a Proteção de Dados (GDPR) é a lei de privacidade da União Europeia (UE) que adequa e moderniza os [requisitos de proteção de dados](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} para os países membros da UE.
+
+[!DNL Journey Optimizer B2B Edition] usa os recursos de governança do GDPR da Marketo Engage fornecidos pelo Serviço de Agente de Privacidade da Privacy Service e da Marketo.
+
+### CNIL
+
+Em 14 de abril de 2026, a Commission nationale de l&#39;informatique et des libertés (CNIL) [publicou uma recomendação](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) sobre o uso de pixels de rastreamento em emails. As orientações esclarecem quando o consentimento é necessário e destacam a importância de práticas de consentimento adequadas para o rastreamento de pixels de email. Essa política afeta qualquer entidade que envie emails a assinantes com sede na França.
+
+A CNIL forneceu um período de três meses a partir da data da recomendação para que as empresas informassem seus destinatários de email sobre a presença dos pixels de rastreamento, sua finalidade e o direito dos destinatários de recusar. Durante esse período de transição, os usuários do Marketo Engage devem notificar seus recipients sobre o rastreamento de pixels e fornecer uma opção de não participação, se necessário. A CNIL deve iniciar as atividades de fiscalização após 14 de julho de 2026.
+
+À medida que a CNIL e outros reguladores esclarecem orientações sobre rastreamento de pixels e questões relacionadas, a Adobe continuará a monitorar atualizações e informá-lo sobre as mudanças de recursos técnicos.
+
+O [!DNL Journey Optimizer B2B Edition] oferece controles que ajudam você a gerenciar o rastreamento aberto no nível do email. Os usuários são responsáveis por determinar suas próprias obrigações de conformidade de acordo com as orientações e outras leis aplicáveis da CNIL. Para obter informações sobre como usar esses recursos para gerenciar o rastreamento de aberturas de email, consulte [_Gerenciar rastreamento de email_](../content/email-tracking-manage.md).
 
 ## Controle de acesso baseado em função (RBAC)
 

@@ -21,18 +21,26 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Gerenciar rastreamento de abertura de email
 
-Sua organização é responsável por determinar suas próprias obrigações de conformidade de acordo com as leis e orientações jurisdicionais aplicáveis, mas você pode usar os seguintes recursos do [!DNL Journey Optimizer B2B Edition] para apoiar seus esforços de conformidade.
-
 Você pode desativar o rastreamento aberto para um email individual ou capturar a preferência de rastreamento de cada pessoa no Adobe Experience Platform e usar um caminho dividido para encaminhar as pessoas para variantes de email de rastreamento e não rastreamento.
+
+>[!BEGINSHADEBOX &quot;Orientação da CNIL sobre pixels de rastreamento de email&quot;]
+
+Em 14 de abril de 2026, a *Commission Nationale de l&#39;Informatique et des Libertés* (CNIL) publicou uma [recomendação sobre o uso de pixels de rastreamento em emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). As orientações esclarecem quando o consentimento é necessário e destacam a importância de práticas de consentimento adequadas para o rastreamento de pixels de email. Essa política pode afetar as práticas de envio para qualquer entidade que entregue emails a assinantes com sede na França.
+
+Um pixel de rastreamento de email é uma imagem transparente 1x1 inserida na HTML de um email. Quando o cliente de email do recipient carrega essa imagem, o pixel faz o ping em um servidor que registra dados, como carimbo de data e hora, tipo de dispositivo, cliente de email e, às vezes, um endereço IP para localização aproximada. Esse log é vinculado ao registro de um recipient, permitindo que os profissionais de marketing saibam se um email está aberto.
+
+Os recursos do produto [!UICONTROL Journey Optimizer B2B edition] descritos aqui são blocos de construção que, configurados e operados adequadamente, podem oferecer suporte a uma implementação compatível. Cada cliente é responsável por determinar e cumprir suas obrigações conforme a legislação aplicável.
+
+>[!ENDSHADEBOX]
 
 ## Desativar o rastreamento para um único email {#disable-tracking-single-email}
 
