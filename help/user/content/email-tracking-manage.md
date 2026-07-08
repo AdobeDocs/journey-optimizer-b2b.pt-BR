@@ -7,11 +7,20 @@ role: User
 level: Beginner, Intermediate
 autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
 workflow-type: tm+mt
 source-wordcount: 712
@@ -89,7 +98,7 @@ Adicione um nó [_Split paths by people_](../journeys/split-merge-paths-nodes.md
 
 ### Configurar variantes de email de rastreamento e não rastreamento {#configure-tracking-and-non-tracking-email-variants}
 
-Adicione um nó de ação [_[!UICONTROL Enviar email ]_](./add-email.md) a cada caminho para que cada pessoa receba a variante de email que corresponde à sua preferência de rastreamento.
+Adicione um nó de ação [_[!UICONTROL Enviar email &#x200B;]_](./add-email.md) a cada caminho para que cada pessoa receba a variante de email que corresponde à sua preferência de rastreamento.
 
 1. No caminho habilitado para rastreamento, adicione uma ação **[!UICONTROL Enviar email]** e selecione ou crie o email como de costume, deixando a opção **[!UICONTROL Desabilitar rastreamento aberto]** desmarcada nas propriedades do email.
 
