@@ -22,14 +22,14 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: 2690
 ht-degree: 0%
 
 ---
 
-# Assistente de IA para conteúdo de página inicial {#generative-full-content}
+# Assistente de IA para conteúdo de página de destino {#generative-full-content}
 
 O Assistente de IA para conteúdo de página de aterrissagem no [!DNL Adobe Journey Optimizer B2B Edition] usa os recursos de geração de conteúdo alimentados por IA da Adobe e revoluciona a forma como os profissionais de marketing criam conteúdo de página de aterrissagem profissional e consistente com a marca. Com modelos avançados de IA gerativa e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz. Ele usa seu objetivo de marketing e otimiza o conteúdo para estilos, layouts, tons e muito mais. O Assistente de IA torna a criação e execução de campanhas e programas mais intuitivas, simples e simples. Adicionar esse recurso aos workflows pode economizar tempo, melhorar a eficiência e gerar melhores resultados.
 

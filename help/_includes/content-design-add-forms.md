@@ -1,9 +1,9 @@
 ---
 title: Criação de conteúdo - adicionar formulários
 description: Seção Reutilizada sobre adição de formulários em páginas de aterrissagem e modelos
-source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ O exemplo a seguir descreve as etapas para adicionar um formulário à medida qu
 
    >[!TIP]
    >
-   >Para adicionar o formulário de forma que ele ocupe o layout horizontal inteiro no email, adicione uma estrutura de coluna 1:1 e arraste e solte o formulário nele.
+   >Para adicionar o formulário de forma que ele ocupe o layout horizontal inteiro na página, adicione uma estrutura de coluna 1:1 e arraste e solte o formulário nele.
 
 1. Clique no ícone _Formulário_ na barra de ferramentas do componente ou use as propriedades **[!UICONTROL Incorporar Formulário]** à direita para selecionar o formulário publicado.
 
