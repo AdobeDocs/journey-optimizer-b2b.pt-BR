@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
+source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
 workflow-type: tm+mt
-source-wordcount: 5271
+source-wordcount: 5232
 ht-degree: 65%
 
 ---
@@ -40,13 +40,17 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Aprimoramento | Nós de jornada de caminho dividido - Variantes | Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
-| Aprimoramento | Nós de jornada de caminho dividido externos - jornadas de pessoa | O suporte para nós de jornada de caminho dividido externos agora está disponível para jornadas de pessoas. |
-| Aprimoramento | Nós de jornada de ação externa - jornadas de pessoa | O suporte para nós de jornada de ação externa agora está disponível para jornadas de pessoas. |
+| Recurso | Nós de jornada de caminho dividido - Variantes | (Beta) Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
 
 >[!NOTE]
 >
 >Essas alterações de versão começam a ser implantadas em 10 de julho de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+
+<!-- 
+Add for 2026.8 release
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+-->
 
 ## Notas de versão 2026.5 {#rel-2026-5}
 
