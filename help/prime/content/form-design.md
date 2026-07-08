@@ -4,10 +4,17 @@ description: Crie formulários com tipos de campo, validação, estilo e atribut
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-07-08T17:41:12.101Z'
 TQID: 'https://experienceleague.adobe.com/xtqYbREEcVklT0ElH2jYnwN6IshqhbBdfrUZTw74Yfk'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
 source-wordcount: 2189
@@ -21,7 +28,7 @@ Depois que você [cria um formulário](./forms.md#create-forms), o espaço de de
 
 ![Espaço para design do formulário](../../user/content/assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-O botão _**Enviar**_ (campo de rodapé) faz parte do formulário por padrão e não pode ser removido. Você pode selecionar o componente de botão/rodapé no formulário para [alterar o texto e o estilo do botão](#submit-button).
+O botão _&#x200B;**Enviar**&#x200B;_ (campo de rodapé) faz parte do formulário por padrão e não pode ser removido. Você pode selecionar o componente de botão/rodapé no formulário para [alterar o texto e o estilo do botão](#submit-button).
 
 ## Campos {#fields}
 
