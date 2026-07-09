@@ -1,35 +1,29 @@
 ---
 title: Acesso e permissões do usuário
-description: 'Gerenciar o acesso do usuário no Adobe Admin Console: crie grupos de usuários, atribua perfis de produtos e defina permissões com base em funções para o Journey Optimizer B2B edition Prime.'
+description: 'Gerenciar o acesso do usuário no Adobe Admin Console: crie grupos de usuários, atribua perfis de produto e defina permissões com base em função para o Journey Optimizer B2B Prime.'
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: bd42eee1-e206-4826-91ea-88dc726d858e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7id: bd42eee1-e206-4826-91ea-88dc726d858e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 70%
+source-wordcount: 1710
+ht-degree: 61%
 
 ---
 
 # Acesso e permissões do usuário
 
-Após a conclusão do provisionamento e a vinculação das sandboxes, conclua as etapas a seguir para fornecer acesso ao Adobe Journey Optimizer B2B edition para sua equipe e usuários.
+Após a conclusão do provisionamento e a associação das sandboxes, conclua as etapas a seguir para fornecer acesso ao [!DNL Journey Optimizer B2B Prime] para sua equipe e usuários.
 
-1. [Crie um perfil de produto do Adobe Journey Optimizer B2B edition](#create-profile) no Admin Console (apenas uma vez/configuração inicial).
+1. [Crie um [!DNL Journey Optimizer B2B Edition] perfil de produto](#create-profile) na Admin Console (somente instalação única/inicial).
 1. [Adicionar um grupo de usuários](#add-user-group) na Admin Console.
-1. [Edite as funções internas](#edit-role-permissions) ou [crie uma função personalizada](#create-a-custom-role) com permissões do Journey Optimizer B2B edition em permissões do Adobe Experience Platform.
+1. [Atribuir o perfil de produto](#assign-profile) ao grupo de usuários na Admin Console.
+1. [Adicionar usuários ao novo grupo](#add-users) na Admin Console.
+1. [Editar funções internas](#edit-role-permissions) ou [criar uma função personalizada](#create-a-custom-role) com [!DNL Journey Optimizer B2B Edition] permissões no Adobe Experience Platform.
 1. [Adicionar usuários](#add-users-to-a-role) ou [grupos](#add-user-groups-to-a-role) a funções no Adobe Experience Platform.
 
 ## Configurar o perfil do produto {#config-profile}
@@ -66,17 +60,17 @@ Antes de usar o Admin Console para administrar os usuários da sua equipe, é ne
 
    * Se o valor na coluna **[!UICONTROL FUNÇÃO DE ADMINISTRADOR]** mostrar `System`, isso quer dizer que você (ou o usuário mostrado) é um administrador do sistema.
 
-### Criar o perfil de produto do Adobe Journey Optimizer B2B edition {#create-profile}
+### Criar o perfil de produto [!DNL Journey Optimizer B2B Edition] {#create-profile}
 
 Ao conceder aos usuários acesso a uma solução da Adobe, você pode não pretender conceder acesso total a eles. Os perfis de produto permitem que cada solução tenha seu próprio conjunto de permissões do usuário. Use o Admin Console para atribuir perfis de produto.
 
 Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [_Gerenciar perfis de produto para usuários corporativos_](https://helpx.adobe.com/br/enterprise/using/manage-product-profiles.html){target="_blank"} na documentação do Admin Console.
 
-![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou um administrador de produto do Adobe Journey Optimizer B2B edition pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador de sistema ou administrador de produto [!DNL Experience Platform] pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Selecione a guia **[!UICONTROL Produtos]**.
 
-1. Abra a instância do Adobe Journey Optimizer B2B edition na qual deseja adicionar o perfil e clique em **[!UICONTROL Novo perfil]**.
+1. Abra a instância [!DNL Journey Optimizer B2B Edition] onde deseja adicionar o perfil e clique em **[!UICONTROL Novo perfil]**.
 
    ![Experience Platform - perfis de produto para o grupo de usuários](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
 
@@ -98,7 +92,7 @@ Para obter mais informações sobre como os grupos de usuários são usados para
 
 1. Clique em **[!UICONTROL Novo grupo de usuários]** na parte superior direita.
 
-1. Insira um nome para o grupo de usuários, como _usuários do jornada B2B_ e clique em **[!UICONTROL Salvar]**.
+1. Insira um nome para o grupo de usuários, como _usuários B2B_ e clique em **[!UICONTROL Salvar]**.
 
    ![Admin Console - adicionar grupo de usuários](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
 
@@ -159,7 +153,7 @@ As permissões são direitos unitários que permitem definir as autorizações a
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
-Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
+Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
 
 1. Vá para [experience.adobe.com](https://experience.adobe.com/).
 
@@ -175,7 +169,7 @@ Para obter mais informações sobre permissões de função no Experience Platfo
 
 ### B2B product permissions {#b2b-product-permissions}
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
 
 | Category | Description | Permissions |
 | -------- | ----------- | ---------- |
@@ -190,7 +184,7 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
 | Role | Permissions |
 | ---- | ----------- |
@@ -205,7 +199,9 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 Para funções integradas ou personalizadas, é possível decidir adicionar ou excluir permissões a qualquer momento. Se você modificar uma função padrão ou personalizada, isso afetará cada usuário atribuído à função.
 
-No exemplo a seguir, você deseja adicionar permissões relacionadas ao recurso Jornada B2B para usuários atribuídos à função Gerenciador de canal B2B. Essa alteração permite que os usuários dessa função também gerenciem jornadas de conta.
+>[!IMPORTANT]
+>
+>O acesso [!DNL Journey Optimizer B2B Prime] exige que você habilite uma sandbox específica provisionada usando a seguinte convenção de nomenclatura: prefixo de assinatura Marketo Engage + Prime. Por exemplo, se o prefixo de sua assinatura vinculada do Marketo Engage for _AcmeAssoc_, a sandbox necessária para o acesso de [!DNL Journey Optimizer B2B Prime] será _AcmeAssocPrime_.
 
 >[!NOTE]
 >
@@ -219,17 +215,19 @@ _Para alterar as permissões de uma função :_
 
 1. Na página de detalhes, clique em **[!UICONTROL Editar]** na parte superior direita.
 
-   ![Experience Platform - edite a função](../../user/admin/assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - edite a função](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
 
-   No editor de funções, o menu _[!UICONTROL Recursos]_ exibe a lista de recursos que se aplicam aos produtos de aplicativos habilitados pela Experience Cloud - Platform.
+   No editor de funções, o menu _[!UICONTROL Recursos]_ exibe a lista de recursos que se aplicam aos aplicativos da Experience Cloud - Platform.
 
-   Você pode digitar _B2B_ na ferramenta de pesquisa para filtrar a lista de permissões de produtos B2B.
+1. Selecione a sandbox provisionada para [!DNL Journey Optimizer B2B Prime] acesso (`<Marketo subscription prefix>Prime`).
 
-1. Clique no ícone _Adicionar_ (**+**) para o recurso B2B do Jornada.
+   ![Experience Platform - adicionar sandboxes para a nova função](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+
+1. Clique no ícone _Adicionar_ (**+**) para cada recurso B2B.
 
    ![Experience Platform - Recurso do Jornada B2B adicionado à função do Gerenciador de Canais](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
-1. No cartão de permissões _[!UICONTROL Jornada B2B]_, selecione **[!UICONTROL Gerenciar Jornadas de Conta B2B]**.
+1. Adicione as permissões específicas para cada um dos recursos ou selecione **[!UICONTROL Adicionar tudo]**.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -239,7 +237,7 @@ _Para alterar as permissões de uma função :_
 
 ### Adicionar usuários a uma função {#add-users-to-a-role}
 
-![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto do AEP pode executar as seguintes etapas.
+![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador do Experience Platform pode executar as seguintes etapas.
 
 1. Abra os detalhes da função e selecione a guia **[!UICONTROL Usuários]**.
 
@@ -247,7 +245,7 @@ _Para alterar as permissões de uma função :_
 
 1. Clique em **[!UICONTROL Adicionar usuários]**.
 
-   ![Experience Platform - adicionar usuários à função](../../user/admin/assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+   ![Experience Platform - adicionar usuários à função](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. Na caixa de diálogo _[!UICONTROL Adicionar usuários]_, localize e selecione os usuários que deseja adicionar à função.
 
@@ -263,7 +261,7 @@ _Para alterar as permissões de uma função :_
 
 Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/enterprise/using/users.html){target="_blank"} na documentação do Admin Console.
 
-![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto do AEP pode executar as seguintes etapas.
+![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador do Experience Platform pode executar as seguintes etapas.
 
 1. Abra os detalhes da função e selecione a guia **[!UICONTROL Grupos de usuários]**.
 
@@ -271,7 +269,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 1. Clique em **[!UICONTROL Adicionar grupos]**.
 
-   ![Experience Platform - adicionar grupos à função](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - adicionar grupos à função](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
 1. Na caixa de diálogo _[!UICONTROL Adicionar grupos]_, localize e selecione os grupos que deseja adicionar à função.
 
@@ -285,7 +283,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 ### Criar uma função personalizada {#create-a-custom-role}
 
-![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador de produto do AEP pode executar as seguintes etapas.
+![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador do Experience Platform pode executar as seguintes etapas.
 
 1. Selecione **[!UICONTROL Funções]** na navegação à esquerda e selecione **[!UICONTROL Criar função]**.
 
@@ -293,9 +291,9 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 1. Clique em **[!UICONTROL Confirmar]**.
 
-1. Selecione suas sandboxes.
+1. Selecione a sandbox provisionada para [!DNL Journey Optimizer B2B Prime] acesso (`<Marketo subscription prefix>Prime`).
 
-   ![Experience Platform - adicionar sandboxes para a nova função](../../user/admin/assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform - adicionar sandboxes para a nova função](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
 
 1. Adicionar permissões de produto B2B:
 
@@ -313,10 +311,8 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 1. Clique em **[!UICONTROL Adicionar grupos]**.
 
-   ![Experience Platform - selecione o grupo de usuários para a função personalizada](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
-
 1. Marque a caixa de seleção ao lado do grupo de usuários criado anteriormente na Admin Console.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-Sua função personalizada está configurada e os usuários no grupo atribuído agora podem acessar os recursos do Journey Optimizer B2B edition selecionados.
+Sua função personalizada está configurada e os usuários no grupo atribuído agora podem acessar os recursos do [!DNL Journey Optimizer B2B Prime] selecionados.
