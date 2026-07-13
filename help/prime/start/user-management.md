@@ -16,10 +16,10 @@ subfeature_v2:
   - id: bd42eee1-e206-4826-91ea-88dc726d858e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
+source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
 workflow-type: tm+mt
-source-wordcount: 1710
-ht-degree: 61%
+source-wordcount: 1729
+ht-degree: 58%
 
 ---
 
@@ -36,7 +36,7 @@ Após a conclusão do provisionamento e a associação das sandboxes, conclua as
 
 ## Configurar o perfil do produto {#config-profile}
 
-Como administrador, você pode concluir essas tarefas no Adobe Admin Console, que é um local central para administrar e gerenciar licenças e usuários de produtos da Adobe. No Admin Console, é possível criar e gerenciar usuários em um único local em vez de em várias soluções individuais. Para saber mais sobre suas funções e recursos, consulte a página [visão geral do Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).
+Como administrador, você pode concluir essas tarefas no Adobe Admin Console, que é um local central para administrar e gerenciar licenças e usuários de produtos da Adobe. No Admin Console, é possível criar e gerenciar usuários em um único local em vez de em várias soluções individuais. Para saber mais sobre suas funções e recursos, consulte a página [visão geral do Admin Console](https://helpx.adobe.com/br/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 ### Acessar o Admin Console {#admin-console}
 
@@ -44,7 +44,7 @@ Antes de usar o Admin Console para administrar os usuários da sua equipe, é ne
 
 1. Como administrador do sistema, você deve receber vários emails do Adobe como parte do processo de integração.
 
-   Procure o email de boas-vindas que fornece informações sobre o nome da organização à qual você recebeu acesso.
+   Localize o email de boas-vindas que fornece informações sobre o nome da organização à qual você recebeu acesso.
 
 1. Clique no link **[!UICONTROL Introdução]** no email de boas-vindas para navegar até a Admin Console.
 
@@ -72,7 +72,7 @@ Antes de usar o Admin Console para administrar os usuários da sua equipe, é ne
 
 Ao conceder aos usuários acesso a uma solução da Adobe, você pode não pretender conceder acesso total a eles. Os perfis de produto permitem que cada solução tenha seu próprio conjunto de permissões do usuário. Use o Admin Console para atribuir perfis de produto.
 
-Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [_Gerenciar perfis de produto para usuários corporativos_](https://helpx.adobe.com/br/enterprise/using/manage-product-profiles.html){target="_blank"} na documentação do Admin Console.
+Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [_Gerenciar perfis de produto para usuários corporativos_](https://helpx.adobe.com/br/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador de sistema ou administrador de produto [!DNL Experience Platform] pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -90,7 +90,7 @@ Para obter mais informações sobre como usar perfis de produtos para direitos d
 
 Um grupo de usuários é uma coleção de usuários aos quais é concedido um conjunto compartilhado de permissões. Você pode adicionar ou remover usuários em seu grupo de usuários. As permissões do grupo permanecem as mesmas enquanto os usuários no grupo são alterados.
 
-Para obter mais informações sobre como os grupos de usuários são usados para gerenciar permissões, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/enterprise/using/user-groups.html){target="_blank"} na documentação do Admin Console.
+Para obter mais informações sobre como os grupos de usuários são usados para gerenciar permissões, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/business/enterprise/manage-users/user-groups.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -125,7 +125,7 @@ Para obter mais informações sobre como os grupos de usuários são usados para
 
 ### Adicionar usuários ao novo grupo {#add-users}
 
-Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/enterprise/using/users.html){target="_blank"} na documentação do Admin Console.
+Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/business/enterprise/manage-users/users.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador de sistema ou administrador de produto pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com). Um administrador de produto pode adicionar somente usuários que já existem em sua organização.
 
@@ -267,7 +267,7 @@ _Para alterar as permissões de uma função :_
 
 ### Adicionar grupos de usuários a uma função {#add-user-groups-to-a-role}
 
-Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/enterprise/using/users.html){target="_blank"} na documentação do Admin Console.
+Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/business/enterprise/manage-users/users.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador do Experience Platform pode executar as seguintes etapas.
 
