@@ -6,20 +6,13 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -103,7 +96,9 @@ A página de e-mail é aberta quando você cria um e-mail para um nó _[!UICONTR
 
      Os administradores criam configurações em [Configuração do canal de email](../admin/email-channel-configuration.md).
 
-   * **[!UICONTROL Regras de negócio]** - (Opcional) Aplique regras de limitação à sua ação de email selecionando um Conjunto de regras.
+   * **[!UICONTROL Regras de negócio]** - (Opcional) Aplique regras de limite ou período de silêncio à sua ação de email selecionando um conjunto de regras.
+
+     Para obter mais informações sobre regras de negócios e como definir e ativar conjuntos de regras para comunicações de canal, consulte [_Regras de negócios_](../admin/business-rules.md).
 
    * **[!UICONTROL Rastreamento de ação]** - Marque as caixas de seleção das ações que deseja rastrear para o email.
 
