@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -103,7 +103,9 @@ A página de e-mail é aberta quando você cria um e-mail para um nó _[!UICONTR
 
      Os administradores criam configurações em [Configuração do canal de email](../admin/email-channel-configuration.md).
 
-   * **[!UICONTROL Regras de negócio]** - (Opcional) Aplique regras de limitação à sua ação de email selecionando um Conjunto de regras.
+   * **[!UICONTROL Regras de negócio]** - (Opcional) Aplique regras de limite ou período de silêncio à sua ação de email selecionando um conjunto de regras.
+
+     Para obter mais informações sobre regras de negócios e como definir e ativar conjuntos de regras para comunicações de canal, consulte [_Regras de negócios_](../admin/business-rules.md).
 
    * **[!UICONTROL Rastreamento de ação]** - Marque as caixas de seleção das ações que deseja rastrear para o email.
 
