@@ -3,7 +3,7 @@ title: Criação de conteúdo - selecionar modelo de email
 description: Seção reutilizada sobre a seleção de um modelo de email para criação de conteúdo
 source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Você pode escolher entre:
 
 * **Modelos salvos**. Use um modelo personalizado salvo que você criou do zero usando o menu _[!UICONTROL Modelos]_ ou salvou de um email em uma jornada usando a opção _[!UICONTROL Salvar como modelo de conteúdo]_.
 
-Use a seção _[!UICONTROL Selecionar modelo de design]_ para começar a criar o conteúdo a partir de um modelo. Você pode usar um modelo de amostra ou um modelo de email personalizado salvo da instância do Journey Optimizer B2B Edition.
+Use a seção _[!UICONTROL Selecionar modelo de design]_ para começar a criar o conteúdo a partir de um modelo. Você pode usar um modelo de amostra ou um modelo de email personalizado salvo na instância do Journey Optimizer B2B edition.
 
 >[!BEGINTABS]
 
@@ -40,7 +40,7 @@ Essa ação copia o conteúdo no designer de conteúdo visual, onde você pode e
 
 >[!TAB Modelos de exemplo]
 
-O Adobe Journey Optimizer B2B Edition oferece uma seleção de modelos de email oferecidos _prontos para uso_, que podem ser usados para criar emails e modelos de email.
+O Adobe Journey Optimizer B2B edition oferece uma seleção de modelos de email oferecidos _prontos para uso_, que podem ser usados para criar emails e modelos de email.
 
 ![Escolha um modelo fornecido pelo Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
