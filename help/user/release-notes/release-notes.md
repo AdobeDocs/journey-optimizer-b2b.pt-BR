@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
+source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
 workflow-type: tm+mt
-source-wordcount: 5232
+source-wordcount: 5234
 ht-degree: 65%
 
 ---
@@ -36,11 +36,9 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 **Data de implantação**: 10 de julho de 2026
 
-<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
-
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Nós de jornada de caminho dividido - Variantes | (Beta) Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
+| Recurso | Nós de jornada de caminho dividido - Variantes | (Beta) Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. [Saiba mais](../journeys/variant-split-paths-nodes.md) |
 
 >[!NOTE]
 >

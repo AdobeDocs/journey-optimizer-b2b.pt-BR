@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: d7237ad4dfb17b8177315d942bb273422153ce23
 workflow-type: tm+mt
-source-wordcount: 1185
-ht-degree: 71%
+source-wordcount: 1140
+ht-degree: 70%
 
 ---
 
@@ -124,17 +124,13 @@ Crie um conjunto de dados para um Perfil individual e outro para uma Conta comer
 
 ### Esquemas relacionais
 
-Esquemas relacionais permitem criar classes de dados personalizadas. Com acesso a vários conjuntos de dados, você pode criar classes especificamente personalizadas para suas necessidades de dados. Use esquemas relacionais para entidades de negócios, como compras, licenças e registros de eventos, em decisões de jornada e personalização de email. Você pode selecionar até 20 esquemas e até 50 campos por esquema.
+Esquemas relacionais permitem criar classes de dados personalizadas. Com acesso a vários conjuntos de dados, você pode criar classes especificamente personalizadas para suas necessidades de dados. Use [esquemas relacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#) para entidades comerciais, como compras, licenças e registros de eventos, em decisões de jornada e personalização de email. Você pode selecionar até 20 esquemas e até 50 campos por esquema.
 
 Há vários recursos que oferecem suporte ao uso dos esquemas e campos relacionais configurados:
 
 * [Personalização de conteúdo](../content/personalization.md#custom-datasets)
 * [Decisão do Jornada (caminhos divididos)](../journeys/split-merge-paths-nodes.md#custom-data-filtering)
 * [Funções de grupo de compra](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) (somente Pessoa B2B)
-
->[!AVAILABILITY]
->
->Os [esquemas relacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/relational#) estão disponíveis para [!DNL Journey Optimizer B2B Edition] como uma versão de disponibilidade limitada. O Data Mirror e esquemas relacionais estão disponíveis para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licença. Os esquemas relacionais também estão disponíveis como uma versão limitada para [!DNL Customer Journey Analytics] usuários, dependendo da sua licença e habilitação de recursos. Entre em contato com o representante da Adobe para obter acesso.
 
 >[!NOTE]
 >
