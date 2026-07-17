@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 10%
+source-wordcount: 1562
+ht-degree: 11%
 
 ---
 
@@ -162,7 +162,22 @@ Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
 ### Importar HTML {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+O conteúdo importado pode ser:
+
+* Um arquivo HTML com uma folha de estilos incorporada
+* Um arquivo .zip que inclui um arquivo HTML, a folha de estilos (.css) e as imagens
+
+  >[!NOTE]
+  >
+  >Não há restrições na estrutura do arquivo .zip. No entanto, as referências devem ser relativas e se encaixar na estrutura de árvore da pasta .zip. As imagens são sempre carregadas no [repositório de ativos](./digital-asset-management.md).
+
+_Para importar um arquivo com conteúdo HTML :_
+
+1. Na página inicial de design, selecione a opção **[!UICONTROL Importar HTML]**.
+
+1. Arraste e solte o HTML ou arquivo .zip contendo seu conteúdo HTML e clique em **[!UICONTROL Importar]**.
 
 ![Importar conteúdo do HTML em um arquivo zip](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +185,7 @@ Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 >
 >Usar uma marca `<table>` como a primeira camada em um arquivo do HTML pode causar perda de estilo, incluindo configurações de plano de fundo e largura na marca de camada superior.
 
-Você pode personalizar o conteúdo importado conforme necessário com o espaço de design visual.
+Você pode personalizar o conteúdo importado conforme necessário com as ferramentas de design visual.
 
 ## Verificar alertas {#check-alerts}
 

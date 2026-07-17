@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: fac47361b0a597e26ca31b0901634fc00f20ae61
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 746
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,15 @@ No [!DNL Adobe Journey Optimizer B2B Prime], os ativos são normalmente as image
 
 Formatos de arquivo compatíveis: JPG, JPEG, GIF, PNG, EPS, SVG e RGB
 
+<!--
+
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+
+-->
+
 >[!NOTE]
 >
->Nesta versão do Beta, você pode escolher imagens e ativos de uma cópia única da biblioteca de ativos da Marketo Engage diretamente na tela de email. Modificar ativos no Marketo Engage após a cópia inicial **não** refletido em [!DNL Journey Optimizer B2B Prime].
->
->Você pode carregar ativos de imagem adicionais da biblioteca _[!UICONTROL Assets]_ ou do espaço de design de conteúdo. Estes ativos carregados estão disponíveis para uso somente na instância [!DNL Journey Optimizer B2B Prime].
+>Você pode carregar ativos de imagem da biblioteca _[!UICONTROL Assets]_ ou do espaço de design de conteúdo. Estes ativos carregados estão disponíveis para uso somente na instância [!DNL Journey Optimizer B2B Prime].
 >
 >A importação de ativos de sistemas externos e o acesso a uma biblioteca de ativos pré-preenchida ainda não estão disponíveis. As versões futuras devem incluir a importação de ativos dos sistemas existentes, suporte a pastas e recursos ampliados de gerenciamento de ativos.
 
