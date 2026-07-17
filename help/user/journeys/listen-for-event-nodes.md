@@ -155,7 +155,7 @@ Se você tiver páginas da Web na instância conectada do Marketo Engage, poder�
 
 >[!PREREQUISITES]
 >
->Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
+>Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
 >
 >Para disponibilizar Eventos de Experiência para jornada, um administrador de produto deve primeiro [adicionar os tipos de evento e campos de interesse](../admin/configure-aep-events.md#add-an-event) em [!DNL Journey Optimizer B2B Edition].
 
