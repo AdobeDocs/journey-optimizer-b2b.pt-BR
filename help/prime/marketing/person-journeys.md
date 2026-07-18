@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 19%
 
 ---
@@ -105,7 +105,7 @@ O cabeçalho de cada tela de jornada inclui o nome, o status e a programação d
 
 * Clique no ícone _Editar_ ( ![Ícone Editar](../../assets/do-not-localize/icon-react-edit.svg) ) para alterar o nome da jornada ou as informações de descrição.
 * Clique em **[!UICONTROL Configurações de Jornada]** para alterar o início e a recorrência da jornada.
-* Clique em **[!UICONTROL ... Mais]** para aplicar uma ação de jornada ou para habilitar/desabilitar o controle de tráfego e a reentrada.
+* Clique em **[!UICONTROL ... Mais]** para aplicar uma ação de jornada ou para habilitar/desabilitar o [controle de tráfego de jornada](./journey-traffic-control.md) e reentrada.
 * Se todos os erros forem resolvidos e você quiser ativar a jornada, clique em **[!UICONTROL Publicar]**.
 
 ### Design da jornada {#journey-design}
