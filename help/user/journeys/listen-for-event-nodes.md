@@ -102,7 +102,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base em pessoas qua
 
 >[!PREREQUISITES]
 >
->Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
+>Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
 >
 >Para disponibilizar Eventos de Experiência para jornada, um administrador de produto deve primeiro [adicionar os tipos de evento e campos de interesse](../admin/configure-aep-events.md#add-an-event) em [!DNL Journey Optimizer B2B Edition].
 
@@ -224,7 +224,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
+>Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
 >
 >Para disponibilizar Eventos de Experiência para jornada, um administrador de produto deve primeiro [adicionar os tipos de evento e campos de interesse](../admin/configure-aep-events.md#add-an-event) em [!DNL Journey Optimizer B2B Edition].
 
