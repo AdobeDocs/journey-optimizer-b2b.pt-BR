@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 5349
+source-wordcount: 5351
 ht-degree: 64%
 
 ---
@@ -41,7 +41,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | _Dividir caminho_ nós de jornada - Variantes | (Beta) Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. [Saiba mais](../journeys/variant-split-paths-nodes.md) |
 | Aprimoramento | _Ouvir um evento_ nós de jornada | Nas jornadas presenciais, os nós do ouvinte de eventos agora podem ser configurados com vários eventos para serem acionados. O primeiro evento de qualificação avança o registro na jornada. (Suporte planejado em jornadas de conta para uma versão futura.) [Saiba mais](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Aprimoramento | _Ouvir um evento_ nós de jornada | A guia _[!UICONTROL Filtros]_ para eventos de pessoas/pessoas foi alterada de um único seletor de ações para uma interface de construtor de regras. Isso oferece suporte a várias configurações de atividade usando Eventos de experiência configurados. [Saiba mais](../journeys/listen-for-event-nodes.md#filters-people-event) |
-| Aprimoramento | _Executar uma ação_ para jornada nós | Ações adicionais agora estão disponíveis para o contexto de pessoas da jornada de conta e de uma jornada de pessoa: _Adicionar à jornada de pessoa_ e _Remover da jornada de pessoa_. |
+| Aprimoramento | _Executar uma ação_ para jornada nós | Ações adicionais agora estão disponíveis para o contexto de pessoas da jornada de conta e de uma jornada de pessoa: _Adicionar à jornada de pessoa_ e _Remover da jornada de pessoa_. [Saiba mais](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >

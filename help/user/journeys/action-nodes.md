@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 2031
+source-wordcount: 2190
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Para executar uma ação, como enviar um email, alterar uma pontuação, atribui
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
-## Ações da conta
+## Ações da conta {#account-actions}
 
 Em uma jornada de conta, use uma ação nas contas quando quiser aplicar uma alteração a todas as pessoas que fazem parte das contas no caminho do nó.
 
@@ -53,7 +53,7 @@ Em uma jornada de conta, use uma ação nas contas quando quiser aplicar uma alt
 >
 >A ação _[!UICONTROL Valor de Dados de Alteração de Conta]_ está obsoleta para a versão 2025.10. _[!UICONTROL Atualizar perfil da conta]_ substitui esta ação no Journey Optimizer B2B edition.<br/>
 >
->Um administrador pode configurar os atributos disponíveis para a conta de negócios XDM atualizando os campos nas _[!UICONTROL Configurações XDM]_ > _[!UICONTROL Classes padrão]_. Para obter mais informações, consulte [Classes padrão](../admin/xdm-field-management.md#standard-classes).
+>Um administrador pode configurar os atributos disponíveis para a conta de negócios XDM atualizando os campos nas _[!UICONTROL Configurações XDM]_ > _[!UICONTROL Classes padrão]_. Para obter mais informações, consulte [Esquemas padrão](../admin/xdm-field-management.md#standard-schemas).
 
 ### Adicionar uma ação baseada em conta
 
@@ -73,13 +73,11 @@ Em uma jornada de conta, use uma ação nas contas quando quiser aplicar uma alt
 
 ### Ativar para um destino do LinkedIn
 
-Use a ação _Ativar para destino_ para que as contas sejam ativadas para destinos do Experience Platform diretamente da sua jornada. Essa ação permite enviar contas qualificadas (com base em filtros de grupo de compras, pontuações de engajamento e outros critérios) para públicos-alvo correspondentes em destinos compatíveis. É
+Use a ação _Ativar para destino_ para ativar contas para destinos do Experience Platform diretamente da sua jornada. Essa ação permite enviar contas qualificadas (com base em filtros de grupo de compras, pontuações de engajamento e outros critérios) para públicos-alvo correspondentes em destinos compatíveis.
 
 A partir da versão 2025.10, **_LinkedIn_** é o primeiro tipo de destino com suporte. Use a ação para um destino do LinkedIn para simplificar a execução da campanha, eliminando transferências de vários sistemas e reduzindo a latência. Por exemplo, como profissional de marketing, você pode ativar automaticamente contas de alto propósito para o LinkedIn para redirecionamento quando as principais funções de compra estiverem ausentes ou reengajar contas inativas com base em filtros de inatividade.
 
 Para obter mais informações sobre como usar públicos correspondentes à conta para um destino do LinkedIn, consulte [Públicos correspondentes à conta do LinkedIn](../data/linkedin-account-matched-audiences.md).
-
-+++ Definir ativação de contas para um destino do LinkedIn
 
 1. Com o nó _Realizar uma ação_ selecionado na tela de jornada, defina a **[!UICONTROL Ação nas contas]** como **[!UICONTROL Ativar para o destino]**.
 
@@ -89,17 +87,15 @@ Para obter mais informações sobre como usar públicos correspondentes à conta
 
 1. Na caixa de diálogo, selecione o destino do LinkedIn configurado e clique em **[!UICONTROL Salvar]**.
 
-![nó de Jornada - executar uma ação nas contas - ativar para destino - selecionar caixa de diálogo de destino](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![nó de Jornada - executar uma ação nas contas - ativar para destino - selecionar caixa de diálogo de destino](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. Digite o **[!UICONTROL Nome do público-alvo]** que é usado para identificar o público-alvo ativado no destino.
 
    ![Nó do Jornada - executar uma ação nas contas - ativar para destino - configurações concluídas](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
-+++
-
 >[!ENDSHADEBOX]
 
-## Ações de pessoas
+## Ações de pessoas {#people-actions}
 
 Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplicar uma alteração a todas as pessoas no caminho de nó. Para uma jornada de conta, você pode usar este tipo de nó no _caminho dividido por pessoas_ ou _caminho dividido por contas_.
 
@@ -107,7 +103,8 @@ Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplic
 
 | Contexto | Ação | Tipo de jornada | Restrições |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Adicionar ao público-alvo externo do cliente] | <li>Jornada de conta <li>Jornada da pessoa | <li>Selecionar público-alvo do cliente externo |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Adicionar pessoa à (outra) jornada] | <li>Jornada de Conta (Ação em Pessoas) <li>Jornada da pessoa | <li>Selecione a jornada da pessoa ativa |
+| | [!UICONTROL Adicionar ao público-alvo externo do cliente] | <li>Jornada de conta <li>Jornada da pessoa | <li>Selecionar público-alvo do cliente externo |
 | | [!UICONTROL Atribuir ao Grupo de Compras] | <li>Jornada de conta | <li>Selecione o interesse na solução <li>Selecione a função |
 | | [!UICONTROL Alterar pontuação] | <li>Jornada de conta | <li>Nome da pontuação <li>Alteração na pontuação |
 | | [!UICONTROL Momento Interessante] | <li>Jornada de conta <li>Jornada da pessoa | <li>Tipo <li>Descrição |
@@ -133,15 +130,25 @@ Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplic
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Executar uma ação]**.
 
-1. Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para a ação.
+1. (_Somente jornadas de conta_) Nas propriedades do nó à direita, escolha **[!UICONTROL Pessoas]** para o contexto da ação.
 
 1. Selecione uma ação na lista e defina quaisquer valores para a ação.
 
-![Nó do Jornada - executar uma ação em pessoas](./assets/node-take-action-people.png){width="700" zoomable="yes"}
+   ![Nó do Jornada - executar uma ação em pessoas](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ### Ações B2B do Journey Optimizer
 
 As ações com base em pessoas B2B do Journey Optimizer são projetadas para gerenciar comunicações por meio dos canais configurados e gerenciar a categorização de pessoas em seus grupos de compras e contas. A jornada aplica a ação quando uma conta qualificada com perfis de pessoa atinge o nó.
+
++++[!UICONTROL Adicionar pessoa à (outra) Jornada]
+
+Use esta ação para adicionar um perfil de pessoa a uma jornada de pessoa ativa. Quando uma pessoa entra no nó da ação, o sistema a adiciona como um membro do público-alvo para a jornada de pessoa especificada.
+
+Use o seletor **[!UICONTROL Selecionar Jornada de pessoa em tempo real]** para especificar a jornada de pessoa à qual você deseja adicionar o perfil de pessoa. É possível inserir texto no campo para filtrar a lista.
+
+![Realizar uma ação - Adicionar pessoa à (outra) Jornada](./assets/node-action-add-to-person-journey.png){width="300"}
+
++++
 
 +++[!UICONTROL Adicionar ao público-alvo externo do cliente]
 
@@ -232,9 +239,19 @@ Use esta ação para remover perfis de pessoas de um [grupo de compras](../buyin
 
 +++
 
++++[!UICONTROL Remover pessoa da Jornada]
+
+Use esta ação para remover um perfil de pessoa de uma jornada de pessoa. Quando uma pessoa entra no nó da ação, o sistema a remove como um membro do público-alvo da jornada de pessoa especificada.
+
+Use o seletor **[!UICONTROL Selecionar Jornada de pessoa]** para especificar a jornada de pessoa para a qual você deseja remover o perfil de pessoa. É possível inserir texto no campo para filtrar a lista.
+
+![Realizar uma ação - Remover pessoa da Jornada](./assets/node-action-remove-from-person-journey.png){width="300"}
+
++++
+
 +++[!UICONTROL Enviar email]
 
-Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-to-your-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
+Use esta ação para enviar um email. Depois de [criar o email](../content/add-email.md#add-an-email-action-node-in-a-journey) para o nó, você pode criar, personalizar e visualizar mensagens de email no espaço de design de email (consulte [Criação de email](../content/email-authoring.md)). Você também pode enviar um email [do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Selecione o espaço de trabalho do Marketo Engage e o email a ser enviado.
 
 ![Executar uma ação - Enviar email](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -256,7 +273,7 @@ Use esta ação para enviar uma mensagem SMS. Você pode criar, personalizar e v
 
 +++[!UICONTROL Enviar WhatsApp]
 
-Use esta ação para enviar uma mensagem de WhatsApp. Você pode criar, personalizar e visualizar mensagens do WhatsApp no espaço de design visual (consulte [Criação de WhatsApp](../content/whatsapp-authoring.md).
+Use esta ação para enviar uma mensagem de WhatsApp. Você pode criar, personalizar e visualizar mensagens do WhatsApp no espaço de design visual (consulte [Criação do WhatsApp](../content/whatsapp-authoring.md)).
 
 ![Executar uma ação - Enviar WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
 
@@ -272,7 +289,7 @@ Use esta ação para alterar o valor de um [atributo de perfil de pessoas](../ad
 >
 >O _[!UICONTROL Atualizar perfil da pessoa]_ substitui a ação _[!UICONTROL Alterar Valor dos Dados]_ na versão atual do Journey Optimizer B2B edition.<br/>
 >
->Um administrador pode configurar os atributos disponíveis para o Perfil individual XDM atualizando os campos nas _[!UICONTROL Configurações XDM]_ > [!UICONTROL Classes padrão]. Para obter mais informações, consulte [Classes padrão](../admin/xdm-field-management.md#standard-classes).
+>Um administrador pode configurar os atributos disponíveis para o Perfil individual XDM atualizando os campos nas _[!UICONTROL Configurações XDM]_ > [!UICONTROL Classes padrão]. Para obter mais informações, consulte [Esquemas padrão](../admin/xdm-field-management.md#standard-schemas).
 
 +++
 
