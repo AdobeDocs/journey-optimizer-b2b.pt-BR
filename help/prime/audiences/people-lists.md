@@ -4,19 +4,14 @@ description: Crie e gerencie listas de pessoas no Journey Optimizer B2B Prime pa
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f57eec2bd5c00d508d83b6ecb872162edb35094c
 workflow-type: tm+mt
-source-wordcount: 891
-ht-degree: 3%
+source-wordcount: 1157
+ht-degree: 2%
 
 ---
 
@@ -24,7 +19,7 @@ ht-degree: 3%
 
 No [!DNL Adobe Journey Optimizer B2B Prime], as listas de pessoas são os contêineres de público-alvo em nível de pessoa para direcionamento e entrada de jornada de pessoa, com listas dinâmicas para qualificação ao vivo baseada em regras e listas estáticas para associação fixa ou gerenciada por jornada.
 
-## Acessar e procurar listas de pessoas {#access-and-browse}
+## Acessar e procurar listas de pessoas {#access-browse}
 
 1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de marketing]**.
 
@@ -32,7 +27,7 @@ No [!DNL Adobe Journey Optimizer B2B Prime], as listas de pessoas são os contê
 
    ![Acessar listas de pessoas para gerenciar seus públicos-alvo](./assets/people-lists.png){width="800" zoomable="yes"}
 
-Há duas guias para a página onde você pode exibir e gerenciar **[!UICONTROL Listas dinâmicas]** e **[!UICONTROL Listas estáticas]**. Clique na guia para alternar a exibição de lista entre cada tipo.
+Há duas guias para a página onde você pode exibir e gerenciar **[!UICONTROL Listas dinâmicas]** e **[!UICONTROL Listas estáticas]**. Clique na guia para alternar a exibição de lista entre os dois tipos.
 
 Você pode digitar texto na ferramenta _Pesquisa_ na parte superior da lista para filtrar a lista exibida por nome. Use as ferramentas de lista para personalizar a lista exibida:
 
@@ -86,12 +81,12 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. Na caixa de diálogo, selecione um programa como **[!UICONTROL Pai]** para a lista.
 
-1. Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** da lista (opcional).
+1. Insira um **[!UICONTROL Nome]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional) para a lista.
 
-1. Escolha e liste **[!UICONTROL Type]**:
+1. Escolha a lista **[!UICONTROL Tipo]**:
 
-   * **[!UICONTROL Estático]** - A associação é determinada por filtros qualificados avaliados quando você cria a lista. A associação à lista não é atualizada a menos que você qualifique ou desqualifique registros manualmente.
-***[!UICONTROL Dinâmico]** - A associação é determinada dinamicamente por filtros qualificados. A associação à lista é atualizada automaticamente.
+   * [**[!UICONTROL Estático]**](#static-lists) - A associação é determinada por filtros qualificados avaliados quando você cria a lista. A associação à lista não é atualizada a menos que você qualifique ou desqualifique registros manualmente.
+   * [**[!UICONTROL Dinâmico]**](#dynamic-lists) - A associação é determinada dinamicamente por filtros qualificados. A associação à lista é atualizada automaticamente.
 
    ![Caixa de diálogo Criar lista de pessoas](./assets/people-list-create-dialog.png){width="450"}
 
@@ -101,13 +96,13 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 >
 >No momento, não há suporte para exclusão e duplicação em listas de pessoas nesta versão do Beta.
 
-## Listas estáticas {#static-list}
+## Listas estáticas {#static-lists}
 
 A associação de lista estática é definida por filtros simples que fazem referência a atributos e atividades de pessoas. A associação não é alterada, a menos que você qualifique ou desqualifique membros manualmente.
 
 >[!NOTE]
 >
->As definições de filtro de Lista Estática são aplicadas apenas uma vez quando você adiciona ou remove membros da lista. O filtro definido não fica disponível posteriormente. Se quiser manter uma definição de público-alvo consistente usando filtros, use uma lista dinâmica.
+>As definições de filtro de lista estática são aplicadas apenas uma vez quando você adiciona ou remove membros da lista. O filtro definido não fica disponível posteriormente. Se quiser manter uma definição de público-alvo consistente usando filtros, use uma lista dinâmica.
 
 <!--
 What internet says about Marketo static lists -- which of these is also true in AJO B2B Prime?
@@ -133,17 +128,25 @@ So far, activating to a destination is the only thing that they are used for tha
    * Atributos da pessoa
    * Filtros especiais, como associação de jornada
 
+   Para cada filtro adicionado, clique em **[!UICONTROL Adicionar restrições]** para refinar os critérios de correspondência do filtro.
+
+   ![Adicionar filtros com restrições para adicionar pessoas à lista estática](./assets/people-list-static-add-people-filters.png){width="700" zoomable="yes"}
+
 1. Para salvar as alterações, clique em **[!UICONTROL Concluído]**.
 
 1. Selecione a guia **[!UICONTROL Membros]**.
 
    Após um breve período, os membros qualificados serão exibidos na lista.
 
+   ![Membros da lista estática](./assets/people-list-static-members.png){width="700" zoomable="yes"}
+
 ### Remover membros {#static-list-remove-members}
 
 1. Abra a lista estática e clique em **[!UICONTROL Remover pessoas]** na parte superior direita.
 
-1. Na caixa de diálogo, adicione os filtros a membros correspondentes que você deseja desqualificar.
+1. Na caixa de diálogo _[!UICONTROL Remover pessoas]_, adicione os filtros para corresponder a membros que você deseja desqualificar.
+
+   ![Adicionar filtros para remover pessoas da lista estática](./assets/people-list-static-members-remove-people-filters.png){width="700" zoomable="yes"}
 
 1. Para salvar as alterações, clique em **[!UICONTROL Concluído]**.
 
@@ -166,11 +169,21 @@ Como o modelo de ativação deve ser persistente, não uma exportação única:
 * Os profissionais de marketing evitam exportações de CSV repetidas e uploads manuais.
 * O Jornada pode atualizar o público ao longo do tempo para uma orquestração contínua.
 
+>[!PREREQUISITES]
+>
+>Você deve ter um ou mais [destinos configurados](./destinations.md) para sua sandbox do [!DNL Journey Optimizer B2B Prime] antes de ativar uma lista estática para um destino.
+
 1. Selecione a guia **[!UICONTROL Listas estáticas]**.
 
 1. Localize a lista estática que deseja ativar para um destino.
 
-1. Clique no ícone _Ativar_ ( ![Personalizar ícone da tabela](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) ao lado do nome da lista estática.
+1. Clique no ícone _Mais menu_ ( **...** ) ao lado da lista e escolha **[!UICONTROL Ativar para destino]**.
+
+   ![Acessar o menu Mais para uma lista estática](./assets/people-lists-static-more-menu.png){width="450"}
+
+   Você também pode abrir a lista estática e usar o menu _[!UICONTROL Mais]_ no canto superior direito.
+
+   <!-- which UI is it?  _Activate_ ( ![Customize table icon](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) icon next to the static list name. -->
 
 1. Marque a caixa de seleção da conexão de destino configurada.
 
@@ -178,15 +191,33 @@ Como o modelo de ativação deve ser persistente, não uma exportação única:
 
 1. Clique em **[!UICONTROL Salvar]**.
 
+1. Confirme a ativação na caixa de diálogo _[!UICONTROL Ativar lista para destino]_ clicando em **[!UICONTROL Ativar]**.
+
+Quando a ativação for concluída, uma confirmação será exibida (_O destino foi ativado._) e o destino está listado como **[!UICONTROL Ativo]** na guia **[!UICONTROL Destinos]** da lista. Uma lista estática pode ser ativada para mais de um destino por vez; a associação é sincronizada com todos eles.
+
+Para examinar os destinos nos quais uma lista estática está ativada, abra a lista e selecione a guia **[!UICONTROL Destinos]**. Por padrão, uma nova lista não tem destinos conectados.
+
+#### Desativar um destino {#deactivate-destination}
+
+1. Abra a lista estática e selecione a guia **[!UICONTROL Destinos]**.
+
+1. Clique no ícone _menos_ ( **-** ) na linha do destino que você deseja remover.
+
+1. Confirme na caixa de diálogo _[!UICONTROL Desativar destino]_.
+
+A desativação remove o destino da lista. As pessoas na lista também são removidas do público-alvo de destino conectado.
+
 ## Listas dinâmicas {#dynamic-lists}
 
 A associação de lista dinâmica é definida usando filtros simples que fazem referência a atributos e atividades de pessoas. A associação é mantida automaticamente ao qualificar e desqualificar leads de acordo com a lógica do filtro.
 
-### Definir regras de associação
+### Definir regras de associação {#set-membership-rules}
 
 1. Abra a lista dinâmica e selecione a guia **[!UICONTROL Regras]**.
 
 1. Clique em **[!UICONTROL Editar regras]**.
+
+   ![Regras de acesso para criar uma lista dinâmica de pessoas](./assets/people-list-dynamic-rules-edit.png){width="550" zoomable="yes"}
 
 1. Na caixa de diálogo, defina as regras para qualificar seus leads arrastando e soltando filtros da esquerda.
 
@@ -197,21 +228,27 @@ A associação de lista dinâmica é definida usando filtros simples que fazem r
    * Atributos da pessoa
    * Filtros especiais, como associação de jornada
 
+   Para cada filtro adicionado, clique em **[!UICONTROL Adicionar restrições]** para refinar os critérios de correspondência do filtro.
+
+   ![Adicionar filtros com restrições para popular a lista dinâmica](./assets/people-list-dynamic-rules-edit-filters.png){width="700" zoomable="yes"}
+
 1. Para salvar as alterações, clique em **[!UICONTROL Concluído]**.
 
 1. Selecione a guia **[!UICONTROL Membros]**.
 
    Após um breve período, os membros qualificados serão exibidos na lista.
 
-Para abrir a página [detalhes da pessoa](./person-details.md), onde você pode exibir o resumo e as atividades recentes, clique no nome de uma pessoa na lista.
+   ![Membros gerados para a lista dinâmica](./assets/people-list-dynamic-rules-members.png){width="700" zoomable="yes"}
 
-### Duplicação de uma lista dinâmica
+   Para abrir a página [detalhes da pessoa](./person-details.md), onde você pode exibir o resumo e as atividades recentes, clique no nome de uma pessoa na lista.
+
+### Duplicação de uma lista dinâmica {#duplicate-dynamic-list}
 
 Para uma lista dinâmica, uma ação duplicada é semelhante a uma função clone. Use esta função para replicar a filtragem de associação e adicioná-la a um programa diferente.
 
-1. Na guia _[!UICONTROL Listas dinâmicas]_, clique no ícone _Duplicar_ ( **...** ) ao lado da lista que você deseja duplicar.
+1. Na guia _[!UICONTROL Listas dinâmicas]_, clique no ícone _Mais menu_ ( **...** ) ao lado da lista e escolha **[!UICONTROL Duplicar]**.
 
-1. Na caixa de diálogo, selecione o programa **[!UICONTROL Pai]** para a jornada duplicada.
+1. Na caixa de diálogo, selecione o programa **[!UICONTROL Pai]** para a lista duplicada.
 
 1. Insira um **[!UICONTROL Nome]** exclusivo (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
 
