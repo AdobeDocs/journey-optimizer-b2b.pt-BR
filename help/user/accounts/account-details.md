@@ -1,23 +1,18 @@
 ---
 title: Detalhes da conta
-description: Visualize insights da conta com resumos de IA, detecção de intenção, análise de cobertura de contato e comunicações por email no Journey Optimizer B2B edition.
+description: Visualize insights da conta com resumos gerados por IA, detecção de intenção, análise de cobertura de contato e comunicações por email no Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: 642
 ht-degree: 6%
 
 ---
@@ -71,7 +66,7 @@ A seção _[!UICONTROL Cobertura do contato]_ exibe o número de contatos da con
 * Conta
 * Nome do cargo
 * Grupo de compra
-* Pontuação de engajamento da pessoa
+* Pontuação de engajamento de pessoa
 * Última atividade
 * Detalhes
 
