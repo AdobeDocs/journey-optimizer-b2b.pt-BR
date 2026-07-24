@@ -1,6 +1,7 @@
 ---
 title: Destinos
-description: Saiba como conectar destinos e ativar listas estáticas de pessoas no Journey Optimizer B2B Prime para exportar dados de público-alvo para publicidade, email e outras plataformas de marketing.
+description: Saiba mais sobre as permissões necessárias, os destinos compatíveis e como conectar um destino no Journey Optimizer B2B Prime para ativar listas estáticas de pessoas para plataformas sociais e de publicidade.
+badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-17T18:30:02.442Z'
 TQID: 'https://experienceleague.adobe.com/xO1p-VvIfv1KB77g0l2-fFRHQ0w2hy97vnG1QHpMw8c'
 product_v2:
@@ -14,113 +15,96 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 2%
+source-wordcount: 655
+ht-degree: 8%
 
 ---
 
 # Destinos
 
-Os destinos são integrações pré-criadas que permitem exportar dados da lista de pessoas do [!DNL Adobe Journey Optimizer B2B Prime] para plataformas de marketing externas, como redes de publicidade, provedores de serviços de email e sistemas de CRM. Em [!DNL Journey Optimizer B2B Prime], você ativa [listas de pessoas estáticas](./people-lists.md#static-list) (compostas por registros de pessoas do Marketo Engage) para destinos de modo que esses públicos-alvo estejam disponíveis para direcionamento e envolvimento em canais downstream.
+Os destinos são integrações pré-criadas que permitem enviar [listas de pessoas estáticas](./people-lists.md#static-lists) de [!DNL Journey Optimizer B2B Prime] para anúncios externos ou plataformas sociais, como um público de campanha do LinkedIn, um público de Correspondência de Cliente do Google ou um Público-alvo personalizado do Facebook. Ativar uma lista estática para um destino mantém a associação em sincronia: à medida que as pessoas são adicionadas ou removidas da lista, elas são correspondentemente adicionadas ou removidas do público-alvo de destino e, por extensão, de qualquer campanha que o público-alvo alimente.
 
-<!-- 
-Does not align w/AEP info for Beta
+Há duas maneiras de ativar pessoas para um destino conectado:
 
-Activating a static list to a destination follows a three-step process:
+* **De uma lista estática** — Ative uma lista estática existente diretamente da guia **_[!UICONTROL Listas de pessoas]_**. Consulte [Ativar para um destino](./people-lists.md#static-list-activate).
+* **De uma jornada de pessoa** — Adicione uma ação **_[!UICONTROL Ativar para destino]_** a um caminho de jornada para que qualquer pessoa que alcance esse nó seja adicionada a uma lista e enviada para o destino. Consulte [_Adicionar um nó de ação_](../marketing/action-nodes.md#add-an-action-node).
 
-1. **Connect** — Authenticate and configure a connection to a destination platform.
-1. **Map** — Select the static list and map its people attributes to the fields required by the destination.
-1. **Schedule** — Define when and how often the list data is exported to the destination.
+>[!BEGINSHADEBOX]
 
-Destination activations reflect the membership state of the static list at the time of each synch.
+## Permissões necessárias {#required-permissions}
 
-## Destination types {#destination-types}
+O recurso de destino completo requer que as seguintes [!DNL Adobe Experience Platform] permissões sejam habilitadas.
 
-[!DNL Journey Optimizer B2B Prime] supports the following destination types for activating static people lists:
+| Categoria | Permissão | Obrigatório |
+|--- |--- |--- |
+| Sandboxes | Acesso à sandbox _(habilitado por padrão)_ | Sim |
+| Painéis | Ver Painéis de Controle Padrão | Sim |
+| Painéis | Gerenciar painéis padrão | Sim |
+| Destinos | Exibir destinos | Sim |
+| Destinos | Gerenciar destinos | Sim |
+| Destinos | Ativar destinos | Sim |
+| Destinos | Ativar segmento sem mapeamento | Sim |
+| Destinos | Gerenciar e ativar destino do conjunto de dados | Sim |
+| Destinos | Criação de destino | Sim |
+| Governança de dados | Exibir políticas de uso de dados | Sim |
+| Governança de dados | Gerenciar políticas de uso de dados | Sim |
+| Ingestão de dados | Exibir fontes | Sim |
+| Ingestão de dados | Gerenciar fontes | Sim |
+| Gerenciamento de perfil | Exibir configurações do perfil | Sim |
+| Gerenciamento de perfil | Gerenciar configurações do perfil | Sim |
 
-| Type | Description |
-|--- |--- |
-| Streaming | Real-time API-based connections that push audience membership updates to the destination as they occur. |
-| File-based (batch) | Scheduled exports that deliver audience data as structured files to cloud storage or SFTP locations, which the destination platform then ingests. |
+>[!ENDSHADEBOX]
 
--->
+## Destinos compatíveis {#supported-destinations}
 
-## Conectar um destino {#connect-destination}
+Antes de ativar uma lista estática, um destino deve existir no catálogo de destinos. Na navegação à esquerda, expanda **[!UICONTROL Conexões]** e selecione **[!UICONTROL Destinos]**. Atualmente, o [!DNL Journey Optimizer B2B Prime] oferece suporte aos seguintes destinos:
 
-1. Na navegação à esquerda, expanda **[!UICONTROL Conexões]** e selecione **[!UICONTROL Destinos]**.
+* **[!UICONTROL Correspondência de cliente do Google]** (Advertising)
+* **[!UICONTROL Público-Alvo Personalizado Do Facebook]** (Social)
+* **[!UICONTROL Público-alvo correspondente do LinkedIn]** (Social)
 
-1. Na guia _[!UICONTROL Catálogo]_, localize o conector de tipo de destino externo.
+![Acessar os tipos de conectores disponíveis](./assets/destinations-catalog.png){width="800" zoomable="yes"}
 
-   >[!TIP]
-   >
-   >Você pode encontrar rapidamente o conector inserindo o nome, como `LinkedIn`, na caixa de pesquisa.
+>[!NOTE]
+>
+>Este catálogo não está completo para [!DNL Adobe Experience Platform] destinos. Se você acessar destinos diretamente do [!DNL Experience Platform], verá um catálogo maior, mas apenas esses destinos estarão disponíveis no momento para ativação no [!DNL Journey Optimizer B2B Prime]. Destinos adicionais estão planejados para versões futuras.
 
-   ![Acessar os tipos de conectores disponíveis](./assets/destinations-catalog.png){width="800" zoomable="yes"}
+## Configurar um destino {#set-up-destination}
+
+Cada cartão de destino suportado mostra **[!UICONTROL Configurar novo destino]**. Configurar um destino é um pré-requisito para a ativação.
 
 1. Na placa do conector, clique em **[!UICONTROL Configurar novo destino]**.
 
-1. Selecione **[!UICONTROL Nova conta]** e insira suas credenciais de conta.
+1. Selecione **[!UICONTROL Conta existente]** ou **[!UICONTROL Nova conta]** e insira os detalhes da conta, como o nome e a descrição da conta.
 
    ![Conectar uma nova conta de destino](./assets/destinations-configure-new.png){width="500"}
 
 1. Clique em **[!UICONTROL Conectar ao destino]**.
 
+   Um fluxo OAuth permite fazer logon na conta correspondente: LinkedIn, Google ou Facebook.
+
    >[!IMPORTANT]
    >
    >Neste ponto, **não** insira os _[!UICONTROL detalhes do Destino]_. Somente a conexão é necessária.
 
+1. Preencha qualquer mapeamento de campo obrigatório entre os atributos de pessoas e os campos exigidos pelo destino.
+
 1. Revise as configurações de governança de dados e ação de marketing e clique em **[!UICONTROL Salvar]**.
 
-O destino conectado aparece na lista da guia _[!UICONTROL Procurar]_ e está disponível para ativação de lista estática.
+Para obter as etapas de instalação completas, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} na documentação de [!DNL Experience Platform].
 
-## Ativar uma lista estática para um destino {#activate}
+Quando configurado, o destino estará disponível para ativação em todos os locais que você puder selecionar um destino em [!DNL Journey Optimizer B2B Prime].
 
->[!NOTE]
+## Ativação e sincronização {#activation-sync}
+
+A ativação é orientada por associação de lista estática, com uma sincronização bidirecional entre a lista e o público-alvo de destino:
+
+* Adicionar uma pessoa à lista estática ativa-a no destino em 24 horas, adicionando-a ao público-alvo de destino e, subsequentemente, a qualquer campanha que o público-alvo alimente.
+* Remover uma pessoa da lista estática desativa-a do destino — ela é removida do público-alvo de destino e de qualquer campanha conectada.
+* A mesma lista pode ser ativada para vários destinos de uma só vez; a associação é sincronizada com todos eles.
+
+>[!TIP]
 >
->Somente [listas estáticas de pessoas](./people-lists.md#static-list) podem ser ativadas para destinos em [!DNL Journey Optimizer B2B Prime]. [As listas dinâmicas](./people-lists.md#dynamic-lists) não estão qualificadas para ativação de destino.
-
-1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de marketing]**.
-
-1. À direita na lista de recursos de **[!UICONTROL Marketing]**, selecione **[!UICONTROL Listas de pessoas]**.
-
-   ![Acessar listas de pessoas para gerenciar seus públicos-alvo](./assets/people-lists.png){width="800" zoomable="yes"}
-
-1. Selecione a guia **[!UICONTROL Listas estáticas]**.
-
-1. Localize a lista estática que deseja ativar para um destino.
-
-1. Clique no ícone _Ativar_ ( ![Ativar ícone](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) ao lado do nome da lista estática.
-
-1. Marque a caixa de seleção da conexão de destino configurada.
-
-   ![Destinos configurados disponíveis para ativação](./assets/static-list-activate-destination-select.png){width="700" zoomable="yes"}
-
-1. Clique em **[!UICONTROL Salvar]**.
-
-<!--
-
-This method not working for Beta
-
-1. On the _[!UICONTROL Browse]_ tab, locate the destination you want to use for the activation and click the name to open it.
-
-1. Select the **[!UICONTROL Activation data]** tab.
-
-1. Click **[!UICONTROL Activate people lists]**.
-
-1. Select the static people list you want to export and click **[!UICONTROL Next]**.
-
-1. Map the people list attributes to the required fields of the destination schema and click **[!UICONTROL Next]**.
-
-1. Set the export schedule:
-
-   * **[!UICONTROL Frequency]** — Choose how often the list is exported (for example, daily or weekly).
-   * **[!UICONTROL Start date]** — Set when the first export should run.
-
-1. Review the activation summary and click **[!UICONTROL Finish]**.
-
-The activation is created and the static list data is exported to the destination according to the defined schedule.
-
--->
-
+>Para executar uma campanha do LinkedIn em relação a um segmento, ative a lista estática dessas pessoas para o destino do público-alvo correspondente do LinkedIn. Todos na lista são adicionados ao público-alvo correspondente no LinkedIn, onde uma campanha pode direcioná-los, e o público-alvo se mantém atualizado automaticamente à medida que a lista muda.

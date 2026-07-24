@@ -1,6 +1,6 @@
 ---
 title: Fazer um nó de ação
-description: Espaço reservado
+description: Configurar um nó Realizar uma ação no Journey Optimizer B2B edition Prime para adicionar, remover ou atualizar pessoas, listas, programas e destinos, ou enviar mensagens, quando elas atingirem o nó em uma jornada de pessoa.
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
 product_v2:
@@ -13,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 2%
+source-wordcount: 1125
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Em uma jornada de pessoa, use uma ação em pessoas quando quiser aplicar uma al
 
 | Ação | Restrições |
 | ------ | ----------- |
-| **[!UICONTROL Ativar para destino]** | <li>Selecionar ou criar uma lista estática <li>Se a lista não tiver um destino ativado, ative-a |
+| **[!UICONTROL Ativar para destino]** | <li>Selecionar ou criar uma lista estática <li>Se a lista não tiver um destino ativado, ative-a para um ou mais destinos |
 | **[!UICONTROL Adicionar pessoa à Jornada]** | <li>Selecionar uma jornada agendada ou ativa <li>Os critérios de público-alvo da jornada de direcionamento não são aplicados |
 | **[!UICONTROL Adicionar à lista]** | <li>Criar uma nova lista estática ou selecionar uma existente |
 | **[!UICONTROL Adicionar à lista do Marketo]** | <li>Selecionar uma lista estática no Marketo Engage |
@@ -54,15 +54,44 @@ Em uma jornada de pessoa, use uma ação em pessoas quando quiser aplicar uma al
 
 +++Ativar para o destino
 
-Use esta ação para ativar pessoas para destinos Experience Platform diretamente da sua jornada. Selecione o destino e insira um nome de público-alvo para identificar o público-alvo ativado no destino.
+Use esta ação para adicionar pessoas a uma lista estática e ativar essa lista para um destino diretamente da sua jornada. Você pode usar uma lista estática existente ou criar uma especificamente para a jornada.
+
+>[!PREREQUISITES]
+>
+>Você deve ter um ou mais [destinos configurados](../audiences/destinations.md) para sua sandbox [!DNL Journey Optimizer B2B Prime] antes de configurar um nó de jornada _Ativar para destino_.
 
 ![Executar uma ação - Ativar para o destino](./assets/person-action-node-activate-to-destination.png){width="450"}
+
+Em **[!UICONTROL Adicionar à lista]**, escolha uma das seguintes opções:
+
+* **[!UICONTROL Criar]** — Crie uma nova lista estática e adicione pessoas a ela. A lista está disponível imediatamente em **[!UICONTROL Listas de pessoas]**.
+
+  Selecione um programa pai para a lista e insira um **[!UICONTROL Nome]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional). Clique em **[!UICONTROL Criar]** para adicionar a nova lista do nó.
+
+  ![Criar uma lista estática para usar no nó de jornada](./assets/person-action-node-destination-create-list.png){width="375"}
+
+* **[!UICONTROL Selecionar]** — Selecione uma lista estática existente na qual você deseja adicionar pessoas que acessam o nó.
+
+  Marque a caixa de seleção da lista estática existente e clique em **[!UICONTROL Salvar]**.
+
+  ![Selecione uma lista estática para usar no nó de jornada](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+
+Qualquer pessoa que alcançar o nó é adicionada à lista estática selecionada, mas a ação não é concluída até que a lista seja ativada para um destino:
+
+* Se a lista selecionada já estiver ativada, seus destinos aparecerão em **[!UICONTROL Destinos]** e a ação estará pronta.
+* Caso contrário, será exibida uma mensagem _No mínimo, um destino é necessário_. Clique em **[!UICONTROL Ativar lista para destino]**, selecione o destino e clique em **[!UICONTROL Salvar]**. Clique em **[!UICONTROL Ativar]** no diálogo de confirmação.
+
+![Destinos configurados disponíveis para ativação](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+Quando a ativação for concluída, o destino aparecerá em **[!UICONTROL Destinos]** e a ação estará pronta. Você pode ativar a lista para destinos adicionais, se necessário.
+
+Qualquer pessoa que alcançar o nó é adicionada à lista estática selecionada, que é ativada para o destino escolhido, para que seja adicionada a esse público-alvo de destino e, por sua vez, a qualquer campanha que o público-alvo alimente.
 
 +++
 
 +++[!UICONTROL Adicionar pessoa à Jornada]
 
-Use esta ação para adicionar pessoas a outras jornadas agendadas ou ativas. As pessoas adicionadas por meio dessa ação são imediatamente adicionadas ao público-alvo da jornada de direcionamento; o critério de público-alvo da jornada não é aplicado.
+Use esta ação para adicionar pessoas a outras jornadas agendadas ou ativas. As pessoas adicionadas por meio dessa ação são imediatamente adicionadas ao público-alvo da jornada de destino; os critérios de público-alvo da jornada de destino não são aplicados.
 
 ![Realizar uma ação - Adicionar pessoa à jornada](./assets/person-action-node-add-to-journey.png){width="450"}
 
@@ -77,7 +106,7 @@ Use esta ação para adicionar pessoas a uma lista estática no Journey Optimize
 Escolha uma das seguintes opções:
 
 * **[!UICONTROL Criar]** — Crie um novo ativo de lista estática e adicione pessoas a ele. A lista está imediatamente disponível para uso por outros ativos no Journey Optimizer B2B Prime.
-* **[!UICONTROL Selecionar]** — Seleciona um ativo de lista estática existente no qual você deseja adicionar pessoas que chegam ao nó.
+* **[!UICONTROL Selecionar]** — Selecione um ativo de lista estática existente no qual você deseja adicionar pessoas que chegam ao nó.
 
 +++
 
@@ -155,9 +184,9 @@ Use esta ação para enviar um email para as pessoas que aceitaram. As pessoas q
 
 ![Executar uma ação - Enviar email](./assets/person-action-node-send-email.png){width="450"}
 
-Você pode criar um email, editar um email existente ou usar um email personalizado por IA. Para obter informações sobre como criar e editar emails, consulte [Canal de email](../marketing/email-channel.md).
+Você pode criar um email, editar um email existente ou usar um email personalizado por IA. Para obter informações sobre como criar e editar emails, consulte [Canal de email](./email-channel.md).
 
-Você pode usar a [Otimização de hora de envio](../marketing/email-send-time-optimization.md) para personalizar o tempo de entrega de email prevendo quando cada perfil tem maior probabilidade de participar.
+Você pode usar a [Otimização de hora de envio](./email-send-time-optimization.md) para personalizar o tempo de entrega de email prevendo quando cada perfil tem maior probabilidade de participar.
 
 +++
 
