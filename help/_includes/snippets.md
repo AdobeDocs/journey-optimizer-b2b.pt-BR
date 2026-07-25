@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2355'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Os dados de intenção são incluídos quando configurados para sua instância do Journey Optimizer B2B edition. Também é necessário que uma ou mais jornadas publicadas **ou** tenham criado grupos de compras. Para obter mais informações sobre o modelo de Detecção de Intenção e como enviar palavras-chave, produtos e categorias, consulte [Dados de Intenção](../user/admin/intent-data.md).
+>Os dados de intenção são incluídos quando configurados para sua instância do Journey Optimizer B2B edition. Também é necessário que uma ou mais jornadas publicadas **ou** tenham criado grupos de compras. Para obter mais informações sobre o modelo de Detecção de Intenção e como enviar palavras-chave, produtos e categorias, consulte [Dados de Intenção](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## Nota de licenciamento do AEM Assets {#aem-assets-licensing-note}
 
@@ -185,13 +185,13 @@ No painel direito com a guia _[!UICONTROL Estilos]_ selecionada, expanda a seç�
 
 * **[!UICONTROL Largura]** - Use o botão de alternância para definir a largura por pixels ou porcentagem.
 
-   * Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina o tamanho do elemento com base na caixa de conteúdo do bloco, o que exclui o preenchimento e as bordas. Por exemplo, um valor de 50 define a largura do elemento como 50% da largura do conteúdo do bloco.
+  * Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina o tamanho do elemento com base na caixa de conteúdo do bloco, o que exclui o preenchimento e as bordas. Por exemplo, um valor de 50 define a largura do elemento como 50% da largura do conteúdo do bloco.
 
-     Estilo de ![largura usando porcentagem](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+    Estilo de ![largura usando porcentagem](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
-   * Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a largura do elemento de acordo com seu conteúdo.
+  * Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a largura do elemento de acordo com seu conteúdo.
 
-     ![Estilo de largura usando pixels](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+    ![Estilo de largura usando pixels](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## Componentes de conteúdo — estilos de texto {#styles-text}
 

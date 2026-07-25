@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:43:58.948Z
 TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
 source-wordcount: 1682
 ht-degree: 16%
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 # Painel inteligente
 
-O Painel inteligente fornece uma visão abrangente das métricas de grupos de compras e contas, ajudando você a monitorar e criar estratégias para seus esforços de marketing com mais eficiência.
+O Painel Inteligente oferece uma visão abrangente do [grupo de compras](../buying-groups/buying-groups-overview.md) e métricas de conta, ajudando você a monitorar e criar estratégias para seus esforços de marketing com mais eficiência.
 
 Para acessar o _Painel Inteligente_, selecione o item **[!UICONTROL Painel]** na navegação à esquerda.
 
@@ -132,9 +132,9 @@ Cada cartão inclui os seguintes dados:
 
   ![Comprando dados de intenção de grupo](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * O pop-up de detalhes exibe o nome da categoria com nível de intenção na parte superior.
-   * Os dados de cada linha são organizados em colunas: o nome do produto, a intensidade da intenção do produto e as palavras-chave principais por intensidade da intenção.
-   * A ordem de classificação é alta a baixa para categoria, produto e palavras-chave. Se um ou mais tipos tiverem a mesma intensidade de intenção, a classificação usará a ordem alfabética.
+  * O pop-up de detalhes exibe o nome da categoria com nível de intenção na parte superior.
+  * Os dados de cada linha são organizados em colunas: o nome do produto, a intensidade da intenção do produto e as palavras-chave principais por intensidade da intenção.
+  * A ordem de classificação é alta a baixa para categoria, produto e palavras-chave. Se um ou mais tipos tiverem a mesma intensidade de intenção, a classificação usará a ordem alfabética.
 
   {{intent-data-note}}
 
@@ -226,9 +226,9 @@ Cada cartão inclui os seguintes dados:
 
   ![Dados de intenção de conta](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * O pop-up de detalhes exibe o nome da categoria com nível de intenção na parte superior.
-   * Os dados de cada linha são organizados em colunas: o nome do produto, a intensidade da intenção do produto e as palavras-chave principais por intensidade da intenção.
-   * A ordem de classificação é alta a baixa para categoria, produto e palavras-chave. Se um ou mais tipos tiverem a mesma intensidade de intenção, a classificação usará a ordem alfabética.
+  * O pop-up de detalhes exibe o nome da categoria com nível de intenção na parte superior.
+  * Os dados de cada linha são organizados em colunas: o nome do produto, a intensidade da intenção do produto e as palavras-chave principais por intensidade da intenção.
+  * A ordem de classificação é alta a baixa para categoria, produto e palavras-chave. Se um ou mais tipos tiverem a mesma intensidade de intenção, a classificação usará a ordem alfabética.
 
   {{intent-data-note}}
 <!--

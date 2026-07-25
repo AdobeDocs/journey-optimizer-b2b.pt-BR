@@ -15,10 +15,10 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 782df5bc56a54840cd06c08d7cd27885ba90c220
 workflow-type: tm+mt
-source-wordcount: 1920
-ht-degree: 1%
+source-wordcount: 2516
+ht-degree: 0%
 
 ---
 
@@ -28,9 +28,9 @@ As informações a seguir são para administradores que configuram a infraestrut
 
 * Configurando canais de email - [Configuração de canal de email](../admin/email-channel-configuration.md)
 * Criando emails - [Adicionar emails ao jornada](../marketing/email-channel.md)
-* Criação de conteúdo de email - [Criação de conteúdo de email](../content/email-authoring.md).
+* Criando conteúdo de email - [Criação de conteúdo de email](../content/email-authoring.md)
 
-A capacidade de entrega de emails no [!DNL Journey Optimizer B2B Prime] é o conjunto de configurações de infraestrutura e autenticação que ajudam as mensagens de email a chegar à caixa de entrada do destinatário, não à pasta de spam, e não bloqueadas pelos ISPs (Provedores de Serviços de Internet).
+A capacidade de entrega de emails no [!DNL Adobe Journey Optimizer B2B Prime] é o conjunto de configurações de infraestrutura e autenticação que ajudam as mensagens de email a chegar à caixa de entrada do destinatário, não à pasta de spam, e não bloqueadas pelos ISPs (Provedores de Serviços de Internet).
 
 Ele usa os seguintes blocos fundamentais, configurados por um administrador, normalmente na seguinte ordem:
 
@@ -56,8 +56,8 @@ Antes de configurar o email, analise esses conceitos que se aplicam aos recursos
 
 | Conceito | O que significa em [!DNL Journey Optimizer B2B Prime] |
 | ------- | ---------------------- |
-| **_Subdomínio_** | Uma parte delegada do seu domínio de envio (por exemplo, `mail.contoso.com`) usada para enviar emails pelo Prime. Os subdomínios isolam sua reputação de marketing B2B do correio corporativo ou transacional. |
-| **_Pool de IPs_** | Um grupo de endereços IP associados a um ou mais subdomínios. A Prime oferece suporte a um pool de IPs compartilhados gerenciado pela Adobe nesta versão; os pools de IP dedicados estão no roteiro de disponibilidade geral. |
+| **_Subdomínio_** | Uma parte delegada do seu domínio de envio (por exemplo, `mail.contoso.com`) usada para enviar emails por meio de [!DNL Journey Optimizer B2B Prime]. Os subdomínios isolam sua reputação de marketing B2B do correio corporativo ou transacional. |
+| **_Pool de IPs_** | Um grupo de endereços IP associados a um ou mais subdomínios. O [!DNL Journey Optimizer B2B Prime] oferece suporte a um pool de IPs compartilhados gerenciado pela Adobe nesta versão; os pools de IP dedicados estão no roteiro de disponibilidade geral. |
 | **_Configuração de canal_** | Um conjunto reutilizável de configurações de envio de email (identidade do remetente, endereço de resposta, subdomínio, pool de IPs, tipo de email e rastreamento) que você anexa às ações de email no jornada. É possível ter várias configurações de canal nomeadas para diferentes marcas, unidades de negócios ou tipos de envio. |
 
 <!--
@@ -87,7 +87,7 @@ Most email features follow a `view-*` (read) and `manage-*` (write) pattern. A u
 | **Manage shared assets and library items** | `manage-b2b-library-items` | Manage the underlying shared library used by templates, fragments, and emails. Often granted alongside the template/fragment manage permissions. |
 | **Manage usage labels** | `manage-b2b-delete-usage-labels` | Manage data usage labels (DULE) attached to library items for governance. |
 | **Manage packages** | `manage-b2b-packages` | Bundle and move templates, fragments, and emails between sandboxes. |
-| **View assets (Marketo Design Studio assets in Prime)** | `view-b2b-assets` | Browse the asset picker and preview images. Read-only. |
+| **View assets (Marketo Design Studio assets in [!DNL Journey Optimizer B2B Prime])** | `view-b2b-assets` | Browse the asset picker and preview images. Read-only. |
 | **Manage assets** | `manage-b2b-assets` | All read access plus future asset-management actions (Beta scope). |
 | **Export message data** | `manage-b2b-message-export` | Export email-level message data and reports. |
 
@@ -125,11 +125,11 @@ A delegação de subdomínio informa à Internet que a Adobe está autorizada a 
 
 >[!NOTE]
 >
->Cada subdomínio no Prime só pode ser usado por um produto da Adobe. Não é possível compartilhar o mesmo subdomínio de envio entre o Prime e outro produto, como o Adobe Marketo Engage ou o Adobe Campaign — você deve usar subdomínios distintos.
+>Cada subdomínio em [!DNL Journey Optimizer B2B Prime] só pode ser usado por um produto Adobe. Você não pode compartilhar o mesmo subdomínio de envio entre [!DNL Journey Optimizer B2B Prime] e outro produto, como o Adobe Marketo Engage ou o Adobe Campaign — você deve usar subdomínios distintos.
 
 ### Métodos compatíveis {#supported-methods}
 
-O Prime oferece suporte a dois dos três métodos de delegação de subdomínio nesta versão do Beta. O terceiro método (delegação personalizada) está no roteiro.
+O [!DNL Journey Optimizer B2B Prime] oferece suporte a dois dos três métodos de delegação de subdomínio nesta versão do Beta. O terceiro método (delegação personalizada) está no roteiro.
 
 | Método | Quando usar | O que isso envolve |
 | ------ | ----------- | ---------------- |
@@ -144,9 +144,9 @@ O Prime oferece suporte a dois dos três métodos de delegação de subdomínio 
 >* Decida sobre uma convenção de nomenclatura de subdomínio (por exemplo, `mail.contoso.com` para marketing, `alerts.contoso.com` para transacional).
 >* Confirme com a equipe de TI/DNS que eles podem delegar o subdomínio (registros NS) à Adobe.
 >* Crie o novo subdomínio em seu provedor de DNS e aguarde de de 24 a 48 horas pela propagação de DNS antes de delegar à Adobe.
->* Confirme se você tem a função Administrador no Prime.
+>* Confirme se você tem a função de Administrador no [!DNL Journey Optimizer B2B Prime].
 
-1. Na navegação à esquerda [!DNL Adobe Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
+1. Na navegação à esquerda [!DNL Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
 1. No painel, expanda **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL Subdomínios]**.
 1. Clique em **[!UICONTROL Configurar subdomínio]**.
 1. Insira o nome completo do subdomínio (por exemplo, `mail.contoso.com`).
@@ -169,7 +169,7 @@ O Prime oferece suporte a dois dos três métodos de delegação de subdomínio 
 
 1. Aguarde o status do subdomínio mudar para **[!UICONTROL Sucesso]**.
 
-   Isso normalmente leva alguns minutos quando a propagação do DNS é concluída.
+   Normalmente, isso leva alguns minutos após a conclusão da propagação de DNS.
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ O Prime oferece suporte a dois dos três métodos de delegação de subdomínio 
 
 Use esse método somente se a política DNS da organização proibir a delegação completa. Com o CNAME, você mantém registros de DNS da sua parte.
 
-1. Na navegação à esquerda [!DNL Adobe Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
+1. Na navegação à esquerda [!DNL Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
 1. No painel, expanda **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL Subdomínios]**.
 1. Clique em **[!UICONTROL Configurar subdomínio]**.
 1. Insira o nome completo do subdomínio.
@@ -188,7 +188,7 @@ Use esse método somente se a política DNS da organização proibir a delegaç�
 1. Revise a lista de registros CNAME a serem gerados. Eles apontam os componentes do subdomínio para registros gerenciados pela Adobe.
 1. Baixe os registros como CSV e compartilhe com a equipe DNS.
 1. A equipe de DNS adiciona cada registro CNAME à solução de hospedagem de DNS.
-1. Quando os registros estiverem no local e forem propagados, volte para [!DNL Adobe Journey Optimizer B2B Prime] e confirme.
+1. Quando os registros estiverem no local e forem propagados, volte para [!DNL Journey Optimizer B2B Prime] e confirme.
 1. Clique em **[!UICONTROL Enviar]**.
 1. Aguarde o status alcançar **[!UICONTROL Sucesso]**.
 
@@ -196,11 +196,95 @@ Use esse método somente se a política DNS da organização proibir a delegaç�
 >
 >Com o CNAME, a Adobe não pode ajudar você a alterar, manter ou solucionar problemas do DNS para o subdomínio. Quaisquer alterações futuras, como a adição de um novo CNAME para uma atualização de recurso, devem ser feitas pela equipe de DNS.
 
+Para obter instruções passo a passo para provedores DNS comuns, consulte as seguintes seções:
+
+### Adicionar registros CNAME pelo provedor de DNS {#add-cname-records-dns-provider}
+
+O [!DNL Journey Optimizer B2B Prime] gera os registros CNAME e TXT exatos para o seu subdomínio e permite que você os baixe como um arquivo CSV. Use as seguintes etapas específicas do provedor para ajudar sua equipe de DNS a localizar a tela de configurações correta e adicionar cada registro.
+
+>[!NOTE]
+>
+>Os valores de host, tipo e destino no CSV baixado são específicos para seu subdomínio e organização. Copie-os exatamente em vez de reutilizar valores de outro subdomínio.
+
+#### Rota AWS 53 {#aws-route-53}
+
+1. Entre no Console de Gerenciamento do AWS e abra **[!UICONTROL Rota 53]**.
+1. Selecione **[!UICONTROL Zonas hospedadas]** e escolha a zona hospedada para seu domínio.
+1. Clique em **[!UICONTROL Criar registro]** e mantenha a política de roteamento definida como **[!UICONTROL Roteamento simples]**.
+1. Para cada linha no CSV:
+
+   * **Nome do registro** — Insira somente a parte antes do nome da zona. Por exemplo, para `data.mail.contoso.com` na zona `contoso.com`, digite `data.mail`.
+   * **Tipo de registro** — Escolha `CNAME` ou `TXT` para corresponder ao CSV.
+   * **Valor** — Cole o destino do CSV. Para registros TXT, coloque o valor entre aspas duplas.
+   * **TTL** — 300 segundos é suficiente.
+
+1. Clique em **[!UICONTROL Adicionar outro registro]** às entradas de lote e em **[!UICONTROL Criar registros]** depois que todas as linhas forem inseridas.
+
+>[!NOTE]
+>
+>Os valores TXT devem estar entre aspas duplas ou o registro não será validado. Um registro CNAME não pode ficar no ápice da zona, mas isso não afeta um subdomínio delegado.
+
+#### Cloudflare {#cloudflare}
+
+1. Faça logon no painel do Cloud e selecione seu domínio.
+1. Vá para **[!UICONTROL Registros DNS]** e clique em **[!UICONTROL Adicionar registro]**.
+1. Para cada linha no CSV:
+
+   * **Tipo** — Escolha `CNAME` ou `TXT`.
+   * **Nome** — Insira a parte do host, por exemplo `data.mail`. O Cloud Flare anexa seu domínio automaticamente.
+   * **Target** (para CNAME) ou **Content** (para TXT) — cole o valor do CSV.
+   * **Status do proxy** — Defina como **[!UICONTROL DNS somente]** (ícone cinza da nuvem).
+   * **TTL** — Deixar como **[!UICONTROL Auto]**.
+
+1. Clique em **[!UICONTROL Salvar]** para cada linha.
+
+>[!IMPORTANT]
+>
+>Todos os registros adicionados para [!DNL Journey Optimizer B2B Prime] devem mostrar uma nuvem cinza (somente DNS), não uma nuvem laranja (com proxy aplicado). Um registro com proxy roteia o tráfego pelos servidores da Cloud Flare em vez do Adobe, o que interrompe a assinatura do DKIM, o rastreamento de cliques e o tratamento de rejeição. Se um registro for exibido em laranja, clique no ícone de nuvem para alterná-lo para cinza.
+
+#### DNS do Azure {#azure-dns}
+
+1. Entre no portal do Azure e abra **[!UICONTROL zonas DNS]**.
+1. Selecione a zona DNS para o seu domínio.
+1. Clique em **[!UICONTROL + Conjunto de registros]**.
+1. Para cada linha no CSV:
+
+   * **Nome** — Insira a parte do host, por exemplo `data.mail`. O Azure anexa o nome da região.
+   * **Tipo** — Escolha `CNAME` ou `TXT`.
+   * Para um registro CNAME, insira o destino do CSV no campo **[!UICONTROL Alias]**.
+   * Para um registro TXT, cole o valor no campo **[!UICONTROL Value]**. O Azure cuida das cotações para você.
+   * **TTL** — Insira um número e uma unidade, por exemplo, 300 segundos.
+
+1. Clique em **[!UICONTROL OK]** para salvar o conjunto de registros para cada linha.
+
+>[!NOTE]
+>
+>Use um conjunto de registros CNAME padrão, não a opção Conjunto de registros Alias, que aponta somente para recursos do Azure, em vez de nomes de host externos. Cada conjunto de registros CNAME contém exatamente um destino, correspondendo a como [!DNL Journey Optimizer B2B Prime] registros de problemas — um CNAME por host.
+
+#### DNS da Google Cloud {#google-cloud-dns}
+
+1. Abra o console Google Cloud e vá para **[!UICONTROL Serviços de Rede]** > **[!UICONTROL DNS de Nuvem]**.
+1. Selecione a zona do domínio.
+1. Clique em **[!UICONTROL Adicionar padrão]** para adicionar um conjunto de registros.
+1. Para cada linha no CSV:
+
+   * **Nome DNS** — Insira a parte do host, por exemplo `data.mail`. O DNS da nuvem mostra o sufixo da zona e você anexa o host.
+   * **Tipo de registro de recurso** — Escolha `CNAME` ou `TXT`.
+   * **TTL** — 300 segundos é suficiente.
+   * Para um registro CNAME, insira o destino em **[!UICONTROL Nome canônico]** e termine-o com um ponto à direita.
+   * Para um registro TXT, cole o valor no campo de dados.
+
+1. Clique em **[!UICONTROL Criar]** para cada linha.
+
+>[!NOTE]
+>
+>O nome canônico deve ser totalmente qualificado e terminar com um ponto à direita ou a resolução falha. Sua equipe de DNS também pode adicionar cada registro com o comando `gcloud dns record-sets create`.
+
 ### Medidas de proteção de subdomínio {#subdomain-guardrails}
 
 * **Limite padrão:** 10 subdomínios por organização. Entre em contato com seu representante da Adobe se precisar de mais (até 100, dependendo do contrato).
 * **Propagação de DNS:** Permita que as alterações ocorram de 24 a 48 horas globalmente. A validação pode falhar simplesmente porque o DNS ainda não se propagou.
-* **Reutilização de subdomínio:** um subdomínio que já está sendo usado por outro produto da Adobe (Marketo Engage, Adobe Campaign) não pode ser reutilizado no Prime.
+* **Reutilização de subdomínio:** Um subdomínio que já está sendo usado por outro produto da Adobe (Marketo Engage, Adobe Campaign) não pode ser reutilizado em [!DNL Journey Optimizer B2B Prime].
 
 ## DMARC, SPF e DKIM {#dmarc-spf-dkim}
 
@@ -218,13 +302,13 @@ DMARC, SPF e DKIM são padrões de autenticação de email. Juntos, eles provam 
 | ------ | ------ | ----------- |
 | `none` | Monitorar | O servidor de recebimento não faz nada se o DMARC falhar — mas ainda envia um relatório. Use isso ao delegar um subdomínio pela primeira vez para confirmar se a autenticação está funcionando sem correr o risco de perder a mensagem. |
 | `quarantine` | Quarentena | O servidor de recebimento coloca mensagens com falha na pasta spam/lixo eletrônico. |
-| `reject` | Rejeitar | O servidor de recebimento rejeita (devolve) mensagens com falha na autenticação. Modo estrito. Recomendado assim que você estiver confiante na configuração da autenticação. |
+| `reject` | Rejeitar | O servidor de recebimento rejeita (devolve) mensagens com falha na autenticação. Modo estrito. Recomendado quando você está confiante na configuração da autenticação. |
 
 ### Configurar DMARC {#configure-dmarc}
 
 O DMARC é configurado no momento da delegação de subdomínio, mas você também pode adicionar ou atualizar o DMARC para um subdomínio já delegado.
 
-1. Na navegação à esquerda [!DNL Adobe Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
+1. Na navegação à esquerda [!DNL Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
 
 1. No painel, expanda **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL Subdomínios]**.
 
@@ -249,7 +333,7 @@ O DMARC é configurado no momento da delegação de subdomínio, mas você tamb�
 
 >[!TIP]
 >
->Comece com `policy=none` para monitorar os relatórios de autenticação, avance para `quarantine` e finalmente para `reject` assim que seus relatórios mostrarem um alinhamento íntegro de SPF e DKIM. Mover diretamente para `reject` sem monitoramento pode fazer com que mensagens legítimas sejam rejeitadas.
+>Comece com `policy=none` para monitorar os relatórios de autenticação, depois avance para `quarantine` e, finalmente, para `reject` depois que seus relatórios mostrarem um alinhamento íntegro de SPF e DKIM. Mover diretamente para `reject` sem monitoramento pode fazer com que mensagens legítimas sejam rejeitadas.
 
 ## Pools de IP {#ip-pools}
 
@@ -266,7 +350,7 @@ Um pool de IPs é um grupo nomeado de endereços IP usados para enviar seu email
 
 Nesta versão, os pools de IP são pré-provisionados para sua organização. Atribua um pool de IP ao criar uma configuração de canal de email.
 
-1. Na navegação à esquerda [!DNL Adobe Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
+1. Na navegação à esquerda [!DNL Journey Optimizer B2B Prime], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
 1. No painel, expanda **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL pools de IP]**.
 1. Confirme se um pool de IP com o status **[!UICONTROL Ativo]** está disponível para sua organização.
 1. Passe o mouse sobre o pool para visualizar os endereços IP e seus registros PTR (DNS reverso).
@@ -282,13 +366,13 @@ Nesta versão, os pools de IP são pré-provisionados para sua organização. At
 
 | Question | Answer |
 | -------- | ------ |
-| **Can I reuse the subdomain I already use in Marketo Engage?** | No. A subdomain can only be associated with one Adobe product at a time. Create a new subdomain (for example, mail2.contoso.com) for Prime. |
+| **Can I reuse the subdomain I already use in Marketo Engage?** | No. A subdomain can only be associated with one Adobe product at a time. Create a new subdomain (for example, mail2.contoso.com) for [!DNL Journey Optimizer B2B Prime]. |
 | **Why does my channel configuration show Failed?** | The most common reasons are: MX record validation failed (your subdomain DNS isn't fully configured); DMARC misalignment; or an IP pool that is in Processing and has never been associated with the selected subdomain. Open the configuration to see the specific reason. |
-| **What happens if a personalization token has no value at send time?** | If you defined a fallback with the Handlebars `default` helper, the fallback is used. If not, the token resolves to an empty string. Prime warns you when a token has no fallback and the underlying attribute is not guaranteed by the audience definition. |
-| **Can I personalize using account-level attributes?** | Not in this release. Personalization in Prime today supports profile attributes only. |
-| **What's the maximum email size?** | 100 KB is the recommended best-practice cap for inbox rendering. Prime warns you in the editor if you exceed it. |
-| **Can I migrate existing Marketo email templates into Prime?** | A guided self-serve migration tool — including Velocity-to-Handlebars conversion — is delivered at GA. In this release, you can manually rebuild templates or paste raw HTML. |
-| **Will my updates to Marketo assets show up in Prime?** | No. Asset availability in Prime is based on a one-time copy from Marketo Design Studio. Re-uploaded or modified Marketo assets are not reflected in Prime today. Native asset upload and management within Prime is on the Beta roadmap. |
+| **What happens if a personalization token has no value at send time?** | If you defined a fallback with the Handlebars `default` helper, the fallback is used. If not, the token resolves to an empty string. [!DNL Journey Optimizer B2B Prime] warns you when a token has no fallback and the underlying attribute is not guaranteed by the audience definition. |
+| **Can I personalize using account-level attributes?** | Not in this release. Personalization in [!DNL Journey Optimizer B2B Prime] today supports profile attributes only. |
+| **What's the maximum email size?** | 100 KB is the recommended best-practice cap for inbox rendering. [!DNL Journey Optimizer B2B Prime] warns you in the editor if you exceed it. |
+| **Can I migrate existing Marketo email templates into [!DNL Journey Optimizer B2B Prime]?** | A guided self-serve migration tool — including Velocity-to-Handlebars conversion — is delivered at GA. In this release, you can manually rebuild templates or paste raw HTML. |
+| **Will my updates to Marketo assets show up in [!DNL Journey Optimizer B2B Prime]?** | No. Asset availability in [!DNL Journey Optimizer B2B Prime] is based on a one-time copy from Marketo Design Studio. Re-uploaded or modified Marketo assets are not reflected in [!DNL Journey Optimizer B2B Prime] today. Native asset upload and management within [!DNL Journey Optimizer B2B Prime] is on the Beta roadmap. |
 
 ## Glossary {#glossary}
 
@@ -297,7 +381,7 @@ Nesta versão, os pools de IP são pré-provisionados para sua organização. At
 | **DKIM** | DomainKeys Identified Mail — cryptographic email signature. |
 | **DMARC** | Domain-based Message Authentication, Reporting & Conformance. |
 | **FBL** | Feedback Loop — a service ISPs offer to receive spam-complaint reports back to senders. |
-| **Handlebars** | JavaScript templating language used in Prime for personalization expressions. |
+| **Handlebars** | JavaScript templating language used in [!DNL Journey Optimizer B2B Prime] for personalization expressions. |
 | **IP pool** | Group of IP addresses used to send email. |
 | **MX record** | Mail Exchange DNS record — directs incoming mail to the correct mail servers. |
 | **NS record** | Name Server DNS record — used to delegate a subdomain. |
