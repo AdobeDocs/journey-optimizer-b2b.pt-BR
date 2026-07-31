@@ -1,25 +1,17 @@
 ---
 title: Acesso e permissões do usuário
 description: 'Gerenciar o acesso do usuário no Adobe Admin Console: crie grupos de usuários, atribua perfis de produto e defina permissões com base em função para o Journey Optimizer B2B Prime.'
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
+badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: bd42eee1-e206-4826-91ea-88dc726d858e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7id: bd42eee1-e206-4826-91ea-88dc726d858e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a2fcdae381cba44c7f1458be3e851628e7e11b26
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 58%
+source-wordcount: 2294
+ht-degree: 44%
 
 ---
 
@@ -36,7 +28,7 @@ Após a conclusão do provisionamento e a associação das sandboxes, conclua as
 
 ## Configurar o perfil do produto {#config-profile}
 
-Como administrador, você pode concluir essas tarefas no Adobe Admin Console, que é um local central para administrar e gerenciar licenças e usuários de produtos da Adobe. No Admin Console, é possível criar e gerenciar usuários em um único local em vez de em várias soluções individuais. Para saber mais sobre suas funções e recursos, consulte a página [visão geral do Admin Console](https://helpx.adobe.com/br/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+Como administrador, você pode concluir essas tarefas no Adobe Admin Console, que é um local central para administrar e gerenciar licenças e usuários de produtos da Adobe. No Admin Console, é possível criar e gerenciar usuários em um único local em vez de em várias soluções individuais. Para saber mais sobre suas funções e recursos, consulte a página [visão geral do Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 ### Acessar o Admin Console {#admin-console}
 
@@ -72,7 +64,7 @@ Antes de usar o Admin Console para administrar os usuários da sua equipe, é ne
 
 Ao conceder aos usuários acesso a uma solução da Adobe, você pode não pretender conceder acesso total a eles. Os perfis de produto permitem que cada solução tenha seu próprio conjunto de permissões do usuário. Use o Admin Console para atribuir perfis de produto.
 
-Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [_Gerenciar perfis de produto para usuários corporativos_](https://helpx.adobe.com/br/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} na documentação do Admin Console.
+Para obter mais informações sobre como usar perfis de produtos para direitos de usuário, consulte [_Gerenciar perfis de produto para usuários corporativos_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador de sistema ou administrador de produto [!DNL Experience Platform] pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -90,7 +82,7 @@ Para obter mais informações sobre como usar perfis de produtos para direitos d
 
 Um grupo de usuários é uma coleção de usuários aos quais é concedido um conjunto compartilhado de permissões. Você pode adicionar ou remover usuários em seu grupo de usuários. As permissões do grupo permanecem as mesmas enquanto os usuários no grupo são alterados.
 
-Para obter mais informações sobre como os grupos de usuários são usados para gerenciar permissões, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/business/enterprise/manage-users/user-groups.html){target="_blank"} na documentação do Admin Console.
+Para obter mais informações sobre como os grupos de usuários são usados para gerenciar permissões, consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -125,7 +117,7 @@ Para obter mais informações sobre como os grupos de usuários são usados para
 
 ### Adicionar usuários ao novo grupo {#add-users}
 
-Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/business/enterprise/manage-users/users.html){target="_blank"} na documentação do Admin Console.
+Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador de sistema ou administrador de produto pode executar as seguintes etapas em [https://adminconsole.adobe.com](https://adminconsole.adobe.com). Um administrador de produto pode adicionar somente usuários que já existem em sua organização.
 
@@ -157,11 +149,11 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 ## Atribuir permissões do produto {#assign-product-permissions}
 
-As permissões são direitos unitários que permitem definir as autorizações atribuídas a um perfil de produto. Cada permissão é agrupada em um recurso, como jornadas ou grupos de compras, representando funcionalidades no [!DNL Journey Optimizer B2B Prime].
+As permissões são direitos unitários que permitem definir as autorizações atribuídas a um perfil de produto. Cada permissão é agrupada em um recurso, como jornadas de pessoas ou conteúdo, representando funcionalidades em [!DNL Journey Optimizer B2B Prime].
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
-Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
+Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
 
 1. Vá para [experience.adobe.com](https://experience.adobe.com/).
 
@@ -173,22 +165,51 @@ Para obter mais informações sobre permissões de função no Experience Platfo
 
    ![Experience Platform - Permissões de acesso](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-<!--
+### Permissões {#permissions}
 
-### B2B product permissions {#b2b-product-permissions}
+As seguintes permissões controlam o acesso aos recursos de configuração de canal, gerenciamento de conteúdo e jornada de pessoas no [!DNL Journey Optimizer B2B Prime]:
 
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
+| Categoria | Permissão | Descrição |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+| Configurações do canal B2B | Exibir configurações de email B2B | Exibir configurações de email (subdomínios, registros PTR, pools de IP, listas de supressão, listas de propagação, planos de aquecimento de IP). |
+| | Gerenciar configurações de email B2B | Defina configurações de email (subdomínios, registros PTR, pools de IP, listas de supressão, listas de propagação, planos de aquecimento de IP). Essas configurações são necessárias antes que os usuários possam enviar emails. |
+| | Gerenciar configurações de canais B2B | Acesso ao item de menu _Canais_ na navegação à esquerda e em todas as operações de configuração de canal. |
+| | Gerenciar predefinições B2B do WhatsApp | Criar, exibir e excluir predefinições de mensagem do WhatsApp e configurações de SMS associadas. |
+| Jornadas B2B | Gerenciar Jornadas de pessoa B2B | Acesso à lista _Jornadas de pessoas_ e a todas as operações de jornada de pessoas. |
+| Assets B2B | Exibir modelos de conteúdo | Exibir a lista de modelos de conteúdo e os detalhes. |
+| | Gerenciar modelos B2B | Criar, editar e excluir modelos de conteúdo. |
+| | Visualizar fragmentos B2B | Visualizar a lista de fragmentos de conteúdo e os detalhes. |
+| | Gerenciar fragmentos B2B | Criar, editar e excluir fragmentos de conteúdo. |
+| | Publicar fragmentos B2B | Publicar fragmentos de conteúdo para uso em modelos, emails e landing pages. |
+| | Exibir Assets B2B | Visualize a biblioteca do Assets e os detalhes do arquivo do ativo. |
+| | Gerenciar Assets B2B | Criar, editar e excluir arquivos de ativos. |
+| | Visualizar emails B2B | Exibir mensagens de email. |
+| | Gerenciar emails B2B | Criar, editar e excluir mensagens de email. |
+| | Gerenciar exportação de mensagens B2B | Exporte relatórios de mensagem na seção Email. |
+| Biblioteca da Journey Optimizer | Gerenciar itens de biblioteca B2B | Adicionar e excluir expressões salvas na biblioteca. |
+| Governança de dados | Gerenciar rótulos de uso de exclusão B2B | Exibir, criar e excluir rótulos de uso de dados (DULE) aplicados a conjuntos de dados e esquemas. |
+| Administração de sandbox | Gerenciar pacotes B2B | Criar, exportar, importar, copiar e excluir pacotes de sandbox. |
+
+Para fornecer suporte a destinos externos no [!DNL Journey Optimizer B2B Prime], as seguintes permissões são necessárias:
+
+| Categoria | Permissão | Descrição |
+| -------- | ----------- | ---------- |
+| Painéis | Ver Painéis de Controle Padrão | Acesso somente para visualização aos painéis _Perfis_, _Destinos_ e _Segmentos_. Também permite o acesso a _Painéis_ na navegação à esquerda e na guia _Painéis_ do inventário e integrações. |
+| | Gerenciar painéis padrão | Adicione atributos personalizados que ainda não estão no data warehouse. |
+| Destinos | Exibir destinos | Acesso somente para visualização para exibir os destinos disponíveis na guia _Catálogo_ e destinos autenticados na guia _Procurar_. |
+| | Gerenciar destinos | Exibir, criar e excluir conexões de destino e contas de destino. |
+| | Ativar destinos | Ativar dados para destinos ativos. _Exibir Destinos_ ou _Gerenciar Destinos_ também são necessários para acessar esta função. |
+| | Ativar segmento sem mapeamento | Ative públicos para destinos existentes, sem exibir a etapa de mapeamento. Os usuários podem adicionar e remover públicos-alvo em workflows de ativação, mas não podem adicionar ou remover atributos ou identidades mapeadas. A permissão _Exibir Destinos_ também é necessária para acessar esta função. |
+| | Gerenciar e ativar destino do conjunto de dados | Visualize, crie, edite e desative fluxos de exportação de conjunto de dados, bem como ative dados para conjuntos de dados ativos. A permissão _Exibir Destinos_ também é necessária para acessar esta função. |
+| | Criação de destino | Capacidade de criar destinos usando o Adobe Experience Platform Destination SDK. |
+| Governança de dados | Exibir políticas de uso de dados | Acesso somente para visualização para políticas de uso de dados pertencentes à sua organização. |
+| | Gerenciar políticas de uso de dados | Exibir, criar, editar e excluir políticas de uso de dados. |
+| Ingestão de dados | Exibir fontes | Acesso somente para visualização a fontes disponíveis na guia _Catálogo_ e fontes autenticadas na guia _Procurar_. |
+| | Gerenciar fontes | Exibir, criar, editar e desativar fontes. |
+| Gerenciamento de perfil | Exibir configurações do perfil | Acesso somente para visualização a todas as configurações do perfil. |
+| | Gerenciar configurações do perfil | Exibir e editar todas as configurações de perfil. |
+
+<!--
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -267,7 +288,7 @@ _Para alterar as permissões de uma função :_
 
 ### Adicionar grupos de usuários a uma função {#add-user-groups-to-a-role}
 
-Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/br/business/enterprise/manage-users/users.html){target="_blank"} na documentação do Admin Console.
+Para obter informações sobre o gerenciamento de usuários, consulte [_usuários do Adobe Admin Console_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} na documentação do Admin Console.
 
 ![Requisitos de função de administrador](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Um administrador do sistema ou administrador do Experience Platform pode executar as seguintes etapas.
 
@@ -305,11 +326,11 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 1. Adicionar permissões de produto B2B:
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   Para determinar quais recursos do produto você deseja para a função, consulte a lista de [permissões do produto](#permissions).
 
    Na lista _[!UICONTROL Recursos]_ à esquerda, localize os itens B2B e clique no ícone _Adicionar_ (**+**) para adicionar cada atributo que você deseja habilitar para a função.
 
-   Você pode digitar _B2B_ na ferramenta de pesquisa para filtrar a lista de permissões de produtos B2B.
+   Você pode digitar _B2B_ na ferramenta de pesquisa para filtrar a lista para muitas das permissões de produtos B2B.
 
    ![Experience Platform - Permissões B2B](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
