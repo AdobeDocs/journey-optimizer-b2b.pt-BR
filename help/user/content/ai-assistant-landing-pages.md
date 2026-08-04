@@ -47,7 +47,7 @@ Você pode gerar experiências completas de conteúdo para suas páginas de ater
 
 Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Para promover a transparência na IA gerativa, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aos ativos gerados pela Firefly após o download ou a exportação.
+Para promover a transparência na IA gerativa, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aos ativos gerados pela Firefly após o download ou a exportação.
 
 As limitações e diretrizes a seguir se aplicam aos recursos do Assistente de IA usados para gerar conteúdo da página de aterrissagem no [!DNL Journey Optimizer B2B Edition]:
 
