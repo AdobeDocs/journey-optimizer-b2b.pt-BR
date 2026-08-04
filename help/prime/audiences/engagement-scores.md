@@ -4,21 +4,13 @@ description: Calcular as pontuações de engajamento da pessoa para clientes pot
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,7 +22,7 @@ ht-degree: 8%
 >title="Pontuação de engajamento de pessoa"
 >abstract="As pontuações de engajamento da pessoa refletem o nível de engajamento de leads individuais com base em suas atividades recentes."
 
-A pontuação de engajamento de uma pessoa é um número que reflete o nível de engajamento de um lead individual. As pontuações são baseadas nas atividades que uma pessoa realiza, com cada tipo de atividade carregando um valor ponderado. As pontuações são normalizadas em sua instância (locatário) para permitir comparação consistente e insights acionáveis.
+A pontuação de engajamento de uma pessoa é um número que reflete o nível de engajamento de um lead individual. As pontuações são baseadas nas atividades que uma pessoa realiza, em que cada tipo de atividade carrega um valor ponderado. As pontuações são normalizadas em sua instância (locatário) para permitir comparação consistente e insights acionáveis.
 
 O cálculo de pontuação é executado diariamente. Qualquer atividade ponderada pelo envolvimento realizada pela pessoa nos últimos 30 dias contribui para a pontuação. Com essa janela contínua de 30 dias, as ocorrências de atividades mais antigas expiram e as pontuações podem diminuir com o tempo (declínio da pontuação). As pontuações exibidas são arredondadas (por exemplo, uma pontuação de 75,89999 é exibida como 76).
 
@@ -38,7 +30,7 @@ Os dados de pontuação do compromisso estão disponíveis em **[!UICONTROL Rela
 
 ![Dados de relatório de pontuação do engajamento da pessoa](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-A pontuação de engajamento da pessoa é um atributo que você pode usar como uma [condição de filtro](#engagement-score-filter) em listas de pessoas e em nós de caminho dividido em jornadas de pessoas.
+A pontuação de engajamento da pessoa é um atributo que você pode usar como uma [condição de filtro](#engagement-score-filter) em listas de pessoas e nós de caminho dividido em jornadas de pessoas.
 
 ## Atividades usadas para pontuação de engajamento {#activities}
 
@@ -89,11 +81,11 @@ O sistema aplica um processo de normalização em várias etapas para produzir u
 
 1. Calcule a pontuação bruta de engajamento somando a atividade diária por tipo de atividade, multiplicando-a pelo peso associado e somando os resultados em todos os dias na janela de retrospectiva.
 
-1. Aplique uma _Transformação de Potência_ (Raiz Quadrada) para estabilizar a variação, reduzindo o impacto de valores atípicos.
+1. Para estabilizar a variação reduzindo o impacto de valores atípicos, aplique uma _Transformação de Potência_ (Raiz Quadrada).
 
    Essa transformação reduz a distorção e torna os padrões nos dados mais lineares.
 
-1. Aplique uma transformação de _Normalização em Escala_ para garantir que as pontuações usem o intervalo completo de 0 a 100.
+1. Para garantir que as pontuações usem o intervalo completo de 0 a 100, aplique uma transformação de _Normalização em Escala_.
 
 ## Filtrar por pontuação de engajamento {#engagement-score-filter}
 
@@ -103,7 +95,7 @@ O filtro _[!UICONTROL Pontuação de engajamento da pessoa]_ aparece no painel d
 
 ### Listas de pessoas {#people-lists}
 
-Ao adicionar ou remover membros de uma [lista estática de pessoas](./people-lists.md#static-list) ou ao definir as regras de associação para uma [lista dinâmica de pessoas](./people-lists.md#dynamic-lists), você pode filtrar por pontuação de engajamento de pessoa para direcionar todas as pessoas cujos atributos correspondem aos seus critérios de pontuação.
+Ao gerenciar membros em uma [lista estática de pessoas](./people-lists.md#static-lists) ou definir regras para uma [lista dinâmica de pessoas](./people-lists.md#dynamic-lists), você pode filtrar por pontuação de engajamento de pessoa para segmentar as pessoas que correspondem aos seus critérios.
 
 ![Filtragem de pontuação de envolvimento de pessoa para uma lista de pessoas](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ Ao configurar a segmentação para uma jornada de pessoa em um nó [_Dividir cam
 
 No [!DNL Journey Optimizer B2B Prime], você pode configurar a ponderação da pontuação de engajamento diretamente da [interface de chat do Assistente de IA](../agents/chat-interface.md).
 
-Para obter informações sobre modelos de pontuação de envolvimento, faixas de ponderação e pesos da atividade, consulte [Configurar ponderação de pontuação de envolvimento personalizada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Para obter informações sobre modelos de pontuação de envolvimento, faixas de ponderação e pesos da atividade, consulte [Configurar ponderação de pontuação de envolvimento personalizada](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Abra o painel de chat do **[!UICONTROL Assistente de IA]** no lado esquerdo da tela (ícone de chat).
 
@@ -205,13 +197,13 @@ Os modelos de rascunho têm opções editáveis de _[!UICONTROL Ponderação]_ p
 
 1. Na tabela de atividades, localize a atividade de engajamento que deseja atualizar.
 
-1. Clique na seta para baixo **[!UICONTROL Ponderação]** para essa atividade e selecione a faixa de ponderação apropriada (por exemplo, `Important`,`Trivial`, `Minor`, `Normal` e `Vital`).
+1. Clique na seta para baixo **[!UICONTROL Ponderação]** para essa atividade e selecione a faixa de ponderação apropriada (por exemplo, `Important`, `Trivial`, `Minor`, `Normal` e `Vital`).
 
    As alterações são salvas automaticamente — nenhuma ação Salvar explícita é necessária.
 
 >[!NOTE]
 >
->Para editar um modelo ativo ou arquivado, você pode duplicá-lo para criar um novo modelo de rascunho e, em seguida, editar e ativar a duplicata. Não é possível editar um modelo ativo no local.
+>Para editar um modelo ativo ou arquivado, duplique-o para criar um novo modelo de rascunho, depois edite e ative a duplicata. Não é possível editar um modelo ativo no local.
 
 ### Ativar um modelo de rascunho {#activate-weighting-model}
 

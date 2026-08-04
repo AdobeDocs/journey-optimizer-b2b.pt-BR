@@ -4,20 +4,14 @@ description: Visualize os detalhes do grupo de compras com insights alimentados 
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +20,7 @@ ht-degree: 4%
 
 # Detalhes do grupo de compra
 
-Quando você clica em um nome de grupo de compras em qualquer lugar no Journey Optimizer B2B edition, os detalhes do grupo de compras são exibidos. Essa visão geral fornece informações úteis sobre o grupo de compras, incluindo resumos de IA generativos. Também há [ações](#buying-group-actions) que você pode executar para contatos associados à conta.
+Quando você clica em um nome de grupo de compras em qualquer lugar no Journey Optimizer B2B edition, os detalhes do grupo de compras são exibidos. Essa visão geral fornece informações úteis sobre o grupo de compras, incluindo resumos de IA generativos. Também há [ações](#members-tab) que você pode executar para contatos associados à conta.
 
 ![Acessar os detalhes do grupo de compras](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +61,7 @@ A seção de visão geral da conta inclui as seguintes informações da conta:
 
 ### Dados de intenção
 
-No Journey Optimizer B2B edition, o modelo de Detecção de intenções prevê uma solução/produto de interesse com alta confiança suficiente com base na atividade de compra dos membros do grupo. A intenção de comprar membros do grupo pode ser interpretada como a probabilidade de ter interesse em um produto.
+No Journey Optimizer B2B edition, o modelo de Detecção de intenções prevê uma solução/produto de interesse com confiança suficiente com base na atividade de compra dos membros do grupo. A intenção de comprar membros do grupo pode ser interpretada como a probabilidade de ter interesse em um produto.
 
 {{intent-data-note}}
 

@@ -4,33 +4,23 @@ description: Gerar conteúdo de email com o Assistente de IA - crie conteúdo de
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3592
+source-wordcount: 3582
 ht-degree: 0%
 
 ---
 
 # Assistente de IA para conteúdo de email
 
-À medida que o setor de marketing se torna mais competitivo, as marcas buscam maneiras eficientes de gerar conteúdo impactante de forma rápida e eficiente. O Assistente de IA para criação de emails no [!DNL Adobe Journey Optimizer B2B Edition] é o recurso de geração de conteúdo alimentado por IA da Adobe que revoluciona a forma como os profissionais de marketing criam conteúdo de email profissional e consistente com a marca. Com modelos avançados de IA gerativa e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz. Ele usa seu objetivo de marketing e otimiza o conteúdo para estilos, layouts, tons e muito mais. O AI Assistant torna a criação e a execução de campanhas de marketing por email intuitivas, simples e sem complicações. Adicionar esse recurso aos workflows pode economizar tempo, melhorar a eficiência e gerar melhores resultados.
+À medida que o setor de marketing se torna mais competitivo, as marcas buscam maneiras eficientes de gerar conteúdo impactante de forma rápida e eficiente. O Assistente de IA para criação de emails no [!DNL Adobe Journey Optimizer B2B Edition] é o recurso de geração de conteúdo alimentado por IA da Adobe que revoluciona a forma como os profissionais de marketing criam conteúdo de email profissional e consistente com a marca. Com modelos avançados de IA gerativa e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz. Ele usa seu objetivo de marketing e otimiza o conteúdo para estilos, layouts, tons e muito mais. O AI Assistant torna a criação e a execução de campanhas de marketing por email intuitivas, simples e eficientes. Adicionar esse recurso aos workflows pode economizar tempo, melhorar a eficiência e gerar melhores resultados.
 
 Esse novo recurso fornece uma geração de conteúdo com base em prompts para a geração completa de emails ou direcionada a componentes estruturais de email. Para imagens, você pode gerar novos ativos de imagem ou gerar recomendações no catálogo de imagens no ativo de marca de entrada. Você também pode usar esse recurso para gerar linhas de assunto e pré-cabeçalhos ideais para afetar a taxa de abertura do email.
 
@@ -40,9 +30,9 @@ Esse novo recurso fornece uma geração de conteúdo com base em prompts para a 
 
 ## Diretrizes e limitações
 
-Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
+Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-A Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aos ativos gerados pela Firefly após o download ou a exportação para promover a transparência.
+A Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aos ativos gerados pela Firefly após o download ou a exportação para promover a transparência.
 
 As limitações e diretrizes a seguir se aplicam aos recursos do Assistente de IA usados para a geração de conteúdo de email no [!DNL Journey Optimizer B2B Edition]:
 
@@ -72,7 +62,7 @@ Um prompt eficaz é essencial para gerar o melhor conteúdo possível. Se quiser
 
 ![Assistente de IA - acesse a Biblioteca de Prompts](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Selecione o prompt que melhor reflete suas metas e clique em **[!UICONTROL Tentar este Prompt]**. No campo _[!UICONTROL Prompt]_, substitua todos os espaços reservados (como `[Key Feature/Information]`) pelos valores necessários que especificam sua marca, oferta, campanha e casos de uso.
+Selecione o prompt que melhor reflete suas metas e clique em **[!UICONTROL Tentar este Prompt]**. No campo _[!UICONTROL Prompt]_, substitua todos os espaços reservados (como `[Key Feature/Information]`) por valores que especifiquem sua marca, oferta, campanha e casos de uso.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +70,7 @@ Selecione o prompt que melhor reflete suas metas e clique em **[!UICONTROL Tenta
 
 Expanda as **[!UICONTROL Configurações de texto]** no painel direito e defina as opções para o texto gerado.
 
-* **[!UICONTROL Grupo de compras]** - Escolha a [função de grupo de compras](../buying-groups/buying-groups-role-templates.md) a ser usada para direcionar suas mensagens. O [!DNL Journey Optimizer B2B Edition] oferece cinco funções de grupo de compra B2B padrão prontas para uso. Cada função de grupo de compras tem um foco de mensagem distinto:
+* **[!UICONTROL Grupo de compras]** - Escolha a [função de grupo de compras](../buying-groups/buying-groups-role-templates.md) a ser usada para direcionar suas mensagens. O [!DNL Journey Optimizer B2B Edition] oferece cinco funções de grupo de compra B2B padrão pré-configuradas. Cada função de grupo de compras tem um foco de mensagem distinto:
 
   | Função | Foco da mensagem |
   | ---- | --------------- |
@@ -93,7 +83,7 @@ Expanda as **[!UICONTROL Configurações de texto]** no painel direito e defina 
 * **[!UICONTROL Estágio da jornada de marketing]** - Escolha o [estágio de grupo de compras](../buying-groups/buying-group-stages.md) para usar para direcionar as mensagens.
 * **[!UICONTROL Estratégia de comunicação]** - Escolha o estilo de comunicação mais adequado para o texto gerado.
 * **[!UICONTROL Idioma]** - Escolha o idioma do conteúdo gerado.
-* **[!UICONTROL Tom]** - O tom deve repercutir junto ao seu público-alvo. Por exemplo, você pode ajustar a mensagem para soar informativa, divertida ou persuasiva.
+* **[!UICONTROL Tom]** - O tom que repercute em seu público-alvo. Por exemplo, você pode ajustar a mensagem para soar informativa, divertida ou persuasiva.
 
 ![Painel de configurações de texto mostrando o grupo de compras, o estágio de jornada de marketing, a estratégia de comunicação, o idioma e as opções de tom](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -106,7 +96,7 @@ Para incluir imagens em seu conteúdo gerado, expanda as **[!UICONTROL Configura
 Por padrão, o sistema desabilita a opção **[!UICONTROL Gerar imagens usando IA]**. Habilite esse recurso e defina as seguintes opções para incluir imagens geradas nas variações de conteúdo propostas:
 
 * **[!UICONTROL Modelo gerativo]**: selecione entre o modelo pronto para uso fornecido pela Adobe, o modelo de parceiro para recursos especializados ou modelos personalizados configurados e treinados nos ativos da sua marca. Para obter mais informações sobre modelos gerativos, consulte _[Modelos de IA gerativa para alinhamento de marca](generative-ai-models.md)_.
-* **[!UICONTROL Taxa de proporção]**: quando um componente de imagem é selecionado, esta configuração determina a largura e a altura do ativo. Escolha entre taxas comuns, como 16:9, 4:3, 3:2 ou 1:1, ou insira um tamanho personalizado.
+* **[!UICONTROL Taxa de proporção]**: quando um componente de imagem é selecionado, esta configuração determina a largura e a altura do ativo. Escolha entre as taxas comuns, como 16:9, 4:3, 3:2 ou 1:1, ou insira uma taxa personalizada.
 * **[!UICONTROL Tipo de conteúdo]**: o tipo categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
 * **[!UICONTROL Intensidade visual]**: controle o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (como 2) cria uma aparência mais suave e restrita, enquanto uma configuração mais alta (como 10) torna a imagem mais vibrante e visualmente poderosa.
 * **[!UICONTROL Cor e tom]**: a aparência geral das cores em uma imagem e o humor ou atmosfera que ela transmite.
@@ -188,7 +178,7 @@ As etapas a seguir descrevem a sequência de tarefas para usar o Assistente de I
 
 >[!TAB Geração de pré-cabeçalho]
 
-Um pré-cabeçalho de email é o texto curto de resumo que segue a linha de assunto quando um email é visualizado na caixa de entrada. É um elemento opcional de um email, mas uma ótima oportunidade para melhorar o engajamento. As etapas a seguir descrevem a sequência de tarefas para usar o Assistente do AI para gerar um pré-cabeçalho otimizado para seu email:
+Um pré-cabeçalho de email é o texto curto de resumo que segue a linha de assunto quando um email é visualizado na caixa de entrada. É um elemento opcional de um email, mas uma oportunidade eficaz para melhorar o engajamento. As etapas a seguir descrevem a sequência de tarefas para usar o Assistente do AI para gerar um pré-cabeçalho otimizado para seu email:
 
 1. No painel _Resumo_ com a guia _Detalhes_ selecionada, role para baixo e marque a caixa de seleção **[!UICONTROL Pré-cabeçalho]**.
 
@@ -213,7 +203,7 @@ Um pré-cabeçalho de email é o texto curto de resumo que segue a linha de assu
 
 1. Role o painel Assistente de IA e navegue pelas variações geradas para determinar qual é o melhor ajuste.
 
-   Você pode [enviar comentários](#submit-variation-feedback) sobre uma variante gerada clicando no ícone de _Polegar para Cima_, _Polegar para Baixo_ ou _Sinalizar_ e escolher o motivo que melhor resume seus comentários.
+   Você pode [enviar comentários](#submit-variation-feedback) sobre uma variante gerada clicando no ícone de _Polegar para Cima_, _Polegar para Baixo_ ou _Sinalizar_ e escolhendo o motivo que melhor resume seus comentários.
 
 1. Clique na opção **[!UICONTROL Refinar]** para acessar recursos de personalização adicionais:
 
@@ -235,7 +225,7 @@ Um pré-cabeçalho de email é o texto curto de resumo que segue a linha de assu
 
 ## Gerar conteúdo do corpo do email com o Assistente de IA {#generative-ai-email-design}
 
-Depois de [criar e personalizar seu email](./email-authoring.md), use o Assistente de IA no [!DNL Journey Optimizer B2B Edition], viabilizado pela IA generativa, para elevar seu conteúdo do corpo do email para o próximo nível.
+Depois de [criar e personalizar seu email](./email-authoring.md), use o Assistente de IA no [!DNL Journey Optimizer B2B Edition], viabilizado pela IA gerativa, para melhorar o conteúdo do corpo do email.
 
 No espaço de design de email, o Assistente de IA pode ajudar você a otimizar o impacto de seus deliveries, gerando o corpo completo do email, o conteúdo de texto direcionado e as imagens que refletem no seu público-alvo. Essa otimização de suas campanhas de email foi projetada para produzir um melhor engajamento. Selecione o _Assistente de IA_ ( ![alternância de menu do Assistente de IA](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) para exibir as ferramentas de geração de conteúdo disponíveis para a seleção de conteúdo atual.
 
@@ -247,7 +237,7 @@ Use as seguintes etapas de acordo com o tipo de geração de conteúdo de email 
 
 >[!TAB Geração de email completa]
 
-Siga estas etapas para usar o AI Assistant para a geração completa de email refinando um template de email existente:
+Para usar o Assistente de IA para geração de email completa refinando um template de email existente, siga estas etapas:
 
 1. Depois de [criar o email](./add-email.md), clique em **[!UICONTROL Editar conteúdo do email]**.
 
@@ -275,7 +265,7 @@ Siga estas etapas para usar o AI Assistant para a geração completa de email re
    >
    >Se você nunca solicitou o conteúdo gerado, reveja as _[Práticas recomendadas de solicitação](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
-1. Complete as configurações de orientação de conteúdo para adaptar o conteúdo gerado:
+1. Para personalizar o conteúdo gerado, conclua as configurações de orientação de conteúdo:
 
    * [**[!UICONTROL Configurações de texto]**](#text-settings) - Fornece orientação para o conteúdo de texto gerado.
    * [**[!UICONTROL Configurações de imagem]**](#image-settings) - Se quiser incluir imagens no conteúdo gerado, habilite a geração de imagens e forneça orientações.
@@ -289,7 +279,7 @@ Siga estas etapas para usar o AI Assistant para a geração completa de email re
 
    A caixa de diálogo fornece espaço adicional para comparar as variações, ajustar o texto e as configurações de conteúdo de referência (se necessário) e gerar novamente as variações.
 
-   Você também pode ajustar uma variação aplicando ações de refinamento e enviando feedback para as variações geradas. Consulte _[Visualização e refinamento de conteúdo](#preview-and-content-refinement)_ para obter mais detalhes sobre refinamento de variação e feedback.
+   Você também pode ajustar uma variação aplicando ações de refinamento e enviando feedback para as variações geradas. Consulte _[Visualização e refinamento de conteúdo](#refine-finalize)_ para obter mais detalhes sobre refinamento de variação e feedback.
 
    ![Visualização do Assistente de IA das opções de variação e refinamento de email](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
 
@@ -299,7 +289,7 @@ Siga estas etapas para usar o AI Assistant para a geração completa de email re
 
 >[!TAB Somente texto]
 
-Siga estas etapas para usar o Assistente de IA para refinar ou aprimorar o conteúdo de texto de um email existente:
+Para usar o Assistente de IA para refinar ou aprimorar o conteúdo de texto de um email existente, siga estas etapas:
 
 1. No espaço de design de email, selecione um componente _Texto_ para direcionar o conteúdo específico.
 
@@ -317,7 +307,7 @@ Siga estas etapas para usar o Assistente de IA para refinar ou aprimorar o conte
 
    Use a [Biblioteca de Prompts](#prompt-library) se precisar de ajuda para criar um prompt eficaz.
 
-1. Complete as configurações de orientação de conteúdo para adaptar o conteúdo gerado:
+1. Para personalizar o conteúdo gerado, conclua as configurações de orientação de conteúdo:
 
    * [**[!UICONTROL Configurações de texto]**](#text-settings) - Fornece orientação para o conteúdo de texto gerado.
 
@@ -339,7 +329,7 @@ Siga estas etapas para usar o Assistente de IA para refinar ou aprimorar o conte
 
 >[!TAB Somente imagem]
 
-Siga estas etapas para usar o Assistente de IA para refinar ou aprimorar o conteúdo de imagem de um email existente:
+Para usar o Assistente de IA para refinar ou aprimorar o conteúdo de imagem de um email existente, siga estas etapas:
 
 1. No espaço de design de email, selecione um componente de _Imagem_ para direcionar o conteúdo específico.
 
@@ -357,7 +347,7 @@ Siga estas etapas para usar o Assistente de IA para refinar ou aprimorar o conte
 
    Use a [Biblioteca de Prompts](#prompt-library) se precisar de ajuda para criar um prompt eficaz.
 
-1. Complete as configurações de orientação de conteúdo para adaptar o conteúdo gerado:
+1. Para personalizar o conteúdo gerado, conclua as configurações de orientação de conteúdo:
 
    * [**[!UICONTROL Configurações de imagem]**](#image-settings) - Se quiser incluir imagens no conteúdo gerado, habilite a geração de imagens e use as configurações de orientação.
 
@@ -407,7 +397,7 @@ Clique na opção **[!UICONTROL Refinar]** para acessar recursos de personaliza�
 
 * **[!UICONTROL Elaborar]** - O Assistente de IA pode ajudá-lo a expandir tópicos específicos, fornecendo detalhes adicionais para melhor compreensão e engajamento.
 
-* **[!UICONTROL Resumir]** - Informações extensas podem sobrecarregar os visualizadores da página. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que chamem a atenção e os incentivem a ler mais.
+* **[!UICONTROL Resumir]** - Informações demoradas podem sobrecarregar os leitores. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que chamem a atenção e os incentivem a ler mais.
 
 * **[!UICONTROL Refrase]** - Reescreva a mensagem preservando seu significado. Essa opção ajuda a gerar texto alternativo, melhorar o fluxo ou ajustar o estilo sem alterar a mensagem principal.
 
@@ -425,7 +415,7 @@ Clique na opção **[!UICONTROL Refinar]** para acessar recursos de personaliza�
 
 ### Enviar feedback sobre variações
 
-Forneça feedback sobre as variantes geradas clicando no ícone _Polegar para Cima_, _Polegar para Baixo_ ou _Sinalizar_ e escolha o motivo que melhor resume seu feedback.
+Forneça feedback sobre as variantes geradas clicando no ícone _Polegar para Cima_, _Polegar para Baixo_ ou _Sinalizar_ e escolhendo o motivo que melhor resume seu feedback.
 
 ![Assistente de IA - visualizar as variações geradas](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 

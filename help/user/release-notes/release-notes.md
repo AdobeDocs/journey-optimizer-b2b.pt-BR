@@ -3,21 +3,14 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 5351
 ht-degree: 64%
@@ -28,7 +21,7 @@ ht-degree: 64%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -176,7 +169,7 @@ Essa implementação oferece vários benefícios:
 * **Unifique e dimensione os seus dados facilmente**: a plataforma atualizada permite o uso de modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
 * **Conecte várias instâncias do Adobe Marketo Engage**: gerencie e unifique dados de vários ambientes do Adobe Marketo Engage no mesmo lugar.
 * **Mantenha os seus dados seguros**: os recursos avançados de privacidade e segurança ajudam a proteger as informações dos seus clientes.
-* **Criado para o futuro**: esta atualização prepara a sua organização para melhorias e inovações contínuas.
+* **Projetado para escalabilidade de longo prazo**: essa atualização configura a sua organização para melhorias e inovações contínuas.
 
 >[!NOTE]
 >
@@ -203,7 +196,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Recurso | Colaboração de conteúdo de email | As equipes de marketing agora podem comentar e colaborar com outros usuários do Journey Optimizer B2B edition no contexto de um ativo de email. Eles podem marcar os membros da equipe para receber uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação por pulso. [Saiba mais](../content/email-collaboration-tools.md) |
 | Recurso | Modo escuro para design de email | O espaço de design de email agora inclui a capacidade de alternar para o _modo escuro_. No modo escuro, você pode visualizar o conteúdo do email e definir configurações personalizadas a serem exibidas especificamente para destinatários que visualizam seus emails no modo escuro. [Saiba mais](../content/email-dark-mode.md) |
 | Aprimoramento | Jornadas: dividir caminho pelo número de pessoas na função | Use um caminho dividido pelo nó da conta para direcionar uma conta com o número de pessoas em uma ou mais funções de grupo de compra. No caminho, você pode avaliar a prontidão do grupo de compras com respeito a alertas de vendas e outras interações com base na profundidade da função. [Saiba mais](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
-| Aprimoramento | Jornadas: filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica para um grupo de compra correspondente. [Saiba mais](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+| Aprimoramento | Jornadas: filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica para um grupo de compra correspondente. [Saiba mais](../journeys/listen-for-event-nodes.md#filters-people-event) |
 
 >[!NOTE]
 >
@@ -252,7 +245,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | ---- | ---- | ----------- |
 | Recurso | Testes de email com o Litmus | Com uma [conta Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, agora você pode visualizar o e-mail rendering em clientes de email populares do Journey Optimizer B2B Edition. Essa integração ajuda a garantir que o conteúdo do seu email tenha uma ótima aparência e funcione conforme planejado em todas as caixas de entrada de email. [Saiba mais](../content/email-test-rendering.md) |
 | Aprimoramento | Duplicar email | Ao adicionar um email relacionado a um nó da jornada, agora é possível duplicar um email existente. Modifique a configuração ou o conteúdo do email duplicado, ou deixe-o intacto.  [Saiba mais](../content/add-email.md#add-an-email-to-your-journey) |
-| Aprimoramento | Formato de token handlebar para email | Os tokens de personalização para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#content-authoring---personalization) |
+| Aprimoramento | Formato de token handlebar para email | Os tokens de personalização para conteúdo de email agora usam um formato atualizado que é totalmente compatível com os scripts handlebar. Este formato usa _camel case_ ou sublinhados, eliminando espaços. [Saiba mais](../content/email-authoring.md#personalize-content) |
 | Aprimoramento | Exibição da contagem total de listas | As páginas de lista _[!UICONTROL Interesses da solução]_ e _[!UICONTROL Jornadas da conta]_ foram aprimoradas com a exibição da contagem total ao lado da barra de pesquisa. |
 
 ## Notas da versão 2025.4 {#rel-2025-4}

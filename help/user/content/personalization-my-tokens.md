@@ -6,28 +6,22 @@ role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # Tokens personalizados para personalização de email
 
-A personalização de conteúdo usa tokens como espaços reservados ou variáveis que são preenchidas quando o artefato de conteúdo é gerado. Os tokens de personalização padrão estão disponíveis para emails, landing pages, fragmentos e templates. Você também pode definir um conjunto de tokens personalizados com valores específicos para a jornada da conta. Este conjunto de tokens personalizados é chamado de _Meus tokens_, e qualquer um desses tokens personalizados serve para personalização ao [criar emails de jornada](./email-authoring.md#content-authoring---personalization).
+A personalização de conteúdo usa tokens como espaços reservados ou variáveis que são preenchidas quando o artefato de conteúdo é gerado. Os tokens de personalização padrão estão disponíveis para emails, landing pages, fragmentos e templates. Você também pode definir um conjunto de tokens personalizados com valores específicos para a jornada da conta. Este conjunto de tokens personalizados é chamado de _Meus tokens_, e qualquer um desses tokens personalizados pode ser usado para personalização ao [criar emails de jornada](./email-authoring.md#personalize-content).
 
 Além de _Meus tokens_, que são específicos para a jornada da conta, você pode usar qualquer um dos tokens padrão (incorporados) para personalização de email.
 
@@ -35,7 +29,7 @@ Além de _Meus tokens_, que são específicos para a jornada da conta, você pod
 
 Os _Meus tokens_ são variáveis personalizadas que você cria ou modifica para uma jornada de conta no status Rascunho. Este conjunto de tokens personalizado atualmente oferece suporte a definições de token de texto e número.
 
-Ao adicionar um token personalizado a um email, ele é exibido como `{{my.TokenName}}`. Por exemplo, você pode ter `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` tokens criados para gerenciar conteúdo de email relacionado a webinários futuros.
+Ao adicionar um token personalizado a um email, ele é exibido como `{{my.TokenName}}`. Por exemplo, você tem `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` tokens criados para gerenciar conteúdo de email relacionado a webinários futuros.
 
 _Para acessar os tokens personalizados de uma jornada de conta :_
 
@@ -61,7 +55,7 @@ _Para acessar os tokens personalizados de uma jornada de conta :_
 
    ![Insira um nome e um valor para o token de texto](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   Não é possível usar espaços ou caracteres especiais no nome do token. Você pode usar _camel case_, como `EventType`, para usar um nome com várias palavras que seja facilmente identificado.
+   Não é possível usar espaços ou caracteres especiais no nome do token. Você pode usar camel case, como `EventType`, para usar um nome com várias palavras que seja facilmente identificado.
 
    Se você estiver definindo um token de _Número_, o valor poderá conter somente caracteres numéricos. Você pode usar um valor decimal.
 

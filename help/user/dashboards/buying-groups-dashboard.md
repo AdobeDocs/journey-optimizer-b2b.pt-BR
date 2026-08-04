@@ -4,22 +4,16 @@ description: Acompanhe o progresso do grupo de compras com pontuações de concl
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +27,7 @@ A entrega de vendas inclui:
 * **Transferência de dados**: o marketing identifica os dados de destino _prontos_ e os torna acessíveis para o setor de Vendas no formato CSV. 
 * **Aceitação de vendas**: as vendas revisam manualmente e incorporam destinos _prontos_ em seus pipelines.
 
-Para acessar este painel, expanda **[!UICONTROL Contas]** na navegação à esquerda e selecione **[!UICONTROL Grupos de compras]**. Selecione a guia **[!UICONTROL Visão geral]** se ela não for exibida por padrão.
+Para acessar este painel, expanda **[!UICONTROL Contas]** na navegação à esquerda e selecione **[!UICONTROL Grupos de compras]**. Selecione a guia **[!UICONTROL Visão geral]** se o sistema não exibi-la por padrão.
 
 ![Visão geral dos Grupos de Compras](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +45,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## Pontuação de conclusão do grupo de compra
 
-Esta visualização ilustra a distribuição de grupos de compra com base nas pontuações de conclusão e é categorizada em quatro faixas de pontuação distintas. O número central representa o número total de grupos de compra e fornece um instantâneo rápido do progresso geral. As cores segmentadas indicam a proporção de grupos de compras em cada intervalo de pontuação, o que permite avaliar as tendências de conclusão rapidamente.
+Esta visualização ilustra a distribuição de grupos de compra com base nas pontuações de conclusão e é categorizada em quatro faixas de pontuação distintas. O número central representa o número total de grupos de compra e fornece um resumo do progresso geral. As cores segmentadas indicam a proporção de grupos de compras em cada intervalo de pontuação, o que permite avaliar as tendências de conclusão rapidamente.
 
 Para exibir informações mais detalhadas, clique no ícone de menu **...** na parte superior direita.
 
@@ -84,7 +78,7 @@ Clique no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filt
 
 ![Filtrar os dados exibidos por atributos](./assets/buying-group-overview-filters.png){width="500"}
 
-Selecione quantos valores para cada atributo que deseja usar para filtrar os dados e clique em **[!UICONTROL Aplicar]**.
+Selecione quantos valores quiser usar para cada atributo para filtrar os dados e clique em **[!UICONTROL Aplicar]**.
 
 ## Interagir com os dados
 
@@ -100,7 +94,7 @@ Os filtros globais aplicados ao painel são transferidos. Clique no ícone _Filt
 
 Você pode clicar no link _Mais_ (**...**) no canto superior direito e escolha **[!UICONTROL Exibir mais]** para [exibir dados estendidos](#view-more).
 
-### [!UICONTROL Exibir mais]
+### [!UICONTROL Exibir mais] {#view-more}
 
 Escolha **[!UICONTROL Exibir mais]** para exibir dados e insights estendidos.
 

@@ -4,21 +4,16 @@ description: 'Simplifique a geração de demanda com o jornada: crie, publique e
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1512
+source-wordcount: 1504
 ht-degree: 42%
 
 ---
@@ -33,7 +28,7 @@ O Journey Optimizer B2B edition é compatível com dois tipos de jornada:
 
   ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral da jornada da conta](#overview-video)
 
-* **jornadas de pessoas** - (Beta) Orquestrar o marketing com base em clientes potenciais usando públicos-alvo e dados da Experience Platform. Com jornadas pessoais, suas operações de marketing não dependem do Marketo Engage ou de soluções alternativas para cadeias de ferramentas Adobe Campaign/B2C para que possam trabalhar com casos de uso B2B.
+* **jornadas de pessoas** - (Beta) Orquestrar o marketing baseado em clientes potenciais usando públicos-alvo e dados da Experience Platform. Com jornadas pessoais, suas operações de marketing não dependem do Marketo Engage ou de soluções alternativas para cadeias de ferramentas Adobe Campaign/B2C para que possam dar suporte a casos de uso B2B.
 
   Quando usada em conjunto com jornadas de conta e grupos de compra, uma jornada de pessoa pode fornecer aos profissionais de marketing o poder de aplicar a orquestração completa à jornada de compra.
 
@@ -41,17 +36,17 @@ O Journey Optimizer B2B edition é compatível com dois tipos de jornada:
 
   Existem limitações que podem bloquear certos casos de uso ou causar dificuldade para criar jornadas de pessoas. Muitos problemas são resultado da implementação inicial do programa beta, que deverá ser abordada no futuro.
 
-   * Eventos não podem ser combinados com atributos de perfil para restringir as definições de público.
-   * O contexto do evento que qualifica um perfil para uma jornada não pode ser usado para personalização ou orquestração.
-   * No momento, o Jornada não pode ter um evento e um critério de entrada de segmento de perfil.
-   * Os ouvintes de eventos não podem ouvir vários eventos.
-   * No momento, os nós de espera não têm um conjunto completo de opções para os critérios de dia da semana ou hora do dia de saída.
-   * O editor de email faz referência incorretamente a recursos e atributos que só estão disponíveis para Jornadas de conta
-   * O suporte para tokens de jornada personalizados (_Meus tokens_) ainda não está disponível.
-   * Adicionar e Remover dos nós de jornada de pessoa não está disponível atualmente em nenhum dos tipos de jornada.
-   * O histórico de eventos não pode ser usado para orquestração ou personalização.
-   * Objetos relacionados (como conta, grupo de compra, oportunidade e objetos personalizados) não podem ser usados para orquestração ou personalização.
-   * No momento, não há suporte para canais de plataforma da Web, SMS e anúncio.
+  * Eventos não podem ser combinados com atributos de perfil para restringir as definições de público.
+  * O contexto do evento que qualifica um perfil para uma jornada não pode ser usado para personalização ou orquestração.
+  * No momento, o Jornada não pode ter um evento e um critério de entrada de segmento de perfil.
+  * Os ouvintes de eventos não podem ouvir vários eventos.
+  * No momento, os nós de espera não têm um conjunto completo de opções para os critérios de dia da semana ou hora do dia de saída.
+  * O editor de email faz referência incorretamente a recursos e atributos que só estão disponíveis para Jornadas de conta
+  * O suporte para tokens de jornada personalizados (_Meus tokens_) ainda não está disponível.
+  * Adicionar e Remover dos nós de jornada de pessoa não está disponível atualmente em nenhum dos tipos de jornada.
+  * O histórico de eventos não pode ser usado para orquestração ou personalização.
+  * Os objetos relacionados (conta, grupo de compra, oportunidade e objetos personalizados) não podem ser usados para orquestração ou personalização.
+  * No momento, não há suporte para canais de plataforma da Web, SMS e anúncio.
 
   +++
 
@@ -114,11 +109,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando uma jornada é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
-| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Abortar](#abort-journey) |
-| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
-| _&#x200B;**Concluída**&#x200B;_ | Quando todos os membros de conta ou público-alvo de pessoa em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Rascunho**_ | Uma jornada não publicada que é editável. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Ativa**_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando uma jornada é publicada. Nesse estado, ela não é mais editável. | <li>[Duplicar](#duplicate-journey)<li>[Fechar para novas entradas](#close-to-new-entries) <li>[Abortar](#abort-journey) |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativa_ para _Fechada para novas entradas_ quando você clica em [!UICONTROL Fechar para novas entradas] na navegação superior. | <li>[Duplicar](#duplicate-journey) <li>[Abortar](#abort-journey) |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
+| _**Concluída**_ | Quando todos os membros de conta ou público-alvo de pessoa em uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | <li>[Duplicar](#duplicate-journey) <li>[Excluir](#delete-journey) |
 
 ## Jornada mapas
 
@@ -200,7 +195,7 @@ Uma ação duplicada é semelhante a uma função de clone, mas uma jornada dupl
 
    A jornada duplicada é aberta no mapa de jornadas, onde você pode definir os detalhes e criar conteúdo da jornada conforme necessário.
 
-### Excluir uma jornada
+### Excluir uma jornada {#delete-journey}
 
 Use uma ação de exclusão para excluir uma jornada permanentemente. Não é possível excluir uma jornada ativa ou programada.
 
@@ -216,7 +211,7 @@ Use uma ação de exclusão para excluir uma jornada permanentemente. Não é po
 
 ## Revisar progressão da conta
 
-Para uma jornada de conta publicada que esteja em um status _Ativo_, _Fechado para novas entradas_, _Abortado_ ou _Concluído_, você pode abrir o mapa de jornadas para examinar a progressão de conta para os nós de jornada. Cada nó no mapa exibe o número de contas para chegar a esse nó e, para jornadas ativas, o número de contas atualmente nesse nó.
+Para uma jornada de conta publicada em um status do _Live_, _Fechado para novas entradas_, _Anulado_ ou _Concluído_, abra o mapa de jornadas para examinar a progressão de conta para os nós de jornada. Cada nó no mapa exibe o número de contas para chegar a esse nó e, para jornadas ativas, o número de contas atualmente nesse nó.
 
 ![Informações sobre o progresso da conta do nó da jornada](./assets/node-account-progression-observability.png){width="400"}
 
@@ -226,4 +221,4 @@ Ao selecionar o nó, clique no número para visualizar uma lista de contas que e
 
 ## Vídeo de visão geral da jornada de conta {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443212/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

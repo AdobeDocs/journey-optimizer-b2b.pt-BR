@@ -4,24 +4,17 @@ description: Crie públicos-alvos da conta com segmentação para direcionar con
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-03-30T19:50:18.033Z
 TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 92%
+source-wordcount: 600
+ht-degree: 74%
 
 ---
 
@@ -33,7 +26,7 @@ Saiba mais sobre públicos-alvos da conta e como defini-los na [documentação d
 
 ## Fluxo de trabalho do público-alvo da conta
 
-Pense no Journey Optimizer B2B Edition como um destino da Experience Platform (AEP) que não aparece no catálogo de destinos. Ative públicos-alvos da conta para o Journey Optimizer B2B Edition seguindo estas etapas:
+O Journey Optimizer B2B edition funciona como um destino do Experience Platform (AEP) que não aparece no catálogo de destinos. Ative públicos-alvos da conta para o Journey Optimizer B2B Edition seguindo estas etapas:
 
 1. Crie esquemas para seus dados na AEP.
 1. Assimile os dados na AEP.
@@ -48,7 +41,7 @@ O Journey Optimizer B2B Edition permite criar públicos-alvos da conta da Adobe 
 
 ## Criar um público-alvos da conta
 
-Defina o público-alvo da conta criando uma segmentação de conta. Crie a segmentação de conta diretamente no aplicativo Journey Optimizer B2B Edition ou utilize a [interface do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Veja a seguir as etapas que podem ser usadas para criar uma segmentação de conta no Journey Optimizer B2B Edition.
+Defina o público da conta criando um segmento de conta. Você tem a opção de criar o segmento de conta diretamente no aplicativo Journey Optimizer B2B edition, ou pode usar a [Interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Veja a seguir as etapas que você pode usar para criar um segmento de conta no Journey Optimizer B2B edition.
 
 1. Na navegação à esquerda, escolha **[!UICONTROL Contas]** > **[!UICONTROL Públicos-alvo]**.
 
@@ -56,7 +49,7 @@ Defina o público-alvo da conta criando uma segmentação de conta. Crie a segme
 
 1. Crie a definição do segmento.
 
-   Os atributos e os públicos-alvo da conta são exibidos na barra de navegação esquerda. Na guia _[!UICONTROL Atributos]_, é possível adicionar atributos personalizados e criados pela plataforma. Arraste cada atributo para criar a lógica do segmento.
+   Os atributos e os públicos-alvo da conta são exibidos na barra de navegação esquerda. Na guia _[!UICONTROL Atributos]_, é possível adicionar atributos personalizados e criados pela plataforma. Para criar a lógica do segmento, arraste cada atributo.
 
    >[!TIP]
    >
@@ -64,7 +57,7 @@ Defina o público-alvo da conta criando uma segmentação de conta. Crie a segme
    >
    >Na guia _[!UICONTROL Públicos-alvos]_, é possível adicionar públicos-alvos baseados em pessoas criados anteriormente como referência para criar seu próprio público-alvo da conta.
 
-   O exemplo a seguir define o público-alvo criado por meio de `Country Code`, `Revenue Amount` e `Market segment`. A consulta em inglês seria “I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M.” (Busco todas as contas do segmento de Finanças nos EUA cuja receita exceda US$ 1 milhão).
+   O exemplo a seguir define um público-alvo criado usando `Country Code`, `Revenue Amount` e `Market segment`. A consulta em inglês é &quot;I want all US accounts in the Finance Segment whose revenue greater $1M&quot; (Quero todas as contas dos EUA no segmento financeiro cuja receita exceda US$ 1 milhão).
 
    ![exemplo do construtor de segmento de público-alvo da conta](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
@@ -78,4 +71,4 @@ Defina o público-alvo da conta criando uma segmentação de conta. Crie a segme
 
 1. Clique em **[!UICONTROL Salvar e fechar]** na parte superior direita.
 
-Para ativar o público-alvo da conta para o Journey Optimizer B2B Edition, você deve [adicioná-lo a uma jornada de conta](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) e [publicar a jornada](../journeys/journeys-overview.md).
+Para ativar o público-alvo da conta para o Journey Optimizer B2B Edition, você deve [adicioná-lo a uma jornada de conta](../journeys/account-audience-nodes.md) e [publicar a jornada](../journeys/journeys-overview.md).
