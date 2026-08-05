@@ -19,16 +19,16 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
 
 # Listas de contas
 
-No Journey Optimizer B2B edition, uma lista de contas é uma coleção de contas nomeadas que os profissionais de marketing podem usar para a orquestração de jornadas direcionada. Uma lista de contas pode direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. Há dois tipos de listas de contas:
+No Journey Optimizer B2B edition, uma lista de contas é uma coleção de contas nomeadas que os profissionais de marketing podem usar para a orquestração de jornadas direcionadas. Uma lista de contas pode direcionar contas nomeadas de acordo com seus critérios definidos, como setor, local ou tamanho da empresa. Há dois tipos de listas de contas:
 
 * **Estático** - Com uma lista de contas estáticas, a lista só é alterada quando você adiciona as contas. Você pode adicionar contas manualmente aplicando um conjunto de filtros para preencher a lista com base nos dados atuais da conta, ou adicionar e remover contas por meio de uma jornada de conta.
 * **Dinâmico** - Com uma lista de contas dinâmica, você define um conjunto de filtros para preparar automaticamente a lista. O sistema usa esse conjunto de filtros para adicionar e remover contas de acordo com as alterações nas informações da conta. Este gerenciamento de lista é semelhante à [segmentação de público na Real-time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
@@ -69,7 +69,7 @@ Para exibir a descrição de uma lista de contas, clique no ícone _Informaçõe
 
 Ao criar uma lista de contas, você define um conjunto de filtros para gerar a lista. Por exemplo, você pode usá-lo para gerar uma lista de contas em que o setor se situe na área de saúde e a receita seja superior a US$ 100 milhões.
 
-1. Na página _[!UICONTROL Listas de contas]_, clique em **[!UICONTROL Criar lista de contas]** no canto superior direito da página.
+1. Na página _[!UICONTROL Listas de contas]_, clique em **[!UICONTROL Criar lista de contas]** na parte superior direita da página.
 
    ![Clique em Criar lista de contas](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
@@ -85,19 +85,19 @@ Ao criar uma lista de contas, você define um conjunto de filtros para gerar a l
 
 ## Adicionar contas à lista de contas
 
-Para uma lista estática, você pode continuar a publicar a lista de contas vazia e adicionar contas por meio de uma jornada de conta. Você também pode adicionar contas manualmente aplicando um conjunto de filtros antes de publicá-lo.
+Para obter uma lista estática, você pode continuar a publicar a lista de contas vazia e adicionar contas por meio de uma jornada de conta. Você também pode adicionar contas manualmente aplicando um conjunto de filtros antes de publicá-lo.
 
-Para uma lista de contas dinâmicas, é necessário adicionar o conjunto de filtros que você deseja usar para gerenciar a lista automaticamente antes de publicá-la.
+Para gerenciar a lista automaticamente para uma lista de contas dinâmica, adicione o conjunto de filtros antes de publicá-la.
 
 >[!BEGINTABS]
 
 >[!TAB Lista de contas estáticas]
 
-Depois de criar a lista de contas estáticas, você pode preencher a lista aplicando um conjunto de filtros. Você também pode aplicar um conjunto de filtros para adicionar contas a uma lista de contas estáticas após sua publicação (_Live_).
+Depois de criar a lista de contas estáticas, você pode preencher a lista aplicando um conjunto de filtros. Para adicionar contas a uma lista de contas estáticas após sua publicação (_Live_), aplique um conjunto de filtros.
 
 >[!NOTE]
 >
->Se quiser que a lista de contas comece como vazia, não selecione nenhum filtro e basta publicar a lista de contas. É útil começar com uma lista vazia quando você planeja adicionar membros por meio de uma ação de jornada de conta (consulte [Executar um nó de ação - Adicionar à conta](#take-an-action-node---add-to-account)).
+>Se desejar que a lista de contas comece como vazia, não selecione nenhum filtro e publique a lista de contas. É útil começar com uma lista vazia quando você planeja adicionar membros por meio de uma ação de jornada de conta (consulte [Executar um nó de ação - Adicionar à conta](../journeys/action-nodes.md#account-action-constraints)).
 
 1. Clique em **[!UICONTROL Adicionar contas]**.
 
@@ -105,7 +105,7 @@ Depois de criar a lista de contas estáticas, você pode preencher a lista aplic
 
    Você pode acessar essa função na página de lista vazia ou na parte superior direita.
 
-1. Na caixa de diálogo _[!UICONTROL Adicionar contas por filtro]_, use o menu **[!UICONTROL Filtros de Conta]** para adicionar os atributos e atividades que deseja usar para criar o conjunto de filtros:
+1. Na caixa de diálogo _[!UICONTROL Adicionar contas por filtro]_, use o menu **[!UICONTROL Filtros de Conta]** para adicionar os atributos e atividades necessários para construir o conjunto de filtros:
 
    Os filtros são aninhados em pastas de categoria. É possível expandir cada pasta e percorrer as listas de filtros disponíveis. Ou use a ferramenta _Pesquisa_ na parte superior para localizar o filtro necessário.
 
@@ -121,13 +121,13 @@ Depois de criar a lista de contas estáticas, você pode preencher a lista aplic
 
 1. Quando o conjunto de filtros e a lógica estiverem concluídos, clique em **[!UICONTROL Preencher contas]**.
 
-   O processo de preenchimento pode levar algum tempo, dependendo do número de contas a serem avaliadas e preenchidas (o tamanho do banco de dados e os critérios de filtro selecionados). Pode levar até duas horas para que as contas sejam preenchidas na lista.
+   O processo de preenchimento leva tempo, dependendo do número de contas a serem avaliadas e preenchidas (o tamanho do banco de dados e os critérios de filtro selecionados). Pode levar até duas horas para que as contas sejam preenchidas na lista.
 
 Você pode continuar a publicar a lista para disponibilizá-la para adicionar e remover ações em uma jornada de conta.
 
 >[!TAB Lista de contas dinâmicas]
 
-Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usado para gerenciar a lista (adicionar/remover contas) quando ela estiver _Ativa_ (publicada). Não é possível adicionar/remover contas por meio de jornadas de conta, mas uma lista de contas dinâmicas publicada está disponível para o nó de público-alvo da conta inicial.
+Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usado para gerenciar a lista (adicionar/remover contas) quando ela estiver _Ativa_ (publicada). Não é possível adicionar/remover contas por meio de jornadas de conta, mas uma lista de contas dinâmicas publicadas está disponível para o nó de público-alvo da conta inicial.
 
 1. Clique em **[!UICONTROL Selecionar filtros]**.
 
@@ -149,7 +149,7 @@ Depois de criar uma lista de contas dinâmicas, defina o conjunto de filtros usa
 
 1. Quando o conjunto de filtros e a lógica estiverem concluídos, clique em **[!UICONTROL Concluído]**.
 
-   Se você estiver satisfeito com o conjunto de filtros, poderá prosseguir para [publicar a lista](#publish-an-account-list) para torná-la disponível para o [nó de público-alvo da conta](#account-audience-node) inicial em uma jornada de conta.
+   Se você estiver satisfeito com o conjunto de filtros, poderá prosseguir para [publicar a lista](#publish-an-account-list) para torná-la disponível para o [nó de público-alvo da conta](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node) inicial em uma jornada de conta.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Você pode continuar a publicar uma lista de contas assim que o conjunto de filt
 
    ![Confirmar publicação para uma lista de contas estáticas](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-O status da lista de contas estáticas é alterado para _[!UICONTROL Live]_ e está disponível para [uso em uma jornada de conta](#account-list-usage-in-account-journeys).
+O status da lista de contas estáticas é alterado para _[!UICONTROL Live]_ e está disponível para [uso em uma jornada de conta](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!TAB Lista de contas dinâmicas]
 
@@ -189,7 +189,7 @@ Você pode continuar a publicar uma lista de contas dinâmicas assim que o conju
 
    ![Confirmar publicação para uma lista de contas dinâmicas](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-O status da lista de contas dinâmicas é alterado para _[!UICONTROL Live]_ e está disponível para [uso em uma jornada de conta](#account-list-usage-in-account-journeys).
+O status da lista de contas dinâmicas é alterado para _[!UICONTROL Live]_ e está disponível para [uso em uma jornada de conta](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!ENDTABS]
 

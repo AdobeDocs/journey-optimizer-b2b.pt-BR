@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1625
 ht-degree: 7%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 7%
 >title="Sobre os componentes da estrutura"
 >abstract="Componentes da estrutura são elementos do layout que podem ser usados para criar a estrutura de um modelo."
 
-Use os _Componentes da estrutura_ no espaço de design visual para definir a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, é possível definir rapidamente a forma do layout de conteúdo. Cada componente da estrutura abrange o espaço horizontal e você pode empilhá-los para criar o layout verticalmente. Divida cada componente em colunas para formar cada bloco de conteúdo necessário.
+Use os _Componentes da estrutura_ no espaço de design visual para definir a estrutura do seu conteúdo. Ao adicionar e mover elementos estruturais com ações simples de arrastar e soltar, é possível definir rapidamente a estrutura do layout de conteúdo. Cada componente da estrutura abrange o espaço horizontal e você pode empilhá-los para criar o layout verticalmente. Para formar cada bloco de conteúdo necessário, divida cada componente em colunas.
 
 ## Biblioteca de estrutura
 
@@ -56,13 +56,13 @@ Na parte superior da biblioteca _[!UICONTROL Componentes]_, a seção **[!UICONT
 | Ícone | Componente. | Descrição |
 | ----- | ----------- | ----------- |
 | Ícone de coluna ![1:1](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 coluna] | Um container de coluna única que preenche a largura do espaço. |
-| Ícone de coluna ![1:2](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 coluna à esquerda] | Um contêiner de duas colunas que usa uma proporção de 1:2 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um terço da largura e a segunda (à direita) ocupa os dois terços restantes. |
-| Ícone de coluna ![1:3](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 coluna à esquerda] | Um contêiner de duas colunas que usa uma proporção de 1:3 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um quarto da largura e a segunda (à direita) ocupa os três quartos restantes. |
-| Ícone de coluna ![2:1](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 coluna à direita] | Um contêiner de duas colunas que usa uma proporção de 2:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa dois terços da largura e a segunda (à direita) ocupa o terço restante. |
-| Ícone de coluna ![2:2](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 coluna] | Um contêiner de duas colunas que usa uma proporção de 2:2 para preencher a largura do espaço. As colunas da esquerda e da direita têm a mesma largura. |
-| Ícone de coluna ![3:1](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 coluna à direita] | Um contêiner de duas colunas que usa uma proporção de 3:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa três quartos (75%) da largura e a segunda (à direita) ocupa o quarto restante (25%). |
-| Ícone de coluna ![3:3](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 coluna] | Um contêiner de três colunas que usa uma proporção de 3:3 para preencher a largura do espaço. Todas as três colunas têm a mesma largura. |
-| Ícone de coluna ![4:4](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 coluna] | Um contêiner de quatro colunas que usa uma proporção de 4:4 para preencher a largura do espaço. Todas as quatro colunas têm a mesma largura. |
+| Ícone de coluna ![1:2](../assets/do-not-localize/icon-design-structure-1-2.png) | Coluna [!UICONTROL 1:2 à esquerda] | Um contêiner de duas colunas que usa uma proporção 1:2 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um terço da largura e a segunda (à direita) ocupa os dois terços restantes. |
+| Ícone de coluna ![1:3](../assets/do-not-localize/icon-design-structure-1-3.png) | Coluna [!UICONTROL 1:3 à esquerda] | Um contêiner de duas colunas que usa uma proporção 1:3 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um quarto da largura e a segunda (à direita) ocupa os três quartos restantes. |
+| Ícone de coluna ![2:1](../assets/do-not-localize/icon-design-structure-2-1.png) | Coluna [!UICONTROL 2:1 à direita] | Um contêiner de duas colunas que usa uma proporção de 2:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa dois terços da largura e a segunda (à direita) ocupa o terço restante. |
+| Ícone de coluna ![2:2](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 coluna] | Um contêiner de duas colunas que usa uma proporção 2:2 para preencher a largura do espaço. As colunas da esquerda e da direita têm a mesma largura. |
+| Ícone de coluna ![3:1](../assets/do-not-localize/icon-design-structure-3-1.png) | Coluna [!UICONTROL 3:1 à direita] | Um contêiner de duas colunas que usa uma proporção de 3:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa três quartos (75%) da largura e a segunda (à direita) ocupa o quarto restante (25%). |
+| Ícone de coluna ![3:3](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 coluna] | Um contêiner de três colunas que usa uma proporção 3:3 para preencher a largura do espaço. Todas as três colunas têm a mesma largura. |
+| Ícone de coluna ![4:4](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 coluna] | Um contêiner de quatro colunas que usa uma proporção 4:4 para preencher a largura do espaço. Todas as quatro colunas têm a mesma largura. |
 | Ícone de coluna ![n:n](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n coluna] | Uma estrutura de coluna personalizável que preenche o espaço de acordo com as colunas definidas. Você define o número de colunas (entre duas e dez) e define a largura de cada coluna individualmente. [Saiba mais](#change-nn-columns) |
 
 ## Adicionar componentes de estrutura
@@ -86,7 +86,7 @@ A barra de ferramentas é exibida na tela quando você a seleciona na tela. As f
 
 ### Configurações de componentes
 
-Depois de adicionar um componente, ele é selecionado no espaço de design visual e suas propriedades são exibidas no painel direito. A guia _[!UICONTROL Configurações]_ é exibida por padrão. Você também pode selecionar um componente de estrutura a qualquer momento para alterar as configurações.
+Depois de adicionar um componente, ele é selecionado no espaço de design visual e suas propriedades são exibidas no painel direito. O sistema exibe a guia _[!UICONTROL Configurações]_ por padrão. Você também pode selecionar um componente de estrutura a qualquer momento para alterar as configurações.
 
 #### Opções de exibição
 
@@ -127,9 +127,9 @@ Marque a caixa de seleção e clique no quadrado de cores para escolher uma cor 
 
 ![Seletor de cor de fundo](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL Imagem de plano de fundo]
+#### [!UICONTROL Imagem de plano de fundo] {#background-image}
 
-Mova o seletor de alternância para ativar as configurações de imagem do plano de fundo.
+Para ativar as configurações de imagem de fundo, mova o seletor de alternância.
 
 ![Configurações da imagem de fundo](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +159,7 @@ Use a opção **[!UICONTROL Posicionamento da imagem]** para escolher como a ima
 
 ### Outros estilos
 
-Você pode aplicar outros estilos de componentes de estrutura para ajustar a exibição na mensagem de email ou página de aterrissagem.
+Para ajustar a exibição na mensagem de email ou página de aterrissagem, você pode aplicar outros estilos de componentes de estrutura.
 
 +++Borda
 
@@ -209,7 +209,7 @@ Na tela de desenho, mova o ícone de dimensionamento de coluna para ajustar a la
 
 ### Estilos de coluna
 
-Com a coluna selecionada na tela de desenho, é possível definir estilos para serem aplicados a essa coluna.
+Para definir estilos a serem aplicados a essa coluna, selecione a coluna na tela de desenho.
 
 +++Histórico
 
@@ -217,7 +217,7 @@ Com a coluna selecionada na tela de desenho, é possível definir estilos para s
 
   ![Seletor de cor de fundo](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL Imagem de plano de fundo]** - Mova o seletor de alternância para habilitar as configurações de imagem de plano de fundo.
+* **[!UICONTROL Imagem de plano de fundo]** - Para habilitar as configurações de imagem de plano de fundo, mova o seletor de alternância.
 
   ![Configurações da imagem de fundo](./assets/structure-components-background-image-settings.png){width="250"}
 

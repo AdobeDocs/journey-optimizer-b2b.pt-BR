@@ -15,16 +15,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 6%
 
 ---
 
 # Detalhes da conta
 
-Ao clicar em um nome de conta em qualquer lugar no Journey Optimizer B2B edition, a página _Detalhes da conta_ é exibida. Esta página fornece informações úteis sobre a conta, incluindo resumos gerais de IA. Também há [ações](#account-actions) que você pode executar para contatos associados à conta.
+Ao clicar em um nome de conta em qualquer lugar no Journey Optimizer B2B edition, a página _Detalhes da conta_ é exibida. Esta página fornece informações sobre a conta do, incluindo resumos gerais de IA. Também há [ações](#send-email) que você pode executar para contatos associados à conta.
 
 ![Acessar os detalhes da conta](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -91,7 +91,7 @@ A seção _[!UICONTROL Sobreposição de contatos]_ exibe os contatos da conta q
 * Conta
 * Interesse na solução
 
-Clique no ícone _Informações_ ( ![Informações](../assets/do-not-localize/icon-info.svg) ) ao lado do nome do contato para exibir uma tabela com os seguintes detalhes:
+Clique no ícone _Informações_ ( ![Informações ícone](../assets/do-not-localize/icon-info.svg) ) ao lado do nome do contato para exibir uma tabela com os seguintes detalhes:
 
 * Grupo de compras (clique no nome para abrir os [detalhes do grupo de compras](../buying-groups/buying-group-details.md))
 * Função

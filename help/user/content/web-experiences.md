@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -37,7 +37,7 @@ O canal da Web no Adobe Journey Optimizer B2B edition permite criar experiência
 As experiências na Web permitem:
 
 * Fornecer modificações personalizadas de conteúdo aos visitantes do site direcionado
-* Personalizar elementos do site como banners, texto, imagens e botões usando atributos da conta
+* Personalizar elementos do site como banners, texto, imagens e botões com atributos de conta
 * Direcione páginas específicas ou aplique alterações em várias páginas usando regras de correspondência de URL
 * Acompanhe o engajamento e monitore o impacto de seus esforços de personalização da Web
 
@@ -52,9 +52,9 @@ Antes de criar experiências na Web, verifique se os seguintes requisitos foram 
 * Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
-   * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
-   * _[!UICONTROL Campanhas]_ > _[!UICONTROL Exibir campanhas]_ - Necessário para exibir detalhes de um nó de ação de personalização da Web.
-   * _[!UICONTROL Campanhas]_ > _[!UICONTROL Aprovar e publicar campanhas]_ - é necessário publicar uma jornada que tenha um ou mais nós de ação de personalização da Web.
+  * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
+  * _[!UICONTROL Campanhas]_ > _[!UICONTROL Exibir campanhas]_ - Necessário para exibir detalhes de um nó de ação de personalização da Web.
+  * _[!UICONTROL Campanhas]_ > _[!UICONTROL Aprovar e publicar campanhas]_ - é necessário publicar uma jornada que tenha um ou mais nós de ação de personalização da Web.
 
 * Você tem a [extensão de navegador Auxiliar de edição visual](#install-the-visual-editing-helper-extension) da Adobe Experience Cloud instalada para o seu navegador da Web. Essa extensão é necessária para abrir, criar e pré-visualizar suas páginas da Web de forma confiável no espaço de design de conteúdo do Journey Optimizer B2B edition.
 
@@ -134,7 +134,7 @@ Você pode configurar experiências da Web em uma jornada ao [adicionar um nó _
 
 1. No painel direito, defina as propriedades da experiência da Web de acordo com como você deseja defini-la e gerenciá-la.
 
-   * **[!UICONTROL Editor visual]** - alternar entre o [editor visual e não visual](./web-experience-design.md#web-design-tools) para o design de modificação de experiência da Web.
+   * **[!UICONTROL Editor visual]** - alternar entre o [editor visual e não visual](./web-experience-design.md#web-experience-editors) para o design de modificação de experiência da Web.
    * **[!UICONTROL Redirecionamento de visitante]** - Habilite esta opção para [redirecionar visitantes para outra URL existente](#redirect-to-url) em vez de criar uma nova variação na guia de conteúdo.
 
    ![Alternar propriedades para o editor visual e a URL de redirecionamento](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

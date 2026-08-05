@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3074
 ht-degree: 7%
 
 ---
@@ -207,7 +207,7 @@ Cada tipo de componente de conteúdo exibe uma barra de ferramentas ao selecion�
 
 +++
 
-### Ferramentas funcionais
+### Ferramentas funcionais {#functional-tools}
 
 | Ferramenta | Nome | Uso |
 | ---- | ---- | ----- |
@@ -221,7 +221,7 @@ Cada tipo de componente de conteúdo exibe uma barra de ferramentas ao selecion�
 
 1. No espaço de design visual, use um modelo existente ou adicione os componentes de estrutura necessários em uma tela vazia para definir o layout.
 
-1. Na biblioteca **[!UICONTROL Componentes]**, segure a _alça de arrastar_ ![alça de arrastar](../../assets/do-not-localize/icon-drag-handle.svg) do componente de conteúdo de sua escolha e, em seguida, arraste e solte-a nos componentes da estrutura.
+1. Na biblioteca **[!UICONTROL Componentes]**, selecione a _alça de arrastar_ ![alça de arrastar](../../assets/do-not-localize/icon-drag-handle.svg) para o componente de conteúdo de sua escolha, em seguida, arraste e solte-a nos componentes da estrutura.
 
    É possível adicionar vários componentes em um único componente de estrutura e em cada coluna de um componente de estrutura.
 
@@ -233,7 +233,7 @@ Cada tipo de componente de conteúdo exibe uma barra de ferramentas ao selecion�
 
    ![Definir as configurações e os estilos do componente de conteúdo](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-Como você está trabalhando com seu design, também pode [remover](#remove-a-content-component) ou [duplicar](#duplicate-a-content-component) um componente.
+Enquanto estiver trabalhando com seu design, você também pode remover ou duplicar um componente usando as ferramentas **Excluir** e **Duplicar** na seção [Ferramentas funcionais](#functional-tools).
 
 ## Configurações e estilos do componente de Conteúdo
 
@@ -250,7 +250,7 @@ Se desejar excluir o componente da exibição de desktop ou dispositivo móvel, 
 
 ### Container
 
-Use um container para aplicar um estilo específico a um grupo de componentes de conteúdo. Adicione um componente [!UICONTROL Contêiner] e adicione outros componentes de conteúdo dentro dele. Este componente é semelhante à forma como você pode usar um elemento `div` no HTML. É possível aplicar um estilo distinto ao contêiner que difere do estilo aplicado aos componentes de conteúdo que ele contém.
+Use um container para aplicar um estilo específico a um grupo de componentes de conteúdo. Adicione um componente [!UICONTROL Contêiner] e adicione outros componentes de conteúdo dentro dele. Este componente é semelhante à forma como você usa um elemento `div` no HTML. É possível aplicar um estilo distinto ao contêiner que difere do estilo aplicado aos componentes de conteúdo que ele contém.
 
 Por exemplo, adicione um componente _[!UICONTROL Container]_ e, em seguida, adicione um componente _[!UICONTROL Botão]_ dentro desse container. Você pode usar um estilo de área específico para o contêiner e estilizar o botão e seu plano de fundo conforme necessário.
 
@@ -438,7 +438,7 @@ Esses estilos são aplicados ao bloco de texto inteiro. É possível aplicar o e
 
 ### Divisor
 
-Adicione um componente _Divider_ para incorporar uma divisão linear entre seções do seu conteúdo.
+Para incorporar uma divisão linear entre seções do seu conteúdo, adicione um componente _Divider_.
 
 +++Histórico
 
@@ -456,11 +456,11 @@ No painel direito, com a guia _[!UICONTROL Estilos]_ selecionada, expanda a seç
 
 * **[!UICONTROL Largura]** - Use o botão de alternância para definir a largura por pixels ou porcentagem.
 
-   * Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina o tamanho do elemento com base na caixa de conteúdo do bloco, o que exclui o preenchimento e as bordas. Por exemplo, um valor de 50 define a largura do elemento como 50% da largura do conteúdo do bloco.
+  * Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina o tamanho do elemento com base na caixa de conteúdo do bloco, o que exclui o preenchimento e as bordas. Por exemplo, um valor de 50 define a largura do elemento como 50% da largura do conteúdo do bloco.
 
   ![Definir estilo de linha para um componente divisor](./assets/component-divider-line-options.png){width="250"}
 
-   * Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a largura do elemento de acordo com seu conteúdo.
+  * Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a largura do elemento de acordo com seu conteúdo.
 
 * **[!UICONTROL Estilo]** - Escolha um valor na lista de valores CSS `line-style` padrão, como _Sólido_, _Pontilhado_ e _Tracejado_.
 
@@ -502,7 +502,7 @@ Use o componente HTML para adicionar partes do seu HTML existente. Esse componen
 
 1. Selecione o componente na tela de desenho e clique no ícone _Mostrar o código-fonte_ na barra de ferramentas.
 
-   [Abrir o editor de código para adicionar o HTML](./assets/content-components-html-show-code.png){width="450"}
+   [Para adicionar a HTML, abra o editor de código](./assets/content-components-html-show-code.png){width="450"}
 
 1. Cole a HTML na caixa de texto e clique em **[!UICONTROL Salvar]**.
 
@@ -564,7 +564,7 @@ Use o componente [!UICONTROL Imagem] para inserir um ativo de imagem no seu cont
 
 Escolha o [tipo de origem do ativo](./assets-overview.md) e selecione um arquivo de imagem:
 
-* **[!UICONTROL Marketo Engage Assets]** - Escolha este tipo para procurar e selecionar um ativo de imagem da biblioteca Journey Optimizer B2B edition ou da instância conectada do Market Engage.
+* **[!UICONTROL Marketo Engage Assets]** - Escolha este tipo para procurar e selecionar um ativo de imagem na biblioteca Journey Optimizer B2B edition ou na instância conectada do Marketo Engage.
 
   ![Procurar os ativos de imagem disponíveis](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -572,31 +572,31 @@ Escolha o [tipo de origem do ativo](./assets-overview.md) e selecione um arquivo
 
   Há ferramentas disponíveis para ajudar a localizar o ativo necessário:
 
-   * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
+  * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
 
-   * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
+  * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
 
-     ![Use os filtros e o campo de pesquisa para localizar o ativo necessário](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+    ![Use os filtros e o campo de pesquisa para localizar o ativo necessário](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
 * **[!UICONTROL Experience Manager Assets]** - Escolha este tipo para procurar e selecionar um ativo de imagem de um [repositório configurado do Experience Manager Assets](../admin/configure-aem-repositories.md).
 
   Na caixa de diálogo _[!UICONTROL Selecionar Assets]_, escolha uma imagem usando as ferramentas disponíveis para localizar o ativo necessário e clique em **[!UICONTROL Selecionar]**.:
 
-   * Altere o **[!UICONTROL Repositório]** na parte superior direita.
+  * Altere o **[!UICONTROL Repositório]** na parte superior direita.
 
-   * Clique em **[!UICONTROL Gerenciar ativos]** na parte superior direita para abrir o repositório do Assets em outra guia do navegador e usar as ferramentas de gerenciamento do AEM Assets.
+  * Clique em **[!UICONTROL Gerenciar ativos]** na parte superior direita para abrir o repositório do Assets em outra guia do navegador e usar as ferramentas de gerenciamento do AEM Assets.
 
-   * Clique no seletor de _Tipo de exibição_ na parte superior direita para alterar a exibição para **[!UICONTROL Exibição de Lista]**, **[!UICONTROL Exibição de Grade]**, **[!UICONTROL Exibição de Galeria]** ou **[!UICONTROL Exibição em Cascata]**.
+  * Clique no seletor de _Tipo de exibição_ na parte superior direita para alterar a exibição para **[!UICONTROL Exibição de Lista]**, **[!UICONTROL Exibição de Grade]**, **[!UICONTROL Exibição de Galeria]** ou **[!UICONTROL Exibição em Cascata]**.
 
-   * Clique no ícone _Ordem de classificação_ para alterar a ordem de classificação entre crescente e decrescente.
+  * Clique no ícone _Ordem de classificação_ para alterar a ordem de classificação entre crescente e decrescente.
 
-     ![Use as ferramentas na caixa de diálogo Selecionar Assets para localizar e selecionar um ativo de imagem](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+    ![Use as ferramentas na caixa de diálogo Selecionar Assets para localizar e selecionar um ativo de imagem](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
-   * Clique na seta de menu **[!UICONTROL Classificar por]** para alterar os critérios de classificação para **[!UICONTROL Nome]**, **[!UICONTROL Tamanho]** ou **[!UICONTROL Modificado]**.
+  * Clique na seta de menu **[!UICONTROL Classificar por]** para alterar os critérios de classificação para **[!UICONTROL Nome]**, **[!UICONTROL Tamanho]** ou **[!UICONTROL Modificado]**.
 
-   * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
+  * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
 
-   * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
+  * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
 
   ![Use os filtros e o campo de pesquisa para localizar o ativo](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
@@ -705,7 +705,7 @@ Use o componente _Social_ para inserir links para páginas de redes sociais no s
 Com um tipo de rede social selecionado, defina as opções para esse tipo:
 
 * **[!UICONTROL URL]** - Insira a URL da rede social que você deseja vincular ao gráfico ou ícone da rede social.
-* **[!UICONTROL Source]** - Se você quiser usar sua própria imagem em vez do padrão, escolha e ativo de imagem. Você pode selecionar uma imagem do repositório de ativos conectado do Marketo Engage, um repositório do Experience Manager Assets (se configurado) ou importar um arquivo de imagem do seu sistema. Consulte as [informações sobre o componente de imagem](#add-the-image-asset) para obter detalhes sobre a seleção e a importação de ativos de imagem.
+* **[!UICONTROL Source]** - Se quiser usar sua própria imagem em vez da padrão, escolha um ativo de imagem. Você pode selecionar uma imagem do repositório de ativos conectado do Marketo Engage, um repositório do Experience Manager Assets (se configurado) ou importar um arquivo de imagem do seu sistema. Consulte as [informações sobre o componente de imagem](#add-the-image-asset) para obter detalhes sobre a seleção e a importação de ativos de imagem.
 * **[!UICONTROL Texto alternativo]** - Digite o texto alternativo da imagem exibida.
 
   ![Configurações para o tipo de mídia social selecionado](./assets/content-components-social-settings-for-type.png){width="250"}

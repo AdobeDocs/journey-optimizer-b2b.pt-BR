@@ -17,7 +17,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1399
 ht-degree: 0%
@@ -54,17 +54,17 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
      Quando quiser criar um email usando uma tela vazia ou um modelo de email, use a opção _[!UICONTROL Novo email]_.
 
-      1. Na caixa de diálogo, escolha **[!UICONTROL Novo email]**.
+     1. Na caixa de diálogo, escolha **[!UICONTROL Novo email]**.
 
-      1. Insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**.
+     1. Insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**.
 
-         ![Caixa de diálogo Criar novo email - novo email](assets/create-new-email.png){width="400"}
+        ![Caixa de diálogo Criar novo email - novo email](assets/create-new-email.png){width="400"}
 
-      1. Clique em **[!UICONTROL Criar]**.
+     1. Clique em **[!UICONTROL Criar]**.
 
-         Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
+        Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
 
-      1. Clique em **[!UICONTROL Editar email]** para definir as [configurações](#define-the-email-settings) do email e criar o [conteúdo](./email-authoring.md).
+     1. Clique em **[!UICONTROL Editar email]** para definir as [configurações](#define-the-email-settings) do email e criar o [conteúdo](./email-authoring.md).
 
      +++
 
@@ -72,25 +72,25 @@ Você pode configurar entregas de email em uma jornada ao [adicionar um nó _[!U
 
      Quando quiser criar um email usando um email existente da jornada atual ou de outra jornada, use a opção _[!UICONTROL Duplicar email existente]_. Você pode fazer alterações no email duplicado de acordo com seu objetivo para o nó de jornada.
 
-      1. Na caixa de diálogo _[!UICONTROL Criar novo email]_, escolha **[!UICONTROL Duplicar email existente]**.
+     1. Na caixa de diálogo _[!UICONTROL Criar novo email]_, escolha **[!UICONTROL Duplicar email existente]**.
 
-      1. Para duplicar o email **[!UICONTROL existente]**, clique no ícone _Seleção_ ( ![Ícone Seleção](../assets/do-not-localize/icon-email-select.svg) ) e selecione o email que deseja duplicar e usar para o nó de jornada.
+     1. Para duplicar o email **[!UICONTROL existente]**, clique no ícone _Seleção_ ( ![Ícone Seleção](../assets/do-not-localize/icon-email-select.svg) ) e selecione o email que deseja duplicar e usar para o nó de jornada.
 
-         Você pode filtrar a lista de emails inserindo uma cadeia de texto no campo de pesquisa para corresponder ao nome do email.
+        Você pode filtrar a lista de emails inserindo uma cadeia de texto no campo de pesquisa para corresponder ao nome do email.
 
-         ![Selecionar email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+        ![Selecionar email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-         Marque a caixa de seleção do email que você deseja duplicar e clique em **[!UICONTROL Selecionar]**.
+        Marque a caixa de seleção do email que você deseja duplicar e clique em **[!UICONTROL Selecionar]**.
 
-      1. Insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**.
+     1. Insira um **[!UICONTROL Nome]** exclusivo para o email e uma **[!UICONTROL Linha de assunto]**.
 
-         ![Caixa de diálogo Criar novo email - duplicar email existente](assets/create-new-email-duplicate.png){width="400"}
+        ![Caixa de diálogo Criar novo email - duplicar email existente](assets/create-new-email-duplicate.png){width="400"}
 
-      1. Clique em **[!UICONTROL Criar]**.
+     1. Clique em **[!UICONTROL Criar]**.
 
-         Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
+        Na seção _[!UICONTROL Propriedades de email]_ da página de conteúdo de email, os campos _[!UICONTROL Do email]_ e _[!UICONTROL Responder para endereço]_ já estão configurados. Você pode inserir valores para os campos _[!UICONTROL De nome]_ e _[!UICONTROL Descrição]_ (opcional).
 
-      1. Se necessário, clique em **[!UICONTROL Editar email]** para modificar as [configurações](#define-the-email-settings) e o [conteúdo](./email-authoring.md) do email.
+     1. Se necessário, clique em **[!UICONTROL Editar email]** para modificar as [configurações](#define-the-email-settings) e o [conteúdo](./email-authoring.md) do email.
 
      +++
 
@@ -118,7 +118,7 @@ Com a guia **[!UICONTROL Detalhes]** selecionada no painel _Resumo_ à direita, 
 | [!UICONTROL IP dedicado] | Se tiver mais de um endereço IP dedicado definido, selecione um endereço IP dedicado para usar ao enviar o email. Ao usar um IP dedicado específico para seus programas, você pode rastrear e monitorar a capacidade de entrega com mais precisão e responder rapidamente a qualquer alteração em suas métricas de entrega. Para obter mais informações sobre como adicionar um IP dedicado para a instância conectada do Marketo Engage, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL Email operacional] | Marque a caixa de seleção se desejar designar o email como operacional. Os emails operacionais são excluídos das listas de recusa/cancelamento de inscrição e dos limites de comunicação. Selecione essa opção somente quando o recipient não puder considerar a mensagem de email como uma mensagem comercial não solicitada (SPAM). |
 | [!UICONTROL Incluir exibição como página da Web] | Marque a caixa de seleção para incluir um link para uma página da Web gerada a partir do conteúdo da mensagem de email. As mensagens de email têm recursos mais limitados do que as páginas da Web, portanto, são úteis para o JavaScript, CSS estendido e formulários. O texto usado para gerar o link está configurado nas [configurações de entrega de canal de email](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Exibir como página da Web do HTML] e [!UICONTROL Exibir como texto da página da Web]). |
-| [!UICONTROL Desabilitar o rastreamento de aberturas] | Marque a caixa de seleção quando não quiser rastrear a atividade de abertura de emails. Com a função desativada, as contagens de atividades de email abertas são aumentadas somente quando uma pessoa única abre o email. Você pode [gerenciar o rastreamento de link do conteúdo de email](./email-authoring.md#content-authoring---link-tracking) ao criar o conteúdo do corpo do email. |
+| [!UICONTROL Desabilitar o rastreamento de aberturas] | Marque a caixa de seleção quando não quiser rastrear a atividade de abertura de emails. Com a função desativada, as contagens de atividades de email abertas são aumentadas somente quando uma pessoa única abre o email. Você pode [gerenciar o rastreamento de link do conteúdo de email](./email-authoring.md#edit-linked-url-tracking) ao criar o conteúdo do corpo do email. |
 | [!UICONTROL Pré-cabeçalho] | Marque a caixa de seleção para incluir um pré-cabeçalho. Um pré-cabeçalho é o texto curto de resumo exibido após a linha de assunto em alguns clientes de email. Normalmente, fornece um breve resumo do email e geralmente é uma frase única. Insira o texto de resumo no campo <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 | [!UICONTROL Campos usados como endereços CC] | Se disponível, selecione até 25 campos de Cliente Potencial ou Empresa configurados no Marketo Engage usando o tipo `Email`. |
 
@@ -132,22 +132,22 @@ Dois tipos de alertas podem ser detectados:
 
 * **_Avisos_** que se referem a recomendações e práticas recomendadas, como:
 
-   * `The opt-out link is not present in the email body`: Adicionar um link de cancelamento de assinatura ao corpo do email é uma prática recomendada.
+  * `The opt-out link is not present in the email body`: adicionar um link para cancelar inscrição ao corpo do email é uma prática recomendada.
 
-     >[!NOTE]
-     >
-     >As mensagens de email de estilo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais.
+    >[!NOTE]
+    >
+    >As mensagens de email de estilo de marketing devem incluir um link para opção de não participação, que não é necessário para mensagens transacionais.
 
-   * `Text version of HTML is empty`: defina uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
+  * `Text version of HTML is empty`: defina uma versão de texto do corpo do email, que é usada quando o conteúdo do HTML não pode ser exibido.
 
-   * `Empty link is present in email body`: verifique se todos os links no seu email estão corretos.
+  * `Empty link is present in email body`: verifique se todos os links no seu email estão corretos.
 
-   * `Email size has exceeded the limit of 100KB`: Para uma entrega ideal, certifique-se de que o tamanho do seu email não exceda 100KB.
+  * `Email size has exceeded the limit of 100KB`: Para uma entrega ideal, certifique-se de que o tamanho do seu email não exceda 100KB.
 
 * **_Erros_** que impedem que você teste ou ative a jornada/campanha enquanto não forem resolvidos, como:
 
-   * `From name is empty`: O campo _De_ do email (obrigatório) não está definido.
+  * `From name is empty`: O campo _De_ do email (obrigatório) não está definido.
 
-   * `The subject line is missing`: A linha de assunto do email (obrigatória) não está definida.
+  * `The subject line is missing`: A linha de assunto do email (obrigatória) não está definida.
 
-   * `The email version of the message is empty`: O conteúdo do email não está definido.
+  * `The email version of the message is empty`: O conteúdo do email não está definido.

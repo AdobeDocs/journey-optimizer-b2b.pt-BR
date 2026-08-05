@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 2%
 
 ---
@@ -44,11 +44,11 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 
 >[!TIP]
 >
->Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa para melhorar o conteúdo. O Assistente de IA pode ajudá-lo a otimizar o impacto de seus deliveries, gerando emails inteiros, conteúdo de texto direcionado e obtendo recomendações do Assistente de IA para imagens que refletem em seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
+>Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa, para melhorar o conteúdo. O Assistente de IA pode ajudar você a otimizar o impacto de seus deliveries, gerando emails inteiros e conteúdo de texto direcionado e fornecendo recomendações para imagens que repercutem com seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
 
 ## Criar email do zero {#design-from-scratch}
 
-Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, é possível projetar o layout e a organização do conteúdo de email em segundos.
+Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, é possível projetar o layout e a organização do conteúdo de email rapidamente.
 
 1. Na página inicial _[!UICONTROL Criar seu modelo]_, selecione a opção **[!UICONTROL Criar do zero]**.
 
@@ -60,7 +60,7 @@ Use o espaço de design de conteúdo visual para definir a estrutura e o conteú
 
 1. [Adicionar estrutura e conteúdo](./email-authoring.md#structure-content) ao modelo.
 
-1. [Examinar e atualizar links](#preview-and-edit-linked-urls).
+1. [Examinar e atualizar links](#edit-linked-url-tracking).
 
 1. [Testar o email](#check-and-test-the-email).
 
@@ -146,11 +146,11 @@ Depois que o email for salvo, ele aparecerá na página de detalhes do fragmento
 
 O sistema de delivery de email (por meio do Marketo Engage) envolve automaticamente todos os URLs em emails do HTML com um redirecionamento de rastreamento exclusivo quando enviados. Use o **[!UICONTROL Tipo de Rastreamento]** para controlar o rastreamento do link:
 
-* **[!UICONTROL Rastrear sem token]** - O sistema registra o clique, mas rastreia o que o usuário faz a seguir na página da Web. Isso pode ser importante em certos casos técnicos, como ao lidar com sistemas de terceiros que podem não manipular mkt_tok corretamente. No entanto, o rastreamento web subsequente é limitado.
+* **[!UICONTROL Rastrear sem token]** - O sistema registra o clique, mas não rastreia o que o usuário faz a seguir na página da Web. Esse comportamento é importante em certos casos técnicos, como ao lidar com sistemas de terceiros que não lidam com mkt_tok corretamente. No entanto, o rastreamento web subsequente é limitado.
 
 * **[!UICONTROL Rastrear com mkt-tok]** - Use o token de rastreamento (mkt_tok) para rastrear atividades subsequentes da Web por meio do Munchkin. Quando um destinatário clica no link, ele registra um evento de _Clique em Email_ no log de atividades, rastreia com segurança suas atividades e aplica um cookie para monitorar futuras interações no site.
 
-* **[!UICONTROL Não rastrear]** - O sistema não rastreia atividades associadas ao link. Isso é útil quando a página de destino não suporta parâmetros de URL e pode resultar em um link quebrado.
+* **[!UICONTROL Não rastrear]** - O sistema não rastreia atividades associadas ao link. Essa opção é útil quando a página de destino não suporta parâmetros de URL e resulta em um link quebrado.
 
   >[!NOTE]
   >
@@ -171,8 +171,8 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
 * Aumentar/diminuir o zoom do conteúdo nas opções de zoom predefinidas.
 
 * Alterne entre a visualização do conteúdo na área de trabalho, no dispositivo móvel ou somente texto/texto sem formatação.
-   * Clique no ícone _Exibir_ para visualizar o conteúdo entre dispositivos.
-   * Selecione um dos dispositivos predefinidos ou insira dimensões personalizadas para visualizar o conteúdo.
+  * Clique no ícone _Exibir_ para visualizar o conteúdo entre dispositivos.
+  * Selecione um dos dispositivos predefinidos ou insira dimensões personalizadas para visualizar o conteúdo.
 
 ## Mais opções
 

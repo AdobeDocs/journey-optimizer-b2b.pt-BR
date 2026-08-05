@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Como administrador, você pode definir vários modelos de pontuação de engajam
 
 ## Acessar os modelos de ponderação de pontuação de engajamento
 
-Abra a lista _[!UICONTROL Ponderação de pontuação do engajamento]_ para exibir modelos ativos, rascunhos e arquivados:
+Para exibir modelos ativos, de rascunho e arquivados, abra a lista _[!UICONTROL Ponderação de pontuação do compromisso]_:
 
 1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
 
 1. Clique em **[!UICONTROL Ponderação de pontuação do engajamento]** no painel intermediário para exibir a lista de modelos de pontuação.
 
-   Nesta página, você pode [criar (duplicar)](#create-an-engagement-score-model), [ativar](#activate-a-score-model) e [editar](#change-the-engagement-weighting-settings) modelos de pontuação de engajamento.
+   Nesta página, você pode [criar (duplicar)](#create-a-custom-engagement-scoring-model), [ativar](#activate-a-score-model) e [editar](#change-the-engagement-weighting-settings) modelos de pontuação de engajamento.
 
    ![Acessar os modelos de pontuação de envolvimento definidos](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +93,7 @@ Para criar um modelo de pontuação de engajamento personalizado, duplique o mod
 
 ### Alterar as configurações de ponderação de engajamento
 
-As configurações de peso definem as faixas que podem ser atribuídas a cada atividade no modelo. Você pode alterar as faixas para refletir as estratégias de sua organização para avaliar o engajamento. Por exemplo, você pode ajustar a faixa de ponderação _Normal_ para um valor de 65 se desejar atribuir um valor maior a atividades normais. Ou você pode adicionar uma faixa de ponderação projetada para capturar atividades que ficam entre _Normais_ e _Importantes_. Nesse caso, você poderia adicionar uma faixa e rotulá-la como _Significativa_ e atribuir um valor de faixa de peso de 75.
+As configurações de peso definem as faixas que podem ser atribuídas a cada atividade no modelo. Para refletir as estratégias de sua organização para avaliar o engajamento, altere as faixas. Por exemplo, ajuste a faixa de ponderação _Normal_ para um valor de 65 se desejar atribuir um valor maior a atividades normais. Ou você pode adicionar uma faixa de ponderação projetada para capturar atividades que ficam entre _Normais_ e _Importantes_. Nesse caso, adicione uma faixa, rotule-a como _Significativa_ e atribua um valor de faixa de peso de 75.
 
 1. Na página de detalhes do modelo de pontuação, clique em **[!UICONTROL Configurações de peso da participação]** na parte superior.
 
@@ -161,7 +161,7 @@ Suas alterações são salvas automaticamente.
 
 Quando você ativa um modelo de pontuação de rascunho, ele substitui o modelo ativo no momento. O modelo ativo no momento é arquivado automaticamente.
 
-1. Abra um modelo de pontuação de rascunho para exibir a página de detalhes.
+1. Para exibir a página de detalhes, abra um modelo de pontuação de rascunho.
 
 1. Clique em **[!UICONTROL Ativar]**.
 

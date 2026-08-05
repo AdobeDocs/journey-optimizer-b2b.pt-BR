@@ -17,9 +17,9 @@ topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 Os estágios de grupo de compra são projetados para rastrear a progressão dos grupos de compra na conversão de oportunidades em clientes. Use este recurso para rastrear a progressão do grupo de compras e identificar as próximas melhores ações para membros do grupo de compras.
 
-Defina os estágios em um único modelo de preparo, definindo vários estágios e o fluxo de transição entre eles. Um ou mais estágios são designados para entrada no ciclo de vida. O modelo também permite a progressão não linear, onde você pode especificar transições de um estágio para outro, como do estágio A para os estágios B, C ou D. É necessário que um estágio seja designado como o estágio de sucesso, como uma compra ou contrato assinado. É opcional que outro estágio seja designado como um estágio de falha, como um contrato rejeitado ou a compra de uma solução concorrente de outro fornecedor. Monitore esses estágios por meio de [painéis inteligentes](../dashboards/intelligent-dashboard.md) que mostram como os grupos de compras estão progredindo em termos de conclusão de uma oportunidade de venda ou de conversão de uma oportunidade em um cliente.
+Defina os estágios em um único modelo de preparo, definindo vários estágios e o fluxo de transição entre eles. Um ou mais estágios são designados para entrada no ciclo de vida. O modelo permite a progressão não linear, como do estágio A para os estágios B, C ou D. Um estágio deve ser designado como o estágio de sucesso, como uma compra ou contrato assinado. É opcional que outro estágio seja designado como um estágio de falha, como um contrato rejeitado ou a compra de uma solução concorrente de outro fornecedor. Monitore esses estágios por meio de [painéis inteligentes](../dashboards/intelligent-dashboard.md) que mostram como os grupos de compras estão progredindo em termos de conclusão de uma oportunidade de venda ou de conversão de uma oportunidade em um cliente.
 
 ![Exemplo de estágios de grupo de compras](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Você cria e configura um modelo de estágios de grupo de compras por:
 * Definição dos fluxos de transição
 * Designando os estágios de entrada e destino
 
-Há suporte para apenas um modelo, portanto, é importante trabalhar com as equipes de Marketing e Vendas para planejar o modelo ideal para a sua organização antes de criá-lo e publicá-lo no Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Há suporte para apenas um modelo; para planejar o modelo ideal, trabalhe com suas equipes de Marketing e Vendas antes de criá-lo e publicá-lo no Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Ao criar o modelo de estágio de grupo de compra, ele estará automaticamente no status _Rascunho_ e não poderá ser excluído nem renomeado. Ele permanece nesse status à medida que você define os estágios e configura o fluxo de transição entre os estágios. Quando o modelo está em um status publicado (_Live_), ele não pode ser alterado.
 
@@ -94,7 +94,7 @@ Depois de criar o modelo, ele é aberto no espaço de trabalho e você é solici
 
 ### Configurar o fluxo de trabalho e as regras de transição
 
-Depois de salvar os estágios, ele retorna ao espaço de trabalho de modelo. A coluna _[!UICONTROL Trânsito permitido para]_ está vazia, o que indica que as regras de transição para os estágios de modelo ainda não estão definidas.
+Depois de salvar os estágios, você retorna ao espaço de trabalho de modelo. A coluna _[!UICONTROL Trânsito permitido para]_ está vazia, o que indica que as regras de transição para os estágios de modelo ainda não estão definidas.
 
 ![As regras de transição ainda não estão definidas](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -118,11 +118,11 @@ As regras de transição determinam como um grupo de compras pode se mover de um
 
 1. Para cada estágio que não seja de destino, defina um ou mais estágios que se seguem no fluxo (transição).
 
-   Todos os estágios que não são de destino devem ter pelo menos um estágio **[!UICONTROL Trânsito permitido]** selecionado. Caso contrário, a lógica do modelo não é válida e as contas podem ficar _travadas_ nesse estágio sem nenhuma maneira de progredir para o sucesso ou falha.
+   Todos os estágios que não são de destino devem ter pelo menos um estágio **[!UICONTROL Trânsito permitido]** selecionado. Caso contrário, a lógica do modelo não é válida e as contas podem permanecer nesse estágio sem nenhuma maneira de progredir para o sucesso ou fracasso.
 
    ![Configurar transições entre estágios que não sejam de destino](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   Opcionalmente, é possível especificar uma transição de um estágio de falha. Por exemplo, você pode designar um estágio chamado _Sem resposta_ como um estágio de falha. Mas também designe um estágio chamado _Resurgence_ como uma possível transição para identificar casos em que uma conta inativa é reativada.
+   Opcionalmente, é possível especificar uma transição de um estágio de falha. Por exemplo, atribua um estágio chamado _Sem resposta_ como um estágio de falha. Mas também designe um estágio chamado _Resurgence_ como uma possível transição para identificar casos em que uma conta inativa é reativada.
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -227,7 +227,7 @@ Para cada interesse de solução existente onde você deseja associar o modelo d
 
 1. Selecione a guia _[!UICONTROL Solution interest]_.
 
-1. Abra o interesse da solução usando um dos métodos a seguir para abrir as propriedades do interesse da solução que deseja editar:
+1. Use um dos métodos a seguir para abrir as propriedades do interesse da solução que deseja editar:
 
    * Clique no nome de interesse da solução.
    * Clique nas reticências (**...**) ao lado dele, escolha **[!UICONTROL Editar]**.
@@ -246,7 +246,7 @@ Para cada interesse de solução existente onde você deseja associar o modelo d
 
 ### Dividir caminhos
 
-Usando um [nó de caminho dividido](../journeys/journey-nodes.md#split-paths), você pode filtrar no nível de conta ou no nível de pessoas de acordo com estágios de grupo de compra. Por exemplo, adicione um estágio de grupo de compra como uma condição de caminho ao dividir caminhos por membro do grupo de compra.
+Usando um [nó de caminho dividido](../journeys/split-merge-paths-nodes.md#split-paths), você pode filtrar no nível de conta ou no nível de pessoas de acordo com estágios de grupo de compra. Por exemplo, adicione um estágio de grupo de compra como uma condição de caminho ao dividir caminhos por membro do grupo de compra.
 
 >[!BEGINTABS]
 
@@ -264,7 +264,7 @@ Usando um [nó de caminho dividido](../journeys/journey-nodes.md#split-paths), v
 
    ![Nó de caminho dividido - adicionar condição](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. No editor de condições, adicione o filtro de grupo de compra para definir o caminho dividido.
+1. Para definir o caminho dividido, adicione o filtro de grupo de compra no editor de condições.
 
    * À esquerda, expanda os **[!UICONTROL Filtros especiais]** na parte inferior e arraste o atributo **[!UICONTROL Tem Grupo de Compras]** para o espaço de trabalho do filtro.
 
@@ -298,7 +298,7 @@ Usando um [nó de caminho dividido](../journeys/journey-nodes.md#split-paths), v
 
    ![Nó de caminho dividido - adicionar condição](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. No editor de condições, adicione o filtro de grupo de compra para definir o caminho dividido.
+1. Para definir o caminho dividido, adicione o filtro de grupo de compra no editor de condições.
 
    * À esquerda, expanda os **[!UICONTROL Filtros especiais]** na parte inferior e arraste o atributo **[!UICONTROL Membro do Grupo de Compras]** para o espaço de trabalho do filtro.
 
@@ -320,7 +320,7 @@ Usando um [nó de caminho dividido](../journeys/journey-nodes.md#split-paths), v
 
 ### Atualizar ação da conta de estágio de grupo de compras
 
-Usando um [nó de ação de conta](../journeys/journey-nodes.md#add-an-account-action), você pode atualizar o estágio de grupo de compra. A definição desse nó envolve selecionar o interesse da solução e definir o novo estágio para o grupo de compras.
+Usando um [nó de ação de conta](../journeys/action-nodes.md#add-an-account-based-action), você pode atualizar o estágio de grupo de compra. A definição desse nó envolve selecionar o interesse da solução e definir o novo estágio para o grupo de compras.
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ Usando um [nó de ação de conta](../journeys/journey-nodes.md#add-an-account-a
 
 1. Nas propriedades do nó à direita, escolha **[!UICONTROL Contas]** para a ação.
 
-1. Defina a ação para atualizar o estágio de grupo de compras.
+1. Para atualizar o estágio de grupo de compras, defina a ação.
 
    * Para **[!UICONTROL Ação nas contas]**, selecione **[!UICONTROL Atualizar Estágio do Grupo de Compras]**.
 

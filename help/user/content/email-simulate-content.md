@@ -18,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: 574
 ht-degree: 7%
 
 ---
@@ -36,11 +36,11 @@ Use o recurso _Simular conteúdo_ para visualizar o conteúdo do email e enviar 
 
 >[!IMPORTANT]
 >
->Não é possível visualizar o email se houver erros. Verifique os _Alertas_ para garantir que nenhum erro esteja bloqueando as funções de visualização. Os avisos não bloqueiam a visualização, mas você deve endereçá-los antes de publicar a jornada que aciona o delivery de email.
+>Não é possível visualizar o email se houver erros. Para garantir que nenhum erro esteja bloqueando as funções de visualização, verifique os _Alertas_. Os avisos não bloqueiam a visualização, mas os endereçam antes de publicar a jornada que aciona o delivery do email.
 
 ## Exibir a visualização do email
 
-Você pode acessar a visualização de renderização no [espaço de design de email](./email-authoring.md) ou no _[!UICONTROL Resumo]_ ao [abrir um email na lista de Emails](./emails-list.md#edit-emails).
+Você pode acessar a visualização de renderização no [espaço de design de email](./email-authoring.md) ou no _[!UICONTROL Resumo]_ ao [abrir um email na lista de Emails](./emails-list.md#open-and-edit-emails).
 
 1. Clique em **[!UICONTROL Simular conteúdo]** na parte superior.
 
@@ -100,7 +100,7 @@ Uma prova é uma mensagem de teste entregue que permite que você e os membros d
 
 1. Na caixa de diálogo _[!UICONTROL Adicionar pessoas para teste]_, digite o endereço de email completo do contato.
 
-   Para adicionar vários contatos, insira vários endereços separados por vírgula.
+   Para adicionar vários contatos, insira vários endereços separados por vírgulas.
 
 1. Marque a caixa de seleção de cada contato correspondente que deseja adicionar à lista de perfis de teste.
 

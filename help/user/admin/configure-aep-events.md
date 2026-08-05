@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 11%
@@ -42,7 +42,7 @@ O uso de Eventos de experiência do AEP no jornada é um processo de duas etapas
 
 1. Em uma jornada, um profissional de marketing usa os eventos configurados de uma das duas formas a seguir:
 
-   * Adiciona um nó _Ouvir um evento_ e [seleciona um Evento de Experiência](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) para disparar a progressão da jornada com base na atividade de evento em tempo real durante a jornada.
+   * Adiciona um nó _Ouvir um evento_ e [seleciona um Evento de Experiência](../journeys/listen-for-event-nodes.md#experience-events-account-people) para disparar a progressão da jornada com base na atividade de evento em tempo real durante a jornada.
    * Adiciona um nó _Dividir caminhos por pessoas_ e configura um caminho para [filtrar em um evento](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) da pasta **[!UICONTROL Histórico de eventos]**.
 
 >[!BEGINSHADEBOX]

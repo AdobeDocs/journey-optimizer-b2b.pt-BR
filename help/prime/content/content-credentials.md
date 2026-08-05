@@ -17,16 +17,16 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: 562
 ht-degree: 0%
 
 ---
 
 # Content Credentials
 
-As organizações de marketing estão mais preocupadas do que nunca com a transparência do conteúdo, a divulgação de IA e a prevenção de adulteração de ativos. O Content Authenticity Initiative (CAI) na Adobe cria ferramentas compatíveis com o padrão técnico [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). O _Content Credentials_, metadados criptografados e invioláveis, pode ajudar os visualizadores a entender a linhagem do conteúdo e garantir a integridade dos ativos da marca. Essas informações incluem:
+As organizações de marketing estão mais preocupadas do que nunca com a transparência do conteúdo, a divulgação de IA e a prevenção de adulteração de ativos. O Content Authenticity Initiative (CAI) na Adobe cria ferramentas compatíveis com o padrão técnico [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). O _Content Credentials_ é o conjunto de metadados criptografados e invioláveis que podem ajudar os visualizadores a entender a linhagem do conteúdo e garantir a integridade dos ativos da marca. Essas informações incluem:
 
 * Emissor ou signatário — Informações sobre a entidade ou empresa que emitiu a assinatura digital para certificar ou assinar o ativo.
 * Data de emissão — A data em que a Content Credential foi aplicada ao ativo.
@@ -34,7 +34,7 @@ As organizações de marketing estão mais preocupadas do que nunca com a transp
 * Processo — Registros de qualquer edição ou modificação feita no ativo.
 * Detalhes do dispositivo — Informações sobre o aplicativo ou dispositivo usado para criar ou editar o ativo.
 * Ferramenta de IA usada — se a IA gerativa foi usada para criar o ativo, o nome do modelo usado pode ser incluído.
-* Outras informações relevantes — Dados adicionais também podem ser incluídos para ajudar a oferecer mais contexto sobre o histórico de um ativo.
+* Outras informações relevantes — dados adicionais também estão incluídos para ajudar a oferecer mais contexto sobre o histórico de um ativo.
 
 Para obter informações abrangentes sobre o histórico de ativos, você pode usar a [ferramenta de inspeção](https://contentauthenticity.adobe.com/inspect) do Adobe Content Authenticity.
 
@@ -48,10 +48,10 @@ O Content Credentials persiste com o arquivo de imagem. Quando uma imagem gerada
 
 ## Persistência do Content Credentials por meio de canais {#channels}
 
-Quando você inclui imagens em seu email ou mensagens de WhatsApp, o Content Credentials para as imagens entregues também são mantidos:
+Quando você inclui imagens em seu email ou mensagens de WhatsApp, o Content Credentials das imagens entregues também é mantido:
 
 * **Email** - Quando você usar uma ação de jornada _Enviar email_, adicione a imagem ao seu conteúdo de email da biblioteca _Assets_. Quando o email é entregue, o recipient pode baixar a imagem da mensagem e a Content Credentials fica intacta.
-* **WhatsApp** - Adicione a imagem ao seu modelo de mensagem do WhatsApp na sua conta comercial do Meta. Você pode adicioná-lo diretamente do seu próprio sistema ou baixar um arquivo de imagem da biblioteca do _Assets_. Use o modelo para uma ação de jornada _Enviar WhatsApp_. Quando a mensagem do WhatsApp é entregue, o recipient pode baixar a imagem da mensagem e a Content Credentials fica intacta.
+* **WhatsApp** - Adicione a imagem ao seu modelo de mensagem do WhatsApp na sua conta comercial do Meta. Você pode adicioná-lo diretamente do seu sistema ou baixar um arquivo de imagem da biblioteca do _Assets_. Use o modelo para uma ação de jornada _Enviar WhatsApp_. Quando a mensagem do WhatsApp é entregue, o recipient pode baixar a imagem da mensagem e a Content Credentials fica intacta.
 
 >[!ENDSHADEBOX]
 

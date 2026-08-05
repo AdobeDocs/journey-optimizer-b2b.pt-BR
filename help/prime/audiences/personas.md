@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: 639
 ht-degree: 2%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 2%
 A classificação personalizada transforma dados brutos do cliente em dados semânticos do comprador, entendendo que a IA pode usar para gerar contexto e impulsionar decisões personalizadas em cada canal e jornada. Esse perfil unificado capacita:
 
 * _Ramificação da Jornada_ - Dividir caminhos de clientes em potencial por persona, profundidade de participação e função
-* _Arbitragem de Jornada_ - Determina a qual criação um cliente potencial pertence agora, evitando colisões de mensagens em programas simultâneos
-* _Personalização de conteúdo_ - Conteúdo que é narrativas específicas de função (&quot;para um executivo&quot; vs. &quot;para um profissional&quot;)
-* _Contexto do Qualificador de Vendas_ - Os BDRs recebem um resumo em uma tela mostrando &quot;quem é essa pessoa, com o que ela se importa, onde ela está na jornada do comprador&quot;
+* _Arbitragem de Jornada_ - Determina a qual jornada de criação um cliente potencial pertence neste momento, evitando colisões de mensagens entre programas simultâneos
+* _Personalização de conteúdo_ - Conteúdo que é narrativas específicas de função (&quot;para um executivo&quot; ou &quot;para um profissional&quot;)
+* _Contexto do Qualificador de Vendas_ - Os representantes de desenvolvimento de negócios (BDRs) recebem um resumo em uma tela mostrando a identidade do indivíduo, seus interesses e seu estágio atual na jornada do comprador
 
 ## Personas padrão {#default-ersonas}
 
@@ -49,17 +49,17 @@ Para a versão Beta do Journey Optimizer B2B Prime, as seguintes personas padrã
 
 >[!NOTE]
 >
->Na versão de Disponibilidade geral, você poderá editar qualquer um desses perfis padrão de acordo com as necessidades da sua organização. Também oferecerá suporte a definições e mapeamento de persona personalizados.
+>Na próxima versão de Disponibilidade geral, você poderá editar qualquer um desses perfis padrão de acordo com as necessidades da sua organização. Também oferecerá suporte a definições e mapeamento de persona personalizados.
 
 ## Filtrar por persona derivada {#derived-persona-filter}
 
-O Journey Optimizer B2B Prime deriva uma persona para cada registro de pessoa avaliando os atributos do registro em relação às personas definidas. Você pode usar o resultado inferido — a _Pessoa derivada_ — como filtro ao definir o público-alvo para uma lista de pessoas ou para segmentação em uma jornada de pessoa.
+[!DNL Journey Optimizer B2B Prime] deriva um perfil para cada registro de pessoa avaliando os atributos de registro em relação aos perfis definidos. Você pode usar o resultado inferido — a _Pessoa derivada_ — como filtro ao definir o público-alvo para uma lista de pessoas ou para segmentação em uma jornada de pessoa.
 
 O filtro _[!UICONTROL Persona Derivada]_ aparece no painel de filtro na categoria **[!UICONTROL Atributos de pessoa]**.
 
 ### Listas de pessoas {#people-lists}
 
-Ao adicionar ou remover membros de uma [lista estática de pessoas](./people-lists.md#static-list) ou ao definir as regras de associação para uma [lista dinâmica de pessoas](./people-lists.md#dynamic-lists), você pode filtrar por Persona Derivada para direcionar todas as pessoas cujos atributos correspondam a uma persona configurada específica.
+Ao gerenciar membros em uma [lista estática de pessoas](./people-lists.md#static-lists) ou definir regras para uma [lista dinâmica de pessoas](./people-lists.md#dynamic-lists), você pode filtrar por _Pessoa Derivada_ para direcionar todas as pessoas cujos atributos correspondam a uma persona específica configurada.
 
 ![Filtragem de persona derivada para uma lista de pessoas](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 

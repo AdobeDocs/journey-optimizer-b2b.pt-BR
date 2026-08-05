@@ -22,16 +22,16 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2690
+source-wordcount: 2626
 ht-degree: 0%
 
 ---
 
 # Assistente de IA para conteúdo de página de destino {#generative-full-content}
 
-O Assistente de IA para conteúdo de página de aterrissagem no [!DNL Adobe Journey Optimizer B2B Edition] usa os recursos de geração de conteúdo alimentados por IA da Adobe e revoluciona a forma como os profissionais de marketing criam conteúdo de página de aterrissagem profissional e consistente com a marca. Com modelos avançados de IA gerativa e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz. Ele usa seu objetivo de marketing e otimiza o conteúdo para estilos, layouts, tons e muito mais. O Assistente de IA torna a criação e execução de campanhas e programas mais intuitivas, simples e simples. Adicionar esse recurso aos workflows pode economizar tempo, melhorar a eficiência e gerar melhores resultados.
+O Assistente de IA para conteúdo de página de aterrissagem no [!DNL Adobe Journey Optimizer B2B Edition] usa os recursos de geração de conteúdo alimentados por IA da Adobe e revoluciona a forma como os profissionais de marketing criam conteúdo de página de aterrissagem profissional e consistente com a marca. Com modelos avançados de IA gerativa e profunda compreensão das diretrizes da marca, o Assistente de IA gera automaticamente conteúdo personalizado, envolvente e eficaz. Ele usa seu objetivo de marketing e otimiza o conteúdo para estilos, layouts, tons e muito mais. O Assistente de IA torna a criação e a execução de campanhas e programas mais intuitivas, simples e eficientes. Adicionar esse recurso aos workflows pode economizar tempo, melhorar a eficiência e gerar melhores resultados.
 
 Você pode gerar experiências completas de conteúdo para suas páginas de aterrissagem, incluindo texto e imagens. Essa funcionalidade robusta ajuda você a criar conteúdo atraente e sobre a marca que se conecta com seu público-alvo.
 
@@ -45,9 +45,9 @@ Você pode gerar experiências completas de conteúdo para suas páginas de ater
 
 ## Diretrizes e limitações
 
-Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
+Antes de começar a usar esse recurso, reveja as [diretrizes e limitações](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). A aceitação do [Contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA no [!DNL Journey Optimizer B2B Edition]. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Com o compromisso da Adobe de promover a transparência no uso de ferramentas de IA gerativa na criação de mídia, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para qualquer conteúdo ou projeto que inclua um ativo gerado pela Firefly quando ele for baixado ou exportado.
+Para promover a transparência na IA gerativa, a Adobe aplica [credenciais de conteúdo](https://helpx.adobe.com/br/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aos ativos gerados pela Firefly após o download ou a exportação.
 
 As limitações e diretrizes a seguir se aplicam aos recursos do Assistente de IA usados para gerar conteúdo da página de aterrissagem no [!DNL Journey Optimizer B2B Edition]:
 
@@ -59,7 +59,7 @@ As limitações e diretrizes a seguir se aplicam aos recursos do Assistente de I
 
 ## Entrada e configurações para geração de conteúdo
 
-Você pode gerar conteúdo completo para uma página de aterrissagem ou para componentes selecionados na página. Ao usar as ferramentas do Assistente de IA para gerar o conteúdo necessário, você fornece a entrada, incluindo prompts e conteúdo de referência, e as configurações para texto e imagens.
+Você pode gerar conteúdo completo para uma página de aterrissagem ou para componentes selecionados na página. Ao usar o Assistente de IA, forneça entradas, prompts, conteúdo de referência e configurações para texto e imagens.
 
 ### Prompts
 
@@ -77,7 +77,7 @@ Um prompt eficaz é essencial para gerar o melhor conteúdo possível. Se quiser
 
 ![Assistente de IA - acesse a Biblioteca de Prompts](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Selecione o prompt que melhor reflete suas metas e clique em **[!UICONTROL Tentar este Prompt]**. No campo _[!UICONTROL Prompt]_, substitua todos os espaços reservados (como `[Key Feature/Information]`) pelos valores necessários que especificam sua marca, oferta, campanha e casos de uso.
+Selecione o prompt que melhor reflete suas metas e clique em **[!UICONTROL Tentar este Prompt]**. No campo _[!UICONTROL Prompt]_, substitua os espaços reservados (como `[Key Feature/Information]`) pelos detalhes da sua marca, oferta, campanha e caso de uso.
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +89,7 @@ Expanda as **[!UICONTROL Configurações de texto]** no painel direito e defina 
 * **[!UICONTROL Estágio da jornada de marketing]** - Escolha o [estágio de grupo de compras](../buying-groups/buying-group-stages.md) para usar para direcionar as mensagens.
 * **[!UICONTROL Estratégia de comunicação]** - Escolha o estilo de comunicação mais adequado para o texto gerado.
 * **[!UICONTROL Idioma]** - Escolha o idioma do conteúdo gerado.
-* **[!UICONTROL Tom]** - O tom deve repercutir junto ao seu público-alvo. Por exemplo, você pode ajustar a mensagem para soar informativa, divertida ou persuasiva.
+* **[!UICONTROL Tom]** - O tom que repercute em seu público-alvo. Por exemplo, você pode ajustar a mensagem para soar informativa, divertida ou persuasiva.
 
 ![Painel de configurações de texto mostrando o grupo de compras, o estágio de jornada de marketing, a estratégia de comunicação, o idioma e as opções de tom](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -99,10 +99,10 @@ Clique na seta à esquerda para retornar às _[!UICONTROL Configurações]_ prin
 
 Para incluir imagens em seu conteúdo gerado, expanda as **[!UICONTROL Configurações de imagem]** no painel direito e defina as opções.
 
-A opção **[!UICONTROL Gerar imagens usando IA]** está desabilitada por padrão. Habilite esse recurso e defina as seguintes opções para incluir imagens geradas nas variações de conteúdo propostas:
+Por padrão, o sistema desabilita a opção **[!UICONTROL Gerar imagens usando IA]**. Habilite esse recurso e defina as seguintes opções para incluir imagens geradas nas variações de conteúdo propostas:
 
 * **[!UICONTROL Modelo gerativo]**: selecione entre o modelo pronto para uso fornecido pela Adobe, o modelo de parceiro para recursos especializados ou modelos personalizados configurados e treinados nos ativos da sua marca. Para obter mais informações sobre modelos gerativos, consulte _[Modelos de IA gerativa para alinhamento de marca](generative-ai-models.md)_.
-* **[!UICONTROL Taxa de proporção]**: quando um componente de imagem é selecionado, esta configuração determina a largura e a altura do ativo. Você tem a opção de escolher entre taxas comuns, como 16:9, 4:3, 3:2 ou 1:1, ou pode inserir um tamanho personalizado.
+* **[!UICONTROL Taxa de proporção]**: quando um componente de imagem é selecionado, esta configuração determina a largura e a altura do ativo. Escolha entre as taxas comuns, como 16:9, 4:3, 3:2 ou 1:1, ou insira um tamanho personalizado.
 * **[!UICONTROL Tipo de conteúdo]**: o tipo categoriza a natureza do elemento visual, distinguindo entre diferentes formas de representação visual, como fotos, gráficos ou arte.
 * **[!UICONTROL Intensidade visual]**: controle o impacto da imagem ajustando sua intensidade. Uma configuração mais baixa (como 2) cria uma aparência mais suave e restrita, enquanto uma configuração mais alta (como 10) torna a imagem mais vibrante e visualmente poderosa.
 * **[!UICONTROL Cor e tom]**: a aparência geral das cores em uma imagem e o humor ou atmosfera que ela transmite.
@@ -137,7 +137,7 @@ Use as seguintes etapas de acordo com o tipo de geração de conteúdo de págin
 
 >[!TAB Página inteira]
 
-Siga estas etapas para usar o AI Assistant para a geração completa da landing page, refinando um template de landing page existente:
+Para gerar uma landing page completa refinando um template existente, siga estas etapas:
 
 1. Depois de [criar a página de aterrissagem](./landing-pages-create-publish.md#create-landing-page), clique em **[!UICONTROL Editar página de aterrissagem]**.
 
@@ -145,7 +145,7 @@ Siga estas etapas para usar o AI Assistant para a geração completa da landing 
 
    A geração de conteúdo completo requer um modelo. Pode ser um modelo padrão fornecido pelo Adobe ou um modelo salvo. Você também pode usar a opção _[!UICONTROL Importar HTML]_ para importar um modelo.
 
-   Para obter mais informações sobre como usar um modelo de página de aterrissagem, consulte _[Selecionar um modelo salvo ou de amostra](./landing-pages.md#select-a-saved-or-sample-template)_.
+   Para obter mais informações sobre como usar um modelo de página de aterrissagem, consulte _[Selecionar um modelo](./landing-pages-create-publish.md#select-template)_.
 
 1. No painel externo do painel direito, selecione o ícone do _Assistente de IA_ ( ![Assistente de IA para alternância de conteúdo](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
@@ -159,7 +159,7 @@ Siga estas etapas para usar o AI Assistant para a geração completa da landing 
 
 1. No campo **[!UICONTROL Prompt]**, insira uma descrição do que você deseja gerar.
 
-   Use a [Biblioteca de Prompts](#prompt-library) se precisar de ajuda para criar um prompt eficaz.
+   Use a [Biblioteca de Prompts](#prompts) se precisar de ajuda para criar um prompt eficaz.
 
    ![Assistente de IA - solicitar biblioteca para gerar conteúdo da página de aterrissagem](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -167,7 +167,7 @@ Siga estas etapas para usar o AI Assistant para a geração completa da landing 
    >
    >Se você nunca solicitou o conteúdo gerado, reveja as _[Práticas recomendadas de solicitação](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
-1. Complete as configurações de orientação de conteúdo para adaptar o conteúdo gerado:
+1. Para personalizar o conteúdo gerado, conclua as configurações de orientação de conteúdo:
 
    * [**[!UICONTROL Configurações de texto]**](#text-settings) - Fornece orientação para o conteúdo de texto gerado.
    * [**[!UICONTROL Configurações de imagem]**](#image-settings) - Se quiser incluir imagens no conteúdo gerado, habilite a geração de imagens e forneça orientações.
@@ -175,11 +175,11 @@ Siga estas etapas para usar o AI Assistant para a geração completa da landing 
 
 1. Quando o prompt e as configurações estiverem prontos, clique em **[!UICONTROL Gerar]**.
 
-1. Role para baixo no painel Assistente de IA e navegue pelas variações geradas para determinar qual é o melhor ajuste.
+1. Role para baixo no painel Assistente de IA e navegue pelas variações geradas para determinar qual é a mais adequada.
 
    * Clique no ícone _Tela cheia_ ( ![Ícone de tela cheia](../assets/do-not-localize/icon-full-screen.svg) ) para abrir a caixa de diálogo _[!UICONTROL Gerar página de aterrissagem]_
 
-   * Se necessário, use as [ações de refinamento](#refine-a-variation) para ajustar a variação e garantir que elas atendam aos seus requisitos exatos.
+   * Se necessário, use as [ações de refinamento](#refine-a-variation) para ajustar a variação e garantir que ela atenda aos seus requisitos exatos.
 
    * [Envie seus comentários](#submit-variation-feedback) para as variantes geradas clicando no ícone de _Polegar para Cima_, _Polegar para Baixo_ ou _Sinalizar_ e escolha o motivo que melhor resume seus comentários.
 
@@ -189,7 +189,7 @@ Siga estas etapas para usar o AI Assistant para a geração completa da landing 
 
 >[!TAB Somente texto]
 
-Siga estas etapas para usar o AI Assistant para refinar ou aprimorar o conteúdo de texto de uma landing page existente:
+Para refinar ou aprimorar o conteúdo de texto de uma landing page existente, siga estas etapas:
 
 1. No espaço de design da página de aterrissagem, selecione um componente _Texto_ para direcionar o conteúdo específico.
 
@@ -207,9 +207,9 @@ Siga estas etapas para usar o AI Assistant para refinar ou aprimorar o conteúdo
 
    ![Assistente de IA - configurações de texto](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Use a [Biblioteca de Prompts](#prompt-library) se precisar de ajuda para criar um prompt eficaz.
+   Use a [Biblioteca de Prompts](#prompts) se precisar de ajuda para criar um prompt eficaz.
 
-1. Complete as configurações de orientação de conteúdo para adaptar o conteúdo gerado:
+1. Para personalizar o conteúdo gerado, conclua as configurações de orientação de conteúdo:
 
    * [**[!UICONTROL Configurações de texto]**](#text-settings) - Fornece orientação para o conteúdo de texto gerado.
 
@@ -221,7 +221,7 @@ Siga estas etapas para usar o AI Assistant para refinar ou aprimorar o conteúdo
 
    * Clique no ícone _Tela cheia_ ( ![Ícone de tela cheia](../assets/do-not-localize/icon-full-screen.svg) ) para abrir a caixa de diálogo _[!UICONTROL Gerar texto]_
 
-   * Se necessário, use as [ações de refinamento](#refine-a-variation) para ajustar a variação e garantir que elas atendam aos seus requisitos exatos.
+   * Se necessário, use as [ações de refinamento](#refine-a-variation) para ajustar a variação e garantir que ela atenda aos seus requisitos exatos.
 
    * [Envie seus comentários](#submit-variation-feedback) para as variantes geradas clicando no ícone de _Polegar para Cima_, _Polegar para Baixo_ ou _Sinalizar_ e escolha o motivo que melhor resume seus comentários.
 
@@ -231,7 +231,7 @@ Siga estas etapas para usar o AI Assistant para refinar ou aprimorar o conteúdo
 
 >[!TAB Somente imagem]
 
-Siga estas etapas para usar o Assistente de IA para refinar ou aprimorar o conteúdo de imagem de uma página de aterrissagem existente:
+Para refinar ou aprimorar o conteúdo de imagem de uma landing page existente, siga estas etapas:
 
 1. No espaço de design da página de aterrissagem, selecione um componente _Imagem_ para direcionar o conteúdo específico.
 
@@ -249,9 +249,9 @@ Siga estas etapas para usar o Assistente de IA para refinar ou aprimorar o conte
 
    ![Assistente de IA - configurações de texto](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   Use a [Biblioteca de Prompts](#prompt-library) se precisar de ajuda para criar um prompt eficaz.
+   Use a [Biblioteca de Prompts](#prompts) se precisar de ajuda para criar um prompt eficaz.
 
-1. Complete as configurações de orientação de conteúdo para adaptar o conteúdo gerado:
+1. Para personalizar o conteúdo gerado, conclua as configurações de orientação de conteúdo:
 
    * [**[!UICONTROL Configurações de imagem]**](#image-settings) - Se quiser incluir imagens no conteúdo gerado, habilite a geração de imagens e forneça orientações.
 
@@ -301,7 +301,7 @@ Clique na opção **[!UICONTROL Refinar]** para acessar recursos de personaliza�
 
 * **[!UICONTROL Elaborar]** - O Assistente de IA pode ajudá-lo a expandir tópicos específicos, fornecendo detalhes adicionais para melhor compreensão e engajamento.
 
-* **[!UICONTROL Resumir]** - Informações extensas podem sobrecarregar os visualizadores da página. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que chamem a atenção e os incentivem a ler mais.
+* **[!UICONTROL Resumir]** - Informações extensas podem sobrecarregar os visualizadores da página. Use o Assistente de IA para condensar os pontos principais em resumos claros e concisos que atraem atenção e incentivam os recipients a ler mais.
 
 * **[!UICONTROL Refrase]** - Reescreva a mensagem preservando seu significado. Essa opção ajuda a gerar texto alternativo, melhorar o fluxo ou ajustar o estilo sem alterar a mensagem principal.
 

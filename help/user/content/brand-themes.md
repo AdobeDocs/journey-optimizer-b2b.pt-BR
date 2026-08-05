@@ -20,10 +20,10 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 autotag-review: 2026-03-30T21:49:24.359Z
 TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3107
-ht-degree: 2%
+source-wordcount: 3111
+ht-degree: 3%
 
 ---
 
@@ -40,11 +40,11 @@ Com temas, os designers não técnicos têm a capacidade de criar diretrizes reu
 
 Ao trabalhar com temas, lembre-se das seguintes diretrizes e limitações:
 
-* Ao criar um modelo de email ou de email a partir de uma tela em branco (_criar do zero_), você pode escolher o _Modo de tema_ para começar a criar seu conteúdo usando um tema para aplicar um estilo específico que se ajuste à sua marca e ao seu design. Se você escolher o _Modo manual_, não poderá aplicar um tema, a menos que redefina o design do modelo de email ou de email.
+* Ao criar um modelo de email ou de email a partir de uma tela em branco (_criar do zero_), você pode escolher o _Modo de tema_ para criar conteúdo usando um tema que se ajuste à sua marca. Para aplicar um tema se você escolher o _Modo manual_, deverá redefinir o design do modelo de email ou de email.
 
 * [Fragmentos](./fragments.md) não são compatíveis entre o _Modo de tema_ e o _Modo manual_ no conteúdo do email. Para usar um fragmento no conteúdo de email no qual um tema é aplicado, ele também deve ser criado no _Modo de tema_.
 
-* As alterações em um tema personalizado não são aplicadas automaticamente em cascata a todos os emails ou modelos de email que já o utilizam. Edite o conteúdo de cada para atualizar o tema.
+* As alterações em um tema personalizado não são aplicadas automaticamente em cascata a todos os emails ou modelos de email que já o utilizam. Para atualizar o tema, edite o conteúdo de cada um.
 
 * Se você excluir um tema, ele não afetará nenhum email ou template de email no qual já foi aplicado.
 <!--
@@ -53,7 +53,7 @@ Ao trabalhar com temas, lembre-se das seguintes diretrizes e limitações:
 
 ## Criar um tema de marca {#create-theme}
 
-Defina o tema da sua própria marca que poderá ser aplicado ao conteúdo do seu email e do seu modelo de email no conteúdo de email futuro.
+Defina o tema da sua própria marca que poderá ser aplicado ao conteúdo do seu email e do seu template de email.
 
 1. Acesse as ferramentas de tema usando um dos seguintes métodos:
 
@@ -87,7 +87,7 @@ Defina o tema da sua própria marca que poderá ser aplicado ao conteúdo do seu
    * [Cores](#colors)
    * [Configurações de texto](#text-settings)
    * [Espaçamento e borda](#spacing-and-border)
-   * [Botão](#button)
+   * [Botão](#buttons)
    * [Divisor](#divider)
    * [Grade](#grid)
 
@@ -126,7 +126,7 @@ Selecione a guia **[!UICONTROL Cores]** e use as configurações para definir a 
 
   Clique na seta _Voltar_ para fechar as ferramentas da paleta de cores.
 
-* Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores, como o modo _light_ e _dark_, em que cada variante tem sua própria paleta de cores e controles de nuance.
+* Clique em **[!UICONTROL Adicionar variante]** para criar várias variantes de cores, como os modos _light_ e _dark_, cada uma com sua própria paleta e controles.
 
   >[!NOTE]
   >
@@ -253,7 +253,7 @@ Use o painel à direita para navegar pelas diferentes guias e alterar as configu
 * [Cores](#colors)
 * [Configurações de texto](#text-settings)
 * [Espaçamento e borda](#spacing-and-border)
-* [Botão](#button)
+* [Botão](#buttons)
 * [Divisor](#divider)
 * [Grade](#grid)
 
@@ -265,7 +265,7 @@ Quando as alterações do tema forem concluídas, clique em **[!UICONTROL Salvar
 
 >[!NOTE]
 >
->As alterações salvas não se aplicam automaticamente a todos os emails ou modelos de email que estão usando o tema no momento. Edite o conteúdo de cada para atualizar o tema e corresponder aos estilos atualizados.
+>As alterações salvas não se aplicam automaticamente a todos os emails ou modelos de email que estão usando o tema no momento. Para atualizar o tema e corresponder aos estilos atualizados, edite o conteúdo de cada um.
 
 ## Gerenciar temas personalizados
 
@@ -287,7 +287,7 @@ Se você tiver uma grande lista de temas personalizados, use o campo _Pesquisar_
    * [Cores](#colors)
    * [Configurações de texto](#text-settings)
    * [Espaçamento e borda](#spacing-and-border)
-   * [Botão](#button)
+   * [Botão](#buttons)
    * [Divisor](#divider)
    * [Grade](#grid)
 
@@ -299,7 +299,7 @@ Se você tiver uma grande lista de temas personalizados, use o campo _Pesquisar_
 
 >[!NOTE]
 >
->As alterações de tema salvas não se aplicam automaticamente a todos os emails ou modelos de email que estão usando o tema no momento. Edite o conteúdo de cada para atualizar o tema e corresponder aos estilos atualizados.
+>As alterações de tema salvas não se aplicam automaticamente a todos os emails ou modelos de email que estão usando o tema no momento. Para atualizar o tema e corresponder aos estilos atualizados, edite o conteúdo de cada um.
 
 ### Excluir ou duplicar um tema
 
@@ -317,7 +317,7 @@ Ao localizar o tema, clique no menu _Mais_ (**...**) ícone na parte inferior di
 
 ## Usar um tema para criação de conteúdo de email {#use-email-theme}
 
-Ao criar um novo modelo de email ou de email, você pode optar por usar um tema de marca que simplifica o processo de criação de conteúdo e garante que o design se alinhe aos padrões definidos. Para um novo fragmento, também é possível aplicar um tema antes de salvar o fragmento. O fragmento permanece no _modo de Tema_ a partir desse ponto e é compatível para adicionar a emails e modelos de email que também estão no _modo de Tema_.
+Ao criar um novo modelo de email ou de email, você pode optar por usar um tema de marca que simplifica o processo de criação de conteúdo e garante que o design se alinhe aos padrões definidos. Para um novo fragmento, também é possível aplicar um tema antes de salvar o fragmento. O fragmento permanece no _modo de Tema_ a partir desse ponto e é compatível para adição a emails e modelos de email que também estão no _modo de Tema_.
 
 1. Selecione uma das seguintes ações:
 

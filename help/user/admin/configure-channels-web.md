@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ A configuração do canal da Web no Journey Optimizer B2B edition requer as [per
 
      ![Selecionando uma URL de página para uma configuração de canal da Web de página única](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Regra de correspondência de páginas]** - Para direcionar várias URLs correspondentes à mesma regra, crie uma [regra de correspondência de páginas](#build-a-pages-matching-rule) e insira uma **[!UICONTROL URL de criação e visualização padrão]**.
+   * **[!UICONTROL Regra de correspondência de páginas]** - Para direcionar várias URLs correspondentes à mesma regra, crie uma [regra de correspondência de páginas](#build-a-rule) e insira uma **[!UICONTROL URL de criação e visualização padrão]**.
 
 1. Clique em **[!UICONTROL Enviar]** para salvar suas alterações.
 
@@ -75,7 +75,7 @@ Assim que o canal da Web for usado em uma jornada, ele será movido para o statu
 
 Ao criar uma configuração da Web, você pode criar uma _[!UICONTROL regra de correspondência de páginas]_ para direcionar várias URLs que correspondam à mesma regra. Essas regras permitem aplicar as mesmas alterações de conteúdo em várias páginas.
 
-Por exemplo, talvez você queira aplicar as alterações em um banner principal em todo o site ou adicionar uma imagem superior que seja exibida em todas as páginas do produto.
+Por exemplo, aplique alterações em um banner principal em todo o site ou adicione uma imagem superior que seja exibida em todas as páginas do produto.
 
 ### Criar uma regra
 
@@ -122,9 +122,9 @@ Por exemplo, talvez você queira aplicar as alterações em um banner principal 
 
    * Use os operadores **[!UICONTROL Or]** ou **[!UICONTROL Exclude]** entre as diferentes regras.
 
-     _[!UICONTROL Or]_ é o operador padrão para definir várias regras e é útil para adicionar várias definições de critérios que podem ser correspondidos.
+     _[!UICONTROL Ou]_ O operador [!UICONTROL Ou] é o operador padrão para definir várias regras e é útil para adicionar várias definições de critérios que podem ser correspondidos.
 
-     _[!UICONTROL Excluir]_ é útil quando uma das páginas que correspondem à regra definida não deve ser direcionada. Por exemplo, você pode direcionar todas as `bodea.com` páginas que contenham `lumasecure`, mas excluindo as páginas do blog (como `bodea.com/blogs/lumasecure/latest-release`).
+     _[!UICONTROL Excluir]_ O operador [!UICONTROL Excluir] é útil quando uma das páginas que correspondem à regra definida não deve ser direcionada. Por exemplo, você pode direcionar todas as `bodea.com` páginas que contenham `lumasecure`, mas excluir as páginas do blog (como `bodea.com/blogs/lumasecure/latest-release`).
 
    ![Regras de correspondência de páginas com exclusão](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Por exemplo, talvez você queira aplicar as alterações em um banner principal 
 
 1. Clique no nome do canal da Web duplicado para editar os parâmetros.
 
-   * Altere o nome e a descrição para corresponder à finalidade ou aos itens na regra.
+   * Para corresponder à finalidade ou aos itens na regra, altere o nome e a descrição.
    * Se necessário, altere o URL da página única.
    * Se necessário, altere a regra de correspondência de páginas de acordo com seus requisitos.
 

@@ -14,10 +14,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1577
+ht-degree: 5%
 
 ---
 
@@ -49,7 +49,7 @@ Em um mercado B2B, vários indivíduos geralmente tomam decisões de compra. Ess
 >
 >* [Mapeamento de campo de perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes) para filtros de atributo de pessoa
 >* [Dados de intenção](../admin/intent-data.md) se você usar filtros de intenção em condições de função
->* [Funções personalizadas de grupos de compras](./default-custom-roles.md#custom-roles) (opcional) se você precisar de funções além dos seis padrões
+>* [Funções personalizadas de grupos de compras](./default-custom-roles.md#create-a-custom-role) (opcional) se você precisar de funções além dos seis padrões
 
 ## Acessar e procurar modelos de função {#access-and-browse-role-templates}
 
@@ -70,7 +70,7 @@ Em um mercado B2B, vários indivíduos geralmente tomam decisões de compra. Ess
    * [!UICONTROL Publicado em]
    * [!UICONTROL Publicado por]
 
-   A lista é classificada por padrão por _[!UICONTROL Última atualização]_. Todos os modelos de funções têm status de `Draft` ou `Live`.
+   O sistema classifica a lista por _[!UICONTROL Última atualização]_ por padrão. Todos os modelos de funções têm status de `Draft` ou `Live`.
 
 1. Para filtrar a lista por nome, use o campo de pesquisa na parte superior da lista.
 
@@ -98,7 +98,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
 | Tipo | Condições |
 | ---- | --------- |
-| [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado |
+| [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado |
 | [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta ou pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer critério de objeto personalizado selecionado, conforme configurado nos [esquemas relacionais XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtros especiais | <li>Membro da lista (desaprovado) <li>Membro do programa (obsoleto) |
 | Dados de intenção | <li>Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave <br/>(consulte [_Dados de intenção_](../admin/intent-data.md)) |
@@ -109,7 +109,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
    * Escolha a **[!UICONTROL Função do grupo de compra]** na lista.
 
-     Há seis funções padrão: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`. A lista também inclui quaisquer [funções personalizadas definidas na lista _Funções_](./default-custom-roles.md#custom-roles).
+     Há seis funções padrão: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`. A lista também inclui quaisquer [funções personalizadas definidas na lista _Funções_](./default-custom-roles.md#create-a-custom-role).
 
      ![Lista de funções do grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -161,7 +161,7 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 
 No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista do Marketo Engage como uma condição para seu modelo de funções para ajudar a eliminar a duplicação na compra de associação de grupo e atividades de jornada.
 
-Para usar a associação de lista como uma condição de função, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Em seguida, conclua a definição do filtro para avaliar a associação em uma ou mais listas do Marketo Engage.
+Para usar a associação de lista como uma condição de função, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Para avaliar a associação em uma ou mais listas do Marketo Engage, conclua a definição do filtro.
 
 ![Condição de modelo de funções para associação à lista de Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -178,7 +178,7 @@ Para usar a associação de lista como uma condição de função, expanda **[!U
 
 Por padrão, a integridade de uma função é definida como um membro atribuído à função. Ao usar a integridade do grupo de compras para indicar disponibilidade de vendas, use essas configurações para alinhar a pontuação com o número de membros necessários para fechar uma oportunidade.
 
-Por exemplo, fechar um negócio para sua solução _X_ requer que vários tomadores de decisão de marketing sejam identificados e envolvidos, pois várias equipes de marketing em uma organização usariam a solução. Nesse caso, você deseja aumentar o limite para calcular um grupo de compras _concluído_ exigindo pelo menos dois tomadores de decisão de marketing.
+Por exemplo, fechar um negócio para sua solução _X_ requer identificar e envolver vários tomadores de decisão de marketing, pois várias equipes de marketing em uma organização usam a solução. Nesse caso, você deseja aumentar o limite para calcular um grupo de compras _concluído_ exigindo pelo menos dois tomadores de decisão de marketing.
 
 Consulte [Pontuações de completude](./completeness-scores.md) para obter informações detalhadas sobre pontuação e cálculos de completude.
 
@@ -198,7 +198,7 @@ Consulte [Pontuações de completude](./completeness-scores.md) para obter infor
 
 Se o modelo estiver pronto para uso, clique em **[!UICONTROL Publicar]** no canto superior direito.
 
-A publicação do modelo define o status como _Live_ e o disponibiliza para associação com um interesse de solução. Deve haver pelo menos uma função definida para publicar o modelo de funções.
+Para disponibilizar o modelo para associação com um interesse de solução, publique-o para definir o status como _Live_. Deve haver pelo menos uma função definida para publicar o modelo de funções.
 
 Após a publicação, o status do modelo é _Live_ na guia **[!UICONTROL Modelos de Funções]** e você pode selecioná-lo quando [criar um interesse de solução](./solution-interests.md).
 
@@ -206,13 +206,13 @@ Após a publicação, o status do modelo é _Live_ na guia **[!UICONTROL Modelos
 
 Quando um modelo de funções está em um estado de _Rascunho_, você pode continuar a editar as funções definidas. Todas as alterações feitas são salvas automaticamente.
 
-Altere as configurações de cabeçalho do cartão de função, como a função do grupo de compra, ponderação, atribuição automática ou requisito de pontuação de integridade.
+Altere as configurações de cabeçalho do cartão de função, como requisitos de função, ponderação, atribuição automática ou integridade.
 
 ![Alterar propriedades de função de grupo de compra](./assets/roles-template-role-properties.png){width="600"}
 
 ### Modificar as condições para uma função
 
-Para alterar a condição/lógica de filtragem de qualquer uma das funções, clique no ícone _Editar_ ( ![Editar ícone](../assets/do-not-localize/icon-edit.svg) ) na parte superior direita do cartão de função. Esta ação abre o espaço de trabalho _[!UICONTROL Condições]_, no qual você pode modificar um filtro existente, adicionar ou remover um filtro ou alterar a lógica do filtro.
+Para alterar a condição/lógica de filtragem de qualquer uma das funções, clique no ícone _Editar_ ( ![Editar ícone](../assets/do-not-localize/icon-edit.svg) ) na parte superior direita do cartão de funções. Esta ação abre o espaço de trabalho _[!UICONTROL Condições]_, no qual você pode modificar um filtro existente, adicionar ou remover um filtro ou alterar a lógica do filtro.
 
 ### Excluir um cartão de função
 
