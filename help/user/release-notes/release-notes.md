@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
 workflow-type: tm+mt
-source-wordcount: 5351
-ht-degree: 64%
+source-wordcount: 5552
+ht-degree: 62%
 
 ---
 
@@ -32,13 +32,31 @@ O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experien
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
+## Notas de versão 2026.8 {#rel-2026-8}
+
+**Data de implantação**: 14 de agosto de 2026
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Recurso | Listas de pessoas | As listas estáticas e dinâmicas de pessoas agora estão disponíveis para que você possa direcionar perfis por seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
+| Recurso | _Caminhos divididos variantes_ nós de jornada | (Anteriormente beta para jornadas de conta) Os profissionais de marketing agora podem testar variações em uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
+| Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
+| Aprimoramento | Analise acionadores e filtros de eventos - jornadas da conta | O suporte para vários acionadores e filtros em um nó _Escutar evento_ agora está disponível para jornadas de conta. |
+| Aprimoramento | Nós de caminho dividido externos - jornadas de pessoa | O suporte para nós _Caminhos divididos externos_ agora está disponível para jornadas de pessoas. |
+| Aprimoramento | Nós de ação externa - jornadas de pessoa | O suporte para nós de _Ação externa_ agora está disponível para jornadas de pessoas. |
+| Aprimoramento | Conjuntos de dados de relação do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
+
+>[!NOTE]
+>
+>Essas alterações de versão começam a ser implantadas em 14 de agosto de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+
 ## Notas de versão 2026.6 {#rel-2026-6}
 
 **Data de implantação**: 10 de julho de 2026
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | _Dividir caminho_ nós de jornada - Variantes | (Beta) Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. [Saiba mais](../journeys/variant-split-paths-nodes.md) |
+| Recurso | _Caminhos de divisão de variantes_ nós de jornada - jornadas de conta | (Beta) Agora, os profissionais de marketing podem testar variações em uma jornada atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. [Saiba mais](../journeys/variant-split-paths-nodes.md) |
 | Aprimoramento | _Ouvir um evento_ nós de jornada | Nas jornadas presenciais, os nós do ouvinte de eventos agora podem ser configurados com vários eventos para serem acionados. O primeiro evento de qualificação avança o registro na jornada. (Suporte planejado em jornadas de conta para uma versão futura.) [Saiba mais](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Aprimoramento | _Ouvir um evento_ nós de jornada | A guia _[!UICONTROL Filtros]_ para eventos de pessoas/pessoas foi alterada de um único seletor de ações para uma interface de construtor de regras. Isso oferece suporte a várias configurações de atividade usando Eventos de experiência configurados. [Saiba mais](../journeys/listen-for-event-nodes.md#filters-people-event) |
 | Aprimoramento | _Executar uma ação_ para jornada nós | Ações adicionais agora estão disponíveis para o contexto de pessoas da jornada de conta e de uma jornada de pessoa: _Adicionar à jornada de pessoa_ e _Remover da jornada de pessoa_. [Saiba mais](../journeys/action-nodes.md#people-actions) |
@@ -46,12 +64,6 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 >[!NOTE]
 >
 >Essas alterações de versão começam a ser implantadas em 10 de julho de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
-
-<!-- 
-Add for 2026.8 release
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
--->
 
 ## Notas de versão 2026.5 {#rel-2026-5}
 
@@ -165,7 +177,7 @@ Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey O
 
 ### Arquitetura atualizada
 
-Com a arquitetura atualizada, o Journey Optimizer B2B edition e o Marketo Engage não estão no mesmo sistema e armazenamento de dados. O Journey Optimizer B2B edition recebe dados do Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
+Com a arquitetura atualizada, o Journey Optimizer B2B edition e o Marketo Engage não estão mais no mesmo sistema e armazenamento de dados. O Journey Optimizer B2B edition recebe dados do Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
 
 >[!NOTE]
 >
@@ -176,7 +188,7 @@ Essa implementação oferece vários benefícios:
 * **Unifique e dimensione os seus dados facilmente**: a plataforma atualizada permite o uso de modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
 * **Conecte várias instâncias do Adobe Marketo Engage**: gerencie e unifique dados de vários ambientes do Adobe Marketo Engage no mesmo lugar.
 * **Mantenha os seus dados seguros**: os recursos avançados de privacidade e segurança ajudam a proteger as informações dos seus clientes.
-* **Projetado para escalabilidade de longo prazo**: essa atualização configura a sua organização para melhorias e inovações contínuas.
+* **Projetado para escalabilidade de longo prazo**: essa atualização prepara sua organização para melhorias e inovações contínuas.
 
 >[!NOTE]
 >
