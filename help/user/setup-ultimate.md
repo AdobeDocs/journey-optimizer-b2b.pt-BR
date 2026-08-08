@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 848
-ht-degree: 74%
+source-wordcount: 847
+ht-degree: 73%
 
 ---
 
@@ -282,7 +282,7 @@ Para dar suporte a equipes de marketing que incluem outros canais em suas jornad
 <td><a href="./admin/configure-channels-sms.md">Saiba mais</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Configurações de canal do Journey Optimizer B2B edition para páginas de aterrissagem</strong> (Beta).</td>
+<td colspan="2"><strong>Páginas de aterrissagem</strong> para a configuração de canal do Journey Optimizer B2B edition.</td>
 <td></td>
 </tr>
 <tr>

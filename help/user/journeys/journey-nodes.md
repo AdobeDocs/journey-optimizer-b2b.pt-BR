@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 16%
+source-wordcount: 135
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ Depois de criar uma jornada (jornada de conta ou jornada de pessoa), adicione o 
 Os nós de público-alvo são automaticamente o primeiro nó na jornada:
 
 * [Público-alvo da conta](./account-audience-nodes.md)
-* [Público-alvo de pessoas](./person-audience-nodes.md) (Beta)
+* [Público-alvo de pessoa](./person-audience-nodes.md)
 
 Construa sua jornada combinando os diferentes nós de ação, evento e orquestração como um cenário em várias etapas e entre canais. Cada nó de uma jornada representa uma etapa ao longo de um caminho lógico. Use os seguintes tipos de nó para criar uma jornada de conta:
 

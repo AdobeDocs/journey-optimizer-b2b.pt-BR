@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 5552
+source-wordcount: 5580
 ht-degree: 62%
 
 ---
@@ -38,8 +38,9 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
+| Recurso | Jornadas de pessoas | (Anteriormente Beta, implantação antecipada para disponibilidade geral) Agora é possível criar jornadas para orquestrar marketing baseado em leads usando públicos e dados da Experience Platform. [Saiba mais](../journeys/journeys-overview.md) |
 | Recurso | Listas de pessoas | As listas estáticas e dinâmicas de pessoas agora estão disponíveis para que você possa direcionar perfis por seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
-| Recurso | _Caminhos divididos variantes_ nós de jornada | (Anteriormente beta para jornadas de conta) Os profissionais de marketing agora podem testar variações em uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
+| Recurso | _Caminhos divididos variantes_ nós de jornada | (Anteriormente Beta para jornadas de conta) Os profissionais de marketing agora podem testar variações em uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
 | Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
 | Aprimoramento | Analise acionadores e filtros de eventos - jornadas da conta | O suporte para vários acionadores e filtros em um nó _Escutar evento_ agora está disponível para jornadas de conta. |
 | Aprimoramento | Nós de caminho dividido externos - jornadas de pessoa | O suporte para nós _Caminhos divididos externos_ agora está disponível para jornadas de pessoas. |

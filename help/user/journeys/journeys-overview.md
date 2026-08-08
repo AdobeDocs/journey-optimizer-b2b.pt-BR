@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +33,9 @@ O Journey Optimizer B2B edition é compatível com dois tipos de jornada:
 
   ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral da jornada da conta](#overview-video)
 
-* **jornadas de pessoas** - (Beta) Orquestrar o marketing baseado em clientes potenciais usando públicos-alvo e dados da Experience Platform. Com jornadas pessoais, suas operações de marketing não dependem do Marketo Engage ou de soluções alternativas para cadeias de ferramentas Adobe Campaign/B2C para que possam dar suporte a casos de uso B2B.
+* **jornadas de pessoas** - Orquestre o marketing com base em clientes potenciais usando públicos-alvo e dados da Experience Platform. Com jornadas de pessoas, suas operações de marketing não dependem do Marketo Engage ou de soluções alternativas para cadeias de ferramentas Adobe Campaign/B2C para que possam dar suporte a casos de uso B2B.
 
   Quando usada em conjunto com jornadas de conta e grupos de compra, uma jornada de pessoa pode fornecer aos profissionais de marketing o poder de aplicar a orquestração completa à jornada de compra.
-
-  +++Limitações atuais para jornadas de pessoas
-
-  Existem limitações que podem bloquear certos casos de uso ou causar dificuldade para criar jornadas de pessoas. Muitos problemas são resultado da implementação inicial do programa beta, que deverá ser abordada no futuro.
-
-  * Eventos não podem ser combinados com atributos de perfil para restringir as definições de público.
-  * O contexto do evento que qualifica um perfil para uma jornada não pode ser usado para personalização ou orquestração.
-  * No momento, o Jornada não pode ter um evento e um critério de entrada de segmento de perfil.
-  * Os ouvintes de eventos não podem ouvir vários eventos.
-  * No momento, os nós de espera não têm um conjunto completo de opções para os critérios de dia da semana ou hora do dia de saída.
-  * O editor de email faz referência incorretamente a recursos e atributos que só estão disponíveis para Jornadas de conta
-  * O suporte para tokens de jornada personalizados (_Meus tokens_) ainda não está disponível.
-  * Adicionar e Remover dos nós de jornada de pessoa não está disponível atualmente em nenhum dos tipos de jornada.
-  * O histórico de eventos não pode ser usado para orquestração ou personalização.
-  * Os objetos relacionados (conta, grupo de compra, oportunidade e objetos personalizados) não podem ser usados para orquestração ou personalização.
-  * No momento, não há suporte para canais de plataforma da Web, SMS e anúncio.
-
-  +++
 
 ## Introdução a uma jornada
 
@@ -75,9 +57,7 @@ Insira texto na ferramenta de _pesquisa_ da parte superior da lista para filtrar
 
 ![Filtrar a lista de jornadas da conta](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB jornadas de pessoas (Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="Disponível como um recurso beta"}
+>[!TAB jornadas de pessoas]
 
 Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de Jornadas]** e clique em **[!UICONTROL jornadas de pessoas]**.
 
@@ -194,7 +174,7 @@ Uma ação duplicada é semelhante a uma função de clone, mas uma jornada dupl
 
    * **[!UICONTROL Duplicação parcial de conteúdo]**: use este tipo para copiar tudo na jornada, excluindo emails ou mensagens SMS criados. Os nós que fazem referência a um email ou mensagem SMS do Marketo Engage ficam totalmente intactos.
 
-   * **[!UICONTROL Duplicar sem detalhes]** - Use este tipo para copiar somente a estrutura e os caminhos do nó. Todas as configurações de nó e condições de caminho ficam indefinidas (padrão), de modo que você pode reutilizar o fluxo básico com diferentes configurações de público-alvo, ações e segmentação de caminho. Todos os nós _Wait_ usam o padrão de cinco dias.
+   * **[!UICONTROL Duplicar sem detalhes]** - Use este tipo para copiar somente a estrutura e os caminhos do nó. Todas as configurações de nó e condições de caminho são indefinidas (padrão), para que você possa usar o fluxo básico novamente com diferentes configurações de público-alvo, ações e segmentação de caminho. Todos os nós _Wait_ usam o padrão de cinco dias.
 
 1. Clique em **[!UICONTROL Duplicar]**.
 
