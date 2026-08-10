@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1175,7 +1175,7 @@ Use a função `truncateToStartOfDay` para modificar uma determinada data-hora, 
 
 ### truncateToStartOfQuarter {#truncate-quarter}
 
-Use a função `truncateToStartOfQuarter` para truncar uma data-hora para o primeiro dia de seu trimestre (como 1º de janeiro, 1º de abril, 1º de julho, 1º de outubro) em 00:00.
+Use a função `truncateToStartOfQuarter` para truncar uma data e hora no primeiro dia de seu trimestre (como 1º de janeiro, 1º de abril, 1º de julho, 1º de outubro) às 00:00.
 
 +++Sintaxe
 
@@ -1209,7 +1209,7 @@ A função `truncateToStartOfWeek` modifica uma determinada data-hora definindo-
 
 ### truncateToStartOfYear {#truncate-year}
 
-Use a função `truncateToStartOfYear` para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1° de janeiro) em 00:00.
+Use a função `truncateToStartOfYear` para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1° de janeiro) às 00:00.
 
 +++Sintaxe
 
