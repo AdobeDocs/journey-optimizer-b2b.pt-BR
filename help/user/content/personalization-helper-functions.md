@@ -9,24 +9,15 @@ keywords: expressão, editor, sintaxe, personalização
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
 autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1175,7 +1166,7 @@ Use a função `truncateToStartOfDay` para modificar uma determinada data-hora, 
 
 ### truncateToStartOfQuarter {#truncate-quarter}
 
-Use a função `truncateToStartOfQuarter` para truncar uma data-hora para o primeiro dia de seu trimestre (como 1º de janeiro, 1º de abril, 1º de julho, 1º de outubro) em 00:00.
+Use a função `truncateToStartOfQuarter` para truncar uma data e hora no primeiro dia de seu trimestre (como 1º de janeiro, 1º de abril, 1º de julho, 1º de outubro) às 00:00.
 
 +++Sintaxe
 
@@ -1209,7 +1200,7 @@ A função `truncateToStartOfWeek` modifica uma determinada data-hora definindo-
 
 ### truncateToStartOfYear {#truncate-year}
 
-Use a função `truncateToStartOfYear` para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1° de janeiro) em 00:00.
+Use a função `truncateToStartOfYear` para modificar uma determinada data-hora, truncando-a para o primeiro dia do ano (1° de janeiro) às 00:00.
 
 +++Sintaxe
 
