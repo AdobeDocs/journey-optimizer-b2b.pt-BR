@@ -4,22 +4,16 @@ description: Conecte sua conta comercial do WhatsApp por meio da API de nuvem do
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2:
-  - id: a7692144-1dc6-426f-b00f-fe187797f61d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: a7692144-1dc6-426f-b00f-fe187797f61d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 13%
+source-wordcount: 1515
+ht-degree: 9%
 
 ---
 
@@ -34,13 +28,13 @@ O Adobe Journey Optimizer B2B edition envia mensagens de WhatsApp por meio da AP
 Antes de configurar o canal do WhatsApp, verifique se você tem o seguinte:
 
 * [Uma conta do Meta Business Manager](https://business.facebook.com/)
-* [Uma Conta de Negócios do WhatsApp com nome de remetente e número de telefone verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [Uma Conta de Negócios do WhatsApp com nome de remetente e número de telefone verificados](https://developers.facebook.com/documentation/business-messaging/whatsapp/whatsapp-business-accounts)
 * [Um token de autorização de usuário do Meta com as permissões apropriadas](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [Modelos de mensagem aprovados em sua conta de negócios do WhatsApp](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [Modelos de mensagem aprovados em sua conta de negócios do WhatsApp](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)
 
 >[!IMPORTANT]
 >
->Seu uso dos serviços de mensagens do WhatsApp está sujeito aos termos e condições do Meta. Ao acessar mensagens do WhatsApp por meio do Journey Optimizer B2B edition, você reconhece que revisou e concorda em cumprir as [políticas de Negócios do Meta WhatsApp](https://www.whatsapp.com/legal/business-policy/).
+>Seu uso dos serviços de mensagens do WhatsApp está sujeito aos termos e condições do Meta. Ao acessar mensagens do WhatsApp por meio do Journey Optimizer B2B edition, você reconhece que revisou e concorda em cumprir as [políticas de Negócios do Meta WhatsApp](https://whatsappbusiness.com/policy/).
 
 ## Limitações {#limitations}
 
@@ -50,7 +44,7 @@ Os seguintes limites se aplicam ao canal do WhatsApp:
 
 * As mensagens de resposta automatizadas ou predefinidas ainda não são compatíveis.
 
-* A partir de abril de 2025, o Meta suspendeu temporariamente a entrega de todas as mensagens de template de marketing para usuários do WhatsApp que têm um número de telefone dos Estados Unidos (um número composto por um código de discagem +1 e um código de área dos EUA). [Saiba mais na documentação do Meta](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
+* A partir de abril de 2025, o Meta suspendeu as mensagens dos modelos de marketing para usuários do WhatsApp com um número de telefone dos Estados Unidos (código de discagem + 1 e código de área dos EUA). [Saiba mais na documentação do Meta](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
 
 * A funcionalidade de integração nativa não permite a integração com um provedor de serviços comerciais (BSP) terceirizado.
 
@@ -84,7 +78,7 @@ Conclua as seguintes tarefas:
    * **[!UICONTROL Token de API]** - Insira seu token de API. Para obter informações, consulte a [Documentação do Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL ID da Conta Comercial]** - Insira o número exclusivo relacionado ao seu portfólio comercial. Para obter informações, consulte a [Documentação do Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenciais da API de configurações do WhatsApp &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenciais da API de configurações do WhatsApp ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Continuar]**.
 
@@ -97,9 +91,9 @@ Conclua as seguintes tarefas:
    As configurações de número de telefone são preenchidas automaticamente:
 
    * **Classificação de qualidade** - reflete o feedback do cliente para mensagens enviadas nas últimas 24 horas.
-      * Verde: alta qualidade
-      * Amarelo: qualidade do Medium
-      * Vermelho: baixa qualidade
+     * Verde: alta qualidade
+     * Amarelo: qualidade do Medium
+     * Vermelho: baixa qualidade
 
      Para obter mais informações, consulte [_Classificação de qualidade_](https://www.facebook.com/business/help/766346674749731#) na documentação do Meta.
 
@@ -115,14 +109,16 @@ Se as credenciais enviadas forem inválidas, o sistema exibirá uma mensagem de 
 
 Se você encontrar um erro HTTP 500 ao configurar as credenciais da API do WhatsApp, siga estas etapas de solução de problemas:
 
-1. Verifique seus direitos da Adobe - Confirme se sua organização tem o direito _cjm_ whatsapp_ provisionado. Sem esse direito, o canal do WhatsApp não pode ser configurado.
+1. Verifique seus direitos da Adobe - Confirme se sua organização tem o direito _cjm_ whatsapp_ provisionado.
+
+   Sem esse direito, o canal do WhatsApp não pode ser configurado.
 
 1. Validar os campos da conta de negócios - Verifique se todos os campos obrigatórios estão corretos:
 
    * Token de API - Deve ser um [token de acesso Meta válido com permissões apropriadas](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * ID da Conta Comercial - deve corresponder exatamente à sua [ID da Conta Comercial da Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-1. Testar as credenciais externamente - Verifique suas credenciais diretamente com a API do Meta para confirmar se o problema está relacionado às credenciais ou ao manuseio de credenciais do Journey Optimizer B2B edition.
+1. Testar as credenciais externamente - Para confirmar se o problema envolve as credenciais do ou o tratamento de credenciais do Journey Optimizer B2B edition, verifique suas credenciais com a API do Meta.
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -138,7 +134,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Categoria de palavra-chave de entrada"
->abstract="<b>Aceitar</b>: envia a resposta automática definida quando um usuário assina. <br/><b>Recusar</b>: envia a resposta automática definida quando um usuário cancela a assinatura. <br/><b>Ajuda</b>: envia a resposta automática definida quando um usuário solicita ajuda ou suporte. <br/><b>Padrão</b>: envia a resposta automática substituta quando nenhuma palavra-chave é correspondente."
+>abstract="<b>Aceitar</b>: envia respostas automáticas para assinaturas. <br/><b>Recusa</b>: envia respostas automáticas para cancelamentos de assinatura. <br/><b>Ajuda</b>: envia respostas automáticas para solicitações de ajuda. <br/><b>Padrão</b>: envia respostas automáticas de fallback para palavras-chave sem correspondência."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
@@ -155,11 +151,21 @@ do we have advanced logs? How are they enabled?
 >title="Verificar token"
 >abstract="O token que a Meta retorna para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
 
+>[!BEGINSHADEBOX]
+
+![Ícone de Permissões do AEP](../../assets/do-not-localize/icon_permissions-outline.svg) Essas etapas exigem as [permissões a seguir para a função de usuário atribuída no Experience Platform](./user-management.md#b2b-product-permissions):
+
+* **[!UICONTROL Configurações De Canal B2B]** - `Manage B2B Channels`
+* **[!UICONTROL Configurações De Canal B2B]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL Configurações De Canal B2B]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
+
 Os webhooks permitem que o Journey Optimizer B2B edition receba mensagens de entrada, respostas de consentimento e notificações de entrega da sua conta comercial do WhatsApp. Configure webhooks para garantir o gerenciamento de consentimento e o rastreamento de mensagens adequados.
 
 >[!NOTE]
 >
->Sem palavras-chave de aceitação ou recusa especificadas, as mensagens de consentimento padrão não são ativadas.
+>As mensagens de consentimento padrão exigem palavras-chave de aceitação ou recusa especificadas.
 
 Quando as credenciais da API do WhatsApp forem criadas com êxito, você poderá configurar os webhooks.
 
@@ -174,8 +180,8 @@ Quando as credenciais da API do WhatsApp forem criadas com êxito, você poderá
 1. Para a **[!UICONTROL categoria de palavra-chave de entrada]**, escolha uma categoria para definir palavras-chave e a mensagem de resposta:
 
    * **[!UICONTROL Opt-in]** - Os usuários devem concordar ativamente em receber mensagens do WhatsApp, geralmente gerenciadas por meio de formulários em seu site ou aplicativo.
-   * **[!UICONTROL Recusar]** - Configure seu webhook para ouvir frases como `Stop` ou `No Message` para marcar automaticamente os usuários como recusados.
-   * **[!UICONTROL Ajuda]** - Permite que os sistemas automatizados detectem quando um usuário envia `HELP` (ou palavras-chave semelhantes, como `Unknown`) e respondam automaticamente com informações específicas, como instruções de serviço.
+   * **[!UICONTROL Recusar]** - Para marcar os usuários como recusados automaticamente, configure seu webhook para ouvir frases como `Stop` ou `No Message`.
+   * **[!UICONTROL Ajuda]** - Permite que os sistemas automatizados detectem quando um usuário envia `HELP` (ou palavras-chave semelhantes, como `Unknown`) e respondam com informações específicas de forma automatizada, como instruções de serviço.
    * **[!UICONTROL Padrão]** - Manipula mensagens de entrada que não correspondem especificamente às palavras-chave definidas. Ela serve como uma categoria de fallback para ativar os eventos de rastreamento (como aberturas e relatórios de delivery) nos conjuntos de dados do Adobe Experience Platform.
 
    Quando você seleciona a categoria de palavra-chave, as palavras-chave padrão são preenchidas.
@@ -209,6 +215,16 @@ Depois que o webhook for enviado, você poderá recuperar o token e os valores d
 1. No [portal Meta para desenvolvedores](https://developers.facebook.com/), navegue até as configurações do aplicativo WhatsApp e configure o webhook usando os valores copiados.
 
 ### Criar configuração de canal {#create-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+![Ícone de Permissões do AEP](../../assets/do-not-localize/icon_permissions-outline.svg) Essas etapas exigem as [permissões a seguir para a função de usuário atribuída no Experience Platform](./user-management.md#b2b-product-permissions):
+
+* **[!UICONTROL Configurações De Canal B2B]** - `Manage B2B Channels`
+* **[!UICONTROL Configurações De Canal B2B]** - `Manage B2B WhatsApp Settings`
+* **[!UICONTROL Configurações De Canal B2B]** - `Manage B2B WhatsApp Presets`
+
+>[!ENDSHADEBOX]
 
 Uma configuração de canal define as configurações de entrega usadas ao enviar mensagens do WhatsApp de um nó de ação de jornada.
 
