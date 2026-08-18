@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
+source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5599
 ht-degree: 62%
 
 ---
@@ -40,12 +40,13 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | ---- | ---- | ----------- |
 | Recurso | Jornadas de pessoas | (Anteriormente Beta, implantação antecipada para disponibilidade geral) Agora é possível criar jornadas para orquestrar marketing baseado em leads usando públicos e dados da Experience Platform. [Saiba mais](../journeys/journeys-overview.md) |
 | Recurso | Listas de pessoas | As listas estáticas e dinâmicas de pessoas agora estão disponíveis para que você possa direcionar perfis por seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
-| Recurso | _Caminhos divididos variantes_ nós de jornada | (Anteriormente Beta para jornadas de conta) Os profissionais de marketing agora podem testar variações em uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. |
+| Recurso | _Caminhos divididos variantes_ nós de jornada | (Anteriormente Beta para jornadas de conta) Os profissionais de marketing agora podem testar variações em uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. [Saiba mais](../journeys/variant-split-paths-nodes.md) |
 | Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
 | Aprimoramento | Analise acionadores e filtros de eventos - jornadas da conta | O suporte para vários acionadores e filtros em um nó _Escutar evento_ agora está disponível para jornadas de conta. |
 | Aprimoramento | Nós de caminho dividido externos - jornadas de pessoa | O suporte para nós _Caminhos divididos externos_ agora está disponível para jornadas de pessoas. |
 | Aprimoramento | Nós de ação externa - jornadas de pessoa | O suporte para nós de _Ação externa_ agora está disponível para jornadas de pessoas. |
-| Aprimoramento | Conjuntos de dados de relação do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
+| Aprimoramento | Conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
+| Aprimoramento | Permissões do produto - Canal do WhatsApp | Os administradores de produto agora podem definir as permissões `Manage B2B WhatsApp Settings` e `Manage B2B WhatsApp Presets` para _[!UICONTROL Configurações de Canal B2B]_. |
 
 >[!NOTE]
 >
