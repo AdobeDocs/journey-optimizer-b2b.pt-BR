@@ -1,9 +1,9 @@
 ---
 title: Criação de conteúdo - CSS personalizado
 description: Seção reutilizada sobre o uso de CSS personalizado para criação de conteúdo
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Insira seu código CSS no editor.
 
-   Verifique se o CSS personalizado é válido e segue a sintaxe apropriada. Se o CSS inserido for inválido, uma mensagem de erro será exibida e o CSS não poderá ser salvo. Para saber mais, consulte [validade de CSS](../user/content/design-custom-css.md#css-validity).
+   Verifique se o CSS personalizado é válido e segue a sintaxe apropriada. Se o CSS inserido for inválido, uma mensagem de erro será exibida e o CSS não poderá ser salvo. Para saber mais, consulte [validade de CSS](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity).
 
 1. Clique em **[!UICONTROL Salvar]** para salvar o CSS personalizado.
 
-   A folha de estilos personalizada é aplicada ao conteúdo existente. Você pode verificar se o CSS personalizado é aplicado de acordo com suas necessidades. Para obter informações sobre como fazer alterações e ajustar o aplicativo da folha de estilos, consulte [Solução de problemas](../user/content/design-custom-css.md#troubleshooting).
+   A folha de estilos personalizada é aplicada ao conteúdo existente. Você pode verificar se o CSS personalizado é aplicado de acordo com suas necessidades. Para obter informações sobre como fazer alterações e ajustar o aplicativo da folha de estilos, consulte [Solução de problemas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting).
 
 >[!NOTE]
 >

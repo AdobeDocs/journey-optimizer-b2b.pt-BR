@@ -1,9 +1,9 @@
 ---
 title: Criação de conteúdo - Ativos
 description: Seção reutilizada sobre o uso de ativos para criação de conteúdo
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '197'
 ht-degree: 4%
 
 ---
@@ -24,4 +24,4 @@ No editor de conteúdo visual, selecione o ícone do _Assets_ ( ![Assets](../../
 
   ![Selecione um ativo da biblioteca de origem](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Para obter mais informações sobre o uso de ativos do seu tipo de origem, consulte [Usar ativos para criação de conteúdo](../user/content/assets-overview.md#use-assets-for-content-authoring).
+Para obter mais informações sobre o uso de ativos do seu tipo de origem, consulte [Usar ativos para criação de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
