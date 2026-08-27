@@ -50,7 +50,7 @@ A interface de chat no Adobe Journey Optimizer B2B edition é alimentada pela me
 
 O Sales Qualifier é um aplicativo orientado por IA que pode ser usado com o Journey Optimizer B2B edition. Ele implementa o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). O Sales Qualifier automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador entre canais. Ele reduz a carga manual de BDR e acelera a velocidade do pipeline para empresas B2B corporativas.
 
-Para obter mais informações, consulte a [documentação do Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+Para obter mais informações, consulte a [documentação do Sales Qualifier](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -118,7 +118,7 @@ O Assistente de IA no Journey Optimizer B2B edition prioriza a privacidade, a se
 
 * Você deve ter permissão explícita para interagir com o Assistente de IA.
 
-  * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
   * As permissões são granulares e o administrador da sandbox pode configurar quais usuários podem fazer diferentes categorias de perguntas (perguntas baseadas em conhecimento do produto com o Assistente de IA ou perguntas sobre insights operacionais).
 
