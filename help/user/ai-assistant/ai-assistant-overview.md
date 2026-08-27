@@ -1,5 +1,5 @@
 ---
-title: Assistente de IA no Journey Optimizer B2B edition
+title: Recursos de IA no Journey Optimizer B2B edition
 description: Acelere os fluxos de trabalho com o Assistente de IA - obtenha conhecimento sobre o produto, ajuda na solução de problemas e insights operacionais para o Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: User, Admin
@@ -7,34 +7,26 @@ level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 1300
+source-wordcount: 1385
 ht-degree: 8%
 
 ---
 
-# Assistente de IA no Journey Optimizer B2B edition
+# Recursos de IA no Journey Optimizer B2B edition
 
-O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma base tecnológica que o [Assistente de IA no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}. É uma experiência de conversação que você pode usar para acelerar seus fluxos de trabalho no Adobe Journey Optimizer B2B edition. Você pode usar o Assistente de IA para entender melhor os recursos do produto, solucionar problemas ou pesquisar informações e encontrar insights operacionais para o Journey Optimizer B2B edition.
+A interface de chat no Adobe Journey Optimizer B2B edition é alimentada pela mesma base de tecnologia que o [Assistente de IA no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}. É uma experiência de conversação que você pode usar para acelerar seus fluxos de trabalho no Journey Optimizer B2B edition. Você pode usar a interface de chat para entender melhor os recursos do produto, solucionar problemas ou pesquisar informações e encontrar insights operacionais para o Journey Optimizer B2B edition. Você também pode usar esta interface para invocar a [Journey Agent](../agents/journey-agent.md) e a [Audience Agent](../agents/audience-agent-b2b.md).
 
 >[!IMPORTANT]
 >
->É necessário um contrato com as [diretrizes de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar o Assistente de IA no Journey Optimizer B2B edition. Este contrato também contém o contrato público beta para que você possa usar os recursos adicionais do Assistente de IA à medida que forem implantados na capacidade beta.
+>É necessário um contrato com as [diretrizes de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar o Assistente de IA no Journey Optimizer B2B edition. Este contrato também contém o contrato público beta para que você possa usar os recursos adicionais do Assistente de IA durante a implantação.
 
 +++Exibir a interface do contrato do usuário
 
@@ -44,11 +36,21 @@ O Assistente de IA no Journey Optimizer B2B edition foi criado a partir da mesma
 
 +++
 
+>[!BEGINSHADEBOX]
+
+## Qualificador de Vendas
+
+O Sales Qualifier é um aplicativo orientado por IA que pode ser usado com o Journey Optimizer B2B edition. Ele implementa o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). O Sales Qualifier automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador entre canais. Ele reduz a carga manual de BDR e acelera a velocidade do pipeline para empresas B2B corporativas.
+
+Para obter mais informações, consulte a [documentação do Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## Recursos do Assistente de IA no Journey Optimizer B2B edition
 
-Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Essa resposta é uma representação interna de dados subjacentes e também é conhecida como _&#x200B;**_Gráfico de Conhecimento_**&#x200B;_ — uma coleção abrangente de conceitos, dados e metadados de uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
+Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Esta resposta é uma representação interna dos dados subjacentes, o _**Gráfico de Conhecimento**_, e fornece uma coleção abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
 
-* Documentação do Experience League.
+* Documentação da Adobe Experience League.
 * Artefatos operacionais, como esquemas, campos, públicos e jornadas.
 
 Considere qual tipo de pesquisa é necessário antes de submeter uma consulta do Assistente do AI:
@@ -88,7 +90,7 @@ Você pode fazer perguntas ao Assistente de IA sobre seus insights operacionais 
 
 {style="table-layout:fixed"}
 
-Para perguntas sobre insights operacionais, as respostas podem não refletir o estado atual da interface do usuário. Os dados que sustentam essas perguntas são atualizados uma vez a cada 24 horas. Por exemplo, as alterações que os usuários fazem no Real-Time CDP durante o dia são sincronizadas com os armazenamentos de dados à noite e, em seguida, ficam disponíveis para perguntas do usuário de manhã. Faça logon em uma sandbox para saber sobre dados específicos relacionados a objetos.
+Para perguntas sobre insights operacionais, as respostas podem não refletir o estado atual da interface do usuário. Os dados que sustentam essas perguntas são atualizados uma vez a cada 24 horas. Por exemplo, as alterações que os usuários fazem no Real-Time CDP durante o dia são sincronizadas com os armazenamentos de dados à noite e, em seguida, ficam disponíveis para perguntas do usuário de manhã. Para saber mais sobre dados específicos relacionados a objetos, faça logon em uma sandbox.
 
 ### Escopo do recurso
 
@@ -108,9 +110,9 @@ O Assistente de IA no Journey Optimizer B2B edition prioriza a privacidade, a se
 
 * Você deve ter permissão explícita para interagir com o Assistente de IA.
 
-   * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
-   * As permissões são granulares e o administrador da sandbox pode configurar quais usuários podem fazer diferentes categorias de perguntas (perguntas baseadas em conhecimento do produto com o Assistente de IA ou perguntas sobre insights operacionais).
+  * As permissões são granulares e o administrador da sandbox pode configurar quais usuários podem fazer diferentes categorias de perguntas (perguntas baseadas em conhecimento do produto com o Assistente de IA ou perguntas sobre insights operacionais).
 
 * Você pode exibir um log de 30 dias das interações anteriores com o Assistente de IA.
 
@@ -132,7 +134,7 @@ O Assistente de IA pode resolver consultas de conhecimento de produtos da Adobe 
 
 **O Assistente de IA pode fornecer informações sobre os dados do cliente?**
 
-Não. O AI Assistant não tem acesso aos dados do cliente e, portanto, não é visualizado nem usado.
+Não. O AI Assistant não tem acesso aos dados do cliente e, portanto, não está acessível ou pode ser usado.
 
 **Minhas informações pessoais são usadas nos dados de treinamento do Assistente de IA?**
 

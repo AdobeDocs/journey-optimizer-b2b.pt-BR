@@ -7,35 +7,28 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 1%
 
 ---
 
-# Usar o assistente de IA no Journey Optimizer B2B edition
+# Usar a interface de bate- papo
 
-No Journey Optimizer B2B edition, o Assistente de IA é um recurso da interface do usuário que você pode usar para entender conceitos do produto, navegar e conhecer rapidamente os recursos do produto e obter insights operacionais para o seu ambiente. Ele também está disponível em vários produtos na Adobe Experience Cloud.
+No Journey Optimizer B2B edition, o Assistente de IA fornece uma interface de bate-papo que você pode usar para entender conceitos de produtos, navegar e conhecer rapidamente os recursos do produto e obter insights operacionais para o seu ambiente. Ele também está disponível em vários produtos na Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->É necessário um contrato para as Diretrizes de usuário da IA gerada da Adobe Experience Cloud para que você possa usar o Assistente de IA. Para obter mais informações sobre este contrato e diretrizes de uso, consulte as [Diretrizes de usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>É necessário um contrato para as Diretrizes de usuário da IA gerada da Adobe Experience Cloud para que você possa usar o Assistente de IA. Para obter mais informações sobre este contrato e diretrizes de uso, consulte as [Diretrizes de usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-Para acessar o Assistente de IA, clique no ícone no cabeçalho. O Assistente de IA é aberto em um painel à direita.
+Para acessar a interface do chat, clique no ícone no cabeçalho.
 
 ![Clique no ícone para acessar o Assistente de IA](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -55,7 +48,7 @@ As perguntas de conhecimento do produto são sobre os conceitos e as informaçõ
 * Como faço para enviar um email em uma jornada?
 * Como posso personalizar meu conteúdo de email?
 
-Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você precisa aprender a usar um grupo de compras em uma jornada. Nesse caso, você insere _Como usar um grupo de compras em uma jornada?_ Depois de enviar a pergunta, o Assistente de IA consulta sua base de conhecimento e gera uma resposta em alguns segundos.
+Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você precisa aprender a usar um grupo de compras em uma jornada. Nesse caso, você insere _Como usar um grupo de compras em uma jornada?_ Depois de enviar a pergunta, o Assistente de IA consulta sua base de conhecimento e gera uma resposta em segundos.
 
 ![Digite uma pergunta na caixa de texto](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -67,7 +60,7 @@ Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do
 
 ## Faça perguntas sobre insights operacionais
 
-As perguntas sobre insights operacionais são sobre os objetos do jornada na sandbox da sua organização. Você pode fazer perguntas sobre artefatos operacionais, como públicos-alvo da conta, jornadas, interesses da solução e modelos de grupo de compras. Alguns exemplos de perguntas ou prompts de insights operacionais incluem:
+As perguntas sobre insights operacionais são sobre os objetos do jornada na sandbox da sua organização. Você pode fazer perguntas sobre artefatos operacionais, como públicos-alvo, jornadas, interesses de soluções e modelos de grupos de compras. Alguns exemplos de perguntas ou prompts de insights operacionais incluem:
 
 * Quantas jornadas ativas eu tenho no Adobe Journey Optimizer B2B edition?
 * Fornecer uma lista de todas as jornadas agendadas
@@ -93,7 +86,7 @@ Para exibir toda a tabela no Assistente de IA, clique no ícone _Maximizar_ ( ![
 
 ## Verificar respostas
 
-O AI Assistant inclui ferramentas que você pode usar para verificar e validar respostas.
+A interface de bate-papo inclui ferramentas que você pode usar para verificar e validar respostas.
 
 ### Fontes de conhecimento do produto
 
