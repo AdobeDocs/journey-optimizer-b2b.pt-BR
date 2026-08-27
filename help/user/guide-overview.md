@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 915
-ht-degree: 26%
+source-wordcount: 1163
+ht-degree: 34%
 
 ---
 
@@ -33,7 +33,7 @@ Com o [Experience Platform Agent Orchestrator](https://experienceleague.adobe.co
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+* [Account Qualification Agent](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"}
 
 >[!TAB Canal do WhatsApp]
 

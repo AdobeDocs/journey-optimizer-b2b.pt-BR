@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
+source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 87%
+source-wordcount: '458'
+ht-degree: 86%
 
 ---
 
@@ -27,16 +27,15 @@ ht-degree: 87%
     + [Gerenciamento de usuários](./admin/user-management.md)
   + [Integração de usuários](./start/get-started.md)
   + [Logon e página inicial](home-page.md)
-+ Assistente de IA {#ai-assistant}
++ Recursos de IA {#ai-assistant}
   + [Visão geral](./ai-assistant/ai-assistant-overview.md)
   + [Habilitar o acesso ao Assistente de IA](./ai-assistant/enable-ai-assistant-access.md)
   + [Orientação para perguntas](./ai-assistant/question-guidance.md)
-  + [Usar o Assistente de IA](./ai-assistant/use-ai-assistant.md)
+  + [Interface de chat](./ai-assistant/use-ai-assistant.md)
   + [IA gerativa para conteúdo](./ai-assistant/generative-ai-content.md)
   + Agentes {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
-    + [Qualificador de Vendas](./agents/sales-qualifier.md)
 + Gerenciamento de jornadas {#journeys}
   + [Jornadas de conta e pessoa](./journeys/journeys-overview.md)
   + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)

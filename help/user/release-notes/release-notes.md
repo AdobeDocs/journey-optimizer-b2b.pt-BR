@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
+source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
 workflow-type: tm+mt
-source-wordcount: 5628
+source-wordcount: 5635
 ht-degree: 61%
 
 ---
@@ -148,13 +148,13 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 ## Recursos de IA agêntica {#rel-agents}
 
-Os seguintes recursos de IA agêntica estão agora disponíveis para o Journey Optimizer B2B Edition na interface do Assistente de IA:
+Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimizer B2B edition na interface de chat:
 
 | Agente | Atualização | Descrição |
 | ----- | ------ | ----------- |
 | Agente de construção de jornada | Novo e atualizado | O agente de construção da jornada analisa, idealiza e co-cria jornadas em tempo real, permitindo que os profissionais de marketing lancem mais rapidamente, melhorem o engajamento e impulsionem taxas de conversão mais altas. [Saiba mais](../agents/journey-agent.md) |
 | Audience Agent | Novo | O Audience Agent identifica e cria automaticamente grupos de compra utilizando dados estruturados e não estruturados. Ele ajuda os profissionais de marketing a atingir as pessoas certas com mais rapidez e precisão. [Saiba mais](../agents/audience-agent-b2b.md) |
-| Qualificador de Vendas | Novo | O qualificador de vendas é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](../agents/sales-qualifier.md) |
+| Qualificador de Vendas | Novo | O qualificador de vendas é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notas da versão 2025.10 {#rel-2025-10}
 
