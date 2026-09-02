@@ -4,25 +4,14 @@ description: Crie e gerencie conjuntos de regras para aplicar regras de limite d
 badgeBeta: label="Beta" type="informative" tooltip="Esse recurso faz parte de uma versão beta limitada."
 autotag-review: '2026-07-15T17:39:19.276Z'
 TQID: 'https://experienceleague.adobe.com/eYmcE-8rD5-KJe-hGlUo3I34JYJsK2Hj4x4alFTTqwQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: f09c7f30-c554-44cf-884c-7557ed69d0c6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
 source-wordcount: 2975
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -39,8 +28,8 @@ Você pode criar dois tipos de conjuntos de regras:
 
 * Os conjuntos de regras do **Canal** aplicam regras aos canais de comunicação. Eles permitem definir:
 
-   * **Regras de limite de frequência** - Exemplo: *Não enviar mais de uma comunicação por email, SMS, Push, Correspondência direta ou WhatsApp por dia.*
-   * **Regras de horário de silêncio** - Exemplo: *Não enviar mensagens de email fora do horário das 8h00 às 9h00.*
+  * **Regras de limite de frequência** - Exemplo: *Não enviar mais de uma comunicação por email, SMS, Push, Correspondência direta ou WhatsApp por dia.*
+  * **Regras de horário de silêncio** - Exemplo: *Não enviar mensagens de email fora do horário das 8h00 às 9h00.*
 
 * Os conjuntos de regras **Jornada** aplicam regras de limite de simultaneidade e de entrada a uma jornada. (Ainda não suportado para a versão do Beta.)
 
@@ -204,7 +193,7 @@ O uso de conjuntos de regras de canal permite definir o limite de frequência po
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Definir os canais aos quais a regra se aplica"
+>title="Defina os canais aos quais a regra se aplica"
 >abstract="Selecione pelo menos um canal. O limite se aplica em canais como uma contagem total."
 
 1. Selecione o conjunto de regras de canal ao qual deseja adicionar a regra de limitação ou crie um novo conjunto de regras de canal.
@@ -297,7 +286,7 @@ Ao testar as regras de frequência, é recomendável usar um perfil de teste rec
 
 ## Definir horário de silêncio {#quiet-hours}
 
-O **_Período de silêncio_** permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.
+O **_Período de silêncio_** permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Eles garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.
 
 >[!NOTE]
 >
@@ -352,9 +341,9 @@ Você pode aplicar horas de silêncio por meio de conjuntos de regras e atribuí
 
    * Clique no ícone _Calendário_ e especifique o período em que as horas de silêncio devem ser aplicadas.
 
-      * **[!UICONTROL Semanalmente]** - Escolha dias da semana específicos e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL O dia todo]**.
+     * **[!UICONTROL Semanalmente]** - Escolha dias da semana específicos e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL O dia todo]**.
 
-      * **[!UICONTROL Data personalizada]** - Escolha datas específicas no calendário e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL O dia todo]**.
+     * **[!UICONTROL Data personalizada]** - Escolha datas específicas no calendário e um intervalo de tempo. Você também pode aplicar a regra **[!UICONTROL O dia todo]**.
 
      ![Caixa de diálogo do calendário para definir datas e horas de silêncio](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}
 
