@@ -4,23 +4,17 @@ description: Projetar emails, páginas de aterrissagem e fragmentos com componen
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 7%
+source-wordcount: 2658
+ht-degree: 8%
 
 ---
 
@@ -564,51 +558,23 @@ Use o componente [!UICONTROL Imagem] para inserir um ativo de imagem no seu cont
 
 Escolha o [tipo de origem do ativo](./assets-overview.md) e selecione um arquivo de imagem:
 
-* **[!UICONTROL Marketo Engage Assets]** - Escolha este tipo para procurar e selecionar um ativo de imagem na biblioteca Journey Optimizer B2B edition ou na instância conectada do Marketo Engage.
++++[!UICONTROL Selecionar ativo]
 
-  ![Procurar os ativos de imagem disponíveis](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-  Na caixa de diálogo, é possível escolher uma imagem do repositório selecionado. Clique em **[!UICONTROL Selecionar]** para adicionar o ativo.
++++
 
-  Há ferramentas disponíveis para ajudar a localizar o ativo necessário:
++++[!UICONTROL Importar mídia]
 
-  * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
+{{image-upload}}
 
-  * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
++++
 
-    ![Use os filtros e o campo de pesquisa para localizar o ativo necessário](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
++++[!UICONTROL Experience Manager Assets]
 
-* **[!UICONTROL Experience Manager Assets]** - Escolha este tipo para procurar e selecionar um ativo de imagem de um [repositório configurado do Experience Manager Assets](../admin/configure-aem-repositories.md).
+{{aem-assets-dam}}
 
-  Na caixa de diálogo _[!UICONTROL Selecionar Assets]_, escolha uma imagem usando as ferramentas disponíveis para localizar o ativo necessário e clique em **[!UICONTROL Selecionar]**.:
-
-  * Altere o **[!UICONTROL Repositório]** na parte superior direita.
-
-  * Clique em **[!UICONTROL Gerenciar ativos]** na parte superior direita para abrir o repositório do Assets em outra guia do navegador e usar as ferramentas de gerenciamento do AEM Assets.
-
-  * Clique no seletor de _Tipo de exibição_ na parte superior direita para alterar a exibição para **[!UICONTROL Exibição de Lista]**, **[!UICONTROL Exibição de Grade]**, **[!UICONTROL Exibição de Galeria]** ou **[!UICONTROL Exibição em Cascata]**.
-
-  * Clique no ícone _Ordem de classificação_ para alterar a ordem de classificação entre crescente e decrescente.
-
-    ![Use as ferramentas na caixa de diálogo Selecionar Assets para localizar e selecionar um ativo de imagem](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-  * Clique na seta de menu **[!UICONTROL Classificar por]** para alterar os critérios de classificação para **[!UICONTROL Nome]**, **[!UICONTROL Tamanho]** ou **[!UICONTROL Modificado]**.
-
-  * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
-
-  * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
-
-  ![Use os filtros e o campo de pesquisa para localizar o ativo](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL Importar mídia]** - Escolha esse tipo para selecionar um arquivo do seu sistema e importá-lo para a biblioteca de ativos do Journey Optimizer B2B edition.
-
-  Na caixa de diálogo _[!UICONTROL Carregar imagem]_, arraste e solte um arquivo do seu sistema na caixa de arquivo. O tamanho máximo do arquivo é 100 MB.
-
-  ![Importar um arquivo de imagem para o(a)](./assets/email-designer-image-upload.png){width="450"}
-
-  Os nomes de arquivo das imagens selecionadas são exibidos na caixa de diálogo. Os nomes dos arquivos do ativo devem ser exclusivos (em várias pastas). Se um arquivo com o nome já existir, uma mensagem será exibida. Os nomes podem ter no máximo 100 caracteres e não podem conter caracteres especiais (como `;`, `:`, `\` e `|`).
-
-  Clique em **[!UICONTROL Importar]**.
++++
 
 Você pode adicionar um título de imagem e um texto alternativo para a imagem no painel direito.
 
@@ -705,7 +671,7 @@ Use o componente _Social_ para inserir links para páginas de redes sociais no s
 Com um tipo de rede social selecionado, defina as opções para esse tipo:
 
 * **[!UICONTROL URL]** - Insira a URL da rede social que você deseja vincular ao gráfico ou ícone da rede social.
-* **[!UICONTROL Source]** - Se quiser usar sua própria imagem em vez da padrão, escolha um ativo de imagem. Você pode selecionar uma imagem do repositório de ativos conectado do Marketo Engage, um repositório do Experience Manager Assets (se configurado) ou importar um arquivo de imagem do seu sistema. Consulte as [informações sobre o componente de imagem](#add-the-image-asset) para obter detalhes sobre a seleção e a importação de ativos de imagem.
+* **[!UICONTROL Source]** - Se quiser usar sua própria imagem em vez da padrão, selecione um ativo de imagem ou importe um arquivo de imagem do seu sistema. Consulte as [informações sobre o componente de imagem](#add-the-image-asset) para obter detalhes sobre a seleção e a importação de ativos de imagem.
 * **[!UICONTROL Texto alternativo]** - Digite o texto alternativo da imagem exibida.
 
   ![Configurações para o tipo de mídia social selecionado](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +724,6 @@ Você pode definir as seguintes opções de estilo para o componente _Social_:
 
 ### Formulário (somente landing pages) {#form}
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Recurso do Beta"}
-
 Use o componente _Formulário_ para adicionar um formulário publicado a uma página de aterrissagem ou modelo de página de aterrissagem. Para obter mais informações sobre criação e publicação de formulários, consulte [Forms](./forms.md).
 
 1. Clique na ferramenta _Formulário_ na barra de ferramentas do componente ou use as propriedades **[!UICONTROL Incorporar Formulário]** à direita para selecionar o formulário publicado.
@@ -772,7 +736,7 @@ Use o componente _Formulário_ para adicionar um formulário publicado a uma pá
 
    * **[!UICONTROL Permanecer na página]** - Escolha essa opção para manter o visitante na mesma página quando o formulário for enviado.
 
-   * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer página de aterrissagem do Journey Optimizer B2B edition ou do Marketo Engage como acompanhamento.
+   * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer página de aterrissagem do Journey Optimizer B2B edition como acompanhamento.
 
    * **[!UICONTROL URL Externa]** - Escolha esta opção para especificar qualquer URL como página de acompanhamento. Depois que o visitante envia o formulário, o navegador carrega o URL designado.
 
