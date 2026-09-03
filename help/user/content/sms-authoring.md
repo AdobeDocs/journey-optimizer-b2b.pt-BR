@@ -22,9 +22,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: 1251
 ht-degree: 3%
 
 ---
@@ -95,33 +95,29 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
 1. Depois de inserir o texto da mensagem, clique no ícone _Link_ ( ![Ícone de link](../assets/do-not-localize/icon-link.svg) ) à direita da caixa de mensagem de texto.
 
-1. Insira a **[!UICONTROL URL]** do link.
-
-
 1. Na caixa de diálogo, escolha o tipo de URLs a serem vinculados:
 
    * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer uma das páginas de aterrissagem publicadas.
 
-   * **[!UICONTROL URL Externa]** - Esse tipo é qualquer URL externa que você digitar na caixa de texto.
+   * **[!UICONTROL URL Externa]** - Escolha esta opção para vincular qualquer URL externa. Insira a **[!UICONTROL URL]** do link.
+
+     ![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
+
+1. (Opcional) Defina as opções de rastreamento.
+
+   * **[!UICONTROL Habilitar Rastreamento de Link]** - Marque esta caixa de seleção para habilitar o rastreamento, que requer _redução_ da URL. Uma amostra do formato de URL mais curto é exibida. O URL real é criado quando o SMS é enviado ao recipient.
+
+   * **[!UICONTROL Habilitar Rastreamento de Cliente Potencial]** - Marque esta caixa de seleção para rastrear a atividade em relação a um usuário.</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
       >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
-![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
-
-1. Quando as opções de link estiverem concluídas, clique em **[!UICONTROL Adicionar]** para salvar as alterações e adicionar o link de URL à mensagem SMS.
+1. Quando as opções de link estiverem concluídas, clique em **[!UICONTROL Adicionar]** para adicionar o link de URL à mensagem SMS.
 
 ### Definir as propriedades do SMS {#sms-properties}
 

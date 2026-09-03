@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplic
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Adicionar pessoa à (outra) jornada] | <li>Jornada de Conta (Ação em Pessoas) <li>Jornada da pessoa | <li>Selecione a jornada da pessoa ativa |
 | | [!UICONTROL Adicionar ao público-alvo externo do cliente] | <li>Jornada de conta <li>Jornada da pessoa | <li>Selecionar público-alvo do cliente externo |
 | | [!UICONTROL Atribuir ao Grupo de Compras] | <li>Jornada de conta | <li>Selecione o interesse na solução <li>Selecione a função |
-| | [!UICONTROL Alterar pontuação] | <li>Jornada de conta | <li>Nome da pontuação <li>Alteração na pontuação |
 | | [!UICONTROL Momento Interessante] | <li>Jornada de conta <li>Jornada da pessoa | <li>Tipo <li>Descrição |
 | | [!UICONTROL Personalizar experiência da Web] (Beta) | <li>Jornada de conta | <li>Criar/editar experiência da Web |
 | | [!UICONTROL Remover do Grupo de Compras] | <li>Jornada de conta | <li>Selecione o interesse na solução |
