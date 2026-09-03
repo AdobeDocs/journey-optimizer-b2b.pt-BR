@@ -288,4 +288,4 @@ Para combinar diferentes caminhos de _divisão por conta_ em sua jornada, adicio
 
 ## Vídeo de visão geral {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443261/?captions=por_br&learn=on)
