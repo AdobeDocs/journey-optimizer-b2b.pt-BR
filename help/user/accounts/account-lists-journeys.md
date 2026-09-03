@@ -1,27 +1,23 @@
 ---
-title: Usar Listas de Contas em Jornadas e Programas
-description: Use listas de contas na orquestração do jornada, adicione/remova contas dinamicamente e filtre Smart Lists da Marketo Engage no Journey Optimizer B2B edition.
+title: Usar listas de contas no Jornada
+description: Use listas de contas na orquestração do jornada e adicione/remova contas dinamicamente no Journey Optimizer B2B edition.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-27T22:29:03.719Z
 TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: 417
 ht-degree: 0%
 
 ---
 
-# Usar listas de contas em jornadas e programas
+# Usar listas de contas no jornada
 
 Há várias maneiras de incorporar listas de contas Ativas (publicadas) nas jornadas de conta.
 
@@ -45,7 +41,7 @@ Todas as jornadas de conta começam com um nó [_Audiência da conta_](../journe
 
 Em uma jornada de conta, adicione contas a uma lista de contas estática usando o nó [a _Realizar uma Ação_](../journeys/action-nodes.md).
 
-Por exemplo, você pode ter um caminho de jornada para enviar um email e uma conta realizar várias ações como uma resposta. Você considera essa atividade um ponto de qualificação na jornada. Com a qualificação, você deseja adicioná-las a uma lista de contas usada como o público-alvo de outra jornada com um fluxo diferente para contas qualificadas.
+Por exemplo, você tem um caminho de jornada para enviar um email e algumas contas realizam várias ações como resposta. Você considera essa atividade um ponto de qualificação na jornada. Com a qualificação, você deseja adicioná-las a uma lista de contas usada como público-alvo para outra jornada com um fluxo diferente para contas qualificadas.
 
 >[!NOTE]
 >
@@ -67,7 +63,7 @@ Por exemplo, você pode ter um caminho de jornada para enviar um email e uma con
 
 Em uma jornada de conta, remova contas de uma lista de contas estáticas usando o nó [a _Realizar uma Ação_](../journeys/action-nodes.md).
 
-Por exemplo, você pode ter um caminho de jornada para enviar um email e uma conta realizar várias ações como uma resposta. Você considera essa atividade um ponto de qualificação na jornada. Com essa qualificação, você deseja removê-los de uma lista de contas usada para o como público-alvo de outra jornada que envia emails adicionais para que você não duplique suas comunicações de qualificação.
+Por exemplo, você tem um caminho de jornada para enviar um email e algumas contas realizam várias ações como resposta. Você considera essa atividade um ponto de qualificação na jornada. Com essa qualificação, você deseja removê-los de uma lista de contas. Essa lista é usada como público-alvo de outra jornada que envia emails adicionais para que você não duplique suas comunicações de qualificação.
 
 >[!NOTE]
 >
@@ -77,38 +73,8 @@ Por exemplo, você pode ter um caminho de jornada para enviar um email e uma con
 
 1. Para _[!UICONTROL Ação em contas]_, escolha **[!UICONTROL Remover da lista de contas]**.
 
-   ![Selecione Adicionar à lista de contas](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![Selecione Remover da lista de contas](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
 1. Para **[!UICONTROL Selecionar lista de contas estáticas em tempo real]**, escolha a lista de contas para a qual deseja remover as contas.
 
-   ![Selecione Adicionar à lista de contas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
-## Programa Marketo Engage - Lista de membros da conta
-
-Como profissional de marketing, talvez você queira suprimir programas no Marketo Engage para pessoas que fazem parte de listas de contas no Journey Optimizer B2B edition.
-
-Na instância do Marketo Engage conectada ao Journey Optimizer B2B edition, você pode usar o filtro _[!UICONTROL Lista de Membros da Conta]_ em suas Smart Lists para identificar esses clientes potenciais de acordo com sua estratégia de campanha. Para obter mais informações sobre Smart Lists, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
-
-### Adicionar o filtro a uma lista inteligente
-
-1. No Marketo Engage, selecione uma campanha e clique na guia **[!UICONTROL Smart List]**.
-
-1. Na lista de filtros exibida à direita, insira `Member` e localize o filtro **[!UICONTROL Membro da Lista de Contas]**.
-
-1. Arraste o filtro até a tela Smart List.
-
-1. Na tela Smart List, defina o valor da lista **[!UICONTROL Member of account]**.
-
-   Clique na seta para baixo para exibir todas as listas de contas ou digite parte do nome da lista de contas para ajudar a localizar a lista de contas necessária.
-
-   ![Filtro de lista inteligente Marketo Engage para associação à lista de contas](./assets/account-lists-marketo-engage-smart-list.png){width="800" zoomable="yes"}
-
-1. No fluxo de campanha, adicione a etapa **[!UICONTROL Adicionar à lista]** e escolha a lista onde deseja preencher as pessoas da lista de contas do Journey Optimizer B2B edition.
-
-   Consulte _[Adicionar uma etapa de Fluxo a uma campanha inteligente](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ na documentação do Marketo Engage para obter informações detalhadas sobre como adicionar etapas a um fluxo.
-
-### Revisar os membros
-
-Depois que o fluxo for executado, é possível exibir a lista de pessoas preenchidas na lista. Abra a lista e selecione a guia Pessoas.
-
-![Lista de campanhas do Marketo Engage preenchida a partir de uma lista de contas](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
+   ![Selecione Remover da lista de contas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

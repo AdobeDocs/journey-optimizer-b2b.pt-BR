@@ -3,23 +3,16 @@ title: Notas de versão do Journey Optimizer B2B Edition
 description: Descubra os recursos, aprimoramentos e correções de erros mais recentes do Adobe Journey Optimizer B2B Edition. Mantenha-se atualizado com novos recursos e melhorias de produtos.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -28,7 +21,7 @@ ht-degree: 61%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -154,7 +147,7 @@ Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimiz
 | ----- | ------ | ----------- |
 | Agente de construção de jornada | Novo e atualizado | O agente de construção da jornada analisa, idealiza e co-cria jornadas em tempo real, permitindo que os profissionais de marketing lancem mais rapidamente, melhorem o engajamento e impulsionem taxas de conversão mais altas. [Saiba mais](../agents/journey-agent.md) |
 | Audience Agent | Novo | O Audience Agent identifica e cria automaticamente grupos de compra utilizando dados estruturados e não estruturados. Ele ajuda os profissionais de marketing a atingir as pessoas certas com mais rapidez e precisão. [Saiba mais](../agents/audience-agent-b2b.md) |
-| Qualificador de Vendas | Novo | O qualificador de vendas é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificador de Vendas | Novo | O qualificador de vendas é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notas da versão 2025.10 {#rel-2025-10}
 
@@ -162,7 +155,7 @@ Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimiz
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Ativar para destino da jornada | Use a nova ação de conta de empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado a empresas do LinkedIn para esta versão.) [Saiba mais](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Recurso | Ativar para destino da jornada | Use a nova ação de conta de empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado a empresas do LinkedIn para esta versão.) [Saiba mais](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Recurso | Temas da marca | Com os temas de marca, usuários sem conhecimentos técnicos agora têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca e linguagem de design específicas, adicionando estilos personalizados aos modelos padrão. [Saiba mais](../content/brand-themes.md) |
 | Recurso | Modelos de email: converter imagem em HTML | Agora, você pode usar os seus arquivos de design armazenados como arquivos de imagem JPG ou PNG para gerar modelos de email automaticamente. [Saiba mais](../content/email-template-image-convert.md) |
 | Recurso | Mapeamento de personas | Vincule membros da conta a personas estabelecidas com mapeamento de atributos. [Saiba mais](../admin/persona-mapping.md) |
@@ -280,7 +273,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | ---- | ---- | ----------- |
 | Recurso | Listas de contas | Agora você pode criar uma lista de contas estáticas ou dinâmicas para segmentar contas nomeadas de acordo com seus critérios definidos, como setor, localização ou tamanho da empresa. <a href="../accounts/account-lists.md">Saiba mais</a> |
 | Recurso | Orquestração de jornada da lista de contas | Use os nós de ação de jornada para adicionar e remover contas de listas de contas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Saiba mais</a> |
-| Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B Edition para o público-alvo da jornada e, em seguida, use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Saiba mais</a> |
+| Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B Edition para o público-alvo da jornada e, em seguida, use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. |
 | Recurso | Filtros de inatividade | Orquestre jornadas com base na inatividade em campanhas e programas do Marketo Engage, incluindo inatividade de email, momentos interessantes, alterações no valor de dados e páginas da Web visitadas. |
 | Aprimoramento | Filtro de página da Web visitada | Orquestre jornadas com base na atividade de páginas da web visitadas associadas a campanhas e programas do Marketo Engage. |
 | Aprimoramento | Lista de emails | Exiba uma lista global de emails ativos e de rascunho para pesquisá-los, analisá-los e atualizá-los nas jornadas de conta associadas. <a href="../content/emails-list.md">Saiba mais</a> |
