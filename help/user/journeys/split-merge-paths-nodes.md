@@ -18,10 +18,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 2541
-ht-degree: 3%
+source-wordcount: 2356
+ht-degree: 4%
 
 ---
 
@@ -105,7 +105,7 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 
 Você pode definir um caminho para contas associadas a grupos de compra e filtrar o caminho usando critérios de grupo de compra. Use o filtro **[!UICONTROL A conta corresponde ao grupo de compras]** para definir o segmento de caminho usando um grupo de compras correspondente. Esse filtro também inclui a opção para identificar contas com base no número de funções atribuídas em um grupo de compras correspondente.
 
-Por exemplo, você pode avaliar a disponibilidade do grupo de compras com base na profundidade (número de pessoas) que ele tem em diferentes funções, como três tomadores de decisão e dois influenciadores. Nesse caso, defina a condição para direcionar contas com um mínimo de três (3) tomadores de decisão e dois (2) influenciadores em um grupo de compras correspondente:
+Por exemplo, avalie a prontidão do grupo de compras com base na profundidade (número de pessoas) que ele tem em diferentes funções, como três tomadores de decisão e dois influenciadores. Nesse caso, defina a condição para direcionar contas com um mínimo de três (3) tomadores de decisão e dois (2) influenciadores em um grupo de compras correspondente:
 
 1. Clique em **[!UICONTROL Adicionar filtro]** e escolha o filtro **[!UICONTROL Número de pessoas na função de grupo de compras]**.
 
@@ -127,7 +127,7 @@ Por exemplo, você pode avaliar a disponibilidade do grupo de compras com base n
 
 1. Clique em **[!UICONTROL Concluído]** quando tiver todas as condições definidas para o caminho.
 
-Para as contas identificadas, você pode adicionar um nó de ação no caminho para atualizar o status do grupo de compras ou do estágio, ou para enviar um email de alerta de vendas.
+Para atualizar o status do grupo de compras ou do estágio, ou para enviar um email de alerta de vendas para as contas identificadas, adicione um nó de ação no caminho.
 
 ## Dividir caminhos por pessoas
 
@@ -151,10 +151,8 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 | ------------ | ----------- |
 | [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering)) |
 | [!UICONTROL Histórico de eventos] | Divide as pessoas com base nos eventos de experiência ocorridos antes da entrada da jornada. Expanda a pasta para ver todos os tipos de evento configurados em [Admin > Configuração de evento XDM](../admin/configure-aep-events.md) e selecione um para adicionar como filtro. As restrições incluem campos do evento selecionado, uma janela de tempo de lookback medida a partir de quando a pessoa informa a jornada e um número mínimo opcional de vezes. |
-| [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento da pessoa <li>Número de telefone <li>Código postal <li>Estado |
+| [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado |
 | [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi Removido</li><li>Função</li> |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Lista] | (Obsoleto) A pessoa é ou não membro de uma ou mais listas [!DNL Marketo Engage]. |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do programa] | (Obsoleto) A pessoa é ou não membro de um ou mais programas do [!DNL Marketo Engage]. |
 
 ### Condições de caminho conta-pessoa
 
@@ -183,7 +181,7 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 1. Para definir uma condição aplicável ao _[!UICONTROL Caminho 1]_, clique em **[!UICONTROL Aplicar condição]**.
 
-1. No editor de condições, adicione um ou mais filtros para definir o caminho dividido.
+1. Para definir o caminho dividido, adicione um ou mais filtros no editor de condições.
 
    * Arraste e solte qualquer um dos filtros de pessoas da navegação à esquerda e conclua a definição de correspondência.
 
@@ -217,15 +215,15 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 ### Filtragem do histórico de eventos de experiência {#experience-event-history-filtering}
 
-Para um caminho dividido por pessoas, você pode definir um caminho com base nos eventos de experiência que ocorreram antes da pessoa entrar na jornada. No editor de condições, expanda a pasta **[!UICONTROL Histórico de eventos]** para ver uma lista de todos os tipos de eventos configurados pelo administrador. Selecione um tipo de evento para adicioná-lo como uma condição de filtro.
+Para um caminho dividido por pessoas, você pode definir um caminho com base nos eventos de experiência que ocorreram antes da pessoa entrar na jornada. Para ver uma lista de todos os tipos de eventos configurados pelo administrador, expanda a pasta **[!UICONTROL Histórico de eventos]** no editor de condições. Selecione um tipo de evento para adicioná-lo como uma condição de filtro.
 
 A janela de tempo de lookback para o histórico de eventos é medida retroativamente a partir do momento em que a pessoa entra na jornada. Por exemplo, uma janela de 30 dias avalia se o evento de qualificação ocorreu nos 30 dias anteriores à entrada da jornada.
 
-É possível refinar ainda mais o filtro usando restrições específicas aos campos do evento selecionado. As restrições opcionais de **[!UICONTROL Número mínimo de vezes]** e **[!UICONTROL Data da atividade]** são avaliadas na janela de pesquisa definida. Como os dados do histórico de eventos são sincronizados do Adobe Experience Platform, pode haver um breve atraso antes que um evento recente se torne visível para esse filtro.
+É possível refinar ainda mais o filtro usando restrições específicas aos campos do evento selecionado. As restrições opcionais de **[!UICONTROL Número mínimo de vezes]** e **[!UICONTROL Data da atividade]** são avaliadas na janela de pesquisa definida. Como os dados do histórico de eventos são sincronizados do Adobe Experience Platform, pode haver um breve atraso antes que um evento recente seja disponibilizado para esse filtro.
 
 >[!NOTE]
 >
->Os eventos disponíveis na pasta [!UICONTROL Histórico de eventos] são determinados pelas [configurações de eventos e campos de experiência](../admin/configure-aep-events.md).
+>As [Configurações de eventos de experiência e campos](../admin/configure-aep-events.md) determinam os eventos disponíveis na pasta [!UICONTROL Histórico de eventos].
 
 **Exemplo:** para encaminhar as pessoas que clicaram em um link em um email de marketing antes de entrar na jornada, selecione o evento de clique de email na pasta [!UICONTROL Histórico de eventos], defina a janela de pesquisa para cobrir o período relevante e aplique quaisquer restrições de nível de campo (como uma URL de link específica), conforme necessário.
 
@@ -233,7 +231,7 @@ A janela de tempo de lookback para o histórico de eventos é medida retroativam
 
 >[!BEGINSHADEBOX &quot;Filtragem de inatividade&quot;]
 
-Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Por exemplo, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_ para criar um caminho para pessoas que _&#x200B;**não**&#x200B;_ abriram um email. Ative a opção de inatividade e especifique o email.
+Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Para criar um caminho para as pessoas que _&#x200B;**não**&#x200B;_ abriram um email, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_. Ative a opção de inatividade e especifique o email.
 
 ![Condição de inatividade de divisão de caminho por pessoas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -241,40 +239,24 @@ Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode hab
 
 ### Filtragem de associação
 
-Na seção _[!UICONTROL Filtros Especiais]_, há vários filtros que você pode usar para avaliar a associação de uma pessoa em um grupo de compra ou lista [!DNL Marketo Engage].
+Na seção _[!UICONTROL Filtros Especiais]_, há vários filtros que você pode usar para avaliar a associação de uma pessoa em um grupo de compras.
 
-Por exemplo, se você deseja criar um caminho para pessoas que são membros de um grupo de compra e receberam uma função específica, adicione o filtro _[!UICONTROL Filtros especiais]_ > _[!UICONTROL Membro do grupo de compra]_. Para o filtro, defina a associação como _true_, selecione um _[!UICONTROL Interesse da solução]_ associado a um ou mais grupos de compra e defina a _[!UICONTROL Função]_ que você deseja corresponder.
+Por exemplo, se você deseja criar um caminho para pessoas que são membros de um grupo de compra e receberam uma função específica, adicione o filtro _[!UICONTROL Filtros especiais]_ > _[!UICONTROL Membro do grupo de compra]_. Para o filtro, defina a associação como _true_ e selecione um _[!UICONTROL interesse de Solução]_ associado a um ou mais grupos de compra.
 
 ![Dividir caminho por condição de pessoas para comprar associação de grupo](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
-Você também pode incluir restrições adicionais de associação de grupo de compra:
+Clique em **[!UICONTROL Adicionar restrição]** para incluir restrições adicionais de associação de grupo de compra:
 
 * _[!UICONTROL Estágio de grupo de compras]_
 * _[!UICONTROL Status do grupo de compras]_
 * _[!UICONTROL Pontuação de integridade]_
 * _[!UICONTROL Pontuação de engajamento]_
 * _[!UICONTROL Foi Removido]_
+* _[!UICONTROL Função]_
 
 >[!TIP]
 >
 >Para excluir membros que foram removidos de um grupo de compra, use a restrição _[!UICONTROL Is Removed]_ definida como `false`. Também é possível incluir explicitamente membros removidos definindo essa restrição como `true`.
-
->[!BEGINSHADEBOX &quot;Lista e associação de programa do Marketo Engage&quot;]
-
-Em [!DNL Marketo Engage], as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista [!DNL Marketo Engage] como uma condição para o caminho dividido por pessoas para ajudar a eliminar a duplicação em atividades de jornada.
-
-Para usar a associação de lista em uma condição de divisão, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** ou **[!UICONTROL Membro do Programa]** para o espaço de filtro. Conclua a definição do filtro para avaliar a associação em uma ou mais listas [!DNL Marketo Engage].
-
-![Dividir caminho pela condição de pessoas para a associação à lista [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Descontinuação de recursos**</br></br>
->
->Na versão atual do Journey Optimizer B2B edition, a filtragem com base na lista ou associação de programa em uma instância do Marketo Engage não é compatível.
-
->[!ENDSHADEBOX]
 
 ## Filtragem de dados personalizada {#custom-data-filtering}
 
@@ -288,7 +270,7 @@ Para uma condição **[!UICONTROL Dividir caminho por conta]** ou **[!UICONTROL 
 
 ## Mesclar caminhos {#merge-paths}
 
-Adicione um nó _Mesclar caminhos_ para combinar diferentes _caminhos divididos por conta_ em sua jornada.
+Para combinar diferentes caminhos de _divisão por conta_ em sua jornada, adicione um nó _Caminhos de mesclagem_.
 
 1. Em um mapa de jornadas com um nó dividido que tem três ou mais caminhos, adicione uma combinação de ações e eventos a cada caminho.
 

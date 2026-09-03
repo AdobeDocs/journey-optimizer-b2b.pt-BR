@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -213,9 +213,9 @@ No painel direito com a guia _[!UICONTROL Estilos]_ selecionada, expanda a seç�
 
   ![Seletor de cores da fonte](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## Conteúdo - seleção de imagem - Marketo DAM {#me-dam}
+## Conteúdo - seleção de imagem - DAM interno {#internal-dam}
 
-Escolha esse tipo para procurar e selecionar um ativo de imagem da biblioteca B2B edition do Journey Optimizer ou da instância conectada do Market Engage.
+Escolha este tipo para procurar e selecionar um ativo de imagem na biblioteca B2B edition do Journey Optimizer.
 
 ![Procurar os ativos de imagem disponíveis](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

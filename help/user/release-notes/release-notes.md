@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimiz
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Ativar para destino da jornada | Use a nova ação de conta de empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado a empresas do LinkedIn para esta versão.) [Saiba mais](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Recurso | Ativar para destino da jornada | Use a nova ação de conta de empresa _Ativar para destino_ para ativar diretamente para empresas, em vez de pessoas físicas. (Limitado a empresas do LinkedIn para esta versão.) [Saiba mais](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Recurso | Temas da marca | Com os temas de marca, usuários sem conhecimentos técnicos agora têm a capacidade de criar conteúdo reutilizável que se adapta a uma marca e linguagem de design específicas, adicionando estilos personalizados aos modelos padrão. [Saiba mais](../content/brand-themes.md) |
 | Recurso | Modelos de email: converter imagem em HTML | Agora, você pode usar os seus arquivos de design armazenados como arquivos de imagem JPG ou PNG para gerar modelos de email automaticamente. [Saiba mais](../content/email-template-image-convert.md) |
 | Recurso | Mapeamento de personas | Vincule membros da conta a personas estabelecidas com mapeamento de atributos. [Saiba mais](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | Recurso | Acesso no CRM às páginas de detalhes | Agora é possível configurar links diretos para as páginas de detalhes do Journey Optimizer B2B Edition para contas, contatos e leads em sua ferramenta de Gerenciamento de Relacionamento com o Cliente (CRM), como Salesforce ou Microsoft Dynamics. [Saiba mais](../accounts/crm-linking.md) |
 | Recurso | Suporte a CSS personalizado para design de conteúdo | Agora é possível adicionar seu próprio CSS personalizado ao criar conteúdo de emails e de páginas de destino no espaço de design. [Saiba mais](../content/design-custom-css.md) |
 | Recurso | Configuração de mapeamento de palavra-chave de intenção | Para ativar e gerenciar o modelo de Detecção de intenção, os administradores agora podem fazer upload de uma planilha para definir uma categoria de mapeamento de dados de intenção. [Saiba mais](../admin/intent-data.md) |
-| Aprimoramento | Simular conteúdo do resumo de email | Agora você pode acessar as ferramentas _Simular conteúdo_ do resumo de email (detalhes e propriedades) ao abrir um email na lista Emails. Esse acesso é uma adição ao espaço de design de email. [Saiba mais](../content/email-simulate-content.md#display-the-email-preview) |
+| Aprimoramento | Simular conteúdo do resumo de email | Agora você pode acessar as ferramentas _Simular conteúdo_ do resumo de email (detalhes e propriedades) ao abrir um email na lista Emails. Esse acesso é uma adição ao espaço de design de email. [Saiba mais](../content/email-simulate-content.md#display-preview) |
 | Aprimoramento | Exibição da contagem total da lista de modelos de funções | A página da lista _[!UICONTROL Modelos de funções]_ é aprimorada com a exibição da contagem total ao lado da barra de pesquisa. |
 
 ## Notas da versão 2025.5 {#rel-2025-5}
@@ -280,7 +280,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 | ---- | ---- | ----------- |
 | Recurso | Listas de contas | Agora você pode criar uma lista de contas estáticas ou dinâmicas para segmentar contas nomeadas de acordo com seus critérios definidos, como setor, localização ou tamanho da empresa. <a href="../accounts/account-lists.md">Saiba mais</a> |
 | Recurso | Orquestração de jornada da lista de contas | Use os nós de ação de jornada para adicionar e remover contas de listas de contas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Saiba mais</a> |
-| Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B Edition para o público-alvo da jornada e, em seguida, use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Saiba mais</a> |
+| Aprimoramento | Filtrar associação de jornada no Marketo Engage | Use as listas de contas do Adobe Journey Optimizer B2B Edition para o público-alvo da jornada e, em seguida, use o filtro _Membro de uma lista de contas_ nas listas inteligentes do Marketo Engage. |
 | Recurso | Filtros de inatividade | Orquestre jornadas com base na inatividade em campanhas e programas do Marketo Engage, incluindo inatividade de email, momentos interessantes, alterações no valor de dados e páginas da Web visitadas. |
 | Aprimoramento | Filtro de página da Web visitada | Orquestre jornadas com base na atividade de páginas da web visitadas associadas a campanhas e programas do Marketo Engage. |
 | Aprimoramento | Lista de emails | Exiba uma lista global de emails ativos e de rascunho para pesquisá-los, analisá-los e atualizá-los nas jornadas de conta associadas. <a href="../content/emails-list.md">Saiba mais</a> |

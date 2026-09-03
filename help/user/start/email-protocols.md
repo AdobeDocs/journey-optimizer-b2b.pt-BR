@@ -18,22 +18,18 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 2333
-ht-degree: 81%
+source-wordcount: 2303
+ht-degree: 79%
 
 ---
 
 # Configuração para rastreamento e entrega de email
 
-O Adobe Journey Optimizer B2B edition aproveita as funções de canal de email e o rastreamento de eventos na instância anexada do Marketo Engage. Algumas organizações usam configurações restritivas de firewall ou servidor proxy. Para garantir que o delivery de email funcione conforme esperado para essas organizações, um administrador de sistemas deve adicionar determinados domínios e intervalos de endereços IP à lista de permissões.
+O Adobe Journey Optimizer B2B edition aproveita as funções de canal de email e o rastreamento de eventos na instância anexada do Marketo Engage. Algumas organizações usam configurações restritivas de firewall ou servidor proxy. Para garantir que o delivery de email funcione conforme esperado para essas organizações, um administrador do sistema deve adicionar determinados domínios e intervalos de endereços IP ao incluo na lista de permissões.
 
->[!NOTE]
->
->Se sua organização já estiver usando a instância conectada do Marketo Engage para executar suas operações de marketing, esses protocolos e configurações já estarão em vigor.
-
-Verifique se os seguintes domínios (incluindo o asterisco) foram adicionados à lista de permissões para ativar todos os recursos e soquetes da Web do Marketo Engage:
+Verifique se os seguintes domínios (incluindo o asterisco) foram adicionados à lista de permissões para habilitar todos os recursos e web sockets do Marketo Engage:
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -47,7 +43,7 @@ Conclua as seguintes etapas para garantir o rastreamento e o delivery de email:
 1. [Configurar a SPF e o DKIM](#set-up-spf-and-dkim)
 1. [Configurar DMARC](#set-up-dmarc)
 1. [Configurar registros MX para o seu domínio](#set-up-mx-records-for-your-domain)
-1. [Adicionar endereços IP de saída ao lista de permissões](#outbound-ip-addresses)
+1. [Adicionar endereços IP de saída às listas de permissões](#outbound-ip-addresses)
 
 >[!NOTE]
 >
@@ -55,7 +51,7 @@ Conclua as seguintes etapas para garantir o rastreamento e o delivery de email:
 
 ## Criar registros DNS para páginas de aterrissagem e email
 
-Conectar um registro CNAME permite que os profissionais de marketing hospedem versões web de emails, páginas de destino e blogs com uma marca consistente que melhora o tráfego e as conversões. É altamente recomendável que você adicione os CNAMEs ao seu host de domínio raiz para que o Marketo Engage hospede seus ativos da web focados em marketing.
+A configuração de um registro CNAME permite que os profissionais de marketing hospedem versões da Web de emails, páginas de aterrissagem e blogs com marca consistente que melhora o tráfego e as conversões. É altamente recomendável que você adicione os CNAMEs ao seu host de domínio raiz para que o Marketo Engage hospede seus ativos da web focados em marketing.
 
 Para planejar e implementar dois registros CNAME, trabalhe com sua equipe de marketing como administrador. O primeiro é para URLs de página de aterrissagem, para que as páginas de aterrissagem apareçam em URLs que refletem seu domínio, não o Adobe Marketo Engage (o host real). O segundo é para os links de rastreamento incluídos nos emails enviados pelo Marketo Engage.
 
@@ -120,7 +116,7 @@ Você pode usar a mesma configuração do DKIM para a instância de produção d
 
 ## Configurar DMARC
 
-DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um protocolo de autenticação usado para ajudar organizações a proteger seus domínios contra uso não autorizado. Ele estende os protocolos de autenticação existentes, como SPF e DKIM, para informar os servidores destinatários sobre as ações a serem tomadas caso ocorra uma falha de autenticação em seu domínio. O DMARC é opcional, mas é altamente recomendado porque ajuda a proteger sua marca e reputação. Grandes provedores, como Google e Yahoo, começaram a exigir o uso do DMARC para remetentes em massa a partir de fevereiro de 2024.
+DMARC (Domain-based Message Authentication, Reporting, and Conformance) é um protocolo de autenticação usado para ajudar organizações a proteger seus domínios contra uso não autorizado. Ele estende os protocolos de autenticação existentes, como SPF e DKIM, para informar os servidores destinatários sobre as ações a serem tomadas caso ocorra uma falha de autenticação em seu domínio. O DMARC é opcional, mas é recomendado porque ajuda a proteger sua marca e reputação. Grandes provedores, como Google e Yahoo, começaram a exigir o uso do DMARC para remetentes em massa a partir de fevereiro de 2024.
 
 Para que o DMARC funcione, você deve ter pelo menos um dos seguintes registros DNS TXT:
 
@@ -137,7 +133,7 @@ Além disso, configure um registro TXT de DNS específico do DMARC para seu dom�
 
 Se você receber relatórios do DMARC, faça o seguinte:
 
-1. Use `p=none` e analise o feedback e os relatórios que você receber. Os relatórios informam ao destinatário para não executar nenhuma ação em mensagens com falha na autenticação e enviam relatórios por email ao remetente.
+1. Use `p=none` e analise o feedback e os relatórios que você receber. Os relatórios informam o destinatário a não executar nenhuma ação em relação a mensagens com falha de autenticação e a enviar relatórios de email para o remetente.
 
    * Se mensagens legítimas estiverem com falha na autenticação, revise e corrija os problemas com a SPF ou o DKIM.
 
@@ -199,9 +195,9 @@ Há dois tipos de alinhamento para o DMARC:
 
   O alinhamento do DKIM valida se o remetente está autorizado a enviar emails do domínio e verifica se nenhum conteúdo foi alterado durante o trânsito do email. Para implementar o DMARC alinhado ao DKIM:
 
-   * Configure o DKIM para o domínio MAIL FROM da mensagem. Use as [instruções](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} na documentação do Marketo Engage.
+  * Configure o DKIM para o domínio MAIL FROM da mensagem. Use as [instruções](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} na documentação do Marketo Engage.
 
-   * Configure o DMARC para o domínio DKIM MAIL FROM.
+  * Configure o DMARC para o domínio DKIM MAIL FROM.
 
   >[!NOTE]
   >
@@ -209,12 +205,12 @@ Há dois tipos de alinhamento para o DMARC:
 
 * Alinhamento à **SPF** (Estrutura de Política do Remetente): o domínio no cabeçalho `From:` deve corresponder ao domínio no cabeçalho Return-Path:. Se ambos os domínios DNS forem iguais, a SPF corresponderá (se alinhará) e dará um resultado de aprovação. Para implementar o DMARC alinhado à SPF:
 
-   * Configure o domínio Return-Path com marca.
+  * Configure o domínio Return-Path com marca.
 
-      * Configure o registro SPF apropriado.
-      * Altere o registro MX para apontar de volta para o MX padrão do datacenter do qual seu email é enviado
+    * Configure o registro SPF apropriado.
+    * Para apontar de volta para o MX padrão do data center do qual seu email é enviado, altere o registro MX.
 
-   * Configure o DMARC para o domínio Return-Path com marca.
+  * Configure o DMARC para o domínio Return-Path com marca.
 
   >[!NOTE]
   >
@@ -230,11 +226,11 @@ Se você enviar emails pelo Marketo Engage por um IP dedicado e não tiver imple
 
 Se você tiver IPs dedicados, deverá ter a nova instância do Journey Optimizer B2B edition criada na mesma região que a instância existente do Marketo Engage. Se a nova instância estiver em uma região diferente, não será possível compartilhar o IP existente. Se a região corresponder, abra um tíquete com o [Suporte da Adobe](https://experienceleague.adobe.com/home?lang=pt-br&support-tab=home#support){target="_blank"} e solicite que seu IP existente e seus grupos de associação sejam compartilhados com a nova instância. Forneça o prefixo Marketo Engage (Munchkin ID) e o novo prefixo Journey Optimizer B2B edition (Munchkin ID).
 
-Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre as instâncias do Marketo Engage e do Journey Optimizer B2B edition, eles os usam simultaneamente.
+Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre as instâncias do Marketo Engage e do Journey Optimizer B2B edition, ambas as instâncias os usam simultaneamente.
 
 >[!ENDSHADEBOX]
 
-IPs confiáveis são um conjunto compartilhado de IPs reservados para usuários de baixo volume que enviam menos de 75 mil mensagens por mês e não se qualificam para um IP dedicado. Esses usuários também devem atender aos requisitos de prática recomendada.
+IPs confiáveis são um pool compartilhado de IPs reservados para usuários de volume inferior que enviam menos de 75 mil por mês e que não atendem aos requisitos para um IP dedicado. Esses usuários também devem atender aos requisitos de prática recomendada.
 
 * Se você estiver enviando emails pelo Marketo Engage usando um pool compartilhado de IPs, poderá verificar se você se qualifica para IPs confiáveis [inscrevendo-se no programa de intervalo de envio de IP confiável](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}. O return-path com marca é incluído ao enviar de IPs confiáveis do Marketo Engage. Se aprovado para este programa, entre em contato com o Suporte da Adobe para configurar o return-path com marca.
 
@@ -244,11 +240,11 @@ Os clientes do pool de IPs compartilhados não precisam de configurações adici
 
 ## Configurar registros MX para o seu domínio
 
-Um registro MX permite que você receba emails no domínio de onde está enviando os emails para processar respostas e respostas automáticas. Se estiver enviando do seu domínio corporativo, ele provavelmente já está configurado. Caso contrário, geralmente é possível configurá-lo para mapear para o registro MX do domínio corporativo.
+Um registro MX permite que você receba emails no domínio de onde está enviando os emails para processar respostas e respostas automáticas. Se estiver enviando do seu domínio corporativo, ele provavelmente já está configurado. Caso contrário, configure-o para mapear para o registro MX do domínio corporativo.
 
 ## Endereços IP de saída
 
-O Marketo Engage estabelece em seu nome uma conexão de saída com um servidor da Internet. Sua organização de TI e alguns parceiros/fornecedores podem usar listas de permissões para restringir o acesso aos servidores. Em caso afirmativo, forneça a eles blocos de endereço IP de saída do Marketo Engage para adicionar às suas listas de permissões.
+O Marketo Engage estabelece em seu nome uma conexão de saída com um servidor da Internet. Sua organização de TI e alguns parceiros/fornecedores usam incluídas na lista de permissões para restringir o acesso aos servidores. Em caso afirmativo, forneça a eles blocos de endereço IP de saída do Marketo Engage para adicionar às suas incluis na lista de permissões.
 
 <!--
 Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.

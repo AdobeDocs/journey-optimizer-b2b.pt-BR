@@ -22,9 +22,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1207
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Antes de criar mensagens SMS para jornadas de conta, verifique se o [provedor de
 >
 >De acordo com os padrões e regulamentos do setor, todas as mensagens de marketing por SMS devem conter uma maneira de os recipients cancelarem facilmente a inscrição. Para fazer isso, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas. Além disso, qualquer palavra-chave personalizada configurada para sua conta de provedor de serviços SMS é compatível e respeitada. Para obter detalhes sobre como as preferências de consentimento de SMS são avaliadas no momento da entrega, consulte [Preferências de consentimento](./channels-consent-preferences.md).
 
-## Adicionar uma ação de SMS em uma jornada de conta
+## Adicionar uma ação de SMS em uma jornada de conta {#add-action}
 
 Você pode configurar entregas de mensagens de texto em uma jornada de conta ao adicionar um nó _[!UICONTROL Realizar uma ação]_ e fazer o seguinte:
 
@@ -61,7 +61,7 @@ Você pode configurar entregas de mensagens de texto em uma jornada de conta ao 
 
    O _mapa de Jornadas_ é aberto e você pode criar a mensagem e definir as propriedades de SMS para enviar a mensagem.
 
-### Criar a mensagem SMS
+### Criar a mensagem SMS {#create-message}
 
 Digite o texto que deseja enviar no campo **[!UICONTROL Mensagem]**.
 
@@ -69,7 +69,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
 ![Compor a mensagem SMS](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-#### Personalizar a mensagem de texto
+#### Personalizar a mensagem de texto {#personalize}
 
 1. Coloque o cursor no local da mensagem em que deseja adicionar o token de personalização.
 
@@ -91,36 +91,39 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
 
    Você pode continuar a editar a mensagem com os tokens conforme necessário.
 
-#### Adicionar links (URLs) à mensagem de texto
+#### Adicionar links (URLs) à mensagem de texto {#add-links}
 
 1. Depois de inserir o texto da mensagem, clique no ícone _Link_ ( ![Ícone de link](../assets/do-not-localize/icon-link.svg) ) à direita da caixa de mensagem de texto.
 
 1. Insira a **[!UICONTROL URL]** do link.
 
+
+1. Na caixa de diálogo, escolha o tipo de URLs a serem vinculados:
+
+   * **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer uma das páginas de aterrissagem publicadas.
+
+   * **[!UICONTROL URL Externa]** - Esse tipo é qualquer URL externa que você digitar na caixa de texto.
+
 <!--
-1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
+1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
+
+      >[!NOTE] 
+      >
+      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+
 -->
 
-1. Se você optar por usar uma landing page Marketo Engage, defina as opções de rastreamento.
-
-   * **[!UICONTROL Habilitar rastreamento]** - Marque esta caixa de seleção para habilitar o rastreamento, o que requer _redução_ da URL. Para uma página de aterrissagem, ela usa o subdomínio do Marketo Engage para o URL mais curto. Uma amostra do formato de URL mais curto é exibida. O URL real é criado quando o SMS é enviado ao recipient.
-
-   * **[!UICONTROL Incluir mkt_tok]** - Marque esta caixa de seleção para rastrear a atividade em relação a um usuário.</br>
-
-     >[!NOTE]
-     >
-     >Se você permitir o rastreamento, mas desabilitar _[!UICONTROL Incluir mkt_tok]_, a URL de destino não incluirá o parâmetro da cadeia de caracteres de consulta `mkt_tok` após o redirecionamento. Esse parâmetro é usado pelas páginas de aterrissagem do Marketo Engage e pelo Munchkin para garantir que o rastreamento das atividades da pessoa (como quando uma pessoa cancela a assinatura de um email). Não desabilite esta opção, a menos que o parâmetro esteja causando problemas em seu site.<br/>
-     >Para obter mais informações sobre como usar os códigos de rastreamento do Munchkin no seu site, consulte a [documentação do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
-
-   ![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
+![Adicionar caixa de diálogo de link para mensagem SMS](./assets/sms-add-link-dialog.png){width="470"}
 
 1. Quando as opções de link estiverem concluídas, clique em **[!UICONTROL Adicionar]** para salvar as alterações e adicionar o link de URL à mensagem SMS.
 
-### Definir as propriedades do SMS
+### Definir as propriedades do SMS {#sms-properties}
 
 1. Na seção _[!UICONTROL Propriedades de SMS]_, insira um **[!UICONTROL Nome]** (obrigatório, máximo de 100 caracteres) e uma **[!UICONTROL Descrição]** (opcional, máximo de 300 caracteres) para a mensagem.
 
@@ -160,7 +163,7 @@ Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para
 
 1. Use a página _Simular Conteúdo_ para gerenciar os clientes em potencial usados para seu perfil de teste.
 
-   Na lista exibida, procure e adicione qualquer um dos leads (até 10 leads de cada vez) do banco de dados de leads da Marketo Engage.
+   Na lista exibida, procure por e adicione qualquer um dos leads (até 10 leads de cada vez).
 
    Para pesquisar, digite o endereço de email completo e pressione _Enter_. O perfil de lead correspondente é exibido para seleção.
 
@@ -178,9 +181,9 @@ Quando o conteúdo da mensagem é definido, você pode usar perfis de teste para
 
 1. Para sair da página _[!UICONTROL Simular Conteúdo]_ e retornar ao espaço de trabalho de criação do SMS, clique em **[!UICONTROL Fechar]** na parte superior direita.
 
-## Gerenciamento de consentimento por SMS
+## Gerenciamento de consentimento por SMS {#consent-management}
 
-Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca e honrar essa escolha é um requisito legal. O não cumprimento desses regulamentos traz riscos legais para sua marca. Essa função ajuda a evitar o envio de comunicações não solicitadas para seus recipients, o que pode fazer com que eles marquem suas mensagens como spam e prejudiquem sua reputação.
+Oferecer aos recipients a capacidade de cancelar a inscrição para receber comunicações de uma marca e atender a essa escolha é um requisito legal. O não cumprimento desses regulamentos traz riscos legais para sua marca. Essa função ajuda a evitar o envio de comunicações não solicitadas para seus destinatários. Isso impede que eles marquem suas mensagens como spam e prejudiquem sua reputação.
 
 Quando você fornece essa opção, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas, assim como todas as palavras-chave personalizadas configuradas com o provedor de serviços SMS. Quando a assinatura é cancelada, os perfis são removidos automaticamente do público-alvo de futuras mensagens de marketing.
 
@@ -188,4 +191,4 @@ O Journey Optimizer B2B edition fornece a capacidade de gerenciar a opção de n
 
 * Por padrão, se um cliente potencial optar por não receber comunicações de você, o perfil correspondente será excluído dos deliveries de SMS subsequentes
 
-* Esse consentimento principal vindo de diferentes fontes (como o AEP ou o provedor de serviços SMS) é sincronizado com o Journey Optimizer B2B edition. Atualmente, ele suporta apenas um único estado de consentimento por lead no nível da instância (uma &quot;John Doe&quot; lead recebe ou cancela a assinatura de todos os SMS promocionais na instância). No momento, não há suporte para aceitação dupla no nível da marca/consentimento no nível da lista de assinaturas individuais.
+* Esse consentimento, proveniente de diferentes fontes (como o AEP ou o provedor de serviços SMS), é sincronizado com o Journey Optimizer B2B edition. Atualmente, ele suporta apenas um único estado de consentimento por lead no nível da instância (uma &quot;John Doe&quot; lead recebe ou cancela a assinatura de todos os SMS promocionais na instância). No momento, não há suporte para aceitação dupla no nível da marca/consentimento no nível da lista de assinaturas individuais.
