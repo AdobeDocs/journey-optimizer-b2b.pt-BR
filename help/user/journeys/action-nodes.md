@@ -175,7 +175,7 @@ Use esta ação para encaminhar as pessoas para um público-alvo externo que pod
 Ao selecionar essa ação com base em pessoas, é possível criar um novo público-alvo externo ou selecionar na lista de públicos-alvo externos existentes.
 
 * Para públicos-alvo existentes, você pode escolher entre os públicos-alvo de clientes externos que foram criados somente em [!DNL Journey Optimizer B2B Edition].
-* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
+* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista a uma visão geral de vídeo para orquestração de mídia paga](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -309,7 +309,7 @@ Por exemplo, suprimir campanhas no Marketo Engage para pessoas que fazem parte d
 
 +++[!UICONTROL Adicionar à campanha de solicitação do Marketo]
 
-Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} em uma instância conectada do Marketo Engage.
+Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} em uma instância conectada do Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da campanha de solicitação.
 
@@ -319,7 +319,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Adicionar à lista do Marketo]
 
-Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} em uma instância conectada do Marketo Engage.
+Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} em uma instância conectada do Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
@@ -329,7 +329,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Remover da lista do Marketo]
 
-Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
+Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
