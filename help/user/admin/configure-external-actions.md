@@ -1,38 +1,29 @@
 ---
 title: Configuração de ações externas
-description: Saiba como desenvolvedores, administradores e profissionais de marketing trabalham juntos para implementar, configurar e usar ações externas que conectam o Journey Optimizer B2B edition a serviços externos em jornadas de conta.
+description: Saiba como desenvolvedores, administradores e profissionais de marketing trabalham juntos para implementar, configurar e usar ações externas que conectam o Journey Optimizer B2B edition a serviços externos no jornada.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1278
 ht-degree: 1%
 
 ---
 
 # Configuração de ações externas
 
-As ações externas permitem que as jornadas de conta no Journey Optimizer B2B edition se conectem a sistemas externos diretamente da tela de jornada. Quando um público-alvo de conta atinge um nó de ação externa, o sistema faz uma chamada de saída assíncrona para um serviço externo configurado, transmitindo dados de atributos de público-alvo para contas, pessoas ou ambos. O serviço externo processa os dados e responde usando um retorno de chamada, retornando os dados e os metadados do público-alvo que podem ser usados para orientar a execução da jornada.
+As ações externas permitem que jornadas de conta e pessoa em [!DNL Journey Optimizer B2B Edition] se conectem a sistemas externos diretamente da tela de jornada. Quando um público-alvo atinge um nó de ação externa, o sistema faz uma chamada de saída assíncrona para um serviço externo configurado, transmitindo os dados do atributo de público-alvo. O serviço externo processa os dados e responde usando um retorno de chamada, retornando os dados e os metadados do público-alvo que podem ser usados para orientar a execução da jornada.
 
 Esse recurso oferece suporte a dois tipos de nó do jornada:
 
-* **Ação externa** - Chama um serviço externo e continua ao longo de um único caminho de saída. Ideal para _disparar e esquecer_ integrações, como a atualização de um registro CRM ou o acionamento de uma notificação downstream.
-* **Caminhos divididos externos** - Chama um serviço externo e avalia a resposta para rotear contas ao longo de um dos vários caminhos definidos.
-
->[!NOTE]
->
->Os serviços de ação externa são compatíveis somente com jornadas de conta. Esses tipos de nó não estão disponíveis para jornadas de pessoas.
+* **Ação externa** - Chama um serviço externo e continua ao longo de um único caminho de saída. Ideal para integrações assíncronas, como a atualização de um registro de CRM ou o acionamento de uma notificação downstream.
+* **Caminhos divididos externos** - Chama um serviço externo e avalia a resposta para rotear contas ou pessoas ao longo de um dos vários caminhos definidos.
 
 ## Visão geral da implementação
 
@@ -42,7 +33,7 @@ A criação de ações externas exige coordenação entre três funções em seq
 | ---- | ---- | ---- |
 | 1 | Desenvolvedor | [Implementar e publicar o serviço externo](#implement-service) |
 | 2 | Administrador | [Configurar a ação no Journey Optimizer B2B edition](#configure-action) |
-| 3 | Profissional de marketing | [Adicionar um nó externo a uma jornada de conta](#add-journey-node) |
+| 3 | Profissional de marketing | [Adicionar um nó externo a uma jornada](#add-journey-node) |
 
 ## Implementar o serviço externo {#implement-service}
 
@@ -100,7 +91,7 @@ Uma ação deve ser configurada e ativada antes que os profissionais de marketin
 
 1. Clique em **[!UICONTROL Next]**.
 
-1. Defina as propriedades **[!UICONTROL Configurações]** para definir como a ação troca dados com o serviço externo.
+1. Para definir como a ação troca dados com o serviço externo, defina as propriedades **[!UICONTROL Configurações]**.
 
    >[!NOTE]
    >
@@ -108,20 +99,20 @@ Uma ação deve ser configurada e ativada antes que os profissionais de marketin
 
    * **[!UICONTROL Tipo de ação]** (_Estática_) - O tipo de nó de jornada com suporte:
 
-      * [!UICONTROL Ação externa] (`enableSplitPath` = falso)
-      * [!UICONTROL Caminho dividido da ação externa] (`enableSplitPath` = verdadeiro)
+     * [!UICONTROL Ação externa] (`enableSplitPath` = falso)
+     * [!UICONTROL Caminho dividido da ação externa] (`enableSplitPath` = verdadeiro)
 
      Não é possível alterar o tipo de ação após criar a configuração da ação.
 
-   * **[!UICONTROL Acessadores]** (_Estático_) - (Somente caminho dividido de ação externa) As variáveis retornadas pelo serviço externo para estarem disponíveis como condições de caminho em um nó de caminho dividido externo. (`invocationPayloadDef.accessorsMetadata`)
+   * **[!UICONTROL Acessadores]** (_Estático_) - (Somente caminho dividido de ação externa) As variáveis que o serviço externo retorna para estar disponíveis como condições de caminho em um nó de caminho dividido externo. (`invocationPayloadDef.accessorsMetadata`)
 
    * **[!UICONTROL Contexto de Jornada]** (_Estático_) - O escopo dos dados de público enviados na solicitação (`supportedEntityType`):
 
-      * [!UICONTROL Conta] - Envia somente contas
+     * [!UICONTROL Conta] - Envia somente contas
 
-      * [!UICONTROL Pessoas] - Envia somente pessoas
+     * [!UICONTROL Pessoas] - Envia somente pessoas
 
-      * [!UICONTROL Pessoas na Conta] - Envia contas e pessoas relacionadas à conta
+     * [!UICONTROL Pessoas na Conta] - Envia contas e pessoas relacionadas à conta
 
    * **[!UICONTROL Campos de Saída]** - Mapeie cada campo da tabela para um [campo XDM](../admin/xdm-field-management.md). Esses campos são enviados no corpo da solicitação para o serviço externo. Propriedades de definição de serviço: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
@@ -139,7 +130,7 @@ Uma ação deve ser configurada e ativada antes que os profissionais de marketin
 
 1. Clique na _Seta para trás_ para retornar à lista e manter a ação no estado _Rascunho_.
 
-   Ou clique em **[!UICONTROL Ativar]** para alterar a configuração da ação para o estado _Ativo_. A ação externa configurada deve estar ativa para torná-la disponível para uso nas jornadas da conta.
+   Ou clique em **[!UICONTROL Ativar]** para alterar a configuração da ação para o estado _Ativo_. A ação externa configurada deve estar ativa para torná-la disponível para uso no jornada.
 
 ### Solução de problemas {#troubleshooting}
 
@@ -149,7 +140,7 @@ Quando você insere a URL para a especificação OpenAPI do seu serviço externo
 
 >[!NOTE]
 >
->Muitos dos erros a seguir exigem que você trabalhe com o desenvolvedor que criou e publicou o serviço Web voltado para o público para resolver.
+>Muitos dos erros a seguir exigem que você trabalhe com o desenvolvedor que criou e publicou o serviço Web voltado para o público para resolvê-los.
 
 #### Detalhes do erro de validação
 
@@ -182,4 +173,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## Adicionar um nó externo a uma jornada {#add-journey-node}
 
-Após a ativação de uma ação, os profissionais de marketing podem adicionar um nó _[!UICONTROL Ação externa]_ ou _[!UICONTROL Caminho dividido externo]_ a qualquer jornada de conta. Para obter informações sobre como adicionar e usar esses nós na tela de jornada da conta, consulte [Nós externos](../journeys/external-nodes.md).
+Após a ativação de uma ação, os profissionais de marketing podem adicionar um nó _[!UICONTROL Ação externa]_ ou _[!UICONTROL Caminho dividido externo]_ a qualquer jornada de conta ou pessoa. Para obter informações sobre como adicionar e usar esses nós na tela de jornada, consulte [Nós externos](../journeys/external-nodes.md).

@@ -1,54 +1,47 @@
 ---
 title: Nós externos
-description: Saiba como usar os nós Ação externa e Caminho de divisão externo nas jornadas de conta para se conectar a serviços externos e rotear contas e pessoas com base na resposta do serviço.
-feature: Account Journeys, Integrations
+description: Saiba como usar os nós de jornada Ação externa e Caminho de divisão externo para se conectar a serviços externos e rotear contas e pessoas com base na resposta do serviço.
+feature: Account Journeys, Person Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+autotag-review: '2026-08-05T21:23:02.338Z'
+TQID: 'https://experienceleague.adobe.com/SM3jr1AuPhUHuSHFUpf35omVUPOdubXbOrC8ZnJYdWE'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Nós externos
 
-Use nós externos para conectar sua jornada de conta a um serviço externo. Quando um público-alvo de conta atinge um desses nós, o Journey Optimizer B2B edition envia de forma assíncrona os dados de atributo do público-alvo para o serviço externo. O serviço processa os dados e responde usando um retorno de chamada, retornando as informações e os metadados do público-alvo que a jornada usa para continuar.
+Use nós externos para conectar sua jornada a um serviço externo. Quando um público-alvo atinge um desses nós, o [!DNL Journey Optimizer B2B Edition] envia de forma assíncrona dados de atributos de público-alvo para o serviço externo. O serviço processa os dados e responde usando um retorno de chamada, retornando as informações e os metadados do público-alvo que a jornada usa para continuar.
 
 >[!NOTE]
 >
->Os nós de ação externa estão disponíveis somente em jornadas de conta. Elas não são compatíveis com jornadas pessoais.
->
->Um administrador deve [configurar e ativar a ação externa](../admin/configure-external-actions.md) antes que os profissionais de marketing adicionem e implementem esses nós em uma jornada.
+>Um administrador deve [configurar e ativar a ação externa](../admin/configure-external-actions.md) para que os profissionais de marketing possam adicionar e implementar esses nós em uma jornada.
 
 Há dois tipos de nó de ação externa:
 
 * **[Ação externa](#external-action)** - Chama um serviço externo e continua ao longo de um único caminho de saída. Use esse nó quando quiser acionar um processo externo sem lógica de ramificação, como atualizar um registro em um sistema externo ou enviar um sinal a um serviço downstream.
-* **[Caminhos divididos externos](#external-split-paths)** - Chama um serviço externo e avalia a resposta para rotear contas ao longo de um dos vários caminhos definidos. Use este nó quando o serviço externo retornar um valor, como uma pontuação, camada ou classificação, que determina a próxima etapa da jornada.
+* **[Caminhos divididos externos](#external-split-paths)** - Chama um serviço externo e avalia a resposta para rotear contas ou pessoas ao longo de um dos vários caminhos definidos. Use este nó quando o serviço externo retornar um valor, como uma pontuação ou camada, que determina a próxima etapa da jornada.
 
 ## Nó de ação externa {#external-action}
 
 O nó _Ação externa_ chama um serviço externo e continua ao longo de um único caminho de saída, independentemente do conteúdo da resposta. Use-a para integrações em que nenhuma ramificação é necessária após a chamada externa.
 
-1. Navegue até o mapa de jornada de conta.
+1. Navegue até a tela de jornada de conta ou pessoa.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Ação externa]**.
 
    ![Adicionar um nó de ação externa](./assets/node-external-action.png){width="400"}
 
-1. Nas propriedades do nó à direita, defina o contexto **[!UICONTROL Ação em]** para a ação externa:
+1. (Somente jornadas de conta) Nas propriedades do nó à direita, defina o contexto **[!UICONTROL Ação em]** para a ação externa:
 
    * Escolha **[!UICONTROL Contas]** quando quiser aplicar a ação externa a todas as pessoas que fazem parte das contas no caminho de nó.
    * Escolha **[!UICONTROL Pessoas]** quando quiser aplicar uma alteração a todas as pessoas no caminho de nó.
@@ -63,19 +56,19 @@ O nó _Ação externa_ chama um serviço externo e continua ao longo de um únic
 
 1. Continue criando a jornada a partir dos caminhos de saída do nó.
 
-   O caminho _[!UICONTROL Timeout ou error]_ é criado automaticamente. Se o período de timeout (conforme configurado no serviço) decorrer antes que uma resposta seja recebida, a conta ou pessoa avançará por esse caminho. O mesmo se aplica se uma resposta de erro for recebida. Para lidar com esses cenários, você pode adicionar nós de jornada a esse caminho ou a jornada termina para o membro do público-alvo.
+   O caminho _[!UICONTROL Timeout ou error]_ é criado automaticamente. Se o período de timeout (conforme configurado no serviço) decorrer antes que uma resposta seja recebida, a conta ou pessoa avançará por esse caminho. O mesmo se aplica se uma resposta de erro for recebida. Para lidar com esses cenários, você pode adicionar nós de jornada a esse caminho ou a jornada é encerrada para o membro do público-alvo.
 
 ## Nó de caminhos divididos externos {#external-split-paths}
 
-O nó Caminhos divididos externos chama um serviço externo e usa a resposta para determinar qual caminho as contas seguirão. Uma condição baseada em uma variável (acessadora) retornada pelo serviço externo define cada caminho. A jornada avalia a resposta em relação às condições de caminho definidas e encaminha cada conta ao longo do primeiro caminho correspondente. As condições do caminho são avaliadas em ordem decrescente. Cada conta continua ao longo do primeiro caminho cuja condição corresponde ao valor retornado pelo serviço externo.
+O nó Caminhos divididos externos chama um serviço externo e usa a resposta para determinar qual caminho as contas ou as pessoas seguirão. Uma condição baseada em uma variável (acessadora) retornada pelo serviço externo define cada caminho. A jornada avalia a resposta em relação às condições de caminho definidas e encaminha cada conta ou pessoa ao longo do primeiro caminho correspondente. As condições do caminho são avaliadas em ordem decrescente. Cada conta ou pessoa continua ao longo do primeiro caminho cuja condição corresponde ao valor retornado pelo serviço externo.
 
-1. Navegue até o mapa de jornada de conta.
+1. Navegue até a tela de jornada de conta ou pessoa.
 
 1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Caminhos divididos externos]**.
 
    ![Adicionar um nó de caminho dividido externo](./assets/node-external-split-path.png){width="400"}
 
-1. Nas propriedades do nó à direita, escolha um tipo **[!UICONTROL Split paths by]**:
+1. (Somente jornadas de conta) Nas propriedades do nó à direita, escolha um tipo **[!UICONTROL Dividir caminhos por]**:
 
    * **[!UICONTROL Contas]** - Para caminhos de divisão por contas, você pode adicionar nós de conta e pessoas nos caminhos definidos.
    * **[!UICONTROL Pessoas]** - Para caminhos divididos por pessoas, você pode adicionar somente nós de ação de pessoas nos caminhos definidos. Uma divisão com base em pessoas é fechada automaticamente com um nó _[!UICONTROL Mesclar caminhos]_ para que todas as pessoas possam avançar para a próxima etapa sem perder o contexto da conta.
