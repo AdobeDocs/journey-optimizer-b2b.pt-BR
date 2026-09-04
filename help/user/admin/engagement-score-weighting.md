@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -58,10 +58,6 @@ Para exibir modelos ativos, de rascunho e arquivados, abra a lista _[!UICONTROL 
 O sistema cria um modelo de pontuação de envolvimento inicial chamado _Modelo de ponderação de atividade 1_. As atividades de engajamento são baseadas em eventos padrão e personalizados do Experience Platform. Os pesos em todas as atividades são 0 por padrão.
 
 ![Modelo padrão de ponderação de pontuação de engajamento para eventos do Experience Platform](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
-
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 Quando você ativa um modelo personalizado, o modelo ativo muda para um status _Arquivado_. Se você decidir reverter para o modelo de pontuação de engajamento padrão, poderá duplicar o modelo padrão original e ativá-lo ou usá-lo como ponto de partida para outro modelo personalizado.
 
@@ -138,14 +134,6 @@ O modelo padrão para eventos do Experience Platform inclui as atividades rastre
 </td>
 </tbody>
 </table>
-
-+++
-
-+++Atividades para arquitetura padrão
-
-O modelo padrão da arquitetura padrão inclui as [!DNL Marketo Engage] atividades rastreadas com um peso padrão associado. Ao duplicar esse modelo, você pode alterar a ponderação de acordo com suas necessidades. Não é possível alterar a frequência diária máxima.
-
-{{engagement-activities-me}}
 
 +++
 

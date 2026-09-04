@@ -1,10 +1,10 @@
 ---
 title: Snippets
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 2%
+source-wordcount: '2318'
+ht-degree: 0%
 
 ---
 
@@ -264,16 +264,3 @@ Na caixa de diálogo _[!UICONTROL Carregar imagem]_, arraste e solte um arquivo 
 Os nomes de arquivo das imagens selecionadas são exibidos na caixa de diálogo. Os nomes dos arquivos do ativo devem ser exclusivos (em várias pastas). Se um arquivo com o nome já existir, uma mensagem será exibida. Os nomes podem ter no máximo 100 caracteres e não podem conter caracteres especiais (como `;`, `:`, `\` e `|`).
 
 Clique em **[!UICONTROL Importar]**.
-
-## Atividades de pontuação do engajamento - Marketo {#engagement-activities-me}
-
-| Nome da atividade | Descrição | Contagem máxima de frequência diária | Peso de atividade do modelo padrão |
-| --- | --- | --- | --- |
-| [!UICONTROL Participar do evento] | Um membro participou de um evento | 20 | 60 |
-| [!UICONTROL Email clicado] | Um membro clica em um link em um email | 20 | 30 |
-| [!UICONTROL Email Aberto] | Um membro abre um email | 20 | 30 |
-| [!UICONTROL Formulário preenchido] | Um membro preenche e envia um formulário em uma página da Web | 20 | 40 |
-| [!UICONTROL Momento interessante] | Um membro tem um momento interessante | 20 | 60 |
-| [!UICONTROL Cliques em links] | Um membro clica em um link em uma página da Web | 20 | 40 |
-| [!UICONTROL Exibições de página] | Um membro exibe uma página da Web | 20 | 40 |
-| [!UICONTROL Inscrever-se no Evento] | Um membro registrado para um evento | 20 | 60 |

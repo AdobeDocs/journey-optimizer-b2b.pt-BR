@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -156,23 +156,6 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
    ![Modelo de funções com várias funções definidas](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
    Suas alterações são salvas automaticamente no status _Rascunho_. Se você não estiver pronto para publicar o modelo de funções, clique na seta para a esquerda (para trás) na parte superior da página e retorne à lista _[!UICONTROL Modelos de funções]_.
-
->[!BEGINSHADEBOX &quot;associação à lista do Marketo Engage&quot;]
-
-No Marketo Engage, as _Campanhas inteligentes_ verificam a associação de programas para garantir que os clientes potenciais não recebam emails duplicados e não sejam membros de vários fluxos de emails ao mesmo tempo. No Journey Optimizer B2B, você pode verificar a associação à lista do Marketo Engage como uma condição para seu modelo de funções para ajudar a eliminar a duplicação na compra de associação de grupo e atividades de jornada.
-
-Para usar a associação de lista como uma condição de função, expanda **[!UICONTROL Filtros Especiais]** e arraste a condição **[!UICONTROL Membro da Lista]** para o espaço de filtro. Para avaliar a associação em uma ou mais listas do Marketo Engage, conclua a definição do filtro.
-
-![Condição de modelo de funções para associação à lista de Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Descontinuação de recursos**
->
->Na versão atual do Journey Optimizer B2B edition, a filtragem com base na lista ou associação de programa em uma instância do Marketo Engage não é mais suportada.
-
->[!ENDSHADEBOX]
 
 ### Alterar as configurações de pontuação de integridade {#change-the-completeness-score-settings}
 
