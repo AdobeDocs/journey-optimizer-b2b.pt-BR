@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +44,8 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | Metadados do C2PA | Imagens geradas ou editadas com ferramentas de IA gerativas agora são assinadas automaticamente com metadados C2PA, ajudando você a atender aos requisitos de transparência de conteúdo e divulgação de IA. [Saiba mais](../content/c2pa-metadata.md) |
 | Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
 | Aprimoramento | Analise acionadores e filtros de eventos - jornadas da conta | O suporte para vários acionadores e filtros em um nó _Escutar evento_ agora está disponível para jornadas de conta. |
-| Aprimoramento | Nós de caminho dividido externos - jornadas de pessoa | O suporte para nós _Caminhos divididos externos_ agora está disponível para jornadas de pessoas. |
-| Aprimoramento | Nós de ação externa - jornadas de pessoa | O suporte para nós de _Ação externa_ agora está disponível para jornadas de pessoas. |
+| Aprimoramento | Nós de caminho dividido externos - jornadas de pessoa | O suporte para nós _Caminhos divididos externos_ agora está disponível para jornadas de pessoas. [Saiba mais](../journeys/external-nodes.md#external-action) |
+| Aprimoramento | Nós de ação externa - jornadas de pessoa | O suporte para nós de _Ação externa_ agora está disponível para jornadas de pessoas. [Saiba mais](../journeys/external-nodes.md#external-split-paths) |
 | Aprimoramento | Conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
 | Aprimoramento | Permissões do produto - Canal do WhatsApp | Os administradores de produto agora podem definir as permissões `Manage B2B WhatsApp Settings` e `Manage B2B WhatsApp Presets` para _[!UICONTROL Configurações de Canal B2B]_. |
 

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -161,7 +161,8 @@ ht-degree: 85%
   + [Painel Grupos de compra](./dashboards/buying-groups-dashboard.md)
   + [Painel do Jornada](./dashboards/journeys-dashboard.md)
 + Administração {#admin}
-  + [Governança e privacidade](./admin/governance.md)
+  + [Governança](./admin/governance.md)
+  + [Gerenciamento de privacidade](./admin/privacy-management.md)
   + [Mapeamento de personas](./admin/persona-mapping.md)
   + Configurações {#configurations}
     + [Repositórios do AEM Assets](./admin/configure-aem-repositories.md)
