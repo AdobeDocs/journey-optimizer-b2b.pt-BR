@@ -1,0 +1,133 @@
+---
+title: Usar o Assistente de IA
+description: Faça perguntas sobre o conhecimento do produto no Assistente de IA e obtenha insights operacionais sobre jornadas, públicos e grupos de compras no Journey Optimizer B2B edition.
+feature: AI Assistant
+role: User
+level: Beginner
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+workflow-type: tm+mt
+source-wordcount: 954
+ht-degree: 1%
+
+---
+
+# Usar a interface de bate- papo
+
+No Journey Optimizer B2B edition, o Assistente de IA fornece uma interface de bate-papo que você pode usar para entender conceitos de produtos, navegar e conhecer rapidamente os recursos do produto e obter insights operacionais para o seu ambiente. Ele também está disponível em vários produtos na Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>É necessário um contrato para as Diretrizes de usuário da IA gerada da Adobe Experience Cloud para que você possa usar o Assistente de IA. Para obter mais informações sobre este contrato e diretrizes de uso, consulte as [Diretrizes de usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+
+Para acessar a interface do chat, clique no ícone no cabeçalho.
+
+![Clique no ícone para acessar o Assistente de IA](./assets/ai-assistant-icon-displayed.png){width="420"}
+
+A interface do Assistente de IA é exibida, fornecendo imediatamente informações para começar. Você pode usar as opções fornecidas em _[!UICONTROL Ideias para começar]_ para responder a perguntas e comandos, como:
+
+* Quais jornadas foram publicadas?
+* Quais interesses de solução foram criados?
+* Conte-me os principais benefícios do Journey Optimizer B2B edition.
+
+No Adobe Journey Optimizer B2B edition, o Assistente de IA é compatível com os seguintes casos de uso:
+
+## Faça perguntas sobre o conhecimento do produto
+
+As perguntas de conhecimento do produto são sobre os conceitos e as informações práticas do Journey Optimizer B2B edition. Alguns exemplos de perguntas de conhecimento sobre produtos incluem:
+
+* Como configurar contas do provedor de SMS?
+* Como faço para enviar um email em uma jornada?
+* Como posso personalizar meu conteúdo de email?
+
+Para fazer uma pergunta sobre um produto, digite-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você precisa aprender a usar um grupo de compras em uma jornada. Nesse caso, você insere _Como usar um grupo de compras em uma jornada?_ Depois de enviar a pergunta, o Assistente de IA consulta sua base de conhecimento e gera uma resposta em segundos.
+
+![Digite uma pergunta na caixa de texto](./assets/ai-assistant-ask-question.png){width="420"}
+
++++Exibir um exemplo de resposta
+
+![Digite uma pergunta na caixa de texto](./assets/ai-assistant-product-answer.png){width="420"}
+
++++
+
+## Faça perguntas sobre insights operacionais
+
+As perguntas sobre insights operacionais são sobre os objetos do jornada na sandbox da sua organização. Você pode fazer perguntas sobre artefatos operacionais, como públicos-alvo, jornadas, interesses de soluções e modelos de grupos de compras. Alguns exemplos de perguntas ou prompts de insights operacionais incluem:
+
+* Quantas jornadas ativas eu tenho no Adobe Journey Optimizer B2B edition?
+* Fornecer uma lista de todas as jornadas agendadas
+* Quantas jornadas foram criadas nos últimos sete dias?
+
+Certifique-se de estar em uma sandbox ativa para o Assistente de IA para fornecer uma resposta suficiente a uma pergunta sobre seus insights operacionais.
+
+>[!NOTE]
+>
+>As únicas perguntas de insights operacionais do Adobe Journey Optimizer B2B edition com suporte pelo Assistente de IA estão listadas na [tabela de domínio de insights operacionais](./ai-assistant-overview.md#operational-insights). Ele pode acessar dados somente para a sandbox em que você está atualmente.
+
+Para fazer uma pergunta sobre insights operacionais, insira-a no campo na parte inferior do painel e pressione Enter. Por exemplo, quando você deseja saber sobre os públicos-alvo da sandbox. Nesse caso, você insere _Quantos públicos-alvo existem?_.  O Assistente de IA fornece uma contagem dos públicos-alvo na sandbox e uma explicação de como ele calculou a resposta. Na resposta de exemplo a seguir, o Assistente de IA fornece um link para acessar os públicos-alvo na interface do usuário e descreve as etapas executadas para identificar o número de públicos-alvo.
+
+![Resposta do Assistente de IA para quantos públicos-alvo](./assets/ai-assistant-insights-answer.png){width="420"}
+
+Você pode seguir sua consulta inicial solicitando uma lista de artefatos, como _Listar os 5 principais por tamanho_. O Assistente de IA retorna uma tabela com os cinco itens principais na consulta e suas IDs correspondentes. Clique no ícone _Baixar_ ( ![Ícone Baixar](../assets/do-not-localize/icon-download.svg) ) para baixar a tabela como um arquivo CSV.
+
+![Resposta do Assistente de IA para uma lista de jornadas ativas](./assets/ai-assistant-artifacts-query.png){width="420"}
+
+Para exibir toda a tabela no Assistente de IA, clique no ícone _Maximizar_ ( ![Maximizar ícone](../assets/do-not-localize/icon-maximize.svg) ). Na exibição de tabela expandida, clique em **[!UICONTROL Baixar CSV]** para salvar as informações como um arquivo CSV.
+
+![Resposta do Assistente de IA para uma lista de jornadas ativas](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+
+## Verificar respostas
+
+A interface de bate-papo inclui ferramentas que você pode usar para verificar e validar respostas.
+
+### Fontes de conhecimento do produto
+
+Depois de receber uma resposta para uma pergunta de produto, selecione **[!UICONTROL Mostrar origem]** para exibir as citações da fonte de conhecimento do produto usadas para gerar a resposta do Assistente de IA.
+
+O Assistente de IA fornece links para a documentação que confirma a resposta inicial. Também adiciona notas de rodapé à resposta para indicar as partes específicas da resposta que fazem referência às fontes de documentação vinculadas.
+
+![Resultados da consulta do Assistente de IA](./assets/ai-assistant-product-answer-sources.png){width="420"}
+
+### Fontes de insights operacionais
+
+Depois de receber uma resposta para uma pergunta de insights operacionais, clique em **[!UICONTROL Mostrar origem]** e selecione **[!UICONTROL Exibir consulta de origem]**.
+
+Você pode verificar cada resposta relacionada às perguntas dos insights operacionais usando uma consulta SQL fornecida pelo Assistente de IA. Quando consultado sobre uma pergunta de insights operacionais, o Assistente de IA fornece uma consulta SQL. Você pode usá-la para verificar o processo necessário para calcular a resposta. Esta consulta de origem é somente para fins de verificação e não tem suporte no Serviço de consulta.
+
+![Resultados da consulta do Assistente de IA](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
+
+## Fornecer feedback
+
+Use os ícones de _Classificação positiva_ ( ![Miniatura](../assets/do-not-localize/icon-thumb-up.svg) ) ou _Classificação negativa_ ( ![Miniatura](../assets/do-not-localize/icon-thumb-down.svg) ) para classificar a utilidade e a qualidade da resposta. Preencha o breve formulário de pesquisa de acordo com sua experiência e clique em **[!UICONTROL Enviar]**. As informações fornecidas são usadas para fazer melhorias no Assistente de IA.
+
+Se você notar algo problemático na resposta, clique no ícone _Sinalizador_ ( ![Sinalizador](../assets/do-not-localize/icon-flag.svg) ). Use o formulário para descrever o problema e clique em **[!UICONTROL Enviar]** para relatar o problema.
+
+![Resposta do Assistente de IA - ícones de comentários](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+
++++Exibir formulários
+
+>[!BEGINTABS]
+
+>[!TAB Polegar para cima]
+
+![Resposta do Assistente de IA - Formulário de feedback positivo na miniatura](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+
+>[!TAB Polegar para baixo]
+
+![Resposta do Assistente de IA - Formulário de feedback negativo na miniatura](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+
+>[!TAB Sinalizador]
+
+![Resposta do Assistente de IA - Sinalizar formulário de feedback sobre o problema](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
++++

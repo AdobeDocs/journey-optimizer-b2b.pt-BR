@@ -1,0 +1,149 @@
+---
+title: Recursos de IA no Journey Optimizer B2B edition
+description: Acelere os fluxos de trabalho com o Assistente de IA - obtenha conhecimento sobre o produto, ajuda na solução de problemas e insights operacionais para o Journey Optimizer B2B Edition.
+feature: AI Assistant
+role: User, Admin
+level: Beginner
+exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
+autotag-review: '2026-06-05T16:05:30.499Z'
+TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+workflow-type: tm+mt
+source-wordcount: 1385
+ht-degree: 9%
+
+---
+
+# Recursos de IA no Journey Optimizer B2B edition
+
+A interface de chat no Adobe Journey Optimizer B2B edition é alimentada pela mesma base de tecnologia que o [Assistente de IA no Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}. É uma experiência de conversação que você pode usar para acelerar seus fluxos de trabalho no Journey Optimizer B2B edition. Você pode usar a interface de chat para entender melhor os recursos do produto, solucionar problemas ou pesquisar informações e encontrar insights operacionais para o Journey Optimizer B2B edition. Você também pode usar esta interface para invocar a [Journey Agent](../agents/journey-agent.md) e a [Audience Agent](../agents/audience-agent-b2b.md).
+
+>[!IMPORTANT]
+>
+>É necessário um contrato com as [diretrizes de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar o Assistente de IA no Journey Optimizer B2B edition. Este contrato também contém o contrato público beta para que você possa usar os recursos adicionais do Assistente de IA durante a implantação.
+
++++Exibir a interface do contrato do usuário
+
+![A primeira página do contrato de usuário.](./assets/user-agreement-1.png)
+
+![A última página do contrato de usuário.](./assets/user-agreement-2.png)
+
++++
+
+>[!BEGINSHADEBOX]
+
+## Qualificador de Vendas
+
+O Sales Qualifier é um aplicativo orientado por IA que pode ser usado com o Journey Optimizer B2B edition. Ele implementa o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). O Sales Qualifier automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador entre canais. Ele reduz a carga manual de BDR e acelera a velocidade do pipeline para empresas B2B corporativas.
+
+Para obter mais informações, consulte a [documentação do Sales Qualifier](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
+## Recursos do Assistente de IA no Journey Optimizer B2B edition
+
+Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Esta resposta é uma representação interna dos dados subjacentes, o _**Gráfico de Conhecimento**_, e fornece uma coleção abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
+
+* Documentação da Adobe Experience League.
+* Artefatos operacionais, como esquemas, campos, públicos e jornadas.
+
+Considere qual tipo de pesquisa é necessário antes de submeter uma consulta do Assistente do AI:
+
+### Conhecimento do produto
+
+O conhecimento do produto refere-se a conceitos e tópicos fundamentados na documentação do Journey Optimizer B2B edition na Adobe Experience League. As perguntas sobre o conhecimento do produto podem ser especificadas mais detalhadamente nos seguintes subgrupos:
+
+| Conhecimento do produto | Exemplos |
+| --- | --- |
+| Aprendizado apontado | <li>O que é um grupo de compras? <li> Mostrar um exemplo de modelo de funções de grupo de compra? |
+| Descoberta aberta | <li>Quais são as etapas para criar grupos de compra? <li>Como faço para usar campos personalizados em modelos de funções de um grupo de compra? |
+| Solução de problemas | <li>Por que não foram criados grupos para minha jornada? <li>Por que não consigo encontrar eventos de experiência para ouvir na jornada? |
+
+### Insights operacionais
+
+_Os insights operacionais_ referem-se às respostas que o Assistente de IA gera sobre seus objetos de metadados (atributos, públicos de conta, fluxos de dados, conjuntos de dados, destinos, jornadas de conta, esquemas, fontes, modelos de grupo de compra e interesses de solução). Esses insights incluem contagens, pesquisas e impacto de linhagem. Eles não observam nenhum dado na sandbox.
+
+* Qual público-alvo de conta tem o maior tamanho de público-alvo e qual é esse tamanho?
+* Quantos públicos-alvo de conta nunca foram usados em nenhuma jornada?
+* Qual interesse de solução de uso do jornada ativo _x_?
+
+Você pode fazer perguntas ao Assistente de IA sobre seus insights operacionais nos seguintes domínios:
+
+| Domínio | Metadados compatíveis | Metadados incompatíveis |
+| --- | --- | --- |
+| Atributos/campos | <li>Pesquisa de nome de atributo <li>Atributo - relacionamento de esquema <li>Relação atributo-conjunto de dados <li>Atributo - relacionamento de público <li>Relação atributo-destino | <li>Classe de atributo <li>Auditoria <li>Status de desativação <li>Rótulos <li>Valor armazenado em atributos |
+| Públicos-alvo da conta <br><br>**_Observação:_** No contexto do Journey Optimizer B2B edition, o Assistente de IA só pode responder a perguntas de públicos-alvo para Públicos-alvo da conta. No contexto do Experience Platform, o Assistente de IA pode responder perguntas somente para Públicos-alvo de pessoas. | <li>Contagem de público-alvo <li>Tipo de público-alvo (streaming ou lote) <li>Datas de criação/modificação <li>Status de ativação <li>Contagem de membros <li>Duplicar públicos <li>Pesquisa de nome e ID | <li>Sobreposições de públicos-alvo <li>Ativação de público-alvo <li>Auditoria <li>Criar/modificar <li>Rótulos <li>Tendências de qualificação de membros |
+| Fluxos de dados | <li>Contagens de fluxo de dados <li>Status do fluxo de dados <li>Fluxo de dados - relação do conjunto de dados <li>Fluxo de dados - relacionamento de origem | <li>Criação/modificação <li>Relações fluxo-lote de dados <li>Contagem de perfis de assimilação |
+| Conjuntos de dados | <li>Contagem do conjunto de dados <li>Status de habilitação do perfil <li>Data de criação/modificação <li>Relação entre conjunto de dados e esquema <li>Conjunto de dados - relacionamento de público-alvo <li>Conjunto de dados - relação de atributo <li>Relação entre conjunto de dados e fluxo de dados <li>Pesquisa de nome <li>Pesquisa de nome e ID | <li>Auditoria <li>Criado por <li>Relação entre conjunto de dados e lote <li>Criação/modificação do conjunto de dados <li>Tamanho do conjunto de dados <li>Número de perfis <li>Número de linhas <li>Pesquisa de valor |
+| Destinos | <li>Contagens de destino configuradas <li>Relação destino - público <li>Relação de atributo de destino | <li>Configuração de conta <li>Informações de credencial da conta <li>Perfis únicos ativados |
+| Jornadas (Jornadas de conta) | <li>Contagem <li>Pesquisa de nome e ID <li>Status da jornada <li>Datas de criação/modificação | <li>Atributos - Auditoria de relacionamentos de jornada <li>Criação/modificação <li>Criado por |
+| Esquemas | <li>Contagens de esquema <li>Data de criação/modificação <li>Esquema - Relação de atributo <li>Relação esquema - conjunto de dados <li>Esquema - relacionamento de público <li>Status de habilitação do perfil <li>Pesquisa de nome <li>Pesquisa de nome e ID | <li>Auditoria <li>Criação/modificação <li>Criado por <li>Grupos de campos <li>Identidades <li>Namespaces de identidade <li>Rótulos <li>Número de perfis |
+| Fontes | <li>Contagens de conta <li>Status da conta <li>Fluxos de dados ativos/inativos para cada conta <li>Source connector - relação de fluxo de dados <li>Relação conta Source - fluxo de dados | <li>Informações de credenciais da conta <li>Métricas de assimilação de dados de configuração de conta <li>Número de perfisOrigem - relacionamentos em lotes |
+| Modelo do grupo de compra | <li>Contagens <li>Status <li>Funções <li>Pesquisa de nome e ID | <li>Regras de função |
+| Interesse da solução | <li>Contagens <li>Status <li>Interesse da solução - Relacionamento do modelo do grupo de compra <li>Pesquisa de nome e ID | <li>Interesse da solução - Relacionamento do grupo de compra |
+
+{style="table-layout:fixed"}
+
+Para perguntas sobre insights operacionais, as respostas podem não refletir o estado atual da interface do usuário. Os dados que sustentam essas perguntas são atualizados uma vez a cada 24 horas. Por exemplo, as alterações que os usuários fazem no Real-Time CDP durante o dia são sincronizadas com os armazenamentos de dados à noite e, em seguida, ficam disponíveis para perguntas do usuário de manhã. Para saber mais sobre dados específicos relacionados a objetos, faça logon em uma sandbox.
+
+### Escopo do recurso
+
+Atualmente, o escopo do Assistente de IA é o seguinte:
+
+* **Conhecimento de produto**: o AI Assistant pode responder a perguntas de conhecimento de produto do Real-Time Customer Data Platform e do Adobe Journey Optimizer B2B edition.
+
+* **Insights operacionais**: você pode fazer perguntas ao Assistente de IA sobre insights operacionais para os seguintes objetos de dados: atributos, públicos-alvo de conta, fluxos de dados, conjuntos de dados, destinos, jornadas de conta, esquemas, fontes, modelos de grupo de compra e interesses de solução.
+
+### Privacidade, segurança e governança
+
+O Assistente de IA no Journey Optimizer B2B edition prioriza a privacidade, a segurança e a governança. Consulte as seguintes informações para saber mais sobre os recursos focados na confiança do cliente que você pode esperar do Assistente de IA:
+
+* O Assistente de IA não usa dados pessoais atualmente, mesmo para fins de treinamento.
+
+* O Assistente de IA não tem conhecimento dos dados do cliente, como pessoas, contas, oportunidades e grupos de compras.
+
+* Você deve ter permissão explícita para interagir com o Assistente de IA.
+
+  * Um administrador pode definir permissões usando a [Interface de Permissões](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e a [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+
+  * As permissões são granulares e o administrador da sandbox pode configurar quais usuários podem fazer diferentes categorias de perguntas (perguntas baseadas em conhecimento do produto com o Assistente de IA ou perguntas sobre insights operacionais).
+
+* Você pode exibir um log de 30 dias das interações anteriores com o Assistente de IA.
+
+* O Assistente de IA é baseado em dados específicos da sandbox e na documentação pública do Adobe ao responder aos prompts do usuário. Os dados não são compartilhados em sandboxes.
+
+* Os prompts fornecidos ao Assistente de IA não são compartilhados com outros clientes.
+
+### Perguntas frequentes
+
+Esta é uma lista de respostas para perguntas frequentes sobre o Assistente de IA no Journey Optimizer B2B edition.
+
+**As informações do Assistente de IA são fornecidas em tempo real?**
+
+Os dados apresentados nas respostas do Assistente de IA são atualizados diariamente. Esse ciclo significa que os dados incluídos nas respostas do podem ser até 24 horas mais antigos do que os dados exibidos na interface do usuário no momento da resposta.
+
+**Quais são os recursos do Assistente de IA?**
+
+O Assistente de IA pode resolver consultas de conhecimento de produtos da Adobe e responder a perguntas relacionadas a insights operacionais de seus artefatos operacionais.
+
+**O Assistente de IA pode fornecer informações sobre os dados do cliente?**
+
+Não. O AI Assistant não tem acesso aos dados do cliente e, portanto, não está acessível ou pode ser usado.
+
+**Minhas informações pessoais são usadas nos dados de treinamento do Assistente de IA?**
+
+O Assistente de IA não usa informações pessoais para fins de treinamento. Não forneça nenhuma informação pessoal sobre você (incluindo seu nome ou informações de contato) ou qualquer outra pessoa ao Assistente de IA.
+
+## Próximas etapas
+
+Com uma compreensão geral do Assistente de IA, prossiga para ativar e usar o Assistente de IA durante os workflows. Consulte a seguinte documentação para obter mais informações:
+
+* [Habilitar o acesso ao Assistente de IA](./enable-ai-assistant-access.md)
+* [Orientação para perguntas](./question-guidance.md)
+* [Usar o Assistente de IA](./use-ai-assistant.md)
