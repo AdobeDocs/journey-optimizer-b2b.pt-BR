@@ -19,7 +19,7 @@ topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2070
 ht-degree: 7%
@@ -169,7 +169,7 @@ Para criar e definir as diretrizes de marca, você pode inserir os detalhes ou f
 
 Quando sua marca incluir um conjunto completo de definições e atender aos seus requisitos, clique em **[!UICONTROL Publicar]** para disponibilizar as diretrizes da sua marca para alinhamento e geração de conteúdo.
 
-As marcas publicadas podem ser acessadas pela opção **[!UICONTROL Marca]** na IA [pontuação de alinhamento de marca](./content-evaluation.md#brand-alignment-score) e nas [ferramentas de geração de conteúdo](../ai-assistant/generative-ai-content.md).
+As marcas publicadas podem ser acessadas pela opção **[!UICONTROL Marca]** na IA [pontuação de alinhamento de marca](./content-evaluation.md#brand-alignment-score) e nas [ferramentas de geração de conteúdo](../ai-coworker/generative-ai-content.md).
 
 ![Opções de marca para conteúdo](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -211,13 +211,13 @@ Use a guia **[!UICONTROL Sobre a marca]** para estabelecer a identidade principa
 
      ![Sobre a marca - Princípios orientadores - adicionar valor principal](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL Valor]** - Digite o nome do valor da marca principal.
+     * **[!UICONTROL Valor]** - Digite o nome do valor da marca principal.
 
-      * **[!UICONTROL Descrição]** - Explique o que esse valor significa para sua marca.
+     * **[!UICONTROL Descrição]** - Explique o que esse valor significa para sua marca.
 
-      * **[!UICONTROL Comportamentos]** - Descreva as ações ou atitudes que refletem este valor na prática.
+     * **[!UICONTROL Comportamentos]** - Descreva as ações ou atitudes que refletem este valor na prática.
 
-      * **[!UICONTROL Manifestações]** - Forneça exemplos de como esse valor é expresso em marcas reais.
+     * **[!UICONTROL Manifestações]** - Forneça exemplos de como esse valor é expresso em marcas reais.
 
    * Para alterar ou excluir um valor de marca principal, clique no ícone _Editar_ ( ![Editar ícone](../assets/do-not-localize/icon-edit.svg) ) para atualizar ou excluir um valor de marca principal.
 

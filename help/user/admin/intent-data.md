@@ -1,5 +1,5 @@
 ---
-title: Dados de intenção
+title: Configuração de dados de intenção
 description: Configure os dados de intenção com mapeamento de palavra-chave para prever o interesse do cliente e os sinais de compra para marketing baseado em conta no Journey Optimizer B2B edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
@@ -16,23 +16,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# Dados de intenção
+# Configuração de dados de intenção
 
-No Journey Optimizer B2B edition, o modelo de Detecção de intenções prevê uma solução/produto de interesse com alta confiança suficiente com base na atividade de um lead. Ele também aproveita as atividades de outros membros da conta, juntamente com o conteúdo marcado. A intenção de uma pessoa pode ser interpretada como a probabilidade de ter interesse em um produto.
+Em [!DNL Adobe Journey Optimizer B2B Edition], o modelo de Detecção de Intenção prevê uma solução/produto de interesse com confiança alta o suficiente com base na atividade de um cliente potencial. Ele também aproveita as atividades de outros membros da conta, juntamente com o conteúdo marcado. A intenção de uma pessoa pode ser interpretada como a probabilidade de ter interesse em um produto.
 
-* Níveis de intenção - Disponível em nível de lead, conta e grupo de compras conhecido.
-* Tipos de sinal de intenção - Palavras-chave, produto e solução
+Para obter mais informações sobre o cálculo da pontuação de intenção, consulte [_Pontuações de intenção_](../ai-coworker/intent-scores.md).
 
 Os dados de intenção são usados no [_Painel Inteligente_](../dashboards/intelligent-dashboard.md), [_página Detalhes da conta_](../accounts/account-details.md), [_página Detalhes do grupo de compras_](../buying-groups/buying-group-details.md) e [_página Detalhes da pessoa_](../accounts/person-details.md).
-
-![Visualização de dados de intenção](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## Preparar os dados de mapeamento de intenção
 

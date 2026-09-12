@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 86%
 
 ---
@@ -28,14 +28,22 @@ ht-degree: 86%
   + [Integração de usuários](./start/get-started.md)
   + [Logon e página inicial](home-page.md)
 + Recursos de IA {#ai-assistant}
-  + [Visão geral](./ai-assistant/ai-assistant-overview.md)
-  + [Habilitar o acesso ao Assistente de IA](./ai-assistant/enable-ai-assistant-access.md)
-  + [Orientação para perguntas](./ai-assistant/question-guidance.md)
-  + [Interface de chat](./ai-assistant/use-ai-assistant.md)
-  + [IA gerativa para conteúdo](./ai-assistant/generative-ai-content.md)
+  + [Visão geral](./ai-coworker/ai-assistant-overview.md)
+  + [Habilitar o acesso ao Assistente de IA](./ai-coworker/enable-ai-assistant-access.md)
+  + [Orientação para perguntas](./ai-coworker/question-guidance.md)
+  + [Interface de chat](./ai-coworker/use-ai-assistant.md)
+  + [IA gerativa para conteúdo](./ai-coworker/generative-ai-content.md)
+  + [Pontuações de intenção](./ai-coworker/intent-scores.md)
   + Agentes {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
++ Painéis inteligentes {#dashboards}
+  + [Painel de insights](./dashboards/intelligent-dashboard.md)
+  + [Painel de engajamento](./dashboards/engagement-dashboard.md)
+  + [Painel de engajamento na Web](./dashboards/web-engagement-dashboard.md)
+  + [Relatório de desempenho de email](./dashboards/email-performance-dashboard.md)
+  + [Painel Grupos de compra](./dashboards/buying-groups-dashboard.md)
+  + [Painel do Jornada](./dashboards/journeys-dashboard.md)
 + Gerenciamento de jornadas {#journeys}
   + [Jornadas de conta e pessoa](./journeys/journeys-overview.md)
   + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)
@@ -153,13 +161,6 @@ ht-degree: 86%
     + [Sintaxe de personalização](./content/personalization-syntax.md)
     + [Lista de funções auxiliares](./content/personalization-helper-functions.md)
     + [Construtor de script (Beta)](./content/script-builder.md)
-+ Painéis inteligentes {#dashboards}
-  + [Painel de insights](./dashboards/intelligent-dashboard.md)
-  + [Painel de engajamento](./dashboards/engagement-dashboard.md)
-  + [Painel de engajamento na Web](./dashboards/web-engagement-dashboard.md)
-  + [Relatório de desempenho de email](./dashboards/email-performance-dashboard.md)
-  + [Painel Grupos de compra](./dashboards/buying-groups-dashboard.md)
-  + [Painel do Jornada](./dashboards/journeys-dashboard.md)
 + Administração {#admin}
   + [Governança](./admin/governance.md)
   + [Gerenciamento de privacidade](./admin/privacy-management.md)
