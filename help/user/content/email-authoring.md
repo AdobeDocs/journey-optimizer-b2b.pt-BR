@@ -1,29 +1,34 @@
 ---
 title: Criação de mensagens de email
-description: Crie emails com ferramentas de design visual, importação do HTML ou modelos - use a geração de conteúdo do Assistente de IA, CSS personalizado e personalização no Journey Optimizer B2B edition.
+description: Crie emails com ferramentas de design visual, importação do HTML ou modelos - use a geração de conteúdo, o CSS personalizado e a personalização no Journey Optimizer B2B edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 2%
-
 ---
-
 # Criação de mensagens de email
 
 Depois de [adicionar um ativo de email a um nó de ação de jornada](./add-email.md), você pode definir o conteúdo da mensagem de email.
@@ -44,7 +49,7 @@ Após criar e personalizar o conteúdo do email, você pode exportar o conteúdo
 
 >[!TIP]
 >
->Use o Assistente de IA no Adobe Journey Optimizer B2B edition, viabilizado pela IA gerativa, para melhorar o conteúdo. O Assistente de IA pode ajudar você a otimizar o impacto de seus deliveries, gerando emails inteiros e conteúdo de texto direcionado e fornecendo recomendações para imagens que repercutem com seu público-alvo. [Saiba mais](./ai-assistant-emails.md)
+>Use as ferramentas de geração de conteúdo para melhorar o seu conteúdo. Essas ferramentas podem ajudar você a otimizar o impacto dos seus deliveries, gerando emails inteiros e conteúdo de texto direcionado e fornecendo recomendações para imagens que são relevantes para o seu público-alvo. [Saiba mais](./generate-content-emails.md)
 
 ## Criar email do zero {#design-from-scratch}
 

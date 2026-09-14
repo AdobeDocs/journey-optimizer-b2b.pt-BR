@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 7%
-
+source-wordcount: '2039'
+ht-degree: 4%
 ---
-
 # Criar e gerenciar suas marcas {#brand-library}
 
 Defina uma marca para fornecer um conjunto detalhado de regras e padrões que estabelecem uma identidade visual e verbal. Essas diretrizes fornecem uma referência para manter uma representação de marca consistente em todas as plataformas de marketing e comunicação. Ao utilizar diretrizes de marca bem definidas, as organizações podem garantir que todos os esforços de criação de conteúdo estejam alinhados às metas estratégicas e à identidade geral da marca. Essa consistência não só melhora o reconhecimento e a confiança da marca, como também contribui para uma experiência do cliente mais coesa e impactante em todos os pontos de contato.
@@ -38,7 +42,7 @@ No Journey Optimizer B2B edition, você pode definir e organizar manualmente sua
 >
 ><br>
 >
->É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
+>É necessário um [contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
 >
 ><br>
 >
@@ -68,7 +72,7 @@ Para cada cartão, você pode clicar no ícone do menu _Mais_ ( ![ícone do menu
 
 ### Marca padrão
 
-Você pode designar uma marca padrão a ser aplicada automaticamente ao gerar conteúdo e calcular pontuações de alinhamento durante a criação do conteúdo. Somente uma marca publicada (_Live_) pode ser padrão.
+Para aplicar uma marca automaticamente ao gerar conteúdo e calcular pontuações de alinhamento durante a criação do conteúdo, atribua uma marca padrão. Somente uma marca publicada (_Live_) pode ser padrão.
 
 Na biblioteca de Marcas, a placa de marca padrão é exibida com um sinalizador.
 
@@ -93,7 +97,7 @@ Para criar e definir as diretrizes de marca, você pode inserir os detalhes ou f
 
 1. Digite um **[!UICONTROL Nome]** para sua marca.
 
-1. Arraste e solte ou selecione seu arquivo para fazer upload das diretrizes da marca e extrair automaticamente informações relevantes sobre a marca.
+1. Arraste e solte ou selecione seu arquivo para fazer upload das diretrizes da marca e extrair automaticamente as informações relevantes sobre a marca.
 
    ![Definir uma nova marca](./assets/brands-create-new.png){width="500"}
 
@@ -111,7 +115,7 @@ Para criar e definir as diretrizes de marca, você pode inserir os detalhes ou f
 
 ### Refine e atualize as diretrizes da marca
 
-1. Navegue pelas diferentes guias para adaptar e definir informações mais detalhadas, conforme necessário.
+1. Para adaptar e definir informações mais detalhadas conforme necessário, navegue pelas diferentes guias.
 
    * [!UICONTROL Visão geral]
 
@@ -163,7 +167,7 @@ Para criar e definir as diretrizes de marca, você pode inserir os detalhes ou f
 
 1. Quando tiver tudo definido, clique em **[!UICONTROL Salvar]**.
 
-   Você pode continuar fazendo alterações no rascunho da marca até decidir que ele está pronto para publicação.
+   Você pode continuar a fazer alterações no rascunho da marca. Continue até decidir que ele está pronto para publicação.
 
 ### Publicar a marca
 
@@ -241,7 +245,7 @@ Você pode prosseguir para refinar as diretrizes, exclusões e exemplos do [esti
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Estilo de escrita e pontuação de alinhamento"
->abstract="A seção Estilo de escrita define padrões para idioma, formatação e estrutura para garantir conteúdo claro e consistente. A pontuação de alinhamento, classificada de alta a baixa, mostra o desempenho do seu conteúdo em seguir essas diretrizes e destaca as áreas a serem melhoradas."
+>abstract="A seção Writing style define padrões para idioma, formatação e estrutura. A pontuação de alinhamento mostra como o conteúdo segue essas diretrizes e destaca as áreas a serem melhoradas."
 
 As definições de _[!UICONTROL Estilo de gravação]_ descrevem os padrões para gravação de conteúdo e detalham como a linguagem, a formatação e a estrutura devem ser usadas para manter a clareza, a coerência e a consistência entre todos os materiais.
 
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Pontuação de alinhamento de conteúdo visual"
->abstract="A Pontuação de alinhamento do conteúdo visual indica o quanto o conteúdo corresponde às diretrizes de marca configuradas. Com pontuação de alta a baixa, ajuda a avaliar o alinhamento rapidamente. Explore as diferentes categorias para identificar áreas para aprimoramento e os elementos que podem ser exteriores à marca."
+>abstract="A Pontuação de alinhamento do conteúdo visual indica o quanto o conteúdo corresponde às diretrizes de marca configuradas. Ele ajuda a avaliar o alinhamento e identificar áreas que precisam ser melhoradas."
 
 As definições de _[!UICONTROL Conteúdo visual]_ descrevem os padrões de imagem e design e detalham as especificações necessárias para manter uma aparência de marca unificada e consistente.
 
@@ -326,7 +330,7 @@ Não é possível fazer modificações em uma marca publicada (ao vivo), mas voc
 
    Essa ação cria uma cópia de rascunho da marca.
 
-1. Navegue pelas diferentes guias para atualizar as informações da marca, conforme necessário.
+1. Navegue pelas diferentes guias e atualize as informações da marca, conforme necessário.
 
    * Visão geral
 
