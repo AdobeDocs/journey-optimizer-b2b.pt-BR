@@ -5,30 +5,35 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d8425054daea287d21419911158908035c1314f6
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 5637
+source-wordcount: '5637'
 ht-degree: 61%
-
 ---
-
 # Notas de versão do Journey Optimizer B2B Edition
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -137,7 +142,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Kits de marca | (Beta) Defina uma marca no Journey Optimizer B2B edition para fornecer a fonte da verdade para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. [Saiba mais](../content/brands-overview.md) |
-| Recurso | Marcas para geração de conteúdo de email | Você pode definir as diretrizes da marca e usar essas informações para gerar conteúdo de email. Com esse recurso, o conteúdo de email está alinhado às diretrizes de redação, estilos e tom específicos da sua marca. [Saiba mais](../content/ai-assistant-emails.md) |
+| Recurso | Marcas para geração de conteúdo de email | Você pode definir as diretrizes da marca e usar essas informações para gerar conteúdo de email. Com esse recurso, o conteúdo de email está alinhado às diretrizes de redação, estilos e tom específicos da sua marca. [Saiba mais](../content/generate-content-emails.md) |
 | Aprimoramento | Jornada nó _Wait_ - configurações avançadas | Para um nó _Wait_ em uma jornada, os profissionais de marketing agora podem especificar dias e horas de saída e selecionar fusos horários. Esse aprimoramento permite um melhor controle da orquestração de jornadas e do tempo de campanha. [Saiba mais](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Aprimoramento | Membro do Filtro de Grupo de Compras - É Removido | Para um nó _dividido por pessoas_, o filtro _[!UICONTROL Membro do Grupo de Compras]_ agora inclui a restrição _É Removido_. Ao selecioná-lo, o filtro pode incluir o membro do grupo de compras removido ou excluí-lo. Também é compatível com as listas inteligentes do Marketo Engage, onde você pode usar essa nova restrição no filtro _[!UICONTROL Membro do grupo de compra]_. |
 | Aprimoramento | Design de email - marcadores de vários níveis | As ferramentas do espaço de design de conteúdo de email agora aceitam submarcadores (níveis de marcadores). |
