@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 29%
+source-wordcount: '1151'
+ht-degree: 30%
 ---
 # Documentação do Adobe Journey Optimizer B2B Edition
 
@@ -185,7 +185,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Conteúdo da jornada"><br/>
-      <strong>Conteúdo da Jornada</strong><br/><a href="./content/add-email.md">Canal de email</a><br/><a href="./content/generate-content-emails.md">Gerar conteúdo de email</a><br/><a href="./content/genstudio-email-workflow.md">Experiências de email do GenStudio</a><br/><a href="./content/sales-alert-email.md">Email de alerta de vendas</a><br/><a href="./content/sms-authoring.md">Canal SMS</a>
+      <strong>Conteúdo da Jornada</strong><br/><a href="./content/add-email.md">Canal de email</a><br/><a href="./content/generate-content-emails.md">Gerar conteúdo de email</a><br/><a href="./content/genstudio-email-workflow.md">experiências de email do GenStudio</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gerenciamento de conteúdo"><br/>

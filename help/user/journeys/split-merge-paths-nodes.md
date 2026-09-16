@@ -7,24 +7,28 @@ role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: '2349'
 ht-degree: 4%
-
 ---
-
 # Dividir e mesclar caminhos {#split-paths}
 
 Use os nós de caminho de divisão e intercalação para segmentar pessoas ou contas de acordo com as condições definidas. Crie caminhos para a lista de público ou contas de acordo com as condições, defina cada caminho com nós de ação e evento para o segmento, depois combine os caminhos e continue a jornada.
@@ -127,7 +131,7 @@ Por exemplo, avalie a prontidão do grupo de compras com base na profundidade (n
 
 1. Clique em **[!UICONTROL Concluído]** quando tiver todas as condições definidas para o caminho.
 
-Para atualizar o status do grupo de compras ou do estágio, ou para enviar um email de alerta de vendas para as contas identificadas, adicione um nó de ação no caminho.
+Para atualizar o status do grupo de compras ou do estágio para as contas identificadas, adicione um nó de ação no caminho.
 
 ## Dividir caminhos por pessoas
 
