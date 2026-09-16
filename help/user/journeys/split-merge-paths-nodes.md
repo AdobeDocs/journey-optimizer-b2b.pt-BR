@@ -47,7 +47,7 @@ Um nó _Split paths_ define um ou mais caminhos segmentados com base em **_accou
 
 Dividir por caminhos de contas pode incluir ações e eventos de contas e pessoas. Esses caminhos podem ser divididos ainda mais.
 
-_**Como funciona um caminho dividido por nó de contas**_
+_&#x200B;**Como funciona um caminho dividido por nó de contas**&#x200B;_
 
 * Cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
 * Os nós divididos por conta podem ser aninhados (você pode dividir o caminho por contas repetidamente).
@@ -139,7 +139,7 @@ _(jornadas de conta e pessoa)_
 
 Dividir por caminhos de pessoas pode incluir apenas ações de pessoas. Esses caminhos não podem ser divididos novamente e se unem automaticamente.
 
-_**Como funciona um caminho dividido por nó de pessoas**_
+_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 * Divisão por nós de pessoas em uma combinação de divisão de mesclagem de _nó agrupado_. Os caminhos divididos se mesclam automaticamente para que todas as pessoas possam avançar para a próxima etapa sem perder o contexto da conta.
 * Os nós Split by people não podem ser aninhados (não é possível adicionar um caminho dividido para pessoas em um caminho que esteja neste nó agrupado).
@@ -235,7 +235,7 @@ A janela de tempo de lookback para o histórico de eventos é medida retroativam
 
 >[!BEGINSHADEBOX &quot;Filtragem de inatividade&quot;]
 
-Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Para criar um caminho para as pessoas que _**não**_ abriram um email, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_. Ative a opção de inatividade e especifique o email.
+Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Para criar um caminho para as pessoas que _&#x200B;**não**&#x200B;_ abriram um email, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_. Ative a opção de inatividade e especifique o email.
 
 ![Condição de inatividade de divisão de caminho por pessoas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
