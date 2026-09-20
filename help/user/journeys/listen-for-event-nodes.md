@@ -196,7 +196,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Para jornadas de pessoas, você pode usar uma alteração nos atributos de perfil de pessoas B2B para acionar o nó _Escutar um evento_.
 
-1. Arraste e solte **[!UICONTROL Alteração no perfil da pessoa]**s da lista _[!UICONTROL Acionadores]_ no espaço do construtor de eventos correspondente.
+1. Arraste e solte **[!UICONTROL Alteração no perfil da pessoa]**&#x200B;s da lista _[!UICONTROL Acionadores]_ no espaço do construtor de eventos correspondente.
 
 1. Clique em **[!UICONTROL Adicionar restrição]** e selecione a alteração de atributo que você deseja usar para o disparador de evento.
 
