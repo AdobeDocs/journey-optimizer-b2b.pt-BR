@@ -24,16 +24,16 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
 workflow-type: tm+mt
-source-wordcount: '5637'
+source-wordcount: '5645'
 ht-degree: 61%
 ---
 # Notas de versão do Journey Optimizer B2B Edition
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -48,7 +48,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Recurso | _Caminhos divididos variantes_ nós de jornada | (Anteriormente Beta para jornadas de conta) Os profissionais de marketing agora podem testar variações em uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. [Saiba mais](../journeys/variant-split-paths-nodes.md) |
 | Recurso | Metadados do C2PA | Imagens geradas ou editadas com ferramentas de IA gerativas agora são assinadas automaticamente com metadados C2PA, ajudando você a atender aos requisitos de transparência de conteúdo e divulgação de IA. [Saiba mais](../content/c2pa-metadata.md) |
 | Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
-| Aprimoramento | Analise acionadores e filtros de eventos - jornadas da conta | O suporte para vários acionadores e filtros em um nó _Escutar evento_ agora está disponível para jornadas de conta. |
+| Aprimoramento | Analise acionadores e filtros de eventos - jornadas da conta | Para jornadas de conta, o suporte para vários acionadores e filtros em um nó _Escutar um evento_ com o tipo de evento _Pessoas_ agora está disponível. [Saiba mais](../journeys/listen-for-event-nodes.md) |
 | Aprimoramento | Nós de caminho dividido externos - jornadas de pessoa | O suporte para nós _Caminhos divididos externos_ agora está disponível para jornadas de pessoas. [Saiba mais](../journeys/external-nodes.md#external-action) |
 | Aprimoramento | Nós de ação externa - jornadas de pessoa | O suporte para nós de _Ação externa_ agora está disponível para jornadas de pessoas. [Saiba mais](../journeys/external-nodes.md#external-split-paths) |
 | Aprimoramento | Conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
