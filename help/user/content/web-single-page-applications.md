@@ -1,36 +1,43 @@
 ---
 title: Aplicativos de página única
-description: Crie experiências da Web para aplicativos de página única (SPAs) - configure o rastreamento de exibições, manipule conteúdo dinâmico e gerencie a navegação no lado do cliente no Journey Optimizer B2B edition.
+description: Crie experiências da Web para aplicativos de página única (SPAs) - configure o rastreamento de exibições, manipule conteúdo dinâmico e gerencie a navegação no lado do cliente no Journey Optimizer B2B Edition.
 feature: Channels, Personalization
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 2%
-
+source-wordcount: '838'
+ht-degree: 1%
 ---
-
 # Aplicativos de página única
 
-Os aplicativos de página única (SPAs) apresentam desafios exclusivos para personalização da Web, pois atualizam dinamicamente o conteúdo da página sem recarregamentos completos de página. O Journey Optimizer B2B edition fornece ferramentas especializadas para lidar com a personalização de SPA de maneira eficaz.
+Os aplicativos de página única (SPAs) apresentam desafios exclusivos para personalização da Web, pois atualizam dinamicamente o conteúdo da página sem recarregamentos completos de página. O Journey Optimizer B2B Edition fornece ferramentas especializadas para lidar com a personalização de SPA de maneira eficaz.
 
 ## Noções básicas sobre SPAs
 
@@ -43,7 +50,7 @@ Ao contrário dos sites tradicionais de várias páginas, em que cada navegaçã
 
 ## Configurar suporte a SPA
 
-Para personalizar SPAs de maneira eficaz, você precisa configurar o rastreamento de exibições para que o Journey Optimizer B2B edition possa identificar quando os usuários navegam entre exibições virtuais.
+Para personalizar SPAs de maneira eficaz, você precisa configurar o rastreamento de exibições para que o Journey Optimizer B2B Edition possa identificar quando os usuários navegam entre exibições virtuais.
 
 ### Configurar declarações de visualização
 
@@ -121,7 +128,7 @@ Para conteúdo altamente dinâmico, o Web SDK inclui observadores de mutação q
 
 ### Estruturas SPA
 
-As experiências da Web do Journey Optimizer B2B edition funcionam com estruturas SPA populares:
+As experiências da Web do Journey Optimizer B2B Edition funcionam com estruturas SPA populares:
 
 | Estrutura | Considerações |
 | --------- | -------------- |
@@ -179,27 +186,27 @@ Ao revisar as alterações no design de SPA, use as seguintes recomendações pa
 
 * **Modificações que não aparecem** - Se as modificações não estiverem aparecendo em seu SPA:
 
-   1. **Verificar rastreamento de exibição** - Verifique se `sendEvent` chamadas incluem o nome de exibição correto.
+  1. **Verificar rastreamento de exibição** - Verifique se `sendEvent` chamadas incluem o nome de exibição correto.
 
-   1. **Verificar a existência do elemento** - Certifique-se de que os elementos de destino estejam no DOM quando as modificações forem aplicadas.
+  1. **Verificar a existência do elemento** - Certifique-se de que os elementos de destino estejam no DOM quando as modificações forem aplicadas.
 
-   1. **Revisar seletores** - Confirmar se os seletores de CSS correspondem à estrutura DOM real.
+  1. **Revisar seletores** - Confirmar se os seletores de CSS correspondem à estrutura DOM real.
 
-   1. **Verificar console** - Procure erros de JavaScript que possam impedir modificações.
+  1. **Verificar console** - Procure erros de JavaScript que possam impedir modificações.
 
 * **Modificações que aparecem brevemente e depois desaparecem** - Esse problema normalmente ocorre quando o SPA renderiza novamente e substitui os elementos modificados:
 
-   1. Use seletores de CSS mais específicos que permaneçam estáveis nas renderizações.
+  1. Use seletores de CSS mais específicos que permaneçam estáveis nas renderizações.
 
-   1. Permitir que os observadores de mutação reapliquem as modificações quando os elementos forem recriados.
+  1. Permitir que os observadores de mutação reapliquem as modificações quando os elementos forem recriados.
 
-   1. Trabalhe com sua equipe de desenvolvimento para adicionar atributos estáveis aos elementos do público-alvo.
+  1. Trabalhe com sua equipe de desenvolvimento para adicionar atributos estáveis aos elementos do público-alvo.
 
 * **Duplicar modificações** - Se as modificações aparecerem várias vezes:
 
-   1. Verifique se os eventos de rastreamento de exibição são acionados apenas uma vez por transição de exibição.
+  1. Verifique se os eventos de rastreamento de exibição são acionados apenas uma vez por transição de exibição.
 
-   1. Verifique se as modificações têm escopo para exibições específicas em vez de serem aplicadas globalmente.
+  1. Verifique se as modificações têm escopo para exibições específicas em vez de serem aplicadas globalmente.
 
 ## Tópicos relacionados
 

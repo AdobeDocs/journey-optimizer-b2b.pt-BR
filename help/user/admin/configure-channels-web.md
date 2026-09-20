@@ -1,29 +1,33 @@
 ---
 title: Configurações do canal da Web
-description: Saiba como definir as configurações de canal da Web para definir propriedades da Web e regras de correspondência de páginas para entrega de conteúdo no Journey Optimizer B2B edition.
+description: Saiba como definir as configurações de canal da Web para definir propriedades da Web e regras de correspondência de páginas para entrega de conteúdo no Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
-ht-degree: 2%
-
+source-wordcount: '1049'
+ht-degree: 1%
 ---
-
 # Configurações do canal da Web
 
 Uma configuração da Web é uma propriedade da Web identificada por um URL em que o conteúdo é entregue. Ele pode corresponder a um único URL de página ou a várias páginas para que as experiências da Web possam fornecer modificações em uma ou várias páginas da Web. Essas configurações são necessárias para que os profissionais de marketing [adicionem nós de ação de personalização da Web no jornada](../content/web-experiences.md#create-a-web-experience) e [criem modificações na experiência](../content/web-experience-design.md) para uma campanha.
@@ -32,12 +36,11 @@ Uma configuração da Web é uma propriedade da Web identificada por um URL em q
 
 **Pré-requisitos**
 
-Para usar canais da Web, o site deve ter a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementada para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
+Para usar canais da Web, o site deve ter a [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementada para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
 
-A configuração do canal da Web no Journey Optimizer B2B edition requer as [permissões](../admin/user-management.md#b2b-product-permissions) a seguir:
+A configuração do canal da Web no Journey Optimizer B2B Edition exige a seguinte [permissão](../admin/user-management.md#b2b-product-permissions):
 
-* _[!UICONTROL Configurações de Canal]_ > _[!UICONTROL Gerenciar Predefinições de Mensagens]_ - Necessário para criar, atualizar e excluir configurações de canal Web.
-* _[!UICONTROL Configurações de Canal]_ > _[!UICONTROL Exibir Predefinições de Mensagens]_ - Necessário para exibir configurações de canal da Web.
+* _[!UICONTROL Gerenciar configurações de canais B2B]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +48,7 @@ A configuração do canal da Web no Journey Optimizer B2B edition requer as [per
 
 1. Na navegação à esquerda, vá para **[!UICONTROL Administração]** > **[!UICONTROL Canais]**.
 
-1. Em _[!UICONTROL Web]_, no painel de navegação, selecione **[!UICONTROL Configurações de canal]**.
+1. Em _[!UICONTROL Configurações gerais]_, no painel de navegação, selecione **[!UICONTROL Configurações de canal]**.
 
    ![Acessar as configurações de canal da Web](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -138,7 +141,7 @@ Por exemplo, aplique alterações em um banner principal em todo o site ou adici
 
 1. Clique no ícone _Mais menu_ (**...**) para a variante e escolha **[!UICONTROL Duplicar]**.
 
-   ![Clique no ícone de mais nenu para duplicar uma configuração de canal da Web existente](./assets/config-web-channels-more-menu.png){width="450"}
+   ![Clique no ícone de menu Mais para duplicar uma configuração de canal da Web existente](./assets/config-web-channels-more-menu.png){width="350"}
 
    Esta ação cria um canal da Web duplicado com `_Copy_nnn` anexado ao nome.
 
