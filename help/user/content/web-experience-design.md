@@ -49,7 +49,7 @@ Antes de criar experiências da Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
   * _[!UICONTROL Experiências da Web B2B do Autor]_
