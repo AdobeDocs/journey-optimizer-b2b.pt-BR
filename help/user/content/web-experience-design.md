@@ -1,34 +1,42 @@
 ---
 title: Design de experiência online
-description: 'Projete experiências da Web com editores visuais e não visuais: adicione modificações, gerencie atualizações de conteúdo, ative o rastreamento de cliques e personalize o conteúdo no Journey Optimizer B2B edition.'
+description: 'Projete experiências da Web com editores visuais e não visuais: adicione modificações, gerencie atualizações de conteúdo, ative o rastreamento de cliques e personalize o conteúdo no Journey Optimizer B2B Edition.'
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
+source-wordcount: '2317'
 ht-degree: 4%
-
 ---
-
 # Design de experiência online
 
 Depois de [criar uma experiência da Web](./web-experiences.md#create-a-web-experience), use o espaço de design de conteúdo para definir as modificações que deseja aplicar às suas páginas da Web.
@@ -44,20 +52,21 @@ Antes de criar experiências da Web, verifique se os seguintes requisitos foram 
 * Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. O Adobe Experience Platform Web SDK versão 2.16 ou superior é necessário.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
-   * _[!UICONTROL Campanhas]_ > _[!UICONTROL Gerenciar campanhas]_ - Necessário para adicionar ou atualizar um nó de ação de personalização da Web.
-   * _[!UICONTROL Campanhas]_ > _[!UICONTROL Exibir campanhas]_ - Necessário para exibir detalhes de um nó de ação de personalização da Web.
+  * _[!UICONTROL Experiências da Web B2B do Autor]_
+  * _[!UICONTROL Gerenciar Jornadas de pessoas B2B]_
+  * _[!UICONTROL Gerenciar Jornadas da Conta B2B]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Antes de criar uma experiência da Web, verifique se você tem a extensão de navegador Adobe Experience Cloud Visual Editing Helper instalada para o seu navegador da Web. Esta extensão é necessária para abrir, criar e visualizar suas páginas da Web de forma confiável no espaço de design da experiência na Web do Journey Optimizer B2B edition.<br/>
+>Antes de criar uma experiência da Web, verifique se você tem a extensão de navegador Adobe Experience Cloud Visual Editing Helper instalada para o seu navegador da Web. Esta extensão é necessária para abrir, criar e visualizar suas páginas da Web de forma confiável no espaço de design da experiência na Web do Journey Optimizer B2B Edition.<br/>
 >
->Atualmente, o Google Chrome e o Microsoft Edge são os únicos navegadores compatíveis com a extensão e a criação de experiências da Web no Journey Optimizer B2B edition. Para obter mais informações, consulte [Instalar a extensão Auxiliar de Edição Visual](./web-experiences.md#install-the-visual-editing-helper-extension).
+>Atualmente, o Google Chrome e o Microsoft Edge são os únicos navegadores compatíveis com a extensão e a criação de experiências da Web no Journey Optimizer B2B Edition. Para obter mais informações, consulte [Instalar a extensão Auxiliar de Edição Visual](./web-experiences.md#install-the-visual-editing-helper-extension).
 
 ## Editores de experiência online
 
-O Journey Optimizer B2B edition fornece dois tipos de editores para projetar modificações na Web:
+O Journey Optimizer B2B Edition fornece dois tipos de editores para projetar modificações na Web:
 
 | Editor | Descrição | Melhor para |
 | ------ | ----------- | -------- |
@@ -103,7 +112,7 @@ O editor visual carrega as páginas da Web em um iframe, onde é possível selec
 
    * Selecione qualquer elemento existente da página e [modifique-o para a experiência online](#modify-elements).
 
-   * [Adicionar rastreamento de cliques](#click-tracking-for-web-experiences) para elementos para medir o engajamento e coletar insights.
+   * [Adicionar rastreamento de cliques](#web-click-tracking) para elementos para medir o engajamento e coletar insights.
 
 1. Repita a etapa 2 para carregar outras páginas que deseja incluir na experiência da Web. Repita a etapa 3 para definir as modificações da página.
 
@@ -131,7 +140,7 @@ As opções da barra de ferramentas dependem do tipo de componente selecionado:
 
 Para um elemento selecionado, as propriedades no painel direito são alteradas para refletir o estilo e as ações disponíveis. Clique em um ícone de ação na parte superior do painel para duplicar, rastrear cliques, excluir ou ocultar o elemento selecionado.
 
-![clique em um ícone de ação para o elemento selecionado](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
+![Clique em um ícone de ação para o elemento selecionado](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
 
 +++Elementos de texto
 
@@ -171,7 +180,7 @@ Para obter mais informações sobre opções de estilo de texto para componentes
 
 +++
 
-+++ Elementos de contêiner
++++Elementos de contêiner
 
 1. Selecione um elemento de container na página.
 
@@ -196,8 +205,8 @@ Selecione um tipo de componente à esquerda e passe o mouse sobre um elemento ad
 
 Clique em um dos botões exibidos para colocar o componente:
 
-* ***[!UICONTROL Inserir antes de]** - Insira o componente antes do elemento selecionado.
-* ***[!UICONTROL Inserir após]** - Insere o componente após o elemento selecionado.
+* **[!UICONTROL Inserir antes]** - Inserir o componente antes do elemento selecionado.
+* **[!UICONTROL Inserir após]** - Inserir o componente após o elemento selecionado.
 
 Para desmarcar um tipo de componente para inserção, clique em **[!UICONTROL ESC]** no banner azul contextual exibido na parte superior da página.
 
@@ -224,9 +233,9 @@ Use o editor não visual quando precisar fazer modificações que não podem ser
 
    * Configure os parâmetros de modificação de acordo com o tipo:
 
-      * **[!UICONTROL Seletor de CSS]** - Insira um seletor de CSS válido para direcionar elementos específicos.
-      * **[!UICONTROL Tipo de ação]** - Escolha a ação a ser executada (editar, ocultar, excluir, inserir, substituir).
-      * **[!UICONTROL Conteúdo]** - Forneça o conteúdo ou estilo a ser aplicado.
+     * **[!UICONTROL Seletor de CSS]** - Insira um seletor de CSS válido para direcionar elementos específicos.
+     * **[!UICONTROL Tipo de ação]** - Escolha a ação a ser executada (editar, ocultar, excluir, inserir, substituir).
+     * **[!UICONTROL Conteúdo]** - Forneça o conteúdo ou estilo a ser aplicado.
 
 1. Clique em **[!UICONTROL Salvar]** para aplicar a modificação.
 

@@ -1,28 +1,31 @@
 ---
 title: Ouvir um evento
-description: 'Configure nós de eventos para acionadores de conta e de pessoas: acompanhe alterações de grupo de compras, cliques de email, preenchimentos de formulário e eventos do Experience Platform no Journey Optimizer B2B edition.'
+description: 'Configure nós de eventos para acionadores de conta e de pessoas: acompanhe alterações de grupo de compras, cliques de email, preenchimentos de formulário e eventos do Experience Platform no Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: '1783'
 ht-degree: 5%
-
 ---
-
 # Acompanhar um evento
 
 Para mover o público-alvo para a próxima etapa da sua [jornada](./journeys-overview.md) quando ocorrer um evento, adicione o nó _Ouvir um evento_. Dependendo do tipo de jornada, você pode usar esse nó para acionar o próximo nó na jornada de acordo com pessoas ou eventos de conta.
@@ -45,80 +48,49 @@ Para mover o público-alvo para a próxima etapa da sua [jornada](./journeys-ove
 
 1. Nas propriedades do nó à direita, use o seletor _Tipo de evento_ para escolher entre **[!UICONTROL Contas]** e **[!UICONTROL Pessoas]**.
 
-1. Selecione um evento na lista.
-
-   * Para o tipo de evento _Pessoas_, escolha o [evento de pessoas](#people-events) que você deseja usar para o gatilho.
-
-     ![Nó do Jornada - ouvir eventos em pessoas](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. Defina o acionador de evento para o tipo de evento selecionado:
 
    * Para o tipo de evento _Contas_, escolha o [evento de conta](#account-events) que deseja usar para o gatilho.
 
      ![Nó de Jornada - escutar eventos na conta](./assets/node-listen-events-account.png){width="500" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Editar evento]** e defina os detalhes do evento.
+     Clique em **[!UICONTROL Editar evento]** e defina os critérios de correspondência para o [evento de conta](#account-events).
 
-   Dependendo do tipo de evento e do evento selecionados, defina os critérios de correspondência do evento.
+   * Para o tipo de evento _Pessoas_, clique em **[!UICONTROL Adicionar critérios de evento]**.
 
-   * [Eventos de pessoas](#people-events)
-   * [Eventos de conta](#account-events)
+     ![Nó do Jornada - ouvir eventos em pessoas](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   Você também pode incluir [filtros](#filters-people-event) para o evento.
+     Na caixa de diálogo _Editar evento_, arraste e solte um ou mais [eventos de pessoas](#people-events) no espaço do construtor e defina a definição de cada um deles. Clique em **[!UICONTROL Adicionar restrição]** para cada restrição que você deseja usar para refinar a correspondência de eventos.
+
+     Você pode adicionar vários eventos de pessoas para corresponder. O primeiro evento de qualificação avança a conta na jornada.
+
+     ![Nó de jornada de Conta - Ouvir eventos - Tipo de evento Pessoas - editar evento](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+     (Opcional) Selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#filters-people-event).
 
 1. Clique em **[!UICONTROL Concluído]**.
 
-   As definições de evento e filtro são exibidas no nó e nas propriedades do nó.
+   As definições de evento e filtro são exibidas nas propriedades do nó.
 
-   ![Nó de jornada de Conta - Ouvir eventos - Evento e filtros](./assets/node-listen-events-account-complete.png){width="500"}
+   ![Nó de jornada de Conta - Ouvir eventos - Eventos definidos](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### Eventos de pessoas para jornadas de conta {#people-events}
 
-Em uma jornada de conta, você pode acompanhar um evento com base em pessoas quando quiser mover a conta para frente na jornada, de acordo com os eventos acionados pela atividade de pessoas. Você também pode filtrar eventos de acordo com o histórico de eventos e atributos de pessoas.
+Em uma jornada de conta, você pode acompanhar um evento com base em pessoas quando quiser mover a conta para frente na jornada, de acordo com eventos acionados por atividades de pessoa (lead). Você também pode filtrar eventos de acordo com o histórico de eventos e atributos de pessoa.
 
 >[!TIP]
 >
 >Eventos de experiência podem ocorrer _antes_ de as pessoas entrarem na jornada (como um clique de email ou uma interação na web anterior). Para rotear pessoas com base nesses eventos, use o filtro [!UICONTROL Histórico de eventos] em um nó [Dividir caminhos por pessoas](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
+Para obter informações detalhadas sobre como usar Eventos de Experiência, consulte [Acionadores de Evento de Experiência](#experience-event-triggers).
+
 #### Eventos B2B do Journey Optimizer {#events-account-people}
 
 | Evento | Restrições |
 | ----- | ----------- |
-| [!UICONTROL Atribuído ao Grupo de Compras] | Interesse da solução (obrigatório)<br/><br/>Restrições adicionais (opcional): <li>Função</li><li>Data da atividade</li><br/>Tempo limite (opcional) |
+| [!UICONTROL Cliente Potencial Adicionado ao Grupo Comprador] | Interesse da solução (obrigatório)<br/><br/>Restrições adicionais (opcional): <li>Função</li><li>Data da atividade</li> |
+| [!UICONTROL Cliente Potencial Removido do Grupo de Compras] | Interesse da solução (obrigatório)<br/>Data da atividade (opcional) |
 | [!UICONTROL Alterações no perfil da pessoa] | Atributo (obrigatório)<br/>Data da atividade (opcional)<br/>Novo valor (opcional)<br/>Valor anterior (opcional)<br/>Motivo (opcional)<br/>Source (opcional) |
-| [!UICONTROL Removido do Grupo de Compras] | Interesse da solução (obrigatório)<br/>Data da atividade (opcional)<br/>Tempo limite (opcional) |
-
-1. Defina o valor necessário para corresponder ao evento.
-
-   Se necessário, defina o operador para a avaliação.
-
-1. Para cada restrição opcional que você deseja incluir na correspondência de eventos, clique em **[!UICONTROL Adicionar restrição]** e selecione uma restrição na lista.
-
-   ![Caixa de diálogo Editar evento para um evento de pessoas B2B do Journey Optimizer em uma jornada de conta](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#filters-people-event).
-
-1. Clique em **[!UICONTROL Concluído]**.
-
-#### Eventos de experiência {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
->
->Para disponibilizar Eventos de Experiência para jornada, um administrador de produto deve primeiro [adicionar os tipos de evento e campos de interesse](../admin/configure-aep-events.md#add-an-event) em [!DNL Journey Optimizer B2B Edition].
-
-1. Clique em **[!UICONTROL Adicionar restrição]** e escolha o campo que deseja usar para a restrição.
-
-   As restrições disponíveis são definidas como campos gerenciados para a configuração do evento.
-
-1. Conclua a condição da restrição.
-
-   Você pode usar o operador padrão **[!UICONTROL is]** para corresponder a um ou mais valores de campo. Ou você pode usar o operador **[!UICONTROL is not]** para corresponder em todos os valores com a exclusão de um ou mais valores especificados.
-
-   ![Caixa de diálogo Editar evento para um Evento de Experiência em uma jornada de conta](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#filters-people-event).
-
-1. Clique em **[!UICONTROL Concluído]**.
 
 ### Eventos de conta {#account-events}
 
@@ -133,7 +105,7 @@ Em uma jornada de conta, você pode acompanhar um evento com base na conta quand
 | [!UICONTROL Alteração na Pontuação de Integridade] | Interesse da solução<br/>Restrições adicionais (opcional): <li>Nova pontuação</li><li>Pontuação anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
 | [!UICONTROL Alteração na Pontuação de engajamento] | Interesse da solução<br/>Restrições adicionais (opcional): <li>Nova pontuação</li><li>Pontuação anterior</li><li>Data da atividade</li>Tempo limite de <br/> (opcional) |
 
-1. Defina a restrição necessária para corresponder ao evento.
+1. Para corresponder ao evento, defina a restrição necessária.
 
 1. Para cada restrição opcional que você deseja incluir para correspondência de eventos, clique em **[!UICONTROL Adicionar restrição]** e selecione o campo.
 
@@ -206,7 +178,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Adicione um evento e defina as restrições que deseja corresponder ao acionador.
 
-   Você pode usar [Eventos de experiência](#experience-events-person) e [Alterações de perfil de pessoa](#person-profile-changes) para definir o acionador do evento.
+   Você pode usar [Eventos de experiência](#experience-event-triggers) e [Alterações de perfil de pessoa](#person-profile-changes) para definir o acionador do evento.
 
    Arraste e solte o acionador de evento no espaço do construtor e defina a definição. Clique em **[!UICONTROL Adicionar restrição]** para cada restrição que você deseja usar para refinar a correspondência de eventos.
 
@@ -216,19 +188,39 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Clique em **[!UICONTROL Concluído]**.
 
-   As definições de evento e filtro são exibidas no nó e nas propriedades do nó.
+   As definições de evento e filtro são exibidas nas propriedades do nó.
 
    ![Nó de Jornada - Ouvir eventos - Evento e filtros](./assets/node-listen-events-person-complete.png){width="450"}
 
-### Eventos de experiência para jornadas de pessoas {#experience-events-person}
+### Alterações no perfil da pessoa {#person-profile-changes}
+
+Para jornadas de pessoas, você pode usar uma alteração nos atributos de perfil de pessoas B2B para acionar o nó _Escutar um evento_.
+
+1. Arraste e solte **[!UICONTROL Alteração no perfil da pessoa]**&#x200B;s da lista _[!UICONTROL Acionadores]_ no espaço do construtor de eventos correspondente.
+
+1. Clique em **[!UICONTROL Adicionar restrição]** e selecione a alteração de atributo que você deseja usar para o disparador de evento.
+
+   Defina o valor do campo de acordo com a alteração que você deseja corresponder.
+
+   ![jornada de pessoa - Ouvir um evento de alteração de perfil de pessoa](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. (Opcional) Adicione outro atributo _Alteração de perfil de pessoa_ que você deseja usar como um disparador de evento ou um [Evento de experiência](#experience-event-triggers).
+
+   Quando você adiciona vários eventos para correspondência, o primeiro evento qualificado avança o perfil da pessoa na jornada.
+
+1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#filters-people-event).
+
+1. Clique em **[!UICONTROL Concluído]**.
+
+## Acionadores de evento de experiência {#experience-event-triggers}
+
+Eventos de experiência estão disponíveis para jornadas de pessoas ou quando você usa o tipo de evento _Pessoas_ em jornadas de conta. Use a caixa de diálogo _[!UICONTROL Editar evento]_ para adicionar um ou mais Eventos de Experiência para acionar o nó _Ouvir um evento_.
 
 >[!PREREQUISITES]
 >
 >Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
 >
 >Para disponibilizar Eventos de Experiência para jornada, um administrador de produto deve primeiro [adicionar os tipos de evento e campos de interesse](../admin/configure-aep-events.md#add-an-event) em [!DNL Journey Optimizer B2B Edition].
-
-Você pode usar Eventos de Experiência para acionar o nó em jornadas pessoais na caixa de diálogo _[!UICONTROL Editar evento]_.
 
 1. Expanda **[!UICONTROL Eventos do AEP Sapphire]** na lista _[!UICONTROL Triggers]_ à esquerda.
 
@@ -242,31 +234,15 @@ Você pode usar Eventos de Experiência para acionar o nó em jornadas pessoais 
 
    ![Editar caixa de diálogo de evento para um Evento de Experiência em uma jornada de pessoa](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. Defina o operador e os valores para corresponder ao campo de evento.
+1. Para corresponder ao campo de evento, defina o operador e os valores.
 
-1. (Opcional) Adicione outro evento de Experiência ou uma [alteração no perfil da pessoa](#person-profile-changes).
+1. (Opcional) Adicione outro evento.
 
-   Ao adicionar vários eventos para corresponder. O primeiro evento de qualificação avança o perfil da pessoa na jornada.
+   Você pode usar vários Eventos de experiência para acionar o nó.
 
-1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#filters-people-event).
+   Para uma jornada de pessoa, você também pode adicionar [alterações no perfil da pessoa](#person-profile-changes). Para uma jornada de conta (tipo de evento pessoas), você também pode adicionar [eventos B2B do Journey Optimizer](#events-account-people).
 
-1. Clique em **[!UICONTROL Concluído]**.
-
-### Alterações no perfil da pessoa {#person-profile-changes}
-
-Você pode usar uma alteração nos atributos de perfil da pessoa B2B para acionar o nó nas jornadas da pessoa na caixa de diálogo _[!UICONTROL Editar evento]_.
-
-1. Arraste e solte **[!UICONTROL Alteração no perfil da pessoa]**&#x200B;s da lista _[!UICONTROL Acionadores]_ no espaço do construtor de eventos correspondente.
-
-1. Clique em **[!UICONTROL Adicionar restrição]** e selecione a alteração de atributo que você deseja usar para o disparador de evento.
-
-   Defina o valor do campo de acordo com a alteração que você deseja corresponder.
-
-   ![jornada de pessoa - Ouvir um evento de alteração de perfil de pessoa](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. (Opcional) Adicione outro atributo _Alteração de perfil de pessoa_ que você deseja usar como um disparador de evento ou um [Evento de experiência](#experience-events-person).
-
-   Ao adicionar vários eventos para corresponder. O primeiro evento de qualificação avança o perfil da pessoa na jornada.
+   Quando você adiciona vários eventos para correspondência, o primeiro evento qualificado avança o perfil da pessoa na jornada.
 
 1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#filters-people-event).
 
@@ -306,12 +282,11 @@ Ao definir um evento de [pessoas em uma jornada de conta](#people-events) ou um 
 
 1. Quando as definições de evento e filtro estiverem concluídas, clique em **[!UICONTROL Concluído]**.
 
-
 ## Adicionar um tempo limite a um nó de evento {#timeouts}
 
 Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. A jornada termina após um tempo limite, a menos que você defina um caminho de tempo limite, em que é possível adicionar outros nós.
 
-Habilite a opção **[!UICONTROL Timeout]** nas propriedades do nó para especificar um tempo limite para o nó _Escutar evento_.
+Habilite a opção **[!UICONTROL Timeout]** nas propriedades do nó para especificar um tempo limite para o nó _Ouvir um evento_.
 
 1. Com as opções habilitadas, escolha o _Tipo_ e especifique os parâmetros para o tempo limite:
 
@@ -333,7 +308,7 @@ Habilite a opção **[!UICONTROL Timeout]** nas propriedades do nó para especif
 
 1. Defina o caminho de tempo limite.
 
-   A opção **[!UICONTROL Definir caminho de tempo limite]** está selecionada por padrão. Você pode usar esse caminho para definir o que acontecerá se o nó Escutar evento atingir o tempo limite. Você pode adicionar ações alternativas e eventos que se aplicam a perfis de pessoas quando o evento não ocorre.
+   Por padrão, o sistema seleciona a opção **[!UICONTROL Definir caminho de tempo limite]**. Você pode usar este caminho para definir o que acontecerá se o nó _Ouvir um evento_ atingir o tempo limite. Você pode adicionar ações alternativas e eventos que se aplicam a perfis de pessoas quando o evento não ocorre.
 
    ![Nó de evento de Jornada - definir caminho de tempo limite](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 
