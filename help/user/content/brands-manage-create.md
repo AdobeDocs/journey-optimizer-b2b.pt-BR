@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 4%
+ht-degree: 6%
 ---
 # Criar e gerenciar suas marcas {#brand-library}
 
@@ -245,7 +245,7 @@ Você pode prosseguir para refinar as diretrizes, exclusões e exemplos do [esti
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Estilo de escrita e pontuação de alinhamento"
->abstract="A seção Writing style define padrões para idioma, formatação e estrutura. A pontuação de alinhamento mostra como o conteúdo segue essas diretrizes e destaca as áreas a serem melhoradas."
+>abstract="A seção Estilo de escrita define padrões para idioma, formatação e estrutura. A pontuação de alinhamento mostra o quanto o conteúdo segue essas diretrizes e destaca as áreas a serem melhoradas."
 
 As definições de _[!UICONTROL Estilo de gravação]_ descrevem os padrões para gravação de conteúdo e detalham como a linguagem, a formatação e a estrutura devem ser usadas para manter a clareza, a coerência e a consistência entre todos os materiais.
 
@@ -289,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Pontuação de alinhamento de conteúdo visual"
->abstract="A Pontuação de alinhamento do conteúdo visual indica o quanto o conteúdo corresponde às diretrizes de marca configuradas. Ele ajuda a avaliar o alinhamento e identificar áreas que precisam ser melhoradas."
+>abstract="A Pontuação de alinhamento do conteúdo visual indica o quanto o conteúdo corresponde às diretrizes de marca configuradas. Ela ajuda a avaliar o alinhamento e identificar áreas para melhoria."
 
 As definições de _[!UICONTROL Conteúdo visual]_ descrevem os padrões de imagem e design e detalham as especificações necessárias para manter uma aparência de marca unificada e consistente.
 
