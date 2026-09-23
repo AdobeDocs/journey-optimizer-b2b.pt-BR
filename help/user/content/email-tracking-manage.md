@@ -113,7 +113,7 @@ Adicione um nó [_Split paths by people_](../journeys/split-merge-paths-nodes.md
 
 ### Configurar variantes de email de rastreamento e não rastreamento {#configure-tracking-and-non-tracking-email-variants}
 
-Adicione um nó de ação [_[!UICONTROL Enviar email ]_](./add-email.md) a cada caminho para que cada pessoa receba a variante de email que corresponde à sua preferência de rastreamento.
+Adicione um nó de ação [_[!UICONTROL Enviar email &#x200B;]_](./add-email.md) a cada caminho para que cada pessoa receba a variante de email que corresponde à sua preferência de rastreamento.
 
 1. No caminho habilitado para rastreamento, adicione uma ação **[!UICONTROL Enviar email]** e selecione ou crie o email como de costume, deixando a opção **[!UICONTROL Desabilitar rastreamento aberto]** desmarcada nas propriedades do email.
 
