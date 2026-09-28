@@ -24,18 +24,33 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Notas de versão do Journey Optimizer B2B Edition
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
+
+## Notas de versão 2026.9 {#rel-2026-9}
+
+**Data de implantação**: 25 de setembro de 2026
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Recurso | Listas de pessoas | As listas estáticas e dinâmicas de pessoas agora estão disponíveis para que você possa direcionar perfis por seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
+| Recurso | Painéis de integridade do serviço | Rastreie a integridade operacional das ações externas coletando métricas de sucesso/erro e fornecendo painéis para que os administradores monitorem o desempenho do serviço. |
+| Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
+
+>[!NOTE]
+>
+>Essas alterações de versão começam a ser implantadas em 25 de setembro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+
 
 ## Notas de versão 2026.8 {#rel-2026-8}
 
@@ -44,10 +59,8 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Jornadas de pessoas | (Anteriormente Beta, implantação antecipada para disponibilidade geral) Agora é possível criar jornadas para orquestrar marketing baseado em leads usando públicos e dados da Experience Platform. [Saiba mais](../journeys/journeys-overview.md) |
-| Recurso | Listas de pessoas | As listas estáticas e dinâmicas de pessoas agora estão disponíveis para que você possa direcionar perfis por seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
 | Recurso | _Caminhos divididos variantes_ nós de jornada | (Anteriormente Beta para jornadas de conta) Os profissionais de marketing agora podem testar variações em uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas. [Saiba mais](../journeys/variant-split-paths-nodes.md) |
 | Recurso | Metadados do C2PA | Imagens geradas ou editadas com ferramentas de IA gerativas agora são assinadas automaticamente com metadados C2PA, ajudando você a atender aos requisitos de transparência de conteúdo e divulgação de IA. [Saiba mais](../content/c2pa-metadata.md) |
-| Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
 | Aprimoramento | Analise acionadores e filtros de eventos - jornadas da conta | Para jornadas de conta, o suporte para vários acionadores e filtros em um nó _Escutar um evento_ com o tipo de evento _Pessoas_ agora está disponível. [Saiba mais](../journeys/listen-for-event-nodes.md) |
 | Aprimoramento | Nós de caminho dividido externos - jornadas de pessoa | O suporte para nós _Caminhos divididos externos_ agora está disponível para jornadas de pessoas. [Saiba mais](../journeys/external-nodes.md#external-action) |
 | Aprimoramento | Nós de ação externa - jornadas de pessoa | O suporte para nós de _Ação externa_ agora está disponível para jornadas de pessoas. [Saiba mais](../journeys/external-nodes.md#external-split-paths) |
@@ -189,7 +202,7 @@ Com a arquitetura atualizada, o Journey Optimizer B2B edition e o Marketo Engage
 
 >[!NOTE]
 >
->As notas de versão anteriores se referiam a esta implantação como a *arquitetura simplificada*. Esse modelo agora é a implementação padrão do Journey Optimizer B2B edition.
+>As notas de versão anteriores se referiam a esta implantação como a *arquitetura simplificada*. Esse modelo agora é a implementação padrão do Journey Optimizer B2B Edition.
 
 Essa implementação oferece vários benefícios:
 
