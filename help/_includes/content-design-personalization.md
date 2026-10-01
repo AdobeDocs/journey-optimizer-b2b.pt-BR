@@ -5,12 +5,10 @@ source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
-
 ---
-
 # Criação de conteúdo - personalização
 
-O Journey Optimizer B2B edition usa uma sintaxe simples em linha que permite criar expressões com conteúdo personalizado delimitado por chaves duplas `{}`. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições.
+O Journey Optimizer B2B Edition usa uma sintaxe simples embutida que permite criar expressões com conteúdo personalizado delimitado por chaves duplas `{}`. É possível adicionar várias expressões no mesmo conteúdo ou campo sem restrições.
 
 Exemplos:
 
@@ -18,7 +16,7 @@ Exemplos:
 
 * `Hello {{profile.person.name.fullName}}`
 
-Ao processar o conteúdo, o Journey Optimizer B2B edition substitui a expressão pelos dados contidos no banco de dados Experience Platform. Assim, o primeiro exemplo torna-se _Olá, John Doe_.
+Ao processar o conteúdo, o Journey Optimizer B2B Edition substitui a expressão pelos dados contidos no banco de dados do Experience Platform. Assim, o primeiro exemplo torna-se _Olá, John Doe_.
 
 O exemplo a seguir descreve as etapas para personalizar o conteúdo usando atributos de lead/conta e tokens de sistema.
 
