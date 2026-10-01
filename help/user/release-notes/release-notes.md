@@ -24,16 +24,16 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Notas de versão do Journey Optimizer B2B Edition
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -45,6 +45,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | ---- | ---- | ----------- |
 | Recurso | Listas de pessoas | As listas estáticas e dinâmicas de pessoas agora estão disponíveis para que você possa direcionar perfis por seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
 | Recurso | Painéis de integridade do serviço | Rastreie a integridade operacional das ações externas coletando métricas de sucesso/erro e fornecendo painéis para que os administradores monitorem o desempenho do serviço. |
+| Aprimoramento | Membro do filtro de Público-alvo do perfil | Esse filtro agora está disponível para condições de caminho dividido de jornada de pessoa, condições de caminho dividido de pessoa de jornada de conta e listas de pessoas para incluir ou excluir perfis com base em sua associação de público-alvo. |
 | Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |
 
 >[!NOTE]
@@ -94,12 +95,12 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Páginas de destino | As páginas de aterrissagem estão disponíveis no Journey Optimizer B2B edition para oferecer suporte a jornadas e programas _(anteriormente um recurso de programa do Beta)_. <ul><li>Os administradores podem configurar subdomínios e predefinições de página de aterrissagem para permitir a publicação dessa página. [Saiba mais](../admin/configure-channels-landing-pages.md)</li><li>Os profissionais de marketing podem criar, projetar e publicar páginas de aterrissagem para oferecer suporte às suas jornadas com conteúdo personalizado da Web. [Saiba mais](../content/landing-pages.md)</li></ul> |
-| Recurso | Formulários | O Journey Optimizer B2B edition agora oferece suporte a componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem _(anteriormente um recurso do programa Beta)_. <ul><li>Os administradores podem configurar várias predefinições de formulário usando diferentes combinações de conjuntos de dados e conexões de transmissão. [Saiba mais](../admin/configure-channels-forms.md)</li><li>Agora, os profissionais de marketing podem definir componentes de formulário reutilizáveis para capturar informações de visitantes de páginas da Web. [Saiba mais](../content/forms.md)</li></ul> |
+| Recurso | Páginas de destino | As páginas de aterrissagem estão disponíveis no Journey Optimizer B2B Edition para oferecer suporte a jornadas e programas _(anteriormente um recurso do programa Beta)_. <ul><li>Os administradores podem configurar subdomínios e predefinições de página de aterrissagem para permitir a publicação dessa página. [Saiba mais](../admin/configure-channels-landing-pages.md)</li><li>Os profissionais de marketing podem criar, projetar e publicar páginas de aterrissagem para oferecer suporte às suas jornadas com conteúdo personalizado da Web. [Saiba mais](../content/landing-pages.md)</li></ul> |
+| Recurso | Formulários | O Journey Optimizer B2B Edition agora oferece suporte a componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem _(anteriormente um recurso do programa Beta)_. <ul><li>Os administradores podem configurar várias predefinições de formulário usando diferentes combinações de conjuntos de dados e conexões de transmissão. [Saiba mais](../admin/configure-channels-forms.md)</li><li>Agora, os profissionais de marketing podem definir componentes de formulário reutilizáveis para capturar informações de visitantes de páginas da Web. [Saiba mais](../content/forms.md)</li></ul> |
 | Recurso | Filtro Membro da lista de contas | Use a associação à lista de contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
 | Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. [Saiba mais](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Recurso | Próximos nós de jornada de melhor caminho | Você pode otimizar a decisão de caminho dividido para jornadas de pessoas, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. [Saiba mais](../journeys/next-best-path-node.md) |
-| Recurso | Painel de desempenho do email | O painel Desempenho do email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B edition. [Saiba mais](../dashboards/email-performance-dashboard.md) |
+| Recurso | Painel de desempenho do email | O painel Desempenho do email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B Edition. [Saiba mais](../dashboards/email-performance-dashboard.md) |
 | Aprimoramento | Habilidades B2B do Audience Agent | As habilidades B2B do Audience Agent são atualizadas, incluindo a criação de modelos de compra alimentados por IA. Use o mapeamento de personalidade e intenção própria para gerar modelos de grupo de compra, revisar mapeamentos de função para pessoa recomendados pela IA e refinar modelos com linguagem natural antes de publicá-los. [Saiba mais](../agents/audience-agent-b2b.md) |
 | Aprimoramento | Painel de visão geral do Jornada - jornadas de pessoa | As jornadas de pessoa (Beta) agora incluem uma guia _[!UICONTROL Visão geral]_ com as mesmas análises que as jornadas de conta, incluindo a distribuição da taxa de conclusão da jornada, jornadas por tipo de compromisso e ações de drill-through e exportação. [Saiba mais](../dashboards/journeys-dashboard.md) |
 | Aprimoramento | Suporte para conjuntos de dados relacionais do AEP | Novos conjuntos de dados relacionais agora aparecem na sandbox da AEP, junto com conjuntos de dados existentes. |
@@ -154,7 +155,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Kits de marca | (Beta) Defina uma marca no Journey Optimizer B2B edition para fornecer a fonte da verdade para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. [Saiba mais](../content/brands-overview.md) |
+| Recurso | Kits de marca | (Beta) Defina uma marca no Journey Optimizer B2B Edition para fornecer a fonte da verdade para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. [Saiba mais](../content/brands-overview.md) |
 | Recurso | Marcas para geração de conteúdo de email | Você pode definir as diretrizes da marca e usar essas informações para gerar conteúdo de email. Com esse recurso, o conteúdo de email está alinhado às diretrizes de redação, estilos e tom específicos da sua marca. [Saiba mais](../content/generate-content-emails.md) |
 | Aprimoramento | Jornada nó _Wait_ - configurações avançadas | Para um nó _Wait_ em uma jornada, os profissionais de marketing agora podem especificar dias e horas de saída e selecionar fusos horários. Esse aprimoramento permite um melhor controle da orquestração de jornadas e do tempo de campanha. [Saiba mais](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Aprimoramento | Membro do Filtro de Grupo de Compras - É Removido | Para um nó _dividido por pessoas_, o filtro _[!UICONTROL Membro do Grupo de Compras]_ agora inclui a restrição _É Removido_. Ao selecioná-lo, o filtro pode incluir o membro do grupo de compras removido ou excluí-lo. Também é compatível com as listas inteligentes do Marketo Engage, onde você pode usar essa nova restrição no filtro _[!UICONTROL Membro do grupo de compra]_. |
@@ -166,13 +167,13 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 ## Recursos de IA agêntica {#rel-agents}
 
-Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimizer B2B edition na interface de chat:
+Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimizer B2B Edition na interface de chat:
 
 | Agente | Atualização | Descrição |
 | ----- | ------ | ----------- |
 | Agente de construção de jornada | Novo e atualizado | O agente de construção da jornada analisa, idealiza e co-cria jornadas em tempo real, permitindo que os profissionais de marketing lancem mais rapidamente, melhorem o engajamento e impulsionem taxas de conversão mais altas. [Saiba mais](../agents/journey-agent.md) |
 | Audience Agent | Novo | O Audience Agent identifica e cria automaticamente grupos de compra utilizando dados estruturados e não estruturados. Ele ajuda os profissionais de marketing a atingir as pessoas certas com mais rapidez e precisão. [Saiba mais](../agents/audience-agent-b2b.md) |
-| Qualificador de Vendas | Novo | O qualificador de vendas é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B edition que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificador de Vendas | Novo | O Sales Qualifier é um aplicativo complementar orientado por IA para o Adobe Journey Optimizer B2B Edition, que contém o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho de representantes de desenvolvimento de negócios (BDRs). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notas da versão 2025.10 {#rel-2025-10}
 
@@ -198,7 +199,7 @@ Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimiz
 
 ### Arquitetura atualizada
 
-Com a arquitetura atualizada, o Journey Optimizer B2B edition e o Marketo Engage não estão mais no mesmo sistema e armazenamento de dados. O Journey Optimizer B2B edition recebe dados do Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
+Com a arquitetura atualizada, o Journey Optimizer B2B Edition e o Marketo Engage não estão mais no mesmo sistema e armazenamento de dados. O Journey Optimizer B2B Edition recebe dados do Adobe Experience Platform. No entanto, ele continua dependendo dos direitos do Marketo Engage e alguns recursos de configuração para provisionar e configurar o sistema.
 
 >[!NOTE]
 >
@@ -223,7 +224,7 @@ Os novos recursos e aprimoramentos a seguir estão disponíveis na versão 2025.
 | Recurso | Várias ativações do Marketo Engage | Configure conexões com instâncias remotas do Marketo Engage e use essas conexões para definir ações do Marketo Engage para jornada. Essas ações, como adicionar/remover pessoas de listas ou adicionar pessoas a uma campanha de solicitação, se aplicam à instância designada do Marketo Engage. [Saiba mais](../admin/marketo-actions-connect.md) |
 | Recurso | Desduplicação de fadiga de email | Agora você pode habilitar a desduplicação de emails para garantir que o mesmo email não seja enviado várias vezes para o mesmo endereço em uma jornada. Endereços duplicados são bloqueados até que o primeiro registro com esse endereço de email conclua a jornada.  [Saiba mais](../content/email-deduplication.md) |
 | Aprimoramento | Ponderação de pontuação de engajamento - Eventos do AEP | A ponderação da pontuação do engajamento agora pode incluir qualquer um dos eventos padrão ou personalizados do Experience Platform e ponderada de acordo com suas necessidades. [Saiba mais](../admin/engagement-score-weighting.md) |
-| Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B edition. [Saiba mais](../admin/configure-channels-emails.md#communication-limits) |
+| Aprimoramento | Limites de comunicação | O sistema agora respeita os limites de comunicação combinados do Marketo Engage e do Journey Optimizer B2B Edition. [Saiba mais](../admin/configure-channels-emails.md#communication-limits) |
 
 ## Notas da versão 2025.9 {#rel-2025-9}
 
@@ -233,7 +234,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Colaboração de conteúdo de email | As equipes de marketing agora podem comentar e colaborar com outros usuários do Journey Optimizer B2B edition no contexto de um ativo de email. Eles podem marcar os membros da equipe para receber uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação por pulso. [Saiba mais](../content/email-collaboration-tools.md) |
+| Recurso | Colaboração de conteúdo de email | As equipes de marketing agora podem comentar e colaborar com outros usuários do Journey Optimizer B2B Edition no contexto de um ativo de email. Eles podem marcar os membros da equipe para receber uma notificação por email com os detalhes do comentário. A notificação também está disponível como uma notificação por pulso. [Saiba mais](../content/email-collaboration-tools.md) |
 | Recurso | Modo escuro para design de email | O espaço de design de email agora inclui a capacidade de alternar para o _modo escuro_. No modo escuro, você pode visualizar o conteúdo do email e definir configurações personalizadas a serem exibidas especificamente para destinatários que visualizam seus emails no modo escuro. [Saiba mais](../content/email-dark-mode.md) |
 | Aprimoramento | Jornadas: dividir caminho pelo número de pessoas na função | Use um caminho dividido pelo nó da conta para direcionar uma conta com o número de pessoas em uma ou mais funções de grupo de compra. No caminho, você pode avaliar a prontidão do grupo de compras com respeito a alertas de vendas e outras interações com base na profundidade da função. [Saiba mais](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
 | Aprimoramento | Jornadas: filtros de pessoa para eventos | Use filtros de pessoas para acompanhar eventos de pessoas. Esses filtros incluem a capacidade de direcionar uma função específica para um grupo de compra correspondente. [Saiba mais](../journeys/listen-for-event-nodes.md#filters-people-event) |
