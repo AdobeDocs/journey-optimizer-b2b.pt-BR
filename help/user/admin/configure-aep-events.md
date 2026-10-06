@@ -43,7 +43,7 @@ Os administradores podem selecionar [Eventos de experiência](https://experience
 
 O uso de Eventos de experiência do AEP no jornada é um processo de duas etapas:
 
-1. Um administrador [adiciona eventos e campos da AEP Experience ](#add-an-event) nas configurações do Journey Optimizer B2B Edition.
+1. Um administrador [adiciona eventos e campos da AEP Experience &#x200B;](#add-an-event) nas configurações do Journey Optimizer B2B Edition.
 
 1. Em uma jornada, um profissional de marketing usa os eventos configurados de uma das duas formas a seguir:
 

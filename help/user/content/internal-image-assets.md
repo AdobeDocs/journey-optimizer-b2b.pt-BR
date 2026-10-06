@@ -138,7 +138,7 @@ Se o arquivo a ser substituído estiver em uso, uma caixa de diálogo o alertar�
 
 * Vá para os detalhes do ativo e clique em **[!UICONTROL Baixar]** na parte superior direita.
 
-* Na página de listagem _[!UICONTROL Assets]_, clique no ícone de reticências _3} (**[!UICONTROL ...]**)_ ao lado do item de ativo e escolha **[!UICONTROL Baixar]** nas opções.
+* Na página de listagem _[!UICONTROL Assets]_, clique no ícone de reticências _3&rbrace; (**[!UICONTROL ...]**)_ ao lado do item de ativo e escolha **[!UICONTROL Baixar]** nas opções.
 
 Na caixa de diálogo de confirmação, clique em **[!UICONTROL Baixar]** para iniciar o download do ativo para o sistema local. Você pode anular o processo clicando em **[!UICONTROL Cancelar]**.
 

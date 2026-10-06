@@ -64,7 +64,7 @@ Para obter mais informações, consulte a [documentação do Sales Qualifier](ht
 
 ## Recursos do Assistente de IA no Journey Optimizer B2B Edition
 
-Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Esta resposta é uma representação interna dos dados subjacentes, o _**Gráfico de Conhecimento**_, e fornece uma coleção abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
+Para formular uma resposta às suas perguntas enviadas, o Assistente de IA consulta um banco de dados e traduz os dados do banco de dados em uma resposta legível. Esta resposta é uma representação interna dos dados subjacentes, o _&#x200B;**Gráfico de Conhecimento**&#x200B;_, e fornece uma coleção abrangente de conceitos, dados e metadados para uma determinada resposta. O Gráfico de conhecimento consiste em subgráficos que são referenciados sempre que as consultas são enviadas:
 
 * Documentação da Adobe Experience League.
 * Artefatos operacionais, como esquemas, campos, públicos e jornadas.
