@@ -1,11 +1,13 @@
 ---
 title: Crie marcas para gerar e manter a consistência do conteúdo
-description: Crie e gerencie diretrizes de marca com extração automática de documentos ou entrada manual - defina marcas padrão para um conteúdo consistente no Journey Optimizer B2B edition.
+description: Crie e gerencie diretrizes de marca com extração automática de documentos ou entrada manual - defina marcas padrão para um conteúdo consistente no Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+autotag-review: 2026-03-30T21:55:06.504Z
+TQID: 'https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,18 +16,20 @@ feature_v2:
     internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
     internal-label: Content strategy
-autotag-review: 2026-03-30T21:55:06.504Z
-TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 6%
@@ -34,7 +38,7 @@ ht-degree: 6%
 
 Defina uma marca para fornecer um conjunto detalhado de regras e padrões que estabelecem uma identidade visual e verbal. Essas diretrizes fornecem uma referência para manter uma representação de marca consistente em todas as plataformas de marketing e comunicação. Ao utilizar diretrizes de marca bem definidas, as organizações podem garantir que todos os esforços de criação de conteúdo estejam alinhados às metas estratégicas e à identidade geral da marca. Essa consistência não só melhora o reconhecimento e a confiança da marca, como também contribui para uma experiência do cliente mais coesa e impactante em todos os pontos de contato.
 
-No Journey Optimizer B2B edition, você pode definir e organizar manualmente suas definições de marca e ativos ou fazer upload de documentos de diretrizes da marca para obter informações automáticas e extração visual de ativos.
+No Journey Optimizer B2B Edition, você pode definir e organizar manualmente suas definições de marca e ativos ou fazer upload de documentos de diretrizes da marca para obter informações automáticas e extração visual de ativos.
 
 >[!AVAILABILITY]
 >
@@ -42,7 +46,7 @@ No Journey Optimizer B2B edition, você pode definir e organizar manualmente sua
 >
 ><br>
 >
->É necessário um [contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
+>É necessário um [contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B Edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
 >
 ><br>
 >
@@ -50,7 +54,7 @@ No Journey Optimizer B2B edition, você pode definir e organizar manualmente sua
 
 ## Acessar a biblioteca de marcas
 
-Para acessar os kits de marcas no Adobe Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Marcas]**. Essa ação abre uma página em que as marcas criadas são exibidas como cartões.
+Para acessar kits de marcas na Adobe Journey Optimizer B2B Edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Marcas]**. Essa ação abre uma página em que as marcas criadas são exibidas como cartões.
 
 ![Acessar a biblioteca de marcas](./assets/brands-library.png){width="800" zoomable="yes"}
 

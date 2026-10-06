@@ -1,26 +1,33 @@
 ---
 title: Interesses da solução
-description: Crie interesses de solução para produtos de destino, automatize a criação de grupos de compra com modelos de função e gerencie a progressão de estágio no Journey Optimizer B2B edition.
+description: Crie interesses de solução para produtos de destino, automatize a criação de grupos de compra com modelos de função e gerencie a progressão de estágio no Journey Optimizer B2B Edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
+autotag-review: 2026-03-30T21:38:19.586Z
+TQID: 'https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: 2026-03-30T21:38:19.586Z
-TQID: https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 4%
-
 ---
-
 # Interesses na solução
 
 Antes de criar grupos de compra, você deve saber o que está vendendo e quem deseja direcionar. Sua estratégia de marketing e vendas deve estar alinhada para que você possa adicionar o interesse da solução para os grupos de compras.
@@ -114,4 +121,4 @@ Qualquer interesse de solução que esteja atualmente em uso por qualquer trabal
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3450118/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

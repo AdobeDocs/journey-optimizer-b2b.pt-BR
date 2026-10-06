@@ -1,28 +1,35 @@
 ---
 title: Recursos de governança e privacidade
-description: Saiba mais sobre os recursos de governança disponíveis atualmente no Journey Optimizer B2B edition.
+description: Saiba mais sobre os recursos de governança disponíveis atualmente no Journey Optimizer B2B Edition.
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+autotag-review: 2026-03-27T23:18:44.352Z
+TQID: 'https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: 2026-03-27T23:18:44.352Z
-TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '692'
 ht-degree: 0%
-
 ---
-
 # Recursos de governança e privacidade
 
 [!DNL Journey Optimizer B2B Edition] é um aplicativo Adobe Experience Platform integrado. Ela emprega várias ferramentas e serviços que fornecem controle dos dados de experiência coletados em conformidade com as práticas comerciais, as obrigações legais e os processos de desenvolvimento. As seções abaixo fornecem um resumo de cada um desses recursos de governança.
@@ -49,17 +56,17 @@ O [!DNL Journey Optimizer B2B Edition] oferece controles que ajudam você a gere
 
 ## Controle de acesso baseado em função (RBAC)
 
-Com o Journey Optimizer B2B edition e acesso ao Adobe Admin Console, os administradores podem conceder permissões a um usuário em um Tipo de entidade (exibir segmentos, gerenciar segmentos, gerenciar jornadas e assim por diante). Esse recurso faz parte da Estrutura de permissões unificadas (UPF) que permite que todos os clientes da Adobe Experience Platform definam e gerenciem funções e permissões para sua organização.
+Com o Journey Optimizer B2B Edition e o acesso à Adobe Admin Console, os administradores podem conceder permissões a um usuário em um Tipo de entidade (exibir segmentos, gerenciar segmentos, gerenciar jornadas e assim por diante). Esse recurso faz parte da Estrutura de permissões unificadas (UPF) que permite que todos os clientes da Adobe Experience Platform definam e gerenciem funções e permissões para sua organização.
 
 ## Criptografia de dados
 
-**_Criptografia para dados em repouso_** — Todos os dados de conta e perfil de pessoa transferidos do Adobe Experience Platform para o Journey Optimizer B2B edition são criptografados para manter a conformidade existente do Experience Platform. Todas as entidades originárias do Journey Optimizer B2B edition, como jornadas e grupos de compra, também são criptografadas.
+**_Criptografia para dados em repouso_** — Todos os dados de conta e perfil de pessoa transferidos do Adobe Experience Platform para o Journey Optimizer B2B Edition são criptografados para manter a conformidade existente do Experience Platform. Todas as entidades originadas no Journey Optimizer B2B Edition, como jornadas e grupos de compras, também são criptografadas.
 
-**_Criptografia para dados em trânsito_** (em uma rede pública) — todas as APIs e entidades do Journey Optimizer B2B edition são criptografadas em trânsito usando TLS 1.2.
+**_Criptografia para dados em trânsito_** (em uma rede pública) — todas as APIs e entidades do Journey Optimizer B2B Edition são criptografadas em trânsito usando TLS 1.2.
 
 ## Aceitação/recusa de consentimento
 
-O Journey Optimizer B2B edition lê as preferências de consentimento por pessoa armazenadas nos perfis XDM do Adobe Experience Platform e as aplica no momento da entrega de mensagens para canais de email, SMS e WhatsApp. Uma pessoa que recusou a participação em um canal é excluída da entrega antes que o conteúdo seja enviado do canal ou do provedor de mensagens downstream.
+O Journey Optimizer B2B Edition lê as preferências de consentimento por pessoa armazenadas nos perfis XDM do Adobe Experience Platform e as aplica no momento da entrega de mensagens para canais de email, SMS e WhatsApp. Uma pessoa que recusou a participação em um canal é excluída da entrega antes que o conteúdo seja enviado do canal ou do provedor de mensagens downstream.
 
 O consentimento é avaliado no momento do delivery usando campos XDM do Grupo de campos de consentimento de perfil. O comportamento de consentimento padrão difere por canal — o padrão do email é aceitar quando nenhuma preferência é definida, enquanto o SMS e o WhatsApp assumem o padrão de recusar.
 
@@ -67,7 +74,7 @@ Para obter detalhes sobre os atributos XDM avaliados para cada canal e seus comp
 
 ## Redefinição de área restrita
 
-A redefinição da sandbox **não é suportada no momento** para o Adobe Journey Optimizer B2B edition. Redefinir ou excluir uma sandbox mapeada para [!DNL Journey Optimizer B2B Edition] pode causar perda permanente de dados e exigir o provisionamento de uma nova instância.
+A redefinição da sandbox **não é suportada no momento** para o Adobe Journey Optimizer B2B Edition. Redefinir ou excluir uma sandbox mapeada para [!DNL Journey Optimizer B2B Edition] pode causar perda permanente de dados e exigir o provisionamento de uma nova instância.
 
 ## Ainda não disponível
 

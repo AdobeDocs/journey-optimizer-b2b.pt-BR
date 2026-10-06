@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
+source-wordcount: '1657'
 ht-degree: 6%
-
 ---
-
 # Componentes da estrutura {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -54,13 +60,13 @@ Na parte superior da biblioteca _[!UICONTROL Componentes]_, a seção **[!UICONT
 | Ícone | Componente | Descrição |
 | ----- | ----------- | ----------- |
 | Ícone de coluna ![1:1](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 coluna] | Um container de coluna única que preenche a largura do espaço. |
-| Ícone de coluna ![1:2](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 coluna à esquerda] | Um contêiner de duas colunas que usa uma proporção de 1:2 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um terço da largura e a segunda (à direita) ocupa os dois terços restantes. |
-| Ícone de coluna ![1:3](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 coluna à esquerda] | Um contêiner de duas colunas que usa uma proporção de 1:3 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um quarto da largura e a segunda (à direita) ocupa os três quartos restantes. |
-| Ícone de coluna ![2:1](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 coluna à direita] | Um contêiner de duas colunas que usa uma proporção de 2:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa dois terços da largura e a segunda (à direita) ocupa o terço restante. |
-| Ícone de coluna ![2:2](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 coluna] | Um contêiner de duas colunas que usa uma proporção de 2:2 para preencher a largura do espaço. As colunas da esquerda e da direita têm a mesma largura. |
-| Ícone de coluna ![3:1](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 coluna à direita] | Um contêiner de duas colunas que usa uma proporção de 3:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa três quartos (75%) da largura e a segunda (à direita) ocupa o quarto restante (25%). |
-| Ícone de coluna ![3:3](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 coluna] | Um contêiner de três colunas que usa uma proporção de 3:3 para preencher a largura do espaço. Todas as três colunas têm a mesma largura. |
-| Ícone de coluna ![4:4](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 coluna] | Um contêiner de quatro colunas que usa uma proporção de 4:4 para preencher a largura do espaço. Todas as quatro colunas têm a mesma largura. |
+| Ícone de coluna ![1:2](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | Coluna [!UICONTROL 1:2 à esquerda] | Um contêiner de duas colunas que usa uma proporção 1:2 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um terço da largura e a segunda (à direita) ocupa os dois terços restantes. |
+| Ícone de coluna ![1:3](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | Coluna [!UICONTROL 1:3 à esquerda] | Um contêiner de duas colunas que usa uma proporção 1:3 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa um quarto da largura e a segunda (à direita) ocupa os três quartos restantes. |
+| Ícone de coluna ![2:1](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | Coluna [!UICONTROL 2:1 à direita] | Um contêiner de duas colunas que usa uma proporção de 2:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa dois terços da largura e a segunda (à direita) ocupa o terço restante. |
+| Ícone de coluna ![2:2](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 coluna] | Um contêiner de duas colunas que usa uma proporção 2:2 para preencher a largura do espaço. As colunas da esquerda e da direita têm a mesma largura. |
+| Ícone de coluna ![3:1](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | Coluna [!UICONTROL 3:1 à direita] | Um contêiner de duas colunas que usa uma proporção de 3:1 para preencher a largura do espaço. A primeira coluna (à esquerda) ocupa três quartos (75%) da largura e a segunda (à direita) ocupa o quarto restante (25%). |
+| Ícone de coluna ![3:3](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 coluna] | Um contêiner de três colunas que usa uma proporção 3:3 para preencher a largura do espaço. Todas as três colunas têm a mesma largura. |
+| Ícone de coluna ![4:4](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 coluna] | Um contêiner de quatro colunas que usa uma proporção 4:4 para preencher a largura do espaço. Todas as quatro colunas têm a mesma largura. |
 | Ícone de coluna ![n:n](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n coluna] | Uma estrutura de coluna personalizável que preenche o espaço de acordo com as colunas definidas. Você define o número de colunas (entre duas e dez) e define a largura de cada coluna individualmente. [Saiba mais](#change-nn-columns) |
 
 ## Adicionar componentes de estrutura {#add-structure-components}

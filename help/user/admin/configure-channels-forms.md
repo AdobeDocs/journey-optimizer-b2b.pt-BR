@@ -7,22 +7,31 @@ autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 3%
-
+source-wordcount: '542'
+ht-degree: 4%
 ---
-
 # Configurações do Forms
 
 Para que os profissionais de marketing possam [criar e publicar formulários](../content/forms.md) para usar em suas páginas de aterrissagem, um administrador de produto deve criar uma ou mais predefinições dedicadas. Cada predefinição define o ponto de extremidade de conexão usado para enviar os dados de envio do formulário e o conjunto de dados usado para armazenar os dados capturados.
@@ -33,14 +42,14 @@ Quando os dados chegam ao endpoint de transmissão, eles são vinculados às inf
 
 ## Pré-requisitos
 
-Para usar formulários web, você deve ter uma ou mais _&#x200B;**conexões de transmissão da API HTTP**&#x200B;_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
+Para usar formulários web, você deve ter uma ou mais _**conexões de transmissão da API HTTP**_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
 
 * O tipo de dados deve ser definido como XDM (não dados brutos)
 * A autenticação deve ser desabilitada (conexão não autenticada)
 
 Para obter informações detalhadas sobre como criar conexões de origem de transmissão, consulte a [_documentação do Experience Platform_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-A configuração de canal do Forms no Journey Optimizer B2B edition requer as [permissões](../admin/user-management.md#b2b-product-permissions) a seguir:
+A configuração de canal do Forms no Journey Optimizer B2B Edition requer as [permissões](../admin/user-management.md#b2b-product-permissions) a seguir:
 
 * _[!UICONTROL Configurações do Canal B2B]_ > _[!UICONTROL Exibir Predefinições do Forms]_ - Necessário para exibir configurações de predefinição de formulários.
 * _[!UICONTROL Configurações de Canal B2B]_ > _[!UICONTROL Gerenciar Predefinições do Forms]_ - Necessário para criar, atualizar e excluir configurações de predefinição de formulários.
@@ -58,9 +67,9 @@ Ao criar uma predefinição:
 
 * Cada conexão de transmissão gera recursos automaticamente, como:
 
-   * _conexão Source_ - de onde os dados se originam.
-   * _Conexão de destino_ - onde os dados são armazenados ou consumidos.
-   * _Fluxo do Source_ - o pipeline que move dados da conexão de origem para o Experience Platform. Ela lida com mapeamento, transformação e validação.
+  * _conexão Source_ - de onde os dados se originam.
+  * _Conexão de destino_ - onde os dados são armazenados ou consumidos.
+  * _Fluxo do Source_ - o pipeline que move dados da conexão de origem para o Experience Platform. Ela lida com mapeamento, transformação e validação.
 
 ## Criar uma predefinição de formulário
 

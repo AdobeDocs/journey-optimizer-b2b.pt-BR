@@ -15,6 +15,10 @@ feature_v2:
     internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
     internal-label: Web channel
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 3%
@@ -57,7 +61,7 @@ Antes de criar experiências na Web, verifique se os seguintes requisitos foram 
 
 * Um administrador de produto configurou um ou mais canais da Web para definir os URLs (páginas) a serem incluídos em uma experiência da Web. Para obter mais informações, consulte [Configurações do canal da Web](../admin/configure-channels-web.md).
 
-* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
+* Seu site tem o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para identificação de visitantes e entrega de conteúdo. Verifique se a versão do Adobe Experience Platform Web SDK é a 2.16 ou superior.
 
 * Você tem as [permissões](../admin/user-management.md#b2b-product-permissions) necessárias para criar e gerenciar experiências da Web em uma jornada:
   * _[!UICONTROL Experiências da Web B2B do Autor]_
@@ -214,13 +218,13 @@ Para habilitar a entrega de experiência online, as seguintes configurações de
 
 * Em Coleção de dados da Adobe Experience Platform, verifique se você tem um fluxo de dados definido. Verifique se a opção Adobe Journey Optimizer B2B Edition está ativada no serviço Adobe Experience Platform.
 
-  Essa configuração garante que o Adobe Experience Platform Edge possa lidar corretamente com os eventos de entrada. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
+  Essa configuração garante que o Adobe Experience Platform Edge possa lidar corretamente com os eventos de entrada. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * Na Adobe Experience Platform, verifique se você tem uma política de mesclagem com a _[!UICONTROL Política de mesclagem ativa no Edge]_ ativada.
 
-  Selecione uma política no menu Cliente > Perfis > Mesclar políticas na Experience Platform. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Selecione uma política no menu Cliente > Perfis > Mesclar políticas na Experience Platform. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Os canais de entrada do Journey Optimizer B2B Edition usam essa política de mesclagem para ativar e publicar experiências da web de entrada corretamente na borda. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/ui-guide)
+  Os canais de entrada do Journey Optimizer B2B Edition usam essa política de mesclagem para ativar e publicar experiências da web de entrada corretamente na borda. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Solução de problemas
 

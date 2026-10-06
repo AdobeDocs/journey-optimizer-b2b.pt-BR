@@ -1,6 +1,6 @@
 ---
 title: Criação de SMS
-description: Crie mensagens SMS para jornadas de conta com personalização, links e gerenciamento de consentimento — visualize o conteúdo e defina as configurações de entrega no Journey Optimizer B2B edition.
+description: Crie mensagens SMS para jornadas de conta com personalização, links e gerenciamento de consentimento — visualize o conteúdo e defina as configurações de entrega no Journey Optimizer B2B Edition.
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
@@ -8,30 +8,42 @@ autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d66b6f77-1150-58cd-81d8-2a1924d54baa
+    internal-label: SMS Authoring
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+    internal-label: Cross channel delivery
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 3%
-
 ---
-
 # Criação de SMS
 
-Use o Adobe Journey Optimizer B2B edition para enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
+Use o Adobe Journey Optimizer B2B Edition para enviar mensagens de texto (SMS) para seus clientes em seus dispositivos móveis. Você pode criar, personalizar e visualizar mensagens em formato de texto no editor de SMS.
 
 Antes de criar mensagens SMS para jornadas de conta, verifique se o [provedor de serviços SMS está configurado](../admin/configure-channels-sms.md) nas configurações do _[!UICONTROL Administrador]_.
 
@@ -113,7 +125,7 @@ Você pode criar uma mensagem de até 1600 caracteres, a cada 160 caracteres con
       >[!NOTE] 
       >
       >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
-      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
@@ -183,8 +195,8 @@ Oferecer aos recipients a capacidade de cancelar a inscrição para receber comu
 
 Quando você fornece essa opção, os destinatários de SMS podem responder com palavras-chave de aceitação e recusa. Todas as palavras-chave padrão de aceitação e recusa são compatíveis e respeitadas, assim como todas as palavras-chave personalizadas configuradas com o provedor de serviços SMS. Quando a assinatura é cancelada, os perfis são removidos automaticamente do público-alvo de futuras mensagens de marketing.
 
-O Journey Optimizer B2B edition fornece a capacidade de gerenciar a opção de não participação em mensagens SMS usando a seguinte lógica:
+O Journey Optimizer B2B Edition fornece a capacidade de gerenciar a opção de não participação em mensagens SMS usando a seguinte lógica:
 
 * Por padrão, se um cliente potencial optar por não receber comunicações de você, o perfil correspondente será excluído dos deliveries de SMS subsequentes
 
-* Esse consentimento, proveniente de diferentes fontes (como o AEP ou o provedor de serviços SMS), é sincronizado com o Journey Optimizer B2B edition. Atualmente, ele suporta apenas um único estado de consentimento por lead no nível da instância (uma &quot;John Doe&quot; lead recebe ou cancela a assinatura de todos os SMS promocionais na instância). No momento, não há suporte para aceitação dupla no nível da marca/consentimento no nível da lista de assinaturas individuais.
+* Esse consentimento, proveniente de diferentes fontes (como o AEP ou o provedor de serviços SMS), é sincronizado com o Journey Optimizer B2B Edition. Atualmente, ele suporta apenas um único estado de consentimento por lead no nível da instância (uma &quot;John Doe&quot; lead recebe ou cancela a assinatura de todos os SMS promocionais na instância). No momento, não há suporte para aceitação dupla no nível da marca/consentimento no nível da lista de assinaturas individuais.

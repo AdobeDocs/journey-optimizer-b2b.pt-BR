@@ -1,33 +1,39 @@
 ---
 title: Trabalhar com Assets de imagem interna
-description: Navegue, gerencie e use os ativos do Journey Optimizer B2B edition - organize pastas, edite imagens e crie conteúdo para jornadas de conta.
+description: Navegue, gerencie e use ativos do Journey Optimizer B2B Edition - organize pastas, edite imagens e crie conteúdo para jornadas de conta.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # Trabalhar com ativos de imagem internos
 
 O repositório interno de ativos de imagem é a fonte padrão de ativos de imagem, e você pode gerenciar e usar facilmente os ativos disponíveis para projetar conteúdo que seja compatível com as jornadas de sua conta.
 
-Você tem a gama completa de funções de gerenciamento de ativos no Journey Optimizer B2B edition. Essas funções incluem:
+Você tem a gama completa de funções de gerenciamento de ativos no Journey Optimizer B2B Edition. Essas funções incluem:
 
 * [Substituir](#replace-assets)
 * [Excluir](#delete-assets)
@@ -36,7 +42,7 @@ Você tem a gama completa de funções de gerenciamento de ativos no Journey Opt
 
 ## Procurar e acessar ativos
 
-Para acessar ativos internos no Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Assets]**. Essa ação abre uma página de listagem com todos os ativos listados.
+Para acessar ativos internos no Journey Optimizer B2B Edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Assets]**. Essa ação abre uma página de listagem com todos os ativos listados.
 
 ![Procurar ativos de imagem](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ Clique no nome de qualquer ativo para abrir a página de detalhes do ativo.
 
 ## Exibir ativos usados por referências
 
-Na página de detalhes do ativo, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o ativo é usado atualmente no Journey Optimizer B2B edition, em emails, modelos de email e fragmentos.
+Na página de detalhes do ativo, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o ativo é usado atualmente no Journey Optimizer B2B Edition, em emails, modelos de email e fragmentos.
 
 >[!IMPORTANT]
 >
 >Qualquer ativo que esteja atualmente _EM USO_ em qualquer um dos emails, modelos de email ou fragmentos **não pode** ser excluído.
 
-O painel exibe as referências por categoria: _Email_, _Modelo de email_ ou _Fragmento_. Os emails no Journey Optimizer B2B edition são incorporados e criados no jornada, de modo que a jornada principal do email que usa o ativo é exibida nas referências.
+O painel exibe as referências por categoria: _Email_, _Modelo de email_ ou _Fragmento_. Os emails no Journey Optimizer B2B Edition são incorporados e criados no jornada, de modo que a jornada principal do email que usa o ativo é exibida nas referências.
 
 Clicar no link direciona você para o email, modelo de email ou fragmento correspondente em que o ativo é usado.
 
@@ -72,7 +78,7 @@ Clicar no link direciona você para o email, modelo de email ou fragmento corres
 
 ## Adicionar ativos
 
-Na página de lista _Assets_, é possível adicionar ativos de imagem ao repositório de ativos do Journey Optimizer B2B edition.
+Na página de lista _Assets_, é possível adicionar ativos de imagem ao repositório de ativos do Journey Optimizer B2B Edition.
 
 1. Clique em **[!UICONTROL Adicionar Assets]** na parte superior direita.
 
@@ -112,7 +118,7 @@ Se o ativo estiver em uso no momento, a ação abrirá uma caixa de diálogo inf
 
 ## Substituir ativos
 
-Use um dos métodos a seguir para substituir um ativo que reside no repositório de ativos do _[!UICONTROL Journey Optimizer B2B edition]_:
+Use um dos métodos a seguir para substituir um ativo que reside no repositório de ativos do _[!UICONTROL Journey Optimizer B2B Edition]_:
 
 * Vá para os detalhes do ativo, clique em **[!UICONTROL ... Mais]** no canto superior direito e escolha **[!UICONTROL Substituir]** nas opções.
 
@@ -132,7 +138,7 @@ Se o arquivo a ser substituído estiver em uso, uma caixa de diálogo o alertar�
 
 * Vá para os detalhes do ativo e clique em **[!UICONTROL Baixar]** na parte superior direita.
 
-* Na página de listagem _[!UICONTROL Assets]_, clique no ícone de reticências _3&rbrace; (**[!UICONTROL ...]**)_ ao lado do item de ativo e escolha **[!UICONTROL Baixar]** nas opções.
+* Na página de listagem _[!UICONTROL Assets]_, clique no ícone de reticências _3} (**[!UICONTROL ...]**)_ ao lado do item de ativo e escolha **[!UICONTROL Baixar]** nas opções.
 
 Na caixa de diálogo de confirmação, clique em **[!UICONTROL Baixar]** para iniciar o download do ativo para o sistema local. Você pode anular o processo clicando em **[!UICONTROL Cancelar]**.
 
@@ -142,7 +148,7 @@ Na página de listagem (_[!UICONTROL Gerenciamento de Conteúdo]_ > _[!UICONTROL
 
 ![Ativos selecionados](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Você pode realizar as seguintes ações em massa para os ativos selecionados que residem no _[!UICONTROL repositório de ativos do Journey Optimizer B2B edition]_:
+Você pode realizar as seguintes ações em massa para os ativos selecionados que residem no repositório de ativos do _[!UICONTROL Journey Optimizer B2B Edition]_:
 
 +++Mover ativos
 
@@ -280,8 +286,8 @@ Essa ação altera o painel de ferramentas que exibe uma lista dos ativos dispon
 
   Há ferramentas disponíveis para ajudar a localizar o ativo necessário:
 
-   * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
+  * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
 
-   * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
+  * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
 
   ![Use os filtros e o campo de pesquisa para localizar o ativo necessário](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

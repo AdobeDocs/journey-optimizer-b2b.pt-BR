@@ -5,40 +5,45 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: 'https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:58:08.848Z
-TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1632'
 ht-degree: 11%
-
 ---
-
 # Selecionar eventos de experiência e campos
 
-Os administradores podem selecionar [Eventos de experiência](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} do Adobe Experience Platform (AEP) específicos e seus campos associados no esquema de união do Evento de experiência. Após a seleção, os usuários podem configurar regras de decisão para ouvir esses Eventos de experiência e ativar ações de campanha dinâmicas e direcionadas com base em dados de eventos quase em tempo real.
+Os administradores podem selecionar [Eventos de experiência](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} do Adobe Experience Platform (AEP) específicos e seus campos associados no esquema de união do Evento de experiência. Após a seleção, os usuários podem configurar regras de decisão para ouvir esses Eventos de experiência e ativar ações de campanha dinâmicas e direcionadas com base em dados de eventos quase em tempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->O uso de eventos e campos de experiência no Journey Optimizer B2B edition requer esquemas de evento de experiência habilitados para perfil. Para obter mais informações, consulte [Habilitar perfis de clientes em tempo real](https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nos tutoriais do Experience Platform.
+>O uso de eventos e campos de experiência no Journey Optimizer B2B Edition requer esquemas de evento de experiência habilitados para perfil. Para obter mais informações, consulte [Habilitar perfis de clientes em tempo real](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nos tutoriais do Experience Platform.
 
 O uso de Eventos de experiência do AEP no jornada é um processo de duas etapas:
 
-1. Um administrador [adiciona eventos e campos da AEP Experience](#add-an-event) nas configurações do Journey Optimizer B2B edition.
+1. Um administrador [adiciona eventos e campos da AEP Experience ](#add-an-event) nas configurações do Journey Optimizer B2B Edition.
 
 1. Em uma jornada, um profissional de marketing usa os eventos configurados de uma das duas formas a seguir:
 
@@ -55,7 +60,7 @@ Ao selecionar eventos para atender às suas metas organizacionais, considere o s
 
 * O Jornada pode ouvir eventos de experiência que são assimilados usando os recursos de transmissão do Experience Platform, como o Web SDK ou a API HTTP.
 
-* Os dados históricos do evento de experiência começam a ser acumulados para uma pessoa quando o evento existe no banco de dados do Journey Optimizer B2B edition. Para pessoas que já existem quando um tipo de evento é configurado pela primeira vez, o preenchimento retroativo começa no momento da configuração. Para novas pessoas, o acúmulo começa quando a pessoa é adicionada pela primeira vez (seu histórico anterior não está disponível retroativamente).
+* Os dados históricos do evento de experiência começam a ser acumulados para uma pessoa quando o evento existe no banco de dados do Journey Optimizer B2B Edition. Para pessoas que já existem quando um tipo de evento é configurado pela primeira vez, o preenchimento retroativo começa no momento da configuração. Para novas pessoas, o acúmulo começa quando a pessoa é adicionada pela primeira vez (seu histórico anterior não está disponível retroativamente).
 
 * No momento, não há nenhum mecanismo de exclusão para o histórico de eventos acumulados. A política de retenção de longo prazo está sujeita a alterações.
 
@@ -153,7 +158,7 @@ Para impedir que um Evento de Experiência seja usado em um nó _Ouvir um evento
 
 ## Eventos e campos {#events-and-fields}
 
-Para [!DNL Journey Optimizer B2B Edition], determinadas atividades no nível de pessoas são capturadas como [!DNL Experience Platform] Eventos de experiência. Esses eventos são armazenados em um conjunto de dados do sistema que usa o esquema de Evento de experiência XDM e inclui grupos de campos específicos da jornada. Você pode usar esses eventos no [!UICONTROL Journey Optimizer B2B edition] como qualquer outro Evento de Experiência.
+Para [!DNL Journey Optimizer B2B Edition], determinadas atividades no nível de pessoas são capturadas como [!DNL Experience Platform] Eventos de experiência. Esses eventos são armazenados em um conjunto de dados do sistema que usa o esquema de Evento de experiência XDM e inclui grupos de campos específicos da jornada. Você pode usar esses eventos no [!UICONTROL Journey Optimizer B2B Edition] como qualquer outro Evento de Experiência.
 
 Cada evento expõe um conjunto definido de campos que podem ser usados nos nós _Ouvir um evento_ da jornada (decisões baseadas em eventos). Para determinar qual evento e campos usar nesses nós de jornada, revise os tipos de evento disponíveis e seus campos:
 
@@ -491,5 +496,5 @@ Tipo de evento: `leadOperation.interestingMoment`
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448688/?captions=por_br&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

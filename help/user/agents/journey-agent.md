@@ -8,30 +8,42 @@ autotag-review: '2026-06-05T16:42:46.785Z'
 TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1165
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # Journey Agent B2B
 
-O Journey Agent B2B é um assistente alimentado por IA no Adobe Journey Optimizer B2B edition que ajuda você a projetar, executar, otimizar e monitorar jornadas B2B por meio da linguagem natural. Ele reduz o tempo e a complexidade envolvidos na criação e no gerenciamento de jornadas do cliente, combinando automação, recomendações orientadas por dados e observação em tempo real.
+O Journey Agent B2B é um assistente alimentado por IA no Adobe Journey Optimizer B2B Edition que ajuda você a projetar, executar, otimizar e monitorar jornadas B2B por meio da linguagem natural. Ele reduz o tempo e a complexidade envolvidos na criação e no gerenciamento de jornadas do cliente, combinando automação, recomendações orientadas por dados e observação em tempo real.
 
 ![Prompt B2B do Journey Agent](./assets/journey-agent-prompt.png)
 
@@ -99,7 +111,7 @@ Você pode agir como um designer de jornada B2B para criar uma jornada de conta 
 
 A habilidade Observability do Jornada permite que você faça perguntas em linguagem natural sobre como as contas e as pessoas estão se movendo através de suas jornadas B2B, sem pesquisar em mapas, logs ou painéis de jornada. Abrange duas áreas principais: progressão da jornada e observabilidade da sincronização de dados.
 
-Você pode acessá-lo em dois lugares no Journey Optimizer B2B edition:
+Você pode acessá-lo em dois lugares no Journey Optimizer B2B Edition:
 
 * **Assistente do painel direito no mapa de jornadas** - Faça perguntas específicas sobre jornadas diretamente no mapa de jornadas. O nome da jornada é inserido automaticamente no contexto.
 

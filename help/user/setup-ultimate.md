@@ -1,36 +1,49 @@
 ---
 title: Lista de verificação de configuração
-description: Configurar o Journey Optimizer B2B edition. Configure esquemas XDM, canais de email/SMS, ações de jornada do Marketo Engage e usuários.
+description: Configurar o Journey Optimizer B2B Edition. Configure esquemas XDM, canais de email/SMS, ações de jornada do Marketo Engage e usuários.
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+autotag-review: '2026-03-27T22:15:07.682Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 847
+source-wordcount: '847'
 ht-degree: 73%
-
 ---
-
 # Lista de verificação de configuração
 
-O Adobe Journey Optimizer B2B edition é fundamentado no Adobe Experience Platform. Com essa implementação, o Journey Optimizer B2B edition e o Marketo Engage não estão no mesmo sistema ou armazenamento de dados. O Journey Optimizer B2B edition recebe dados do Experience Platform. No entanto, ele continua a depender de direitos do Marketo Engage e alguns recursos de back-end, como entrega de email, para provisionar e configurar o sistema.
+O Adobe Journey Optimizer B2B Edition é fundamentado no Adobe Experience Platform. Com essa implementação, o Journey Optimizer B2B Edition e o Marketo Engage não estão no mesmo sistema ou no mesmo armazenamento de dados. O Journey Optimizer B2B Edition recebe dados do Experience Platform. No entanto, ele continua a depender de direitos do Marketo Engage e alguns recursos de back-end, como entrega de email, para provisionar e configurar o sistema.
 
 <!-- 
 >>[!NOTE]
@@ -38,7 +51,7 @@ O Adobe Journey Optimizer B2B edition é fundamentado no Adobe Experience Platfo
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-Essa implementação é a base que habilita os recursos no Journey Optimizer B2B edition:
+Essa implementação é a base que habilita os recursos no Journey Optimizer B2B Edition:
 
 * **Unifique e dimensione seus dados:** O sistema oferece suporte a modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
 
@@ -50,7 +63,7 @@ Essa implementação é a base que habilita os recursos no Journey Optimizer B2B
 
 Use as diretrizes a seguir para configuração.
 
-Use esta lista de verificação para concluir a configuração do Journey Optimizer B2B edition.
+Use esta lista de verificação para concluir a configuração do Journey Optimizer B2B Edition.
 
 ## &#x200B;1. Gerar namespaces e esquemas B2B
 
@@ -282,7 +295,7 @@ Para dar suporte a equipes de marketing que incluem outros canais em suas jornad
 <td><a href="./admin/configure-channels-sms.md">Saiba mais</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Páginas de aterrissagem</strong> para a configuração de canal do Journey Optimizer B2B edition.</td>
+<td colspan="2"><strong>Páginas de aterrissagem</strong> para a configuração de canal do Journey Optimizer B2B Edition.</td>
 <td></td>
 </tr>
 <tr>
@@ -297,7 +310,7 @@ Para dar suporte a equipes de marketing que incluem outros canais em suas jornad
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
 <td>Configurar o site da empresa para oferecer suporte ao Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/js/js-overview">Saiba mais</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Saiba mais</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção"/></td>
@@ -314,7 +327,7 @@ Para dar suporte a equipes de marketing que incluem outros canais em suas jornad
 
 ## &#x200B;5. Conectar a instância do Marketo Engage para oferecer suporte a ações de jornada (opcional)
 
-Se você planeja complementar os recursos do Journey Optimizer B2B edition com campanhas e programas no Marketo Engage, configure o suporte para ações do Marketo Engage. Essas ações permitem que as equipes de marketing coordenem o marketing _baseado em conta_ no Journey Optimizer B2B edition e os esforços de marketing _baseado em lead_ no Marketo Engage.
+Se você planeja complementar os recursos do Journey Optimizer B2B edition com campanhas e programas no Marketo Engage, configure o suporte para ações do Marketo Engage. Essas ações permitem que as equipes de marketing coordenem o marketing _baseado em conta_ na Journey Optimizer B2B Edition e os esforços de marketing _baseado em lead_ na Marketo Engage.
 
 <table>
 <thead>

@@ -1,27 +1,34 @@
 ---
 title: Gerenciamento de privacidade
-description: Saiba como cumprir com o GDPR, CCPA e outras regulamentações de privacidade no Journey Optimizer B2B edition e enviar solicitações usando o Adobe Privacy Service.
+description: Saiba como cumprir com o GDPR, CCPA e outras regulamentações de privacidade no Journey Optimizer B2B Edition e enviar solicitações usando o Adobe Privacy Service.
 feature: Setup, Permissions
 role: Admin
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 2%
-
 ---
-
 
 # Gerenciamento de privacidade {#privacy-management}
 
-O [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/home){target="_blank"} fornece uma API RESTful e uma interface para ajudar você a gerenciar solicitações de dados do cliente. Com o [!DNL Adobe Privacy Service], você pode enviar solicitações para acessar e excluir dados pessoais dos clientes por meio dos aplicativos corporativos do Adobe CX, facilitando a conformidade automatizada com as regulamentações legais e organizacionais de privacidade.
+O [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/home){target="_blank"} fornece uma API RESTful e uma interface para ajudar você a gerenciar solicitações de dados do cliente. Com o [!DNL Adobe Privacy Service], você pode enviar solicitações para acessar e excluir dados pessoais dos clientes por meio de aplicativos da Adobe CX Enterprise, facilitando a conformidade automatizada com as regulamentações legais e organizacionais de privacidade.
 
 O [!DNL Adobe Journey Optimizer B2B Edition] fornece essas ferramentas de privacidade para que você possa atender aos requisitos globais de proteção de dados. Use [!DNL Privacy Service] para enviar e gerenciar solicitações de acesso e exclusão para dados que [!DNL Journey Optimizer B2B Edition] coleta e armazena.
 
@@ -34,7 +41,7 @@ Você pode enviar solicitações individuais para acessar e excluir dados do con
 
 As ferramentas de privacidade do [!DNL Journey Optimizer B2B Edition] ajudam você a cumprir os regulamentos até o [!DNL Privacy Service]. Cada regulamento se aplica se você mantiver dados de pessoas que residem na região associada.
 
-Para obter uma lista atualizada das regulamentações compatíveis, consulte [_Visão geral das regulamentações de privacidade_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/regulations/overview){target="_blank"} na documentação do Privacy Service.
+Para obter uma lista atualizada das regulamentações compatíveis, consulte [_Visão geral das regulamentações de privacidade_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} na documentação do Privacy Service.
 
 ## Tipos de solicitação {#access-and-delete-requests}
 
@@ -52,7 +59,7 @@ Para obter uma lista atualizada das regulamentações compatíveis, consulte [_V
 * **[!UICONTROL Permissões do Privacy Service]** - `Privacy Read Permission` e `Privacy Write Permission`
 * **[!UICONTROL Governança de dados]** - `View Privacy Console`
 
-Consulte [_Gerenciar permissões do Privacy Service_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/permissions){target="_blank"} no Guia do [!DNL Privacy Service] para obter informações mais detalhadas.
+Consulte [_Gerenciar permissões do Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} no Guia do [!DNL Privacy Service] para obter informações mais detalhadas.
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +92,7 @@ Use a opção **[!UICONTROL Tipo de Regulamentação]** na parte superior direit
 
 1. Para **[!UICONTROL Produtos]**, selecione **[!UICONTROL Marketo]**.
 
-   ![Criar solicitação de privacidade de acesso ao GDPR para Marketo Engage e Journey Optimizer B2B edition](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![Criar solicitação de privacidade de acesso ao GDPR para o Marketo Engage e o Journey Optimizer B2B Edition](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    Esta seleção inclui dados de [!DNL Journey Optimizer B2B Edition] e da instância [!DNL Marketo Engage].
 
@@ -115,7 +122,7 @@ Use os seguintes valores de campo em sua solicitação:
 | `users.action` | `access` ou `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo` para incluir dados de [!DNL Journey Optimizer B2B Edition] e [!DNL Marketo Engage] |
-| `regulation` | Exemplo: `ccpa` <br/>Alguns valores de regulamentos estão sendo alterados para incluir uma abreviação de estado (por exemplo, `ucpa_ut_usa`). Os valores mais antigos permanecem válidos por um período de transição. Consulte a [Visão geral das regras de privacidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/regulations/overview){target="_blank"} para obter a lista atual antes de criar integrações com esses valores. |
+| `regulation` | Exemplo: `ccpa` <br/>Alguns valores de regulamentos estão sendo alterados para incluir uma abreviação de estado (por exemplo, `ucpa_ut_usa`). Os valores mais antigos permanecem válidos por um período de transição. Consulte a [Visão geral das regras de privacidade](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} para obter a lista atual antes de criar integrações com esses valores. |
 
 O exemplo a seguir envia uma solicitação de exclusão de GDPR que inclui dados [!DNL Journey Optimizer B2B Edition].
 

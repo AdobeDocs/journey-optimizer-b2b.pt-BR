@@ -1,29 +1,36 @@
 ---
 title: Pontuações de engajamento para grupos de compra
-description: Calcule as pontuações de engajamento do grupo de compras e da pessoa usando atividades ponderadas, cálculos com base em função e janelas de pontuação de 30 dias no Journey Optimizer B2B edition.
+description: Calcule as pontuações de engajamento do grupo de compras e da pessoa usando atividades ponderadas, cálculos com base em função e janelas de pontuação de 30 dias no Journey Optimizer B2B Edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+autotag-review: 2026-03-30T21:43:47.624Z
+TQID: 'https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T21:43:47.624Z
-TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 29%
-
 ---
-
 # Pontuações de engajamento {#engagement-scores}
 
 >[!CONTEXTUALHELP]
@@ -31,7 +38,7 @@ ht-degree: 29%
 >title="Pontuação de engajamento"
 >abstract="As pontuações de engajamento determinam o nível de engajamento dos membros do grupo de compra."
 
-Uma pontuação de engajamento é um número que indica o nível de engajamento dos membros de um grupo de compras. Essas pontuações são baseadas nas atividades do membro do grupo de compra, ações ponderadas e funções ponderadas. As pontuações resultantes são normalizadas em um locatário (instância) para permitir uma comparação consistente e insights acionáveis. O cálculo de pontuação é iniciado assim que você cria o grupo de compra. O sistema data hub do Journey Optimizer B2B edition calcula as pontuações diariamente e as carrega no sistema MySQL do MLM (Multi-Level Marketing) usando o serviço de assimilação.
+Uma pontuação de engajamento é um número que indica o nível de engajamento dos membros de um grupo de compras. Essas pontuações são baseadas nas atividades do membro do grupo de compra, ações ponderadas e funções ponderadas. As pontuações resultantes são normalizadas em um locatário (instância) para permitir uma comparação consistente e insights acionáveis. O cálculo de pontuação é iniciado assim que você cria o grupo de compra. O sistema de hub de dados do Journey Optimizer B2B Edition calcula as pontuações diariamente e as carrega no sistema MySQL do MLM (Multi-Level Marketing) usando o serviço de assimilação.
 
 Há dois tipos de pontuações de engajamento:
 
@@ -43,7 +50,7 @@ Há dois tipos de pontuações de engajamento:
 
 * **Pontuação de engajamento da pessoa** - A pontuação de engajamento da pessoa é baseada nas atividades de um membro de grupo de compras individual.
 
-  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros &#x200B;]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
+  A pontuação de engajamento da pessoa para cada membro do grupo de compras é exibida na página de detalhes do grupo de compras [_[!UICONTROL guia Membros ]_](./buying-group-details.md#buying-group-members). Essas pontuações também são exibidas em páginas e painéis que incluem membros mais engajados e informações de contatos sobrepostas.
 
   ![Membros mais engajados do grupo de compras](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

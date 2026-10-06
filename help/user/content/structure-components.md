@@ -1,6 +1,6 @@
 ---
 title: Componentes da estrutura
-description: Use componentes de estrutura para criar layouts para emails, páginas de aterrissagem e fragmentos. Arraste os layouts de coluna, defina estilos e configure a exibição móvel no Journey Optimizer B2B edition.
+description: Use componentes de estrutura para criar layouts para emails, páginas de aterrissagem e fragmentos. Arraste os layouts de coluna, defina estilos e configure a exibição móvel no Journey Optimizer B2B Edition.
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Experience design
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1624
+source-wordcount: '1624'
 ht-degree: 6%
-
 ---
-
 # Componentes da estrutura {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -111,7 +117,7 @@ Você pode remover a designação do cabeçalho ou rodapé selecionando o compon
 
 Para telas menores ou janelas de exibição, as colunas no componente de estrutura são exibidas como empilhadas, a menos que você altere a configuração padrão. Com o componente de estrutura de várias colunas selecionado, altere a configuração **[!UICONTROL Não empilhar colunas em dispositivos móveis]** movendo o controle deslizante para a direita.
 
-![Não empilhar colunas no celular &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Não empilhar colunas no celular ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componentes
 

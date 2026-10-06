@@ -1,6 +1,6 @@
 ---
 title: Sintaxe de personalização
-description: Saiba mais sobre a sintaxe de personalização com base em Handlebars no Journey Optimizer B2B edition, incluindo expressões, auxiliares, tipos literais e regras de formatação.
+description: Saiba mais sobre a sintaxe de personalização com base em Handlebars no Journey Optimizer B2B Edition, incluindo expressões, auxiliares, tipos literais e regras de formatação.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,24 +11,31 @@ autotag-review: '2026-05-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 3%
-
 ---
-
 # Sintaxe de personalização {#personalization-syntax}
 
 As expressões no [!DNL Journey Optimizer B2B Edition] [editor de personalização](./personalization.md#personalization-editor) são baseadas na sintaxe de modelo _Handlebars_. Ele usa um modelo e um objeto de entrada para gerar HTML ou outros formatos de texto. Os modelos de Handlebars parecem texto regular com expressões Handlebars incorporadas.
@@ -50,7 +57,7 @@ Em que:
 
   >[!NOTE]
   >
-  >A estrutura de atributos está definida em um [Esquema XDM do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home){target="_blank"}.
+  >A estrutura de atributos está definida em um [Esquema XDM do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Os identificadores podem ser qualquer caractere Unicode, exceto para o seguinte:
 

@@ -1,6 +1,6 @@
 ---
 title: Criação no WhatsApp
-description: Crie mensagens de WhatsApp para jornadas de conta usando modelos aprovados do Meta, tokens de personalização e configurações de entrega no Journey Optimizer B2B edition.
+description: Crie mensagens de WhatsApp para jornadas de conta usando modelos aprovados do Meta, tokens de personalização e configurações de entrega no Journey Optimizer B2B Edition.
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
@@ -8,33 +8,47 @@ autotag-review: '2026-05-27T16:19:44.490Z'
 TQID: 'https://experienceleague.adobe.com/B368ny2Y9BSzsE7CClVIbVr-5Kha5d2pTiNiDGCwML4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '828'
 ht-degree: 1%
-
 ---
-
 # Criação no WhatsApp
 
-Use o Adobe Journey Optimizer B2B edition para enviar mensagens do WhatsApp para membros da conta em seus dispositivos móveis. Você pode criar, personalizar e pré-visualizar mensagens usando modelos de mensagem aprovados do Meta no editor do WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
+Use o Adobe Journey Optimizer B2B Edition para enviar mensagens do WhatsApp para membros da conta em seus dispositivos móveis. Você pode criar, personalizar e pré-visualizar mensagens usando modelos de mensagem aprovados do Meta no editor do WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 Antes de criar mensagens do WhatsApp para jornadas de conta, verifique se você tem o [canal do WhatsApp necessário configurado](../admin/configure-channels-whatsapp.md) nas configurações do _[!UICONTROL Administrador]_.
 
 
 >[!NOTE]
 >
->Somente _elementos de mensagem de saída_ do WhatsApp são suportados no Journey Optimizer B2B edition.
+>Somente _elementos de mensagem de saída_ do WhatsApp são suportados no Journey Optimizer B2B Edition.
 
 +++ Elementos de mensagem e opções de chamadas para ação compatíveis
 
@@ -99,7 +113,7 @@ Você pode configurar entregas de mensagens do WhatsApp em uma jornada de conta 
 
 ### Selecionar um modelo de mensagem
 
-As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los no Journey Optimizer B2B edition. Para gerenciar e enviar modelos para aprovação, trabalhe com o administrador da conta [!DNL Meta Business Manager].
+As mensagens do WhatsApp são enviadas usando modelos de mensagem pré-aprovados da sua conta comercial do Meta WhatsApp. **Os modelos devem ser revisados e aprovados pelo Meta** antes que você possa usá-los no Journey Optimizer B2B Edition. Para gerenciar e enviar modelos para aprovação, trabalhe com o administrador da conta [!DNL Meta Business Manager].
 
 1. Para **[!UICONTROL Selecionar categoria do modelo]**, escolha uma das seguintes opções:
 

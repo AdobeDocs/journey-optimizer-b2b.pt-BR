@@ -1,28 +1,34 @@
 ---
 title: Enviar ferramentas do Collaboration por email
-description: Colabore em emails no Journey Optimizer B2B edition. Adicione comentários, convide revisores, resolva comentários e simplifique os fluxos de trabalho de revisão para equipes.
+description: Colaborar em emails no Journey Optimizer B2B Edition. Adicione comentários, convide revisores, resolva comentários e simplifique os fluxos de trabalho de revisão para equipes.
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # Ferramentas de colaboração de email
 
 O [espaço de design de email](./email-authoring.md) inclui ferramentas de colaboração para comentários e resolução, para que as equipes de marketing possam analisar, discutir e finalizar ativos de email diretamente no [!DNL Journey Optimizer B2B Edition]. Em vez de compartilhar rascunhos em ferramentas externas (como bate-papos, threads de email ou planilhas), os usuários podem comentar, sugerir edições e resolver feedbacks dentro do espaço de design de email. Use essas ferramentas para simplificar seu fluxo de trabalho, reduzir erros e garantir que as partes interessadas estejam alinhadas antes de iniciar sua campanha de email em uma jornada de conta:
@@ -47,7 +53,7 @@ Display visual indicators (badges) for elements with associated comments
 
 ## Habilitar ferramentas de colaboração por email para revisores
 
-Os administradores de produtos podem habilitar o acesso às ferramentas de colaboração por email atribuindo a permissão **[!UICONTROL Gerenciar Emails B2B]** por meio da interface do usuário _Permissões_ no Adobe Experience Cloud.
+Os administradores de produtos podem habilitar o acesso às ferramentas de colaboração por email atribuindo a permissão **[!UICONTROL Gerenciar emails B2B]** por meio da interface do usuário _Permissões_ na Adobe Experience Cloud.
 
 +++ Ativar permissões de email
 

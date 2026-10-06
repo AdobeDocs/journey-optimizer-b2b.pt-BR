@@ -1,31 +1,39 @@
 ---
 title: Usar marcas para geração e consistência de conteúdo
-description: Defina as diretrizes da marca para a criação consistente do conteúdo - mantenha a identidade visual, o alinhamento das mensagens e a voz autêntica no Journey Optimizer B2B edition.
+description: Defina as diretrizes da marca para a criação consistente do conteúdo - mantenha a identidade visual, o alinhamento das mensagens e a voz autêntica no Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+autotag-review: 2026-03-30T21:50:39.165Z
+TQID: 'https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T21:50:39.165Z
-TQID: https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '868'
 ht-degree: 12%
-
 ---
-
 # Use marcas para geração de conteúdo e consistência {#brands}
 
 >[!CONTEXTUALHELP]
@@ -60,9 +68,9 @@ Sua organização pode obter valor significativo usando uma marca na criação e
 >
 >No momento, esse recurso está disponível como um beta público.
 >
->É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
+>É necessário um [contrato de usuário](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para que você possa usar recursos habilitados por IA no Adobe Journey Optimizer B2B Edition. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Uma marca definida fornece a _fonte da verdade_ para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. Para habilitar a criação de conteúdo na marca no Journey Optimizer B2B edition, conclua estas tarefas:
+Uma marca definida fornece a _fonte da verdade_ para sua equipe criativa usar ao criar qualquer conteúdo visual ou escrito. Quando essas diretrizes forem compiladas e os ativos da marca forem compartilhados, qualquer membro da equipe ou colaborador poderá criar conteúdo sobre a marca para seu produto. Para habilitar a criação de conteúdo na marca no Journey Optimizer B2B Edition, conclua estas tarefas:
 
 1. Prepare a definição da sua marca.
 
@@ -72,7 +80,7 @@ Uma marca definida fornece a _fonte da verdade_ para sua equipe criativa usar ao
 
 1. Combine essas informações em um ou mais arquivos do PDF.
 
-1. Use o arquivo do PDF para [criar a marca](./brands-manage-create.md#create-and-define-a-brand) no Journey Optimizer B2B edition.
+1. Use o arquivo do PDF para [criar a marca](./brands-manage-create.md#create-and-define-a-brand) no Journey Optimizer B2B Edition.
 
 1. Quando estiver pronto para uso, [publique a marca](./brands-manage-create.md#publish-the-brand).
 
@@ -85,7 +93,7 @@ Uma marca definida fornece a _fonte da verdade_ para sua equipe criativa usar ao
 
 ## Permissões relacionadas à marca
 
-Os administradores de produtos podem habilitar o acesso aos recursos de gerenciamento de marcas e alinhamento de marcas atribuindo o **[!UICONTROL Gerenciar kit de marcas]** ou as **[!UICONTROL Habilitar assistente de IA]** permissões de recursos por meio da interface de usuário de _Permissões_ no Adobe Experience Cloud.
+Os administradores de produtos podem habilitar o acesso aos recursos de gerenciamento de marcas e alinhamento de marcas atribuindo o **[!UICONTROL Kit de gerenciamento de marcas]** ou as **[!UICONTROL Permissões para habilitar o assistente de IA]** por meio da interface do usuário de _Permissões_ na Adobe Experience Cloud.
 
 1. No aplicativo Permissões, vá para a guia **[!UICONTROL Funções]** e selecione a [função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} desejada.
 
