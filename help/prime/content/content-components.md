@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: '2840'
 ht-degree: 7%
-
 ---
-
 # Componentes do conteúdo {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -457,11 +463,11 @@ No painel direito, com a guia _[!UICONTROL Estilos]_ selecionada, expanda a seç
 
 * **[!UICONTROL Largura]** - Use o botão de alternância para definir a largura por pixels ou porcentagem.
 
-   * Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina o tamanho do elemento com base na caixa de conteúdo do bloco, o que exclui o preenchimento e as bordas. Por exemplo, um valor de 50 define a largura do elemento como 50% da largura do conteúdo do bloco.
+  * Para uma largura de porcentagem, use o controle deslizante para definir o valor percentual. A porcentagem determina o tamanho do elemento com base na caixa de conteúdo do bloco, o que exclui o preenchimento e as bordas. Por exemplo, um valor de 50 define a largura do elemento como 50% da largura do conteúdo do bloco.
 
   ![Definir estilo de linha para um componente divisor](../../user/content/assets/component-divider-line-options.png){width="250"}
 
-   * Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a largura do elemento de acordo com seu conteúdo.
+  * Para uma largura baseada em pixels, clique nos ícones de seta para cima e para baixo para aumentar ou diminuir o número de pixels. Um valor vazio (Automático) é o padrão e dimensiona a largura do elemento de acordo com seu conteúdo.
 
 * **[!UICONTROL Estilo]** - Escolha um valor na lista de valores CSS `line-style` padrão, como _Sólido_, _Pontilhado_ e _Tracejado_.
 
@@ -573,9 +579,9 @@ Escolha um método para adicionar o ativo de imagem:
 
   Há ferramentas disponíveis para ajudar a localizar o ativo necessário:
 
-   * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
+  * Clique no ícone _Filtro_ na parte superior esquerda para filtrar os itens exibidos de acordo com seus critérios.
 
-   * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
+  * Digite texto no campo _Pesquisa_ para filtrar os itens exibidos para uma correspondência do nome do ativo.
 
 * **[!UICONTROL Importar mídia]** - Escolha este tipo para selecionar um arquivo do seu sistema e importá-lo para a biblioteca de ativos [!DNL Journey Optimizer B2B Prime].
 

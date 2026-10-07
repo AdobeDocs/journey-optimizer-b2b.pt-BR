@@ -4,31 +4,42 @@ description: Configure opções do Marketo Engage para delivery de email B2B do 
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: '1321'
 ht-degree: 70%
-
 ---
-
 # Configuração de email
 
 Para oferecer suporte à infraestrutura de delivery de email fornecida pela instância do Marketo Engage anexada, defina as seguintes opções de email. Um administrador de produto do Marketo Engage pode definir essas configurações navegando até a área **[!UICONTROL Administrador]** na instância do Marketo Engage e selecionando **[!UICONTROL Email]**.
@@ -178,9 +189,9 @@ A atividade de bot de email, também chamada de interações não humanas (NHI),
 
 * _&#x200B;**[!UICONTROL Corresponder com a Lista de bot IAB]**&#x200B;_ - Atividades que correspondem a qualquer item na [Lista de bot do Interative Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente do usuário/endereço IP) são marcadas como bots.
 * _&#x200B;**[!UICONTROL Corresponder com Padrão de Proximidade]**&#x200B;_ - Duas ou mais atividades que ocorrem ao mesmo tempo (em menos de um segundo) são identificadas como bots. Os atributos considerados durante a comparação são:
-   * ID do lead (deve ser o mesmo)
-   * Ativo de email (deve ser o mesmo)
-   * Clique em links ou e-mail aberto
+  * ID do lead (deve ser o mesmo)
+  * Ativo de email (deve ser o mesmo)
+  * Clique em links ou e-mail aberto
 
 Para atividades de clique em links de email e abertura de email, os atributos são preenchidos com os seguintes valores:
 

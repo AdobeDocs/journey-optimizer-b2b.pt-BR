@@ -4,26 +4,36 @@ description: Defina configurações de delivery de email, limites de comunicaç�
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # Configurações de canal de email
 
 O Adobe Journey Optimizer B2B edition aproveita as funções de canal e o rastreamento de eventos no Marketo Engage. Os administradores devem garantir que as configurações de entrega e rastreamento estejam em vigor para habilitar a entrega por canal para profissionais de marketing. Para obter informações sobre os protocolos necessários para entrega e rastreamento de email por meio do Marketo Engage, consulte [Protocolos para rastreamento e entrega de email](../start/email-protocols.md).
@@ -195,10 +205,10 @@ O Marketo Engage usa dois métodos para confirmar a atividade do bot:
 
 * **Corresponder ao Padrão de Proximidade** - Quando duas ou mais atividades ocorrem ao mesmo tempo (em um segundo), elas são identificadas como bots. Esse método considera os seguintes atributos para comparação:
 
-   * ID do lead (deve ser o mesmo)
-   * Ativo de email (deve ser o mesmo)
-   * Clique em links ou e-mail aberto
-   * Diferença de tempo (deve ser menor que um segundo)
+  * ID do lead (deve ser o mesmo)
+  * Ativo de email (deve ser o mesmo)
+  * Clique em links ou e-mail aberto
+  * Diferença de tempo (deve ser menor que um segundo)
 
 Para atividades de clique em links de email e abertura de email, novos atributos são preenchidos com os seguintes valores:
 

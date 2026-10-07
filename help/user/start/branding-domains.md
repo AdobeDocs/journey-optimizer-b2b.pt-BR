@@ -4,25 +4,31 @@ description: Configure os domínios de marca para que cada uma das marcas tenha 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 75%
-
 ---
-
 # Configurar domínios de marca
 
 Um domínio de marca no Marketo Engage é um subdomínio personalizado (como `links.yourcompany.com`) usado para reescrever links e rastrear cliques em email e garantir que eles reflitam sua marca em vez de um domínio genérico. Cada domínio de marca atua como um domínio de rastreamento de cliques para aprimorar a capacidade de entrega e a confiança, correspondendo seus links de email e de página de aterrissagem ao seu domínio.
@@ -84,7 +90,7 @@ A primeira etapa ao trabalhar com domínios de marca é editar o domínio de mar
 
 ## Definir um domínio adicional
 
-Para oferecer suporte a várias marcas no seu ambiente Journey Optimizer B2B edition, em que cada uma tem seus próprios links de rastreamento de marca, é possível adicionar outro domínio de marca depois de editar o domínio padrão. Ao adicionar um domínio, você tem as seguintes opções:
+Para oferecer suporte a várias marcas no seu ambiente do Journey Optimizer B2B Edition, em que cada uma tem seus próprios links de rastreamento de marca, é possível adicionar outro domínio de marca depois de editar o domínio padrão. Ao adicionar um domínio, você tem as seguintes opções:
 
 >* _Tornar Domínio Primário_: Tornar este o domínio primário do espaço de trabalho. Ao selecionar essa opção, todos os emails não enviados existentes são definidos como o domínio primário padrão e todos os emails recém-criados são automaticamente padronizados para esse domínio primário. Os profissionais de marketing podem escolher um domínio alternativo de marca onde necessário.
 >

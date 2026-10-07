@@ -1,28 +1,35 @@
 ---
 title: Modo HTML avançado para design de modelo de email
-description: Use o modo HTML avançado para visualizar e editar diretamente a fonte de HTML bruta do seu conteúdo de modelo de email no espaço de design de email no Journey Optimizer B2B edition.
+description: Use o modo HTML avançado para visualizar e editar diretamente a fonte de HTML bruta do seu conteúdo de modelo de email no espaço de design de email no Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+    internal-label: Experienced
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # Modo HTML avançado para design de modelo de email
 
 O _modo HTML avançado_ fornece um modo de exibição que permite aos usuários experientes visualizar e editar diretamente o código fonte bruto para o conteúdo do modelo de email. Esse modo é ideal quando você deseja inserir expressões sofisticadas, como lógica condicional, diretamente na origem. Também é útil para fazer ajustes estruturais que vão além do que as ferramentas de design visual expõem.

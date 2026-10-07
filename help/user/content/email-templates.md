@@ -1,29 +1,38 @@
 ---
 title: Modelos de email
-description: Crie modelos de email reutilizáveis do zero, da importação do HTML ou de designs existentes - gerencie modelos para jornadas de conta no Journey Optimizer B2B edition.
+description: Crie modelos de email reutilizáveis do zero, da importação do HTML ou de designs existentes - gerencie modelos para jornadas de conta no Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
+autotag-review: 2026-03-30T22:17:40.055Z
+TQID: 'https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:17:40.055Z
-TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: '1522'
 ht-degree: 0%
-
 ---
-
 # Modelos de email
 
 Para acelerar e melhorar o processo de design, você pode criar modelos de email independentes para reutilizar o conteúdo personalizado nas jornadas de conta do [!DNL Adobe Journey Optimizer B2B Edition]. Por meio de modelos, os membros da equipe orientados a conteúdo podem trabalhar no conteúdo de email fora do jornada. Os estrategistas de marketing podem então reutilizar e adaptar esses templates independentes dentro de suas jornadas. Por exemplo, um membro da equipe gerencia somente o conteúdo, sem acesso às jornadas da conta. No entanto, eles podem criar um template de email que os profissionais de marketing podem selecionar como ponto de partida para comunicações por email e personalizá-lo de acordo com os requisitos da jornada.
@@ -96,7 +105,7 @@ Use o editor de conteúdo visual para definir a estrutura do conteúdo de email.
 
 ### Importar HTML
 
-O Adobe Journey Optimizer B2B edition permite importar conteúdo existente do HTML para criar seus modelos de email.
+O Adobe Journey Optimizer B2B Edition permite importar conteúdo existente do HTML para criar seus modelos de email.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -134,7 +143,7 @@ Na página de detalhes dos modelos de email, clique na guia **[!UICONTROL Usado 
 
 ![Clique na guia Usado por para verificar o uso do modelo](./assets/template-details-used-by.png){width="400"}
 
-Os emails no Journey Optimizer B2B edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
+Os emails no Journey Optimizer B2B Edition são incorporados e criados no jornada, portanto, a jornada principal do email que usa o modelo é exibida nas referências.
 
 * Ao clicar no link, você é direcionado ao email de jornada correspondente onde o template de email é usado.
 

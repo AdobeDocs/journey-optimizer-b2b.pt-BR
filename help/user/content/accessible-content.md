@@ -1,35 +1,46 @@
 ---
 title: Crie conteúdo acessível
-description: Saiba como criar conteúdo acessível para seus emails e landing pages no Journey Optimizer B2B edition
+description: Saiba como criar conteúdo acessível para seus emails e landing pages no Journey Optimizer B2B Edition
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: email, design, acessibilidade
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 1%
-
 ---
-
 # Crie conteúdo acessível {#accessible-content}
 
 A [Lei Europeia da Acessibilidade](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} é uma diretiva destinada a reforçar o mercado interno de produtos e serviços acessíveis, eliminando os obstáculos causados pelas diferentes regras nacionais entre os Estados-Membros.
@@ -62,8 +73,8 @@ Para fontes e texto, siga estas diretrizes:
 
 ### Contraste de cores
 
-* Mantenha uma taxa de contraste de pelo menos 4,5:1 entre o texto e o plano de fundo.
-* Para textos grandes (≥ 24px ou bold 18px), verifique se há pelo menos um contraste de 3:1.
+* Mantenha uma relação de contraste de pelo menos 4.5:1 entre o texto e o plano de fundo.
+* Para textos grandes (≥ 24px ou bold 18px), garanta pelo menos um contraste de 3:1.
 * Evite texto cinza-claro ou pastel em planos de fundo brancos.
 * Não confie apenas na cor para transmitir significado, mas em vez disso use sublinhados, ícones etc.
 
@@ -304,27 +315,27 @@ Os leitores de tela leem:
 Para páginas de aterrissagem, o fornecimento de navegação pelo teclado e suporte de foco permite que as pessoas que não podem usar um mouse acessem e interajam com o conteúdo. Também melhora a usabilidade geral, oferecendo a todos os usuários uma maneira clara e consistente de percorrer as informações.
 
 * Navegação e foco do teclado
-   * Verifique se todos os elementos interativos (como botões, caixas de seleção e links) têm `tabindex="0"` para que sejam incluídos na ordem de tabulação natural.
-   * Permitir a navegação usando a tabulação e as teclas de seta (^ ↓ ← →), que deve destacar visivelmente o elemento focado.
+  * Verifique se todos os elementos interativos (como botões, caixas de seleção e links) têm `tabindex="0"` para que sejam incluídos na ordem de tabulação natural.
+  * Permitir a navegação usando a tabulação e as teclas de seta (^ ↓ ← →), que deve destacar visivelmente o elemento focado.
 * Estilo de foco personalizado
-   * Aplique estilos claros e distinguíveis para focalizar elementos acionáveis:
-     +++Exemplo (CSS)
+  * Aplique estilos claros e distinguíveis para focalizar elementos acionáveis:
+    +++Exemplo (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * Certifique-se de que os indicadores de foco atendam aos padrões de aparência de foco da WCAG 2.2, incluindo:
-      * Área mínima: 2 contornos de espessura de pixel CSS.
-      * Taxa de contraste: ≥ 3:1 entre o estado focalizado e desfocado.
+  * Certifique-se de que os indicadores de foco atendam aos padrões de aparência de foco da WCAG 2.2, incluindo:
+    * Área mínima: 2 contornos de espessura de pixel CSS.
+    * Relação de contraste: ≥ 3:1 entre estado focado e desfocado.
 
 * Suporte para ativação de teclado
-   * Verifique se as caixas de seleção e os botões respondem às teclas Enter e Space.
-   * Valide a interação usando apenas o teclado:
-      * Enter ou Space deve alternar as caixas de seleção.
-      * Enter ou Space deve acionar os botões.
+  * Verifique se as caixas de seleção e os botões respondem às teclas Enter e Space.
+  * Valide a interação usando apenas o teclado:
+    * Enter ou Space deve alternar as caixas de seleção.
+    * Enter ou Space deve acionar os botões.

@@ -1,31 +1,35 @@
 ---
 title: Nós de público-alvo de pessoa
-description: Configure nós de público-alvo de pessoas com segmentos ou públicos-alvo baseados em eventos para definir pontos de entrada de jornada de pessoas para a orquestração direcionada no Journey Optimizer B2B edition.
+description: Configure nós de público-alvo de pessoas com segmentos ou públicos-alvo baseados em eventos para definir pontos de entrada de jornada de pessoas para a orquestração direcionada no Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 1%
-
+source-wordcount: '641'
+ht-degree: 0%
 ---
-
 # Nós de jornada de público-alvo de pessoa
 
 O nó _person audience_ especifica quais perfis de pessoa entram na jornada. Quando você [cria uma jornada de pessoa](./create-publish-journey.md#create-a-journey), a jornada sempre começa com um nó de público-alvo de pessoa que define sua entrada. O nó de público-alvo pessoa pode ter um dos dois tipos de entrada de público-alvo: segmentos de CDP ou associação baseada em eventos. As definições de segmento e público-alvo baseadas em eventos não podem ser combinadas.
@@ -36,13 +40,9 @@ Use uma das seguintes opções de entrada para o nó de jornada do público-alvo
 
 * **Público-alvo do evento** - Use eventos qualificados para definir o público-alvo. Esses eventos são definidos na configuração do nó e devem usar [eventos XDM definidos nas configurações de administração](../admin/configure-aep-events.md). Até 10 eventos são compatíveis com a associação de público-alvo com base em eventos. Um perfil é qualificado imediatamente para a jornada após o primeiro evento correspondente que seu perfil realiza.
 
-  >[!NOTE]
-  >
-  >Eventos não podem ser combinados com atributos de perfil para restringir as definições de público. Melhorias para lidar com essa limitação estão planejadas para versões futuras.
-
 ## Ingestão de perfil
 
-No Journey Optimizer B2B edition, uma tarefa de assimilação de público-alvo noturna sincroniza perfis com o Experience Platform. As jornadas de pessoas baseadas em eventos podem qualificar perfis que não estão em um público-alvo usado pelo Journey Optimizer B2B edition, mas esses perfis permanecem obsoletos, a menos que se unam a um público-alvo usado por uma jornada de pessoas, jornada de conta ou grupo de compras. Se um perfil for assimilado e adicionado posteriormente a um público-alvo, a compilação de perfil será executada e o perfil permanecerá sincronizado com o Experience Platform. As melhorias na sincronização de dados deste perfil estão planejadas para versões futuras.
+No Journey Optimizer B2B Edition, uma tarefa de assimilação de público-alvo noturna sincroniza perfis com o Experience Platform. As jornadas de pessoas baseadas em eventos podem qualificar perfis que não estão em um público-alvo usado pelo Journey Optimizer B2B Edition, mas esses perfis permanecem obsoletos, a menos que se unam a um público-alvo usado por uma jornada de pessoas, jornada de conta ou grupo de compras. Se um perfil for assimilado e adicionado posteriormente a um público-alvo, a compilação de perfil será executada e o perfil permanecerá sincronizado com o Experience Platform. As melhorias na sincronização de dados deste perfil estão planejadas para versões futuras.
 
 Um perfil recém-criado assimilado por uma jornada de pessoa com base em eventos pode não ter as informações de perfil atualizadas no momento da assimilação. Por exemplo, se um perfil for criado por meio de um evento de preenchimento de formulário, os dados enviados talvez não sejam sincronizados com o perfil quando a jornada o assimilar. O resultado pode ser dados incompletos para personalização (como no conteúdo de email). As melhorias na sincronização de dados do evento deste perfil estão planejadas para versões futuras.
 
@@ -50,7 +50,7 @@ As jornadas de pessoas baseadas em eventos podem qualificar perfis que ainda sã
 
 >[!IMPORTANT]
 >
->Durante o programa beta atual, o uso ideal das jornadas de pessoas é qualificar apenas os perfis que você também está direcionando nas jornadas de conta e nas definições de grupo de compras. Esse uso garante um perfil completo que permanece sincronizado com o Experience Platform.
+>O uso ideal das jornadas de pessoa é qualificar apenas os perfis que você também está direcionando nas jornadas de conta e nas definições de grupo de compra. Esse uso garante um perfil completo que permanece sincronizado com o Experience Platform.
 
 ## Definir o público do nó de público-alvo pessoa
 

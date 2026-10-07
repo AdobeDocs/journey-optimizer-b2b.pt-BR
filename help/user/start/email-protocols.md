@@ -4,27 +4,37 @@ description: 'Configurar protocolos de entrega de email: configure DNS, SPF, DKI
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
+autotag-review: 2026-03-30T23:06:01.153Z
+TQID: 'https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T23:06:01.153Z
-TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 79%
-
 ---
-
 # Configuração para rastreamento e entrega de email
 
 O Adobe Journey Optimizer B2B edition aproveita as funções de canal de email e o rastreamento de eventos na instância anexada do Marketo Engage. Algumas organizações usam configurações restritivas de firewall ou servidor proxy. Para garantir que o delivery de email funcione conforme esperado para essas organizações, um administrador do sistema deve adicionar determinados domínios e intervalos de endereços IP ao incluo na lista de permissões.
@@ -222,11 +232,11 @@ Se você enviar emails pelo Marketo Engage por um IP dedicado e não tiver imple
 
 >[!BEGINSHADEBOX]
 
-**Migrando IPs dedicados para o Journey Optimizer B2B edition**
+**Migrando IPs dedicados para o Journey Optimizer B2B Edition**
 
 Se você tiver IPs dedicados, deverá ter a nova instância do Journey Optimizer B2B edition criada na mesma região que a instância existente do Marketo Engage. Se a nova instância estiver em uma região diferente, não será possível compartilhar o IP existente. Se a região corresponder, abra um tíquete com o [Suporte da Adobe](https://experienceleague.adobe.com/home?lang=pt-br&support-tab=home#support){target="_blank"} e solicite que seu IP existente e seus grupos de associação sejam compartilhados com a nova instância. Forneça o prefixo Marketo Engage (Munchkin ID) e o novo prefixo Journey Optimizer B2B edition (Munchkin ID).
 
-Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre as instâncias do Marketo Engage e do Journey Optimizer B2B edition, ambas as instâncias os usam simultaneamente.
+Com essa solicitação, o Adobe replica os mesmos IPs, grupos de ligação e domínios de caminho de retorno configurados como sua instância do Marketo Engage existente. Quando os IPs são compartilhados entre as instâncias do Marketo Engage e do Journey Optimizer B2B Edition, ambas as instâncias os usam simultaneamente.
 
 >[!ENDSHADEBOX]
 

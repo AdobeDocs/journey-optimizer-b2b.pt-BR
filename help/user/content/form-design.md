@@ -1,6 +1,6 @@
 ---
 title: Design de formulário
-description: Crie formulários com tipos de campo, validação, estilo e atributos de esquema XDM para a coleta de dados de negócios no Journey Optimizer B2B edition.
+description: Crie formulários com tipos de campo, validação, estilo e atributos de esquema XDM para a coleta de dados de negócios no Journey Optimizer B2B Edition.
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,25 +8,35 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 1%
-
 ---
-
 # Design de formulário
 
 Depois que você [cria um formulário](./forms.md#create-forms), o espaço de design visual abre um rascunho com uma definição de formulário básica padrão. No painel _[!UICONTROL Resumo]_ à direita, clique em **[!UICONTROL Editar formulário]** e use o espaço de design visual para definir o estilo do formulário e os componentes do campo.
@@ -75,7 +85,7 @@ Os campos de formulário são usados para capturar dados de perfil de pessoas qu
    | ---------- | ----- |
    | **[!UICONTROL Caixa de seleção]** | Use este tipo para que os visitantes possam selecionar um valor de _true_ (marcado) ou _false_ (desmarcado). |
    | **[!UICONTROL Grupo de caixas de seleção]** | Use este tipo para que os visitantes possam selecionar um valor de _true_ (marcado) ou _false_ (desmarcado) para vários itens. |
-   | **[!UICONTROL Moeda]** | Use esse tipo para permitir um campo flutuante que represente o tipo de moeda padrão selecionado para a instância do Journey Optimizer B2B edition. |
+   | **[!UICONTROL Moeda]** | Use esse tipo para permitir um campo flutuante que represente o tipo de moeda padrão selecionado para a instância do Journey Optimizer B2B Edition. |
    | **[!UICONTROL Data]** | Use esse tipo para restringir a entrada a um formato de data e fornecer um seletor de calendário no campo. |
    | **[!UICONTROL Duplo]** | Variável dupla (ponto flutuante de precisão dupla) armazenada como números de ponto flutuante IEEE de 64 bits (8 bytes). |
    | **[!UICONTROL Email]** | Use esse tipo para restringir a entrada em um formato de endereço de email. |

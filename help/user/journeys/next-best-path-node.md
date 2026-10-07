@@ -1,29 +1,37 @@
 ---
 title: Próximo nó de melhor caminho
-description: Use a decisão orientada por IA para direcionar as pessoas ao longo do caminho de jornada mais relevante com base em prompts de linguagem natural, dados comportamentais e contexto de perfil em tempo real no Journey Optimizer B2B edition.
+description: Use a decisão orientada por IA para direcionar as pessoas ao longo do caminho de jornada mais relevante com base em prompts de linguagem natural, dados comportamentais e contexto de perfil em tempo real no Journey Optimizer B2B Edition.
 feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Behavioral data
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1913
+source-wordcount: '1913'
 ht-degree: 0%
-
 ---
-
 # Próximo nó de melhor caminho
 
 O nó _Próximo melhor caminho_ traz a decisão de caminho dividido orientada por IA diretamente para a tela do jornada. Em vez de configurar condições de filtro em um nó [caminhos divididos](./split-merge-paths-nodes.md), descreva sua intenção em linguagem natural e permita que o sistema determine o caminho mais relevante para cada pessoa.

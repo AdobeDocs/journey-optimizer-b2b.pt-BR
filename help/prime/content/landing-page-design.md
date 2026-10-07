@@ -8,22 +8,29 @@ autotag-review: '2026-07-08T20:36:05.221Z'
 TQID: 'https://experienceleague.adobe.com/M8OA0CPihuuX5h9J-ZrGJOPHkHLwatX5VhBa8co4r4Y'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '568'
 ht-degree: 2%
-
 ---
-
 # Design da página de destino
 
 Depois de [criar uma página de aterrissagem](./landing-pages-create-publish.md#create-landing-page), use o espaço de design visual para criar os componentes estruturais e de conteúdo na sua página.
@@ -93,8 +100,8 @@ Aproveite as opções de exibição e validação de conteúdo disponíveis no e
 * Aumentar/diminuir o zoom do conteúdo nas opções de zoom predefinidas.
 
 * Alternar a exibição do conteúdo na área de trabalho, dispositivo móvel ou somente texto/texto sem formatação.
-   * Clique no ícone _Exibir_ para visualizar o conteúdo entre dispositivos.
-   * Selecione um dos dispositivos prontos para uso ou insira dimensões personalizadas para visualizar o conteúdo.
+  * Clique no ícone _Exibir_ para visualizar o conteúdo entre dispositivos.
+  * Selecione um dos dispositivos prontos para uso ou insira dimensões personalizadas para visualizar o conteúdo.
 
 ### Mais opções {#more-options}
 

@@ -2,13 +2,14 @@
 title: Mapeamento de persona
 description: Saiba como configurar o mapeamento de persona no Journey Optimizer B2B Prime. Mapeie atributos de pessoa para definir personas e use a Filtragem de persona derivada em listas de pessoas e jornadas de pessoas.
 badge: label="GA" type="informative" tooltip="Este recurso não estará disponível até a data de disponibilidade geral"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 1%
-
 ---
-
 # Mapeamento de personas
 
 <!-- not available until GA -->

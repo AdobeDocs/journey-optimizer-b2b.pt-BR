@@ -1,29 +1,36 @@
 ---
 title: Estágios de Grupo de Compras
-description: Crie modelos de estágio de grupo de compras personalizados com estágios de entrada, sucesso e falha para rastrear a progressão e acionar ações de jornada de conta no Journey Optimizer B2B edition.
+description: Crie modelos personalizados de estágio de grupo de compras com estágios de entrada, sucesso e falha para rastrear a progressão e acionar ações de jornada de conta no Journey Optimizer B2B Edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: 'https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: 2026-03-30T21:47:43.205Z
-TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Automated decisioning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2326'
 ht-degree: 2%
-
 ---
-
 # Estágios do grupo de compra
 
 Os estágios de grupo de compra são projetados para rastrear a progressão dos grupos de compra na conversão de oportunidades em clientes. Use este recurso para rastrear a progressão do grupo de compras e identificar as próximas melhores ações para membros do grupo de compras.
@@ -42,7 +49,7 @@ Você cria e configura um modelo de estágios de grupo de compras por:
 * Definição dos fluxos de transição
 * Designando os estágios de entrada e destino
 
-Há suporte para apenas um modelo; para planejar o modelo ideal, trabalhe com suas equipes de Marketing e Vendas antes de criá-lo e publicá-lo no Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Há suporte para apenas um modelo; para planejar o modelo ideal, trabalhe com suas equipes de Marketing e Vendas antes de criá-lo e publicá-lo no Journey Optimizer B2B Edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Ao criar o modelo de estágio de grupo de compra, ele estará automaticamente no status _Rascunho_ e não poderá ser excluído nem renomeado. Ele permanece nesse status à medida que você define os estágios e configura o fluxo de transição entre os estágios. Quando o modelo está em um status publicado (_Live_), ele não pode ser alterado.
 

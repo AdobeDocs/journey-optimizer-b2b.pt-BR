@@ -1,6 +1,6 @@
 ---
 title: Formulários
-description: Crie e gerencie formulários reutilizáveis para a coleta de dados corporativos - crie campos, defina páginas de agradecimento, publique e rastreie o uso no Journey Optimizer B2B edition.
+description: Crie e gerencie formulários reutilizáveis para a coleta de dados corporativos - crie campos, defina páginas de agradecimento, publique e rastreie o uso no Journey Optimizer B2B Edition.
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # Formulários
 
 Para capturar informações de visitantes de páginas da Web, crie formulários e adicione-os às suas páginas de aterrissagem. Um formulário é um conjunto de campos que os visitantes da página preenchem e enviam para obter algum tipo de conteúdo ou oferta, como um white paper, um webinário sob demanda ou uma avaliação gratuita.
@@ -35,7 +41,7 @@ A quantidade de informações que o formulário deve capturar depende do valor d
 >
 >Para que as equipes de marketing possam criar e usar formulários para capturar informações, um administrador deve definir uma ou mais predefinições de formulário. Para obter mais informações, consulte [_configurações do Forms_](../admin/configure-channels-forms.md).
 >
->A criação de formulários no Journey Optimizer B2B edition requer as [permissões](../admin/user-management.md#b2b-product-permissions) a seguir:
+>A criação de formulários no Journey Optimizer B2B Edition requer as [permissões](../admin/user-management.md#b2b-product-permissions) a seguir:
 >
 >* _[!UICONTROL Biblioteca Journey Optimizer]_ > _[!UICONTROL Ler B2C Forms]_ - Necessário para acessar e exibir formulários.
 >* _[!UICONTROL Biblioteca da Journey Optimizer]_ > _[!UICONTROL Gerenciar Forms B2C]_ - Necessário para criar, atualizar e excluir formulários.
@@ -43,7 +49,7 @@ A quantidade de informações que o formulário deve capturar depende do valor d
 
 ## Acessar e gerenciar formulários {#view-forms}
 
-Para acessar formulários no Journey Optimizer B2B edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Forms]**. Essa ação abre uma página de listagem que exibe todos os formulários criados na instância.
+Para acessar formulários no Journey Optimizer B2B Edition, vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Forms]**. Essa ação abre uma página de listagem que exibe todos os formulários criados na instância.
 
 ![Acessar a biblioteca de formulários](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -77,7 +83,7 @@ Na caixa de diálogo, selecione as colunas a serem exibidas e clique em **[!UICO
 
 ## Criar formulários {#create-forms}
 
-Há vários aspectos a serem considerados antes de começar a criar formulários reutilizáveis no Journey Optimizer B2B edition:
+Há vários aspectos a serem considerados antes de começar a criar formulários reutilizáveis no Journey Optimizer B2B Edition:
 
 * Determine quais formulários são necessários.
 
@@ -105,7 +111,7 @@ Há vários aspectos a serem considerados antes de começar a criar formulários
 >abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Criar uma predefinição de formulário"
 
-Você pode criar um formulário no Journey Optimizer B2B edition clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista do _[!UICONTROL Forms]_.
+Você pode criar um formulário no Journey Optimizer B2B Edition clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista _[!UICONTROL Forms]_.
 
 1. Na caixa de diálogo _[!UICONTROL Criar formulário]_, insira um **[!UICONTROL Nome]** útil (obrigatório) e a **[!UICONTROL Descrição]** (opcional).
 
@@ -149,7 +155,7 @@ No painel _[!UICONTROL Resumo]_ à direita, role até a seção **[!UICONTROL P�
 
 * **[!UICONTROL Permanecer na página]** - Escolha essa opção para manter o visitante na mesma página quando o formulário for enviado.
 
-* **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer página de aterrissagem do Journey Optimizer B2B edition como acompanhamento.
+* **[!UICONTROL Página de aterrissagem]** - Escolha essa opção para selecionar qualquer página de aterrissagem do Journey Optimizer B2B Edition como acompanhamento.
 
 * **[!UICONTROL URL Externa]** - Escolha esta opção para especificar qualquer URL como página de acompanhamento. Depois que o visitante envia o formulário, o navegador carrega o URL designado.
 
@@ -181,7 +187,7 @@ Saia da exibição a qualquer momento clicando na seta _Voltar_ na parte superio
 
 ## Exibir formulário usado por referências
 
-No painel _[!UICONTROL Resumo]_ à direita, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o formulário é usado atualmente no Journey Optimizer B2B edition, em páginas de aterrissagem e modelos de página de aterrissagem.
+No painel _[!UICONTROL Resumo]_ à direita, clique na guia **[!UICONTROL Usado por]** para exibir detalhes sobre onde o formulário é usado atualmente no Journey Optimizer B2B Edition, em páginas de aterrissagem e modelos de páginas de aterrissagem.
 
 >[!IMPORTANT]
 >

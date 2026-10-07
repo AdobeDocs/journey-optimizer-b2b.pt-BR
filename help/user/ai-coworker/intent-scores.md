@@ -1,35 +1,47 @@
 ---
 title: Pontuações de intenção
-description: Entenda como o Journey Optimizer B2B edition calcula as pontuações de intenção a partir do envolvimento da pessoa e da relevância do conteúdo e como as pontuações são agregadas às contas.
+description: Entenda como o Journey Optimizer B2B Edition calcula as pontuações de intenção a partir do envolvimento da pessoa e da relevância do conteúdo e como as pontuações são agregadas às contas.
 feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+    internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Machine learning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 
 # Pontuações de intenção {#intent-scores}
 
-Uma pontuação de intenção mede o interesse de uma pessoa ou conta em uma palavra-chave, produto ou categoria de produto. O Adobe Journey Optimizer B2B edition calcula a pontuação usando aprendizagem de máquina que mede a similaridade de significado, em vez de regras manuais ou um sistema de ponto fixo. Cada pontuação é normalizada de 0 a 1, com números mais altos indicando intenção mais forte.
+Uma pontuação de intenção mede o interesse de uma pessoa ou conta em uma palavra-chave, produto ou categoria de produto. O Adobe Journey Optimizer B2B Edition calcula a pontuação usando aprendizagem de máquina que mede a similaridade de significado, em vez de regras manuais ou um sistema de ponto fixo. Cada pontuação é normalizada de 0 a 1, com números mais altos indicando intenção mais forte.
 
 A relevância do conteúdo é atualizada aproximadamente a cada 12 horas e as pontuações de intenção são recalculadas diariamente. As pontuações são agregadas de palavra-chave a produto e de pessoa a conta. As pontuações de intenção aparecem no [Painel Inteligente](../dashboards/intelligent-dashboard.md) e nas [páginas de detalhes da conta](../accounts/account-details.md), [_de detalhes do grupo de compras_](../buying-groups/buying-group-details.md) e [de detalhes da pessoa](../accounts/person-details.md).
 
@@ -55,7 +67,7 @@ Você pode revisar e atualizar mapeamentos de taxonomia a qualquer momento na p�
 
 ### Relevância do conteúdo {#content-relevance}
 
-O Journey Optimizer B2B edition traduz o conteúdo e a taxonomia em uma representação matemática de seu significado e, em seguida, usa um modelo de similaridade para medir o alinhamento. O conteúdo que corresponde estreitamente a uma palavra-chave ou produto recebe uma pontuação de alta relevância. O conteúdo não relacionado recebe uma pontuação baixa.
+O Journey Optimizer B2B Edition traduz o conteúdo e a taxonomia em uma representação matemática de seu significado e, em seguida, usa um modelo de similaridade para medir o alinhamento. O conteúdo que corresponde estreitamente a uma palavra-chave ou produto recebe uma pontuação de alta relevância. O conteúdo não relacionado recebe uma pontuação baixa.
 
 O modelo de similaridade é pré-treinado em linguagem geral, portanto, nenhum treinamento específico do cliente é necessário para começar.
 
@@ -75,7 +87,7 @@ Cada ponto de contato significativo de uma pessoa é capturado à medida que aco
 
 ### Extração de conteúdo {#content-extraction}
 
-Antes que o conteúdo possa ser pontuado para relevância, o Journey Optimizer B2B edition extrai e lê seu texto.
+Antes que o conteúdo possa ser pontuado para relevância, o Journey Optimizer B2B Edition extrai e lê seu texto.
 
 * Para cada novo conteúdo, o sistema extrai o texto subjacente, quer ele esteja em uma página da Web ou em um e-mail.
 * Alguns tipos de atividades, como preenchimentos de formulários, já apresentam seu próprio conteúdo descritivo e ignoram essa etapa.

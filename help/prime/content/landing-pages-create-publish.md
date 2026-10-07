@@ -8,21 +8,27 @@ autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1562
+source-wordcount: '1562'
 ht-degree: 11%
-
 ---
-
 # Criar e publicar páginas de destino
 
 Como profissional de marketing, você pode definir e publicar páginas que deseja incorporar em suas jornadas. Ao adicionar uma nova página de aterrissagem, você configura a página principal e quaisquer subpáginas, projeta o conteúdo, testa-o e o publica.
@@ -199,15 +205,15 @@ Há dois tipos de alertas:
 
 * **_Avisos_** que se referem a recomendações e práticas recomendadas, como:
 
-   * `Placeholder links are present in the landing page body`: não se esqueça de substituir os espaços reservados por links válidos.
+  * `Placeholder links are present in the landing page body`: não se esqueça de substituir os espaços reservados por links válidos.
 
-   * `Text version of HTML is empty`: não se esqueça de definir uma versão de texto do corpo da página, que é usada quando o conteúdo do HTML não pode ser exibido.
+  * `Text version of HTML is empty`: não se esqueça de definir uma versão de texto do corpo da página, que é usada quando o conteúdo do HTML não pode ser exibido.
 
-   * `Empty link is present in page body`: verifique se todos os links na sua página estão corretos.
+  * `Empty link is present in page body`: verifique se todos os links na sua página estão corretos.
 
 * **_Erros_** que impedem que você teste ou ative a jornada enquanto não forem resolvidos, como:
 
-   * `The landing page content is empty`: o conteúdo da página é obrigatório.
+  * `The landing page content is empty`: o conteúdo da página é obrigatório.
 
 ## Testar a página de destino {#test-landing-page}
 
