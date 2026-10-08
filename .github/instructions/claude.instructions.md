@@ -745,7 +745,7 @@ NÃO use cores sozinhas para transmitir informações. Sempre emparelhar cor com
 - Imagens que não devem ser localizadas ficam em uma subpasta `do-not-localize/`.
 - Os arquivos de índice (`TOC.md`) definem a estrutura de navegação à esquerda. Atualize-as ao adicionar ou remover páginas.
 - Use links relativos à raiz (`/help/...`) para referências cruzadas entre documentos neste repositório.
-- Para links para documentos fora deste repositório, use URLs `https://experienceleague.adobe.com/...` absolutas.
+- Para links para documentos fora deste repositório, use URLs `https://experienceleague.adobe.com/pt-br...` absolutas.
 - Nomeação da ramificação: nenhum prefixo de nome de usuário. Use o número do tíquete Jira e uma descrição em caixa de título (por exemplo, `PLAT-12345-Update-Guardrail-Limits`). Nomeie a ramificação e o título da PR usando o mesmo formato.
 - Os componentes discretos (cabeçalhos, blocos de código cercados, listas) devem estar entre linhas em branco.
 - Somente um H1 (`#`) por documento. A primeira linha após o material de frente deve ser o H1.
@@ -832,7 +832,7 @@ Use a ferramenta MCP correta com base no tipo de recurso:
 - **Referência das marcas de localização**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Sintaxe de Markdown do Experience League**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Folha de características do Markdown**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **Referência de estilo das notas de versão**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **Referência de estilo das notas de versão**: https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest
 
 **Clone local:**
 - **Repositório do guia de criação:** use um check-out disponível do guia de criação da Adobe Experience League ou de sua documentação pública.
