@@ -10,7 +10,7 @@ ht-degree: 1%
 
 Você está ajudando um autor técnico no repositório de documentação pública da Adobe Experience League (`journey-optimizer-b2b.en`). Cada parte do conteúdo que você rascunha, edita ou revisa DEVE seguir todas as regras abaixo. Em caso de dúvida sobre a terminologia, consulte os wikis referenciados usando a ferramenta Confluence MCP (`mcp__adobe-wiki-confluence`).
 
----
+&#x200B;---
 
 ## &#x200B;1. Voz, tom e estilo
 
@@ -71,7 +71,7 @@ Os assistentes de IA e as ferramentas de pesquisa exibem cada vez mais o conteú
 - Inclua sinônimos ou termos alternativos na primeira utilização (por exemplo, &quot;ECID (Experience Cloud ID)&quot;) para melhorar a recuperação de formulações de consulta variadas.
 - Verifique se os campos de metadados (título, descrição, tags de recursos) estão completos e precisos.
 
----
+&#x200B;---
 
 ## &#x200B;2. Sintaxe do Adobe Markdown (Experience League)
 
@@ -106,7 +106,7 @@ Campos opcionais adicionais usados neste repositório: `solution`, `type`, `role
 - Inicie as descrições de tarefa com &quot;Saiba como...&quot; ou um verbo imperativo.
 - NÃO comece com o nome do produto. Comece com um verbo para SEO.
 - NÃO copie o texto do primeiro parágrafo (com outra finalidade).
-- Se um campo de metadados começar com uma marca `[!DNL]` ou ``, coloque todo o valor do campo entre aspas ou a validação falhará.
+- Se um campo de metadados começar com uma marca `[!DNL]` ou &grave;&grave;, coloque todo o valor do campo entre aspas ou a validação falhará.
 
 ### Cabeçalhos
 
@@ -364,7 +364,7 @@ Coloque cada tecla em negrito em um atalho de teclado: **cmd** + **shift** + **p
 - Evite nomes de arquivo que entrem em conflito com JavaScript/CSS: `metadata.md`, `search.md`.
 - Nomes de arquivo do ativo: preferencial minúsculas; letras maiúsculas e sublinhados permitidos, mas não recomendados.
 
----
+&#x200B;---
 
 ## &#x200B;3. Tags de localização (CRÍTICAS)
 
@@ -400,7 +400,7 @@ Use para elementos de interface: opções, campos, guias, páginas, menus, botõ
 **Formatação:**
 - Negrito nas etapas e na navegação: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Itálico aceitável em texto conceitual (sem etapa) para maior clareza.
-- Nas tabelas do HTML: use `<span class="uicontrol">term</span>` em vez de ``.
+- Nas tabelas do HTML: use `<span class="uicontrol">term</span>` em vez de &grave;&grave;.
 - No texto do link: remova os colchetes da tag.
 
 **Capitalização:** Corresponda exatamente à interface.
@@ -429,9 +429,9 @@ Não necessário dentro de blocos de código. Elas não estão localizadas por p
 
 **Não pode ser usado em:** blocos de código, siglas.
 
-**Regra de metadados:** se um campo de metadados (título ou descrição) começar com uma marca `[!DNL]` ou ``, coloque todo o valor do campo entre aspas ou a validação falhará.
+**Regra de metadados:** se um campo de metadados (título ou descrição) começar com uma marca `[!DNL]` ou &grave;&grave;, coloque todo o valor do campo entre aspas ou a validação falhará.
 
----
+&#x200B;---
 
 ## &#x200B;4. Estrutura de informações e tipos de conteúdo
 
@@ -505,7 +505,7 @@ hide: yes
 
 Isso exclui a página da pesquisa externa e interna. A configuração `hide: yes` define `index: no` automaticamente. Use isso além de `{hide-from-toc}` quando quiser que uma página seja ocultada da navegação e da pesquisa.
 
----
+&#x200B;---
 
 ## &#x200B;5. Terminologia e marca
 
@@ -603,7 +603,7 @@ Estes termos aparecem em Jira, wikis e discussões internas, mas nunca devem apa
 | Ritmo | termo de publicidade não voltada para o usuário |
 | Canal de processamento | termo da infraestrutura interna do Adobe |
 
----
+&#x200B;---
 
 ## &#x200B;6. Idioma inclusivo e acessibilidade
 
@@ -694,7 +694,7 @@ NÃO use cores sozinhas para transmitir informações. Sempre emparelhar cor com
 - Inclua legendas relevantes em todos os vídeos.
 - Quando possível, vincule a instruções escritas: &quot;Para obter instruções escritas, consulte [link].&quot;
 
----
+&#x200B;---
 
 ## &#x200B;7. Ortografia e pontuação
 
@@ -724,7 +724,7 @@ NÃO use cores sozinhas para transmitir informações. Sempre emparelhar cor com
 - Dois pontos: use para introduzir uma lista. Use letra maiúscula na primeira palavra após os dois pontos quando uma frase inteira for seguida (ou a palavra for um substantivo adequado).
 - Sem ponto e vírgula. Em vez disso, use um ponto final e uma nova frase.
 
----
+&#x200B;---
 
 ## &#x200B;8. SEO e Findability
 
@@ -736,7 +736,7 @@ NÃO use cores sozinhas para transmitir informações. Sempre emparelhar cor com
 - Metadados da descrição: use a linguagem natural com palavras-chave. NÃO use palavras-chave aleatórias. O Google pode rebaixar conteúdo para palavras-chave.
 - Mantenha os campos de metadados (título, descrição, tags de recursos) completos e precisos — as superfícies de descoberta usam metadados para filtrar e classificar os resultados antes de ler o conteúdo da página.
 
----
+&#x200B;---
 
 ## &#x200B;9. Convenções de arquivo e repositório
 
@@ -750,7 +750,7 @@ NÃO use cores sozinhas para transmitir informações. Sempre emparelhar cor com
 - Os componentes discretos (cabeçalhos, blocos de código cercados, listas) devem estar entre linhas em branco.
 - Somente um H1 (`#`) por documento. A primeira linha após o material de frente deve ser o H1.
 
----
+&#x200B;---
 
 ## &#x200B;10. Revisar lista de verificação
 
@@ -781,7 +781,7 @@ Ao revisar ou editar a documentação, verifique cada item abaixo.
 - [ ] Não &quot;o&quot; antes dos nomes de produtos (por exemplo, não &quot;o Adobe Experience Platform&quot;)
 
 **Marcas de localização**
-- [ ] `` em todos os nomes de elementos da interface do usuário; negrito nas etapas
+- [ ] &grave;&grave; em todos os nomes de elementos da interface do usuário; negrito nas etapas
 - [ ] `[!DNL]` em todos os nomes de produtos e terceiros
 - [ ] operadores booleanos marcados: `[!DNL AND]`, `[!DNL OR]`
 - [ ] Nenhuma marca dentro dos blocos de código
@@ -811,7 +811,7 @@ Ao revisar ou editar a documentação, verifique cada item abaixo.
 - [ ] Os nomes de arquivo estão em minúsculas com hifens; descrição em slugs (não desnuda `overview.md`)
 - [ ] Imagens em `assets/`; imagens não localizadas em `do-not-localize/`
 
----
+&#x200B;---
 
 ## &#x200B;11. Referências externas
 
