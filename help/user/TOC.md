@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: e8e17689063cb0c279fca63afbd9c6e865d23772
+source-git-commit: f48abc33799fdcd310b3479d32301795c82a32d0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 83%
+source-wordcount: '451'
+ht-degree: 82%
 ---
 
 # Guia do usuário do Journey Optimizer B2B Edition {#user}
@@ -25,6 +25,9 @@ ht-degree: 83%
     + [Gerenciamento de usuários](./admin/user-management.md)
   + [Integração de usuários](./start/get-started.md)
   + [Logon e página inicial](home-page.md)
++ Dados {#data}
+  + [Disponibilidade de dados e tempo de sincronização](./data/data-availability-timing.md)
+  + [Conjuntos de dados exportados](./data/aep-exported-datasets.md)
 + Recursos de IA {#ai-assistant}
   + [Visão geral](./ai-coworker/ai-assistant-overview.md)
   + [Habilitar o acesso ao Assistente de IA](./ai-coworker/enable-ai-assistant-access.md)
@@ -82,8 +85,6 @@ ht-degree: 83%
   + [Públicos correspondentes da conta do LinkedIn](./data/linkedin-account-matched-audiences.md)
   + [Campos XDM padrão](./admin/field-mapping.md)
   + [Perfis de teste](./audiences/test-profiles.md)
-+ Dados {#data}
-  + [Conjuntos de dados exportados](./data/aep-exported-datasets.md)
 + Contas {#accounts}
   + Grupos de compra {#buying-groups}
     + [Visão geral](./buying-groups/buying-groups-overview.md)
