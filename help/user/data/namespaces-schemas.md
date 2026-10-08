@@ -6,30 +6,37 @@ role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+    internal-label: Real-Time Customer Data Platform B2B Edition
 feature_v2:
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
 workflow-type: tm+mt
-source-wordcount: 1003
-ht-degree: 87%
-
+source-wordcount: '1029'
+ht-degree: 84%
 ---
-
 # Namespaces e esquemas B2B
 
-A configuração do Journey Optimizer B2B edition inclui a configuração dos namespaces e esquemas do Experience Platform usados com fontes B2B. O utilitário de automação do Postman é necessário para gerar namespaces e esquemas B2B.
+A configuração do Journey Optimizer B2B Edition inclui a configuração dos namespaces e esquemas do Experience Platform usados com fontes B2B. O utilitário de automação do Postman é necessário para gerar namespaces e esquemas B2B.
 
 >[!AVAILABILITY]
 >
@@ -38,6 +45,8 @@ A configuração do Journey Optimizer B2B edition inclui a configuração dos na
 >- Suas entidades B2B do Experience Platform devem usar as relações padrão descritas no [guia de namespaces e esquemas B2B](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
 Revise as seguintes informações sobre a configuração subjacente para os namespaces e esquemas a serem usados com fontes B2B. Ele também fornece detalhes para configurar o utilitário de automação do Postman, que é necessário para gerar namespaces B2B e esquemas.
+
+Para obter um resumo de todos os conjuntos de dados exportados e detalhes no nível de campo para os conjuntos de dados principais, consulte [conjuntos de dados de exportação do Adobe Journey Optimizer B2B Edition Adobe Experience Platform](./aep-exported-datasets.md).
 
 ## Configurar o utilitário de geração automática
 
