@@ -3,14 +3,12 @@ title: Criação de conteúdo - usar fragmentos
 description: Seção reutilizada sobre o uso de fragmentos para criação de conteúdo
 source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # Criação de conteúdo - usar fragmentos visuais
 
-Um fragmento visual é um componente de design reutilizável que pode ser referenciado por vários ativos de conteúdo no Adobe Journey Optimizer B2B edition. Geralmente, é um bloco de conteúdo que pode ser pré-criado e inserido rapidamente para tornar a criação mais rápida e consistente.
+Um fragmento visual é um componente de design reutilizável que pode ser referenciado por vários ativos de conteúdo no Adobe Journey Optimizer B2B Edition. Geralmente, é um bloco de conteúdo que pode ser pré-criado e inserido rapidamente para tornar a criação mais rápida e consistente.
 
 O exemplo a seguir descreve as etapas para adicionar fragmentos à medida que você cria seu conteúdo.
 
