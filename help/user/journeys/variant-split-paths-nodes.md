@@ -1,6 +1,6 @@
 ---
 title: Caminhos Divididos Variantes
-description: Saiba como usar nós de caminho dividido variante para distribuir contas ou pessoas em vários caminhos de jornada usando a alocação baseada em porcentagem no Journey Optimizer B2B edition.
+description: Saiba como usar nós de caminho dividido variante para distribuir contas ou pessoas em vários caminhos de jornada usando a alocação baseada em porcentagem no Journey Optimizer B2B Edition.
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -8,29 +8,29 @@ autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
+    internal-label: Experienced
+source-git-commit: c0d976241c5074deaca28d82e71b30718f6cd0c7
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: '1981'
 ht-degree: 1%
-
 ---
-
 # Caminhos divididos da variante
 
 Use um nó _Caminhos divididos variantes_ para distribuir contas ou pessoas em dois ou mais caminhos de jornada com base nas alocações percentuais definidas por você. Esse nó é útil quando você deseja testar diferentes táticas de mensagens, tempo ou envolvimento em segmentos do público-alvo sem aplicar regras condicionais.
-
->[!AVAILABILITY]
->
->O nó _Caminhos divididos de variante_ para jornadas de conta e pessoa está disponível para clientes selecionados como um recurso de disponibilidade limitada. Para obter acesso, entre em contato com o representante da Adobe.
 
 ## Comparação por tipo de jornada {#journey-type-comparison}
 
