@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2569'
 ht-degree: 4%
 ---
 # Dividir e mesclar caminhos {#split-paths}
@@ -50,7 +50,7 @@ Um nó _Split paths_ define um ou mais caminhos segmentados com base em **_accou
 
 Dividir por caminhos de contas pode incluir ações e eventos de contas e pessoas. Esses caminhos podem ser divididos ainda mais.
 
-_&#x200B;**Como funciona um caminho dividido por nó de contas**&#x200B;_
+_**Como funciona um caminho dividido por nó de contas**_
 
 * Cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
 * Os nós divididos por conta podem ser aninhados (você pode dividir o caminho por contas repetidamente).
@@ -142,7 +142,7 @@ _(jornadas de conta e pessoa)_
 
 Dividir por caminhos de pessoas pode incluir apenas ações de pessoas. Esses caminhos não podem ser divididos novamente e se unem automaticamente.
 
-_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
+_**Como funciona um caminho dividido por nó de pessoas**_
 
 * Divisão por nós de pessoas em uma combinação de divisão de mesclagem de _nó agrupado_. Os caminhos divididos se mesclam automaticamente para que todas as pessoas possam avançar para a próxima etapa sem perder o contexto da conta.
 * Os nós Split by people não podem ser aninhados (não é possível adicionar um caminho dividido para pessoas em um caminho que esteja neste nó agrupado).
@@ -159,7 +159,8 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 | [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering)) |
 | [!UICONTROL Histórico de eventos] | Divide as pessoas com base nos eventos de experiência ocorridos antes da entrada da jornada. Expanda a pasta para ver todos os tipos de evento configurados em [Admin > Configuração de evento XDM](../admin/configure-aep-events.md) e selecione um para adicionar como filtro. As restrições incluem campos do evento selecionado, uma janela de tempo de lookback medida a partir de quando a pessoa informa a jornada e um número mínimo opcional de vezes. |
 | [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi Removido</li><li>Função</li> |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi removido (padrão: `false`)</li><li>Função</li> (Consulte [Filtragem de associação](#membership-filtering)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do público-alvo do perfil] | A pessoa é ou não é membro de um ou mais públicos-alvo de perfil do [!DNL Adobe Experience Platform]. (Consulte [Filtragem de associação](#membership-filtering)) |
 
 ### Condições de caminho conta-pessoa
 
@@ -224,33 +225,44 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 Para um caminho dividido por pessoas, você pode definir um caminho com base nos eventos de experiência que ocorreram antes da pessoa entrar na jornada. Para ver uma lista de todos os tipos de eventos configurados pelo administrador, expanda a pasta **[!UICONTROL Histórico de eventos]** no editor de condições. Selecione um tipo de evento para adicioná-lo como uma condição de filtro.
 
-A janela de tempo de lookback para o histórico de eventos é medida retroativamente a partir do momento em que a pessoa entra na jornada. Por exemplo, uma janela de 30 dias avalia se o evento de qualificação ocorreu nos 30 dias anteriores à entrada da jornada.
+A janela de tempo do histórico de eventos é medida retroativamente a partir do momento em que a pessoa entra na jornada. Por exemplo, uma janela de 30 dias avalia se o evento de qualificação ocorreu nos 30 dias anteriores à entrada da jornada.
 
-É possível refinar ainda mais o filtro usando restrições específicas aos campos do evento selecionado. As restrições opcionais de **[!UICONTROL Número mínimo de vezes]** e **[!UICONTROL Data da atividade]** são avaliadas na janela de pesquisa definida. Como os dados do histórico de eventos são sincronizados do Adobe Experience Platform, pode haver um breve atraso antes que um evento recente seja disponibilizado para esse filtro.
+É possível refinar ainda mais o filtro usando restrições específicas aos campos do evento selecionado. As restrições opcionais de **[!UICONTROL Número mínimo de vezes]** e **[!UICONTROL Data da atividade]** são avaliadas na janela de pesquisa definida. Como os dados do histórico de eventos são sincronizados de [!DNL Adobe Experience Platform], pode haver um breve atraso antes que um evento recente se torne disponível para este filtro.
 
 >[!NOTE]
 >
 >As [Configurações de eventos de experiência e campos](../admin/configure-aep-events.md) determinam os eventos disponíveis na pasta [!UICONTROL Histórico de eventos].
 
-**Exemplo:** para encaminhar as pessoas que clicaram em um link em um email de marketing antes de entrar na jornada, selecione o evento de clique de email na pasta [!UICONTROL Histórico de eventos], defina a janela de pesquisa para cobrir o período relevante e aplique quaisquer restrições de nível de campo (como uma URL de link específica), conforme necessário.
+**Exemplo:** para encaminhar as pessoas que clicaram em um link em um email de marketing antes de entrar na jornada, selecione o evento de clique de email na pasta [!UICONTROL Histórico de eventos], defina a janela de pesquisa e aplique restrições no nível do campo, conforme necessário.
 
 ![Dividir caminho por condição de pessoas para o histórico de eventos](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX &quot;Filtragem de inatividade&quot;]
 
-Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Para criar um caminho para as pessoas que _&#x200B;**não**&#x200B;_ abriram um email, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_. Ative a opção de inatividade e especifique o email.
+Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Para criar um caminho para as pessoas que _**não**_ abriram um email, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_. Ative a opção de inatividade e especifique o email.
 
 ![Condição de inatividade de divisão de caminho por pessoas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
-### Filtragem de associação
+### Filtragem de associação {#membership-filtering}
 
-Na seção _[!UICONTROL Filtros Especiais]_, há vários filtros que você pode usar para avaliar a associação de uma pessoa em um grupo de compras.
+Na seção _[!UICONTROL Filtros especiais]_, use os filtros a seguir para criar caminhos com base na associação de uma pessoa:
 
-Por exemplo, se você deseja criar um caminho para pessoas que são membros de um grupo de compra e receberam uma função específica, adicione o filtro _[!UICONTROL Filtros especiais]_ > _[!UICONTROL Membro do grupo de compra]_. Para o filtro, defina a associação como _true_ e selecione um _[!UICONTROL interesse de Solução]_ associado a um ou mais grupos de compra.
+* _[!UICONTROL Membro do Grupo de Compras]_ - Avalia se a pessoa é membro de um grupo de compras.
+* _[!UICONTROL Membro do Público-alvo do Perfil]_ - Avalia se a pessoa é membro de um público-alvo de perfil [!DNL Adobe Experience Platform].
 
-![Dividir caminho por condição de pessoas para comprar associação de grupo](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+Para adicionar um filtro de associação, arraste-o da pasta _[!UICONTROL Filtros especiais]_ para o espaço de trabalho de condições e defina a associação como _true_ para incluir membros ou _false_ para excluí-los. Você pode combinar ambos os filtros na mesma condição de caminho e usar a **[!UICONTROL Lógica do filtro]** para corresponder a qualquer um ou todos eles.
+
+Esses filtros também estão disponíveis quando você [adiciona filtros para um evento](./listen-for-event-nodes.md#membership-filtering) em um nó _Ouvir um evento_.
+
+![Dividir caminho por condição de pessoas para associação de grupo de compras e público-alvo de perfil](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
+
+**Membro do Grupo de Compras**
+
+Por exemplo, para criar um caminho para membros de grupos de compra com uma função específica, defina a associação como _true_ e selecione um _[!UICONTROL Interesse da solução]_ associado aos grupos de compra.
+
+Ao adicionar o filtro, o sistema inclui a restrição _[!UICONTROL É removido]_ por padrão e a define como `false`, de modo que o caminho inclui somente membros atuais do grupo de compra.
 
 Clique em **[!UICONTROL Adicionar restrição]** para incluir restrições adicionais de associação de grupo de compra:
 
@@ -258,12 +270,25 @@ Clique em **[!UICONTROL Adicionar restrição]** para incluir restrições adici
 * _[!UICONTROL Status do grupo de compras]_
 * _[!UICONTROL Pontuação de integridade]_
 * _[!UICONTROL Pontuação de engajamento]_
-* _[!UICONTROL Foi Removido]_
 * _[!UICONTROL Função]_
 
->[!TIP]
+>[!IMPORTANT]
 >
->Para excluir membros que foram removidos de um grupo de compra, use a restrição _[!UICONTROL Is Removed]_ definida como `false`. Também é possível incluir explicitamente membros removidos definindo essa restrição como `true`.
+>A restrição _[!UICONTROL Is Removed]_ determina se os membros do grupo de compra removidos são avaliados:
+>
+>* `false` (padrão) - Retorna somente os membros atuais do grupo de compras. Membros removidos não são incluídos.
+>* `true` - Retorna somente membros de grupos de compra removidos. Os membros atuais não estão incluídos.
+>* Restrição removida - Retorna os membros do grupo de compra atuais e removidos.
+>
+>Se você remover a restrição, o caminho poderá incluir pessoas que não estão mais no grupo de compra.
+
+**Membro do Público-Alvo do Perfil**
+
+Use a restrição _[!UICONTROL Público-alvo do Perfil]_ para selecionar um ou mais públicos-alvo. Por exemplo, se você selecionar o público-alvo `integroPerson`, o caminho qualificará todas as pessoas que eram membros desse público-alvo quando ocorreu a última assimilação em lote.
+
+>[!NOTE]
+>
+>O filtro não calcula a associação de público-alvo em tempo real. Qualifica as pessoas com base em sua associação no público selecionado a partir da última assimilação de público em lote. Somente os públicos-alvo que foram assimilados em [!DNL Journey Optimizer B2B Edition] podem ser avaliados.
 
 ## Filtragem de dados personalizada {#custom-data-filtering}
 
@@ -287,12 +312,12 @@ Para combinar diferentes caminhos de _divisão por conta_ em sua jornada, adicio
 
 1. Nas propriedades do nó dos caminhos de mesclagem, selecione os caminhos que deseja mesclar.
 
-   ![Nó do Jornada - caminhos de mesclagem](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   Nó do ![Jornada - selecione os caminhos a serem mesclados](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   Nesse ponto, os caminhos são mesclados para que as contas dos caminhos selecionados sejam combinadas em um único caminho que possa continuar avançando pela jornada.
+   Os caminhos são mesclados para que as contas dos caminhos selecionados sejam combinadas em um único caminho que possa continuar a avançar pela jornada.
 
 1. Se necessário, você pode desfazer a mesclagem de caminhos navegando de volta para as propriedades do nó dos caminhos de mesclagem e desmarcando a caixa de seleção de todos os caminhos que deseja remover.
 
 ## Vídeo de visão geral {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443261/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
