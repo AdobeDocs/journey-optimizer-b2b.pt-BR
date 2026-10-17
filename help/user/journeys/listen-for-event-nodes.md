@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # Acompanhar um evento
 
-Para mover o público-alvo para a próxima etapa da sua [jornada](./journeys-overview.md) quando ocorrer um evento, adicione o nó _Ouvir um evento_. Dependendo do tipo de jornada, você pode usar esse nó para acionar o próximo nó na jornada de acordo com pessoas ou eventos de conta.
+Para avançar o público-alvo para a próxima etapa da sua [jornada](./journeys-overview.md) quando ocorrer um evento, adicione o nó _Ouvir um evento_. Dependendo do tipo de jornada, você pode usar esse nó para acionar o próximo nó na jornada de acordo com pessoas ou eventos de conta.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -65,7 +65,7 @@ Para mover o público-alvo para a próxima etapa da sua [jornada](./journeys-ove
 
      Na caixa de diálogo _Editar evento_, arraste e solte um ou mais [eventos de pessoas](#people-events) no espaço do construtor e defina a definição de cada um deles. Clique em **[!UICONTROL Adicionar restrição]** para cada restrição que você deseja usar para refinar a correspondência de eventos.
 
-     Você pode adicionar vários eventos de pessoas para corresponder. O primeiro evento de qualificação avança a conta na jornada.
+     Você pode adicionar vários eventos de pessoas para corresponder. O primeiro evento qualificado avança a conta na jornada.
 
      ![Nó de jornada de Conta - Ouvir eventos - Tipo de evento Pessoas - editar evento](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
 
@@ -79,7 +79,7 @@ Para mover o público-alvo para a próxima etapa da sua [jornada](./journeys-ove
 
 ### Eventos de pessoas para jornadas de conta {#people-events}
 
-Em uma jornada de conta, você pode acompanhar um evento com base em pessoas quando quiser mover a conta para frente na jornada, de acordo com eventos acionados por atividades de pessoa (lead). Você também pode filtrar eventos de acordo com o histórico de eventos e atributos de pessoa.
+Em uma jornada de conta, você pode acompanhar um evento com base em pessoas quando quiser avançar a conta na jornada de acordo com eventos acionados pela atividade da pessoa (lead). Você também pode filtrar eventos de acordo com o histórico de eventos e atributos de pessoa.
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ Para obter informações detalhadas sobre como usar Eventos de Experiência, con
 
 ### Eventos de conta {#account-events}
 
-Em uma jornada de conta, você pode acompanhar um evento com base na conta quando quiser mover a conta para frente na jornada, de acordo com eventos acionados pela atividade da conta.
+Em uma jornada de conta, você pode acompanhar um evento com base na conta quando quiser avançar a conta na jornada de acordo com eventos acionados pela atividade da conta.
 
 | Evento | Restrições |
 | ----- | ----------- |
@@ -185,7 +185,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    Arraste e solte o acionador de evento no espaço do construtor e defina a definição. Clique em **[!UICONTROL Adicionar restrição]** para cada restrição que você deseja usar para refinar a correspondência de eventos.
 
-   É possível adicionar vários eventos para corresponder. O primeiro evento de qualificação avança o perfil da pessoa na jornada.
+   É possível adicionar vários eventos para corresponder. O primeiro evento qualificado avança o perfil da pessoa na jornada.
 
 1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** para [adicionar filtros para o evento](#filters-people-event).
 
@@ -260,7 +260,8 @@ Ao definir um evento de [pessoas em uma jornada de conta](#people-events) ou um 
 | [!UICONTROL Histórico de eventos] | Eventos de experiência configurados por um administrador. Consulte _[Selecionar eventos de experiência e campos](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Atributos da pessoa] | Atributos do perfil de pessoa B2B, incluindo: <li>Cidade <li>País <li>Data de nascimento <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida<li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
 | [!UICONTROL Atributos da pessoa] | (Somente jornadas de pessoa) Valor do atributo |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi Removido</li><li>Função</li> |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi removido (padrão: `false`)</li><li>Função</li> (Consulte [Filtragem de associação](#membership-filtering)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do público-alvo do perfil] | A pessoa é ou não é membro de um ou mais públicos-alvo de perfil do [!DNL Adobe Experience Platform]. (Consulte [Filtragem de associação](#membership-filtering)) |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -285,13 +286,58 @@ Ao definir um evento de [pessoas em uma jornada de conta](#people-events) ou um 
 
 1. Quando as definições de evento e filtro estiverem concluídas, clique em **[!UICONTROL Concluído]**.
 
+### Filtragem de associação {#membership-filtering}
+
+Na seção _[!UICONTROL Filtros especiais]_, use os seguintes filtros para corresponder a um evento com base na associação de uma pessoa:
+
+* _[!UICONTROL Membro do Grupo de Compras]_ - Avalia se a pessoa é membro de um grupo de compras.
+* _[!UICONTROL Membro do Público-alvo do Perfil]_ - Avalia se a pessoa é membro de um público-alvo de perfil [!DNL Adobe Experience Platform].
+
+Para adicionar um filtro de associação, arraste-o da pasta _[!UICONTROL Filtros especiais]_ para o espaço de trabalho de filtros e defina a associação como _true_ para incluir membros ou _false_ para excluí-los. Você pode combinar ambos os filtros na mesma definição de evento e usar a **[!UICONTROL Lógica do filtro]** para corresponder a um ou todos eles.
+
+Esses filtros também estão disponíveis no [caminho dividido por condições de pessoas](./split-merge-paths-nodes.md#membership-filtering).
+
+![Ouvir o nó do evento - filtros de associação](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**Membro do Grupo de Compras**
+
+Para corresponder um evento para membros do grupo de compra com uma função específica, defina a associação como _true_ e selecione um _[!UICONTROL Interesse da solução]_ associado a um ou mais grupos de compra.
+
+Ao adicionar o filtro, o sistema inclui a restrição _[!UICONTROL É removido]_ por padrão e a define como `false`, de modo que o filtro corresponde somente aos membros atuais do grupo de compras.
+
+Clique em **[!UICONTROL Adicionar restrição]** para incluir restrições adicionais de associação de grupo de compra:
+
+* _[!UICONTROL Estágio de grupo de compras]_
+* _[!UICONTROL Status do grupo de compras]_
+* _[!UICONTROL Pontuação de integridade]_
+* _[!UICONTROL Pontuação de engajamento]_
+* _[!UICONTROL Função]_
+
+>[!IMPORTANT]
+>
+>A restrição _[!UICONTROL Is Removed]_ determina se os membros do grupo de compra removidos são avaliados:
+>
+>* `false` (padrão) - Retorna somente os membros atuais do grupo de compras. Membros removidos não são incluídos.
+>* `true` - Retorna somente membros de grupos de compra removidos. Os membros atuais não estão incluídos.
+>* Restrição removida - Retorna os membros do grupo de compra atuais e removidos.
+>
+>Se você remover a restrição, o filtro poderá corresponder às pessoas que não estão mais no grupo de compra.
+
+**Membro do Público-Alvo do Perfil**
+
+Use a restrição _[!UICONTROL Público-alvo do Perfil]_ para selecionar um ou mais públicos-alvo. Por exemplo, se você selecionar o público-alvo `integroPerson`, o evento corresponderá somente às pessoas que eram membros desse público-alvo quando ocorreu a última assimilação em lote.
+
+>[!NOTE]
+>
+>O filtro não calcula a associação de público-alvo em tempo real. Qualifica as pessoas com base em sua associação no público selecionado a partir da última assimilação de público em lote. Somente os públicos-alvo que foram assimilados em [!DNL Journey Optimizer B2B Edition] podem ser avaliados.
+
 ## Adicionar um tempo limite a um nó de evento {#timeouts}
 
 Se necessário, defina a quantidade de tempo que a jornada aguarda pelo evento. A jornada termina após um tempo limite, a menos que você defina um caminho de tempo limite, em que é possível adicionar outros nós.
 
 Habilite a opção **[!UICONTROL Timeout]** nas propriedades do nó para especificar um tempo limite para o nó _Ouvir um evento_.
 
-1. Com as opções habilitadas, escolha o _Tipo_ e especifique os parâmetros para o tempo limite:
+1. Com a opção habilitada, escolha o _Tipo_ e especifique os parâmetros para o tempo limite:
 
    * **[!UICONTROL Duração]** - Use esse tipo para especificar um período de tempo para o disparador de evento. Se o evento não for acionado dentro desse período, a pessoa ou a conta não continuará na jornada.
 
