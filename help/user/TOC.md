@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: fd7fb29f361005d38b01070700082a1dfc3c86d9
+source-git-commit: 4bf162645af8589b8e36bb36be1ac6594b7bdeab
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 83%
+source-wordcount: '455'
+ht-degree: 82%
 ---
 
 # Guia do usuário do Journey Optimizer B2B Edition {#user}
@@ -48,6 +48,7 @@ ht-degree: 83%
 + Gerenciamento de jornadas {#journeys}
   + [Jornadas de conta e pessoa](./journeys/journeys-overview.md)
   + [Criar e publicar uma jornada](./journeys/create-publish-journey.md)
+  + {hide-from-toc}[controle de tráfego de Jornada](./journeys/journey-traffic-control.md)
   + [Jornada reentrada](./journeys/journey-re-entry.md)
   + {hide-from-toc}[Jornada nós](./journeys/journey-nodes.md)
   + Nós de jornada {#journey-nodes}
