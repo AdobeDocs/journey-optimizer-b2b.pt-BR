@@ -24,16 +24,16 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
+source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
 workflow-type: tm+mt
-source-wordcount: '5781'
+source-wordcount: '5784'
 ht-degree: 60%
 ---
 # Notas de versão do Journey Optimizer B2B Edition
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -43,7 +43,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Painéis de integridade do serviço | Rastreie a integridade operacional das ações externas coletando métricas de sucesso/erro e fornecendo painéis para que os administradores monitorem o desempenho do serviço. |
+| Aprimoramento | Integridade da ação externa | Agora, os administradores podem monitorar o desempenho das ações externas em um painel que mostra contagens de solicitações, contagens de erros e taxas de erros. [Saiba mais](../admin/configure-external-actions.md#monitor-health) |
 | Aprimoramento | Membro do filtro de Público-alvo do perfil | Esse filtro agora está disponível para condições de caminho dividido de jornada de pessoa, condições de caminho dividido de pessoa de jornada de conta e filtros de nó _Ouvir um evento_ para incluir ou excluir perfis com base em sua associação de público-alvo. [Saiba mais](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Aprimoramento | Filtro de Grupo de Compra Membro - É Removido padrão | Nas condições _dividir caminho por pessoas_ e _Ouvir um evento_ filtros de nó, a restrição _[!UICONTROL É Removido]_ agora é selecionada por padrão e definida como `false` quando você adiciona o filtro _[!UICONTROL Membro do Grupo de Compras]_. O filtro retorna somente os membros atuais do grupo de compra, a menos que você altere ou remova a restrição. [Saiba mais](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Aprimoramento | Jornada reentrada - jornadas de pessoa | O suporte para reentrada de jornada agora está disponível para jornadas de pessoas. |

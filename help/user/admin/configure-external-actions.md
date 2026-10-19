@@ -1,6 +1,6 @@
 ---
 title: Configuração de ações externas
-description: Saiba como desenvolvedores, administradores e profissionais de marketing trabalham juntos para implementar, configurar e usar ações externas que conectam o Journey Optimizer B2B Edition a serviços externos no jornada.
+description: Saiba como desenvolvedores, administradores e profissionais de marketing trabalham juntos para implementar, configurar e usar ações externas que conectam o Journey Optimizer B2B Edition a serviços externos no jornada e como os administradores monitoram a integridade da ação.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 1%
 ---
 # Configuração de ações externas
@@ -45,7 +45,7 @@ A criação de ações externas exige coordenação entre três funções em seq
 | | Função | Tarefa |
 | ---- | ---- | ---- |
 | 1 | Desenvolvedor | [Implementar e publicar o serviço externo](#implement-service) |
-| 2 | Administrador | [Configurar a ação no Journey Optimizer B2B Edition](#configure-action) |
+| 2 | Administrador | [Configurar a ação no Journey Optimizer B2B Edition](#configure-action) e [monitorar a integridade da ação externa](#monitor-external-action-health) |
 | 3 | Profissional de marketing | [Adicionar um nó externo a uma jornada](#add-journey-node) |
 
 ## Implementar o serviço externo {#implement-service}
@@ -71,6 +71,8 @@ Uma ação deve ser configurada e ativada antes que os profissionais de marketin
 1. Vá para **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
 
 1. Clique em **[!UICONTROL Ações Externas]** no painel intermediário.
+
+1. Selecione a guia **[!UICONTROL Navegar]**.
 
    ![Acessar o espaço de configuração de Ações Externas](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## Monitorar integridade da ação externa {#monitor-health}
+
+Depois que os profissionais de marketing começarem a usar ações externas no jornada, você poderá acompanhar o desempenho de cada ação na guia _Visão geral_ da página de ações externas. Use-o para ver quantas solicitações cada ação recebe, quantas dessas solicitações falham e quais ações têm as taxas de erro mais altas.
+
+Para exibir o painel:
+
+1. Vá para **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
+
+1. Clique em **[!UICONTROL Ações externas]** no painel intermediário.
+
+   O sistema exibe a guia **[!UICONTROL Visão geral]** por padrão com dados de ação externa dos últimos sete dias.
+
+1. Selecione o período a ser revisado no menu de intervalo de datas ou insira uma data inicial e final no campo de data. O intervalo padrão são os últimos 30 dias.
+
+   ![O painel de integridade da ação externa mostra filtros de intervalo de datas, total de solicitações, erros, taxa de erros e desempenho da ação.](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   As métricas e a tabela são atualizadas para mostrar somente a atividade do período selecionado.
+
+### Métricas {#metrics}
+
+A seção _Visão Geral_ resume o desempenho de todas as ações externas para o período selecionado.
+
+| Métrica | Descrição |
+| ---- | ---- |
+| [!UICONTROL Total de ações] | O número de ações externas incluídas no relatório. |
+| [!UICONTROL Total de solicitações] | O número total de solicitações feitas a serviços externos em todas as ações. |
+| [!UICONTROL Total de erros] | O número total de solicitações que resultaram em um erro. |
+| [!UICONTROL Taxa de erros] | A porcentagem de solicitações que resultaram em erro. |
+
+### Desempenho das ações {#actions}
+
+A tabela _Actions performance_ lista cada ação externa e suas atividades para o período selecionado.
+
+| Coluna | Descrição |
+| ---- | ---- |
+| [!UICONTROL Nome] | O nome da ação externa. |
+| [!UICONTROL Contagem de solicitações] | O número de solicitações feitas ao serviço externo da ação. |
+| [!UICONTROL Contagem de erros] | O número de solicitações que resultaram em um erro. |
+| [!UICONTROL Taxa de erros] | A porcentagem de solicitações que resultaram em erro. |
+
+Use a tabela para comparar ações e encontrar aquelas que precisam de atenção. Por exemplo, uma ação com uma alta taxa de erro indica um problema com o serviço externo, suas credenciais de autenticação ou sua configuração. Trabalhe com o desenvolvedor que implementou o serviço para investigar a causa.
+
 ## Adicionar um nó externo a uma jornada {#add-journey-node}
 
 Após a ativação de uma ação, os profissionais de marketing podem adicionar um nó _[!UICONTROL Ação externa]_ ou _[!UICONTROL Caminho dividido externo]_ a qualquer jornada de conta ou pessoa. Para obter informações sobre como adicionar e usar esses nós na tela de jornada, consulte [Nós externos](../journeys/external-nodes.md).
+
+![Nó de ação externa - selecione o serviço externo](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}
