@@ -386,7 +386,7 @@ Use para nomes de produtos de marca que devem permanecer em inglês.
 - Acrônimos (ficar em inglês automaticamente)
 - Termos já existentes no banco de dados Não traduzir
 
-**No texto do link:** Remova os colchetes para evitar problemas de renderização. Use `[Adobe](https://www.adobe.com)` não `[[!DNL Adobe]](https://www.adobe.com)`.
+**No texto do link:** Remova os colchetes para evitar problemas de renderização. Use `[Adobe](https://www.adobe.com/br)` não `[[!DNL Adobe]](https://www.adobe.com/br)`.
 
 ### `[!UICONTROL Label]`: Controles de Interface do Usuário
 
