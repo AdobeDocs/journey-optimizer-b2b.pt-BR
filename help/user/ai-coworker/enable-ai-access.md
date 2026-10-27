@@ -60,4 +60,4 @@ Use a interface de Permissões para conceder permissões para usar o chat [!DNL 
 
 Quando o usuário tiver as permissões necessárias, poderá acessar o chat do [!DNL Coworker] selecionando o ícone de chat _do_[!DNL Coworker] no cabeçalho superior do aplicativo.
 
-Ícone de chat ![[!DNL Coworker] no cabeçalho do aplicativo ](./assets/coworker-icon-header.png){width="800" zoomable="yes"}
+Ícone de chat ![[!DNL Coworker] no cabeçalho do aplicativo &#x200B;](./assets/coworker-icon-header.png){width="800" zoomable="yes"}

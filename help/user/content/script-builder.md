@@ -69,7 +69,7 @@ O Construtor de scripts está disponível no [editor de personalização](./pers
 
    >[!BEGINSHADEBOX]
 
-   Na primeira vez que você acessar o Construtor de Scripts, revise os [_[!UICONTROL Termos de Uso da IA Gerativa ]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e confirme seu contrato.
+   Na primeira vez que você acessar o Construtor de Scripts, revise os [_[!UICONTROL Termos de Uso da IA Gerativa &#x200B;]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e confirme seu contrato.
 
    ![Caixa de diálogo do contrato de Termos de Uso da IA Gerativa no Construtor de Scripts](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
