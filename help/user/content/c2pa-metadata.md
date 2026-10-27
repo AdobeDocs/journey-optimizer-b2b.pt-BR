@@ -1,6 +1,6 @@
 ---
 title: Metadados C2PA
-description: Saiba como o Adobe Journey Optimizer B2B edition aplica automaticamente metadados C2PA a imagens geradas ou editadas com ferramentas de IA geradora e o que isso significa para o seu conteúdo.
+description: Saiba como o Adobe Journey Optimizer B2B Edition aplica automaticamente metadados C2PA a imagens geradas ou editadas com ferramentas de IA geradora e o que isso significa para o seu conteúdo.
 feature: Assets, Content
 hide: true
 role: User
@@ -8,21 +8,25 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # Metadados do C2PA
 
 As organizações de marketing estão mais preocupadas do que nunca com a transparência do conteúdo, a divulgação de IA e a prevenção de adulteração de ativos. O Content Authenticity Initiative (CAI) na Adobe cria ferramentas compatíveis com o padrão técnico [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). _Os metadados C2PA_ são informações criptografadas e invioláveis que ajudam os visualizadores a entender a linhagem do conteúdo e garantir a integridade dos ativos da marca. Essas informações incluem:
@@ -39,7 +43,7 @@ Para obter informações abrangentes sobre o histórico de ativos, você pode us
 
 Os metadados C2PA persistem com o arquivo de imagem. Quando uma imagem gerada ou editada com IA gerativa é carregada para ou exportada do [!DNL Adobe Journey Optimizer B2B Edition], seus metadados C2PA são preservados.
 
-Para obter detalhes adicionais sobre a anexação automática de metadados C2PA nos aplicativos do Adobe CX Enterprise, consulte [_Generative AI content transparency_](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} no AI no CX Enterprise guide.
+Para obter detalhes adicionais sobre a anexação automática de metadados C2PA em aplicativos do Adobe CX Enterprise, consulte [_Transparência do conteúdo de IA gerativa_](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} no guia IA no CX Enterprise.
 
 >[!NOTE]
 >
@@ -77,7 +81,7 @@ Quando você cria uma nova imagem a partir de um prompt de texto, de uma imagem 
 * Cortar uma imagem de banner gerada para ajustá-la a uma página da Web. Os metadados C2PA são preservados por meio do corte.
 * Use uma foto de arquivo carregada como plano de fundo de email e corte-a para caber na tela. Se a foto de estoque não transporta informações de IA gerativas, os metadados C2PA não são criados.
 
-Quando você faz um ajuste em um arquivo de imagem, como recortá-lo nas dimensões solicitadas, ele retém os metadados C2PA somente se a imagem de origem já os tinha. O recorte recria os pixels da imagem, o que normalmente remove esses metadados C2PA. Portanto, o Assistente de IA os lê da imagem de origem antes do recorte e, em seguida, os recria e anexa novamente ao resultado recortado. O corte em si não adiciona uma nova ação de IA gerativa; ele preserva a existente.
+Quando você faz um ajuste em um arquivo de imagem, como recortá-lo nas dimensões solicitadas, ele retém os metadados C2PA somente se a imagem de origem já os tinha. O corte recria os pixels da imagem, o que normalmente remove esses metadados C2PA. Portanto, as ferramentas de IA gerativas os leem da imagem de origem antes de cortar e, em seguida, recriam e reanexam ao resultado cortado. O corte em si não adiciona uma nova ação de IA gerativa; ele preserva a existente.
 
 ### Adicionar uma sobreposição de texto
 

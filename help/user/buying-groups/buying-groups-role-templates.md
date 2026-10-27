@@ -1,26 +1,28 @@
 ---
 title: Comprando modelos de função de grupo
-description: Crie modelos de função com atribuição automática condicional para identificar tomadores de decisão e participantes de grupos de compra no Journey Optimizer B2B edition.
+description: Crie modelos de função com atribuição automática condicional para identificar tomadores de decisão e participantes de grupos de compra no Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # Modelos de função do grupo de compra
 
 Em um mercado B2B, vários indivíduos geralmente tomam decisões de compra. Essas pessoas participam do processo de tomada de decisões de acordo com sua função na organização. Crie modelos de função de grupo de compras que contenham um grupo de definições de função de acordo com cada tipo de oferta de produto ou caso de uso de conta.
@@ -29,9 +31,9 @@ Em um mercado B2B, vários indivíduos geralmente tomam decisões de compra. Ess
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent B2B
+## Competências do público
 
-[O Audience Agent B2B](../agents/audience-agent-b2b.md) pode gerar um modelo de funções de grupo de compra a partir da detecção de intenção própria e do mapeamento de persona. No fluxo guiado, é possível identificar perfis vinculados a um produto, revisar mapeamentos de função para pessoa recomendados pela IA e refinar o modelo com linguagem natural antes de publicá-lo.
+Use [habilidades de público-alvo para contas B2B e pessoas](../agents/audience-agent-b2b.md) para gerar um modelo de função de grupo de compra a partir da detecção de intenção própria e do mapeamento de persona. No fluxo guiado, é possível identificar perfis vinculados a um produto, revisar mapeamentos de função para pessoa recomendados pela IA e refinar o modelo com linguagem natural antes de publicá-lo.
 
 **Solicitações para tentar:**
 
@@ -39,7 +41,7 @@ Em um mercado B2B, vários indivíduos geralmente tomam decisões de compra. Ess
 * Adicionar `<role>` mapeado a `<persona>`
 * Remover `<role>` / `<persona>`
 
-![Modelo de funções de grupo de compra B2B do Audience Agent](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![Modelo de função de grupo de compra gerado com habilidades de público-alvo.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 

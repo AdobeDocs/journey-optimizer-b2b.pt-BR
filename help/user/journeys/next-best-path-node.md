@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1911'
 ht-degree: 0%
 ---
 # Próximo nó de melhor caminho
@@ -331,4 +331,4 @@ Para uma jornada publicada, abra o mapa de jornadas e selecione o próximo nó d
 * A pontuação de confiança para cada atribuição de caminho
 * Raciocínio em nível de caminho e de perfil, com detalhes expansíveis para perfis individuais
 
-Os resultados ao vivo também estão disponíveis no Console do Jornada e por meio da [habilidade de Observabilidade do Jornada](../agents/journey-agent.md#journey-observability-skill) no Hub da IA.
+Os resultados ao vivo também estão disponíveis para o Console do Jornada e por meio das [habilidades de observabilidade do Jornada](../agents/journey-agent.md#journey-observability-skills) no chat do [!DNL Coworker].

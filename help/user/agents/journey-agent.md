@@ -1,6 +1,6 @@
 ---
-title: Journey Agent B2B
-description: Saiba como usar o Journey Agent alimentado por IA e suas habilidades para criar, gerenciar e observar jornadas B2B robustas.
+title: Jornada habilidades para B2B
+description: Saiba como usar as habilidades de Jornada alimentadas por IA que você pode usar para criar, gerenciar e observar jornadas B2B robustas.
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
@@ -36,31 +36,31 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1115'
 ht-degree: 0%
 ---
-# Journey Agent B2B
+# Habilidades de Jornada para B2B
 
-O Journey Agent B2B é um assistente alimentado por IA no Adobe Journey Optimizer B2B Edition que ajuda você a projetar, executar, otimizar e monitorar jornadas B2B por meio da linguagem natural. Ele reduz o tempo e a complexidade envolvidos na criação e no gerenciamento de jornadas do cliente, combinando automação, recomendações orientadas por dados e observação em tempo real.
+No chat do [!DNL CX Enterprise Coworker], as habilidades de jornada ajudam você a projetar, executar, otimizar e monitorar jornadas do [!DNL Adobe Journey Optimizer B2B Edition] por meio da linguagem natural. O uso dessas habilidades reduz o tempo e a complexidade envolvidos na criação e no gerenciamento de jornadas de conta e pessoa ao combinar automação, recomendações orientadas por dados e observação em tempo real.
 
-![Prompt B2B do Journey Agent](./assets/journey-agent-prompt.png)
+[!DNL CX Coworker] fornece um conjunto de habilidades de IA que inclui um subconjunto para o ciclo de vida da jornada B2B. As habilidades disponíveis atualmente são:
 
-O B2B do Journey Agent fornece um conjunto de habilidades de IA, cada uma focada em um aspecto diferente do ciclo de vida da jornada B2B. As habilidades disponíveis atualmente são:
+* **[habilidades de criação de Jornadas](#journey-creation-skills)** - Crie, atualize e otimize jornadas a partir de prompts de linguagem natural
+* **[Habilidades de observabilidade do Jornada](#journey-observability-skills)** - Faça perguntas sobre como as contas e as pessoas estão se movendo nas jornadas ativas
 
-* **[Habilidade de compilação do Jornada](#journey-build-skill)** - Crie, atualize e otimize jornadas a partir de prompts de linguagem natural
-* **[Habilidade de observação da Jornada](#journey-observability-skill)** - Faça perguntas sobre como as contas e as pessoas estão se movimentando pelas jornadas ativas
+Clique no ícone _Perguntar[!DNL Coworker]_ ( ![Perguntar [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) na parte superior do aplicativo para abrir a interface [!DNL Coworker].
 
-## Habilidade do Jornada Build
+## Habilidades de criação de jornadas {#journey-creation-skills}
 
-A habilidade Build do Jornada traduz seus objetivos de marketing, estratégia de engajamento e KPIs em jornadas completas de clientes B2B. Ele aborda três desafios principais que os profissionais de marketing B2B enfrentam atualmente:
+As habilidades de criação de jornadas traduzem os objetivos de marketing, a estratégia de engajamento e os KPIs em jornadas completas de clientes B2B. Eles abordam três desafios principais que os profissionais de marketing B2B enfrentam atualmente:
 
 * Lidar com jornadas cada vez mais complexas do cliente (complexidade no público-alvo, conteúdo e mensagens e onicanal)
 * Aumento da eficiência à luz de orçamentos mais apertados
 * Descobrir como a jornada ideal do cliente deve ser estruturada
 
-Como profissional de marketing, você pode usar essa habilidade para:
+Como profissional de marketing, você pode usar essas habilidades para:
 
 * **Criar** - Traduza objetivos de marketing, produtos, estratégia de engajamento e KPIs em uma jornada de cliente personalizada com automação e condições
 * **Recomendado** - Aproveite o engajamento de marketing anterior e outros dados históricos para otimizar a criação de jornadas
@@ -69,13 +69,13 @@ Como profissional de marketing, você pode usar essa habilidade para:
 
 ### Uso básico
 
-Para usar a habilidade do Journey Agent Build, digite na janela do prompt o que deseja criar, usando a linguagem natural:
+Para usar as habilidades de criação da jornada, digite na janela de prompt do [!DNL Coworker] o que deseja criar, usando a linguagem natural:
 
 &quot;Crie uma jornada B2B para convidar tomadores de decisão para uma apresentação em contas engajadas com maior probabilidade de abrir um novo pipeline.&quot;
 
-![Solicitação B2B do agente de Jornada para a habilidade de compilação](./assets/journey-agent-tasks.png)
+![habilidade de criação de Jornada para prompt B2B em [!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
 
-Quanto mais detalhes você fornecer, melhor será a resposta. Se você tiver material de marketing existente que descreva o evento, seu produto etc., cole-o no prompt para que o agente entenda melhor a meta.
+Quanto mais detalhes você fornecer, melhor será a resposta. Se você tiver material de marketing existente que descreva o evento, ou seu produto etc., cole-o no prompt para que [!DNL Coworker] tenha uma melhor compreensão da meta.
 
 &quot;Atue como um estrategista de jornada B2B para criar uma jornada de conta de cliente em vários estágios que nutre e envolva tomadores de decisão e profissionais de marketing na fase inicial de exploração do `<Solution Name>`. O objetivo é converter visitantes anônimos em contatos conhecidos, aprofundar o engajamento com conteúdo relevante no `<domain>`.com e fornecer clientes potenciais qualificados para `<Product Name>` alcance de vendas. Use canais como email e mídia paga, aproveitando o conteúdo e os segmentos de público-alvo existentes. Estruturar a jornada em estágios de conscientização, consideração e avaliação ao longo de 4 a 6 semanas, com acionadores, ações e metas claros para cada estágio. Inclua KPIs como taxas de conversão, pontuações de engajamento e solicitações de demonstração e retorne a saída como um fluxo de jornada estruturado.&quot;
 
@@ -86,11 +86,11 @@ Este prompt detalhado fornece:
 * **Formato Estruturado**: Use marcadores, etapas numeradas ou modelos.
 * **Atribuição de função**: especifique a função da IA - &#39;Atue como um analista de dados...&#39;
 
-Use o agente para iterar o refinamento: comece de forma simples e, em seguida, refine seu prompt com base nos resultados. Os loops de feedback melhoram os resultados ao longo do tempo.
+Comece com um prompt simples e refine-o com base nos resultados. Use prompts de acompanhamento para iterar.
 
 ### Criação completa de jornadas B2B
 
-A habilidade Build do Jornada pode gerar um fluxo de jornada completo (jornada de conta ou pessoa) a partir de prompts de texto e metadados em linguagem natural, por meio de uma experiência conversacional em vez de uma interface de usuário tradicional.
+As habilidades de criação da jornada podem gerar um fluxo de jornada completo (jornada de conta ou pessoa) a partir de prompts de texto e metadados em linguagem natural, por meio de uma experiência conversacional em vez de uma interface de usuário tradicional.
 
 Exemplos completos de prompt de Jornada:
 
@@ -107,25 +107,21 @@ Você pode agir como um designer de jornada B2B para criar uma jornada de conta 
 * Estruturar a jornada nos estágios `awareness`, `consideration` e `evaluation` de 4 a 6 semanas, com acionadores, ações e metas claros para cada estágio.
 * Inclua KPIs, como `conversion rates`, `engagement scores` e `demo requests`, e retorne a saída como um fluxo de jornada estruturado.
 
-## Jornada habilidade de observação
+## Habilidades de observabilidade da jornada {#journey-observability-skills}
 
-A habilidade Observability do Jornada permite que você faça perguntas em linguagem natural sobre como as contas e as pessoas estão se movendo através de suas jornadas B2B, sem pesquisar em mapas, logs ou painéis de jornada. Abrange duas áreas principais: progressão da jornada e observabilidade da sincronização de dados.
+As habilidades de observabilidade do jornada permitem que você faça perguntas em linguagem natural sobre como as contas e as pessoas estão se movendo em suas jornadas B2B, sem navegar pelos mapas, logs ou painéis da jornada. Elas abrangem duas áreas principais: progressão da jornada e observabilidade da sincronização de dados.
 
-Você pode acessá-lo em dois lugares no Journey Optimizer B2B Edition:
-
-* **Assistente do painel direito no mapa de jornadas** - Faça perguntas específicas sobre jornadas diretamente no mapa de jornadas. O nome da jornada é inserido automaticamente no contexto.
-
-* **Página do Assistente de Tela Inteira** - Uma exibição conversacional maior, adequada para perguntas complexas ou entre contas, e para explorar várias jornadas.
+![Solicitação e resposta de observabilidade do Jornada em [!DNL CX Coworker]](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}
 
 ### Jornada insight no nível da conta
 
 Rastreie como uma conta específica fluiu por uma jornada fazendo perguntas como:
 
-* &quot;Dê-me informações básicas sobre a conta ACME Industries.&quot;
+* &quot;Dê-me informações básicas sobre as contas da Bodea Cloud.&quot;
 * &quot;Conte-me como a Northstar Services passou pela Estratégia de Amparo da jornada ABM.&quot;
 * &quot;Quando a conta da Contoso LLC iniciou essa jornada?&quot;
 
-### Raciocínio e contagens de caminho de nó dividido
+### Raciocínio e contagens de caminho dividido
 
 Entenda por que uma ramificação foi criada e quantas pessoas ou contas seguiram cada caminho:
 
@@ -133,13 +129,13 @@ Entenda por que uma ramificação foi criada e quantas pessoas ou contas seguira
 * &quot;Dê-me a contagem de pessoas para cada caminho no nó dividido-459c7c.&quot;
 * &quot;Mostre-me pessoas no caminho de San Jose para Account8.&quot;
 
-O agente inspeciona a lógica de divisão, os atributos da conta e as atividades para explicar as decisões de roteamento e retornar contagens por caminho ou listas de pessoas.
+As habilidades de observabilidade da jornada analisam a lógica de divisão, os atributos da conta e as atividades para explicar as decisões de roteamento e retornar contagens por caminho ou listas de pessoas.
 
 ### Resultados da jornada no nível de pessoas
 
 Analise os resultados individuais em uma conta ou em uma jornada inteira, especialmente útil para a análise de grupos de compras e o rastreio do responsável pela tomada de decisões em relação ao comportamento do influenciador:
 
-* &quot;Dê-me a contagem de pessoas em cada caminho para este nó dividido da Account123.&quot;
+* &quot;Dê-me a contagem de pessoas em cada caminho dividido para a jornada Bodea Next Web Engagement.&quot;
 * &quot;Listar pessoas no caminho de salto oculto.&quot;
 * &quot;Mostre-me as pessoas no caminho de localização de San Diego para esta conta.&quot;
 
@@ -160,7 +156,7 @@ No caso de jornadas enviadas para canais externos, como LinkedIn, é possível v
 
 ### Sincronização de dados e observabilidade do pipeline
 
-A habilidade Observability também pode exibir informações de integridade da sincronização de dados para ajudar a solucionar por que uma conta ou um lead não foi incluído em uma jornada:
+As habilidades de observabilidade da jornada também podem exibir informações de integridade da sincronização de dados para ajudar a solucionar por que uma conta ou um lead não foi incluído em uma jornada:
 
 * Métricas e status do trabalho de exportação de público externo
 * Agendamentos de segmentação em lote e horários de conclusão

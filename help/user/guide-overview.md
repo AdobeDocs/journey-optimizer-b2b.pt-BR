@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 27%
+source-wordcount: '1123'
+ht-degree: 26%
 ---
 # Documentação do Adobe Journey Optimizer B2B Edition
 
@@ -160,7 +160,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introdução"><br/>
-      <strong>Introdução</strong><br/><a href="home-page.md">Logon e página inicial</a><br/><a href="./start/get-started.md">Orientação de integração</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">Recursos de IA</a>
+      <strong>Introdução</strong><br/><a href="home-page.md">Logon e página inicial</a><br/><a href="./start/get-started.md">Orientação de integração</a> <br/><a href="./ai-coworker/ai-overview.md">Recursos de IA</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Grupos de compra"><br/>
@@ -188,6 +188,16 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier] é um aplicativo orientado por IA que pode ser usado com [!DNL Journey Optimizer B2B Edition]. Ela implementa a habilidade de qualificação de conta e foi projetada para simplificar os fluxos de trabalho para os BDRs (Business Development Representatives). O [!DNL Marketo Qualifier] automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador entre canais. Ele reduz a carga manual de BDR e acelera a velocidade do pipeline para empresas B2B corporativas.
+
+Para obter mais informações, consulte a [documentação do Marketo Qualifier](https://experienceleague.adobe.com/pt-br/docs/marketo-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## Recursos adicionais
 
 <table style="table-layout:fixed">
@@ -203,4 +213,3 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
 <a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
-
