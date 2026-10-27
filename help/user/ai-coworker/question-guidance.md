@@ -84,4 +84,4 @@ A lista a seguir inclui exemplos de perguntas para as quais o chat do [!DNL Cowo
 
 ## Próximas etapas
 
-Para obter instruções sobre como usar os recursos de chat no aplicativo [!DNL CX Coworker], consulte o [guia de interface do CX Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Para obter instruções sobre como usar os recursos de chat no aplicativo [!DNL CX Coworker], consulte o [guia de interface do CX Coworker](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/ui-guide){target="_blank"}.
