@@ -1,6 +1,6 @@
 ---
 title: Construtor de script
-description: Use o Construtor de scripts, um assistente habilitado por IA no espaço de design de email, para gerar scripts de personalização Handlebars e converter scripts do Marketo Engage Velocity no Journey Optimizer B2B edition.
+description: Use o Construtor de scripts, um assistente habilitado por IA no espaço de design de email, para gerar scripts de personalização Handlebars e converter scripts do Marketo Engage Velocity no Journey Optimizer B2B Edition.
 feature: AI Assistant, Generative AI, Personalization, Email Authoring
 role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="No momento, esse recurso está em uma versão beta limitada"
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -49,7 +49,7 @@ A criação de personalização condicional de email, como alternação de bloco
 
 >[!IMPORTANT]
 >
->O acesso do usuário ao Construtor de Scripts é controlado através das mesmas permissões usadas para outros recursos de IA gerativa no [!DNL Journey Optimizer B2B Edition]. Para obter informações sobre como conceder permissões de recursos, consulte [Habilitar acesso ao Assistente de IA](../ai-coworker/enable-ai-assistant-access.md).
+>O acesso do usuário ao Construtor de Scripts é controlado através das mesmas permissões usadas para outros recursos de IA gerativa no [!DNL Journey Optimizer B2B Edition]. Para obter informações sobre como conceder permissões de recursos, consulte [Habilitar acesso aos recursos de IA](../ai-coworker/enable-ai-access.md).
 
 Antes de usar o Construtor de Scripts, reveja as [diretrizes e limitações](./generative-ai-content.md#general-guidelines-and-limitations) que se aplicam aos recursos de IA gerativa em [!DNL Journey Optimizer B2B Edition]. A aceitação do [Contrato de usuário](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} também é necessária para que você possa usar os recursos de IA.
 
@@ -69,7 +69,7 @@ O Construtor de scripts está disponível no [editor de personalização](./pers
 
    >[!BEGINSHADEBOX]
 
-   Na primeira vez que você acessar o Construtor de Scripts, revise os [_[!UICONTROL Termos de Uso da IA Gerativa &#x200B;]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e confirme seu contrato.
+   Na primeira vez que você acessar o Construtor de Scripts, revise os [_[!UICONTROL Termos de Uso da IA Gerativa ]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e confirme seu contrato.
 
    ![Caixa de diálogo do contrato de Termos de Uso da IA Gerativa no Construtor de Scripts](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 

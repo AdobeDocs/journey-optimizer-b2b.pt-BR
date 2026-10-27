@@ -1,6 +1,6 @@
 ---
-title: Audience Agent B2B
-description: O Audience Agent B2B no Journey Optimizer B2B edition usa análise de intenção e mapeamento de persona para criar grupos de compra e acelerar workflows de marketing B2B.
+title: Habilidades do público-alvo para contas B2B e pessoas
+description: Saiba mais sobre as habilidades do público-alvo para contas B2B e pessoas. Explore a intenção do produto, identifique perfis, avalie a cobertura da função e crie modelos de grupo de compras.
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
@@ -8,89 +8,121 @@ autotag-review: '2026-06-05T16:43:42.459Z'
 TQID: 'https://experienceleague.adobe.com/d7KMYbH0NpoYGnBdTCmCpzLgpGIYfNP-YIFCQUjZpIg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Taxonomy
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 2500
+source-wordcount: '1692'
 ht-degree: 1%
-
 ---
+# Habilidades de público para contas B2B e pessoas
 
-# Audience Agent B2B
+Use as habilidades do público-alvo para B2B na interface [!DNL CX Coworker]. Explore a intenção do produto entre contas e pessoas. Identifique perfis relevantes, avalie a cobertura do grupo de compras e crie modelos de função do grupo de compras.
 
-Equipado com o [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), o Audience Agent B2B está disponível no Journey Optimizer B2B edition. O uso desse agente melhora a eficiência e a eficácia na exploração e dimensionamento de públicos, acelerando a criação de grupos de compras e fluxos de trabalho ininterruptos para ativação de jornadas:
-
-* **_Priorizar públicos-alvo por intenção_**: inferir personalidades com base na intenção do produto para vários públicos-alvo e simplificar o planejamento de campanha, reduzindo o tempo gasto na validação do público-alvo.
-
-* **_Aproveite a IA para detectar e criar grupos de compras_**: use a IA, dados estruturados, não estruturados e dados unificados de terceiros para simplificar a descoberta e a criação de grupos de compras.
-
-![Audience Agent B2B no modo de página inteira](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+* Avalie o interesse da conta em produtos específicos e compare as tendências de intenção.
+* Identifique pessoas e perfis associados aos interesses do produto.
+* Revise as funções dos grupos de compra e identifique lacunas de cobertura.
+* Gerar e refinar modelos de função de grupo de compra.
 
 >[!PREREQUISITES]
 >
->Para usar o Audience Agent B2B, são necessários definições e mapeamentos de dados:<br/>
+>Antes de usar habilidades de público-alvo para contas B2B e pessoas, configure as seguintes definições de dados e mapeamentos:
 >
->* [Taxonomia/mapeamento de dados de intenção](../admin/intent-data.md)
->* [Taxonomia/mapeamento de campo XDM](#xdm-data-prerequisites)
+>* [Taxonomia e mapeamento de dados de intenção](../admin/intent-data.md)
+>* [Mapeamento de campo XDM](#xdm-data-prerequisites)
 
-## Recursos B2B do Audience Agent
+Clique no ícone _Perguntar[!DNL Coworker]_ ( ![Perguntar [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) na parte superior do aplicativo para abrir o aplicativo [!DNL Coworker]. Digite o prompt do seu idioma natural na interface do bate-papo.
 
-| Área | O que faz | Valor comercial |
-| ---- | ------------ | -------------- |
-| Análise de intenção | <li> Meça a intensidade da intenção da conta (como baixa, média e alta) para produtos específicos. <li>Comparar tendências de interesse de produtos ao longo do tempo (como os principais produtos dos últimos _n_ dias). <li>Identificar contas que mostram ativamente interesse em produtos específicos. <li>Padrões de envolvimento de superfície que combinam atividade da conta com cobertura de persona. | <li>Ajuda as equipes a se concentrarem nas contas certas na hora certa. <li>Melhora a qualidade do pipeline ao priorizar contas com sinais de compra genuínos. <li>Permite o engajamento pró-ativo antes que os concorrentes ajam. |
-| Mapeamento de personas | <li>Detecte e classifique os principais perfis por intenção de produto. <li>Identifique os perfis envolvidos na compra de um ou vários produtos. <li>Mapeie personas para funções funcionais (como _Especialista_, _Decisor_ e _Influenciador_) com justificativa. <li>Validar por que uma determinada pessoa é considerada um campeão. | <li>Garante que a equipe de vendas envolva os verdadeiros responsáveis pelas decisões e influenciadores. <li>Reduz o desperdício de esforços em contatos de baixo impacto. <li>Aumenta as taxas de ganho ao alinhar o alcance com a dinâmica do poder do comprador. |
-| Avaliação do grupo de compras | <li>Avalie o tamanho do grupo de compras (por exemplo, grupos com mais de _n_ membros). <li>Meça a cobertura de persona entre contas (por exemplo, abaixo de _x_%). <li>Rastrear a distribuição de funções e as lacunas de cobertura nos grupos de compra. <li>Destaque as contas com campeões identificados em ofertas recentes. | <li>Revela lacunas de cobertura que podem impedir os negócios. <li>Fortalece as estratégias de múltiplos processos, garantindo uma representação completa das funções. <li>Melhora o rastreamento da integridade do negócio por meio de insights de engajamento no nível do grupo. |
-| Criação e capacidade de ação do grupo de compras | <li>Mapeamentos de função para pessoa recomendados com base nos padrões de personalidade e função observados. <li>Gerar um modelo de função de grupo de compra para um produto especificado. <li>Suporte à personalização de modelos ao incluir ou excluir perfis e funções específicas. <li>Valide se as funções necessárias estão definidas antes da criação dos grupos de compra. | <li>Reduz o esforço manual e o risco de modelos incompletos de grupos de compra. <li>Garante que a cobertura da função seja validada antes da criação, reduzindo o risco de lacunas de cobertura. <li>Transforma os insights da análise em próximas etapas imediatas e operacionais. |
+![Aviso de público-alvo em [!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}
+
+## Áreas de foco de habilidades do público
+
+Use áreas de foco de habilidade do público-alvo para explorar a intenção da conta, entender pessoas e personas e preparar modelos de grupo de compra.
+
+| Focus | Tarefas |
+| ----- | ----- |
+| Tentativa de conta | Avalie a intenção da conta para produtos específicos usando níveis de intenção baixo, médio e alto. Compare as tendências de juros do produto ao longo do tempo e identifique as contas que mostram interesse em produtos específicos. Analise os padrões de envolvimento junto com a cobertura de persona. |
+| Pessoas e personalidades | Identifique e classifique perfis por intenção de produto em um ou mais produtos. Analise as métricas de oportunidade, incluindo taxa de ganho, taxa de associação e contagens. Mapeie personas para funções como _Especialista_, _Decisor_ e _Influenciador_, e revise as explicações para atribuições de funções. |
+| Cobertura do grupo de compras | Avaliar o tamanho do grupo de compras e a cobertura da pessoa em todas as contas. Revise a distribuição de funções e identifique perfis ou funções ausentes. Encontre contas com campeões identificados em ofertas recentes. |
+| Modelos de grupo de compras | Gerar modelos de função do grupo de compras para produtos específicos e revisar os mapeamentos de persona recomendados. Refine modelos incluindo ou excluindo perfis e funções. Valide as funções necessárias antes de criar grupos de compra. |
 
 ## Limitações
 
-O Audience Agent B2B depende da taxonomia de intenção configurada, dos mapeamentos de campo XDM e dos dados do evento de experiência. Os insights são menos confiáveis quando os dados da oportunidade estão incompletos, a taxonomia de intenção está ausente ou desatualizada ou os identificadores de perfil e conta necessários não são mapeados. Para o cálculo de intenção, o agente processa apenas estes eventos de experiência: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` e `web.webpagedetails.pageViews`.
+Os insights do público-alvo dependem da taxonomia de intenção configurada, dos mapeamentos de campo XDM e dos dados do evento de experiência. Dados de oportunidade incompletos, taxonomia ausente ou desatualizada ou identificadores de perfil e conta ausentes podem reduzir a confiabilidade da insight.
+
+O cálculo de intenção usa apenas estes eventos de experiência: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` e `web.webpagedetails.pageViews`.
 
 ## Exemplos de prompt
 
-Estes exemplos de prompts demonstram algumas das maneiras pelas quais você pode usar o agente:
+Digite os seguintes prompts na interface [!DNL CX Coworker] para explorar a intenção de conta, entender pessoas e personalidades e preparar modelos de grupos de compra.
+
+### Tentativa de conta
+
+Explore o interesse da conta em produtos e analise as alterações de intenção.
 
 * Mostrar a janela de tendência: atualizações mais antigas e mais recentes da intenção de produto da conta por produto.
-* Para `<product>`, liste os grupos de compras com intenção de produto e pontuações.
-* Para `<product>`, liste perfis e funções com suas métricas de oportunidade (taxa de ganho, taxa de associação, contagens).
-* Para contas em `<industry>`, qual é a cobertura de persona média da conta para `<product>`?
 * Quais contas têm pouca intenção para qualquer produto, mas ainda têm oportunidades em aberto (que valha a pena cuidar)?
-* Quais contas adicionaram novos sinais de intenção para `<account_name>` esta semana?
+* Quais novos sinais de intenção foram gravados para `<account_name>` esta semana?
+
+### Pessoas e personalidades
+
+Identifique perfis associados a interesses de produtos e revise as funções de grupo de compras recomendadas.
+
 * Mostre-me os perfis associados a `<product>`.
 * Mostre-me a recomendação de mapeamento de função para pessoa para `<product>`.
+* Para `<product>`, liste perfis e funções com suas métricas de oportunidade (taxa de ganho, taxa de associação, contagens).
+
+### Comprando grupos e modelos
+
+Revise a intenção e a cobertura do grupo de compras e gere ou refine os modelos.
+
+* Para `<product>`, liste os grupos de compras com intenção de produto e pontuações.
+* Para contas em `<industry>`, qual é a cobertura de persona média da conta para `<product>`?
 * Criar um modelo de grupo de compra para `<product>`.
 * Crie um modelo de grupo de compra para `<product>` sem a persona `<persona>` e remova a função `<role>`.
 
 ## Conceitos
 
+Use esses conceitos para interpretar a intenção da conta, as classificações de persona e as recomendações de grupo de compras.
+
 | Conceito | Explicação |
 | ------- | ----------- |
-| Detecção de público | Nos bastidores, o agente observa sinais de intenção próprios com base em duas coisas: o grau de engajamento das pessoas com a sua marca e os tipos de personalidades que elas representam. A análise retroage os últimos 18 meses de atividade para detectar a intenção do produto em todos na conta, especialmente durante o tempo que antecede o fechamento de uma oportunidade. Essa análise ajuda o agente a destacar a pessoa mais propensa a influenciar o negócio.<br/><br/>Às vezes, as contas não têm todos os dados de oportunidade em perfeito estado, o que é correto, e o agente ainda pode detectar a intenção do produto apenas com base nos padrões de envolvimento. |
-| Persona | As personalidades representam os tipos de pessoas que se envolvem em uma conta. O agente as cria observando o cargo, a função e o nível de antiguidade e, em seguida, normalizando essas informações para que sejam consistentes em diferentes contas. Dessa forma, em vez de se perder em títulos confusos, você pode ver rapidamente se está atingindo tomadores de decisão, influenciadores ou funções de suporte. Personas ajudam você a entender quem está demonstrando interesse, não apenas quanto interesse há. |
-| Mapeamento de funções de grupos de compra | Depois que as personalidades são mapeadas a funções, você as reúne em um grupo de compra, a equipe completa dentro da conta que tem maior probabilidade de influenciar ou decidir sobre a compra. Cada função (como _tomador de decisão_, _influenciador_ ou _campeão_) adiciona uma parte da imagem para que você tenha uma visão clara do comitê que orienta o negócio.<br/><br/>O agente mapeia cada persona identificada à função que ela tem maior probabilidade de desempenhar em um produto específico, com base no cargo, função, antiguidade e outros atributos configurados. Ela também mostra a cobertura de cada função para que você possa ver quais funções estão bem representadas e onde as lacunas permanecem na estratégia de envolvimento. |
-| Usar dados de oportunidade para detectar persona | Para fornecer a visão mais precisa de quem está se envolvendo e onde estão seus interesses, o agente aborda a classificação de persona e a intenção do produto de acordo com o seguinte: <ul><li>Cenário mais adequado: se você puder fornecer dados como _Estágio da oportunidade_, _Data de fechamento da oportunidade_ e um _Mapeamento de oportunidade para produto_ claro, o agente poderá classificar personas com confiança por produto.<li>Essa classificação fornece uma compreensão precisa do engajamento e interesse na conta. </ul>Mas o agente sabe que os dados nem sempre estão completos, o que está correto. Ele inclui fallbacks inteligentes para manter as coisas em movimento:<ul><li>O agente analisa o volume de atividades, dando mais peso às recentes usando o declínio de tempo.<li>Essa ponderação permite que o agente diferencie e classifique perfis, mesmo sem dados de oportunidade completos. </ul>Quando se trata de vincular oportunidades a produtos, veja como o agente lida com isso:<ul><li>_Ideal_: você fornece ou ajuda ao agente para criar a tabela de mapeamento.<li>_Se não estiver disponível_: o agente usa a correspondência difusa para conectar os pontos.<li>_Nenhuma vinculação_: o agente infere a intenção do produto com base em atividades recentes anteriores à data de fechamento.</ul>Essa abordagem em camadas garante que o agente ainda possa fornecer insights significativos, mesmo quando os dados não são perfeitos. |
-| Análise de oportunidade | O agente examina os dados históricos da oportunidade para entender quais fatores preveem uma vitória com mais intensidade e usa três dimensões principais para fazer isso:<ol><li>Taxa de vitórias: mostra a frequência com que as negociações são fechadas com êxito quando determinadas personalidades estão envolvidas. Se as contas com um padrão de persona específico (como um avaliador técnico ou um tomador de decisão de nível VP) tendem a converter mais frequentemente, o modelo oferece maior peso a esse padrão. Essas informações representam um percentual do total de oportunidades, como oportunidades fechadas ou ganhas.<li>Taxa de associação: mede a frequência com que um tipo de pessoa é exibido entre oportunidades para um determinado produto. Se determinadas pessoas aparecem consistentemente em negociações bem-sucedidas, isso indica que elas desempenham uma função crítica no processo de compra.<li>Influência pessoal: quantifica o quanto uma determinada pessoa contribui para o resultado, não apenas se ela está presente, mas como seu envolvimento ou nível de atividade se correlaciona com as vitórias.</ol>Juntos, esses sinais ajudam a inferir quais perfis têm mais impacto nos resultados da compra, mesmo quando os dados da oportunidade estão incompletos. Com o tempo, ele permite que o sistema exiba perfis e padrões de alto impacto mais preditivos do sucesso do negócio, que informam a intenção da conta, o mapeamento da pessoa e as recomendações do grupo de compras. |
-| Intenção | Quando alguém visita uma página da Web ou clica em um link de email relacionado a um produto, isso é um sinal de que está interessado, e é chamado de _intenção_.<br/><br/>O agente começa com uma taxonomia, que é basicamente uma lista dos produtos do cliente e as palavras-chave que os descrevem. Essas informações ajudam o agente a entender sobre o que trata cada parte do conteúdo ou interação.<br/><br/>Em seguida, o agente usa essa taxonomia para rotular a atividade do visitante, como a quais palavras-chave ou produtos suas ações se relacionam.<br/><br/>Em seguida, o agente verifica a profundidade com que alguém se envolve, como a quantidade de páginas que visita ou a frequência com que interage. Ela usa essas informações para calcular sua pontuação de intenção individual para palavras-chave, produtos ou categorias de produtos específicas. Ele agrupa cada pontuação de intenção na intenção _Alta_, _Medium_ ou _Baixa_ para indicar a intensidade do interesse. (Baixa intenção: `<=0.2`, intenção do Medium: `0.2 < score <= 0.6`, Alta intenção: `0.6 < score <= 1`)<br/><br/>Por fim, o agente combina as pontuações de intenção de todas as pessoas da mesma empresa (conta) para ver a intenção geral no nível da conta, mostrando em quais produtos ou tópicos essa empresa parece estar mais interessada. |
-| Funções que influenciam um grupo de compras | Cada grupo de compras é composto de funções que contribuem de forma diferente para a decisão de compra, como _Decisor_, _Influenciador_, _Campeão_ e _Usuário Final_. Cada função tem um grau variável de impacto.<br/><br/>Os tomadores de decisão têm mais influência e geralmente controlam as aprovações de orçamento. Os influenciadores moldam a avaliação e as recomendações. Os especialistas ajudam a criar um consenso interno, enquanto os usuários finais validam o ajuste do produto.<br/><br/>Ao mostrar essas funções, o agente ajuda você a entender quem está conduzindo a decisão de compra, onde seu engajamento é mais forte e onde podem existir lacunas de cobertura. Essas informações permitem que você se concentre nas funções mais importantes para esse produto. |
-| Cobertura de pessoa ou função | Para qualquer produto, geralmente há um conjunto de funções e personalidades principais que são conhecidas por influenciar a compra (_N_ personas ou funções).<br/><br/>Para cada conta, o agente calcula a cobertura verificando quantas dessas funções _N_ são representadas por pelo menos uma pessoa nessa conta.<br/><br/>Se todas as funções de _N_ estiverem presentes, a conta terá cobertura total. Se apenas algumas funções forem representadas, a cobertura é parcial.<br/><br/>Em termos simples, a cobertura de funções e personalidades mede a conclusão do seu grupo de compras para um produto, com base no fato de todos os tomadores de decisão, influenciadores e campeões importantes estarem incluídos. |
+| Detecção de público | Analise sinais de engajamento primários entre as pessoas em uma conta para identificar o interesse do produto e os perfis relevantes. A análise considera os 18 meses anteriores de atividade, incluindo a atividade antes do fechamento da oportunidade. Os padrões de engajamento podem indicar a intenção do produto quando os dados da oportunidade estão incompletos, mas a ausência de dados pode reduzir a confiabilidade da insight. |
+| Persona | As personalidades agrupam as pessoas por cargo, função e antiguidade normalizados. Use perfis para entender quem está se envolvendo em uma conta, incluindo tomadores de decisão, influenciadores e funções de suporte. |
+| Mapeamento de funções de grupos de compra | Mapeie personas para funções de grupos de compra específicas do produto com base no cargo, função, antiguidade e atributos configurados. Essas funções representam as pessoas em uma conta que influenciam ou decidem sobre uma compra. Revise a cobertura para identificar funções ausentes. |
+| Dados de oportunidade para classificação de persona | O estágio de oportunidade, a data de fechamento e os mapeamentos de oportunidade para produto oferecem suporte à classificação de persona para cada produto. Quando os dados da oportunidade estão incompletos, a classificação usa o volume de atividade e o declínio de tempo para dar mais peso à atividade recente.<br/><br/>A vinculação de produtos usa uma tabela de mapeamento de oportunidade para produto fornecida ou gerada quando disponível. Caso contrário, a correspondência difusa vincula oportunidades a produtos. Se nenhuma vinculação estiver disponível, a intenção do produto será inferida a partir da atividade recente antes da data de fechamento da oportunidade. Esses métodos de fallback não eliminam as limitações de confiabilidade dos dados incompletos. |
+| Análise de oportunidade | A análise de oportunidade histórica usa três dimensões para identificar padrões de persona associados aos resultados de compra:<ul><li>Taxa de vitórias: mede a frequência com que as oportunidades são conquistadas quando pessoas específicas estão envolvidas. Padrões de personalidade associados com maiores taxas de ganho recebem mais peso.</li><li>Taxa de associação: mede a frequência com que uma pessoa aparece em oportunidades para um determinado produto.</li><li>Influência pessoal: mede como o engajamento ou a atividade pessoal se correlaciona com vitórias, além de se a persona estiver presente.</li></ul>Esses sinais informam a intenção da conta, o mapeamento de persona e as recomendações do grupo de compra. |
+| Intenção | A intenção indica o interesse do produto por meio do engajamento, como visitas à página da Web ou cliques em links de email. A taxonomia de produtos conecta a atividade de engajamento a palavras-chave, produtos e categorias de produtos. A profundidade e a frequência do engajamento determinam as pontuações de intenção individuais para cada palavra-chave, produto ou categoria de produto.<br/><br/>As pontuações indicam intensidade de interesse: `<=0.2`, intenção de Medium: `0.2 < score <= 0.6`, intenção alta: `0.6 < score <= 1`.<br/><br/>As pontuações de intenção individuais são agregadas entre pessoas na mesma conta para determinar a intenção de conta. |
+| Funções que influenciam um grupo de compras | As funções de grupo de compra representam diferentes contribuições para uma decisão de compra. _Tomadores de decisão_ normalmente controlam aprovações de orçamento. _Influenciadores_, avaliação de forma e recomendações. _Campeões_ criam um consenso interno. _Usuários Finais_ validam a adequação do produto.<br/><br/>Revise as atribuições de funções e a cobertura para entender quem influencia a decisão e onde as lacunas de engajamento permanecem. |
+| Cobertura de pessoa ou função | A cobertura mede quantas pessoas ou funções esperadas têm pelo menos um representante em uma conta. Para um produto com as personalidades ou funções esperadas _N_, cobertura completa significa que todos os _N_ estão representados. Cobertura parcial significa que alguns estão ausentes. Use a cobertura para avaliar a integridade do grupo de compras e identificar lacunas. |
 
 ## Pré-requisitos de dados XDM
 
-O Audience Agent fornece insights sobre contas que mostram a intenção própria de produtos e calcula perfis e funções com base nos dados definidos. Verifique se os seguintes dados de pré-requisito estão configurados para usar os recursos do Audience Agent:
+Configure os seguintes mapeamentos de campo XDM para oferecer suporte à análise de intenção de conta, identificação de pessoa e mapeamento de função de grupo de compra.
 
 ### Mapeamento de campo XDM
 
@@ -174,7 +206,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span >Perfis</span>
         </p>
       </td>
-      <td>Nome da pessoa, usado pelo Audience Agent para exibir nomes na interface do usuário quando atendido por qualquer critério</td>
+      <td>Exibe o nome da pessoa nos resultados que correspondem à sua consulta.</td>
     </tr>
     <tr class="">
       <td>
@@ -187,7 +219,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span> Perfis</span>
         </p>
       </td>
-      <td>Nome completo da pessoa, usado pelo Audience Agent para exibir nomes na interface do usuário quando atendido por qualquer critério</td>
+      <td>Exibe o nome completo da pessoa nos resultados que correspondem à sua consulta.</td>
     </tr>
     <tr class="">
       <td>
@@ -200,7 +232,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span> Perfis</span>
         </p>
       </td>
-      <td>Sobrenome da pessoa, usado pelo Audience Agent para exibir nomes na interface do usuário quando atendido por qualquer critério</td>
+      <td>Exibe o sobrenome da pessoa nos resultados que correspondem à sua consulta.</td>
     </tr>
     <tr>
       <td>
@@ -227,7 +259,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span>Contas</span>
         </p>
       </td>
-      <td>Nome da conta usada pelo Audience Agent para exibir na interface do usuário quando atendido por qualquer critério apresentado na consulta do usuário</td>
+      <td>Exibe o nome da conta nos resultados que correspondem à sua consulta.</td>
       <td rowspan="4">
         <p>
           <br/>
@@ -252,7 +284,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span>Contas</span>
         </p>
       </td>
-      <td>Descrição da conta/empresa usada pelo Audience Agent para aplicar o filtro em contas com base na consulta do usuário na interface </td>
+      <td>Suporta filtragem de conta por descrição de conta com base em sua consulta.</td>
     </tr>
     <tr>
       <td>
@@ -265,7 +297,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span> Contas</span>
         </p>
       </td>
-      <td>Setor de conta/empresa usado pelo Audience Agent para aplicar filtro em contas com base na consulta do usuário na interface </td>
+      <td>Oferece suporte à filtragem de conta por setor com base em sua consulta.</td>
     </tr>
     <tr>
       <td>
@@ -278,7 +310,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span> Contas</span>
         </p>
       </td>
-      <td>Endereço de cobrança da conta/empresa usada pelo Audience Agent para aplicar o filtro em contas com base na consulta do usuário na interface </td>
+      <td>Oferece suporte à filtragem de conta por região de endereço de faturamento com base na sua consulta.</td>
     </tr>
     <tr>
       <td>
@@ -320,7 +352,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span> Oportunidade</span>
         </p>
       </td>
-      <td>Nome da oportunidade usada pelo Audience Agent </td>
+      <td>Nome da oportunidade usado na análise da oportunidade.</td>
       <td rowspan="5">
         <p>
           <br/>
@@ -364,7 +396,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
           <span>Oportunidade</span>
         </p>
       </td>
-      <td>Descrição da oportunidade usada pelo Audience Agent </td>
+      <td>Descrição da oportunidade usada na análise da oportunidade.</td>
     </tr>
     <tr>
       <td>
@@ -452,7 +484,7 @@ O Audience Agent fornece insights sobre contas que mostram a intenção própria
 
 ### Dados de taxonomia
 
-O Audience Agent utiliza a intenção própria detectada no Journey Optimizer B2B edition:
+As habilidades do público usam dados de intenção própria de [!DNL Adobe Journey Optimizer B2B Edition]. O cálculo de intenção conecta a taxonomia do produto com a atividade de envolvimento e agrega pontuações individuais no nível da conta.
 
 1. O cálculo de intenção requer dados de taxonomia (produtos do cliente e palavras-chave correspondentes) de Clientes > Taxonomia
 1. Os dados de taxonomia são usados para rotular dados do evento (rotulagem de ativos). Esses dados fornecem insights sobre em quais palavras-chave e produtos os visitantes estão interessados com base nos dados do evento > Rotulagem de ativos 
@@ -547,7 +579,7 @@ Os seguintes campos são obrigatórios além de [configurar a taxonomia de inten
           <span>Evento de experiência</span>
         </p>
       </td>
-      <td>Obtenha o tipo de evento, pois o agente processa apenas quatro eventos (<span>directMarketing.emailClicked, directMarketing.emailOpened, directMarketing.emailUnsubscribed, web.webpagedetails.pageViews)</span>
+      <td>Identifica o tipo de evento. O cálculo de intenção usa apenas <code>directMarketing.emailClicked</code>, <code>directMarketing.emailOpened</code>, <code>directMarketing.emailUnsubscribed</code> e <code>web.webpagedetails.pageViews</code>.
       </td>
     </tr>
     <tr>
@@ -602,7 +634,7 @@ Os seguintes campos são obrigatórios além de [configurar a taxonomia de inten
           <span>Evento de experiência</span>
         </p>
       </td>
-      <td>Usado para buscar o conteúdo de email do data center da Marketo Engage; é composto de (SourceID@SourceInstanceID.SourceType)</td>
+      <td>Usado para buscar o conteúdo de email do data center do [!DNL Adobe Marketo Engage]. Ele inclui (SourceID@SourceInstanceID.SourceType).</td>
     </tr>
     <tr>
       <td>

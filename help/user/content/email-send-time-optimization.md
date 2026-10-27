@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # Otimização do tempo de envio de email
@@ -46,16 +46,16 @@ No momento, a otimização de tempo de envio é compatível com:
 * **Tipo de Jornada**: Jornadas de pessoas
 * **Canal**: Email
 * **Configuração**: nó da ação _Enviar email_
-* **Relatórios**: assistente de IA por meio da habilidade de observação da Jornada
+* **Relatórios**: [!DNL Coworker] converse através das habilidades de observabilidade da jornada
 
-  Os insights de desempenho, como uso, aumento de engajamento e comparações STO versus não STO, estão disponíveis por meio de consultas de linguagem natural no Assistente de IA.
+  Os insights de desempenho, como uso, aumento de engajamento e comparações STO vs. não STO, estão disponíveis por meio de consultas de linguagem natural no chat do [!DNL Coworker].
 
 >[!BEGINSHADEBOX]
 
 Há muitos **_aprimoramentos futuros_** planejados para o STO:
 
 * Suporte para _Jornadas de conta_
-* Configuração STO global na área _[!UICONTROL Admin]_
+* Configuração STO global na área _[!UICONTROL Administração]_
 * Ativação de STO no nível da jornada
 * Divisões de teste/controle configuráveis
 * Um painel de relatórios STO dedicado
@@ -90,4 +90,4 @@ Você pode configurar a otimização de hora de envio ao [adicionar um nó _[!UI
 
 ## Insights de STO
 
-Os insights de STO são entregues por meio do _Assistente de IA_ usando a [_habilidade de observação_](../agents/journey-agent.md#journey-observability-skill) da Journey Agent. Você pode consultar uso, métricas de engajamento, resultados de teste/controle, desempenho do nó e impacto geral na jornada.
+Os insights de STO são entregues por meio do _[!DNL Coworker]chat_ usando as [_habilidades de observabilidade da jornada_](../agents/journey-agent.md#journey-observability-skills). Você pode consultar uso, métricas de engajamento, resultados de teste/controle, desempenho do nó e impacto geral na jornada.
