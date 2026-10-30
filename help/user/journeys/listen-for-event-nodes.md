@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # Acompanhar um evento
 
 Para avançar o público-alvo para a próxima etapa da sua [jornada](./journeys-overview.md) quando ocorrer um evento, adicione o nó _Ouvir um evento_. Dependendo do tipo de jornada, você pode usar esse nó para acionar o próximo nó na jornada de acordo com pessoas ou eventos de conta.
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Jornadas da conta {#account-journeys}
 
@@ -363,8 +361,6 @@ Habilite a opção **[!UICONTROL Timeout]** nas propriedades do nó para especif
 
    Se não quiser definir o caminho, desmarque a caixa de seleção _[!UICONTROL Definir caminho de tempo limite]_.
 
-<!--
- ## Overview video
+## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on)

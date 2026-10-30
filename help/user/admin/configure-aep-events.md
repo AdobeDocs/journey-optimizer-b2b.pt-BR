@@ -26,17 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 11%
+source-wordcount: '1639'
+ht-degree: 13%
 ---
 # Selecionar eventos de experiência e campos
 
 Os administradores podem selecionar [Eventos de experiência](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} do Adobe Experience Platform (AEP) específicos e seus campos associados no esquema de união do Evento de experiência. Após a seleção, os usuários podem configurar regras de decisão para ouvir esses Eventos de experiência e ativar ações de campanha dinâmicas e direcionadas com base em dados de eventos quase em tempo real.
 
-<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 >[!PREREQUISITES]
 >
 >O uso de eventos e campos de experiência no Journey Optimizer B2B Edition requer esquemas de evento de experiência habilitados para perfil. Para obter mais informações, consulte [Habilitar perfis de clientes em tempo real](https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nos tutoriais do Experience Platform.
@@ -185,7 +184,7 @@ Tipo de evento: `directMarketing.emailSent`
 | ID da instância de origem de email | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
 | Chave de origem do email | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Nome da mala direta | `directMarketing.emailSent.mailingName` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -213,7 +212,7 @@ Tipo de evento: `directMarketing.emailDelivered`
 | ID da instância de origem de mala direta | `directMarketing.mailingKey.sourceInstanceID` |
 | Chave de origem da mala direta | `directMarketing.mailingKey.sourceKey` |
 | Nome da mala direta | `directMarketing.mailingName` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -245,7 +244,7 @@ Tipo de evento: `directMarketing.emailOpened`
 | Modelo do dispositivo | `device.model` |
 | Agente do usuário | `environment.browserDetails.userAgent` |
 | Sistema operacional | `environment.operatingSystem` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -278,7 +277,7 @@ Tipo de evento: `directMarketing.emailClicked`
 | Modelo | `device.model` |
 | Agente do usuário | `environment.browserDetails.userAgent` |
 | Sistema operacional | `environment.operatingSystem` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -309,7 +308,7 @@ Tipo de evento: `directMarketing.emailBounced`
 | Email | `directMarketing.email` |
 | Código de email rejeitado | `directMarketing.emailBouncedCode` |
 | Detalhes do email rejeitado | `directMarketing.emailBouncedDetails` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -340,7 +339,7 @@ Tipo de evento: `directMarketing.emailBouncedSoft`
 | Email | `directMarketing.email` |
 | Código de email rejeitado | `directMarketing.emailBouncedCode` |
 | Detalhes do email rejeitado | `directMarketing.emailBouncedDetails` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -368,7 +367,7 @@ Tipo de evento: `directMarketing.emailUnsubscribed`
 | ID da instância de origem de mala direta | `directMarketing.mailingKey.sourceInstanceID` |
 | Chave de origem da mala direta | `directMarketing.mailingKey.sourceKey` |
 | Nome da mala direta | `directMarketing.mailingName` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -488,13 +487,11 @@ Tipo de evento: `leadOperation.interestingMoment`
 | Descrição do momento | `leadOperation.interestingMoment.description` |
 | Origem do momento | `leadOperation.interestingMoment.source` |
 | Tipo de momento | `leadOperation.interestingMoment.type` |
-| ID DA JORNADA | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID da jornada | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID do nó | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-<!--
- ## Overview video
+## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3448688/?captions=por_br&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3448688/?captions=por_br&learn=on)
