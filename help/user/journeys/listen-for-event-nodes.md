@@ -363,4 +363,4 @@ Habilite a opção **[!UICONTROL Timeout]** nas propriedades do nó para especif
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on)
