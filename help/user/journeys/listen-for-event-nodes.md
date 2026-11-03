@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
+source-git-commit: 15097380d19f8e3748f49fee18aec2fcf43d0af3
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 4%
 ---
 # Acompanhar um evento
 
 Para avançar o público-alvo para a próxima etapa da sua [jornada](./journeys-overview.md) quando ocorrer um evento, adicione o nó _Ouvir um evento_. Dependendo do tipo de jornada, você pode usar esse nó para acionar o próximo nó na jornada de acordo com pessoas ou eventos de conta.
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Assista ao vídeo de visão geral](#overview-video)
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30" vertical-align="middle"} [Assista ao vídeo de visão geral](#overview-video)
 
 ## Jornadas da conta {#account-journeys}
 
@@ -197,7 +197,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Para jornadas de pessoas, você pode usar uma alteração nos atributos de perfil de pessoas B2B para acionar o nó _Escutar um evento_.
 
-1. Arraste e solte **[!UICONTROL Alteração no perfil da pessoa]**&#x200B;s da lista _[!UICONTROL Acionadores]_ no espaço do construtor de eventos correspondente.
+1. Arraste e solte **[!UICONTROL Alteração no perfil da pessoa]**s da lista _[!UICONTROL Acionadores]_ no espaço do construtor de eventos correspondente.
 
 1. Clique em **[!UICONTROL Adicionar restrição]** e selecione a alteração de atributo que você deseja usar para o disparador de evento.
 
@@ -219,7 +219,7 @@ Eventos de experiência estão disponíveis para jornadas de pessoas ou quando v
 
 >[!PREREQUISITES]
 >
->Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
+>Os administradores configuram os [Eventos de experiência do Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permitem aos profissionais de marketing criar jornadas de conta e pessoa que reagem aos eventos em tempo quase real.
 >
 >Para disponibilizar Eventos de Experiência para jornada, um administrador de produto deve primeiro [adicionar os tipos de evento e campos de interesse](../admin/configure-aep-events.md#add-an-event) em [!DNL Journey Optimizer B2B Edition].
 
@@ -363,4 +363,4 @@ Habilite a opção **[!UICONTROL Timeout]** nas propriedades do nó para especif
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443239/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
