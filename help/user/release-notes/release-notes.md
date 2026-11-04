@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
 workflow-type: tm+mt
-source-wordcount: '5774'
-ht-degree: 60%
+source-wordcount: '5888'
+ht-degree: 58%
 ---
 # Notas de versão do Journey Optimizer B2B Edition
 
@@ -36,6 +36,20 @@ O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, me
 O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
+
+## Notas de versão 2026.10 {#rel-2026-10}
+
+**Data de implantação**: 6 de novembro de 2026
+
+| Tipo | Item | Descrição |
+| ---- | ---- | ----------- |
+| Recurso | Listas de pessoas | Use listas de pessoas estáticas e dinâmicas para direcionar perfis de acordo com seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
+| Recurso | Jornada rótulos de nó | Adicione rótulos aos nós do jornada para identificá-los na tela de jornada. |
+| Aprimoramento | Filtro Membro da lista de pessoas | Use o filtro _[!UICONTROL Membro da Lista de Pessoas]_ para incluir ou excluir perfis com base em sua associação à lista de pessoas. |
+| Aprimoramento | Ações de jornada da lista de pessoas | Adicione ou remova pessoas de listas estáticas de pessoas por meio de jornadas de conta e pessoa. |
+
+>[!NOTE]
+>Essas alterações de versão começam em 6 de novembro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas de versão 2026.9 {#rel-2026-9}
 
@@ -50,12 +64,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 25 de setembro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
-
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
+>Essas alterações de versão começam em 25 de setembro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas de versão 2026.8 {#rel-2026-8}
 
@@ -74,7 +83,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 14 de agosto de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>A implantação dessas alterações de versão começa em 14 de agosto de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas de versão 2026.6 {#rel-2026-6}
 
@@ -89,13 +98,11 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 10 de julho de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Essas alterações de versão começam em 10 de julho de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas de versão 2026.5 {#rel-2026-5}
 
 **Data de implantação**: 22 de maio de 2026
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
@@ -111,12 +118,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 22 de maio de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>Essas alterações de versão começam em 22 de maio de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas de versão 2026.3 {#rel-2026-3}
 
@@ -135,7 +137,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 27 de março de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Essas alterações de versão começam em 27 de março de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 
 ## Notas de versão 2026.2 {#rel-2026-2}
@@ -151,7 +153,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 20 de fevereiro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Essas alterações de versão começam em 20 de fevereiro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas de versão 2026.1 {#rel-2026-1}
 
@@ -167,7 +169,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Essas alterações de versão começam a ser implantadas em 3 de fevereiro de 2026, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Essas alterações de versão começam em 3 de fevereiro de 2026, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Recursos de IA agêntica {#rel-agents}
 
@@ -199,7 +201,7 @@ Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimiz
 
 >[!NOTE]
 >
->Estas alterações da versão começam a ser implantadas em 31 de outubro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Essas alterações de versão começam em 31 de outubro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ### Arquitetura atualizada
 
@@ -213,7 +215,7 @@ Essa implementação oferece vários benefícios:
 
 * **Unifique e dimensione os seus dados facilmente**: a plataforma atualizada permite o uso de modelos de dados complexos, incluindo objetos personalizados, grupos de compra e eventos de conta.
 * **Conecte várias instâncias do Adobe Marketo Engage**: gerencie e unifique dados de vários ambientes do Adobe Marketo Engage no mesmo lugar.
-* **Mantenha os seus dados seguros**: os recursos avançados de privacidade e segurança ajudam a proteger as informações dos seus clientes.
+* **Proteja seus dados**: recursos avançados de privacidade e segurança ajudam a proteger as informações de seus clientes.
 * **Projetado para escalabilidade de longo prazo**: essa atualização prepara sua organização para melhorias e inovações contínuas.
 
 >[!NOTE]
@@ -245,7 +247,7 @@ Esta versão inclui os seguintes novos recursos e melhorias:
 
 >[!NOTE]
 >
->Estas alterações da versão começam a ser implantadas em 30 de setembro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
+>Essas alterações de versão começam em 30 de setembro de 2025, com uma implantação em fases de cada recurso. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
 
 ## Notas da versão 2025.8 {#rel-2025-8}
 
