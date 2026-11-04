@@ -33,7 +33,7 @@ ht-degree: 58%
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -179,7 +179,7 @@ Os seguintes recursos de IA de agente estão disponíveis para o Journey Optimiz
 | ----- | ------ | ----------- |
 | Agente de construção de jornada | Novo e atualizado | O agente de construção da jornada analisa, idealiza e co-cria jornadas em tempo real, permitindo que os profissionais de marketing lancem mais rapidamente, melhorem o engajamento e impulsionem taxas de conversão mais altas. [Saiba mais](../agents/journey-agent.md) |
 | Audience Agent | Novo | O Audience Agent identifica e cria automaticamente grupos de compra utilizando dados estruturados e não estruturados. Ele ajuda os profissionais de marketing a atingir as pessoas certas com mais rapidez e precisão. [Saiba mais](../agents/audience-agent-b2b.md) |
-| [!DNL Marketo Qualifier] | Novo | [!DNL Adobe Marketo Qualifier] é um aplicativo orientado por IA que se integra ao [!DNL Journey Optimizer B2B Edition]. Ele implementa o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | Novo | [!DNL Adobe Marketo Qualifier] é um aplicativo orientado por IA que se integra ao [!DNL Journey Optimizer B2B Edition]. Ele implementa o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). Ele automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador em todos os canais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## Notas da versão 2025.10 {#rel-2025-10}
 
