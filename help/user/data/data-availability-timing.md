@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # Disponibilidade de dados e tempo de sincronização {#data-availability}
@@ -85,6 +85,14 @@ Os dados se movem entre os dois sistemas em cada direção em um ritmo diferente
 
 * **[!DNL Experience Platform]a[!DNL Journey Optimizer B2B Edition]** - Sincronizações de dados em tempo quase real, que podem levar até 30 minutos.
 * **[!DNL Journey Optimizer B2B Edition]a[!DNL Experience Platform]** - Sincronizações de dados em microlotes e podem levar até 4 horas.
+
+## Alterações na identidade do perfil {#profile-identity-changes}
+
+As alterações no `identityMap` de um perfil em [!DNL Adobe Experience Platform] podem quebrar sua associação com um registro de pessoa existente em [!DNL Journey Optimizer B2B Edition]. O registro de pessoa anterior é marcado como excluído e não avança mais pelo processamento de jornadas ou de grupos de compras.
+
+O perfil deve se qualificar novamente para um público-alvo ativado para [!DNL Journey Optimizer B2B Edition] e ser assimilado novamente. Se o registro assimilado tiver uma ID de pessoa diferente, ele será tratado como uma nova pessoa. Se essa pessoa entrar em uma jornada, ela começará do início, em vez de retomar o progresso do registro anterior.
+
+As contagens de status de jornada históricas ainda incluem o registro de pessoa excluído. No entanto, **[!UICONTROL Drill-through]** exclui registros excluídos, portanto, sua contagem de registros pode ser inferior à contagem de gráficos. Para obter detalhes, revise [os relatórios de conclusão da jornada da pessoa](../journeys/journey-details.md#person-journey-completion).
 
 ## Eventos de atividade e ações de jornada {#activity-and-actions}
 
