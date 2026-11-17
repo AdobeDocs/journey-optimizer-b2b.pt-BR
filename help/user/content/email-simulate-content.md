@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 7%
@@ -84,7 +84,7 @@ Uma prova é uma mensagem de teste entregue que permite que você e os membros d
 
 1. Clique em **[!UICONTROL Enviar prova]** na parte superior direita.
 
-   ![Clique em Enviar prova](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![Clique em Enviar prova](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. Na página _Enviar prova_, digite o endereço de email do primeiro destinatário.
 
