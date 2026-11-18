@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Notas de versão do Journey Optimizer B2B Edition
@@ -43,10 +43,10 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
-| Recurso | Listas de pessoas | Use listas de pessoas estáticas e dinâmicas para direcionar perfis de acordo com seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. |
-| Recurso | Jornada rótulos de nó | Adicione rótulos aos nós do jornada para identificá-los na tela de jornada. |
-| Aprimoramento | Filtro Membro da lista de pessoas | Use o filtro _[!UICONTROL Membro da Lista de Pessoas]_ para incluir ou excluir perfis com base em sua associação à lista de pessoas. |
-| Aprimoramento | Ações de jornada da lista de pessoas | Adicione ou remova pessoas de listas estáticas de pessoas por meio de jornadas de conta e pessoa. |
+| Recurso | Listas de pessoas | Use listas de pessoas estáticas e dinâmicas para direcionar perfis de acordo com seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. [Saiba mais](../audiences/people-lists.md) |
+| Recurso | Jornada rótulos de nó | Adicione rótulos aos nós do jornada para identificá-los na tela de jornada. [Saiba mais](../journeys/create-publish-journey.md#label-a-node). |
+| Aprimoramento | Filtros da Lista de membros da pessoa | Use os filtros _[!UICONTROL Membro da Lista de Pessoas]_ para incluir ou excluir perfis com base em sua associação estática ou dinâmica à lista de pessoas. [Saiba mais](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Aprimoramento | Ações de jornada da lista de pessoas | Adicione ou remova pessoas de listas estáticas de pessoas por meio de jornadas de conta e pessoa. [Saiba mais](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >Essas alterações de versão começam em 6 de novembro de 2026, com uma implantação em fases de cada recurso e aprimoramento. As datas de lançamento de recursos e melhorias estão sujeitas a alterações.
@@ -108,7 +108,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | ---- | ---- | ----------- |
 | Recurso | Páginas de destino | As páginas de aterrissagem estão disponíveis no Journey Optimizer B2B Edition para oferecer suporte a jornadas e programas _(anteriormente um recurso do programa Beta)_. <ul><li>Os administradores podem configurar subdomínios e predefinições de página de aterrissagem para permitir a publicação dessa página. [Saiba mais](../admin/configure-channels-landing-pages.md)</li><li>Os profissionais de marketing podem criar, projetar e publicar páginas de aterrissagem para oferecer suporte às suas jornadas com conteúdo personalizado da Web. [Saiba mais](../content/landing-pages.md)</li></ul> |
 | Recurso | Formulários | O Journey Optimizer B2B Edition agora oferece suporte a componentes de formulário reutilizáveis para habilitar o envio de dados de páginas de aterrissagem _(anteriormente um recurso do programa Beta)_. <ul><li>Os administradores podem configurar várias predefinições de formulário usando diferentes combinações de conjuntos de dados e conexões de transmissão. [Saiba mais](../admin/configure-channels-forms.md)</li><li>Agora, os profissionais de marketing podem definir componentes de formulário reutilizáveis para capturar informações de visitantes de páginas da Web. [Saiba mais](../content/forms.md)</li></ul> |
-| Recurso | Filtro Membro da lista de contas | Use a associação à lista de contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. |
+| Recurso | Filtro Membro da lista de contas | Use a associação à lista de contas como um ponto de orquestração nas jornadas de conta. Os profissionais de marketing podem criar jornadas de conta, listas de prioridade ou qualquer outro tipo de subconjunto de público-alvo e fornecer experiências exclusivas de contas em contas com base em seus membros. [Saiba mais](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) |
 | Recurso | Filtragem do histórico de eventos de experiência | Esse recurso permite que a orquestração de jornadas B2B use o engajamento histórico para impulsionar decisões baseadas em comportamento para os membros do público-alvo. [Saiba mais](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Recurso | Próximos nós de jornada de melhor caminho | Você pode otimizar a decisão de caminho dividido para jornadas de pessoas, refinando como os públicos-alvo são roteados entre caminhos antes da ativação da jornada ou no tempo de execução. [Saiba mais](../journeys/next-best-path-node.md) |
 | Recurso | Painel de desempenho do email | O painel Desempenho do email fornece aos profissionais de marketing uma visualização unificada da atividade de email em todas as jornadas do Adobe Journey Optimizer B2B Edition. [Saiba mais](../dashboards/email-performance-dashboard.md) |

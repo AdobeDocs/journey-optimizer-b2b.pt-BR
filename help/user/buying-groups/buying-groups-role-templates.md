@@ -18,9 +18,9 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1454'
 ht-degree: 5%
 ---
 # Modelos de função do grupo de compra
@@ -102,8 +102,8 @@ Cada função definida para o modelo usa um conjunto de filtros, ou _condições
 | ---- | --------- |
 | [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado |
 | [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta ou pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer critério de objeto personalizado selecionado, conforme configurado nos [esquemas relacionais XDM](../admin/xdm-field-management.md#relational-schemas). |
-| Filtros especiais | <li>Membro da lista (desaprovado) <li>Membro do programa (obsoleto) |
 | Dados de intenção | <li>Tentativa de categoria <li>Intenção do produto <li>Tentativa de palavra-chave <br/>(consulte [_Dados de intenção_](../admin/intent-data.md)) |
+| Filtros especiais | <li>[!UICONTROL Tem Relação de Conta] <li>[!UICONTROL Membro do Grupo de Compras] <li>[!UICONTROL Membro da lista] (desaprovado) <li>[!UICONTROL Membro do Público-Alvo do Perfil] <li>[!UICONTROL Membro da Pessoa da Lista Dinâmica de Pessoas] <li>[!UICONTROL Membro da Pessoa da Lista Estática de Pessoas] |
 
 #### Definir propriedades da função
 
