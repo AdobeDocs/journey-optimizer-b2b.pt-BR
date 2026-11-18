@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 262e06bce2cf9698731eda2cb0a3436c5080fddf
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 26%
+source-wordcount: '1103'
+ht-degree: 23%
 ---
 # Documentação do Adobe Journey Optimizer B2B Edition
 
@@ -27,6 +27,18 @@ Revise esta amostragem das adições e aprimoramentos mais recentes no aplicativ
 
 >[!BEGINTABS]
 
+>[!TAB Listas de pessoas]
+
+Crie listas de pessoas estáticas e dinâmicas reutilizáveis para direcionar perfis usando atributos demográficos e histórico de eventos de experiência. Use a associação de lista para encaminhar pessoas por meio de jornadas de conta e pessoa. Use ações de jornada para adicionar ou remover pessoas de listas estáticas.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/audiences/people-lists.md" tooltip="Saiba mais sobre listas de pessoas"}
+
+>[!TAB Jornada rótulos de nó]
+
+Adicione rótulos de exibição aos nós nas jornadas de conta e pessoa para distinguir etapas semelhantes e esclarecer sua finalidade na tela de jornada.
+
+[!BADGE Saiba mais]{type=Informative url="/help/user/journeys/create-publish-journey.md#label-a-node" tooltip="Saiba mais sobre os rótulos de nó do jornada"}
+
 >[!TAB jornadas de pessoas]
 
 Orquestrar o marketing baseado em clientes potenciais com jornadas de pessoas, que usam públicos-alvo e dados do [!DNL Adobe Experience Platform] para envolver pessoas individuais. As jornadas de pessoa agora oferecem suporte a _Ouvir um evento_, ação externa, nós de caminhos divididos externos e reentrada de jornada. Use-as juntamente com jornadas de conta e grupos de compras para orquestrar a jornada de compra completa.
@@ -38,18 +50,6 @@ Orquestrar o marketing baseado em clientes potenciais com jornadas de pessoas, q
 Teste variações dentro de uma jornada de conta ou pessoa atribuindo contas ou pessoas a diferentes caminhos de jornada com base em porcentagens definidas por você. Em jornadas pessoais, a atribuição é determinística, de modo que cada pessoa sempre segue o mesmo caminho, que suporta experimentos controlados.
 
 [!BADGE Saiba mais]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="Saiba mais sobre caminhos de divisão de variantes"}
-
->[!TAB Canal do WhatsApp]
-
-Quando desenvolvedores e administradores de produtos configuram uma integração com uma conta do Meta Business Manager, os profissionais de marketing podem incluir mensagens do WhatsApp como um canal de conteúdo nas jornadas da conta usando a API da Meta Cloud. O WhatsApp se junta ao email e ao SMS como um canal disponível para fornecer conteúdo de jornada diretamente aos membros da conta.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Saiba mais sobre o canal do WhatsApp"}
-
->[!TAB Modelos de IA de geração]
-
-Agora, os designers de email podem selecionar entre modelos [!DNL Firefly] padrão, modelos [!DNL Firefly] personalizados treinados em ativos específicos da marca e modelos de imagem de terceiros aprovados ao gerar imagens para conteúdo de email. Essa seleção oferece às equipes controle sobre qual modelo se encaixa em seu cenário de design específico, desde necessidades gerais de conteúdo até casos de uso de marca ou especializados.
-
-[!BADGE Saiba mais]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Saiba mais sobre a seleção de modelo de IA gerativa"}
 
 >[!TAB Otimização de tempo de envio]
 
@@ -69,7 +69,7 @@ Agora você pode enviar contas ou pessoas por meio de uma jornada de conta ou pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Notas de versão mais recentes
 
@@ -79,18 +79,19 @@ Mantenha-se atualizado com as notas de versão mais recentes, os novos recursos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introdução
 
 Revise as orientações de integração do [!DNL Journey Optimizer B2B Edition] para administradores e profissionais de marketing.
 
-[Administradores](./setup-ultimate.md)
-[Usuários](./start/get-started.md)
+[Lista de verificação para administradores](./setup-ultimate.md)
+
+[Integração para usuários](./start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gerenciar seus dados
 
@@ -103,7 +104,7 @@ Ative os esquemas e campos XDM que deseja usar no [!DNL Adobe Journey Optimizer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canais de comunicação
 
@@ -115,30 +116,33 @@ Configure e gerencie e-mails, SMS, WhatsApp e outros canais para interações pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Criar uma jornada
 
 Projete, orquestre, gerencie e otimize jornadas personalizadas de conta e pessoa.
 
-[Explore jornadas](./journeys/journeys-overview.md)
+[Explorar Jornadas](./journeys/journeys-overview.md)
+[Usar listas de contas no jornada](./accounts/account-lists-journeys.md)
+[Usar listas de pessoas no jornada](./audiences/people-lists-journeys.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Compreender grupos de compra
 
 Orientação detalhada sobre como criar, gerenciar e otimizar grupos de compras para um direcionamento eficaz.
 
-[Saiba mais sobre grupos de compras](./buying-groups/buying-groups-overview.md)
+[Entender os grupos de compra](./buying-groups/buying-groups-overview.md)
+[Criar grupos de compras](./buying-groups/buying-groups-create.md)
 :::
 
 ::::
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -167,8 +171,8 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
       <strong>Grupos de compra</strong><br/><a href="./buying-groups/buying-groups-overview.md">Visão geral dos grupos de compra</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Modelos de função</a><br/><a href="./buying-groups/solution-interests.md">Interesses de solução</a><br/><a href="./buying-groups/buying-groups-create.md">Criar grupos de compra</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Jornadas da conta"><br/>
-      <strong>Jornadas de conta</strong><br/><a href="./journeys/journeys-overview.md">Visão geral das jornadas</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Criar uma jornada de conta</a><br/><a href="./journeys/journey-nodes.md">Nós de jornada</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Jornadas"><br/>
+      <strong>Jornada</strong><br/><a href="./journeys/journeys-overview.md">Visão geral do Jornada</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Criar uma jornada de conta ou de pessoa</a><br/><a href="./journeys/journey-nodes.md">Nós de Jornada</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -184,8 +188,7 @@ Descubra os componentes de um grupo de compra e entenda os conceitos básicos da
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights e painéis"><br/>
       <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Painel inteligente</a><br/><a href="./dashboards/engagement-dashboard.md">Painel de envolvimento</a><br/><a href="./dashboards/buying-groups-dashboard.md">Painel de grupos de compras</a><br/><a href="./dashboards/journeys-dashboard.md">Painel do Jornada</a><br/><a href="./buying-groups/incrm-insights.md">Insights no CRM</a>
     </td>
-
-</tr>
+   </tr>
 </table>
 
 >[!BEGINSHADEBOX]
@@ -202,7 +205,7 @@ Para obter mais informações, consulte a [documentação do Marketo Qualifier](
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos e tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrição do produto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentação</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos do desenvolvedor</a>
@@ -210,6 +213,6 @@ Para obter mais informações, consulte a [documentação do Marketo Qualifier](
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentação</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriais para desenvolvedores</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home?lang=pt-BR" target="_blank">Documentação do usuário</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Documentação do desenvolvedor</a>
 </td>
 </tr></table>
