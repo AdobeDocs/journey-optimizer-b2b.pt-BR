@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # Realizar uma ação
@@ -129,10 +129,13 @@ Em uma jornada de conta ou pessoa, use uma ação em pessoas quando quiser aplic
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Adicionar pessoa à (outra) jornada] | <li>Jornada de Conta (Ação em Pessoas) <li>Jornada da pessoa | <li>Selecione a jornada da pessoa ativa |
 | | [!UICONTROL Adicionar ao público-alvo externo do cliente] | <li>Jornada de conta <li>Jornada da pessoa | <li>Selecionar público-alvo do cliente externo |
+| | [!UICONTROL Adicionar à Lista de Pessoas] | <li>Jornada de Conta (Ação em Pessoas) <li>Jornada da pessoa | <li>Selecionar lista estática de pessoas |
 | | [!UICONTROL Atribuir ao Grupo de Compras] | <li>Jornada de conta | <li>Selecione o interesse na solução <li>Selecione a função |
 | | [!UICONTROL Momento Interessante] | <li>Jornada de conta <li>Jornada da pessoa | <li>Tipo <li>Descrição |
 | | [!UICONTROL Personalizar experiência da Web] (Beta) | <li>Jornada de conta | <li>Criar/editar experiência da Web |
 | | [!UICONTROL Remover do Grupo de Compras] | <li>Jornada de conta | <li>Selecione o interesse na solução |
+| | [!UICONTROL Remover da Lista de Pessoas] | <li>Jornada de Conta (Ação em Pessoas) <li>Jornada da pessoa | <li>Selecionar lista estática de pessoas |
+| | [!UICONTROL Remover pessoa da Jornada] | <li>Jornada da pessoa | <li>Selecionar jornada da pessoa |
 | | [!UICONTROL Enviar email] | <li>Jornada de conta <li>Jornada da pessoa | <li>Criar email <li>Otimização de hora de envio (opcional, somente jornada de pessoa) |
 | | [!UICONTROL Enviar SMS] | <li>Jornada de conta | <li>Criar SMS |
 | | [!UICONTROL Enviar WhatsApp] | <li>Jornada de conta | <li>Criar mensagem do WhatsApp |
@@ -180,7 +183,7 @@ Use esta ação para encaminhar as pessoas para um público-alvo externo que pod
 Ao selecionar essa ação com base em pessoas, é possível criar um novo público-alvo externo ou selecionar na lista de públicos-alvo externos existentes.
 
 * Para públicos-alvo existentes, você pode escolher entre os públicos-alvo de clientes externos que foram criados somente em [!DNL Journey Optimizer B2B Edition].
-* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
+* Ao criar um público-alvo e usá-lo para esta ação de jornada, conecte o destino. Para obter mais informações, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Visão geral da ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} na documentação [!DNL Experience Platform].
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista a uma visão geral de vídeo para orquestração de mídia paga](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -216,6 +219,16 @@ _Para usar um público existente :_
 
 +++
 
++++[!UICONTROL Adicionar à Lista de Pessoas]
+
+Use esta ação para adicionar pessoas a uma [lista de pessoas](../audiences/people-lists.md) estática. Quando uma pessoa atinge o nó de ação, o sistema a adiciona como membro da lista selecionada. Se a pessoa já for membro, a ação será ignorada.
+
+Clique em **[!UICONTROL Selecionar]** para escolher uma lista estática de pessoas, ou clique em **[!UICONTROL Criar]** para criar uma nova lista estática de pessoas. Para obter mais informações, consulte [Usar listas de pessoas no jornada](../audiences/people-lists-journeys.md).
+
+![Realizar uma ação - Adicionar à Lista de Pessoas](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL Atribuir ao Grupo de Compras]
 
 Use esta ação para adicionar perfis de pessoas a um [grupo de compras](../buying-groups/buying-groups-overview.md) com base em um interesse e função de solução selecionados.
@@ -245,6 +258,16 @@ Use esta ação para [criar experiências personalizadas](../content/web-experie
 Use esta ação para remover perfis de pessoas de um [grupo de compras](../buying-groups/buying-groups-overview.md) com base em um interesse de solução selecionado.
 
 ![Realizar uma ação - Remover do Grupo de Compras](./assets/node-action-remove-from-buying-group.png){width="300"}
+
++++
+
++++[!UICONTROL Remover da Lista de Pessoas]
+
+Use esta ação para remover pessoas de uma [lista de pessoas](../audiences/people-lists.md) estática. Quando uma pessoa atinge o nó da ação, o sistema a remove da lista selecionada. Se a pessoa não for um membro, a ação será ignorada.
+
+Clique em **[!UICONTROL Selecionar]** para escolher a lista estática de pessoas. Para obter mais informações, consulte [Usar listas de pessoas no jornada](../audiences/people-lists-journeys.md).
+
+![Realizar uma ação - Remover da Lista de Pessoas](./assets/node-action-remove-from-people-list.png){width="300"}
 
 +++
 
@@ -314,7 +337,7 @@ Por exemplo, suprimir campanhas no Marketo Engage para pessoas que fazem parte d
 
 +++[!UICONTROL Adicionar à campanha de solicitação do Marketo]
 
-Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} em uma instância conectada do Marketo Engage.
+Use esta ação para adicionar perfis de pessoas a uma [campanha de solicitação](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} em uma instância conectada do Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da campanha de solicitação.
 
@@ -324,7 +347,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Adicionar à lista do Marketo]
 
-Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} em uma instância conectada do Marketo Engage.
+Use esta ação para adicionar pessoas a uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} em uma instância conectada do Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
@@ -334,7 +357,7 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 +++[!UICONTROL Remover da lista do Marketo]
 
-Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
+Use esta ação para remover pessoas de uma [Lista Estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} no Marketo Engage.
 
 Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, selecione o nome da lista.
 
@@ -344,4 +367,4 @@ Primeiro, selecione uma instância conectada do Marketo Engage. Em seguida, sele
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443250/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

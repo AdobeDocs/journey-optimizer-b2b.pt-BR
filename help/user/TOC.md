@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentação do Journey Optimizer B2B Edition
 user-guide-description: Saiba mais sobre o Adobe Journey Optimizer B2B Edition e como ele pode ser usado para orquestrar jornadas de contas e de grupos de compra por meio da IA generativa integrada e da automação líder do setor.
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 79%
+source-wordcount: '469'
+ht-degree: 78%
 ---
 
 # Guia do usuário do Journey Optimizer B2B Edition {#user}
@@ -103,6 +103,11 @@ ht-degree: 79%
   + Listas de contas {#account-lists}
     + [Visão geral](./accounts/account-lists.md)
     + [Uso no jornada](./accounts/account-lists-journeys.md)
+  + Listas de pessoas {#people-lists}
+    + [Visão geral](./audiences/people-lists.md)
+    + [Listas estáticas de pessoas](./audiences/people-lists-static.md)
+    + [Listas dinâmicas de pessoas](./audiences/people-lists-dynamic.md)
+    + [Uso no jornada](./audiences/people-lists-journeys.md)
   + Experiência de vendas {#sales-experience}
     + [Detalhes da conta](./accounts/account-details.md)
     + [Detalhes do grupo de compra](./buying-groups/buying-group-details.md)

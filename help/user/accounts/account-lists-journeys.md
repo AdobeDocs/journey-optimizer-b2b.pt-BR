@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '914'
 ht-degree: 0%
 ---
 # Usar listas de contas no jornada
@@ -89,3 +89,70 @@ Por exemplo, você tem um caminho de jornada para enviar um email e algumas cont
 1. Para **[!UICONTROL Selecionar lista de contas estáticas em tempo real]**, escolha a lista de contas para a qual deseja remover as contas.
 
    ![Selecione Remover da lista de contas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+
+## Nó de caminhos divididos - Membro da conta da lista de contas {#split-paths-account-member-of-account-list}
+
+**_Somente jornadas da conta_**
+
+Use o filtro _[!UICONTROL Membro da Conta da Lista de Contas]_ em um nó [_Caminhos divididos_](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node) que se divide por contas. A conta é ou não é membro de uma ou mais listas de contas selecionadas. Para incluir contas nas listas, defina a associação como `true` ou defina-a como `false` para excluí-las.
+
+Para excluir contas em uma inclui na lista de bloqueios, adicione o filtro _[!UICONTROL Membro da Conta da Lista de Contas]_, defina a associação como `false` e selecione a lista.
+
+1. Navegue até o mapa de jornadas.
+
+1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Dividir caminhos]**.
+
+1. Nas propriedades do nó à direita, escolha **[!UICONTROL Contas]** para a divisão.
+
+1. Para definir uma condição para _[!UICONTROL Caminho 1]_, clique em **[!UICONTROL Aplicar condição]**.
+
+1. Defina o filtro da lista de contas.
+
+   * No editor de condições, expanda a pasta _[!UICONTROL Filtros especiais]_ e arraste o filtro **[!UICONTROL Membro da Conta da Lista de Contas]** para o espaço de trabalho de condições.
+
+   * Para incluir contas nas listas, defina a associação como `true` ou defina-a como `false` para excluí-las.
+
+   * Selecione uma ou mais listas de contas.
+
+   ![Dividir o editor de condições de caminho com o filtro Membro Conta da Lista de Contas](./assets/account-lists-journeys-split-path-account-filter.png){width="700" zoomable="yes"}
+
+   Você pode combinar o filtro de associação da lista de contas com outros filtros de conta e escolher corresponder todas as condições ou qualquer condição. Refine suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior.
+
+1. Clique em **[!UICONTROL Concluído]**.
+
+Continue a configurar o nó do caminho dividido conforme descrito em [Adicionar um caminho dividido pelo nó de conta](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node).
+
+## Nó de caminhos divididos - Membro pessoal da lista de contas {#split-paths-member-of-account-list}
+
+**_Somente jornadas de pessoas_**
+
+Use os filtros de associação da lista de contas em um [_nó de caminhos divididos_](../journeys/split-merge-paths-nodes.md) de uma jornada de pessoas para encaminhar pessoas com base no fato de a conta ser ou não membro de uma lista de contas. Dois filtros estão disponíveis:
+
+| Filtro | Descrição |
+| ------ | ----------- |
+| [!UICONTROL Membro da Pessoa da Lista Dinâmica da Conta] | A conta da pessoa é ou não membro de uma ou mais listas de contas dinâmicas. |
+| [!UICONTROL Lista Estática de Membro de Conta] | A conta da pessoa é ou não é membro de uma ou mais listas de contas estáticas. |
+
+Para excluir pessoas em contas personalizadas de um caminho de criação, adicione o filtro _[!UICONTROL Membro de pessoa da lista estática de conta]_, defina o operador como `is not` e selecione a lista.
+
+1. Navegue até o mapa de jornadas.
+
+1. Clique no ícone de adição ( **+** ) em um caminho e escolha **[!UICONTROL Dividir caminhos]**.
+
+1. Para definir uma condição para _[!UICONTROL Caminho 1]_, clique em **[!UICONTROL Aplicar condição]**.
+
+1. Definir o filtro da lista de contas
+
+   * No editor de condições, expanda a pasta _[!UICONTROL Filtros especiais]_ e arraste o filtro **[!UICONTROL Membro de Pessoa da Lista Dinâmica de Conta]** ou **[!UICONTROL Membro de Pessoa da Lista Estática de Conta]** para o espaço de trabalho de condições.
+
+   * Para incluir as pessoas cuja conta está na lista, defina o operador como `is` ou defina-o como `is not` para excluí-las.
+
+   * Selecione uma ou mais listas de contas.
+
+     ![Dividir o editor de condições de caminho com os filtros Membro de Pessoa da Lista de Contas](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+
+   Você pode combinar filtros de associação da lista de contas com outros filtros de pessoas e escolher corresponder todas as condições ou qualquer condição. Refine suas condições aplicando a **[!UICONTROL lógica de Filtro]** na parte superior.
+
+1. Clique em **[!UICONTROL Concluído]**.
+
+Continue a configurar o nó do caminho dividido conforme descrito em [Adicionar um caminho dividido pelo nó de pessoas](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node).

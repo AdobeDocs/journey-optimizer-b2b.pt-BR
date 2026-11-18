@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # Acesso e permissões do usuário
 
@@ -85,7 +85,7 @@ Para obter mais informações sobre como usar perfis de produtos para direitos d
 
 Ao adicionar um usuário ao perfil de produto do Marketo Engage, ele é subsequentemente adicionado à função _Usuário padrão_ no espaço de trabalho Padrão da assinatura do Marketo Engage. Essa função concede a eles todas as permissões padrão para o Marketo Engage nesse espaço de trabalho. Atualmente, todos os usuários do Journey Optimizer B2B edition precisam ser usuários do Marketo Engage. Um administrador do Marketo Engage pode restringir o acesso atualizando as permissões para a função de _Usuário padrão_ ou movendo o usuário para outra função de usuário do Marketo Engage com permissões mais restritivas.
 
-Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
+Para obter mais informações sobre o gerenciamento dessas permissões no Marketo Engage, consulte [Gerenciamento de funções e permissões de usuário](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} na documentação do Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -178,7 +178,7 @@ As permissões são direitos unitários que permitem definir as autorizações a
 
 A área _Permissões_ do Adobe Experience Platform é onde os administradores podem definir funções de usuário e políticas de acesso para gerenciar permissões de acesso para recursos e objetos em um aplicativo de produto. Neste aplicativo, você pode criar e gerenciar funções, bem como atribuir as permissões de recurso desejadas para essas funções. As permissões também permitem gerenciar sandboxes e usuários associados a uma função específica.
 
-Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
+Para obter mais informações sobre permissões de função no Experience Platform, consulte [Gerenciar permissões de uma função](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} na documentação do Experience Platform.
 
 ### Permissões de produto B2B {#b2b-product-permissions}
 
@@ -193,6 +193,7 @@ As seguintes permissões controlam o acesso aos recursos do Journey Optimizer B2
 | Configurações do canal B2B | Configure, gerencie e visualize permissões para configurações de canal B2B. Essas permissões incluem configurações para limites de comunicação, credenciais de API e configurações de segurança. | <li>Gerenciar configurações de canais B2B <li>Exibir configurações de email B2B <li>Gerenciar configurações de email B2B <li>Gerenciar predefinições B2B do WhatsApp <li>Gerenciar configurações de página de aterrissagem B2B <li>Visualizar predefinição de Forms B2B <li>Gerenciar predefinição de Forms B2B <li>Publicar predefinição de Forms B2B <li>Experiências da Web B2B do autor <li>Gerenciar configurações B2B do WhatsApp |
 | Painéis B2B | Configure e visualize permissões para painéis B2B. Essas permissões incluem envolvimento de conta, estágios de grupo de compras, contas de surging e cobertura de contato. | <li>Exibir painel do compromisso B2B |
 | Jornadas B2B | Configure, gerencie, visualize e publique permissões para jornadas B2B. Essas permissões incluem ações de conta e pessoa, ouvintes de eventos e caminhos divididos. | <li>Gerenciar Jornadas de conta B2B <li>Gerenciar Jornadas de pessoa B2B <li>Exibir Jornadas de pessoa B2B <li>Publicar Jornadas de pessoa B2B |
+| Listas de pessoas B2B | Gerenciar e exibir permissões para listas de pessoas B2B. Essas permissões incluem criar, editar e excluir listas de pessoas estáticas e dinâmicas, além de adicionar e remover pessoas de listas estáticas. | <li>Gerenciar listas de pessoas B2B <li>Exibir Listas de pessoas B2B |
 | Regras do Journey Optimizer | Acessar e configurar regras de frequência (limites de comunicação). Essas permissões devem ser limitadas aos administradores do produto. | <li>Exibir regras de frequência <li>Gerenciar regras de frequência |
 
 >[!NOTE]

@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # Públicos correspondentes da conta do LinkedIn
 
-O [!DNL Journey Optimizer B2B Edition] oferece a capacidade de gerar públicos do LinkedIn Ad por meio de Públicos com Conta Correspondente, e foi projetado para ajudar você a preencher funções vazias em seus grupos de compra. Ao definir um conjunto de filtros de grupo de compra, você pode manter um público-alvo correspondente do LinkedIn para direcionar clientes potenciais que correspondem aos parâmetros do grupo de compra. Você também pode ativar um público-alvo de uma jornada de conta de um nó _Realizar uma ação_.
+O [!DNL Journey Optimizer B2B Edition] oferece a capacidade de gerar públicos do LinkedIn Ad por meio de Públicos com Conta Correspondente, e foi projetado para ajudar você a preencher funções vazias em seus grupos de compra. Ao definir um conjunto de filtros de grupo de compra, você pode manter um público-alvo correspondente do LinkedIn para direcionar clientes potenciais que correspondem aos parâmetros do grupo de compra. Você também pode ativar um público-alvo de uma jornada de conta de um nó [_Realizar uma ação_](../journeys/action-nodes.md).
 
 Esse recurso utiliza os destinos da Experience Platform para gerenciar alguns aspectos da integração. Há um limite de dez fluxos de dados.
 
-Antes de iniciar um fluxo de dados do Journey Optimizer B2B Edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
+Antes de iniciar um fluxo de dados do Journey Optimizer B2B Edition, você deve ter pelo menos uma instância do [(Empresas) Conector de destino do LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} com uma conta do Gerenciador de campanhas do LinkedIn configurada no aplicativo do Experience Platform.
 
 ## Configurar uma nova conexão com a conta do LinkedIn {#linkedin-destination-setup}
 
@@ -91,7 +91,7 @@ O nome e a descrição da conta do LinkedIn estão visíveis para grupos de comp
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Ativar a conta para grupos de compras
+## Ativar a conta para grupos de compra (#activate-buying-group)
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ A partir da versão 2025.10, use a ação _Ativar para destino_ para que as cont
 
 1. Nas propriedades do nó à direita, escolha o destino.
 
-   * Se houver um ou mais destinos criados, você poderá clicar em **[!UICONTROL Selecionar destino]** para escolher um destino existente.
+   * Se houver um ou mais destinos criados, clique em **[!UICONTROL Selecionar destino]** para escolher um destino existente.
 
    * Se não houver destinos existentes ou se você quiser criar um novo destino, clique em **[!UICONTROL Configurar destino]**.
 
@@ -171,4 +171,4 @@ A partir da versão 2025.10, use a ação _Ativar para destino_ para que as cont
 
 Você pode se envolver com membros da conta por meio de um canal de mídia paga, como públicos-alvo de anúncios do LinkedIn, para adquirir, alimentar e qualificá-los para Vendas. Use um nó _Realizar uma ação_ em uma jornada de conta para automatizar o engajamento com membros-chave de uma conta por meio de um canal externo que seja mais adequado para membros de conta diferentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448677/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

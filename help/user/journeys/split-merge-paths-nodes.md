@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 4%
+source-wordcount: '3118'
+ht-degree: 3%
 ---
 # Dividir e mesclar caminhos {#split-paths}
 
@@ -50,7 +50,7 @@ Um nó _Split paths_ define um ou mais caminhos segmentados com base em **_accou
 
 Dividir por caminhos de contas pode incluir ações e eventos de contas e pessoas. Esses caminhos podem ser divididos ainda mais.
 
-_&#x200B;**Como funciona um caminho dividido por nó de contas**&#x200B;_
+_**Como funciona um caminho dividido por nó de contas**_
 
 * Cada caminho adicionado inclui um nó final com a capacidade de adicionar nós a cada borda.
 * Os nós divididos por conta podem ser aninhados (você pode dividir o caminho por contas repetidamente).
@@ -65,10 +65,11 @@ Nó do ![Jornada - caminhos divididos por conta](./assets/node-split-paths-accou
 | Condições de caminho | Descrição |
 | --------------- | ----------- |
 | [!UICONTROL Atributos da conta] | Atributos do perfil da conta, incluindo: <li>Receita anual <li>Cidade <li>País <li>Tamanho do funcionário <li>Setor <li>Nome <li>Código SIC <li>Estado |
-| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering).) |
+| [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A conta tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [_Filtragem de dados personalizada_](#custom-data-filtering).) |
 | [!UICONTROL Filtros especiais] > [!UICONTROL A conta corresponde ao grupo de compras] | A conta corresponde a um ou mais grupos de compra. Ele pode ser avaliado em relação a uma ou mais das seguintes restrições para um grupo de compras correspondente: <li>Interesse da solução <li>Estágio do Grupo de Compras <li>Status do Grupo de Compras <li>Pontuação de envolvimento <li>Pontuação de integridade <li> Número de pessoas na função de grupo de compra |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Conta da Lista de Contas] | A conta é ou não é membro de uma ou mais listas de contas selecionadas. (Consulte [_Nó de caminhos divididos - Membro da conta da lista de contas_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)) |
 
-### Adicionar um caminho dividido pelo nó da conta
+### Adicionar um caminho dividido pelo nó da conta {#add-a-split-path-by-account-node}
 
 1. Navegue até o mapa de jornadas.
 
@@ -136,13 +137,19 @@ Por exemplo, avalie a prontidão do grupo de compras com base na profundidade (n
 
 Para atualizar o status do grupo de compras ou do estágio para as contas identificadas, adicione um nó de ação no caminho.
 
+### Filtragem de lista de contas {#account-list-filtering}
+
+Use o filtro _[!UICONTROL Filtros especiais]_ > _[!UICONTROL Membro da Conta da Lista de Contas]_ para definir um caminho para contas com base em sua associação a uma [lista de contas](../accounts/account-lists.md). Defina a associação como _true_ para incluir contas nas listas ou _false_ para excluí-las e selecione uma ou mais listas de contas. Por exemplo, para manter contas em um caminho de inclui na lista de bloqueios, adicione o filtro, defina a associação como _false_ e selecione sua pesquisa.
+
+Para as etapas, consulte [Nó de caminhos divididos - Membro da conta da lista de contas](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list).
+
 ## Dividir caminhos por pessoas
 
 _(jornadas de conta e pessoa)_
 
 Dividir por caminhos de pessoas pode incluir apenas ações de pessoas. Esses caminhos não podem ser divididos novamente e se unem automaticamente.
 
-_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
+_**Como funciona um caminho dividido por nó de pessoas**_
 
 * Divisão por nós de pessoas em uma combinação de divisão de mesclagem de _nó agrupado_. Os caminhos divididos se mesclam automaticamente para que todas as pessoas possam avançar para a próxima etapa sem perder o contexto da conta.
 * Os nós Split by people não podem ser aninhados (não é possível adicionar um caminho dividido para pessoas em um caminho que esteja neste nó agrupado).
@@ -159,8 +166,12 @@ _&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 | [!UICONTROL Objetos Personalizados] > Tem `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"} A pessoa tem ou não registros de esquema relacional. Ele também pode ser avaliado em relação a qualquer um dos critérios de objeto personalizado selecionado, conforme configurado no [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtragem de dados personalizada](#custom-data-filtering)) |
 | [!UICONTROL Histórico de eventos] | Divide as pessoas com base nos eventos de experiência ocorridos antes da entrada da jornada. Expanda a pasta para ver todos os tipos de evento configurados em [Admin > Configuração de evento XDM](../admin/configure-aep-events.md) e selecione um para adicionar como filtro. As restrições incluem campos do evento selecionado, uma janela de tempo de lookback medida a partir de quando a pessoa informa a jornada e um número mínimo opcional de vezes. |
 | [!UICONTROL Atributos da pessoa] | Atributos do [perfil de pessoa](../admin/field-mapping.md#xdm-business-person-attributes), incluindo: <li>Cidade <li>País <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida <li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi removido (padrão: `false`)</li><li>Função</li> (Consulte [Filtragem de associação](#membership-filtering)) |
-| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do público-alvo do perfil] | A pessoa é ou não é membro de um ou mais públicos-alvo de perfil do [!DNL Adobe Experience Platform]. (Consulte [Filtragem de associação](#membership-filtering)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do Grupo de Compras] | A pessoa é ou não é um membro do grupo de compra avaliado em relação a um ou mais dos seguintes critérios: <li>Interesse da solução</li><li>Status do Grupo de Compras</li><li>Pontuação de integridade</li><li>Pontuação de engajamento</li><li>Foi removido (padrão: `false`)</li><li>Função</li> (Consulte [_Filtragem de associação_](#membership-filtering)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro do público-alvo do perfil] | A pessoa é ou não é membro de um ou mais públicos-alvo de perfil do [!DNL Adobe Experience Platform]. (Consulte [_Filtragem de associação_](#membership-filtering)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Pessoa da Lista Dinâmica da Conta] | (Somente jornadas de pessoa) A conta da pessoa é ou não membro de uma ou mais listas de contas dinâmicas. (Consulte [_Membro de pessoa da lista de contas_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro de Pessoa da Lista Estática de Contas] | (Somente jornadas de pessoa) A conta da pessoa é ou não membro de uma ou mais listas de contas estáticas. (Consulte [_Membro de pessoa da lista de contas_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Pessoa da Lista Dinâmica de Pessoas] | A pessoa é ou não membro de uma ou mais listas de pessoas dinâmicas. (Consulte [_Filtragem de associação_](#membership-filtering)) |
+| [!UICONTROL Filtros especiais] > [!UICONTROL Membro da Pessoa da Lista Estática de Pessoas] | A pessoa é ou não é membro de uma ou mais listas estáticas de pessoas. (Consulte [_Filtragem de associação_](#membership-filtering)) |
 
 ### Condições de caminho conta-pessoa
 
@@ -239,7 +250,7 @@ A janela de tempo do histórico de eventos é medida retroativamente a partir do
 
 >[!BEGINSHADEBOX &quot;Filtragem de inatividade&quot;]
 
-Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Para criar um caminho para as pessoas que _&#x200B;**não**&#x200B;_ abriram um email, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_. Ative a opção de inatividade e especifique o email.
+Para cada um dos filtros do _[!UICONTROL Histórico de eventos]_, você pode habilitar a opção **[!UICONTROL Alternar para filtro de inatividade]**. Essa opção altera o filtro para uma avaliação de ausência desse tipo de atividade. Para criar um caminho para as pessoas que _**não**_ abriram um email, adicione o filtro _[!UICONTROL Email de Marketing Direto Aberto]_. Ative a opção de inatividade e especifique o email.
 
 ![Condição de inatividade de divisão de caminho por pessoas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -251,10 +262,14 @@ Na seção _[!UICONTROL Filtros especiais]_, use os filtros a seguir para criar 
 
 * _[!UICONTROL Membro do Grupo de Compras]_ - Avalia se a pessoa é membro de um grupo de compras.
 * _[!UICONTROL Membro do Público-alvo do Perfil]_ - Avalia se a pessoa é membro de um público-alvo de perfil [!DNL Adobe Experience Platform].
+* _[!UICONTROL Lista Dinâmica de Membro de Conta da Pessoa]_ - (Somente jornadas de Pessoa) Avalia se a conta da pessoa é membro de uma lista de contas dinâmicas. (Consulte [Usar listas de contas no jornada](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Lista Estática de Conta de Membro de Pessoa]_ - (Somente jornadas de Pessoa) Avalia se a conta da pessoa é membro de uma lista estática de contas. (Consulte [Usar listas de contas no jornada](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Membro de Pessoa da Lista Dinâmica de Pessoas]_ - Avalia se a pessoa é membro de uma lista dinâmica de pessoas.
+* _[!UICONTROL Membro da Pessoa da Lista Estática de Pessoas]_ - Avalia se a pessoa é membro de uma lista estática de pessoas.
 
-Para adicionar um filtro de associação, arraste-o da pasta _[!UICONTROL Filtros especiais]_ para o espaço de trabalho de condições e defina a associação como _true_ para incluir membros ou _false_ para excluí-los. Você pode combinar ambos os filtros na mesma condição de caminho e usar a **[!UICONTROL Lógica do filtro]** para corresponder a qualquer um ou todos eles.
+Para adicionar um filtro de associação, arraste-o da pasta _[!UICONTROL Filtros especiais]_ para o espaço de trabalho de condições e conclua a definição de correspondência para incluir ou excluir membros. Dependendo do filtro, você seleciona _verdadeiro_ ou _falso_ ou escolhe _é_ ou _não é_. Você pode combinar esses filtros na mesma condição de caminho e usar a **[!UICONTROL Lógica de filtro]** para corresponder a qualquer um ou todos eles.
 
-Esses filtros também estão disponíveis quando você [adiciona filtros para um evento](./listen-for-event-nodes.md#membership-filtering) em um nó _Ouvir um evento_.
+Os filtros _[!UICONTROL Membro do Grupo de Compras]_ e _[!UICONTROL Membro do Público-Alvo do Perfil]_ também estão disponíveis quando você [adiciona filtros para um evento](./listen-for-event-nodes.md#membership-filtering) em um nó _Ouvir um evento_.
 
 ![Dividir caminho por condição de pessoas para associação de grupo de compras e público-alvo de perfil](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -290,6 +305,20 @@ Use a restrição _[!UICONTROL Público-alvo do Perfil]_ para selecionar um ou m
 >
 >O filtro não calcula a associação de público-alvo em tempo real. Qualifica as pessoas com base em sua associação no público selecionado a partir da última assimilação de público em lote. Somente os públicos-alvo que foram assimilados em [!DNL Journey Optimizer B2B Edition] podem ser avaliados.
 
+**Membro das Listas de Contas**
+
+_(Somente jornadas de pessoa)_
+
+Use os filtros _[!UICONTROL Membro da Pessoa da Lista Estática da Conta]_ e _[!UICONTROL Membro da Pessoa da Lista Dinâmica da Conta]_ para encaminhar pessoas com base no fato de a conta ser ou não membro de uma [lista de contas](../accounts/account-lists.md). Defina o operador como _is_ para incluir pessoas cuja conta esteja nas listas ou _is not_ para excluí-las e selecione uma ou mais listas de contas. Por exemplo, para manter as pessoas em contas consolidadas fora de um caminho de criação, adicione o filtro _[!UICONTROL Membro de pessoa da lista estática de conta]_, defina o operador como _não é_ e selecione sua inclui na lista de bloqueios.
+
+Para as etapas, consulte [Nó de caminhos divididos - Membro de pessoa da lista de contas](../accounts/account-lists-journeys.md#split-paths-member-of-account-list).
+
+**Membro de Listas de Pessoas**
+
+Use os filtros _[!UICONTROL Membro de Pessoa da Lista Estática de Pessoas]_ e _[!UICONTROL Membro de Pessoa da Lista Dinâmica de Pessoas]_ para encaminhar pessoas com base na associação em uma [lista de pessoas](../audiences/people-lists.md). Defina o operador como _is_ para incluir membros da lista ou _is not_ para excluí-los e selecione uma ou mais listas. Por exemplo, para manter funcionários e parceiros fora de um caminho de criação, adicione o filtro _[!UICONTROL Membro de pessoa da lista estática de pessoas]_, defina o operador como _não é_ e selecione sua lista de exclusão.
+
+Para as etapas, consulte [Split paths by people list subscription](../audiences/people-lists-journeys.md#split-paths-by-list-membership).
+
 ## Filtragem de dados personalizada {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Recurso do Beta"}
@@ -320,4 +349,4 @@ Para combinar diferentes caminhos de _divisão por conta_ em sua jornada, adicio
 
 ## Vídeo de visão geral {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443261/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
