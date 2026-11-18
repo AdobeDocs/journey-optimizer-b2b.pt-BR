@@ -24,16 +24,16 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Notas de versão do Journey Optimizer B2B Edition
 
 O Adobe Journey Optimizer B2B Edition está sempre fornecendo novos recursos, melhorias para recursos existentes e correções de erros.
 
-O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
+O Journey Optimizer B2B Edition é integrado nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest?lang=pt-BR){target="_blank"}.
 
 Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obter informações sobre direitos, proteções de desempenho e limitações.
 
@@ -44,7 +44,7 @@ Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-de
 | Tipo | Item | Descrição |
 | ---- | ---- | ----------- |
 | Recurso | Listas de pessoas | Use listas de pessoas estáticas e dinâmicas para direcionar perfis de acordo com seus critérios definidos, como atributos demográficos e histórico de eventos de experiência. [Saiba mais](../audiences/people-lists.md) |
-| Recurso | Jornada rótulos de nó | Adicione rótulos aos nós do jornada para identificá-los na tela de jornada. |
+| Recurso | Jornada rótulos de nó | Adicione rótulos aos nós do jornada para identificá-los na tela de jornada. [Saiba mais](../journeys/create-publish-journey.md#label-a-node). |
 | Aprimoramento | Filtros da Lista de membros da pessoa | Use os filtros _[!UICONTROL Membro da Lista de Pessoas]_ para incluir ou excluir perfis com base em sua associação estática ou dinâmica à lista de pessoas. [Saiba mais](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Aprimoramento | Ações de jornada da lista de pessoas | Adicione ou remova pessoas de listas estáticas de pessoas por meio de jornadas de conta e pessoa. [Saiba mais](../journeys/action-nodes.md#people-actions) |
 

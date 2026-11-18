@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 9d5641659907d61be992ed218088a023a5211c56
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 6%
+source-wordcount: '1101'
+ht-degree: 5%
 ---
 # Criar e publicar uma jornada
 
-Para começar a usar uma jornada, crie a jornada e construa os nós e o fluxo da jornada no mapa de jornadas.
+Para iniciar uma nova jornada, crie a jornada e construa os nós e o fluxo da jornada no mapa de jornadas.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Assista ao vídeo de visão geral](#overview-video)
 
@@ -68,7 +68,7 @@ _Para adicionar uma nova jornada :_
 
 +++
 
-## Blocos de construção para design de jornada
+## Componentes para design de jornada
 
 O _mapa de jornadas_ é a zona central no espaço de trabalho de jornada. É nessa zona que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir o painel de propriedades à direita da tela e defina-o de acordo com seu design. Uma jornada sempre começa com um nó de público-alvo, em que você pode definir a entrada da jornada:
 
@@ -87,19 +87,53 @@ Depois de criar uma jornada de conta e adicionar o público-alvo, crie a jornada
 
 ## Medidas de proteção
 
-Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis de proteção estão em vigor:
+Para ajudar você a criar uma jornada sem encontrar erros, as seguintes medidas de proteção estão em vigor:
 
 * _Excluindo um nó de caminho Split_: a exclusão de um nó requer a exclusão de todos os nós subsequentes em cada caminho.
 * _Excluindo um nó de mesclagem_: um nó de mesclagem só pode ser excluído quando há um caminho conectado a ele. Para excluir um nó de mesclagem, deixe apenas um caminho selecionado.
-* _Alternância entre conta e pessoas_: alterar a seleção de contas para pessoas exclui todos os nós subsequentes em cada caminho.
+* _Alternância entre contas e pessoas_: alterar a seleção de contas para pessoas exclui todos os nós subsequentes em cada caminho.
 
 ## Adicionar um nó
 
 1. Navegue até o mapa de jornadas.
 
-1. Clique no ícone de adição ( **+** ) no caminho e selecione o tipo de nó.
+1. Clique no ícone de adição ( **+** ) no caminho e escolha o tipo de nó.
+
+   ![Clique em + e escolha o tipo para adicionar o nó do jornada ao caminho](./assets/node-add-menu.png){width="400" zoomable="no"}
+
+   Os tipos de nó disponíveis dependem do tipo de jornada e do contexto do caminho. Consulte [_Jornada nós_](./journey-nodes.md) para obter mais informações.
 
 1. Defina as propriedades do nó à direita.
+
+   As propriedades dependem do tipo de nó.
+
+## Rotular um nó {#label-a-node}
+
+Em [!DNL Adobe Journey Optimizer B2B Edition], cada nó no mapa de jornadas exibe seu nome padrão, como _Aguardar_ ou _Enviar email_. Adicione rótulos de exibição para distinguir nós do mesmo tipo e identificar a finalidade de cada etapa. Por exemplo, use o _controle de 48 horas_ ou o _email de boas-vindas_.
+
+Você pode adicionar um rótulo de exibição a qualquer nó em uma jornada de conta ou em uma jornada de pessoa.
+
+1. No mapa de jornadas, selecione o nó que deseja rotular.
+
+1. Nas propriedades do nó, insira o texto no campo **[!UICONTROL Rótulo de exibição]**.
+
+   O rótulo pode incluir até 255 caracteres.
+
+1. Clique fora do campo para aplicar o rótulo.
+
+   ![Adicionar um rótulo de exibição para distinguir o nó na jornada](./assets/node-display-label.png){width="500" zoomable="no"}
+
+   O rótulo substitui o nome padrão no nó no mapa de jornadas.
+
+Para restaurar o nome padrão, desmarque o campo **[!UICONTROL Exibir rótulo]** e clique fora do campo.
+
+Ao publicar a jornada, o rótulo de exibição de cada nó é salvo com a jornada publicada.
+
+>[!NOTE]
+>
+>Os rótulos de exibição não estão disponíveis para nós em jornadas que foram criadas antes da disponibilização desse recurso.
+
+Os rótulos de nó estão disponíveis no esquema `AJOB2B - 1.5.4 - journey node` e no conjunto de dados `AJOB2B-1_5_4-journey_node`. Você pode consultar rótulos em [!DNL Adobe Experience Platform] e usá-los para relatórios em [!DNL Adobe Customer Journey Analytics]. Para obter mais informações sobre como consultar os dados exportados, revise os [pré-requisitos da consulta do conjunto de dados](../data/aep-query-examples.md#prerequisites).
 
 ## Excluir um nó
 
@@ -111,15 +145,13 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
 ## Adicionar e excluir um caminho
 
-1. Navegue até o mapa de jornadas.
-
-1. Clique no ícone de adição ( **+** ) no caminho e adicione o [nó do caminho dividido](./split-merge-paths-nodes.md#split-paths).
+1. No mapa de jornadas, clique no ícone de adição ( **+** ) no caminho e adicione o [nó do caminho dividido](./split-merge-paths-nodes.md#split-paths).
 
 1. Nas propriedades do nó à direita, selecione **[!UICONTROL Conta]**.
 
 1. Para adicionar mais caminhos, clique em **[!UICONTROL Adicionar caminho]**.
 
-   A cada caminho criado na jornada, um novo cartão de caminho é exibido nas propriedades.
+   Para cada caminho criado na jornada, um novo cartão de caminho aparece nas propriedades.
 
 1. Navegue até um dos caminhos na jornada e adicione os nós [ação](./action-nodes.md) ou [evento](./listen-for-event-nodes.md) a esse caminho usando o ícone de adição.
 
@@ -127,7 +159,7 @@ Para ajudar você a criar uma jornada sem encontrar erros, os seguintes painéis
 
    Os caminhos que contêm nós não podem ser excluídos.
 
-1. Para excluir esses caminhos, primeiro você deve excluir todos os nós nesse caminho.
+1. Para excluir um caminho, primeiro você deve excluir todos os nós nesse caminho.
 
 ## Agendar uma jornada
 
@@ -185,4 +217,4 @@ Você pode publicar uma jornada se não houver erros de bloqueador. Quando publi
 
 ## Vídeo de visão geral
 
->[!VIDEO](https://video.tv.adobe.com/v/3443224/?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
