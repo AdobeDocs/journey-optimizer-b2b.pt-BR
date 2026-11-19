@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 2%
 ---
 # Criação de mensagens de email
@@ -39,7 +39,7 @@ Depois de [adicionar um ativo de email a um nó de ação de jornada](./add-emai
 
 Clique em **[!UICONTROL Editar conteúdo do email]** na guia _[!UICONTROL Detalhes]_ no painel direito.
 
-![Clique em Editar conteúdo do email &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Clique em Editar conteúdo do email ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Essa ação inicia as ferramentas de design de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
@@ -102,6 +102,10 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 >[!NOTE]
 >
 > Os modelos salvos podem ter configurações de governança (bloqueio de conteúdo) aplicadas a um ou mais componentes. O espaço de design visual fornece diretrizes sobre componentes bloqueados quando você [cria um email a partir de um modelo controlado](./email-authoring-governance.md).
+
+## Adicionar módulos
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Adicionar estrutura e conteúdo {#structure-content}
 
