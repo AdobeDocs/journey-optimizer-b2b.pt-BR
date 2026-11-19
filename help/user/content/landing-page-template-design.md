@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # Design de modelo de página de destino
 
-Depois de [criar um modelo de página de aterrissagem](./landing-page-templates.md#create-a-landing-page-template), use o espaço de design visual para criar os componentes estruturais e de conteúdo no seu modelo de página.
+Depois de [criar um modelo de página de aterrissagem](./landing-page-templates.md#create-a-landing-page-template), use o espaço de design visual para definir o layout e o conteúdo para seu modelo de página.
+
+## Adicionar módulos
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Adicionar estrutura e conteúdo {#structure-content-landing-page}
 
